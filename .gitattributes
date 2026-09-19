@@ -5,5 +5,4 @@ packs/**/LOG binary
 packs/**/LOG.old binary
 packs/**/LOCK binary
 packs/**/MANIFEST-* binary
-packs/**/_source/** text
 module.json text
