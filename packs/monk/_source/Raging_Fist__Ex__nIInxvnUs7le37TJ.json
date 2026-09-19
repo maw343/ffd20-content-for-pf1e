@@ -1,0 +1,27 @@
+{
+  "_id": "nIInxvnUs7le37TJ",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_14.jpg",
+  "name": "Raging Fist (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>Assail your foe with raging fury. As a swift action, you may make one additional unarmed strike at your highest attack bonus when making a flurry of blows attack. This bonus attack stacks with all bonus attacks gained from flurry of blows, as well as those from Haste and similar effects.</p>"
+    },
+    "tag": "ragingfist",
+    "source": "Final Fantasy d20 - Blitz Techniques",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          3
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!nIInxvnUs7le37TJ"
+}

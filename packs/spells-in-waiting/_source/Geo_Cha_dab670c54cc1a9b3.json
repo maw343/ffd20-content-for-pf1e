@@ -1,0 +1,67 @@
+{
+  "_id": "dab670c54cc1a9b3",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Geo-Cha",
+  "system": {
+    "actions": [
+      {
+        "_id": "05b38f36028d1688",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "area": "20-ft.-radius spread",
+        "duration": {
+          "units": "round",
+          "value": "1 round/2 levels"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The geomancer summons a luopan (a small orb that floats just above the ground that is a pylon of geomantic energies) within the spell ran...",
+      "value": "<p>The geomancer summons a luopan (a small orb that floats just above the ground that is a pylon of geomantic energies) within the spell range that has hit points equal to 10 x the geomancer’s level and a hardness equal to its spell level. This luopan emits the effect in the area of the luopan that affects specified targets. When the duration is over, the luopan is unsummoned. The affected allies become more poised, articulate, and personally forceful within the selective area. They gain the benefit as long as they’re within the area of effect of the spell. The spell grants a +6 enhancement bonus to Charisma, adding the usual benefits to Charisma-based skill checks and other uses of the Charisma modifier. Bards, summoners, and necromancers (and other spellcasters who rely on Charisma) affected by this spell do not gain any additional bonus spells or songs for the increased Charisma, but the save DCs for spells and songs they cast and perform while under this spell’s effect do increase.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "geomancer": 6
+      }
+    },
+    "level": 6,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!dab670c54cc1a9b3"
+}

@@ -1,0 +1,77 @@
+{
+  "_id": "fe6491e96dfabe8d",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Downburst",
+  "system": {
+    "actions": [
+      {
+        "_id": "61b73d19013f6be7",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "cone-shaped burst",
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "12d6",
+              "types": [
+                "wind"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half; see text"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates Garuda’s ability to thrust forward a burst of wind, causing enemies to be knocked backwards",
+      "value": "<p>The caster emulates Garuda’s ability to thrust forward a burst of wind, causing enemies to be knocked backwards. Creatures within a 30-ft.-cone take 12d6 points of wind damage and are pushed back up to 30 feet away from the caster. A successful Reflex save halves the damage and negates the knockback. Learned From Garuda and Kaiser Dragon.</p>"
+    },
+    "descriptors": [
+      "wind"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 7
+      }
+    },
+    "level": 7,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!fe6491e96dfabe8d"
+}

@@ -1,0 +1,61 @@
+{
+  "_id": "Cz6P1MkHGhnXaZqN",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785712226306,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/red_35.jpg",
+  "name": "Fast Movement (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>A berserker's land speed is faster than the norm for his race by +10 feet. This benefit applies only when he is wearing no armor, light armor, or medium armor, and not carrying a heavy load. Apply this bonus before modifying the berserker's speed because of any load carried or armor worn. This bonus stacks with any other bonuses to the berserker's land speed.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "fastmovement",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Berserker",
+          1
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Berserker"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Cz6P1MkHGhnXaZqN"
+}

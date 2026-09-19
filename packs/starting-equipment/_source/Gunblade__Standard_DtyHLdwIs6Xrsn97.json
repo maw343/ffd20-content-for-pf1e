@@ -1,0 +1,317 @@
+{
+  "type": "weapon",
+  "name": "Gunblade, Standard",
+  "system": {
+    "description": {
+      "value": "<p>The standard gunblade is a sword outfitted with a trigger mechanic at the hilt, usually the hilt itself resembles a revolver, with a long blade attached to the end. This gunblade focuses on the use of cartridges that load at the hilt, and when the trigger is pulled, releases energy from the cartridge within the inner barrel of the blade causing a small explosion at the edge of the blade. This weapon is a combination of sword and revolver, requiring a move action to reload.</p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 7
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 0,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {
+      "base": 10,
+      "offset": 0
+    },
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [
+      {
+        "_id": "61L55LqtsrFdq1ll",
+        "name": "Attack",
+        "activation": {
+          "cost": 1,
+          "type": "nonaction",
+          "unchained": {
+            "cost": 1,
+            "type": "nonaction"
+          }
+        },
+        "range": {
+          "value": null,
+          "units": "melee"
+        },
+        "uses": {},
+        "actionType": "mwak",
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d6",
+              "types": [
+                "slashing"
+              ]
+            }
+          ]
+        },
+        "ability": {
+          "damage": "str",
+          "damageMult": 1,
+          "critRange": 19,
+          "critMult": 2
+        },
+        "powerAttack": {
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          },
+          "primary": true
+        },
+        "ammo": {
+          "type": "none",
+          "cost": 1
+        }
+      },
+      {
+        "_id": "YKvDIWltzPALn8iJ",
+        "name": "Trigger Attack",
+        "activation": {
+          "cost": 1,
+          "type": "nonaction",
+          "unchained": {
+            "cost": 1,
+            "type": "nonaction"
+          }
+        },
+        "range": {
+          "value": null,
+          "units": "melee"
+        },
+        "uses": {},
+        "actionType": "mwak",
+        "attackBonus": "-2",
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d6",
+              "types": [
+                "slashing"
+              ]
+            }
+          ],
+          "nonCritParts": [
+            {
+              "formula": "1d6",
+              "types": [
+                "fire"
+              ]
+            }
+          ]
+        },
+        "ability": {
+          "damage": "str",
+          "damageMult": 1,
+          "critRange": 19,
+          "critMult": 2
+        },
+        "powerAttack": {
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          },
+          "primary": true
+        },
+        "ammo": {
+          "type": "none",
+          "cost": 1
+        }
+      },
+      {
+        "_id": "Vmkq1Oi1vV2pev5G",
+        "name": "Trigger Damage (No Attack)",
+        "activation": {
+          "cost": 1,
+          "type": "nonaction",
+          "unchained": {
+            "cost": 1,
+            "type": "nonaction"
+          }
+        },
+        "range": {
+          "value": null,
+          "units": "melee"
+        },
+        "uses": {},
+        "actionType": "other",
+        "attackBonus": "-2",
+        "damage": {
+          "nonCritParts": [
+            {
+              "formula": "1d6",
+              "types": [
+                "fire"
+              ]
+            }
+          ]
+        },
+        "powerAttack": {
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          },
+          "primary": true
+        },
+        "ammo": {
+          "type": "none",
+          "cost": 1
+        }
+      }
+    ],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "martial",
+    "weaponSubtype": "light",
+    "hands": 1,
+    "baseTypes": [],
+    "weaponGroups": [],
+    "material": {
+      "base": {
+        "value": "",
+        "custom": false
+      },
+      "normal": {
+        "value": "",
+        "custom": false
+      },
+      "addon": []
+    },
+    "properties": {
+      "ato": false,
+      "blc": false,
+      "brc": false,
+      "dea": false,
+      "dis": false,
+      "dst": false,
+      "dbl": false,
+      "fin": false,
+      "frg": false,
+      "grp": false,
+      "imp": false,
+      "mnk": false,
+      "nnl": false,
+      "prf": false,
+      "rch": false,
+      "sct": false,
+      "sma": false,
+      "slf": false,
+      "spc": false,
+      "snd": false,
+      "thr": false,
+      "trp": false
+    },
+    "showInQuickbar": true,
+    "alignments": {
+      "lawful": false,
+      "chaotic": false,
+      "good": false,
+      "evil": false
+    },
+    "showInCombat": false
+  },
+  "_id": "DtyHLdwIs6Xrsn97",
+  "img": "Marcus%27%20Assets/icons/Revolver_Icon.png",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "KJytU1RQudYSFJXl": 3
+  },
+  "flags": {
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
+    },
+    "pf1": {
+      "migration": "11.8"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "coreVersion": "12.343",
+    "createdTime": 1747604817591,
+    "modifiedTime": 1756519337723,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!DtyHLdwIs6Xrsn97"
+}

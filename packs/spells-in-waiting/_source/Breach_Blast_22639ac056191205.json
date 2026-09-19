@@ -1,0 +1,77 @@
+{
+  "_id": "22639ac056191205",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Breach Blast",
+  "system": {
+    "actions": [
+      {
+        "_id": "299109a781dd9cd1",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "60 ft"
+        },
+        "area": "60-ft.-line",
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 10))d6",
+              "types": [
+                "water"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You call forth Bismarck, the whale-like creature from the watery depths who blasts a line of water at your enemies",
+      "value": "<p>You call forth Bismarck, the whale-like creature from the watery depths who blasts a line of water at your enemies. Enemies in the area of effect take 1d6 points of water damage per level (maximum 10d6) and inflicts the Drenched status effect, a successful Reflex save for half damage and negates the status effect.</p>"
+    },
+    "descriptors": [
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "summoner": 4
+      }
+    },
+    "level": 4,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!22639ac056191205"
+}

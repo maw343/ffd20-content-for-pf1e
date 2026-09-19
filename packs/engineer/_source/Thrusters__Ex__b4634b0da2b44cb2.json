@@ -1,0 +1,61 @@
+{
+  "_id": "b4634b0da2b44cb2",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785718761455,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Thrusters (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> —</p><p>The automaton increases its current fly speed by 10 feet and increase its maneuverability by one step. If the automaton did not have a fly speed before taking this trick, it now has a maneuverability of clumsy and the Fly skill as a class skill. Each time the engineer takes this engineer trick, improve his automaton's fly speed by an additional 10 feet and its maneuverability by one step. This engineer trick can be taken up to three times.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "thrustersex",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Engineer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Engineer Tricks - Augmentations"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!b4634b0da2b44cb2"
+}

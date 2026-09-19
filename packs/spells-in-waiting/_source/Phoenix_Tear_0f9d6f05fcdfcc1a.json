@@ -1,0 +1,67 @@
+{
+  "_id": "0f9d6f05fcdfcc1a",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Phoenix Tear",
+  "system": {
+    "actions": [
+      {
+        "_id": "3840e94d83fd04d8",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the power to raise the dead through the phoenix spawn’s tear",
+      "value": "<p>The caster emulates the power to raise the dead through the phoenix spawn’s tear. The caster’s tear brings the target back to life and to full health, healing all damage. If the target has been dead for longer than ten minutes per caster level, the spell fails. Learned From Phoenix spawn</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 9
+      }
+    },
+    "level": 9,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!0f9d6f05fcdfcc1a"
+}

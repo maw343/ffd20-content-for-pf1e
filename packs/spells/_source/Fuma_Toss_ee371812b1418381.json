@@ -1,0 +1,61 @@
+{
+  "_id": "ee371812b1418381",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Fuma Toss",
+  "system": {
+    "actions": [
+      {
+        "_id": "c3e8893e55a8e189",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "one item on person"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1 minute DESCRIPTION You channel energy into your hand and the next time you throw and item with that hand (be it an improvised weapon, a small throwing weapon or other weapon for the purpose of dealing damage) it flies further. The item’s range increment increases by 5 feet per ninja level. This ninjutsu lasts for 1 minute or until a single item is thrown and then this ninjutsu is discharged."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You channel energy into your hand and the next time you throw and item with that hand (be it an improvised weapon, a small throwing weapo...",
+      "value": "<p>You channel energy into your hand and the next time you throw and item with that hand (be it an improvised weapon, a small throwing weapon or other weapon for the purpose of dealing damage) it flies further. The item’s range increment increases by 5 feet per ninja level. This ninjutsu lasts for 1 minute or until a single item is thrown and then this ninjutsu is discharged.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "ninja": 0
+      }
+    },
+    "level": 0,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!ee371812b1418381"
+}

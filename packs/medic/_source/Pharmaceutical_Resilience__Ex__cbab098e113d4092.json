@@ -1,0 +1,61 @@
+{
+  "_id": "cbab098e113d4092",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785720769190,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Pharmaceutical Resilience (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Medic 6, Pharmaceutical Training medical practice</p><p>The medic's body can process drugs a little better than most. The medic gains +2 bonus on saves to resist addiction from drugs and similar substances. The medic also reduces any ability damage dealt by drugs by 1 (minimum of zero) but is still subject to any status effects or conditions wrought by the drug's influence.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "pharmaceuticalresilienceex",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Medic",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Medical Practices"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!cbab098e113d4092"
+}

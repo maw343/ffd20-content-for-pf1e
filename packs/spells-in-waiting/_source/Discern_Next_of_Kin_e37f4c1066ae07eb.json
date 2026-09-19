@@ -1,0 +1,70 @@
+{
+  "_id": "e37f4c1066ae07eb",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Discern Next of Kin",
+  "system": {
+    "actions": [
+      {
+        "_id": "bc0af586817bc9c9",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "60 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "concentration, up to 1 minute/level",
+          "concentration": true
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (see text)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You can scan the thoughts of one individual and learn the names and locations of the target’s living relatives, as well as the attitude o...",
+      "value": "<p>You can scan the thoughts of one individual and learn the names and locations of the target’s living relatives, as well as the attitude of the target toward those relatives (and vice versa). You learn about one relative per round you concentrate on the target. For example, you might learn the target’s father’s name, that the father lives on a nearby farm, and that the target and his father don’t get along. Since this spell reads the target’s mind, you can learn only what the target knows or believes.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 1,
+        "necromancer": 1
+      }
+    },
+    "level": 1,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!e37f4c1066ae07eb"
+}

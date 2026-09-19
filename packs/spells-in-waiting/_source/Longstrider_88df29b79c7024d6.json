@@ -1,0 +1,62 @@
+{
+  "_id": "88df29b79c7024d6",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Longstrider",
+  "system": {
+    "actions": [
+      {
+        "_id": "0f21ab467c83f50b",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "1 hour/level  DESCRIPTION This spell gives you a +10 foot enhancement bonus to your base speed. It has no effect on other modes of movement, such as burrow, climb, fly, or swim."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell gives you a +10 foot enhancement bonus to your base speed",
+      "value": "<p>This spell gives you a +10 foot enhancement bonus to your base speed. It has no effect on other modes of movement, such as burrow, climb, fly, or swim.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "druid": 1,
+        "geomancer": 1
+      }
+    },
+    "level": 1,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!88df29b79c7024d6"
+}

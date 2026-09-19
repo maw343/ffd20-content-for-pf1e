@@ -1,0 +1,176 @@
+{
+  "_id": "7f009f1e22a45f13",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1786843593279,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Benefic IV",
+  "system": {
+    "description": {
+      "value": "<p>A star-glittered green glow surrounds a living creature, healing for 6d6 points of damage, and providing temporary hit points equal to 8d6 points + Wisdom modifier + 1 point per caster level (maximum +15). The temporary hit points will last 1 hour if damage is not taken or the effect removed. This spell’s temporary hit points do not stack with other versions of Benefic.</p>",
+      "instructions": "",
+      "summary": "A star-glittered green glow surrounds a living creature, healing for 6d6 points of damage, and providing temporary hit points equal to 8d..."
+    },
+    "tags": [],
+    "actions": [
+      {
+        "_id": "28bc2a5a301e230a",
+        "name": "Use",
+        "actionType": "heal",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          },
+          "cost": 1
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1 hour"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 15))d6",
+              "types": [
+                "healing"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "will",
+          "description": "Will half (harmless — see description)",
+          "harmless": false,
+          "dc": ""
+        },
+        "uses": {},
+        "ability": {
+          "critRange": 20,
+          "critMult": 2
+        },
+        "powerAttack": {
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "ammo": {
+          "type": "none"
+        }
+      }
+    ],
+    "attackNotes": [],
+    "effectNotes": [],
+    "links": {
+      "children": []
+    },
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 8
+      },
+      "domain": {},
+      "subDomain": {},
+      "elementalSchool": {},
+      "bloodline": {}
+    },
+    "level": 8,
+    "clOffset": 0,
+    "slOffset": 0,
+    "school": "trs",
+    "subschool": [],
+    "descriptors": [],
+    "components": {
+      "value": "",
+      "verbal": true,
+      "somatic": true,
+      "thought": false,
+      "emotion": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": 0
+    },
+    "materials": {
+      "value": "",
+      "focus": "",
+      "gpValue": 0
+    },
+    "spellbook": "",
+    "preparation": {
+      "value": 0,
+      "max": 0
+    },
+    "uses": {
+      "autoDeductChargesCost": ""
+    },
+    "atWill": false,
+    "sr": true,
+    "showInQuickbar": false,
+    "domain": false,
+    "slotCost": 1,
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "showInCombat": false,
+    "clCheck": false,
+    "material": {
+      "base": {
+        "value": "",
+        "custom": false
+      },
+      "normal": {
+        "value": "",
+        "custom": false
+      },
+      "addon": []
+    },
+    "alignments": {
+      "lawful": false,
+      "chaotic": false,
+      "good": false,
+      "evil": false
+    }
+  },
+  "type": "spell",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
+    }
+  },
+  "_key": "!items!7f009f1e22a45f13"
+}

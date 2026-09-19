@@ -1,0 +1,61 @@
+{
+  "_id": "b924d2955fa14964",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785719346361,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Fold (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Gambler 7</p><p>As a swift action, you can expend 7 MGP to cleanse yourself of lesser negative status effects as per Esuna. Alternatively, starting at 17th level and by expending 17 MGP, you can gain the effects of Basuna to remove all negative status effects from yourself.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "foldsu",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Gambler",
+          4
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Gambits"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!b924d2955fa14964"
+}

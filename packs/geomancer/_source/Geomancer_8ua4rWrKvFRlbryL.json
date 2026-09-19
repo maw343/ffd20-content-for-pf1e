@@ -1,0 +1,478 @@
+{
+  "_id": "8ua4rWrKvFRlbryL",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/earth_01.jpg",
+  "name": "Geomancer",
+  "system": {
+    "description": {
+      "value": "<p><em>The geomancer is a unique and versatile spellcaster whose power stems directly from the land itself. Unlike traditional mages who might draw on internal magical reserves or learned incantations, a geomancer's abilities ebb and flow with the immediate environment. They are intimately connected to the earth, stone, water, wind, and even the ambient weather, channeling these primal forces into their combat and utility skills. Their spells might change dramatically based on whether they are fighting in a dense forest, a scorching desert, a bustling city, or atop a snow-capped mountain, making them masters of adaptability.</em></p><p><em>Beyond their formidable combat prowess, geomancers are unparalleled scouts and guides, possessing an innate sense of direction and an uncanny ability to read the subtle whispers of the earth. They can sense hidden pathways, locate mineral deposits, predict natural hazards like landslides or tremors, and even glean echoes of past events imprinted upon the landscape. Often adorned with sturdy, naturalistic armor and favoring simple, reliable weapons, a geomancer blurs the line between a hardy frontline combatant and a resourceful elemental controller, proving that the greatest power often lies not in raw magical might, but in understanding and harnessing the world beneath one's feet.</em></p><h2>Role</h2><p>The geomancer is a master of elemental magic, excelling in battlefield control and defensive support. They manipulate the very terrain, raising stone walls to impede enemies, conjuring thorny earth to create difficult terrain, or collapsing structures to strategically deny areas. Beyond offense, they are formidable protectors, able to harden allies with crystalline shields, imbue weapons with earthen might, or even reshape the battlefield to provide cover and advantageous positions. Ultimately, the geomancer acts as a versatile tactical anchor, shaping the environment to their party's advantage.</p><h2>Class Skills</h2><p>The geomancer's class skills are Climb (Str), Craft (Int), Fly (Dex), Knowledge (geography) (Int), Knowledge (nature) (Int), Knowledge (planes) (Int), Perception (Wis), Perform (Cha), Profession (Wis), Ride (Dex), Sense Motive (Wis), Spellcraft (Int), Stealth (Dex), Survival (Wis), and Swim (Str).</p><h2>Weapon and Armor Proficiency</h2><p>Geomancers are proficient with the following weapons: battleaxe, club, dagger, dart, longsword, quarterstaff, scimitar, scythe, sickle, shortspear, shortsword, sling, and spear. Geomancers are also proficient in light armor as well as shields (except tower shields).</p><h2>Main Ability Score</h2><p>The geomancer mainly focuses on STR/DEX for combat and WIS for their class features and spells.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "classAssociations": [
+        {
+          "name": "Limit Breaks (Su)",
+          "uuid": "Compendium.world.geomancer.Item.ddUvSOmcQJQmWvPM",
+          "level": 1
+        },
+        {
+          "name": "Geomancy (Su)",
+          "uuid": "Compendium.world.geomancer.Item.wCiNQS75NxjS55JW",
+          "level": 1
+        },
+        {
+          "name": "Spell Proficiency (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.Is9VZx035CDt0ZIq",
+          "level": 1
+        },
+        {
+          "name": "Nature Sense (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.UeZilSSmXE0VAbGI",
+          "level": 1
+        },
+        {
+          "name": "Cantrips",
+          "uuid": "Compendium.world.geomancer.Item.GhqCWYL6wUlaL1pl",
+          "level": 1
+        },
+        {
+          "name": "Ley Lines (Su)",
+          "uuid": "Compendium.world.geomancer.Item.Z8g6KZKf5jiWjtzH",
+          "level": 2
+        },
+        {
+          "name": "Elemental Resistance (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.eMoFaiKeUimWbNUW",
+          "level": 2
+        },
+        {
+          "name": "Eyes of the Storm (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.3pjV1nOKgNTomx5A",
+          "level": 2
+        },
+        {
+          "name": "Geomancy Tricks",
+          "uuid": "Compendium.world.geomancer.Item.KaoQ8no9ajUB8d0B",
+          "level": 2
+        },
+        {
+          "name": "Favored Terrain (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.iGMh9hCmlQG5R5s9",
+          "level": 3
+        },
+        {
+          "name": "Armored Mage (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.3Q8SCZJTS8X7QvyP",
+          "level": 3
+        },
+        {
+          "name": "Geomancy (Su)",
+          "uuid": "Compendium.world.geomancer.Item.wCiNQS75NxjS55JW",
+          "level": 4
+        },
+        {
+          "name": "Geomancy Tricks",
+          "uuid": "Compendium.world.geomancer.Item.KaoQ8no9ajUB8d0B",
+          "level": 4
+        },
+        {
+          "name": "Homefield Advantage (Su)",
+          "uuid": "Compendium.world.geomancer.Item.oudNeBdtqWPTtj6X",
+          "level": 4
+        },
+        {
+          "name": "Terrain Movement (Su)",
+          "uuid": "Compendium.world.geomancer.Item.uJgJgKYdpxpMTSPr",
+          "level": 4
+        },
+        {
+          "name": "Clear Mind (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.sCf4tm3jrvujCqBj",
+          "level": 5
+        },
+        {
+          "name": "Geosynchronous (Su)",
+          "uuid": "Compendium.world.geomancer.Item.BJ5jSgmG8gFH6aHL",
+          "level": 5
+        },
+        {
+          "name": "Endure Elements (Su)",
+          "uuid": "Compendium.world.geomancer.Item.SmuxvaaZCLnNWp5M",
+          "level": 5
+        },
+        {
+          "name": "Ley Lines (Su)",
+          "uuid": "Compendium.world.geomancer.Item.Z8g6KZKf5jiWjtzH",
+          "level": 6
+        },
+        {
+          "name": "Elemental Resistance (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.eMoFaiKeUimWbNUW",
+          "level": 6
+        },
+        {
+          "name": "Geomancy Tricks",
+          "uuid": "Compendium.world.geomancer.Item.KaoQ8no9ajUB8d0B",
+          "level": 6
+        },
+        {
+          "name": "Geomancy (Su)",
+          "uuid": "Compendium.world.geomancer.Item.wCiNQS75NxjS55JW",
+          "level": 7
+        },
+        {
+          "name": "Favored Terrain (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.iGMh9hCmlQG5R5s9",
+          "level": 7
+        },
+        {
+          "name": "Geomancy Tricks",
+          "uuid": "Compendium.world.geomancer.Item.KaoQ8no9ajUB8d0B",
+          "level": 8
+        },
+        {
+          "name": "Homefield Advantage (Su)",
+          "uuid": "Compendium.world.geomancer.Item.oudNeBdtqWPTtj6X",
+          "level": 8
+        },
+        {
+          "name": "Nature's Armor (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.r8SrPZ8upP8UMq6M",
+          "level": 8
+        },
+        {
+          "name": "Nature's Resilience (Su)",
+          "uuid": "Compendium.world.geomancer.Item.3qt7CH4t4mvdidCW",
+          "level": 9
+        },
+        {
+          "name": "The Earth Speaks (Su)",
+          "uuid": "Compendium.world.geomancer.Item.awuqQqXh9SuFUotP",
+          "level": 9
+        },
+        {
+          "name": "Geomancy (Su)",
+          "uuid": "Compendium.world.geomancer.Item.wCiNQS75NxjS55JW",
+          "level": 10
+        },
+        {
+          "name": "Ley Lines (Su)",
+          "uuid": "Compendium.world.geomancer.Item.Z8g6KZKf5jiWjtzH",
+          "level": 10
+        },
+        {
+          "name": "Elemental Resistance (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.eMoFaiKeUimWbNUW",
+          "level": 10
+        },
+        {
+          "name": "Geomancy Tricks",
+          "uuid": "Compendium.world.geomancer.Item.KaoQ8no9ajUB8d0B",
+          "level": 10
+        },
+        {
+          "name": "Clear Mind (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.sCf4tm3jrvujCqBj",
+          "level": 10
+        },
+        {
+          "name": "Favored Terrain (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.iGMh9hCmlQG5R5s9",
+          "level": 11
+        },
+        {
+          "name": "Timeless Body (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.Li1kmy8WT9r9FlsF",
+          "level": 11
+        },
+        {
+          "name": "Geomancy Tricks",
+          "uuid": "Compendium.world.geomancer.Item.KaoQ8no9ajUB8d0B",
+          "level": 12
+        },
+        {
+          "name": "Homefield Advantage (Su)",
+          "uuid": "Compendium.world.geomancer.Item.oudNeBdtqWPTtj6X",
+          "level": 12
+        },
+        {
+          "name": "Nature's Armor (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.r8SrPZ8upP8UMq6M",
+          "level": 12
+        },
+        {
+          "name": "Geomancy (Su)",
+          "uuid": "Compendium.world.geomancer.Item.wCiNQS75NxjS55JW",
+          "level": 13
+        },
+        {
+          "name": "The Air Sings (Su)",
+          "uuid": "Compendium.world.geomancer.Item.WupkaAkd0LGcreLo",
+          "level": 13
+        },
+        {
+          "name": "Storm Lord (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.0f48eai2pG2jAIHA",
+          "level": 13
+        },
+        {
+          "name": "Ley Lines (Su)",
+          "uuid": "Compendium.world.geomancer.Item.Z8g6KZKf5jiWjtzH",
+          "level": 14
+        },
+        {
+          "name": "Elemental Resistance (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.eMoFaiKeUimWbNUW",
+          "level": 14
+        },
+        {
+          "name": "Geomancy Tricks",
+          "uuid": "Compendium.world.geomancer.Item.KaoQ8no9ajUB8d0B",
+          "level": 14
+        },
+        {
+          "name": "Favored Terrain (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.iGMh9hCmlQG5R5s9",
+          "level": 15
+        },
+        {
+          "name": "Clear Mind (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.sCf4tm3jrvujCqBj",
+          "level": 15
+        },
+        {
+          "name": "Geomancy (Su)",
+          "uuid": "Compendium.world.geomancer.Item.wCiNQS75NxjS55JW",
+          "level": 16
+        },
+        {
+          "name": "Geomancy Tricks",
+          "uuid": "Compendium.world.geomancer.Item.KaoQ8no9ajUB8d0B",
+          "level": 16
+        },
+        {
+          "name": "Homefield Advantage (Su)",
+          "uuid": "Compendium.world.geomancer.Item.oudNeBdtqWPTtj6X",
+          "level": 16
+        },
+        {
+          "name": "Nature's Armor (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.r8SrPZ8upP8UMq6M",
+          "level": 16
+        },
+        {
+          "name": "Tongue of the Sun and Moon (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.0Cq7e9wvyKTfJKAU",
+          "level": 17
+        },
+        {
+          "name": "The Echoes Dance (Su)",
+          "uuid": "Compendium.world.geomancer.Item.dRkxrO3XKYP4oQph",
+          "level": 17
+        },
+        {
+          "name": "Ley Lines (Su)",
+          "uuid": "Compendium.world.geomancer.Item.Z8g6KZKf5jiWjtzH",
+          "level": 18
+        },
+        {
+          "name": "Elemental Resistance (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.eMoFaiKeUimWbNUW",
+          "level": 18
+        },
+        {
+          "name": "Geomancy Tricks",
+          "uuid": "Compendium.world.geomancer.Item.KaoQ8no9ajUB8d0B",
+          "level": 18
+        },
+        {
+          "name": "Geomancy (Su)",
+          "uuid": "Compendium.world.geomancer.Item.wCiNQS75NxjS55JW",
+          "level": 19
+        },
+        {
+          "name": "Favored Terrain (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.iGMh9hCmlQG5R5s9",
+          "level": 19
+        },
+        {
+          "name": "Planar Acclimation (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.uZaLnm7FyOiyMnzl",
+          "level": 19
+        },
+        {
+          "name": "Geomancy Tricks",
+          "uuid": "Compendium.world.geomancer.Item.KaoQ8no9ajUB8d0B",
+          "level": 20
+        },
+        {
+          "name": "Homefield Advantage (Su)",
+          "uuid": "Compendium.world.geomancer.Item.oudNeBdtqWPTtj6X",
+          "level": 20
+        },
+        {
+          "name": "Clear Mind (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.sCf4tm3jrvujCqBj",
+          "level": 20
+        },
+        {
+          "name": "Nature's Armor (Ex)",
+          "uuid": "Compendium.world.geomancer.Item.r8SrPZ8upP8UMq6M",
+          "level": 20
+        },
+        {
+          "name": "Earthen Ascension (Su)",
+          "uuid": "Compendium.world.geomancer.Item.VuzBtlsEDGNc2fOT",
+          "level": 20
+        }
+      ]
+    },
+    "tag": "geomancer",
+    "armorProf": [
+      "lgt",
+      "shl"
+    ],
+    "weaponProf": [
+      "battleaxe",
+      "club",
+      "dagger",
+      "dart",
+      "longsword",
+      "quarterstaff",
+      "scimitar",
+      "scythe",
+      "sickle",
+      "shortspear",
+      "shortsword",
+      "sling",
+      "spear"
+    ],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "base",
+    "level": 1,
+    "hd": 8,
+    "hp": 8,
+    "bab": "med",
+    "skillsPerLevel": 4,
+    "savingThrows": {
+      "fort": {
+        "value": "high"
+      },
+      "ref": {
+        "value": "low"
+      },
+      "will": {
+        "value": "high"
+      }
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": "See Favored Class Bonuses: varies heavily by race — bonuses to elemental spell damage, Knowledge (nature) checks, elemental resistance, favored terrain initiative bonus, Geomancy uses per day, concentration checks, bonus spells known, or geomancy damage dice."
+      }
+    },
+    "wealth": "4d6 * 10",
+    "alignment": "",
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "blf": false,
+      "ckg": false,
+      "clm": true,
+      "crf": true,
+      "dev": false,
+      "dip": false,
+      "dis": false,
+      "esc": false,
+      "fly": true,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": true,
+      "khi": false,
+      "klo": false,
+      "kna": true,
+      "kno": false,
+      "kpl": true,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": true,
+      "prf": true,
+      "pro": true,
+      "rid": true,
+      "sen": true,
+      "slt": false,
+      "spl": true,
+      "ste": true,
+      "stl": false,
+      "sur": true,
+      "swm": true,
+      "umd": false
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Geomancer"
+      }
+    ],
+    "customHD": "",
+    "casting": {
+      "type": "spontaneous",
+      "progression": "high",
+      "ability": "wis",
+      "spells": "arcane",
+      "domain": null,
+      "offset": null,
+      "cantrips": true
+    }
+  },
+  "type": "class",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!8ua4rWrKvFRlbryL"
+}

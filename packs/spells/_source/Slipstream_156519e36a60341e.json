@@ -1,0 +1,73 @@
+{
+  "_id": "156519e36a60341e",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Slipstream",
+  "system": {
+    "actions": [
+      {
+        "_id": "12b6e2c24800f021",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "10 minute/level"
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You create a low-cresting wave of water that carries the target along the surface of water or the ground.",
+      "value": "<p>You create a low-cresting wave of water that carries the target along the surface of water or the ground. When moving across level ground, the target’s speed increases by 10 feet. If going downhill, speed increases by 20 feet instead, but slipstream provides no movement bonus when going uphill. While swimming, the slipstream increases the target’s swim speed by 20 feet-if the target does not have a swim speed, this spell grants a swim speed of 20 ft.</p>"
+    },
+    "descriptors": [
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 2,
+        "druid": 2,
+        "whitemage": 2,
+        "redmage": 2,
+        "geomancer": 2
+      }
+    },
+    "level": 2,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!156519e36a60341e"
+}

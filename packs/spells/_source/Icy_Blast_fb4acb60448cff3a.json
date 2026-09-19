@@ -1,0 +1,78 @@
+{
+  "_id": "fb4acb60448cff3a",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Icy Blast",
+  "system": {
+    "actions": [
+      {
+        "_id": "756d008f080e007b",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "30-ft. line"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 15))d6",
+              "types": [
+                "cold"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You create a shredding flurry of ice slivers, which blast from your hand in a line.",
+      "value": "<p>You create a shredding flurry of ice slivers, which blast from your hand in a line. The line deals 1d6 points of ice damage per caster level (maximum 15d6) and inflicting the Frozen status effect. A successful Reflex save reduces the damage by half and negates the status effect.</p>"
+    },
+    "descriptors": [
+      "ice"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 6,
+        "geomancer": 6
+      }
+    },
+    "level": 6,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!fb4acb60448cff3a"
+}

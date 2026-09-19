@@ -1,0 +1,55 @@
+{
+  "_id": "8ced7d9836b0edad",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Feather Step, Mass",
+  "system": {
+    "actions": [
+      {
+        "_id": "f40453e8a8b72eac",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "As feather step , except this spell affects multiple creatures",
+      "value": "<p>As feather step , except this spell affects multiple creatures.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!8ced7d9836b0edad"
+}

@@ -1,0 +1,65 @@
+{
+  "_id": "WKxUb87xfeuXIRne",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785712621529,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/red_35.jpg",
+  "name": "Guarded Stance (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The berserker can take on a more defensive posture. This grants him a +1 dodge bonus to his Armor Class for the duration of his current rage. This bonus increases by 1 for every four levels the berserker has. This is a stance rage power.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "guardedstance",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Berserker",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Rage Powers - Stance"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "ffd20": {
+      "rageStance": true
+    }
+  },
+  "_key": "!items!WKxUb87xfeuXIRne"
+}

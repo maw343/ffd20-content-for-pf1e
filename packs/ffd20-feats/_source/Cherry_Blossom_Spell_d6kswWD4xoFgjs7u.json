@@ -1,0 +1,50 @@
+{
+  "_id": "d6kswWD4xoFgjs7u",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Cherry Blossom Spell",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> —</p><p><strong>MP Increase:</strong> +3</p><p><strong>Benefit:</strong> When a living creature takes damage from the affected spell, that creature also takes 2 points of damage to Strength, Dexterity, and Constitution or 2 points of damage to Intelligence, Wisdom, and Charisma (your choice). If the spell does not normally allow a save, the target can attempt a Fortitude save to negate the effect. Ageless or immortal creatures are immune to this effect. This is a magical aging effect, but it does not alter the creature's true age—it merely simulates the effects of old age on the flesh or the reversion to a more infantile mental age.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "metamagic",
+    "tag": "cherry_blossom_spell",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-MetamagicFeats",
+        "pages": "Metamagic Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!d6kswWD4xoFgjs7u"
+}

@@ -1,0 +1,61 @@
+{
+  "_id": "e7d83cc2c3108b8c",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Aspect of the Nightingale",
+  "system": {
+    "actions": [
+      {
+        "_id": "9a9c36661ecff72f",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level  DESCRIPTION You take on an aspect of a nightingale. Your voice becomes clear and pleasant. You gain a +2 competence bonus on Perform (sing) checks and a +2 competence bonus on Diplomacy checks. Once per minute, if you are subject to a charm effect that allows a saving throw, you may roll twice and take the more favorable result."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You take on an aspect of a nightingale",
+      "value": "<p>You take on an aspect of a nightingale. Your voice becomes clear and pleasant. You gain a +2 competence bonus on Perform (sing) checks and a +2 competence bonus on Diplomacy checks. Once per minute, if you are subject to a charm effect that allows a saving throw, you may roll twice and take the more favorable result.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "druid": 1
+      }
+    },
+    "level": 1,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!e7d83cc2c3108b8c"
+}

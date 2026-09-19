@@ -1,0 +1,1148 @@
+{
+  "_id": "4oNm5laB8hOG6srb",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/races/creature-types/outsider.png",
+  "name": "Yojimbo (Avatar)",
+  "prototypeToken": {
+    "texture": {
+      "src": "systems/pf1/icons/races/creature-types/outsider.png"
+    }
+  },
+  "type": "character",
+  "effects": [],
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 16
+      },
+      "dex": {
+        "value": 11
+      },
+      "con": {
+        "value": 14
+      },
+      "wis": {
+        "value": 12
+      },
+      "cha": {
+        "value": 15
+      }
+    },
+    "attributes": {
+      "naturalAC": 1,
+      "speed": {
+        "land": {
+          "base": 30
+        }
+      },
+      "spells": {
+        "spellbooks": {
+          "primary": {
+            "name": "Primary"
+          },
+          "secondary": {
+            "name": "Secondary"
+          },
+          "spelllike": {
+            "name": "Spell-likes",
+            "inUse": true,
+            "casterType": "high",
+            "class": "hd",
+            "cl": {
+              "formula": ""
+            },
+            "autoSpellLevelCalculation": true,
+            "autoSpellLevels": true,
+            "psychic": false,
+            "arcaneSpellFailure": true,
+            "hasCantrips": true,
+            "spellPreparationMode": "spontaneous",
+            "baseDCFormula": "10 + sl + ablMod",
+            "ability": "cha",
+            "spellPoints": {
+              "useSystem": true,
+              "value": 0,
+              "maxFormula": "@attributes.hd.total",
+              "restoreFormula": ""
+            },
+            "spells": {
+              "spell0": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell1": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell2": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell3": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell4": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell5": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell6": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell7": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell8": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell9": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              }
+            },
+            "spellSlotAbilityBonusFormula": "",
+            "domainSlotValue": 1,
+            "kind": "arcane",
+            "noAbilityLimit": false
+          },
+          "tertiary": {
+            "name": "Tertiary"
+          }
+        }
+      }
+    },
+    "traits": {
+      "senses": {}
+    },
+    "details": {
+      "notes": {
+        "value": "<h2>Yojimbo - Starting Statistics</h2><p>Size Medium; Speed 30 ft.; AC +1 natural armor; Special Qualities: Fire immunity.</p><h3>7th-Level Advancement</h3><p>Size Large; Reach 10 ft; AC +3 natural armor; Attack Large Katana (2d6); Ability Scores Str +4, Dex -2, Con +4</p><h3>Schema Fix Note</h3><p>This file was rebuilt to correct three structural errors present in the originally delivered batch: (1) every embedded item's <code>_key</code> now uses the proper <code>!actors.items!&lt;actorId&gt;.&lt;itemId&gt;</code> format instead of the standalone-compendium-item format <code>!items!&lt;itemId&gt;</code>; (2) every action-bearing item's <code>actions</code> array is now nested inside <code>system.actions</code> rather than sitting as a sibling of <code>system</code>; (3) the actor document itself now has the required top-level <code>_key</code>: <code>!actors!&lt;actorId&gt;</code>.</p>"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "uxmCIajdNV64V3O4",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/blue_04.jpg",
+      "name": "Katana",
+      "type": "attack",
+      "system": {
+        "subType": "natural",
+        "held": null,
+        "actions": [
+          {
+            "_id": "cvlp6fjIbclDa5Pt",
+            "name": "Katana",
+            "actionType": "mwak",
+            "activation": {
+              "type": "attack",
+              "unchained": {
+                "type": "attack"
+              }
+            },
+            "ability": {
+              "attack": "_default",
+              "damage": "str"
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "1d8",
+                  "types": [
+                    "slashing"
+                  ]
+                }
+              ]
+            },
+            "duration": {
+              "units": "inst"
+            },
+            "img": "systems/pf1/icons/skills/blue_04.jpg",
+            "range": {
+              "units": "melee"
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!4oNm5laB8hOG6srb.uxmCIajdNV64V3O4"
+    },
+    {
+      "_id": "RR3mgaUYaSuD4UHR",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/blue_29.jpg",
+      "name": "Avatar (Summoner) - Yojimbo",
+      "type": "class",
+      "system": {
+        "tag": "summonerAvatar",
+        "bab": "high",
+        "savingThrows": {
+          "fort": {
+            "value": "low"
+          },
+          "ref": {
+            "value": "high"
+          },
+          "will": {
+            "value": "high"
+          }
+        },
+        "skillsPerLevel": 4,
+        "customHD": "round((@item.level - 1) * 0.75) + 1",
+        "classSkills": {
+          "acr": true,
+          "cli": true,
+          "fly": true,
+          "per": true,
+          "sen": true,
+          "ste": true,
+          "swm": true
+        },
+        "description": {
+          "value": "<p>Yojimbo's Avatar class features are tied to the summoner's class level. HD equals round((level-1)*0.75)+1, matching the confirmed Avatar Base Statistics progression.</p>"
+        },
+        "links": {
+          "classAssociations": [
+            {
+              "level": 1,
+              "name": "Darkvision",
+              "uuid": "Compendium.world.summoner-avatar.Item.rBiKROGZrsrSJW9e"
+            },
+            {
+              "level": 1,
+              "name": "Link",
+              "uuid": "Compendium.world.summoner-avatar.Item.whO4esN696cRSoGi"
+            },
+            {
+              "level": 1,
+              "name": "MP Pool",
+              "uuid": "Compendium.world.summoner-avatar.Item.xc8uXIXh7uw17DJg"
+            },
+            {
+              "level": 2,
+              "name": "Evasion",
+              "uuid": "Compendium.world.summoner-avatar.Item.aWsQSjFrTV4T4bTy"
+            },
+            {
+              "level": 4,
+              "name": "Magic Attacks",
+              "uuid": "Compendium.world.summoner-avatar.Item.Yb24EZjAyvl5jApv"
+            },
+            {
+              "level": 5,
+              "name": "Ability Score Increase",
+              "uuid": "Compendium.world.summoner-avatar.Item.S4WzYkN4ZDxGJGhk"
+            },
+            {
+              "level": 6,
+              "name": "Devotion",
+              "uuid": "Compendium.world.summoner-avatar.Item.07tZrbo6EPl0yFPu"
+            },
+            {
+              "level": 8,
+              "name": "Multiattack",
+              "uuid": "Compendium.world.summoner-avatar.Item.rMu0fIsM5uq6sEP8"
+            },
+            {
+              "level": 10,
+              "name": "Ability Score Increase",
+              "uuid": "Compendium.world.summoner-avatar.Item.S4WzYkN4ZDxGJGhk"
+            },
+            {
+              "level": 14,
+              "name": "Improved Evasion",
+              "uuid": "Compendium.world.summoner-avatar.Item.2QaoSbpMfbCg5dYT"
+            },
+            {
+              "level": 15,
+              "name": "Ability Score Increase",
+              "uuid": "Compendium.world.summoner-avatar.Item.S4WzYkN4ZDxGJGhk"
+            }
+          ]
+        }
+      },
+      "effects": [],
+      "_key": "!actors.items!4oNm5laB8hOG6srb.RR3mgaUYaSuD4UHR"
+    },
+    {
+      "_id": "QILNChAyvl6WdyI2",
+      "_stats": {
+        "coreVersion": "12.331",
+        "compendiumSource": "Compendium.world.summoner-avatar.Item.rBiKROGZrsrSJW9e"
+      },
+      "img": "systems/pf1/icons/skills/blue_02.jpg",
+      "name": "Darkvision",
+      "system": {
+        "associations": {
+          "classes": [
+            "Avatar"
+          ]
+        },
+        "class": "summonerAvatar",
+        "description": {
+          "value": "<p>The avatar has darkvision out to a range of 60 feet.</p>"
+        },
+        "subType": "classFeat",
+        "abilityType": "ex"
+      },
+      "type": "feat",
+      "effects": [],
+      "_key": "!actors.items!4oNm5laB8hOG6srb.QILNChAyvl6WdyI2"
+    },
+    {
+      "_id": "Mli5tKlpl540BNBV",
+      "_stats": {
+        "coreVersion": "12.331",
+        "compendiumSource": "Compendium.world.summoner-avatar.Item.whO4esN696cRSoGi"
+      },
+      "img": "systems/pf1/icons/feats/quick-draw.jpg",
+      "name": "Link",
+      "system": {
+        "associations": {
+          "classes": [
+            "Avatar"
+          ]
+        },
+        "class": "summonerAvatar",
+        "description": {
+          "value": "<p>A summoner and his avatar share a mental link allows for communication across any distance (as long as they are on the same plane). This communication is a free action, allowing the summoner to give orders to his avatar at any time. In addition, magic items interfere with the summoner's connection to his avatar. As a result, the summoner and his avatar share magic item slots. For example, if the summoner is wearing a ring, his avatar can wear no more than one ring. In case of a conflict, the items worn by the summoner remain active, and those used by the avatar become dormant. The avatar must possess the appropriate appendages to utilize a magic item.</p>"
+        },
+        "subType": "classFeat",
+        "abilityType": "ex",
+        "contextNotes": [
+          {
+            "target": "skill.han",
+            "text": "Free-action orders to avatar at any range (same plane); shared magic item slots (Not factored in)"
+          }
+        ]
+      },
+      "type": "feat",
+      "effects": [],
+      "_key": "!actors.items!4oNm5laB8hOG6srb.Mli5tKlpl540BNBV"
+    },
+    {
+      "_id": "rGI6fR4r9arKYw7J",
+      "_stats": {
+        "coreVersion": "12.331",
+        "compendiumSource": "Compendium.world.summoner-avatar.Item.xc8uXIXh7uw17DJg"
+      },
+      "img": "systems/pf1/icons/skills/blue_11.jpg",
+      "name": "MP Pool",
+      "system": {
+        "associations": {
+          "classes": [
+            "Avatar"
+          ]
+        },
+        "class": "summonerAvatar",
+        "description": {
+          "value": "<p>An avatar has an MP pool with a maximum equal to the summoner's level. The avatar regains MP equal to the summoner's level when the summoner does their 30-minute meditation after resting. The avatar may spend its magic points on spells and abilities granted by the specific avatar page. In the case of Yojimbo, this MP Pool is spent at a 1 MP to 10 gil ratio for his abilities but otherwise does not function as gil. Spells that would absorb MP treat avatars as they would summoned creatures, and do not work when allies use them.</p><p><em>Schema note: implemented as a pf1 Spell Points pool (<code>system.attributes.spells.spellbooks.spelllike.spellPoints</code>: <code>useSystem</code>, <code>value</code>, <code>maxFormula</code>, <code>restoreFormula</code>) on the avatar's actor sheet, with <code>maxFormula: \"@attributes.hd.total\"</code> since avatar HD equals summoner level.</em></p>"
+        },
+        "subType": "classFeat"
+      },
+      "type": "feat",
+      "effects": [],
+      "_key": "!actors.items!4oNm5laB8hOG6srb.rGI6fR4r9arKYw7J"
+    },
+    {
+      "_id": "zwjbH9teEBmPIj2s",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Limit Break: Zanmato",
+      "type": "attack",
+      "system": {
+        "subType": "misc",
+        "held": null,
+        "abilityType": "ex",
+        "description": {
+          "value": "<p>At 1st level, Yojimbo makes a terrifying slash within 30 feet; if he hits, target's HP reduced to 1, Fortitude save negates. Alternatively, attacks all in a 30-ft.-cone dealing 1d6 slashing damage per summoner level on a hit. Costs gil (100 gil at 1st level, +100 per level after); if unpaid, HP-to-1 effect is not used.</p>"
+        },
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "class": "summonerAvatar",
+        "actions": [
+          {
+            "_id": "WHvJwW0dCoxZxqaj",
+            "name": "Limit Break: Zanmato",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": 30,
+              "units": "ft",
+              "shape": "cone"
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "fort",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.cha.mod",
+              "description": "negates (HP-to-1 form) / half damage (cone form)"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!4oNm5laB8hOG6srb.zwjbH9teEBmPIj2s"
+    },
+    {
+      "_id": "HsrzyqbATCGQHunq",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Daigoro",
+      "type": "attack",
+      "system": {
+        "subType": "misc",
+        "held": null,
+        "abilityType": "ex",
+        "description": {
+          "value": "<p>At 2nd level, As a standard action, Yojimbo's dog attacks for him, dealing 1d8 + Str modifier damage using Yojimbo's highest BAB, then disappears. Default ability if the summoner cannot afford other commands.</p>"
+        },
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "class": "summonerAvatar",
+        "actions": [
+          {
+            "_id": "cecnkDIcaQaZlioJ",
+            "name": "Daigoro",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "1d8 + @abilities.str.mod",
+                  "types": [
+                    "slashing"
+                  ]
+                }
+              ]
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": "mwak",
+            "ability": {
+              "attack": "_default",
+              "damage": "",
+              "damageMult": 1,
+              "critRange": 20
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!4oNm5laB8hOG6srb.HsrzyqbATCGQHunq"
+    },
+    {
+      "_id": "L481jqcEoWkhnc45",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Dashing Execute",
+      "type": "attack",
+      "system": {
+        "subType": "misc",
+        "held": null,
+        "abilityType": "ex",
+        "description": {
+          "value": "<p>At 4th level, As a standard action, 30-foot dash without provoking AoOs then melee attack; if target drops below 0 HP, 5-foot step and another attack, chaining. Costs 20 gil per summoner level.</p>"
+        },
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "class": "summonerAvatar",
+        "actions": [
+          {
+            "_id": "uYQPq3M3cBQFjNRo",
+            "name": "Dashing Execute",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": "mwak",
+            "ability": {
+              "attack": "_default",
+              "damage": "",
+              "damageMult": 1,
+              "critRange": 20
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!4oNm5laB8hOG6srb.L481jqcEoWkhnc45"
+    },
+    {
+      "_id": "kKriB8nisPikR708",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Quick Strikes",
+      "type": "attack",
+      "system": {
+        "subType": "misc",
+        "held": null,
+        "abilityType": "ex",
+        "description": {
+          "value": "<p>At 6th level, As a standard action, three katana attacks at -5 penalty, adding double Str bonus to damage. Costs 40 gil per summoner level.</p>"
+        },
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "class": "summonerAvatar",
+        "actions": [
+          {
+            "_id": "jhRipWNnTJDNNq9v",
+            "name": "Quick Strikes",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": "-5"
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": "mwak",
+            "ability": {
+              "attack": "_default",
+              "damage": "",
+              "damageMult": 1,
+              "critRange": 20
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!4oNm5laB8hOG6srb.kKriB8nisPikR708"
+    },
+    {
+      "_id": "7pSvbeOqJbxyG4YS",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Kozuka",
+      "type": "attack",
+      "system": {
+        "subType": "misc",
+        "held": null,
+        "abilityType": "su",
+        "description": {
+          "value": "<p>At 8th level, Volley of mystical daggers: ranged touch attack against target within 30 feet dealing 7d6 piercing damage; Fortitude save or knocked prone. Costs 50 gil per summoner level.</p>"
+        },
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "class": "summonerAvatar",
+        "actions": [
+          {
+            "_id": "JZBLxynHdklRDwE6",
+            "name": "Kozuka",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": 30,
+              "units": "ft",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "7d6",
+                  "types": [
+                    "piercing"
+                  ]
+                }
+              ]
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "fort",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.str.mod",
+              "description": "negates prone"
+            },
+            "actionType": "rwak",
+            "ability": {
+              "attack": "dex",
+              "damage": "",
+              "damageMult": 1,
+              "critRange": 20
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!4oNm5laB8hOG6srb.7pSvbeOqJbxyG4YS"
+    },
+    {
+      "_id": "83MFoOUjVuEr4Psm",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Vengeance Blade",
+      "type": "attack",
+      "system": {
+        "subType": "misc",
+        "held": null,
+        "abilityType": "ex",
+        "description": {
+          "value": "<p>At 10th level, Every 1d4+1 rounds, melee attack as an immediate action against an opponent who hits him in melee, if within reach.</p>"
+        },
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "class": "summonerAvatar",
+        "actions": [
+          {
+            "_id": "J1dpu0WQvZwJH9ls",
+            "name": "Vengeance Blade",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": "mwak",
+            "ability": {
+              "attack": "_default",
+              "damage": "",
+              "damageMult": 1,
+              "critRange": 20
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!4oNm5laB8hOG6srb.83MFoOUjVuEr4Psm"
+    },
+    {
+      "_id": "2bAfn3NEF7N03WE6",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Sapping Slash",
+      "type": "attack",
+      "system": {
+        "subType": "misc",
+        "held": null,
+        "abilityType": "su",
+        "description": {
+          "value": "<p>At 12th level, Normal melee attack; if hit, 5d6 piercing damage and Fortitude save or drained of 3d6 hit points. Costs 60 gil per summoner level.</p>"
+        },
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "class": "summonerAvatar",
+        "actions": [
+          {
+            "_id": "K7jhkNtfupH1uHsZ",
+            "name": "Sapping Slash",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "5d6",
+                  "types": [
+                    "piercing"
+                  ]
+                }
+              ]
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "fort",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.cha.mod",
+              "description": "negates ability drain"
+            },
+            "actionType": "mwak",
+            "ability": {
+              "attack": "_default",
+              "damage": "",
+              "damageMult": 1,
+              "critRange": 20
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!4oNm5laB8hOG6srb.2bAfn3NEF7N03WE6"
+    },
+    {
+      "_id": "WONXPx7KTOHlIJiU",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Ground Rend",
+      "type": "attack",
+      "system": {
+        "subType": "misc",
+        "held": null,
+        "abilityType": "su",
+        "description": {
+          "value": "<p>At 14th level, Double weapon damage as earth damage to all creatures in a 30-ft.-cone, area becomes difficult terrain, Reflex save halves. Costs 70 gil per summoner level.</p>"
+        },
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "class": "summonerAvatar",
+        "actions": [
+          {
+            "_id": "OffGHauBLpcKejGM",
+            "name": "Ground Rend",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": 30,
+              "units": "ft",
+              "shape": "cone"
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "ref",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.str.mod",
+              "description": "half"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!4oNm5laB8hOG6srb.WONXPx7KTOHlIJiU"
+    },
+    {
+      "_id": "C6cJtj609piEt1QY",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Wave Slash",
+      "type": "attack",
+      "system": {
+        "subType": "misc",
+        "held": null,
+        "abilityType": "su",
+        "description": {
+          "value": "<p>At 16th level, Four waves of energy dealing double weapon damage each in a 20-ft.-line, Reflex save per wave halves. Costs 80 gil per summoner level.</p>"
+        },
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "class": "summonerAvatar",
+        "actions": [
+          {
+            "_id": "MT0SRorqAD45ivyb",
+            "name": "Wave Slash",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": 20,
+              "units": "ft",
+              "shape": "line"
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "ref",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.cha.mod",
+              "description": "half per wave"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!4oNm5laB8hOG6srb.C6cJtj609piEt1QY"
+    },
+    {
+      "_id": "0kDcFLyFdz0UNeMp",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Oblivion Assault",
+      "type": "attack",
+      "system": {
+        "subType": "misc",
+        "held": null,
+        "abilityType": "ex",
+        "description": {
+          "value": "<p>At 18th level, Full-round action, five katana attacks at -5 penalty; target must Fortitude save or die. Costs 100 gil per summoner level.</p>"
+        },
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "class": "summonerAvatar",
+        "actions": [
+          {
+            "_id": "C1jkMkUEDUIXAbU2",
+            "name": "Oblivion Assault",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "full"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": "-5"
+            },
+            "save": {
+              "type": "fort",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.str.mod",
+              "description": "negates death"
+            },
+            "actionType": "mwak",
+            "ability": {
+              "attack": "_default",
+              "damage": "",
+              "damageMult": 1,
+              "critRange": 20
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!4oNm5laB8hOG6srb.0kDcFLyFdz0UNeMp"
+    },
+    {
+      "_id": "BmOjeHlTxxcEOcIi",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Blurring Bladestorm",
+      "type": "attack",
+      "system": {
+        "subType": "misc",
+        "held": null,
+        "abilityType": "su",
+        "description": {
+          "value": "<p>At 20th level, Single melee attack against every creature in 30-ft.-radius dealing quadruple weapon damage + 10d8 wind damage, Reflex save halves; natural 20 adds 5d8 fire damage. Costs 150 gil per summoner level.</p>"
+        },
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "class": "summonerAvatar",
+        "actions": [
+          {
+            "_id": "kC0dbZaALEM5ziuh",
+            "name": "Blurring Bladestorm",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": 30,
+              "units": "ft",
+              "shape": "sphere"
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "10d8",
+                  "types": [
+                    "wind"
+                  ]
+                }
+              ]
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "ref",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.str.mod",
+              "description": "half"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!4oNm5laB8hOG6srb.BmOjeHlTxxcEOcIi"
+    }
+  ],
+  "_key": "!actors!4oNm5laB8hOG6srb"
+}

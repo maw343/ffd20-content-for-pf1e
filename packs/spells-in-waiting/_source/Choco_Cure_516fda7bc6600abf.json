@@ -1,0 +1,78 @@
+{
+  "_id": "516fda7bc6600abf",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Choco Cure",
+  "system": {
+    "actions": [
+      {
+        "_id": "3f9e728dbc544951",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "heal",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "one living creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "3d6",
+              "types": [
+                "healing"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the healing touch of a chocobo",
+      "value": "<p>The caster emulates the healing touch of a chocobo. A soft white glow surrounds your hand as you heal a wounded living creature, healing for 3d6+4 points of damage. Learned From Chocobo Family</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 2
+      }
+    },
+    "level": 2,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!516fda7bc6600abf"
+}

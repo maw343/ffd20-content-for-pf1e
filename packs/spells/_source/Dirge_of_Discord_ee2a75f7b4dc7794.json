@@ -1,0 +1,65 @@
+{
+  "_id": "ee2a75f7b4dc7794",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Dirge of Discord",
+  "system": {
+    "actions": [
+      {
+        "_id": "68ed9b6ebcf17bdf",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "100 ft"
+        },
+        "area": "20-ft.-radius spread",
+        "duration": {
+          "units": "round",
+          "value": "1 round",
+          "concentration": true
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Creatures affected by this song take a –4 penalty on attack rolls and Dexterity, a 50% reduction in their speed (to a minimum of 5 feet), and must make a Concentration check to cast any spell (DC equal to this spell’s DC + the level of the spell being cast).",
+      "value": "<p>Creatures affected by this song take a –4 penalty on attack rolls and Dexterity, a 50% reduction in their speed (to a minimum of 5 feet), and must make a Concentration check to cast any spell (DC equal to this spell’s DC + the level of the spell being cast).</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bard": 3
+      }
+    },
+    "level": 3,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!ee2a75f7b4dc7794"
+}

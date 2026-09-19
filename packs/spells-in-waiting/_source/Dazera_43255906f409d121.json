@@ -1,0 +1,64 @@
+{
+  "_id": "43255906f409d121",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Dazera",
+  "system": {
+    "actions": [
+      {
+        "_id": "04c69cc9b5d7e449",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "one or more humanoid creatures, within 30 ft. of each other DESCRIPTION This spell functions as Daze , except as noted above."
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions as Daze , except as noted above",
+      "value": "<p>This spell functions as Daze , except as noted above.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 4,
+        "blackmage": 4,
+        "illusionist": 4,
+        "whitemage": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!43255906f409d121"
+}

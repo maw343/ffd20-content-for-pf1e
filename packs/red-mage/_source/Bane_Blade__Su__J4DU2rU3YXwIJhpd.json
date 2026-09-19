@@ -1,0 +1,19 @@
+{
+  "_id": "J4DU2rU3YXwIJhpd",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Bane Blade (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Red Mage 15</p><p>Whenever the red mage enhances his weapon using his arcane pool, he may spend 1 additional point from his arcane pool to add the bane special ability to the weapon.</p>"
+    },
+    "tag": "banebladesu",
+    "source": "Final Fantasy d20 - Red Mage (Ruby Arcana)"
+  },
+  "effects": [],
+  "_key": "!items!J4DU2rU3YXwIJhpd"
+}

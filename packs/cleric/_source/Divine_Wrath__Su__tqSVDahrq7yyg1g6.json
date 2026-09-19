@@ -1,0 +1,61 @@
+{
+  "_id": "tqSVDahrq7yyg1g6",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785716726592,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/white_35.jpg",
+  "name": "Divine Wrath (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Faith class feature</p><p>When a cleric confirms a critical hit, he may sacrifice a faith point to invoke the Dread spell upon the target as an immediate action (using the cleric's caster level). The save DC is increased by +2 if his weapon has a ×3 damage multiplier, or by +4 if it is ×4. The cleric can also use this ability in response to being critically hit, even if the attack incapacitates or kills the cleric.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "divinewrath",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Cleric",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Cleric - Faith Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!tqSVDahrq7yyg1g6"
+}

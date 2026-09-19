@@ -1,0 +1,50 @@
+{
+  "_id": "uhqCWYL6wUlaL1pl",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Evasion (Ex)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> —</p><p><strong>Benefit:</strong> The time mage can avoid even magical and unusual attacks with great agility. If he makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, he instead takes no damage. Evasion can be used only if the time mage is wearing no armor. A helpless time mage does not gain the benefit of evasion.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "temporalTalent",
+    "tag": "evasion_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-TimeMageClass",
+        "pages": "Temporal Talents"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!uhqCWYL6wUlaL1pl"
+}

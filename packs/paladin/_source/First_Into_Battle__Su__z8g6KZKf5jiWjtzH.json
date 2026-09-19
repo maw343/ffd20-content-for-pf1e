@@ -1,0 +1,58 @@
+{
+  "_id": "z8g6KZKf5jiWjtzH",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "First Into Battle (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 2nd level, when the paladin makes an initiative check, she gains a bonus to the check equal to her Charisma bonus. Additionally, as a free action outside of her turn, a paladin can spend 1 use of lay on hands to act in the surprise round, even if she is surprised.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "first_into_battle_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Paladin"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Paladin",
+          2
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!z8g6KZKf5jiWjtzH"
+}

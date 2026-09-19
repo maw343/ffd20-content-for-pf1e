@@ -1,0 +1,27 @@
+{
+  "_id": "6sqJEYCkq7LiBwvZ",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_13.jpg",
+  "name": "Quick Healing (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>As a swift action, the beastmaster can make a Heal check to administer first aid on an adjacent dying character. Alternatively, the beastmaster can administer a potion to an unconscious character as a move action.</p>"
+    },
+    "tag": "quickhealing",
+    "source": "Final Fantasy d20 - Beastmaster Tricks",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!6sqJEYCkq7LiBwvZ"
+}

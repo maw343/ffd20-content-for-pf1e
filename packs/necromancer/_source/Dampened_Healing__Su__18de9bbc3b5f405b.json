@@ -1,0 +1,61 @@
+{
+  "_id": "18de9bbc3b5f405b",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785721284047,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/shadow_11.jpg",
+  "name": "Dampened Healing (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Necromancer 8, Harm Touch class feature</p><p>With but a word, the necromancer can sever the flow of positive energy to creatures. As an immediate action after identifying a healing effect (such as cure spell or channel holy energy used to heal), he may attempt to negate the healing of one affected creature by rolling his harm touch dice. The GM compares his result to the healing the creature would have received, and if his result is higher, he negates the healing effect. In addition, as a standard action, he may spend a use of harm touch to reduce the healing received by one enemy within 30 ft. for a number of rounds equal to his Charisma modifier. The enemy subtracts 1d6 from any healing effects used on them. At 12th level and every 4 necromancer levels thereafter (16th and 20th), this increases by an additional 1d6. A successful Fortitude save (DC 10 + half the necromancer's level + his Charisma modifier) reduces this to just 1 round.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "dampenedhealingsu",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Necromancer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Necromancy Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!18de9bbc3b5f405b"
+}

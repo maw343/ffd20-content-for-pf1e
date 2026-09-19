@@ -1,0 +1,146 @@
+{
+  "_id": "zOhYFqr65Nsr3HUM",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1786065842083,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "RWSoA7Fj9yqo0y9U",
+  "img": "systems/pf1/icons/races/human.jpg",
+  "name": "Ixal",
+  "system": {
+    "description": {
+      "value": "<p>The Ixal are lithe in stature, featuring horns and a toothed beak, using balloons to transport cargo after losing their ability to fly.</p><h2>Standard Racial Traits</h2><ul><li><strong>Ability Score Modifiers</strong>: Ixals gain +2 Dexterity, +2 Intelligence, and -2 Wisdom.</li><li><strong>Size</strong>: Ixals are Medium creatures.</li><li><strong>Type</strong>: Ixals are humanoids with the ixal subtype.</li><li><strong>Base Speed</strong>: Ixals have a base speed of 30 feet.</li><li><strong>Languages</strong>: Ixal begin with Common and Yagudo. They can learn any of the beastmen languages.</li></ul><h3>Defensive Racial Traits</h3><ul><li><strong>Bond to the Ice</strong>: Ixal gain a +2 dodge bonus to AC in forested or icy terrains.</li><li><strong>Elemental Resistance</strong>: Ixal gain resistance 5 against wind damage.</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Craftsman</strong>: Ixal gain a +2 racial bonus on Craft or Profession checks.</li><li><strong>Craftsman Knowledge</strong>: Ixal gain Knowledge (technology) and Knowledge (engineering) as class skills.</li><li><strong>Sky Enthusiasts</strong>: Ixal gain Pilot as a class skill.</li></ul><h3>Magical Racial Traits</h3><ul><li><strong>Elemental Affinity</strong>: Ixal are treated as 1 level higher when casting spells with the wind descriptor.</li><li><strong>Elemental Summoner</strong>: Increase the duration of summon spells for a chosen elemental subtype by 2 rounds.</li><li><strong>Weather Savvy</strong>: Ixal can spend a full-round action to accurately predict the weather 24 hours in advance.</li></ul><h3>Offense Racial Traits</h3><ul><li><strong>Claws</strong>: Ixal receive two claw attacks dealing 1d4 points of damage.</li></ul><h3>Senses Racial Traits</h3><ul><li><strong>Low-Light Vision</strong>: Ixal have low-light vision allowing them to see twice as far as humes in dim light.</li></ul>",
+      "instructions": ""
+    },
+    "tags": [
+      "Beastman"
+    ],
+    "changes": [
+      {
+        "formula": "2",
+        "target": "dex",
+        "type": "racial",
+        "_id": "s4pjgvfp"
+      },
+      {
+        "formula": "2",
+        "target": "int",
+        "type": "racial",
+        "_id": "elxorgru"
+      },
+      {
+        "formula": "-2",
+        "target": "wis",
+        "type": "racial",
+        "_id": "d3s8qu9m"
+      },
+      {
+        "formula": "2",
+        "target": "skill.plt",
+        "type": "racial",
+        "_id": "cwfdfid3"
+      }
+    ],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [
+      "common"
+    ],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "size": "med",
+    "speeds": {
+      "land": 30,
+      "fly": null,
+      "flyManeuverability": "",
+      "swim": null,
+      "climb": null,
+      "burrow": null
+    },
+    "creatureTypes": [
+      "humanoid"
+    ],
+    "creatureSubtypes": [
+      "ixal"
+    ],
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "Beastman Tribes"
+      }
+    ],
+    "quadruped": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "blf": false,
+      "clm": false,
+      "ckg": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "type": "race",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!zOhYFqr65Nsr3HUM"
+}

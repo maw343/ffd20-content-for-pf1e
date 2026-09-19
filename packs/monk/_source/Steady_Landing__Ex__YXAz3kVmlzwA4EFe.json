@@ -1,0 +1,27 @@
+{
+  "_id": "YXAz3kVmlzwA4EFe",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Steady Landing (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Flying Kick class feature</p><p>Land unwaveringly after using your Flying Kick ability. You do not take the imposed -2 AC penalty for 1 round after using your Flying Kick ability.</p>"
+    },
+    "tag": "steadylanding",
+    "source": "Final Fantasy d20 - Monk Talents",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!YXAz3kVmlzwA4EFe"
+}

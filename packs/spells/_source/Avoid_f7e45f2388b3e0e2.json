@@ -1,0 +1,75 @@
+{
+  "_id": "f7e45f2388b3e0e2",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Avoid",
+  "system": {
+    "actions": [
+      {
+        "_id": "c977219bac8c0b60",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round",
+          "concentration": true
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You surround your body with a magical aura, with senses and a mind of its own, with the directive of keeping you alive.",
+      "value": "<p>You surround your body with a magical aura, with senses and a mind of its own, with the directive of keeping you alive. This aura tugs and pulls its user away from attacks.\nWhen casting and maintaining this spell, the caster avoids any attack that requires an attack roll against them unless a natural roll of 20 is rolled, and even then, the critical threat is unconfirmed unless another natural roll of 20 is rolled. However, each attack after the first regardless if it would hit or not will deplete the user’s MP by 2 extra MP (4 attacks require 6 MP on top of the 5 needed to activate the spell). At the beginning of every round, the caster must spend a\nmove action\ninstead of a\nstandard action\nto maintain concentration or lose the spell, this action cannot be reduced any further. This spell cannot effect anyone aside from the caster, even if other features would allow it.\nThis spell was submitted as a part of the SCC for December 2020 by DeadKingKicker.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 5,
+        "blackmage": 5,
+        "redmage": 5,
+        "timemage": 5,
+        "whitemage5.": 0
+      }
+    },
+    "level": 0,
+    "school": "div",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "uses": {
+      "cost": "0",
+      "autoDeductChargesCost": "0"
+    }
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f7e45f2388b3e0e2"
+}

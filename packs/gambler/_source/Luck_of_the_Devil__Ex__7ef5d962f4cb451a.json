@@ -1,0 +1,61 @@
+{
+  "_id": "7ef5d962f4cb451a",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785719207957,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Luck of the Devil (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Luck Bonus (Rank 3) gambler talent</p><p>With the devil's own luck, you can twist even a cursed fate into a favorable outcome, defying doom with a smirk and a shrug. You no longer automatically fail a saving throw when rolling a natural 1. Additionally, your luck bonus to all saves from the Lucky Bonus gambler talent is increased to a +4 bonus.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "luckofthedevilex",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Gambler",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Gambler Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!7ef5d962f4cb451a"
+}

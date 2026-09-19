@@ -1,0 +1,62 @@
+{
+  "_id": "b555f39b33c4e68e",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Effortless Armor",
+  "system": {
+    "actions": [
+      {
+        "_id": "fe57535957b31230",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level DESCRIPTION Armor you wear no longer reduces your speed. You also reduce the armor’s armor check penalty by 1 + 1 per five caster levels (maximum 5)."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Armor you wear no longer reduces your speed",
+      "value": "<p>Armor you wear no longer reduces your speed. You also reduce the armor’s armor check penalty by 1 + 1 per five caster levels (maximum 5).</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "darkknight": 2,
+        "paladin": 2
+      }
+    },
+    "level": 2,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!b555f39b33c4e68e"
+}

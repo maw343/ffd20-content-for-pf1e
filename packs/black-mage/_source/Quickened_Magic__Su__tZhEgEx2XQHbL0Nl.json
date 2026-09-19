@@ -1,0 +1,61 @@
+{
+  "_id": "tZhEgEx2XQHbL0Nl",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785629255951,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/light_05.jpg",
+  "name": "Quickened Magic (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The black mage can cast one spell per day as if it were modified by the Quicken Spell feat. This does not increase the MP cost or the level of the spell.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "quickenedmagic",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Black Mage",
+          12
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Mage Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!tZhEgEx2XQHbL0Nl"
+}

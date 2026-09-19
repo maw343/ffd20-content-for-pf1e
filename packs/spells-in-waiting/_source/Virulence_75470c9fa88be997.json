@@ -1,0 +1,70 @@
+{
+  "_id": "75470c9fa88be997",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Virulence",
+  "system": {
+    "actions": [
+      {
+        "_id": "e650840189bdd75f",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell weakens the innate resistance of its target, making him more susceptible to the effects of poison and disease",
+      "value": "<p>This spell weakens the innate resistance of its target, making him more susceptible to the effects of poison and disease. A victim who fails to save suffers a –2 penalty to all saving throws versus poison and disease spells and effects for the next minute. While suffering the effects of the spell, the victim is noticeably pallid, shivers as though stricken by cold chills, sweats as though feverish and suffers from minor stomach irritation, as though he were suffering from an extreme form of flu.</p>"
+    },
+    "descriptors": [
+      "cold"
+    ],
+    "learnedAt": {
+      "class": {
+        "necromancer": 1
+      }
+    },
+    "level": 1,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!75470c9fa88be997"
+}

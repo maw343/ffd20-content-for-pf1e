@@ -1,0 +1,19 @@
+{
+  "_id": "4i6FwQKfxLM55aZZ",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_02.jpg",
+  "name": "Gift of Healing (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Lay on Hands class feature</p><p>The white mage can infuse an item with her healing powers as full-round action. The item can contain a single use of the lay on hands class feature. When filled with this magic, it begins to glow with a pearly white light. The wearer of the item can order it to release its energy as a standard action. This acts identically to receiving the effect of lay on hands directly from the person who channeled it, including any blessings they had at the time. While a item contains a use of lay on hands, the white mage cannot recover it.</p>"
+    },
+    "tag": "giftofhealingsu",
+    "source": "Final Fantasy d20 - White Mage (Advanced Mage Talents)"
+  },
+  "effects": [],
+  "_key": "!items!4i6FwQKfxLM55aZZ"
+}

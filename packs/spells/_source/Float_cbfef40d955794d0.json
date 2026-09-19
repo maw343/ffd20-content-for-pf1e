@@ -1,0 +1,73 @@
+{
+  "_id": "cbfef40d955794d0",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Float",
+  "system": {
+    "actions": [
+      {
+        "_id": "0a7f00243c113eab",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The target of this spell receives the Float status effect.",
+      "value": "<p>The target of this spell receives the\nFloat\nstatus effect.\nFloat: This status effect gently floats a creature a couple of feet into the air, allowing them to move as if they were grounded. For the duration of this status effect, the subject floats above all surfaces (even water or other non-solid surfaces) and ignores the adverse movement effects of difficult terrain, and can even take 5-foot steps into difficult terrain.</p>\n<p>If the subject falls more than 10 feet, he begins to fall slowly, as the\nchoco feather\nspell, to the ground and this status effect ends, regardless of duration left.</p>"
+    },
+    "descriptors": [
+      "wind"
+    ],
+    "learnedAt": {
+      "class": {
+        "astrologian": 2,
+        "blackmage": 2,
+        "druid": 2,
+        "whitemage": 2,
+        "redmage": 2,
+        "geomancer": 2
+      }
+    },
+    "level": 2,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!cbfef40d955794d0"
+}

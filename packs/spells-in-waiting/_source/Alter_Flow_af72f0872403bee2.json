@@ -1,0 +1,65 @@
+{
+  "_id": "af72f0872403bee2",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Alter Flow",
+  "system": {
+    "actions": [
+      {
+        "_id": "9d106f38e346056f",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You alter the flow of time around creatures, hastening their movement or slowing them down",
+      "value": "<p>You alter the flow of time around creatures, hastening their movement or slowing them down. When you cast alter flow , you must choose whether to make each target quickened or slowed. You can choose to quicken some of the targets and slow others. Depending on your choice, this has different effects on the creature: Quickened : A quickened creature is treated as under the effects of a haste spell, except it gains a +1 bonus on AC and Reflex saves (as opposed to attack rolls, AC, and Reflex saves, as is normal with haste). Slowed : A slowed creature is treated as under the effects of a slow spell, except it takes a -1 penalty on AC and Reflex saves (as opposed to attack rolls, AC, and Reflex saves, as is normal with slow). Multiple alter flow effects do not stack.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!af72f0872403bee2"
+}

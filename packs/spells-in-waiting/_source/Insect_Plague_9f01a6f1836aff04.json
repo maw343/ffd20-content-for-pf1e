@@ -1,0 +1,64 @@
+{
+  "_id": "9f01a6f1836aff04",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Insect Plague",
+  "system": {
+    "actions": [
+      {
+        "_id": "fb882a91fb25b42b",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "target": {
+          "value": "one swarm of wasps per three levels, each of which must be adjacent to at least one other swarm"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 min./level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You summon a number of swarms of wasps (one per three levels, to a maximum of six swarms at 18th level)",
+      "value": "<p>You summon a number of swarms of wasps (one per three levels, to a maximum of six swarms at 18th level). The swarms must be summoned so that each one is adjacent to at least one other swarm (that is, the swarms must fill one contiguous area). You may summon the wasp swarms so that they share the area of other creatures. Each swarm attacks any creatures occupying its area. The swarms are stationary after being summoned, and won’t pursue creatures that flee.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "summoner": 4,
+        "druid": 5
+      }
+    },
+    "level": 4,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!9f01a6f1836aff04"
+}

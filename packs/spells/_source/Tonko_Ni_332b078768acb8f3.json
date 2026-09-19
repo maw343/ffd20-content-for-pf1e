@@ -1,0 +1,61 @@
+{
+  "_id": "332b078768acb8f3",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Tonko-Ni",
+  "system": {
+    "actions": [
+      {
+        "_id": "54348d4d17b6bfd4",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "you or a creature or object weighing no more than 100 lbs./level"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level  DESCRIPTION This ninjutsu functions as Vanish ."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This ninjutsu functions as Vanish",
+      "value": "<p>This ninjutsu functions as Vanish .</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "ninja": 3
+      }
+    },
+    "level": 3,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!332b078768acb8f3"
+}

@@ -1,0 +1,64 @@
+{
+  "_id": "f366bc8f4bc14d70",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Shield",
+  "system": {
+    "actions": [
+      {
+        "_id": "5bf019ce19c2c48e",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Shield creates an invisible shield of force that hovers in front of you.",
+      "value": "<p>Shield creates an invisible shield of force that hovers in front of you. It negates up to 5 points of ruin damage plus an additional 5 points per two caster levels directed at you. Once shield spell absorbs the maximum amount it can, the spell ends. The disk also provides a +4 shield bonus to AC. This bonus applies against incorporeal touch attacks, since it is a force effect. The shield has no armor check penalty or arcane spell failure chance. This spell only affects against the\nRuin\nspell, not any other higher versions of it.\nShieldra\nSchool\nenhancing\n[\nforce\n];\nLevel\nastrologian\n4,\nblack mage\n4,\npaladin\n4,\nred mage\n4,\ntime mage\n4,\nwhite mage\n4\nCASTING\nCasting Time\n1\nstandard action\nEFFECT\nRange\nclose (25 ft. + 5 ft./2 levels)\nTarget\none creature/two levels (maximum of 5)\nDESCRIPTION\nThis spell functions like\ns\nhield\n, except it affects one creature per two levels (maximum of 5) within 30 feet of each other. This spell works against the\nRuin\nra\nand\nRuinga\nspells as well as\nRuin\n.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 1,
+        "blackmage": 1,
+        "paladin": 1,
+        "redmage": 1,
+        "timemage": 1,
+        "whitemage": 1
+      }
+    },
+    "level": 1,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f366bc8f4bc14d70"
+}

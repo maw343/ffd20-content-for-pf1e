@@ -1,0 +1,61 @@
+{
+  "_id": "2ab166fbf95144fc",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785721284047,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/shadow_11.jpg",
+  "name": "Cadaver Crafter (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Necromancer 8</p><p>Mindless undead created by the necromancer's magic are of neutral alignment, while intelligent undead share his alignment. Undead he creates are still affected by holy and shadow energy as normal. In addition, when creating undead, he can perform a special ritual on one corpse to be animated. This ritual takes 8 hours and uses special reagents and materials that cost 25 gil/HD of the creature to be animated and allows him to spend construction points as per an animated object of the creature's size. He may not apply the following abilities: metal or stone. He may only have one such crafted corpse in existence at a time. (See building and modifying constructs for more information on construction points.)</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "cadavercraftersu",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Necromancer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Necromancy Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!2ab166fbf95144fc"
+}

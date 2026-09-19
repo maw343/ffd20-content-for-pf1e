@@ -1,0 +1,58 @@
+{
+  "_id": "vuzBtlsEDGNc2fOT",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Holy Champion (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 20th level, the paladin becomes the conduit of the divine. Her divine arts and lay on hands always deal the maximum amount possible.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "holy_champion_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Paladin"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Paladin",
+          20
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!vuzBtlsEDGNc2fOT"
+}

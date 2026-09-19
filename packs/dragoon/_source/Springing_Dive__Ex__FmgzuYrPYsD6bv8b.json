@@ -1,0 +1,27 @@
+{
+  "_id": "FmgzuYrPYsD6bv8b",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Springing Dive (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Deadly Lancer class feature</p><p>You may subtract a number of Deadly Lancer dice from your damage to position yourself farther away from your target after delivering a successful dive attack. For every Deadly Lancer die subtracted, you gain an additional 5 feet of distance where you may land away from your target.</p>"
+    },
+    "tag": "springingdive",
+    "source": "Final Fantasy d20 - Dragoon Talents",
+    "associations": {
+      "classes": [
+        [
+          "Dragoon",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!FmgzuYrPYsD6bv8b"
+}

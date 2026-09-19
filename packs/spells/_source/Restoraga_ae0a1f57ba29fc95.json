@@ -1,0 +1,69 @@
+{
+  "_id": "ae0a1f57ba29fc95",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Restoraga",
+  "system": {
+    "actions": [
+      {
+        "_id": "176ea427151d9be4",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Restora , except that it dispels all permanent and temporary negative levels afflicting the healed creature.",
+      "value": "<p>This spell functions like\nRestora\n, except that it dispels all permanent and temporary negative levels afflicting the healed creature.\nRestoraga also dispels all magical effects penalizing the creature’s abilities, cures all temporary ability damage, and restores all points permanently drained from all ability scores. It also eliminates fatigue and exhaustion, and removes all forms of insanity, confusion, and similar mental effects. In addition, it restores stamina points equal to triple the target’s Constitution modifier.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 7,
+        "whitemage": 7
+      }
+    },
+    "level": 7,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "healing"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!ae0a1f57ba29fc95"
+}

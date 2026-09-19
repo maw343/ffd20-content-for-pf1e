@@ -1,0 +1,73 @@
+{
+  "_id": "aadbe208317e8866",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Scathe",
+  "system": {
+    "actions": [
+      {
+        "_id": "fa722a3e53f773a7",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "area": "30-ft.-radius spread",
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 20))d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "A blast of raw magical energy explodes dealing 1d6 points of non-elemental damage per caster level (maximum 20d6) to every creature within the area.",
+      "value": "<p>A blast of raw magical energy explodes dealing 1d6 points of non-elemental damage per caster level (maximum 20d6) to every creature within the area.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 8
+      }
+    },
+    "level": 8,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!aadbe208317e8866"
+}

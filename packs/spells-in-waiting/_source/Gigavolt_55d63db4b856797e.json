@@ -1,0 +1,78 @@
+{
+  "_id": "55d63db4b856797e",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Gigavolt",
+  "system": {
+    "actions": [
+      {
+        "_id": "189c7b58dc74f997",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "see below"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "15d10",
+              "types": [
+                "electricity"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates a Yellow Dragon’s charging up electricity and shooting it at a single target within 120 ft",
+      "value": "<p>The caster emulates a Yellow Dragon’s charging up electricity and shooting it at a single target within 120 ft. or discharges a shock wave of electricity outward hitting all those within 60-ft. radius. The single target shot does 15d10 points of lightning damage or the radius blast does 10d10 points of lightning damage per target, a Reflex save for half damage. Learned From Kaiser Dragon and Yellow Dragon Family</p>"
+    },
+    "descriptors": [
+      "electricity"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 8
+      }
+    },
+    "level": 8,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!55d63db4b856797e"
+}

@@ -1,0 +1,70 @@
+{
+  "_id": "d9c2cfd3334c3b88",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "NulStatus IV",
+  "system": {
+    "actions": [
+      {
+        "_id": "e53d3e29367ce2dd",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level  or until discharge"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The subject of this spell is protected by floating silver orbs with random symbols on it",
+      "value": "<p>The subject of this spell is protected by floating silver orbs with random symbols on it. The caster can choose one from any status effects to block. The subject, when hit with that status effect, is nullified and discharges the effect.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 9,
+        "whitemage": 9
+      }
+    },
+    "level": 9,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d9c2cfd3334c3b88"
+}

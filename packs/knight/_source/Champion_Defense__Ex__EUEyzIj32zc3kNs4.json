@@ -1,0 +1,61 @@
+{
+  "_id": "EUEyzIj32zc3kNs4",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785613111636,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_03.jpg",
+  "name": "Champion Defense (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 17th level, once per day when the knight would be reduced to 0 or fewer hit points by damage in combat from a weapon, unarmed, or natural attack, the knight can attempt to absorb all the damage with his shield. To use this ability, the knight must attempt a Fortitude saving throw, with the DC equal to the damage dealt.</p><p>If it succeeds, he takes only half damage from the blow; otherwise, he takes full damage. He must be aware of the attack and able to react to it in order to use this ability—if he is denied his Dexterity bonus to AC, he can't use this ability. At 19th level, he can use this ability twice per day.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "championdefense",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Knight",
+          17
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Knight"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!EUEyzIj32zc3kNs4"
+}

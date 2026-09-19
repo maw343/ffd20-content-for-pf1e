@@ -1,0 +1,65 @@
+{
+  "_id": "13010348cf8a52eb",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Unholy Nimbus",
+  "system": {
+    "actions": [
+      {
+        "_id": "cb029eecade7cbcc",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "area": "60-ft.-radius burst centered on you",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1d10 rounds; see text"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negate"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster can emulate the unholy nimbus of a nalfeshnee demon",
+      "value": "<p>The caster can emulate the unholy nimbus of a nalfeshnee demon. The caster can create a nimbus of unholy light, causing nauseating beams of writhing color to play around his body. One round later, the light bursts in a 60-foot radius. Any non-demon creature caught within this area must succeed on a Will save or be dazed for 1d10 rounds as visions of madness hound it. The caster is immune to this effect. Learned From nalfeshnee demon</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 8
+      }
+    },
+    "level": 8,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!13010348cf8a52eb"
+}

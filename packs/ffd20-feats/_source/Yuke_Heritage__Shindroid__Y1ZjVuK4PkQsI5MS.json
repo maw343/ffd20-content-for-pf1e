@@ -1,0 +1,50 @@
+{
+  "_id": "Y1ZjVuK4PkQsI5MS",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Yuke Heritage (Shindroid)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Shindroid, Magitek Unit and Anomaly alternate racial traits</p><p><strong>Benefit:</strong> You are actually a Yuke, a formless soul inhabiting a suit of armor, rather than a mechanical being. You gain the Yuke subtype and take no penalty on mind-affecting effects, emotion effects, or fear effects. You may choose to lose your +2 bonus to Intelligence and gain a +2 bonus to Wisdom. In addition, you gain 1 additional MP and, if you have no levels in a casting class, you gain a caster level of 1.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "racial",
+    "tag": "yuke_heritage_shindroid",
+    "requirements": "Shindroid, Magitek Unit and Anomaly alternate racial traits",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-RacialFeats",
+        "pages": "Racial Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Y1ZjVuK4PkQsI5MS"
+}

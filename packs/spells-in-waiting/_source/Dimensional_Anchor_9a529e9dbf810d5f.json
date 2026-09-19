@@ -1,0 +1,69 @@
+{
+  "_id": "9a529e9dbf810d5f",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Dimensional Anchor",
+  "system": {
+    "actions": [
+      {
+        "_id": "3df37cae0e94bce6",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "rsak",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "ray"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 min./level"
+        },
+        "ability": {
+          "attack": "dex",
+          "critMult": 2,
+          "critRange": 20
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "A green ray springs from your hand",
+      "value": "<p>A green ray springs from your hand. You must make a ranged touch attack to hit the target. Any creature or object struck by the ray is covered with a shimmering emerald field that completely blocks extradimensional travel. Forms of movement barred by a dimensional anchor include bend space and time, blink, dimension door, shadow walk, and similar spell-like abilities. A dimensional anchor does not interfere with the movement of creatures already in ethereal or astral form when the spell is cast, nor does it block extradimensional perception or attack forms. Also, dimensional anchor does not prevent summoned creatures from disappearing at the end of a summoning spell.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!9a529e9dbf810d5f"
+}

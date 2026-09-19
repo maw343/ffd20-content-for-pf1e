@@ -1,0 +1,19 @@
+{
+  "_id": "ZiRBfNc4FP0x3NqN",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Accurate Strike (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Red Mage 9</p><p>The red mage can expend 2 points from his arcane pool as a swift action to resolve all of his melee weapon attacks until the end of his turn as melee touch attacks.</p>"
+    },
+    "tag": "accuratestrikeex",
+    "source": "Final Fantasy d20 - Red Mage (Ruby Arcana)"
+  },
+  "effects": [],
+  "_key": "!items!ZiRBfNc4FP0x3NqN"
+}

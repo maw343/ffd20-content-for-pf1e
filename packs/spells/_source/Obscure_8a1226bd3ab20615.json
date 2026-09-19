@@ -1,0 +1,66 @@
+{
+  "_id": "8a1226bd3ab20615",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Obscure",
+  "system": {
+    "actions": [
+      {
+        "_id": "809e264855063a9f",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "effect": "one creature afflicted with Dimmed status effect",
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The target for this spell requires the Dimmed status effect to be in effect.",
+      "value": "<p>The target for this spell requires the Dimmed status effect to be in effect. Once you cast this spell, the Dimmed status effect is removed and causes the target to radiate darkness out to a 10-ft.-radius.\nThis spell causes the illumination level in the area to drop one step, from bright light to normal light, from normal light to dim light, or from dim light to darkness. This spell has no effect in an area that is already dark. Creatures with light vulnerability or sensitivity take no penalties in normal light.\nAll creatures gain concealment (10% miss chance) in dim light. All creatures gain total concealment (25% miss chance) in darkness. Creatures with darkvision can see in an area of dim light or darkness without penalty.\nNonmagical sources of light, such as torches and lanterns, do not increase the light level in an area of obscure. Magical light sources only increase the light level in an area if they are of a higher spell level than obscure. This spell does not stack with itself. Obscure can be used to dispel any light spell of equal or lower spell level.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 1,
+        "darkknight": 1,
+        "necromancer": 1
+      }
+    },
+    "level": 1,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!8a1226bd3ab20615"
+}

@@ -1,0 +1,78 @@
+{
+  "_id": "f61cff43adca04a0",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Aqualung",
+  "system": {
+    "actions": [
+      {
+        "_id": "8e40872c9f800ba3",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "cone-shaped burst",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous/1d6 rounds"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "8d6",
+              "types": [
+                "water"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude half — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster can emulate the watery breath weapon of a bandersnatch",
+      "value": "<p>The caster can emulate the watery breath weapon of a bandersnatch. Creatures within the area of effect take 8d6 points of water damage and are inflicted with Silence status for 1d6 rounds. A successful Fortitude save reduces the damage by half and negates the status effect. Learned From Bandersnatch, Chimera Family, Kaiser Dragon, Kraken, Sea Troll, Sea Worm, and Water Elemental Family</p>"
+    },
+    "descriptors": [
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f61cff43adca04a0"
+}

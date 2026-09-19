@@ -1,0 +1,76 @@
+{
+  "_id": "f453d3d2983d82a1",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Blood Mist",
+  "system": {
+    "actions": [
+      {
+        "_id": "ef1761da90f0fa77",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "area": "60-ft. radius",
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d4",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates (see text)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Cutting your palm, you spray forth a misty cloud of rust-red toxic algae",
+      "value": "<p>Cutting your palm, you spray forth a misty cloud of rust-red toxic algae. Any creature within the mist is coated by it, turning the creature the same reddish color. All targets within the mist gain concealment . Any creature within the mist must save or take 1d4 points of Wisdom damage and become enraged, attacking any creatures it detects nearby (as the “attack nearest creature” result of the confused condition). An enraged creature remains so as long as the spell is in effect. A creature only needs to save once each time it is within the mist (though leaving and returning requires another save).</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "necromancer": 8
+      }
+    },
+    "level": 8,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f453d3d2983d82a1"
+}

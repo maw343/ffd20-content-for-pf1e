@@ -1,0 +1,65 @@
+{
+  "_id": "lkJKdCzk7E1CsDSo",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785712621522,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/red_35.jpg",
+  "name": "Elemental Resistance (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The berserker gains resistance to one element type (earth, fire, ice, lightning, water, or wind) equal to 1/2 his berserker level (minimum 1). At 8th level, he gains limited immunity to the same type of element, as protection from elements. He can absorb 2 points of damage per level, and he applies his elemental resistance first. The element type is chosen when this rage power is selected, and it can't be changed. This rage power can be selected more than once; each time, it applies to a different element type.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "elementalresistance",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Berserker",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Rage Powers - Rage Power"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "ffd20": {
+      "rageStance": false
+    }
+  },
+  "_key": "!items!lkJKdCzk7E1CsDSo"
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "y6A9kRYwChSmIPPK",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Improved Convert (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Red Mage 8, Convert class feature</p><p>The red mage reduces the number of hit points sacrificed by the Convert ability per point of MP by 5.</p>"
+    },
+    "tag": "improvedconvertex",
+    "source": "Final Fantasy d20 - Red Mage (Ruby Talents)"
+  },
+  "effects": [],
+  "_key": "!items!y6A9kRYwChSmIPPK"
+}

@@ -1,0 +1,65 @@
+{
+  "_id": "89662202971c649c",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Seamantle",
+  "system": {
+    "actions": [
+      {
+        "_id": "8bf9a7bca551353f",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        }
+      }
+    ],
+    "components": {
+      "material": true
+    },
+    "description": {
+      "summary": "You sheathe yourself within a churning column of pure elemental water up to 30 feet high that fills your space.",
+      "value": "<p>You sheathe yourself within a churning column of pure elemental water up to 30 feet high that fills your space. You gain a swim speed equal to your land speed and can see, hear, and breathe normally within the seamantle, but attacks against you are treated as if you were under the surface of the water. You gain improved cover (+8 cover bonus to AC, +4 bonus on Reflex saves) against foes that do not have a swim speed. The cover granted by the seamantle does not enable you to make Stealth checks or prevent attacks of opportunity. Magical attacks against you are unaffected unless they require attack rolls or state that they do not function underwater.\nThe seamantle blocks line of effect for any fire spell or supernatural fire effect, but enemies can attempt to use fire spells within the seamantle; this requires a caster level check (DC 20 + spell level), and if successful the fire spell takes as a bubble of steam contained within the seamantle rather than its usual effect.\nThe seamantle allows you to make a slam attack by forming a pseudopod of water, inflicting damage appropriate for your size. This slam attack has a reach of 30 feet. In addition, as a\nstandard action\n, you can attempt to extinguish fires by touch.\nYou automatically extinguish up to a 10-foot cube of normal fire. Against magical fire effects, your touch acts as dispel; this also applies to any non-instantaneous fire affect that comes into contact with you. Even if you fail to extinguish a fire, you are not harmed by it. A weapon with a material that deals fire damage that strikes you has its power suppressed for 1d4 rounds.</p>"
+    },
+    "descriptors": [
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 8,
+        "druid": 8,
+        "whitemage": 8,
+        "geomancer": 8
+      }
+    },
+    "level": 8,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!89662202971c649c"
+}

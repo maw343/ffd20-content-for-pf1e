@@ -1,0 +1,50 @@
+{
+  "_id": "0WCuc5dADR86ucMP",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Exotic Weapon Proficiency (Artillery Firearms)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Exotic Weapon Proficiency (Simple Firearms), Exotic Weapon Proficiency (Advanced Firearms)</p><p><strong>Benefit:</strong> You can use any of the exotic firearms without penalty.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "technology",
+    "tag": "exotic_weapon_proficienc",
+    "requirements": "Exotic Weapon Proficiency (Simple Firearms), Exotic Weapon Proficiency (Advanced Firearms)",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-TechnologyFeats",
+        "pages": "Technology Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!0WCuc5dADR86ucMP"
+}

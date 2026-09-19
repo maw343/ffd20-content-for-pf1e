@@ -1,0 +1,61 @@
+{
+  "_id": "0ce036a9617b4f96",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785718761456,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Bioblaster (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Engineer 6, Alchemical Sprayer engineer trick</p><p>An engineer with this trick modifies his Alchemical Sprayer to spray a thick foul substance on creatures in a 30-ft.-cone. Those who fail a Fortitude save are inflicted with the Sapped status effect for 1d6+1 rounds, taking 2d6 points of non-elemental damage a round. This trick can be used a number of times per day equal to his Intelligence modifier.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "bioblastersu",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Engineer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Engineer Tricks - Gadgets"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!0ce036a9617b4f96"
+}

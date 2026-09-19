@@ -1,0 +1,69 @@
+{
+  "_id": "795f3f731a3217c4",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Magical Cleaning",
+  "system": {
+    "actions": [
+      {
+        "_id": "2a041131aa11988c",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "one object of up to 1 cubic foot per level"
+        },
+        "duration": {
+          "units": "inst"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You surround an object with swirling waters with cleaning agents otherwise harmful to the skin, removing dirt, mud, contaminated substanc...",
+      "value": "<p>You surround an object with swirling waters with cleaning agents otherwise harmful to the skin, removing dirt, mud, contaminated substances, disease particles and so on. This spell can remove hard-to-remove stains and even crusted-on-dust of antique items. If the caster wishes to spend 1 MP they can increase the effects of this cantrip to almost becoming a true spell, cleaning a 2 cubic feet per level area of objects, flooring, ceiling, and walls. At high enough levels this can clean an entire room in seconds.</p>"
+    },
+    "descriptors": [
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "astrologian": 0,
+        "blackmage": 0,
+        "druid": 0,
+        "geomancer": 0,
+        "redmage": 0,
+        "summoner": 0,
+        "whitemage": 0
+      }
+    },
+    "level": 0,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!795f3f731a3217c4"
+}

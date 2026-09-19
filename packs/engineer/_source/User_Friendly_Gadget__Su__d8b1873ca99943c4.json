@@ -1,0 +1,61 @@
+{
+  "_id": "d8b1873ca99943c4",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785718761470,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "User Friendly Gadget (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Engineer 8</p><p>The engineer can alter one of his gadgets he has already built to work for another person. The engineer designates, using a standard action, one other character and one of the gadgets that he possesses. That character can now operate the gadget as if they were the engineer utilizing all of the engineer's relevant bonuses. The gadget works for the designated person for a number of hours equal to the engineer's level. If the engineer is unable to designate a new person, the gadget becomes inert until the engineer returns it to his possession or is able to designate a new user.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "userfriendlygadgetsu",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Engineer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Engineer Tricks - Techniques"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!d8b1873ca99943c4"
+}

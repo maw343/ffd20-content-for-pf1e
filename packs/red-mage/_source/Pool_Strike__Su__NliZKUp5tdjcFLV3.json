@@ -1,0 +1,19 @@
+{
+  "_id": "NliZKUp5tdjcFLV3",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Pool Strike (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The red mage can expend 1 point from his arcane pool as a standard action to charge his free hand with elemental energy. He can make a melee touch attack with that hand as a free action as part of activating this ability. If the touch attack hits, it releases the charge and deals 2d6 points of elemental damage (earth, fire, ice, lightning, water, or wind chosen when he spends the arcane pool point to activate this ability). He can use this ability with the spellstrike class feature. If he misses with this attack, he can hold the charge for up to 1 minute before it dissipates. At 6th level, and every three levels thereafter, the amount of damage dealt by this attack increases by 1d6.</p>"
+    },
+    "tag": "poolstrikesu",
+    "source": "Final Fantasy d20 - Red Mage (Ruby Arcana)"
+  },
+  "effects": [],
+  "_key": "!items!NliZKUp5tdjcFLV3"
+}

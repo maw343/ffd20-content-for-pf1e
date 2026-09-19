@@ -1,0 +1,84 @@
+{
+  "_id": "unWZTRTpysCW9f4C",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785120011709,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/yellow_37.jpg",
+  "name": "Medley",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 4th level, a bard can perform a medley, allowing him to maintain two maintained songs at once. For every four levels thereafter, he may maintain an additional song, up to five at once at 16th level. A Perform skill check is needed for each additional song (DC 15 + double the song's level), with a +4 to the Perform DC for each song after the second, up to a max of +12 for a five-song medley. The bard loses the song if he fails his respective Perform skill check.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "medley",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {},
+    "source": "Final Fantasy d20 - Bard"
+  },
+  "effects": [],
+  "folder": "OcBZmiqIY9C4SYxK",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!unWZTRTpysCW9f4C"
+}

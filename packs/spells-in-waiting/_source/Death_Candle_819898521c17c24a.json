@@ -1,0 +1,71 @@
+{
+  "_id": "819898521c17c24a",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Death Candle",
+  "system": {
+    "actions": [
+      {
+        "_id": "0eec64cb7fb65733",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "living creature touched"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous/1 round per HD of subject; see text"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like death knell , except instead of using the slain target’s life energy to enhance yourself, you use it to summon ...",
+      "value": "<p>This spell functions like death knell , except instead of using the slain target’s life energy to enhance yourself, you use it to summon a Small fire elemental resembling a burning, howling version of the slain creature. The elemental acts immediately on your turn and otherwise behaves as if you had summoned it with summon monster II . The elemental remains for a number of rounds equal to the Hit Dice of the slain creature.</p>"
+    },
+    "descriptors": [
+      "fire",
+      "death",
+      "evil"
+    ],
+    "learnedAt": {
+      "class": {
+        "necromancer": 2
+      }
+    },
+    "level": 2,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!819898521c17c24a"
+}

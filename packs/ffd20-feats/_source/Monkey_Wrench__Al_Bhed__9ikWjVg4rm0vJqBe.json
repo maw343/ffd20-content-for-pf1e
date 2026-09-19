@@ -1,0 +1,50 @@
+{
+  "_id": "9ikWjVg4rm0vJqBe",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Monkey Wrench (Al Bhed)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Al Bhed, 3 ranks in Disable Device</p><p><strong>Benefit:</strong> If you roll a Disable Device check to disable a trap or open a lock, you may immediately reroll and use the second result instead. This effect is used as an immediate action after the first check is attempted, but before the results are revealed by the GM.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "racial",
+    "tag": "monkey_wrench_al_bhed",
+    "requirements": "Al Bhed, 3 ranks in Disable Device",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-RacialFeats",
+        "pages": "Racial Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!9ikWjVg4rm0vJqBe"
+}

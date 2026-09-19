@@ -1,0 +1,50 @@
+{
+  "_id": "fRkxrO3XKYP4oQph",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Unorthodox Firing (Ex)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> —</p><p><strong>Benefit:</strong> The gunner may consider herself as having an extra functional limb for the purpose of wielding a firearm. This allows her to (effectively) wield a one-handed firearm without an available hand, or wield a two-handed firearm with only one available hand, and so on. This ability does not affect actual handedness mechanics or formulas in any way, nor does it qualify the gunner for any feats. Attacks made with firearms held in such a way have a -2 penalty to hit.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "gunneryTalent",
+    "tag": "unorthodox_firing_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-GunnerClass",
+        "pages": "Gunnery Talents"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!fRkxrO3XKYP4oQph"
+}

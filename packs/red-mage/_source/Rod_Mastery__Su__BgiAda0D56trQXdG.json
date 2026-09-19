@@ -1,0 +1,19 @@
+{
+  "_id": "BgiAda0D56trQXdG",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Rod Mastery (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>Whenever the red mage uses a rod, he calculates the DC for any spell it contains using his Charisma modifier (minimum 0) instead of the minimum modifier needed to cast a spell of that level.</p>"
+    },
+    "tag": "rodmasterysu",
+    "source": "Final Fantasy d20 - Red Mage (Ruby Talents)"
+  },
+  "effects": [],
+  "_key": "!items!BgiAda0D56trQXdG"
+}

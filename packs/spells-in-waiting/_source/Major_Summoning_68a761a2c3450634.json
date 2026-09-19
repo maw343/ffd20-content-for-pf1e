@@ -1,0 +1,61 @@
+{
+  "_id": "68a761a2c3450634",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Major Summoning",
+  "system": {
+    "actions": [
+      {
+        "_id": "512ebc74eda01c9a",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "duration": {
+          "units": "round",
+          "value": "see description DESCRIPTION This spell functions like minor summoning, except that you can also summon an object of mineral nature: stone, crystal, metal, or the like. The duration of the created item varies with its relative hardness and rarity, as indicated on the following table. Examples Duration Vegetable Matter 2 hours/level Stone/Crystal/Base Metals 1 hour/level Precious Metals 20 minutes/level Gems 10 minutes/level Rare Metal* 1 round/level * Includes adamantine, alchemical silver, and mithral. You can’t use major summoning to summon a cold iron item."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like minor summoning, except that you can also summon an object of mineral nature: stone, crystal, metal, or the like",
+      "value": "<p>This spell functions like minor summoning, except that you can also summon an object of mineral nature: stone, crystal, metal, or the like. The duration of the created item varies with its relative hardness and rarity, as indicated on the following table. Examples Duration Vegetable Matter 2 hours/level Stone/Crystal/Base Metals 1 hour/level Precious Metals 20 minutes/level Gems 10 minutes/level Rare Metal* 1 round/level * Includes adamantine, alchemical silver, and mithral. You can’t use major summoning to summon a cold iron item.</p>"
+    },
+    "descriptors": [
+      "cold"
+    ],
+    "learnedAt": {
+      "class": {
+        "summoner": 4
+      }
+    },
+    "level": 4,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!68a761a2c3450634"
+}

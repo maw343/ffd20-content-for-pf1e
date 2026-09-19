@@ -1,0 +1,50 @@
+{
+  "_id": "mJgJgKYdpxpMTSPr",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Returning Throw (Su)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Telekinetic Hurl class feature</p><p><strong>Benefit:</strong> The psychic treats an object or weapon thrown when using grab as if it had the returning special ability.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "psychicTalent",
+    "tag": "returning_throw_su",
+    "requirements": "Telekinetic Hurl class feature",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-PsychicClass",
+        "pages": "Psychic Talents"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!mJgJgKYdpxpMTSPr"
+}

@@ -1,0 +1,89 @@
+{
+  "_id": "LVEOf1HIPajSCd8i",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785616131917,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_12.jpg",
+  "name": "Lancet (Ex)",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, the dragoon can empower his next melee attack with a polearm or spear that inflicts piercing damage to drain the life force from a living foe as a swift action. The dragoon receives a +2 circumstance bonus to this attack and heals himself of 2d6 damage, with the attack bonus and amount of healing dice increasing by 1 for every two dragoon levels attained after 3rd. This effect lasts until the end of the dragoon's turn or until expended by a successful attack.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "lancet",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": [
+        [
+          "Dragoon",
+          3
+        ]
+      ]
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {},
+    "source": "Final Fantasy d20 - Dragoon"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!LVEOf1HIPajSCd8i"
+}

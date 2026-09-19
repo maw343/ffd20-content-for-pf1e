@@ -1,0 +1,92 @@
+{
+  "_id": "MQ6JZCIaBusX7uLC",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "folder": "RWSoA7Fj9yqo0y9U",
+  "img": "systems/pf1/icons/races/human.jpg",
+  "name": "Seeq",
+  "system": {
+    "changes": [
+      {
+        "formula": "2",
+        "target": "con",
+        "type": "racial",
+        "_id": "a4owl0hd"
+      },
+      {
+        "formula": "2",
+        "target": "wis",
+        "type": "racial",
+        "_id": "f7evpjhq"
+      },
+      {
+        "formula": "-2",
+        "target": "int",
+        "type": "racial",
+        "_id": "al795jh5"
+      },
+      {
+        "formula": "2",
+        "target": "skill.blf",
+        "type": "racial",
+        "_id": "8ej0x34a"
+      },
+      {
+        "formula": "2",
+        "target": "skill.per",
+        "type": "racial",
+        "_id": "cqvv4lqi"
+      },
+      {
+        "formula": "2",
+        "target": "skill.sen",
+        "type": "racial",
+        "_id": "9uidgmr7"
+      },
+      {
+        "formula": "2",
+        "target": "skill.apr",
+        "type": "racial",
+        "_id": "bcrr3vzp"
+      }
+    ],
+    "contextNotes": [
+      {
+        "target": "allSavingThrows",
+        "text": "+[[2]] Racial vs Poison, Spells, and Spell-like Abilities"
+      },
+      {
+        "target": "cmd",
+        "text": "+[[4]] Racial vs Bull Rush or Trip"
+      }
+    ],
+    "creatureSubtypes": [
+      "seeq"
+    ],
+    "creatureTypes": [
+      "humanoid"
+    ],
+    "description": {
+      "value": "<p>The Seeq are a pig-like race that comes in a variety of colors and sizes, making a living as gossipmongers and peddlers in Hume societies.</p><h2>Standard Racial Traits</h2><ul><li><strong>Ability Score Modifiers</strong>: Seeq gain +2 Constitution, +2 Wisdom, and –2 Intelligence.</li><li><strong>Type</strong>: Seeq are humanoids with the seeq subtype.</li><li><strong>Size</strong>: Seeq are Medium creatures.</li><li><strong>Base Speed</strong>: Seeq have a base speed of 30 feet.</li><li><strong>Languages</strong>: Seeq begin play speaking Common and Seeq. Seeq with high Intelligence scores can choose from: Banganese, Draconic, Giant, Goblin, Terran, Undercommon.</li></ul><h3>Defense Racial Traits</h3><ul><li><strong>Desert Runner</strong>: Seeq receive a +4 racial bonus on Constitution checks and Fortitude saves to avoid fatigue and exhaustion.</li><li><strong>Hardy</strong>: Seeq gain a +2 racial bonus on saving throws against poison, spells, and spell-like abilities.</li><li><strong>Stability</strong>: Seeq receive a +4 racial bonus to their CMD when resisting bull rush or trip attempts.</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Deceptive</strong>: Seeq gain a +2 racial bonus on Bluff checks.</li><li><strong>Perceptive</strong>: Seeq gain a +2 racial bonus on Perception and Sense Motive checks.</li><li><strong>Scavenger</strong>: Seeq gain a +2 racial bonus on Appraise and Perception checks to find hidden objects.</li></ul><h3>Senses Racial Traits</h3><ul><li><strong>Low-Light Vision</strong>: Seeq can see twice as far as a hume in dim light.</li></ul>"
+    },
+    "languages": [
+      "common"
+    ],
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "Base Races"
+      }
+    ],
+    "speeds": {
+      "land": 30
+    },
+    "tags": [
+      "Base"
+    ]
+  },
+  "type": "race",
+  "effects": [],
+  "_key": "!items!MQ6JZCIaBusX7uLC"
+}

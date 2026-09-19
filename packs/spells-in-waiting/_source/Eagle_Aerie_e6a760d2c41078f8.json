@@ -1,0 +1,63 @@
+{
+  "_id": "e6a760d2c41078f8",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Eagle Aerie",
+  "system": {
+    "actions": [
+      {
+        "_id": "7d527b0f0d674ba5",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "target": {
+          "value": "summoned eagles"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "1 hour/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You summon a flight of giant eagles (one per three caster levels, maximum of six) to ferry you and your allies across the skies",
+      "value": "<p>You summon a flight of giant eagles (one per three caster levels, maximum of six) to ferry you and your allies across the skies. The eagles avoid combat if possible but defend themselves if attacked; if the eagles attack, the remaining duration of the spell changes from 1 hour per level to 1 round per level (so if the spell had 5 full hours left, the eagles remain in combat for 5 rounds before the spell ends).</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "druid": 6
+      }
+    },
+    "level": 6,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!e6a760d2c41078f8"
+}

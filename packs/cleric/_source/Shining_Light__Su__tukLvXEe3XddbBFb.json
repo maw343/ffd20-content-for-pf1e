@@ -1,0 +1,61 @@
+{
+  "_id": "tukLvXEe3XddbBFb",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785716726597,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/white_35.jpg",
+  "name": "Shining Light (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Cleric 14</p><p>A cleric can unleash a 30-foot burst of pure, white light as a standard action. evil creatures within this burst take 1d6 points of damage for every two cleric levels and are blinded for 1 round. Evil dragons, evil outsiders, and evil undead are blinded for 1d4 rounds on a failed save. A Reflex save (DC 10 + half the cleric's + his Charisma modifier) halves this damage and negates the blindness. Good creatures within this burst are healed 1d6 points of damage per two cleric levels and receive a +2 sacred bonus on ability checks, attack rolls, saving throws, and skill checks for 1 round. A cleric can use this ability once per day at 14th level plus one additional time per day at 17th and 20th levels.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "shininglight",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Cleric",
+          12
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Cleric - Advanced Faith Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!tukLvXEe3XddbBFb"
+}

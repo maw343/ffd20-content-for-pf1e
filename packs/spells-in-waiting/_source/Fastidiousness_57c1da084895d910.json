@@ -1,0 +1,62 @@
+{
+  "_id": "57c1da084895d910",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Fastidiousness",
+  "system": {
+    "actions": [
+      {
+        "_id": "238cd745e87f6ab7",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "24 hours DESCRIPTION While protected by fastidiousness, your person and your equipment stay clean and dry. Dust and moisture slough off immediately; even when you are completely soiled, your appearance reverts to a pristine state over the course of 1 minute. While this spell offers no protection against most attacks, staying constantly sanitary grants you a +2 circumstance bonus on Fortitude saving throws against inhaled and ingested diseases."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "While protected by fastidiousness, your person and your equipment stay clean and dry",
+      "value": "<p>While protected by fastidiousness, your person and your equipment stay clean and dry. Dust and moisture slough off immediately; even when you are completely soiled, your appearance reverts to a pristine state over the course of 1 minute. While this spell offers no protection against most attacks, staying constantly sanitary grants you a +2 circumstance bonus on Fortitude saving throws against inhaled and ingested diseases.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "druid": 1,
+        "whitemage": 1
+      }
+    },
+    "level": 1,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!57c1da084895d910"
+}

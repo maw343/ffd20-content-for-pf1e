@@ -1,0 +1,56 @@
+{
+  "_id": "23769c432dba367d",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Air Walk, Communal",
+  "system": {
+    "actions": [
+      {
+        "_id": "91ccb916f453eb18",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Air Walk , except divide the duration in 10-minute intervals among the creatures touched.",
+      "value": "<p>This spell functions like\nAir Walk\n, except divide the duration in 10-minute intervals among the creatures touched.</p>"
+    },
+    "descriptors": [
+      "wind"
+    ],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!23769c432dba367d"
+}

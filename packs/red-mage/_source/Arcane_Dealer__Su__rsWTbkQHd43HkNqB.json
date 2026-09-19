@@ -1,0 +1,19 @@
+{
+  "_id": "rsWTbkQHd43HkNqB",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Arcane Dealer (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Red Mage 6</p><p>The red mage gains the Deadly Dealer feat, even if he does not meet the prerequisites. He can use his arcane pool to grant a deck of cards an enhancement bonus as though it were a ranged weapon with 54 pieces of ammunition. The red mage must use either Arcane Strike or his arcane pool to enhance the cards in order to use them as weapons.</p>"
+    },
+    "tag": "arcanedealersu",
+    "source": "Final Fantasy d20 - Red Mage (Ruby Arcana)"
+  },
+  "effects": [],
+  "_key": "!items!rsWTbkQHd43HkNqB"
+}

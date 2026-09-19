@@ -1,0 +1,65 @@
+{
+  "_id": "pTXY0BRRmh0WSe6K",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785713309583,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/green_35.jpg",
+  "name": "Preserve Organs (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The chemist learns how to preserve and protect his vital organs, reducing the chance of a mortal wound. When a critical hit or sneak attack is scored on the chemist, there is a 25% chance that the critical hit or sneak attack is negated and damage is instead rolled normally. This does not stack with similar abilities that negate critical hits and sneak attacks. A chemist can take this discovery up to three times; the effects stack, increasing this chance to 50% and then 75%.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "preserveorgans",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Chemist",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Chemist - Discoveries"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "ffd20": {
+      "bombDiscovery": false
+    }
+  },
+  "_key": "!items!pTXY0BRRmh0WSe6K"
+}

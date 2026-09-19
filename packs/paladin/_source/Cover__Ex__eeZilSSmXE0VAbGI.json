@@ -1,0 +1,58 @@
+{
+  "_id": "eeZilSSmXE0VAbGI",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Cover (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>At 1st level, the defensive prowess of the paladin is second to none, allowing her to focus her actions purely on defending herself and her allies in ways that cannot be replicated. When an ally within 10 feet is targeted with a melee or ranged attack, the paladin may, as an immediate action, step forward to reposition the ally adjacently to her and forcing the enemy to make the attack roll on the paladin's armor class instead. She may move as part of this ability, provided her total movement before her next turn does not exceed her speed (her movement provokes attacks of opportunity as normal). She can only intercept physical melee attacks and ranged attacks, such as an incoming arrow or a blow from a sword, not from spells and other effects. The paladin can use this ability a number of times per day equal to 3 + half of her paladin level. At 5th level, the range of cover increases by 5 feet and increases by an additional 5 feet per five paladin levels thereafter. Additionally, while using cover, the paladin adds her Charisma modifier to her AC for the attack.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "cover_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Paladin"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Paladin",
+          1
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!eeZilSSmXE0VAbGI"
+}

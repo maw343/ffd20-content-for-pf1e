@@ -1,0 +1,50 @@
+{
+  "_id": "WRqkZH8i9yjI2Eqh",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Greater Fey Nobility (Sylph)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Sylph, Fey Magic racial trait, Cha 13, Fey Nobility and Improved Fey Nobility feats</p><p><strong>Benefit:</strong> Your 3/day ability is now constant and you can use your 2/day abilities at will.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "racial",
+    "tag": "greater_fey_nobility_syl",
+    "requirements": "Sylph, Fey Magic racial trait, Cha 13, Fey Nobility and Improved Fey Nobility feats",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-RacialFeats",
+        "pages": "Racial Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!WRqkZH8i9yjI2Eqh"
+}

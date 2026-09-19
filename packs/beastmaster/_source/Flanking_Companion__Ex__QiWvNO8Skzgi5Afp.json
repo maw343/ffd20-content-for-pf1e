@@ -1,0 +1,27 @@
+{
+  "_id": "QiWvNO8Skzgi5Afp",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_12.jpg",
+  "name": "Flanking Companion (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 2nd level, a beastmaster chooses either Back to Back or Outflank as a bonus feat. He does not need to meet the prerequisites for this feat. He automatically grants this feat to his animal companion as well.</p>"
+    },
+    "tag": "flankingcompanion",
+    "source": "Final Fantasy d20 - Beastmaster",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!QiWvNO8Skzgi5Afp"
+}

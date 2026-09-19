@@ -1,0 +1,70 @@
+{
+  "_id": "2b15d2cf5998f86a",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Gravity",
+  "system": {
+    "actions": [
+      {
+        "_id": "467b27f0db9fcf01",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "one creature above 1 HP"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates (Object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You weaken your foe with crushing gravity",
+      "value": "<p>You weaken your foe with crushing gravity. The target must make a Fortitude save or lose half of his current hit point total (rounded down).</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 5,
+        "blackmage": 5,
+        "necromancer": 5,
+        "timemage": 5
+      }
+    },
+    "level": 5,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!2b15d2cf5998f86a"
+}

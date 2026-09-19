@@ -1,0 +1,61 @@
+{
+  "_id": "a40fe43dee464c9f",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785719681675,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Terrain Bond (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Geomancer 8</p><p>A geomancer with this trick forms a bond with the land itself, enabling her to direct others in such terrain. When in her favored terrain, the geomancer grants all allies within line of sight and that can hear her a +2 bonus on initiative checks and Perception, Stealth, and Survival skill checks. Also, as long as they travel with her, the geomancer's allies leave no trail and can't be tracked. The geomancer can choose for the group to leave a trail, or even for specific members of the group to leave a trail if she so desires.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "terrainbondex",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Geomancer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Geomancy Tricks"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!a40fe43dee464c9f"
+}

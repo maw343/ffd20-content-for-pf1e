@@ -1,0 +1,66 @@
+{
+  "_id": "2e77bacb94a89844",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Ice Spikes III",
+  "system": {
+    "actions": [
+      {
+        "_id": "c02b5a313db7bbc8",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "5d6",
+              "types": [
+                "cold"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Ice Spikes , except it deals 5d6 points of ice damage instead.",
+      "value": "<p>This spell functions like\nIce Spikes\n, except it deals 5d6 points of ice damage instead.</p>"
+    },
+    "descriptors": [
+      "ice"
+    ],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!2e77bacb94a89844"
+}

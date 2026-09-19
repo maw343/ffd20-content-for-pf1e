@@ -1,0 +1,61 @@
+{
+  "_id": "qGM0G6aAMaV4jg1T",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785629255949,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/light_05.jpg",
+  "name": "Selective Magic (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The black mage can cast two spells per day as if they were modified by the Selective Spell metamagic feat. This does not increase the MP cost or the level of the spell.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "selectivemagic",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Black Mage",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Mage Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!qGM0G6aAMaV4jg1T"
+}

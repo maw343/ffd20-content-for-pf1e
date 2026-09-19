@@ -1,0 +1,61 @@
+{
+  "_id": "d060cd817784457a",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785719207957,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Elemental Fury (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Slots class feature</p><p>You gain access to an additional set of reels for your Slots ability, allowing you to unleash elemental power. When using these reels, you deal elemental damage equal to 1d4 per MGP expended, up to your gambler level, with the element type being based on the rolled result. If you score a \"Jackpot!\", the damage increases to 1d6 per MGP expended, up to your gambler level, and allows you to select from any element from the reel. A dud results in no effect. The elemental damage types are as follows – 1: Earth, 2: Fire, 3: Ice, 4: Lightning, 5: Water, 6: Wind. 8: Holy or Shadow. A successful Reflex save (DC 10 + half your gambler's level + your Charisma modifier) halves this damage.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "elementalfurysu",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Gambler",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Gambler Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!d060cd817784457a"
+}

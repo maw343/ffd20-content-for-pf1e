@@ -1,0 +1,63 @@
+{
+  "_id": "ca99fcfa8f1228c7",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Summon Minor Monster",
+  "system": {
+    "actions": [
+      {
+        "_id": "bd38a0bf9c495c10",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "1d3 summoned creatures"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions as summon monster I, except you can summon 1d3 Tiny or smaller animals, such as bats, lizards, monkeys, rats, ravens...",
+      "value": "<p>This spell functions as summon monster I, except you can summon 1d3 Tiny or smaller animals, such as bats, lizards, monkeys, rats, ravens, toads, or weasels. The summoned animals must all be the same type of creature. As with animals summoned with summon monster I, you may apply one alignment-appropriate template to these animals.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "summoner": 1
+      }
+    },
+    "level": 1,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!ca99fcfa8f1228c7"
+}

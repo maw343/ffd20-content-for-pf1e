@@ -1,0 +1,68 @@
+{
+  "_id": "28389ede1dbfdaa0",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Counter Magic, Superb",
+  "system": {
+    "actions": [
+      {
+        "_id": "e9f8e7c8c7b87f8e",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "immediate",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "one spellcaster"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1 round per level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You reverse time before a spell is cast, disrupting the enemy spellcaster’s mana flow",
+      "value": "<p>You reverse time before a spell is cast, disrupting the enemy spellcaster’s mana flow. Whenever a spellcaster casts a 1st-8th level spell or use a spell-like ability, you can cast this spell to interrupt it, effectively canceling it and prevents the spellcaster from casting spells from that school for 1 round per level.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 9
+      }
+    },
+    "level": 9,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!28389ede1dbfdaa0"
+}

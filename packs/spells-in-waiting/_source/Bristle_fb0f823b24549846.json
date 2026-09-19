@@ -1,0 +1,61 @@
+{
+  "_id": "fb0f823b24549846",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Bristle",
+  "system": {
+    "actions": [
+      {
+        "_id": "2e31253d3666e819",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You give a creature the ability to redirect a portion of its innate toughness away from its own defense and toward the amount of damage i...",
+      "value": "<p>You give a creature the ability to redirect a portion of its innate toughness away from its own defense and toward the amount of damage it deals with natural attacks. Each round, as a swift action at the start of its turn, the creature can choose to reduce some or all of its natural armor bonus to AC and gain an enhancement bonus on all damage rolls for natural attacks equal to that amount. The reduction to natural armor, and thus the enhancement bonus on damage rolls, cannot exceed 1 point per 3 caster levels, to a maximum penalty/bonus of -5/+5 at 15th level. A creature cannot reduce its natural armor bonus to less than 0 with this spell. All attacks directed against the creature use its adjusted AC until the start of its next turn, at which time it can choose to modify its AC again or keep it at its current level. Creatures make this decision without any need for conscious thought or reflection; even creatures with no Intelligence score can benefit from this spell, although they always opt for the maximum possible reduction and bonus, regardless of any tactical advantage they might lose.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "druid": 1
+      }
+    },
+    "level": 1,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!fb0f823b24549846"
+}

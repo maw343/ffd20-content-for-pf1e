@@ -1,0 +1,73 @@
+{
+  "_id": "5cb0382aab87c54b",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Planetarium",
+  "system": {
+    "actions": [
+      {
+        "_id": "239d6edd1522c60a",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "15-ft.-radius spherical projection of night sky"
+        },
+        "duration": {
+          "units": "round",
+          "value": "concentration + 3 rounds",
+          "concentration": true
+        },
+        "save": {
+          "type": "will",
+          "description": "Will disbelief (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You project an image of the night sky based on your current location and the local time, allowing you to observe the heavens and all of i...",
+      "value": "<p>You project an image of the night sky based on your current location and the local time, allowing you to observe the heavens and all of its celestial bodies and features even during the daytime, indoors, or underground. Anyone within the planetarium’s sphere can see the projection, though outside of the sphere the image becomes grainy and indistinct.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 2,
+        "druid": 2,
+        "illusionist": 2,
+        "summoner": 2
+      }
+    },
+    "level": 2,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!5cb0382aab87c54b"
+}

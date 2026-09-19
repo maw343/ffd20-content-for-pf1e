@@ -1,0 +1,80 @@
+{
+  "_id": "641c84a657261ff0",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Death Needles",
+  "system": {
+    "actions": [
+      {
+        "_id": "0fd2618d55bffad7",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "one creature."
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous/1 round"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "8d4",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude partial"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates shooting out a black needles from their fingertip like a Death Hornet towards the opponent",
+      "value": "<p>The caster emulates shooting out a black needles from their fingertip like a Death Hornet towards the opponent. The caster must make a range touch attack, and if it hits, the target takes 8d4 points of non-elemental damage and must make a Fortitude save or be inflicted with the Paralyze status effect. This is considered a poison effect. Learned From Death Hornet and Death Stalker</p>"
+    },
+    "descriptors": [
+      "death"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!641c84a657261ff0"
+}

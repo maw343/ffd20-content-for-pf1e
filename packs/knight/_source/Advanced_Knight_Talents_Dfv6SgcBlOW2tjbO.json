@@ -1,0 +1,61 @@
+{
+  "_id": "Dfv6SgcBlOW2tjbO",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785613111636,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_03.jpg",
+  "name": "Advanced Knight Talents",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 12th level, and every two levels thereafter, a knight can choose one of the following knight advanced talents in place of a knight talent. A complete list of advanced knight talents can be found in the Advanced Knight Talents compendium.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "advancedknighttalents",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Knight",
+          12
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Knight"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Dfv6SgcBlOW2tjbO"
+}

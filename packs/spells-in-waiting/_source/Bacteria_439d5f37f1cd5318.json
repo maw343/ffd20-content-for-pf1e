@@ -1,0 +1,68 @@
+{
+  "_id": "439d5f37f1cd5318",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Bacteria",
+  "system": {
+    "actions": [
+      {
+        "_id": "0cbf69261172a62f",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1d8 rounds"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates a lab rat by releasing a toxic bile towards his target within 30 feet",
+      "value": "<p>The caster emulates a lab rat by releasing a toxic bile towards his target within 30 feet. The target must make a Fortitude save or receive the Sap status effect. Learned From lab rat</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 3
+      }
+    },
+    "level": 3,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!439d5f37f1cd5318"
+}

@@ -1,0 +1,77 @@
+{
+  "_id": "fa8749afca99a57f",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Rolling Thunder",
+  "system": {
+    "actions": [
+      {
+        "_id": "b1c6795a372a6af7",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "allies within a 30-ft.-radius burst centered on you",
+        "duration": {
+          "units": "round",
+          "value": "1d6 rounds"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d6",
+              "types": [
+                "electricity"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates Ramuh’s lightning granting ability upon his/her allies",
+      "value": "<p>The caster emulates Ramuh’s lightning granting ability upon his/her allies. Allies within the area of effect add 1d6 lightning damage to their weapon damage rolls. Learned From Ramuh</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!fa8749afca99a57f"
+}

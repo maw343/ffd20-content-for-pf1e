@@ -1,0 +1,56 @@
+{
+  "_id": "97a775d188d25696",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Choco Feather, Mass",
+  "system": {
+    "actions": [
+      {
+        "_id": "19bd8bfef5bc1bab",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "As choco feather , except this spell affects multiple creatures.",
+      "value": "<p>As\nchoco feather\n, except this spell affects multiple creatures.</p>"
+    },
+    "descriptors": [
+      "wind"
+    ],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!97a775d188d25696"
+}

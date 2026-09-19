@@ -1,0 +1,65 @@
+{
+  "_id": "6d202cbcd2a3ef65",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Rope Trick",
+  "system": {
+    "actions": [
+      {
+        "_id": "c7823854b6ba2603",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "one touched piece of rope from 5 ft. to 30 ft. long"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "1 hour/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "When this spell is cast upon a piece of rope from 5 to 30 feet long, one end of the rope rises into the air until the whole rope hangs pe...",
+      "value": "<p>When this spell is cast upon a piece of rope from 5 to 30 feet long, one end of the rope rises into the air until the whole rope hangs perpendicular to the ground, as if affixed at the upper end. The upper end is, in fact, fastened to an extra-dimensional space that is outside the usual multiverse of extra-dimensional spaces. Creatures in the extra-dimensional space are hidden, beyond the reach of spells (including divinations), unless those spells work across planes. The space holds as many as eight creatures (of any size). The rope cannot be removed or hidden. The rope can support up to 16,000 pounds. A weight greater than that can pull the rope free. Spells cannot be cast across the extra-dimensional interface, nor can area effects cross it. Those in the extra-dimensional space can see out of it as if a 3-foot-by-5-foot window were centered on the rope. The window is invisible, and even creatures that can see the window can’t see through it. Anything inside the extra-dimensional space drops out when the spell ends. The rope can be climbed by only one person at a time. The rope trick spell enables climbers to reach a normal place if they do not climb all the way to the extra-dimensional space.</p>"
+    },
+    "descriptors": [
+      "wind"
+    ],
+    "learnedAt": {
+      "class": {
+        "astrologian": 2,
+        "timemage": 2
+      }
+    },
+    "level": 2,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!6d202cbcd2a3ef65"
+}

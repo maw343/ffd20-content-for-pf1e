@@ -1,0 +1,61 @@
+{
+  "_id": "I4Xi0bgL3YTMqrgJ",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785711691512,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/light_15.jpg",
+  "name": "Clear Mind (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>Starting at 5th level, an astrologian can regain her MP quicker. The astrologian must be relaxed and must be free from overt distractions, such as combat raging nearby or other loud noises. For example, she could be riding in the back of a carriage and benefit from this ability. The astrologian does not gain this recovery if she is asleep or unconscious. The astrologian regains 1 MP per hour. This increases by 1 for every five astrologian levels after 5th.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "clearmind",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Astrologian",
+          5
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Astrologian"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!I4Xi0bgL3YTMqrgJ"
+}

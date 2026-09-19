@@ -1,0 +1,61 @@
+{
+  "_id": "371b1d2326ff4842",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785718761462,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Thunder Stunner (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> —</p><p>This gadget looks like a blunderbuss, but it has a much-shortened barrel and can be operated with one hand. In actuality it's a device that focuses and enhances the effects of thunderstones. Loading a single thunderstone requires a standard action. When fired as an attack action, the thunder stunner fires a loud, concussive cone of force up to 15 feet. Creatures caught in this cone must make a Fortitude save or be deafened for 1 hour and stunned for 1d4 rounds. Creatures that succeed on this save are merely staggered for 1 round.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "thunderstunnerex",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Engineer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Engineer Tricks - Gadgets"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!371b1d2326ff4842"
+}

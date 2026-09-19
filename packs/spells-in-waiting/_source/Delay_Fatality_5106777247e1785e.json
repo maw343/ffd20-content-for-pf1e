@@ -1,0 +1,63 @@
+{
+  "_id": "5106777247e1785e",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Delay Fatality",
+  "system": {
+    "actions": [
+      {
+        "_id": "d8702280fd1d12ae",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "immediate",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous DESCRIPTION When death is about to claim you because of a lethal attack of any sort, you instead enter a state of suspended animation. While fatality is deferred, you do not age, breathe, grow hungry, sleep, or regain MP. You are unaware of your surroundings and cannot use subconscious spells. Outside forces can damage your body, but as long as your head remains attached to your torso and your brain remains intact, the physical damage can be healed. A coup de’grace still forces you to make a Fortitude save or die. You can cast this spell quickly enough to avoid complete destruction if you are unexpectedly affected by a lethal melee or ranged attack or effect. You cannot cast this spell if you are unconscious. You remain in a state of delayed fatality until some third party provides you with magical healing in the amount equal to 10 points + the amount of damage your body originally (and subsequently) sustained which dropped you into this deferred state. When so cured, you become conscious, possess 1 hp, 1 MP, and sustain 1d4+1 points of temporary ability damage on each of your six ability scores. (If this brings your Constitution score to 0, you die normally.)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "When death is about to claim you because of a lethal attack of any sort, you instead enter a state of suspended animation",
+      "value": "<p>When death is about to claim you because of a lethal attack of any sort, you instead enter a state of suspended animation. While fatality is deferred, you do not age, breathe, grow hungry, sleep, or regain MP. You are unaware of your surroundings and cannot use subconscious spells. Outside forces can damage your body, but as long as your head remains attached to your torso and your brain remains intact, the physical damage can be healed. A coup de’grace still forces you to make a Fortitude save or die. You can cast this spell quickly enough to avoid complete destruction if you are unexpectedly affected by a lethal melee or ranged attack or effect. You cannot cast this spell if you are unconscious. You remain in a state of delayed fatality until some third party provides you with magical healing in the amount equal to 10 points + the amount of damage your body originally (and subsequently) sustained which dropped you into this deferred state. When so cured, you become conscious, possess 1 hp, 1 MP, and sustain 1d4+1 points of temporary ability damage on each of your six ability scores. (If this brings your Constitution score to 0, you die normally.)</p>"
+    },
+    "descriptors": [
+      "death"
+    ],
+    "learnedAt": {
+      "class": {
+        "necromancer": 8
+      }
+    },
+    "level": 8,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!5106777247e1785e"
+}

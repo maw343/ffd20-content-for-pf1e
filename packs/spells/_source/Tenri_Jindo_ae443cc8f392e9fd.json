@@ -1,0 +1,74 @@
+{
+  "_id": "ae443cc8f392e9fd",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Tenri Jindo",
+  "system": {
+    "actions": [
+      {
+        "_id": "5231b15149993274",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "area": "30-ft.-radius burst from caster",
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 15))d4",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Bringing forth ancient energy, you expel a burst of non elemental energy from yourself with devastating power",
+      "value": "<p>Bringing forth ancient energy, you expel a burst of non elemental energy from yourself with devastating power. You deal 1d4 non-elemental damage plus 1d4 per caster level (Max 15d4) to all within a 30ft radius of you.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "ninja": 6
+      }
+    },
+    "level": 6,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!ae443cc8f392e9fd"
+}

@@ -1,0 +1,55 @@
+{
+  "_id": "c8d3598eacc693c3",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Obscure III",
+  "system": {
+    "actions": [
+      {
+        "_id": "68578b43a92aaad9",
+        "name": "Use",
+        "actionType": "heal",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like obscure , but the area of effect increases to 30-ft.",
+      "value": "<p>This spell functions like\nobscure\n, but the area of effect increases to 30-ft.-radius. Concealment increases miss chance to 30% in dim light and 75% miss chance in darkness.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!c8d3598eacc693c3"
+}

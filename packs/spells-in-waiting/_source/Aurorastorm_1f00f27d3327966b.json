@@ -1,0 +1,63 @@
+{
+  "_id": "1f00f27d3327966b",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Aurorastorm",
+  "system": {
+    "actions": [
+      {
+        "_id": "b8970282bc7c81c1",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "area": "30ft-radius",
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Forming holy auras, lights, and sprites between your hands you thrust them forwards as they explode into a soft swirl of auroras",
+      "value": "<p>Forming holy auras, lights, and sprites between your hands you thrust them forwards as they explode into a soft swirl of auroras. The aurorastorm creates a 30ft radius of varied-colour auroras that both increase the light level by 2 steps (darkness becomes normal light, dim light and normal light become bright light) and have a chance to affect any light, healing, and dark school spells. Any time a spell with the light, healing, or dark schools is cast within or into the aurorastorm roll a d100, if it lands between 1 – 33, the damage/healing is increased by 10% if holy or healing, and reduced by 10% if dark. If any creature is currently affected by an effect that produces light, like by a torchlight cantrip, the chance of it activating for them increases to 1 – 50. Aurorastorm counters and dispels spells of equal or lower level that reduce the light level of an area like blacklight . Aurorastorm can be countered and dispelled by equal or higher level spells that reduce the light level of an area. This spell was submitted as a part of the SCC for February 2021 by DeadKingKicker.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 3,
+        "geomancer": 3,
+        "whitemage": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!1f00f27d3327966b"
+}

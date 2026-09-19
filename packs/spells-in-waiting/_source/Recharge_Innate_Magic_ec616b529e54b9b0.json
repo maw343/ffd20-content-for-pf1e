@@ -1,0 +1,63 @@
+{
+  "_id": "ec616b529e54b9b0",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Recharge Innate Magic",
+  "system": {
+    "actions": [
+      {
+        "_id": "c427b4d9cb9b3114",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous DESCRIPTION You channel magic energy into your own aura, recharging your innate magic abilities. You regain one use of all 0-level and 1st-level spell-like abilities you can use as a result of a racial trait."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You channel magic energy into your own aura, recharging your innate magic abilities",
+      "value": "<p>You channel magic energy into your own aura, recharging your innate magic abilities. You regain one use of all 0-level and 1st-level spell-like abilities you can use as a result of a racial trait.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 1,
+        "redmage": 1,
+        "whitemage": 1
+      }
+    },
+    "level": 1,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!ec616b529e54b9b0"
+}

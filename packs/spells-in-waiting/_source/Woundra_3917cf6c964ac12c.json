@@ -1,0 +1,76 @@
+{
+  "_id": "3917cf6c964ac12c",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Woundra",
+  "system": {
+    "actions": [
+      {
+        "_id": "00f08f81ec976c88",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "area": "10-ft.-radius burst",
+        "duration": {
+          "units": "round",
+          "value": "2d6 rounds"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "5d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude partial"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Your opponents’ skin and muscle split all over, as though being cut into by a storm of invisible knives, dealing 5d6 points of non-elemen...",
+      "value": "<p>Your opponents’ skin and muscle split all over, as though being cut into by a storm of invisible knives, dealing 5d6 points of non-elemental damage. Creatures who fail the saving throw take 2d4 bleed damage per round for the duration of the spell or until they receive magical healing. Success negates the bleed damage.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "necromancer": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!3917cf6c964ac12c"
+}

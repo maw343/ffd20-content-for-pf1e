@@ -1,0 +1,63 @@
+{
+  "_id": "d5bc7fbcd01a5dea",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Pernicious Poison",
+  "system": {
+    "actions": [
+      {
+        "_id": "40593f86e6a5cba1",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "10 minute/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You weaken the target’s defenses against poison.",
+      "value": "<p>You weaken the target’s defenses against\npoison\n. The target gains a –4 penalty on saves against\npoisons\n, and poisons affecting the target continue for another 2 frequency increments (for example, black adder venom lasts 8 rounds instead of 6, and arsenic lasts for 6 minutes instead of 4). Attempts to cure the poisoned target with skill or magic take a –4 penalty.</p>"
+    },
+    "descriptors": [
+      "poison"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 2,
+        "necromancer": 2
+      }
+    },
+    "level": 2,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d5bc7fbcd01a5dea"
+}

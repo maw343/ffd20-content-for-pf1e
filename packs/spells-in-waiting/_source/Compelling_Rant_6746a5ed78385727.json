@@ -1,0 +1,79 @@
+{
+  "_id": "6746a5ed78385727",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Compelling Rant",
+  "system": {
+    "actions": [
+      {
+        "_id": "139c736cab6284b8",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "any number of creatures"
+        },
+        "duration": {
+          "units": "round",
+          "value": "concentration plus 1 round/level, up to 1 hour/level",
+          "concentration": true
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (see text)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You deliver a confusing but fascinating monologue, relaying conspiracies or metaphysical revelations that confound your audience, through...",
+      "value": "<p>You deliver a confusing but fascinating monologue, relaying conspiracies or metaphysical revelations that confound your audience, throughout the spell’s casting time and as long as you concentrate. You take 1d4 points of Wisdom drain when you begin the speech and can’t reduce or prevent this damage in any way. Each intelligent creature in the spell’s area takes 1d6 points of Wisdom damage as their perceptions of reality realign with yours for the spell’s duration. Listeners with at least 5 HD can attempt a Will save to negate the effects. Your targets view you with a friendly attitude and respond to criticism of you with irritation. Bluff, Diplomacy, or Intimidate checks to create doubt about your purpose in those affected by the spell take a –4 penalty. The attitude of your targets regarding any creature that criticizes you or your vision automatically changes one step toward hostile; a Diplomacy check that fails by 5 or more reduces their attitude further. Your targets retain the same alignment and their prior beliefs, in addition to the ones you force on them. You can’t force beliefs on a target if such beliefs would be necessarily against the nature of its alignment and prior beliefs, but targets are otherwise able to hold contradictory beliefs.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 5
+      }
+    },
+    "level": 5,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!6746a5ed78385727"
+}

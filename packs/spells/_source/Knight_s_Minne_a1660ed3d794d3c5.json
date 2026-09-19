@@ -1,0 +1,68 @@
+{
+  "_id": "a1660ed3d794d3c5",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Knight’s Minne",
+  "system": {
+    "actions": [
+      {
+        "_id": "954804b3f9f6ae20",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "allies within 30 ft. of you"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round",
+          "concentration": true
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You play the song of the knight, enhancing nearby allies Armor Class to deflect attacks better.",
+      "value": "<p>You play the song of the knight, enhancing nearby allies Armor Class to deflect attacks better. Each round this song is in effect, the targets gain a +2 deflection bonus to Armor Class.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bard": 1
+      }
+    },
+    "level": 1,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a1660ed3d794d3c5"
+}

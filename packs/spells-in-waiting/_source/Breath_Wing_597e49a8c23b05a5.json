@@ -1,0 +1,77 @@
+{
+  "_id": "597e49a8c23b05a5",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Breath Wing",
+  "system": {
+    "actions": [
+      {
+        "_id": "11b1702fdc479ceb",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "cone-shaped burst",
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "8d6",
+              "types": [
+                "wind"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the Ruhk’s ability to cause a breath-like attack with her arms to slice the air in front of herself in a 30-ft",
+      "value": "<p>The caster emulates the Ruhk’s ability to cause a breath-like attack with her arms to slice the air in front of herself in a 30-ft.-cone. Creatures within the area of effect take 8d6 points of wind damage, Reflex save for half damage. Learned From Air Elemental Family, Green Dragon Family, and Zuu Family</p>"
+    },
+    "descriptors": [
+      "wind"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 4
+      }
+    },
+    "level": 4,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!597e49a8c23b05a5"
+}

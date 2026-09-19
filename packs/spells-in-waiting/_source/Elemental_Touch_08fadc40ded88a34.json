@@ -1,0 +1,80 @@
+{
+  "_id": "08fadc40ded88a34",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Elemental Touch",
+  "system": {
+    "actions": [
+      {
+        "_id": "fc825de428448ab0",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Upon completing the casting of this spell, elemental energy infuses your hands",
+      "value": "<p>Upon completing the casting of this spell, elemental energy infuses your hands. Choose an elemental type: earth, fire, ice, lightning, water, or wind. You gain a melee touch attack causing 1d6 points of damage of that elemental type (this damage is not multiplied on a critical hit), along with a special effect described below. You also deal elemental damage and the related special effect when you attack with your hands using an unarmed strike, a single claw, or a single slam attack. This bonus damage can never apply to multiple weapons, such as casting the spell a second time. Earth : Your touch attack inflicts a creature with the Weighted status effect for 1d4 rounds, a Fortitude save to negate. Fire : Your touch attack inflicts a creature with the Burning status effect for 1d4 rounds, a Reflex save to negate. Ice : Your touch attack inflicts a creature with the Frozen status effect for 1d4 rounds, a Fortitude save to negate. Lightning : Your touch attack inflicts a creature with the Static status effect for 1d4 rounds, a Reflex save to negate. Water : Your touch attack inflicts a creature with the Drenched status effect for 1d4 rounds, a Fortitude save to negate. Wind : Your touch attack inflicts a creature with the Squalled status effect for 1d4 rounds, a Reflex save to negate. Subsequent attacks inflict the bonus elemental damage, but the status effects only apply to your first successful attack per round. This spell grants no special protection to anything held in or worn on your hands. When you cast this spell to deal earth, fire, ice, lightning, water, or wind damage, it is a spell of that type.</p>"
+    },
+    "descriptors": [
+      "fire",
+      "wind",
+      "earth",
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 2,
+        "geomancer": 2,
+        "redmage": 2
+      }
+    },
+    "level": 2,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!08fadc40ded88a34"
+}

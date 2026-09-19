@@ -1,0 +1,67 @@
+{
+  "_id": "2079e8dc2c052d48",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Word of Recall",
+  "system": {
+    "actions": [
+      {
+        "_id": "9b1f559f81e90273",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "you and touched objects or other willing creatures"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "will",
+          "description": "none or Will negates (harmless, object)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Word of recall teleports you instantly back to your sanctuary when the word is uttered",
+      "value": "<p>Word of recall teleports you instantly back to your sanctuary when the word is uttered. You must designate the sanctuary when you prepare the spell, and it must be a very familiar place. The actual point of arrival is a designated area no larger than 10 feet by 10 feet. You can be transported any distance within a plane but cannot travel between planes. You can transport, in addition to yourself, any objects you carry, as long as their weight doesn’t exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent per three caster levels. A Large creature counts as two Medium creatures, a Huge creature counts as two Large creatures, and so forth. All creatures to be transported must be in contact with one another, and at least one of those creatures must be in contact with you. Exceeding this limit causes the spell to fail. An unwilling creature can’t be teleported by word of recall. Likewise, a creature’s Will save (or Spell Resistance) prevents items in its possession from being teleported. Unattended, non-magical objects receive no saving throw.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "geomancer": 7
+      }
+    },
+    "level": 7,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!2079e8dc2c052d48"
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "7FhfBZPFadzrkbQw",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Enhanced Dragon Sight (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Dragon Sight class feature</p><p>While your Dragon Sight ability is active, among your usual benefits, you also suppress any Blinded or Dimmed status effects on you. Additionally, Dragon Sight bestows you the ability to see the auras of living creatures, effectively allowing you to discern the living from the nonliving (undead or constructs).</p>"
+    },
+    "tag": "enhanceddragonsight",
+    "source": "Final Fantasy d20 - Dragoon Talents",
+    "associations": {
+      "classes": [
+        [
+          "Dragoon",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!7FhfBZPFadzrkbQw"
+}

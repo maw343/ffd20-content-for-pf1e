@@ -1,0 +1,50 @@
+{
+  "_id": "A5FF6eQzfF7lkZev",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Bloody Stab (Combat, Tonkin)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Base attack bonus +5, serrated wound racial trait, tonkin</p><p><strong>Benefit:</strong> Increase the damage of your light piercing melee weapon attacks to 1d6 (regardless of the actual size of weapon). Furthermore, when you confirm a critical hit with your light piercing melee weapon attack, you also deal 1 point of bleed damage.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "racial",
+    "tag": "bloody_stab_combat_tonki",
+    "requirements": "Base attack bonus +5, serrated wound racial trait, tonkin",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-RacialFeats",
+        "pages": "Racial Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!A5FF6eQzfF7lkZev"
+}

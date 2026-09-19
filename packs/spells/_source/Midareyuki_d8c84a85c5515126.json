@@ -1,0 +1,61 @@
+{
+  "_id": "d8c84a85c5515126",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Midareyuki",
+  "system": {
+    "actions": [
+      {
+        "_id": "dc11cc5a4a365b7b",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "one item on person"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1 minute DESCRIPTION As Fuma Throw , except it deals 5 additional dice, and always applies sneak attack damage even if the target is not subject to sneak attack damage by any means such as immunity to precision damage or uncanny dodge."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "As Fuma Throw , except it deals 5 additional dice, and always applies sneak attack damage even if the target is not subject to sneak atta...",
+      "value": "<p>As Fuma Throw , except it deals 5 additional dice, and always applies sneak attack damage even if the target is not subject to sneak attack damage by any means such as immunity to precision damage or uncanny dodge.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "ninja": 5
+      }
+    },
+    "level": 5,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d8c84a85c5515126"
+}

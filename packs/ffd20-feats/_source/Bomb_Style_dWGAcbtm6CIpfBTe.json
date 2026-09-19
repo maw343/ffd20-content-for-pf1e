@@ -1,0 +1,50 @@
+{
+  "_id": "dWGAcbtm6CIpfBTe",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Bomb Style",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Improved Unarmed Strike, BAB +2 or Monk 1st Level</p><p><strong>Benefit:</strong> If you're flanking an opponent, you deal an additional 1d6 of fire damage when using unarmed strikes. In addition, you gain fire resistance of 5.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "style",
+    "tag": "bomb_style",
+    "requirements": "Improved Unarmed Strike, BAB +2 or Monk 1st Level",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-StyleFeats",
+        "pages": "Style Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!dWGAcbtm6CIpfBTe"
+}

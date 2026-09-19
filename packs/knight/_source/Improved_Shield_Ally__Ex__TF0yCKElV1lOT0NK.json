@@ -1,0 +1,61 @@
+{
+  "_id": "TF0yCKElV1lOT0NK",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785613111636,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_03.jpg",
+  "name": "Improved Shield Ally (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 14th level, when the knight uses Shield Ally, he can intercept any attacks instead of just physical, and can choose to intercept further attacks made against the designated ally. The total attacks he can intercept per turn is equal to his Charisma modifier (minimum 1). Intercepting an attack past the first is a free action usable outside of his turn. The knight may only swap places with the ally once per turn with Shield Ally.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "improvedshieldally",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Knight",
+          14
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Knight"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!TF0yCKElV1lOT0NK"
+}

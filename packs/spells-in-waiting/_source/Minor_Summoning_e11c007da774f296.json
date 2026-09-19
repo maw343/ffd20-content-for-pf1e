@@ -1,0 +1,63 @@
+{
+  "_id": "e11c007da774f296",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Minor Summoning",
+  "system": {
+    "actions": [
+      {
+        "_id": "83b93db3e749f24a",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "0 ft"
+        },
+        "target": {
+          "value": "unattended, non-magical object of nonliving plant matter, up to 1 cu. ft./level"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "1 hour/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You summon a non-magical, unattended object of nonliving vegetable matter",
+      "value": "<p>You summon a non-magical, unattended object of nonliving vegetable matter. The volume of the item summoned cannot exceed 1 cubic foot per caster level. You must succeed on an appropriate Craft skill check to make a complex item.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "summoner": 3
+      }
+    },
+    "level": 3,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!e11c007da774f296"
+}

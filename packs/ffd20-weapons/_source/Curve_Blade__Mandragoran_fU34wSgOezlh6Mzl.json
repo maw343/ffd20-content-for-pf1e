@@ -1,0 +1,87 @@
+{
+  "_id": "fU34wSgOezlh6Mzl",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/items/weapons/greatsword.PNG",
+  "name": "Curve Blade, Mandragoran",
+  "system": {
+    "actions": [
+      {
+        "_id": "73f7baac4c2e4e0b",
+        "ability": {
+          "attack": "_default",
+          "critMult": 2
+        },
+        "actionType": "mwak",
+        "activation": {
+          "type": "attack",
+          "unchained": {
+            "type": "attack"
+          }
+        },
+        "conditionals": [],
+        "damage": {
+          "parts": [
+            {
+              "formula": "sizeRoll(1, 10, @size)",
+              "types": [
+                "slashing"
+              ]
+            }
+          ]
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "extraAttacks": {
+          "type": "standard"
+        },
+        "name": "Attack",
+        "range": {
+          "maxIncrements": 10,
+          "units": "ft",
+          "value": "0"
+        }
+      }
+    ],
+    "baseTypes": [
+      "Curve Blade, Mandragoran"
+    ],
+    "description": {
+      "unidentified": "<h3>Statistics</h3><p><b>Damage</b> 1d6 (small), 1d8 (medium); <b>Critical</b> 20/x2; <b>Type</b> Slashing</p><h3>Description</h3>\n<h3>Curve Blade, Mandragoran</h3>\n<p><strong>Cost:</strong> 85 gil</p><p><strong>Damage:</strong> 1d8 (small), 1d10 (medium)</p><p><strong>Critical:</strong> 18-20/x2</p><p><strong>Weight:</strong> 7 lbs.</p><p><strong>Type:</strong> Slashing</p><p><strong>Special:</strong> —</p>"
+    },
+    "hardness": 5,
+    "hp": {
+      "base": 10
+    },
+    "material": {
+      "base": {
+        "value": "steel"
+      }
+    },
+    "price": 85,
+    "properties": {},
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "1"
+      }
+    ],
+    "subType": "martial",
+    "tags": [],
+    "weaponGroups": [
+      "bladesHeavy"
+    ],
+    "weaponSubtype": "2h",
+    "hands": 2,
+    "held": "2h",
+    "weight": {
+      "value": 7
+    }
+  },
+  "type": "weapon",
+  "effects": [],
+  "folder": "EXOWeap00000000001",
+  "_key": "!items!fU34wSgOezlh6Mzl"
+}

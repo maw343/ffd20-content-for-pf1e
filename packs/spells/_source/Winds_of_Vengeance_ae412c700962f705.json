@@ -1,0 +1,76 @@
+{
+  "_id": "ae412c700962f705",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Winds of Vengeance",
+  "system": {
+    "actions": [
+      {
+        "_id": "19394340d3afa818",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "5d8",
+              "types": [
+                "wind"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You surround yourself with a buffeting shroud of supernatural, tornado-force winds.",
+      "value": "<p>You surround yourself with a buffeting shroud of supernatural, tornado-force winds. These winds grant you a fly speed of 60 feet with perfect maneuverability. Neither your armor nor your load affects this fly speed. The winds shield you from any other wind effects, and form a shell of breathable air around you, allowing you to fly and breathe underwater or in outer space.\nRanged weapons (including giant-thrown boulders, siege weapon projectiles, and other massive ranged weapons) passing through the winds are deflected by the winds and automatically miss you. Gases and most gaseous breath weapons cannot pass though the winds.\nIn addition, when a creature hits you with a melee attack, you can shape your winds so they lash out at that creature as an\nimmediate action\n. The creature must make a Fortitude Saving Throw or take 5d8 points of wind damage and be knocked prone (if on the ground). On a failed save, Huge flying creatures are checked and Large-sized or smaller flying creatures are blown away instead of knocked prone. On a successful save, the damage is halved and the creature is not knocked prone (or checked or blown away).</p>"
+    },
+    "descriptors": [
+      "wind"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 9,
+        "druid": 9,
+        "whitemage": 9,
+        "geomancer": 9
+      }
+    },
+    "level": 9,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!ae412c700962f705"
+}

@@ -1,0 +1,65 @@
+{
+  "_id": "EQk2AKebRlH0q7Zo",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785713309581,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/green_35.jpg",
+  "name": "Bitter Pill (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The chemist becomes bitter in flavor. Any creature that hits the bitter chemist with a bite attack gains the sickened condition for 1 round unless it succeeds at a Fortitude save (DC 10 + half the chemist's level + his Constitution modifier). Any creature that swallows the chemist whole gains the nauseated condition for 1 round unless it succeeds at a Fortitude save (same DC as above). If the chemist is trapped in the creature's gullet and it becomes nauseated, the creature vomits him back out immediately as a free action at the start of the creature's turn; the chemist lands prone adjacent to the creature</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "bitterpill",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Chemist",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Chemist - Discoveries"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "ffd20": {
+      "bombDiscovery": false
+    }
+  },
+  "_key": "!items!EQk2AKebRlH0q7Zo"
+}

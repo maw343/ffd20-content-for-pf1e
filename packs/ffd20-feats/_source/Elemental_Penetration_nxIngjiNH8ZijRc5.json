@@ -1,0 +1,50 @@
+{
+  "_id": "nxIngjiNH8ZijRc5",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Elemental Penetration",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> —</p><p><strong>Benefit:</strong> Choose an element. Spells of that element are harder to resist. Any elemental resistance is considered 2 less when determining damage from a spell of the element you select, but is considered 2 more with spells from its weakness.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "general",
+    "tag": "elemental_penetration",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-GeneralFeats",
+        "pages": "General Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!nxIngjiNH8ZijRc5"
+}

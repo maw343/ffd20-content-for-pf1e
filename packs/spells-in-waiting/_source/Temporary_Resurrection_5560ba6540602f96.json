@@ -1,0 +1,63 @@
+{
+  "_id": "5560ba6540602f96",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Temporary Resurrection",
+  "system": {
+    "actions": [
+      {
+        "_id": "74c42056ed3a0c78",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "dead creature touched"
+        },
+        "duration": {
+          "units": "perm",
+          "value": "24 hours DESCRIPTION You restore temporary life to a body that has been dead for less than 48 hours. The spell lasts for 24 hours, after which the target dies again. The target gains 1 permanent negative level while under the effect of this spell; this negative level goes away when the target dies or is permanently raised from the dead (such as with raise). The target still counts as a dead corpse (but not undead) for the purpose of spells that revive dead creatures, so a white mage can cast raise or a similar spell on the target even while this spell is active. Once a creature has been revived with temporary resurrection, this spell cannot be used on it again until it is permanently raised from the dead."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You restore temporary life to a body that has been dead for less than 48 hours",
+      "value": "<p>You restore temporary life to a body that has been dead for less than 48 hours. The spell lasts for 24 hours, after which the target dies again. The target gains 1 permanent negative level while under the effect of this spell; this negative level goes away when the target dies or is permanently raised from the dead (such as with raise). The target still counts as a dead corpse (but not undead) for the purpose of spells that revive dead creatures, so a white mage can cast raise or a similar spell on the target even while this spell is active. Once a creature has been revived with temporary resurrection, this spell cannot be used on it again until it is permanently raised from the dead.</p>"
+    },
+    "descriptors": [
+      "negative"
+    ],
+    "learnedAt": {
+      "class": {
+        "necromancer": 7
+      }
+    },
+    "level": 7,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!5560ba6540602f96"
+}

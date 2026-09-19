@@ -1,0 +1,58 @@
+{
+  "_id": "r8SrPZ8upP8UMq6M",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Salvage Expert (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>At 10th level, the engineer has gotten so good at keeping an eye out for spare parts that he can always decrease the cost of repairs or construction by 25%. In addition, when using the Salvage ability, the engineer gains a competence bonus on his Perception checks equal to half of his engineer level.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "salvage_expert_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Engineer"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Engineer",
+          10
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!r8SrPZ8upP8UMq6M"
+}

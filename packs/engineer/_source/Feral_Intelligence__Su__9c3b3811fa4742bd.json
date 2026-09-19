@@ -1,0 +1,61 @@
+{
+  "_id": "9c3b3811fa4742bd",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785718761454,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Feral Intelligence (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Engineer 8</p><p>The engineer installs a rudimentary but quite advanced intelligence into the automaton. The automaton gains an Intelligence score of 2. This score can never be increased. This intelligence allows the automaton to develop some basic skills and combat tactics, not too dissimilar from beasts. While it still cannot speak, it does develop a simple personality that tends toward being protective of its creator and taking unclear commands too literally. The automaton gains feats appropriate for a character with its Hit Dice. Because of its limited intellect, though, it can only select from the following feats: Acrobatic, Agile Maneuvers, Athletic, Blind-Fight, Combat Reflexes, Diehard, Dodge, Endurance, Great Fortitude, Greater Bull Rush, Greater Overrun, Greater Sunder, Improved Bull Rush, Improved Initiative, Improved Natural Attack, Improved Overrun, Intimidating Prowess, Improved Sunder, Iron Will, Lightning Reflexes, Mobility, Power Attack, Run, Skill Focus, Spring Attack, Stealthy, Toughness, Weapon Finesse, and Weapon Focus. The automaton also gains one skill point per Hit Dice. It can only gain ranks in the following skills, which it treats as class skills: Acrobatics (Dex), Climb (Str), Escape Artist (Dex), Intimidate (Cha), Perception (Wis), Stealth (Dex), Survival (Wis), and Swim (Str). When the automaton receives its master upgrade, it loses this augmentation. In its place, the engineer can select another engineer trick; however, its feats and spent skill points remain unchanged.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "feralintelligencesu",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Engineer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Engineer Tricks - Augmentations"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!9c3b3811fa4742bd"
+}

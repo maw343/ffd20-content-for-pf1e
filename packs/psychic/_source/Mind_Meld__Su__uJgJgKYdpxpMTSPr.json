@@ -1,0 +1,58 @@
+{
+  "_id": "uJgJgKYdpxpMTSPr",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Mind Meld (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 5th level, a psychic can probe a creature's mind that requires one minute of physical contact to establish; it persists for up to one minute after activation, so long as physical contact is maintained. The target must be willing or helpless, because of the time required. The mind meld lets her use the Aid Another action to boost a willing creature's Knowledge skill check.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "mind_meld_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Psychic"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Psychic",
+          5
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!uJgJgKYdpxpMTSPr"
+}

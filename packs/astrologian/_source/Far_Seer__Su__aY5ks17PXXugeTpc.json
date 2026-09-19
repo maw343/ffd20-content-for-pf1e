@@ -1,0 +1,61 @@
+{
+  "_id": "aY5ks17PXXugeTpc",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785711691514,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/light_15.jpg",
+  "name": "Far Seer (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 13th level, an astrologian learns a method of divination that is especially suited for divining and understanding the future, but not for directly harming opponents. For the purpose of determining what level spell she expends when spending MP, the astrologian treats the spell level of spells that predict the future (such as augury and divination) as one spell level lower (minimum spell level 1st).</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "farseer",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Astrologian",
+          13
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Astrologian"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!aY5ks17PXXugeTpc"
+}

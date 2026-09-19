@@ -1,0 +1,71 @@
+{
+  "_id": "79cd3ad512f62d78",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Countdown",
+  "system": {
+    "actions": [
+      {
+        "_id": "8cb8cebb23b6c613",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "2d4 rounds"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Similar to the condemn spell, the target can be of any alignment",
+      "value": "<p>Similar to the condemn spell, the target can be of any alignment. The victim of this spell has 2d4 rounds to be cured before he falls to 0 hit points. The subject falls unconscious once the spell has ended, and may be revived when healed.</p>"
+    },
+    "descriptors": [
+      "death"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 7,
+        "necromancer": 7
+      }
+    },
+    "level": 7,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!79cd3ad512f62d78"
+}

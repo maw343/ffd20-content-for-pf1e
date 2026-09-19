@@ -1,0 +1,67 @@
+{
+  "_id": "de15e17abbe75654",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Rest In Peace",
+  "system": {
+    "actions": [
+      {
+        "_id": "8d79e3ed626d94b0",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "100 ft"
+        },
+        "area": "30-ft.-radius",
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates a melia chanting a hymn of eternal rest",
+      "value": "<p>The caster emulates a melia chanting a hymn of eternal rest. Any creature in the area of the hymn whom are asleep (friend and foe alike) die unless they make a Fortitude save. Learned From Treant Family</p>"
+    },
+    "descriptors": [
+      "death"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 9
+      }
+    },
+    "level": 9,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!de15e17abbe75654"
+}

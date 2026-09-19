@@ -1,0 +1,50 @@
+{
+  "_id": "UY70G0aluuACdTEi",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Extra Defile",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Harm touch class feature, defile class feature</p><p><strong>Benefit:</strong> Select one additional defile for which you qualify; harm touch damage also applies this defile's effects.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "classFeat",
+    "tag": "extra_defile",
+    "requirements": "Harm touch class feature, defile class feature",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-ClassFeats",
+        "pages": "Class Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!UY70G0aluuACdTEi"
+}

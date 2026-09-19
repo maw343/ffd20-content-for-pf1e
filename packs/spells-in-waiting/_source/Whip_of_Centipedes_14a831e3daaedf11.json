@@ -1,0 +1,66 @@
+{
+  "_id": "14a831e3daaedf11",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Whip of Centipedes",
+  "system": {
+    "actions": [
+      {
+        "_id": "81a8bde1922db282",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "2d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions as whip of spiders , except it summons centipedes, and any creature you strike with the whip takes swarm damage as i...",
+      "value": "<p>This spell functions as whip of spiders , except it summons centipedes, and any creature you strike with the whip takes swarm damage as if it were attacked by a centipede swarm (2d6 points of damage plus poison and distraction). If you transform the whip into a centipede swarm, it has 10 hit points.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!14a831e3daaedf11"
+}

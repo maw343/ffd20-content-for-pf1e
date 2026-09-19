@@ -1,0 +1,78 @@
+{
+  "_id": "0s9VZx035CDt0ZIq",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Motes of Time (Su)",
+  "system": {
+    "description": {
+      "value": "<p>A mote is a tiny split-second of time that a time mage steals from his own future. Each day, the time mage has a pool of motes equal to his time mage level. Once per round as a free action, even outside of their turn, a time mage can expend a mote to take a swift action that does not count against his normal limit of one swift action per round for time mage class features or spells, or gain a bonus to one skill check, ability check, saving throw, or caster level check on a single action within one round, equal to +1d3 (increasing to +2d3 at 8th level and +3d3 at 16th level). At 3rd level, by spending a mote, the time mage can extend any spell he casts that has a variable duration by a number of rounds equal to the bonus above. At 7th level, he may spend a mote to reduce the duration of any negative condition or effect he is suffering by 1d6 rounds (2d6 at 15th level, minimum 0). At 11th level, he may spend a mote to take a move action as a swift action. At 15th level, he can spend a mote to cast a spell with a casting time of 1 standard action or less as a swift action, and cannot cast any other spell that round. At 19th level, he may use a mote to grant any ally within 60 feet an additional move action on that ally's next turn. A time mage may gain additional options for use of a mote by taking temporal talents, though he is still restricted to spending motes only once each round.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "motes_of_time_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Time Mage"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Time Mage",
+          1
+        ],
+        [
+          "Time Mage",
+          3
+        ],
+        [
+          "Time Mage",
+          7
+        ],
+        [
+          "Time Mage",
+          11
+        ],
+        [
+          "Time Mage",
+          15
+        ],
+        [
+          "Time Mage",
+          19
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!0s9VZx035CDt0ZIq"
+}

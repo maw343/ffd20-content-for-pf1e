@@ -1,0 +1,61 @@
+{
+  "_id": "zt1dPdHh1rsnARK2",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785711942773,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/light_15.jpg",
+  "name": "Staff-Like Wand (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Craft Staff feat</p><p>The astrologian's research has unlocked a new power in conjunction with using a wand. Similar to using a magic staff, she uses her own Wisdom score and relevant feats to set the DC for saves against spells she casts from a wand, and she can use her caster level when activating the power of a wand if it's higher than the caster level of the wand.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "stafflikewand",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Astrologian",
+          12
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Astrology Secrets"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!zt1dPdHh1rsnARK2"
+}

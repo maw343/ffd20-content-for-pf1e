@@ -1,0 +1,67 @@
+{
+  "_id": "d0dddaa45c8db8cf",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Shadow Summoning, Greater",
+  "system": {
+    "actions": [
+      {
+        "_id": "d12f1f31001156e5",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "see text"
+        },
+        "duration": {
+          "units": "spec",
+          "value": "see text"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will disbelief (if interacted with) — varies — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Shadow Summoning , except that it duplicates any summoner, necromancer, or geomancer summoning spell that summo...",
+      "value": "<p>This spell functions like Shadow Summoning , except that it duplicates any summoner, necromancer, or geomancer summoning spell that summons a creature or item of 7th level or lower. The illusory summonings created deal three-fifths (60%) damage to nonbelievers, and non-damaging effects are 60% likely to work against nonbelievers.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 8
+      }
+    },
+    "level": 8,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d0dddaa45c8db8cf"
+}

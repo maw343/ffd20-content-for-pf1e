@@ -1,0 +1,58 @@
+{
+  "_id": "0f48eai2pG2jAIHA",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Death's Kiss (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 13th level, when the necromancer casts a necromancy spell that conjures or creates undead, those created gain bonus hit points equal to half his necromancer level and gain a bonus to any saving throws versus effects that would damage, turn, or destroy them equal to his Charisma modifier.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "deaths_kiss_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Necromancer"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Necromancer",
+          13
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!0f48eai2pG2jAIHA"
+}

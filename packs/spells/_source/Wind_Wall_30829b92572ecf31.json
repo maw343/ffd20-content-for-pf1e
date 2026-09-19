@@ -1,0 +1,65 @@
+{
+  "_id": "30829b92572ecf31",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Wind Wall",
+  "system": {
+    "actions": [
+      {
+        "_id": "a0408906d2caa1a5",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "wall up to 10 ft./level long and 5 ft./level high (S)"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        }
+      }
+    ],
+    "components": {
+      "material": true
+    },
+    "description": {
+      "summary": "An invisible vertical curtain of wind appears.",
+      "value": "<p>An invisible vertical curtain of wind appears. It is 2 feet thick and of considerable strength.\nIt is a roaring blast sufficient to blow away any bird smaller than an eagle, or tear papers and similar materials from unsuspecting hands. (A Reflex save allows a creature to maintain its grasp on an object.) Tiny and Small flying creatures cannot pass through the barrier. Loose materials and cloth garments fly upward when caught in a wind wall.\nArrows and bolts are deflected upward and miss, while any other normal ranged weapon passing through the wall has a 30% miss chance. (A giant-thrown boulder, a siege engine projectile, and other massive ranged weapons are not affected.)\nGases, most gaseous breath weapons, and creatures in gaseous form cannot pass through the wall (although it is no barrier to incorporeal creatures).\nWhile the wall must be vertical, you can shape it in any continuous path along the ground that you like. It is possible to create cylindrical or square wind walls to enclose specific points.</p>"
+    },
+    "descriptors": [
+      "wind"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 3,
+        "druid": 3,
+        "whitemage": 3,
+        "geomancer": 3
+      }
+    },
+    "level": 3,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!30829b92572ecf31"
+}

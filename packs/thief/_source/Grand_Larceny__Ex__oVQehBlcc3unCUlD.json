@@ -1,0 +1,61 @@
+{
+  "_id": "oVQehBlcc3unCUlD",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785614788369,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/shadow_11.jpg",
+  "name": "Grand Larceny (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Combat Swipe, Superior Combat Swipe, and Larceny or Improved Steal, Greater Steal Combat Feats + Larceny</p><p>If the thief successfully makes a steal combat maneuver, she steals a random alchemical item appropriate to the enemies' CR. CR 6-10 - Tier 2, CR 11-15 - Tier 3, CR 16 or higher - Tier 4. The thief can only steal one item per enemy. The alchemical item stolen is up to the DM's discretion. For every 5 by which the thief beats the creature's CMD, she treats the CR of the creature as 1 higher, to a maximum of 5 CRs higher. In addition, if the CR of the creature is less than half of her character level, this ability will not work.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "grandlarceny",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Thief",
+          12
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Thief Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!oVQehBlcc3unCUlD"
+}

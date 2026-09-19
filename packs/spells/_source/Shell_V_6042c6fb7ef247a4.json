@@ -1,0 +1,68 @@
+{
+  "_id": "6042c6fb7ef247a4",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Shell V",
+  "system": {
+    "actions": [
+      {
+        "_id": "ca545ec74915e7dc",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "3 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The subject of this spell is protected by a shield that helps protect against magical attacks.",
+      "value": "<p>The subject of this spell is protected by a shield that helps protect against magical attacks. The target gains a +10 resistance bonus to Saving Throws versus spells, spell-like abilities, and supernatural abilities for the duration of the spell.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 9,
+        "whitemage": 9
+      }
+    },
+    "level": 9,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!6042c6fb7ef247a4"
+}

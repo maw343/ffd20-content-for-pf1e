@@ -1,0 +1,68 @@
+{
+  "_id": "a6705ce9eb3fd247",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Gentle Repose",
+  "system": {
+    "actions": [
+      {
+        "_id": "ba1069615fea61de",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "corpse touched"
+        },
+        "duration": {
+          "units": "day",
+          "value": "1 day/level"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates (object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You preserve the remains of a dead creature so that they do not decay",
+      "value": "<p>You preserve the remains of a dead creature so that they do not decay. Doing so effectively extends the time limit on raising that creature from the dead (see raise). Days spent under the influence of this spell don’t count against the time limit. Additionally, this spell makes transporting a slain (and thus decaying) comrade less unpleasant. The spell also works on severed body parts and the like.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "necromancer": 2,
+        "timemage": 2
+      }
+    },
+    "level": 2,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a6705ce9eb3fd247"
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "f20747b007f8ebf2",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Summon Equipment V",
+  "system": {
+    "actions": [
+      {
+        "_id": "7dcb3de3fffe6068",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one magical +5 suit of armor, shield, or weapon"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "10 minutes/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Summon Equipment I , but instead summons a magical +5 suit of armor, shield, or weapon",
+      "value": "<p>This spell functions like Summon Equipment I , but instead summons a magical +5 suit of armor, shield, or weapon. The summoner may exchange an enhancement bonus for a special ability equivalent to the bonus, but items must have at least a +1 enhancement bonus. The item summoned by this spell appears without any ammunition, cannot be any form of artillery or siege weapon nor can it be bigger than large size.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "summoner": 9
+      }
+    },
+    "level": 9,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f20747b007f8ebf2"
+}

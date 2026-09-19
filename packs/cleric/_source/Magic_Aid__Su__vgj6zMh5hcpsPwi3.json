@@ -1,0 +1,61 @@
+{
+  "_id": "vgj6zMh5hcpsPwi3",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785716726594,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/white_35.jpg",
+  "name": "Magic Aid (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>As a standard action, the cleric can spend MP up to his maximum spell level to grant additional magic energy to an allied spellcaster within close range (25 feet + 5 feet/2 levels). If that ally casts a spell of an equal or lower MP cost before the beginning of his next turn, all level-dependent calculations and caster level checks the spell requires are made as if the ally's caster level were 2 higher. If MP spent is at least twice the MP cost of the spell his ally casts, his ally's caster level is treated as 4 higher instead. If his ally is able to cast more than one spell before the beginning of his next turn, only the first spell cast gains this bonus.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "magicaid",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Cleric",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Cleric - Faith Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!vgj6zMh5hcpsPwi3"
+}

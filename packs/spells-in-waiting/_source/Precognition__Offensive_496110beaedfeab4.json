@@ -1,0 +1,61 @@
+{
+  "_id": "496110beaedfeab4",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Precognition, Offensive",
+  "system": {
+    "actions": [
+      {
+        "_id": "a2f8bacdc2e9b91c",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "touched creature"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 min./level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You grant the subject’s awareness to extend a fraction of a second into the future, allowing them to better land blows against their oppo...",
+      "value": "<p>You grant the subject’s awareness to extend a fraction of a second into the future, allowing them to better land blows against their opponent. The subject gains a +1 insight bonus on their attack rolls.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 1
+      }
+    },
+    "level": 1,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!496110beaedfeab4"
+}

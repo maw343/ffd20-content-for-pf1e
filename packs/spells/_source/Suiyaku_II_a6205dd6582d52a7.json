@@ -1,0 +1,81 @@
+{
+  "_id": "a6205dd6582d52a7",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Suiyaku II",
+  "system": {
+    "actions": [
+      {
+        "_id": "b78647f6bd9bab34",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1 round/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 20))d4",
+              "types": [
+                "healing"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "will",
+          "description": "Will half (harmless — see description)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "A column of glowing ethereal water envelopes the target, healing them, and curing ailments",
+      "value": "<p>A column of glowing ethereal water envelopes the target, healing them, and curing ailments. The target heals for 1d4 damage per caster level, (Max 20d4) and is cured of all harmful status effects, as the Esunaga spell. If a harmful effect is cured by this spell, the target gains a bonus to saving throws against the same effect equal to your casting modifier for 1 round per caster level.</p>"
+    },
+    "descriptors": [
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "ninja": 6
+      }
+    },
+    "level": 6,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a6205dd6582d52a7"
+}

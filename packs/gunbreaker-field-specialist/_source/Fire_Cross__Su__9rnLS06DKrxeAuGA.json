@@ -1,0 +1,196 @@
+{
+  "folder": "DfnGKOLpv2IMav2K",
+  "type": "feat",
+  "name": "Fire Cross (Su)",
+  "system": {
+    "description": {
+      "value": "<p>As a standard action, the field specialist swings his gun arm in front of him to form an X of fire that floats in front of him and flies forward after the second swing. The field specialist makes a ranged touch attack against a target in 30 feet and, if successful, he deals 1d12 points of fire damage for every two field specialist levels that he possesses. and inflicts the Burning status effect for a number of rounds equal to the field specialist's Charisma modifier. A successful Reflex save (DC 10 + half of the field specialist’s level + his Charisma modifier) negates the status effect.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [
+      {
+        "_id": "zO3iHUz2uVs1zi9W",
+        "name": "Use",
+        "activation": {
+          "cost": 1,
+          "type": "standard",
+          "unchained": {
+            "cost": 1,
+            "type": "nonaction"
+          }
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "range": {
+          "value": "30",
+          "units": "ft"
+        },
+        "uses": {},
+        "attackName": "Fire Cross",
+        "actionType": "rsak",
+        "damage": {
+          "parts": [
+            {
+              "formula": "floor(@classes.fieldSpecialistGunbreaker.level/2)d12",
+              "types": [
+                "fire"
+              ]
+            }
+          ]
+        },
+        "ability": {
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "10 + floor(@classes.fieldSpecialistGunbreaker.level / 2) + @abilities.cha.mod",
+          "type": "ref",
+          "description": "Reflex negates status effect",
+          "harmless": false
+        },
+        "powerAttack": {
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          },
+          "primary": true
+        },
+        "held": "1h",
+        "ammo": {
+          "type": "none",
+          "cost": 1
+        }
+      }
+    ],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "blf": false,
+      "clm": false,
+      "ckg": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "_id": "9rnLS06DKrxeAuGA",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "KJytU1RQudYSFJXl": 3
+  },
+  "flags": {
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
+    },
+    "pf1": {
+      "migration": "11.11"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "coreVersion": "12.343",
+    "createdTime": 1745033911726,
+    "modifiedTime": 1783378055904,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!9rnLS06DKrxeAuGA"
+}

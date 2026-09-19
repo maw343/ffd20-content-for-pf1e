@@ -1,0 +1,89 @@
+{
+  "_id": "LgCDgOBd21HIDwkS",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785616131917,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_12.jpg",
+  "name": "Strengthened Agility (Ex)",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Beginning at 1st level, a dragoon adds his Strength modifier as a bonus (minimum 0) on any Acrobatics skill checks made to jump.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "strengthenedagility",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": [
+        [
+          "Dragoon",
+          1
+        ]
+      ]
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {},
+    "source": "Final Fantasy d20 - Dragoon"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!LgCDgOBd21HIDwkS"
+}

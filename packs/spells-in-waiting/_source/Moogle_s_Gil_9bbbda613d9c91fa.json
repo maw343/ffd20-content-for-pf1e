@@ -1,0 +1,62 @@
+{
+  "_id": "9bbbda613d9c91fa",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Moogle’s Gil",
+  "system": {
+    "actions": [
+      {
+        "_id": "b7b8a3cb9cb983e2",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "a single object, up to 1 pound/level"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "1 hour/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "When cast, moogle’s gil alters the visual and tactile properties of an item in such a way that it appears to be of higher quality (worth ...",
+      "value": "<p>When cast, moogle’s gil alters the visual and tactile properties of an item in such a way that it appears to be of higher quality (worth 1d4 × 10% more than normal), even to the trained eye. The basic nature of the object remains unchanged, and any efforts to ascertain the object’s true value using the Appraise skill during the duration of the spell take a –1 penalty per two caster levels.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 0
+      }
+    },
+    "level": 0,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!9bbbda613d9c91fa"
+}

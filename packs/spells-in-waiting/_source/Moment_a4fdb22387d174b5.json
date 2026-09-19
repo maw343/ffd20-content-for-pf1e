@@ -1,0 +1,61 @@
+{
+  "_id": "a4fdb22387d174b5",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Moment",
+  "system": {
+    "actions": [
+      {
+        "_id": "e42001c073a1a45c",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "immediate",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous DESCRIPTION This spell grants the caster a brief moment of time in which to catch his breath and take measure of his situation. When the Time Mage uses this cantrip during a surprise round they are acting in they may use a full-round action or a standard and move action as if they had a full turn."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell grants the caster a brief moment of time in which to catch his breath and take measure of his situation",
+      "value": "<p>This spell grants the caster a brief moment of time in which to catch his breath and take measure of his situation. When the Time Mage uses this cantrip during a surprise round they are acting in they may use a full-round action or a standard and move action as if they had a full turn.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 0
+      }
+    },
+    "level": 0,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a4fdb22387d174b5"
+}

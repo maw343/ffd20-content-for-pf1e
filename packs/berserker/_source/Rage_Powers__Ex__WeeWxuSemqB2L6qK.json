@@ -1,0 +1,61 @@
+{
+  "_id": "WeeWxuSemqB2L6qK",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785712226307,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/red_35.jpg",
+  "name": "Rage Powers (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>As a berserker gains levels, he learns to use his rage in new ways. Starting at 2nd level, a berserker gains a rage power. He gains another rage power for every two levels of berserker attained after 2nd level. A berserker gains the benefits of rage powers only while raging, and some of these powers require the berserker to take an action first. Unless otherwise noted, a berserker cannot select an individual power more than once.<br><br>Some of the following rage powers are stances. Activating a stance rage power is a move action. A berserker can't have more than one stance rage power active at a time. If he activates a stance rage power while another one is active, the current stance immediately ends. The stance can be intentionally ended at the beginning of the berserker's turn as a free action; otherwise, it lasts until the rage ends.<br><br>A complete list of rage powers can be found here: Rage Powers.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "ragepowers",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Berserker",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Berserker"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!WeeWxuSemqB2L6qK"
+}

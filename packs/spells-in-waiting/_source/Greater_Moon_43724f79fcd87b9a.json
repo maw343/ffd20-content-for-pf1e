@@ -1,0 +1,66 @@
+{
+  "_id": "43724f79fcd87b9a",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Greater Moon",
+  "system": {
+    "actions": [
+      {
+        "_id": "d7cccc887a547fe7",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "area": "2 00ft radius",
+        "duration": {
+          "units": "minute",
+          "value": "2 0 minutes/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negate (object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Forcing matter in the palm of your hands, you throw it to the sky to burst alight a miniature moon",
+      "value": "<p>Forcing matter in the palm of your hands, you throw it to the sky to burst alight a miniature moon. Creating a small 20ft moon, this creation produces dim light within 200ft of it. Any creatures that are affected by moonlight take full effect from this and treat it as if it were a full moon. Lycanthropes that fail a Will save are forced to transform and those that are carrying a lycanthropy disease, and fail the save, will have it progress immediately. More than one moon from this spell or an Immediate Moon within 400ft of each other will be pulled together and dispel both.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 6
+      }
+    },
+    "level": 6,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!43724f79fcd87b9a"
+}

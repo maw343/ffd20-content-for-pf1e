@@ -1,0 +1,61 @@
+{
+  "_id": "pt5nU9lBy46y0xA4",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785716726596,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/white_35.jpg",
+  "name": "Bless Army (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Channel Energy class feature</p><p>A cleric can raise his holy symbol high and give a blessing to the army he is leading. The cleric's army gains a +1 bonus to the army's attack rolls and AC. This is a sacred bonus if the cleric is good-aligned and it is a profane bonus if the cleric is evil-aligned. Using this ability requires the cleric to expend two uses of her channel energy ability. This bonus lasts for 1 battle, and it must be performed during the first round of the battle.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "blessarmy",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Cleric",
+          12
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Cleric - Advanced Faith Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!pt5nU9lBy46y0xA4"
+}

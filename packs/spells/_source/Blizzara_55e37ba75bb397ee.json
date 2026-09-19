@@ -1,0 +1,77 @@
+{
+  "_id": "55e37ba75bb397ee",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Blizzara",
+  "system": {
+    "actions": [
+      {
+        "_id": "835c88a85961639f",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "area": "20-ft.-radius spread",
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 10))d6",
+              "types": [
+                "cold"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "A blast of freezing ice explodes dealing 1d6 points of ice damage per caster level (maximum 10d6) to every creature within the area.",
+      "value": "<p>A blast of freezing ice explodes dealing 1d6 points of ice damage per caster level (maximum 10d6) to every creature within the area.</p>"
+    },
+    "descriptors": [
+      "ice"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 3,
+        "necromancer": 3,
+        "redmage": 3
+      }
+    },
+    "level": 3,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!55e37ba75bb397ee"
+}

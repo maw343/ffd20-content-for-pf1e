@@ -1,0 +1,77 @@
+{
+  "_id": "62086ad056f667bf",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Icy Breath",
+  "system": {
+    "actions": [
+      {
+        "_id": "a95e34afc66be7ab",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "15 ft"
+        },
+        "target": {
+          "value": "cone-shaped burst"
+        },
+        "duration": {
+          "units": "spec"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "4d6",
+              "types": [
+                "cold"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Up to three times during this spell’s duration, you can belch forth a cone of ice as a standard action.",
+      "value": "<p>Up to three times during this spell’s duration, you can belch forth a cone of ice as a\nstandard action\n. The first cone deals 4d6 points of ice damage to every creature in the area. The second cone of ice deals 2d6 points of ice damage to every creature in the area. The third cone of ice deals 1d6 points of ice damage to every creature in the area. A successful Reflex save halves this damage. After the third cone of ice, the spell ends.</p>"
+    },
+    "descriptors": [
+      "ice"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 2
+      }
+    },
+    "level": 2,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!62086ad056f667bf"
+}

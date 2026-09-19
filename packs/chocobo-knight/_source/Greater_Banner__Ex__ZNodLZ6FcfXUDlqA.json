@@ -1,0 +1,61 @@
+{
+  "_id": "ZNodLZ6FcfXUDlqA",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785716207584,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_35.jpg",
+  "name": "Greater Banner (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Banner class feature</p><p>The chocobo knight's banner grants an additional stacking +2 bonus to saving throws against mind-affecting effects. The chocobo knight also gains the following active banner ability: Allies up to (his Charisma modifier) may make an additional saving throw against one effect currently affecting them, ending it on a successful saving throw. Allies may only receive the benefit of this effect once per encounter.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "greaterbanner",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Chocobo Knight",
+          12
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Chocobo Knight - Advanced Mounted Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!ZNodLZ6FcfXUDlqA"
+}

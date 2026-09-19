@@ -1,0 +1,63 @@
+{
+  "_id": "d96adc41f732c8d0",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Mount, Communal",
+  "system": {
+    "actions": [
+      {
+        "_id": "05a0a1d919fef198",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "up to six mounts DESCRIPTION This spell functions like mount , except you can summon up to six yellow chocobo, and you divide the duration in 2-hour increments among the chocobos summoned."
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like mount , except you can summon up to six yellow chocobo, and you divide the duration in 2-hour increments among ...",
+      "value": "<p>This spell functions like mount , except you can summon up to six yellow chocobo, and you divide the duration in 2-hour increments among the chocobos summoned.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 2,
+        "blackmage": 2,
+        "summoner": 2,
+        "whitemage": 2
+      }
+    },
+    "level": 2,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d96adc41f732c8d0"
+}

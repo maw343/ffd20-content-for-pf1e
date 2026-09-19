@@ -1,0 +1,73 @@
+{
+  "_id": "d9d781fe7de7bc71",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Repair II",
+  "system": {
+    "actions": [
+      {
+        "_id": "daf742d78e412317",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "heal",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one construct creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 10))d6",
+              "types": [
+                "healing"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You reverse time to repair a wounded construct creature, healing for 3d6 points of damage + your Intelligence modifier + 1 point per cast...",
+      "value": "<p>You reverse time to repair a wounded construct creature, healing for 3d6 points of damage + your Intelligence modifier + 1 point per caster level (maximum +10).</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 2
+      }
+    },
+    "level": 2,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d9d781fe7de7bc71"
+}

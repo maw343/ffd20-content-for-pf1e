@@ -1,0 +1,73 @@
+{
+  "_id": "d493a3e52cbd86b8",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Swords of Chance",
+  "system": {
+    "actions": [
+      {
+        "_id": "c5bd8b1d23a20be6",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "area": "30-ft.-radius burst",
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 15))d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You call forth Gilgamesh, a traveling sword collector who brandishes one of his four swords upon your enemies",
+      "value": "<p>You call forth Gilgamesh, a traveling sword collector who brandishes one of his four swords upon your enemies. Roll a 1d4, on a 1, Gilgamesh draws out Excalipoor and deals 1 damage to all enemies within the area of effect. On a 2, Gilgamesh draws out Excalibur and deals 1d6 points of holy damage per level, a Reflex save for half damage. On a 3, Gilgamesh draws out Masamune and deals 1d8 points of non-elemental per level, a Reflex save for half damage. On a 4, Gilgamesh draws out Zantetsuken and instantly kills all enemies, a Fortitude save to negate.</p>"
+    },
+    "descriptors": [
+      "death"
+    ],
+    "learnedAt": {
+      "class": {
+        "summoner": 9
+      }
+    },
+    "level": 9,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d493a3e52cbd86b8"
+}

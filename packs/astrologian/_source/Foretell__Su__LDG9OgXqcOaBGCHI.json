@@ -1,0 +1,61 @@
+{
+  "_id": "LDG9OgXqcOaBGCHI",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785711691514,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/light_15.jpg",
+  "name": "Foretell (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 13th level, the astrologian can utter a prediction of the immediate future. While her foretelling is in effect, she emits a 30-foot aura of fortune that aids her allies or hinders her enemies, as chosen by the astrologian at the time of prediction. If she chooses to aid, she and her allies gain a +2 luck bonus on ability checks, attack rolls, caster level checks, saving throws, and skill checks. If she chooses to hinder, her enemies take a –2 penalty on those rolls instead. She can use this ability for a number of rounds per day equal to her Wisdom modifier. These rounds do not need to be consecutive.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "foretell",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Astrologian",
+          13
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Astrologian"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!LDG9OgXqcOaBGCHI"
+}

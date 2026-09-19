@@ -1,0 +1,66 @@
+{
+  "_id": "4ba41215f7e749f8",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Stone III",
+  "system": {
+    "actions": [
+      {
+        "_id": "de50beacf5d050e1",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "5d6 + @spells.primary.abilityMod + min(@spells.primary.cl.total,15)",
+              "types": [
+                "earth"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Stone , except it deals 5d6 points of earth damage + your casting modifier (Intelligence or Charisma) + 1 point per caster level (maximum +15) and inflicts the Weighted status effect for 1d8 rounds.",
+      "value": "<p>This spell functions like\nStone\n, except it deals 5d6 points of earth damage + your casting modifier (Intelligence or Charisma) + 1 point per caster level (maximum +15) and inflicts the Weighted status effect for 1d8 rounds. A successful Fortitude save prevents the status effect from taking effect.</p>"
+    },
+    "descriptors": [
+      "earth"
+    ],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!4ba41215f7e749f8"
+}

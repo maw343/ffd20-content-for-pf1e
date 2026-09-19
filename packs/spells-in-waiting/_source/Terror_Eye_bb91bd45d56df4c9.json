@@ -1,0 +1,66 @@
+{
+  "_id": "bb91bd45d56df4c9",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Terror Eye",
+  "system": {
+    "actions": [
+      {
+        "_id": "16d5f284dc1817e0",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "cone-shaped burst",
+        "duration": {
+          "units": "round",
+          "value": "1 round/2 levels"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will Negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates a fora striking fear in their opponents",
+      "value": "<p>The caster emulates a fora striking fear in their opponents. Creatures in the area of effect receive the Stop status effect. This is considered a fear effect. The victims are unable to move and act (are helpless) for the duration of the spell or until cured. Learned From fora</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 9
+      }
+    },
+    "level": 9,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!bb91bd45d56df4c9"
+}

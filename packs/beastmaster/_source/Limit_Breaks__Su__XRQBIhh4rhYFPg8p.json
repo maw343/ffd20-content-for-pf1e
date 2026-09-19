@@ -1,0 +1,27 @@
+{
+  "_id": "XRQBIhh4rhYFPg8p",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_12.jpg",
+  "name": "Limit Breaks (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 1st level, the beastmaster receives the Limit Breaks (Bestial Defense and Bestial Fury).</p><p><em>Bestial Defense (Su):</em> This Limit Break throws the beastmaster and his animal companions to go into a bestial defense. For the duration of 1 round + 1 round per four beastmaster levels after 1st, the beastmaster and his animal companion are granted a +2 dodge bonus to AC and damage reduction of 2/- plus an additional 2 per four beastmaster levels after 1st. This limit break requires only a swift action.</p><p><em>Bestial Fury (Su):</em> This Limit Break causes the beastmaster and his animal companions to go into a bestial fury. For the duration of 1 round + 1 round per four beastmaster levels after 1st, the beastmaster and his companion are granted a +2 circumstance bonus to Strength and Constitution plus an additional +2 circumstance bonus to Strength and Constitution per four beastmaster levels after 1st. In addition, the beastmaster and his companion are also granted an extra attack at their highest base attack bonus if they make a full attack. This limit break requires only a swift action.</p>"
+    },
+    "tag": "limitbreaks",
+    "source": "Final Fantasy d20 - Beastmaster",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          1
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!XRQBIhh4rhYFPg8p"
+}

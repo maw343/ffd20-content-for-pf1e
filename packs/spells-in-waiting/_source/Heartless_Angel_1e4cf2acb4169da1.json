@@ -1,0 +1,67 @@
+{
+  "_id": "1e4cf2acb4169da1",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Heartless Angel",
+  "system": {
+    "actions": [
+      {
+        "_id": "ffead2e6636c0aff",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "60 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates Kefka dropping down a small sparkle of red light towards his target",
+      "value": "<p>The caster emulates Kefka dropping down a small sparkle of red light towards his target. Usable on a target creature within 60 feet, that target’s current HP is reduced to 1 unless they make a Fortitude save to negate this effect. Learned From Kefka Palazzo , Holy Dragon , and Kaiser Dragon</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 8
+      }
+    },
+    "level": 8,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!1e4cf2acb4169da1"
+}

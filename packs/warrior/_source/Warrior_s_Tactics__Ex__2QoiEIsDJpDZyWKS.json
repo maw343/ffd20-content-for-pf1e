@@ -1,0 +1,27 @@
+{
+  "_id": "2QoiEIsDJpDZyWKS",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_13.jpg",
+  "name": "Warrior's Tactics (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>All of the warrior's allies are treated as if they had the same teamwork feats as the warrior for the purpose of determining whether the warrior receives a bonus from his teamwork feats. His allies do not receive any bonuses from these feats unless they actually have the feats themselves. The allies' positioning and actions must still meet the prerequisites listed in the teamwork feat for the warrior to receive the listed bonus.</p>"
+    },
+    "tag": "warriorstactics",
+    "source": "Final Fantasy d20 - Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!2QoiEIsDJpDZyWKS"
+}

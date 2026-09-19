@@ -1,0 +1,76 @@
+{
+  "_id": "336f1647674f9ebb",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Lightning Roar",
+  "system": {
+    "actions": [
+      {
+        "_id": "5e083d79030d61e2",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "45 ft"
+        },
+        "area": "cone-shaped burst",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1d6 rounds"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "15d6",
+              "types": [
+                "electricity"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half (see text)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates a thunder gigas roaring a lightning cone",
+      "value": "<p>The caster emulates a thunder gigas roaring a lightning cone. Any creature in the area of the roar takes 15d6 points of lightning damage and are inflicted with the Static status effect for 1d6 rounds. A successful Reflex save reduces the damage by half and negates the status effect. Learned From Thunder Gigas and Yellow Dragon Family</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 6
+      }
+    },
+    "level": 6,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!336f1647674f9ebb"
+}

@@ -1,0 +1,67 @@
+{
+  "_id": "6bfbe895d3740acf",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Life of Crime",
+  "system": {
+    "actions": [
+      {
+        "_id": "3c979c7e9f02da42",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one living creature"
+        },
+        "duration": {
+          "units": "perm"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You unleash the basest instincts of iniquity in the target and cause them to become his overriding reason for being",
+      "value": "<p>You unleash the basest instincts of iniquity in the target and cause them to become his overriding reason for being. The target neither gains nor provides benefit from teamwork feats or the aid another action and can’t willingly accept harmless magical effects from others. The target moves by Stealth whenever possible, and lies and deceives others instinctively to further its personal agenda. In addition, when the target is conscious, it must succeed at a Will save against the spell’s save DC each hour (or each round during combat or a similarly stressful situation) or behave as if affected by a crime wave spell for 1 round. Life of crime is particularly difficult to remove. Only a Basuna spell can remove its effects.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 9
+      }
+    },
+    "level": 9,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!6bfbe895d3740acf"
+}

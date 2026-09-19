@@ -1,0 +1,70 @@
+{
+  "_id": "349336f90a73b4b5",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Repose",
+  "system": {
+    "actions": [
+      {
+        "_id": "556eb4cc088eeb66",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You fill a target’s mind with peaceful thoughts, lulling them into a deep slumber, the images are so strong they can even affect those who would normally have lost all sense.",
+      "value": "<p>You fill a target’s mind with peaceful thoughts, lulling them into a deep slumber, the images are so strong they can even affect those who would normally have lost all sense.\nThe target of this spell receives the\nSleep\nstatus effect. The victim falls into a magical slumber, can only be woken with a\nstandard action\nor after receiving damage. The target of this spell must have 13 HD or less to be affected by this spell. As this spell is filled with light-based energy, it can affect creatures with the\nundead\ntype or\ncie’th\nsubtype, even when they are normally immune to mind-affecting spells and/or the\nsleep\nstatus.\nThis spell was submitted as a part of the SCC for March 2021 by DeadKingKicker.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "whitemage": 4
+      }
+    },
+    "level": 4,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "compulsion",
+      "mind-affecting"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!349336f90a73b4b5"
+}

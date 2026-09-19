@@ -1,0 +1,70 @@
+{
+  "_id": "590043998d89f662",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "NulStatus III",
+  "system": {
+    "actions": [
+      {
+        "_id": "579976b91216691b",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level  or until discharge"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The subject of this spell is protected by floating silver orbs with random symbols on it",
+      "value": "<p>The subject of this spell is protected by floating silver orbs with random symbols on it. The caster can choose one from a list of ailments to block: Bleed, Blinded, Burning, Charmed, Confusion, Cursed, Dazed, Dazzled, Deafened, Deprotect, Deshell, Dimmed, Disabled, Diseased, Drenched, Entangled, Fascinated, Fear, Frog, Frozen, Gravity, Immobilized, Imperil, Mini, Nauseated, Paralyzed, Petrification/Statue, Poisoned, Reverse, Sapped, Sickened, Silenced, Slow, Static, Stunned, Squalled, Weighted, and Zombie. The subject, when hit with that status effect, is nullified and discharges the effect.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 7,
+        "whitemage": 7
+      }
+    },
+    "level": 7,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!590043998d89f662"
+}

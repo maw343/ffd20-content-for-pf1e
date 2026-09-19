@@ -1,0 +1,78 @@
+{
+  "_id": "kaoQ8no9ajUB8d0B",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Divine Arts (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, arts of divine light slumber within the paladin. She calls upon this divine power when her allies are in danger. The paladin gains a divine art ability at 3rd level and every three paladin levels thereafter. Each Divine Art requires a holy pool point to activate. A complete list of divine arts is detailed on a separate reference page.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "divine_arts_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Paladin"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Paladin",
+          3
+        ],
+        [
+          "Paladin",
+          6
+        ],
+        [
+          "Paladin",
+          9
+        ],
+        [
+          "Paladin",
+          12
+        ],
+        [
+          "Paladin",
+          15
+        ],
+        [
+          "Paladin",
+          18
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!kaoQ8no9ajUB8d0B"
+}

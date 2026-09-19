@@ -1,0 +1,27 @@
+{
+  "_id": "PfDILqBj7x2tfK1a",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_12.jpg",
+  "name": "Warrior Advanced Talents",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 12th level, and every two levels thereafter, a warrior can choose one of the following warrior advanced talents in place of a warrior talent. A complete list of advanced warrior talents can be found in the Warrior Advanced Talents compendium.</p>"
+    },
+    "tag": "warrioradvancedtalents",
+    "source": "Final Fantasy d20 - Warrior",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          12
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!PfDILqBj7x2tfK1a"
+}

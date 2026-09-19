@@ -1,0 +1,67 @@
+{
+  "_id": "947ff9407d6acb0f",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Compulsive Liar",
+  "system": {
+    "actions": [
+      {
+        "_id": "d2d151b642d005c2",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "1 hour/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The target becomes unable to speak the truth",
+      "value": "<p>The target becomes unable to speak the truth. Lies the target speaks don’t need to be convincing, nor do they even need to be consistent, but they can’t be true as far as the target is aware. This extends to non-verbal communication, such as hand signs or written notes. The spell allows talking in metaphors and talking about fictional figures. The spell doesn’t affect the target’s ability to say things that are neither true nor false, such as questions, commands, or verbal spell components. If the target of this spell is simultaneously compelled to tell the truth, the target is only able to say things that are neither true nor false.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 2
+      }
+    },
+    "level": 2,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!947ff9407d6acb0f"
+}

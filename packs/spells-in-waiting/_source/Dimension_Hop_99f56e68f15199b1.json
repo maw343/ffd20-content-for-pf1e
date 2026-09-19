@@ -1,0 +1,66 @@
+{
+  "_id": "99f56e68f15199b1",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Dimension Hop",
+  "system": {
+    "actions": [
+      {
+        "_id": "3c8fe7b09c35f170",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You instantly teleport the subject creature a distance of 5 feet per two caster levels",
+      "value": "<p>You instantly teleport the subject creature a distance of 5 feet per two caster levels. The destination must be an unoccupied space within line of sight.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 2
+      }
+    },
+    "level": 2,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!99f56e68f15199b1"
+}

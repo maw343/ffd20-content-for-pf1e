@@ -1,0 +1,73 @@
+{
+  "_id": "07832cb3bb465298",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Stoneskin",
+  "system": {
+    "actions": [
+      {
+        "_id": "fefe8d4ea638dfa7",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "10 minute/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You beckon the earth to absorb into the subject’s skin reducing the damage from physical attacks.",
+      "value": "<p>You beckon the earth to absorb into the subject’s skin reducing the damage from physical attacks. For the duration of the spell, the target receives\nDamage Reduction\n10/adamantine. It ignores the first 10 points of damage each time it takes damage from physical attacks, though an adamantine weapon bypasses the reduction. Once the spell has prevented a total of 10 points of damage per caster level (maximum 150 points), it is discharged.</p>"
+    },
+    "descriptors": [
+      "earth"
+    ],
+    "learnedAt": {
+      "class": {
+        "astrologian": 4,
+        "blackmage": 4,
+        "whitemage": 4,
+        "redmage": 4,
+        "druid": 5,
+        "geomancer": 5
+      }
+    },
+    "level": 4,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!07832cb3bb465298"
+}

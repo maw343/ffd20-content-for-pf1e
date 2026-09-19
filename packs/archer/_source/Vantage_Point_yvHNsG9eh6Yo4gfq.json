@@ -1,0 +1,84 @@
+{
+  "_id": "yvHNsG9eh6Yo4gfq",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785115558910,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_02.jpg",
+  "name": "Vantage Point",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>The archer uses higher ground to his advantage on his projectile attacks. Whenever the archer has his entire body completely above the body of his enemy, he can ignore all penalties for attacking beyond the first range increment. In addition, he may ignore cover or partial cover that does not extend upward to his position.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "vantagepoint",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {},
+    "source": "Final Fantasy d20 - Archer (Archery Talents)"
+  },
+  "effects": [],
+  "folder": "WmmObPCDVZhaIakd",
+  "sort": 103125,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!yvHNsG9eh6Yo4gfq"
+}

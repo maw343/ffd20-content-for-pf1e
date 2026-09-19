@@ -1,0 +1,84 @@
+{
+  "_id": "ZEG8pSH4487q7J58",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785115535332,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_02.jpg",
+  "name": "Sure Shot",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>An archer can use a full-round action to make an attack against an opponent who is up to three range increments away. The opponent is treated as flat-footed against this attack. This attack bypasses any damage reduction the target might have. If the target has uncanny dodge, it retains its damage reduction against this attack.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "sureshot",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {},
+    "source": "Final Fantasy d20 - Archer (Archery Talents)"
+  },
+  "effects": [],
+  "folder": "WmmObPCDVZhaIakd",
+  "sort": 106250,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!ZEG8pSH4487q7J58"
+}

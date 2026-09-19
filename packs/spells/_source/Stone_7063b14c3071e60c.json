@@ -1,0 +1,83 @@
+{
+  "_id": "7063b14c3071e60c",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Stone",
+  "system": {
+    "actions": [
+      {
+        "_id": "d0efa1a4f78af807",
+        "name": "Use",
+        "actionType": "rsak",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "ability": {
+          "attack": "dex",
+          "critMult": 2,
+          "critRange": 20
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d6 + @spells.primary.abilityMod + min(@spells.primary.cl.total, 5)",
+              "types": [
+                "earth"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude partial (object) — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You direct a boulder at your opponent.",
+      "value": "<p>You direct a boulder at your opponent. Requires a ranged touch attack roll to hit that deals 1d6 points of earth damage + your casting modifier (Intelligence or Charisma) + 1 point per caster level (maximum +5) and inflicts the Weighted status effect for 1d4 rounds. A successful Fortitude save prevents the status effect from taking effect.</p>"
+    },
+    "descriptors": [
+      "earth"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 1,
+        "redmage": 1
+      }
+    },
+    "level": 1,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!7063b14c3071e60c"
+}

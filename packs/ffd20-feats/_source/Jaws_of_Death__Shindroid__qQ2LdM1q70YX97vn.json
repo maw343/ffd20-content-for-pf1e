@@ -1,0 +1,50 @@
+{
+  "_id": "qQ2LdM1q70YX97vn",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Jaws of Death (Shindroid)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Shindroid</p><p><strong>Benefit:</strong> You have a bite attack that deals 1d6 points of damage. Your bite is treated as a secondary natural weapon (-5 penalty on your attack roll and you apply only 1/2 your Strength bonus on damage rolls).</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "racial",
+    "tag": "jaws_of_death_shindroid",
+    "requirements": "Shindroid",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-RacialFeats",
+        "pages": "Racial Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!qQ2LdM1q70YX97vn"
+}

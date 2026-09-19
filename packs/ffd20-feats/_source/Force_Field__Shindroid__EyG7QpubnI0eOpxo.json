@@ -1,0 +1,50 @@
+{
+  "_id": "EyG7QpubnI0eOpxo",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Force Field (Shindroid)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Shindroid</p><p><strong>Benefit:</strong> A force field sheathes a shindroid in a thin layer of shimmering energy that grants a number of bonus hit points equal to 5 x the character level of the shindroid. All damage dealt to a shindroid with an active force field is reduced from these hit points first. These temporary hit points are not affected by damage reduction and elemental resistance. A force field has fast healing equal to half the shindroid's character level (minimum 1), but once its hit points are reduced to 0, the force field shuts down and does not reactivate for 24 hours. Whilst inactive, the creature who once had a force field now gains a vulnerability to Lightning damage (150% damage) and critical hits (DC15 Fort or Stunned for 1 round, Staggered for 1 round if saved), they also suffer a -2 penalty on saving throws versus spells and effects that have the lightning subschool or deal lightning damage and grant the opponents a +2 bonus to caster level checks when attacking with these effects.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "racial",
+    "tag": "force_field_shindroid",
+    "requirements": "Shindroid",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-RacialFeats",
+        "pages": "Racial Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!EyG7QpubnI0eOpxo"
+}

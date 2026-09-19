@@ -1,0 +1,50 @@
+{
+  "_id": "SCq7e9wvyKTfJKAU",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Spell Guard (Su)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> —</p><p><strong>Benefit:</strong> Whenever the time mage casts a spell with a casting time of 1 standard action, he may instead cast it as a full round action. The time mage channels some of the energy of the spell into a defensive shield around him, giving him a deflection bonus to his AC equal to the level of the spell being cast. This bonus lasts until the beginning of the time mage's next turn.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "temporalTalent",
+    "tag": "spell_guard_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-TimeMageClass",
+        "pages": "Temporal Talents"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!SCq7e9wvyKTfJKAU"
+}

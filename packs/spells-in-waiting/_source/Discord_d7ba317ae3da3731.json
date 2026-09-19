@@ -1,0 +1,72 @@
+{
+  "_id": "d7ba317ae3da3731",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Discord",
+  "system": {
+    "actions": [
+      {
+        "_id": "dd2e0334c111b349",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "rsak",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "ray"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1 hour/level"
+        },
+        "ability": {
+          "attack": "dex",
+          "critMult": 2,
+          "critRange": 20
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates Gilgamesh unleashing sound waves of a special frequency that weakens their opponent",
+      "value": "<p>The caster emulates Gilgamesh unleashing sound waves of a special frequency that weakens their opponent. The caster must make a ranged touch attack to hit. If it hits, the subject gains 1d4 temporary negative levels (see Special Abilities). Negative levels stack. Assuming the subject survives, it regains lost levels after a number of hours equal to the caster’s caster level (maximum 15 hours). Usually, negative levels have a chance of becoming permanent, but the negative levels from discord don’t last long enough to do so. Anyone who is immune to death is immune to this effect. Learned From Gilgamesh and Omega Weapon.</p>"
+    },
+    "descriptors": [
+      "negative",
+      "death"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d7ba317ae3da3731"
+}

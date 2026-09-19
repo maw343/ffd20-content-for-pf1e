@@ -1,0 +1,61 @@
+{
+  "_id": "ioK7vMKx0y5ctCOi",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785712226308,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/red_35.jpg",
+  "name": "Rage Strike (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 15th level, whenever the berserker scores a natural 20 critical hit on a target, the berserker may spend 1 round of rage to rend his target's flesh apart in a rage strike. The target must make a Fortitude save or die. The DC of this save is equal to 10 + 1/2 the berserker's level + the berserker's Strength modifier.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "ragestrike",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Berserker",
+          15
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Berserker"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!ioK7vMKx0y5ctCOi"
+}

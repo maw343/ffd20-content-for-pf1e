@@ -1,0 +1,66 @@
+{
+  "_id": "b65c9c5f1b21aa03",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Cadence Orchestra",
+  "system": {
+    "actions": [
+      {
+        "_id": "14debede6dbba9a9",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Making a grand performance, you forge several spectral instruments and musical notes into existence that copy the look of your target, creating shifting duplicates.",
+      "value": "<p>Making a grand performance, you forge several spectral instruments and musical notes into existence that copy the look of your target, creating shifting duplicates.\nThe creature benefits from a 50% miss chance as if it had total\nconcealment\n. Unlike actual total concealment, cadence orchestra does not prevent enemies from targeting the creature normally.\nTrue seeing\nreveals its true location and negates the miss chance.\nThis song does not require the bard to continue a performance, once it has been performed the effects persist for the duration listed or until it is dismissed.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bard": 3
+      }
+    },
+    "level": 3,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!b65c9c5f1b21aa03"
+}

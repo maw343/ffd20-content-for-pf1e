@@ -1,0 +1,66 @@
+{
+  "_id": "d2a052f69a2c9c23",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Condemn",
+  "system": {
+    "actions": [
+      {
+        "_id": "d144f64122b60d26",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one evil-aligned creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "4 round"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You invoke punishment of the light onto a creature that must be of any evil alignment.",
+      "value": "<p>You invoke punishment of the light onto a creature that must be of any evil alignment. The victim of this spell has 2d4 rounds to be cured before he falls to 0 hit points. The subject falls unconscious once the spell has ended, and may be revived when healed.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "whitemage": 8
+      }
+    },
+    "level": 8,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d2a052f69a2c9c23"
+}

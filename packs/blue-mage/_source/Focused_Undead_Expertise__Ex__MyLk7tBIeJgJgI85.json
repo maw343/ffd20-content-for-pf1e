@@ -1,0 +1,65 @@
+{
+  "_id": "MyLk7tBIeJgJgI85",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785712946359,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_35.jpg",
+  "name": "Focused Undead Expertise (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Favored Enemy (undead) class feature</p><p>The blue mage gains a bonus equal to half her favored enemy (undead) bonus on saving throws against ability damage, ability drain, energy drain, and negative energy effects. Once per day, when an undead creature's natural attack against her deals ability damage, deals ability drain, or bestows 1 or more negative levels, she can negate the damage, drain, or negative levels as an immediate action.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "focusedundeadexpertise",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Blue Mage",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Blue Mage - Azure Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "ffd20": {
+      "spellcastingTalent": false
+    }
+  },
+  "_key": "!items!MyLk7tBIeJgJgI85"
+}

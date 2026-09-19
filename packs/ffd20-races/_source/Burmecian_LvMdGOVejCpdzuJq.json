@@ -1,0 +1,76 @@
+{
+  "_id": "LvMdGOVejCpdzuJq",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "folder": "RWSoA7Fj9yqo0y9U",
+  "img": "systems/pf1/icons/races/human.jpg",
+  "name": "Burmecian",
+  "system": {
+    "changes": [
+      {
+        "formula": "2",
+        "target": "dex",
+        "type": "racial",
+        "_id": "phtnklv5"
+      },
+      {
+        "formula": "2",
+        "target": "int",
+        "type": "racial",
+        "_id": "wghxggd1"
+      },
+      {
+        "formula": "-2",
+        "target": "cha",
+        "type": "racial",
+        "_id": "pfxqq5aj"
+      },
+      {
+        "formula": "1",
+        "target": "cmd",
+        "type": "racial",
+        "_id": "sws037ga"
+      },
+      {
+        "formula": "2",
+        "target": "skill.per",
+        "type": "racial",
+        "_id": "tm5ykrsw"
+      }
+    ],
+    "contextNotes": [
+      {
+        "target": "allSavingThrows",
+        "text": "+[[2]] Racial vs Fear"
+      }
+    ],
+    "creatureSubtypes": [
+      "burmecian"
+    ],
+    "creatureTypes": [
+      "humanoid"
+    ],
+    "description": {
+      "value": "<p>Smaller and slighter than humes, burmecians trace their ancestry back to rats and mice.</p><h2>Standard Racial Traits</h2><ul><li><strong>Ability Score Modifiers</strong>: Burmecians gain +2 Dexterity, +2 Intelligence, and –2 Charisma.</li><li><strong>Type</strong>: Burmecians are Humanoid creatures with the burmecian subtype.</li><li><strong>Size</strong>: Burmecians are Medium creatures, and have no bonuses or penalties due to their size.</li><li><strong>Base Speed</strong>: Burmecians have a base speed of 30 feet.</li><li><strong>Languages</strong>: Burmecians begin play speaking Common and Burmecian. Burmecian with high Intelligence scores can choose from the following: Draconic, Dwarven, Elvaan, Galkan, Giant, Goblin, and Orc.</li></ul><h3>Defense Racial Traits</h3><ul><li><strong>Battle-Hardened</strong>: Burmecians gain a +1 bonus to CMD.</li><li><strong>Fearless</strong>: Burmecians receive a +2 racial bonus on saves against fear spells and effects.</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Keen Senses</strong>: Burmecians receive a +2 racial bonus on Perception checks.</li><li><strong>Natural Jumper</strong>: Burmecians gain a +4 racial bonus on Acrobatic checks for jumping.</li><li><strong>Quick Reactions</strong>: Burmecians gain Improved Initiative as a bonus feat.</li></ul><h3>Senses Racial Traits</h3><ul><li><strong>Darkvision</strong>: Burmecians can see perfectly in the dark up to 60 feet.</li></ul><h3>Offense Racial Traits</h3><ul><li><strong>Claws</strong>: A burmecian gains a set of natural claw attacks, dealing 1d4 points of damage.</li></ul>"
+    },
+    "languages": [
+      "common"
+    ],
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "Base Races"
+      }
+    ],
+    "speeds": {
+      "land": 30
+    },
+    "tags": [
+      "Base"
+    ]
+  },
+  "type": "race",
+  "effects": [],
+  "_key": "!items!LvMdGOVejCpdzuJq"
+}

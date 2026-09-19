@@ -1,0 +1,27 @@
+{
+  "_id": "uEkVctTz3oVRZCqT",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_14.jpg",
+  "name": "Riposte Mastery (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Warrior 14, Melee Defense, Parry, and Riposte warrior talents</p><p>As per riposte, however, the warrior may make an additional riposte for each attack he has successfully parried, however, all ripostes after the first receive a –5 penalty to his attack roll for each time used after the first one.</p>"
+    },
+    "tag": "ripostemastery",
+    "source": "Final Fantasy d20 - Advanced Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          12
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!uEkVctTz3oVRZCqT"
+}

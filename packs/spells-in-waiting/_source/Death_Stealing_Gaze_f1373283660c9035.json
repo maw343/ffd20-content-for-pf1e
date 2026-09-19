@@ -1,0 +1,70 @@
+{
+  "_id": "f1373283660c9035",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Death-Stealing Gaze",
+  "system": {
+    "actions": [
+      {
+        "_id": "da7093470c8c0697",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "living creatures within 30-ft.-burst, centered on you (you are not affected by this spell.)"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster can emulate the death gaze of a nabasu demon",
+      "value": "<p>The caster can emulate the death gaze of a nabasu demon. All living creatures within 30 feet of the caster must succeed on a Fortitude save or gain a negative level. A humanoid slain in this manner immediately transforms into a ghoul under the blue mage’s control. This spell can only create one ghoul per round—if multiple humanoids perish from the gaze in a round, the blue mage picks which humanoid becomes a ghoul. Learned From Deathscythe</p>"
+    },
+    "descriptors": [
+      "negative",
+      "death"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 7
+      }
+    },
+    "level": 7,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f1373283660c9035"
+}

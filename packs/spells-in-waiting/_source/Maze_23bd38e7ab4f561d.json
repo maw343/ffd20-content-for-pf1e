@@ -1,0 +1,64 @@
+{
+  "_id": "23bd38e7ab4f561d",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Maze",
+  "system": {
+    "actions": [
+      {
+        "_id": "1383c49b589e7363",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "spec",
+          "value": "see text"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You banish the subject into an extra-dimensional labyrinth",
+      "value": "<p>You banish the subject into an extra-dimensional labyrinth. Each round on its turn, it may attempt a DC 20 Intelligence check to escape the labyrinth as a full-round action. If the subject doesn’t escape, the maze disappears after 10 minutes, freeing the subject. On escaping or leaving the maze, the subject reappears where it had been when the maze spell was cast. If this location is filled with a solid object, the subject appears in the nearest open space. Spells and abilities that move a creature within a plane, such as bend space and matter and dimension door, do not help a creature escape a maze spell, although a plane shift spell allows it to exit to whatever plane is designated in that spell. Minotaurs are not affected by this spell.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "summoner": 8,
+        "timemage": 8
+      }
+    },
+    "level": 8,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!23bd38e7ab4f561d"
+}

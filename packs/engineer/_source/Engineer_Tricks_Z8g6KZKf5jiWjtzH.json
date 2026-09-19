@@ -1,0 +1,94 @@
+{
+  "_id": "Z8g6KZKf5jiWjtzH",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Engineer Tricks",
+  "system": {
+    "description": {
+      "value": "<p>At 2nd level, and every 2 levels thereafter, an engineer learns a technical innovation called an engineer trick. These come in three forms: augmentations (which enhance an Automaton), gadgets (tangible crafted items, generally limited-use), or techniques (tricks not tied to a single item, though some require an item to use). Unless otherwise noted, an engineer cannot select an individual engineer trick more than once. The DC of any saving throw called for by an engineer trick is equal to 10 + half of the engineer's level + his Intelligence modifier.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "engineer_tricks",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Engineer"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Engineer",
+          2
+        ],
+        [
+          "Engineer",
+          4
+        ],
+        [
+          "Engineer",
+          6
+        ],
+        [
+          "Engineer",
+          8
+        ],
+        [
+          "Engineer",
+          10
+        ],
+        [
+          "Engineer",
+          12
+        ],
+        [
+          "Engineer",
+          14
+        ],
+        [
+          "Engineer",
+          16
+        ],
+        [
+          "Engineer",
+          18
+        ],
+        [
+          "Engineer",
+          20
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Z8g6KZKf5jiWjtzH"
+}

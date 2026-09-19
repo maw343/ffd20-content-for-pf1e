@@ -1,0 +1,67 @@
+{
+  "_id": "a72bc66a81f055cb",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Scrying",
+  "system": {
+    "actions": [
+      {
+        "_id": "8a6ab4ffc3555487",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "magical sensor"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 min./level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You can observe a creature at any distance",
+      "value": "<p>You can observe a creature at any distance. If the subject succeeds on a Will save, the spell fails. The difficulty of the save depends on how well your knowledge of the subject and what sort of physical connection (if any) you have to that creature. Furthermore, if the subject is on another plane, it gets a +5 bonus on its Will save. Knowledge Will Save Modifier None* +10 Secondhand (you have heard of the subject) +5 Firsthand (you have met the subject) +0 Familiar (you know the subject well) -5 *You must have some sort of connection (see below) to a creature of which you have no knowledge. Knowledge Will Save Modifier Likeness or picture -2 Possession or garment -4 Body part, lock of hair, bit of nail, etc. -10 If the save fails, you can see and hear the subject and its surroundings (approximately 10 feet in all directions of the subject). If the subject moves, the sensor follows at a speed of up to 150 feet. As with all scrying spells, the sensor has your full visual acuity, including any magical effects. In addition, the following spells have a 5% chance per caster level of operating through the sensor: detect snares and pits , detect secret doors , detect magic , and message . A creature can notice the sensor by making a Perception check with a DC 20 + the spell level. The sensor can be dispelled as if it were an active spell. If the save succeeds, you can’t attempt to scry on that subject again for at least 24 hours. Scrying, Greater School enhancing; Level astrologian 7 CASTING Casting Time 1 standard action EFFECT Range see text Effect magical sensor Duration 1 hour/level Saving Throw Will negates; Spell Resistance yes DESCRIPTION This spell functions like Scrying , except as noted above. Additionally, all of the following spells function reliably through the sensor: cure , cure II , cure III , read magic , and tongues .</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 3
+      }
+    },
+    "level": 3,
+    "school": "div",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a72bc66a81f055cb"
+}

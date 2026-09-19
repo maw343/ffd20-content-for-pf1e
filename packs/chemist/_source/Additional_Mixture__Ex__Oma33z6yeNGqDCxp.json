@@ -1,0 +1,65 @@
+{
+  "_id": "Oma33z6yeNGqDCxp",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785713309578,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/green_35.jpg",
+  "name": "Additional Mixture (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Alchemical Mixture class feature</p><p>The chemist expands his ability to prepare mixed chemicals for the day. Add 500 gil to your daily allotment of his alchemical mixture, this is before the level multiplication (1,250 x Chemist Level).</p><p><strong>Special:</strong> This feature can be selected again at chemist level 10, 15, and 20, to a maximum of 2,750 per chemist level.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "additionalmixture",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Chemist",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Chemist - Discoveries"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "ffd20": {
+      "bombDiscovery": false
+    }
+  },
+  "_key": "!items!Oma33z6yeNGqDCxp"
+}

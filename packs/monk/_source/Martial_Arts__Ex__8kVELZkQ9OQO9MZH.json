@@ -1,0 +1,27 @@
+{
+  "_id": "8kVELZkQ9OQO9MZH",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_12.jpg",
+  "name": "Martial Arts (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 1st level, the monk gains Improved Unarmed Strike as a bonus feat. Monks are highly trained in fighting unarmed, giving them considerable advantages when doing so. The monk's attacks may be with either fist interchangeably or even from elbows, knees, and feet. This means that the monk may even make unarmed strikes with his hands full.</p><p>There is no such thing as an off-hand attack for the monk striking unarmed. A monk may thus apply his full Strength bonus on damage rolls for all his unarmed strikes. Usually the monk's unarmed strikes deal lethal damage, but he can choose to deal nonlethal damage instead with no penalty on his attack roll.</p><p>He has the same choice to deal lethal or nonlethal damage while grappling. A monk also deals more damage with his unarmed strikes than a normal person would, as shown on the unarmed damage table. The unarmed damage values listed on that table are for Medium monks. A Small monk deals less damage than the amount given there with his unarmed attacks, while a Large monk deals more damage.</p><p>A monk's unarmed strike is treated as both a manufactured weapon and a natural weapon for the purpose of spells and effects that modify either manufactured weapons or natural weapons.</p><table><tr><th>Level</th><th>Damage (Small)</th><th>Damage (Medium)</th><th>Damage (Large)</th></tr><tr><td>1st – 3rd</td><td>1d4</td><td>1d6</td><td>1d8</td></tr><tr><td>4th – 7th</td><td>1d6</td><td>1d8</td><td>2d6</td></tr><tr><td>8th – 11th</td><td>1d8</td><td>1d10</td><td>2d8</td></tr><tr><td>12th – 15th</td><td>1d10</td><td>2d6</td><td>3d6</td></tr><tr><td>16th – 19th</td><td>2d6</td><td>2d8</td><td>3d8</td></tr><tr><td>20th+</td><td>2d8</td><td>2d10</td><td>4d8</td></tr></table>"
+    },
+    "tag": "martialarts",
+    "source": "Final Fantasy d20 - Monk",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          1
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!8kVELZkQ9OQO9MZH"
+}

@@ -1,0 +1,75 @@
+{
+  "_id": "a9be33d8daab3339",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Heaven's Cataract",
+  "system": {
+    "actions": [
+      {
+        "_id": "894a0a04ddb407bf",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "area": "30-ft. radius centered on the caster",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1d6 rounds"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "12d4",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "will",
+          "description": "Will half (see text)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates a kukulcan creating an eerie sound affecting anyone within a 30-ft",
+      "value": "<p>The caster emulates a kukulcan creating an eerie sound affecting anyone within a 30-ft. radius from her. Those caught in the eerie waves takes 12d4 points of non-elemental damage and are inflicted with Deprotect and Deshell by -2. A successful Will save reduces the damage by half and negates the status effects. Anyone that cannot hear is immune to this effect. Learned From Kukulcan</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 6
+      }
+    },
+    "level": 6,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a9be33d8daab3339"
+}

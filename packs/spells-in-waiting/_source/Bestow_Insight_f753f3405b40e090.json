@@ -1,0 +1,68 @@
+{
+  "_id": "f753f3405b40e090",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Bestow Insight",
+  "system": {
+    "actions": [
+      {
+        "_id": "0136db79dcb124c2",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "one creature touched"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "When casting this spell, choose a single skill that you have at least one rank in",
+      "value": "<p>When casting this spell, choose a single skill that you have at least one rank in. The target gains a +2 insight bonus on skill checks with this skill and is considered trained in that skill. The insight bonus increases by 1 for every four levels of the caster (maximum +6). Furthermore, once before the spell’s duration, the target can choose to roll two checks and take the greater result. Doing so ends the spell’s other effects.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 2
+      }
+    },
+    "level": 2,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f753f3405b40e090"
+}

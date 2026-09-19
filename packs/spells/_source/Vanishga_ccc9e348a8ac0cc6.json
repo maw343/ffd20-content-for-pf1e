@@ -1,0 +1,70 @@
+{
+  "_id": "ccc9e348a8ac0cc6",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Vanishga",
+  "system": {
+    "actions": [
+      {
+        "_id": "6b1939639f1d9b00",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature/2 levels (maximum of 5)"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless) or Will negates (harmless, object)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Vanish , except it affects one creature per two caster levels (maximum of 5) within 30 feet of each other.",
+      "value": "<p>This spell functions like\nVanish\n, except it affects one creature per two caster levels (maximum of 5) within 30 feet of each other.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 7,
+        "blackmage": 7,
+        "whitemage": 7,
+        "illusionist": 5
+      }
+    },
+    "level": 5,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!ccc9e348a8ac0cc6"
+}

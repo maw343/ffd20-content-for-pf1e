@@ -1,0 +1,61 @@
+{
+  "_id": "3f4b9df73a1f4bb5",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785718761460,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Multi-Tool (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Engineer 6</p><p>The engineer creates a device that has multiple functions. It requires a full-round action to switch between tools. This multi-tool has a hardness of 5 and 20 hit points. This multi-tool counts as master-work and can be enchanted as normal. The engineer is proficient with these weapons.<br><br><strong>Chainsaw:</strong> The chainsaw is a complex tool which employs an engine of steam (and sometimes magic) to drive a belt of blades around a vaguely sword-like projection. It is great for cutting through objects such as logs, and rare adamantine versions chew through solid iron walls. It is not intended for use as a weapon however. The chainsaw does special things on a natural 1. On a natural 1, the chainsaw has a 20% chance it may jam. In such a case, the device must be shut off and a Disable Device check of DC 20 is required to bring the chainsaw back into working order. If the weapon is ever sundered, its fuel explodes, dealing 2d6 fire damage to its user. Chainsaws gain +2 on Sunder checks and treat the hardness of the object as -2 less than normal (to a minimum of 0). Any enchantment bonus grants another -1 penalty per bonus. It consumes 10 gil in fuel per encounter or for every minute used outside of battle. This fuel can be crafted with Craft (Alchemy) checks, generally distilled from organic sludge like oils. It deals 2d8 (x3 crit multiplier) points of slashing damage (or 2d6 if small).<br><br><strong>Debilitator:</strong> This complex tool fires a wired dart up to 30 feet away. If it strikes a foe, it confers an elemental weakness to a random element. Roll a 1d6 (Earth = 1, Fire = 2, Ice = 3, Lightning = 4, Water = 5, or Wind = 6). This effect lasts for a minute and the engineer cannot switch tools or the effect fades.<br><br><strong>Noiseblaster:</strong> This tool fires a blast of sound, that confuses enemies. At a range of a 30-ft.-cone, all creatures in the area of effect must make a Will save (DC 10 + half of the engineer's level + his Intelligence modifier) or become Confused for 1d6 rounds.<br><br><strong>Power Drill:</strong> This tool is a sturdy drill, able to bypass defenses. If used in melee attack, the engineer bypasses armor bonus to AC and reduces hardness and damage reduction by 5 (this increases by 1 per +1 enhancement bonus). It deals 2d6 (19-20, x2 crit multiplier) points of piercing damage (or 2d4 if small) upon a hit. It consumes 10 gil in fuel per encounter or for every minute used outside of battle. This fuel can be crafted with craft alchemy checks, generally distilled from organic sludge like oils.<br><br><strong>Super Wrench:</strong> This stout tool provides a +2 equipment bonus to Craft (Mechanical) skill checks and is very handy in battle. It deals 1d8 (x3 crit multiplier) points of bludgeoning damage (or 1d6 if small).</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "multitoolex",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Engineer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Engineer Tricks - Gadgets"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!3f4b9df73a1f4bb5"
+}

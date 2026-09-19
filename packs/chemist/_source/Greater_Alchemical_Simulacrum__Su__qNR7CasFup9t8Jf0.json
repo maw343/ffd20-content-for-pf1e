@@ -1,0 +1,65 @@
+{
+  "_id": "qNR7CasFup9t8Jf0",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785713309580,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/green_35.jpg",
+  "name": "Greater Alchemical Simulacrum (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Chemist 14, alchemical simulacrum discovery</p><p>The chemist gains the ability to create a simulacrum. This works like the simulacrum spell, except it costs 100 gil in alchemical materials per Hit Die of the simulacrum, requires 24 hours to grow, and decays into inert flesh rather than ice or snow if killed. The created simulacrum is a creature, not a supernatural effect.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "greateralchemicalsimulacrum",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Chemist",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Chemist - Discoveries"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "ffd20": {
+      "bombDiscovery": false
+    }
+  },
+  "_key": "!items!qNR7CasFup9t8Jf0"
+}

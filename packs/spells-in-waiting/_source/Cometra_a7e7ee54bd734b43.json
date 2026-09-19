@@ -1,0 +1,68 @@
+{
+  "_id": "a7e7ee54bd734b43",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Cometra",
+  "system": {
+    "actions": [
+      {
+        "_id": "4a6e466ed4e558f7",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "area": "1d6 15-ft.-radius burst spread",
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You summon 1d6 frozen comets from the heavens to rain upon your enemies",
+      "value": "<p>You summon 1d6 frozen comets from the heavens to rain upon your enemies. You direct each of the spheres within 30 feet of each other. Those within the area of effect take 4d8 + your casting modifier points of damage (half in ice damage, the other half in earth damage), a Reflex save for half damage. Creatures hit with multiple comets must make multiple Reflex saves. You must be in an outside environment to cast this spell.</p>"
+    },
+    "descriptors": [
+      "earth"
+    ],
+    "learnedAt": {
+      "class": {
+        "astrologian": 6,
+        "timemage": 6
+      }
+    },
+    "level": 6,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a7e7ee54bd734b43"
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "J09BRpfCxy54etMJ",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Arcane Talent (Nu Mou or Tarutaru)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Cha 10; nu mou or tarutaru</p><p><strong>Benefit:</strong> Choose a 0-level spell from the black mage or white mage spell list. You can cast this spell three times per day as a spell-like ability. The caster level is equal to your character level. The save DC is 10 + your Charisma modifier.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "racial",
+    "tag": "arcane_talent_nu_mou_or_",
+    "requirements": "Cha 10; nu mou or tarutaru",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-RacialFeats",
+        "pages": "Racial Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!J09BRpfCxy54etMJ"
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "r8SrPZ8upP8UMq6M",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "True Illusion (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 5th level, whenever another creature employs a spell, spell-like ability, or magic item (such as detect magic, see invisibility or a gem of seeing) that can detect the magical aura or reveal the effects of one of the illusionist's illusion spells, the creature must make a caster level check (DC 11 + the illusionist's caster level) to successfully detect or reveal the effects of the illusionist's illusion spells. A creature using a magic item uses the item's caster level for this check unless the item specifically states otherwise. Failure on this check means the caster believes their spell functioned normally, but it fails to detect the presence of the illusion spell or its effects. The creature can make this check only once for each spell used, no matter how many of the illusionist's illusion spells are active in a given area.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "true_illusion_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Illusionist"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Illusionist",
+          5
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!r8SrPZ8upP8UMq6M"
+}

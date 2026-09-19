@@ -1,0 +1,27 @@
+{
+  "_id": "TlGd4SyGDF0XF6Qb",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_12.jpg",
+  "name": "Autonomic Grasp (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 11th level, a warrior clings to his weaponry even when on the brink of death. A warrior can choose to retain his hold on his wielded weapons when he is knocked unconscious or succumbs to a sleep effect. While the warrior is asleep or unconscious, attackers must succeed at combat maneuver checks to disarm him, but he gains relevant bonuses for attacking a helpless target, including treating the warrior's Dexterity as 0 when determining his CMD.</p>"
+    },
+    "tag": "autonomicgrasp",
+    "source": "Final Fantasy d20 - Warrior",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          11
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!TlGd4SyGDF0XF6Qb"
+}

@@ -1,0 +1,68 @@
+{
+  "_id": "634e2c5c63aefe95",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Confusing Gaze",
+  "system": {
+    "actions": [
+      {
+        "_id": "15cdb28f15441a2b",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "one non-blind creature"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous/1d2 rounds"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the mind-affecting gaze of the blood eye to a single target",
+      "value": "<p>The caster emulates the mind-affecting gaze of the blood eye to a single target. The target has to be facing the blood eye and must make a Will save or is inflicted with the Confused status for 1d2 rounds. Learned From Ahriman Family</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!634e2c5c63aefe95"
+}

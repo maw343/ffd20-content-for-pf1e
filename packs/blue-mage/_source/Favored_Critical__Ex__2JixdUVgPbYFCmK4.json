@@ -1,0 +1,65 @@
+{
+  "_id": "2JixdUVgPbYFCmK4",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785712946355,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_35.jpg",
+  "name": "Favored Critical (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Favored Enemy class feature, Critical Focus feat</p><p>Whenever the blue mage rolls a critical threat against her favored enemy, it automatically confirms. The blue mage can gain this talent multiple times. Its effects do not stack. Each time she takes this talent, it applies to a different favored enemy.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "favoredcritical",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Blue Mage",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Blue Mage - Azure Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "ffd20": {
+      "spellcastingTalent": false
+    }
+  },
+  "_key": "!items!2JixdUVgPbYFCmK4"
+}

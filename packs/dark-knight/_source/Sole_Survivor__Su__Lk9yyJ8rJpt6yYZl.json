@@ -1,0 +1,61 @@
+{
+  "_id": "Lk9yyJ8rJpt6yYZl",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785717194841,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/shadow_35.jpg",
+  "name": "Sole Survivor (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>As a swift action, the dark knight marks an enemy at his choosing within 20 feet. If this enemy dies, whether by the dark knight's hands or another, the dark knight heals 1d6 hit points per two dark knight levels and gains MP equal to his Charisma modifier. If the enemy does not die within a number of rounds equal to the dark knight's Charisma modifier, the effect ends.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "solesurvivor",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Dark Knight",
+          3
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Dark Knight - Abyssal Arts"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Lk9yyJ8rJpt6yYZl"
+}

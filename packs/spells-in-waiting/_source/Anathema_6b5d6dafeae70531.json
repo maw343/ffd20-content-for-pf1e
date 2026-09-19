@@ -1,0 +1,63 @@
+{
+  "_id": "6b5d6dafeae70531",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Anathema",
+  "system": {
+    "actions": [
+      {
+        "_id": "5fc3b8aa53af1461",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "60 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "spec",
+          "value": "1d6 rounds each; see text"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the Sacrifice Cieth’s ability release a stream of black, vile mist at a target",
+      "value": "<p>The caster emulates the Sacrifice Cieth’s ability release a stream of black, vile mist at a target. The target is subjected to a targeted greater dispel effect, and given a menagerie of status effects. The target has to make a saving throw each to avoid the Sap (Fort), Slow (Will) and Imperil (Will) status. Another Will save must be made or imposes a -4 penalty on all saving throws against spells and spell-like abilities. In addition, it also forces the target to treat their caster level as four levels lower for determining the effects of any and all spells and spell-like abilities they use. Learned From sacrifice cie’th</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 9
+      }
+    },
+    "level": 9,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!6b5d6dafeae70531"
+}

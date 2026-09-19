@@ -1,0 +1,80 @@
+{
+  "_id": "a316d2419d2e3740",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Aerospark",
+  "system": {
+    "actions": [
+      {
+        "_id": "8fd82d9a9c04294e",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "rsak",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "ray (2)"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "ability": {
+          "attack": "dex",
+          "critMult": 2,
+          "critRange": 20
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d6 + @spells.primary.abilityMod + min(@spells.primary.cl.total, 5)",
+              "types": [
+                "electricity"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You call forth Ixion, a mechanical unicorn which uses its horn to fire a blast of lightning at two different enemy targets",
+      "value": "<p>You call forth Ixion, a mechanical unicorn which uses its horn to fire a blast of lightning at two different enemy targets. You must make a ranged touch attack to hit for each ray, and if the ray hits, it deals 1d6 points of lightning damage + 1 point per caster level.</p>"
+    },
+    "descriptors": [
+      "fire"
+    ],
+    "learnedAt": {
+      "class": {
+        "summoner": 1
+      }
+    },
+    "level": 1,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a316d2419d2e3740"
+}

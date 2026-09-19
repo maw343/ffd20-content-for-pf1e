@@ -1,0 +1,77 @@
+{
+  "_id": "4577b709e4afb9fe",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Fiery Body",
+  "system": {
+    "actions": [
+      {
+        "_id": "a200f867f0e759f2",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "3d6",
+              "types": [
+                "fire"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell transforms your body into living flame",
+      "value": "<p>This spell transforms your body into living flame. You and your equipment are immune to fire damage. In fact, every time you would normally take damage from fire, you are instead healed of damage at a rate of 1 point per 3 points of damage the fire attack would have normally inflicted. You are immune to blindness, critical hits, ability score damage, deafness, disease, drowning, poison, stunning, and all spells that affect your physiology or respiration. You take only half damage from ice. You take twice as much damage from water damage than normal. You gain a +6 enhancement bonus to your Dexterity score and a fly speed of 40 ft. (perfect maneuverability). Your unarmed attack deals an additional 3d6 points of fire damage, inflicts Burning status effect, and you are considered armed when making unarmed attacks. Your body burns so brightly that creatures that do not avert their gaze from you are dazzled. Fire spells you cast have their save DCs increased by +1. If you enter water, you are surrounded by a 5-foot radius of steam and bubbles that grant you concealment (50% miss chance) but you take 2d6 points of water damage each round you remain in water.</p>"
+    },
+    "descriptors": [
+      "fire",
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 9,
+        "geomancer": 8
+      }
+    },
+    "level": 8,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!4577b709e4afb9fe"
+}

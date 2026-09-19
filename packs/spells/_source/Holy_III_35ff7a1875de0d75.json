@@ -1,0 +1,64 @@
+{
+  "_id": "35ff7a1875de0d75",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Holy III",
+  "system": {
+    "actions": [
+      {
+        "_id": "2ea30080b7dbc1bd",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 20))d8",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Holy , except it deals 1d8 points of holy damage per caster level (maximum 20d8) and inflicts the Illuminated status effect for 1d8 rounds.",
+      "value": "<p>This spell functions like\nHoly\n, except it deals 1d8 points of holy damage per caster level (maximum 20d8) and inflicts the Illuminated status effect for 1d8 rounds. A successful Reflex save reduces this damage by half and prevents the status effect from taking effect.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!35ff7a1875de0d75"
+}

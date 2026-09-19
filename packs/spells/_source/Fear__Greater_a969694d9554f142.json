@@ -1,0 +1,67 @@
+{
+  "_id": "a969694d9554f142",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Fear, Greater",
+  "system": {
+    "actions": [
+      {
+        "_id": "793e1a41fd4260ce",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "cone-shaped burst",
+        "duration": {
+          "units": "spec",
+          "value": "1 round/level or 1 round; see text"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will partial"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "An invisible cone of terror causes each living creature in the area to become panicked unless it succeeds on a Will save",
+      "value": "<p>An invisible cone of terror causes each living creature in the area to become panicked unless it succeeds on a Will save. If cornered, a panicked creature begins cowering. If the Will save succeeds, the creature is shaken for 1 round.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "darkknight": 4,
+        "necromancer": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a969694d9554f142"
+}

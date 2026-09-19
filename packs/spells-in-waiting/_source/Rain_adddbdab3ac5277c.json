@@ -1,0 +1,65 @@
+{
+  "_id": "adddbdab3ac5277c",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Rain",
+  "system": {
+    "actions": [
+      {
+        "_id": "877b35bc40d2d46f",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "area": "20-ft.-radius spread",
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "All creatures in the area of effect are affected by the Drenched status effect",
+      "value": "<p>All creatures in the area of effect are affected by the Drenched status effect. Water evaporates after spell ends, removing the status effect from affected creatures.</p>"
+    },
+    "descriptors": [
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "druid": 1,
+        "geomancer": 1,
+        "whitemage": 1
+      }
+    },
+    "level": 1,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!adddbdab3ac5277c"
+}

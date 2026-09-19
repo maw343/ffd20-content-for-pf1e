@@ -1,0 +1,72 @@
+{
+  "_id": "6d69e05a3e41417d",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Water Walk",
+  "system": {
+    "actions": [
+      {
+        "_id": "a6f4ff6e78f7ceca",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "one touched creature"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "10 minute/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The affected creature can tread on any liquid as if it were firm ground.",
+      "value": "<p>The affected creature can tread on any liquid as if it were firm ground. Mud, oil, snow, quicksand, running water, ice, and even lava can be traversed easily, since the subject’s feet hover an inch or two above the surface. A creature crossing molten lava still take damage from the heat because they are near it. The subject can walk, run, charge, or otherwise move across the surface as if it were normal ground.\nIf the spell is cast underwater (or while the subject is partially or wholly submerged in whatever liquid they are in), the subject is borne toward the surface at 60 feet per round until they can stand on it.</p>"
+    },
+    "descriptors": [
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 3,
+        "druid": 3,
+        "whitemage": 3,
+        "redmage": 3,
+        "geomancer": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!6d69e05a3e41417d"
+}

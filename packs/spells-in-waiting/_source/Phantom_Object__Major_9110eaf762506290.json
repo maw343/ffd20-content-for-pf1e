@@ -1,0 +1,68 @@
+{
+  "_id": "9110eaf762506290",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Phantom Object, Major",
+  "system": {
+    "actions": [
+      {
+        "_id": "c7b26944b3aae42e",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "phantasmal, unattended, non-magical object, up to 1 cu. ft./level"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "10 minutes/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions as the Minor Phantom Object spell, except as noted above and the object created is a semi-real phantasm",
+      "value": "<p>This spell functions as the Minor Phantom Object spell, except as noted above and the object created is a semi-real phantasm. Any creature that interacts with the object may make a Will save, with success causing the object to cease to exist. A tarutaru casting this spell may make a Spellcraft check in place of any Craft check required to make a complex item.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 5
+      }
+    },
+    "level": 5,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!9110eaf762506290"
+}

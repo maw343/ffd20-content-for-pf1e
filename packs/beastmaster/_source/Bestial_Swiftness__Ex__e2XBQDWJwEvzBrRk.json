@@ -1,0 +1,27 @@
+{
+  "_id": "e2XBQDWJwEvzBrRk",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_13.jpg",
+  "name": "Bestial Swiftness (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The beastmaster's animal companion moves much more swiftly, gaining a +10 foot movement speed.</p>"
+    },
+    "tag": "bestialswiftness",
+    "source": "Final Fantasy d20 - Beastmaster Tricks",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!e2XBQDWJwEvzBrRk"
+}

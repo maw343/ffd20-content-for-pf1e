@@ -1,0 +1,72 @@
+{
+  "_id": "65daf0788b5876da",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Plague Storm",
+  "system": {
+    "actions": [
+      {
+        "_id": "316c5c70d8c9bd59",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "cloud spreads in 20-ft. radius, 20 ft. high"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "1 minute/level and instantaneous (see text)"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You create a hideous gray cloud, similar to fog cloud , which occasionally crackles with foul-smelling bolts of sickly green lightning",
+      "value": "<p>You create a hideous gray cloud, similar to fog cloud , which occasionally crackles with foul-smelling bolts of sickly green lightning. Creatures in the area must save or contract one of the following diseases: blinding sickness, bubonic plague, cackle fever, demon fever, devil chills, filth fever, leprosy, mindfire, red ache, shakes, or slimy doom (the disease is chosen by you when you cast the spell and applies to all creatures that fail the save). The disease is contracted immediately (the onset period does not apply) and is an instantaneous effect. Use the disease’s listed frequency to determine further effects, but the disease’s save DC increases by +2. Unlike a fog cloud , the plague storm moves away from you at 10 feet per round, rolling along the surface of the ground. Figure out the cloud’s new spread each round based on its new point of origin, which is 10 feet farther away from the point of origin where you cast the spell. Because the vapors are heavier than air, they sink to the lowest level of the terrain, even pouring down den or sinkhole openings. The cloud cannot penetrate liquids, nor can it be cast underwater.</p>"
+    },
+    "descriptors": [
+      "fire",
+      "water",
+      "evil"
+    ],
+    "learnedAt": {
+      "class": {
+        "necromancer": 7
+      }
+    },
+    "level": 7,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!65daf0788b5876da"
+}

@@ -1,0 +1,61 @@
+{
+  "_id": "e66af16f9ca4cfe6",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Claws of the Vampire",
+  "system": {
+    "actions": [
+      {
+        "_id": "62dd862929b8deeb",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level DESCRIPTION If you have a claw attack (either from an actual natural weapon or from a weapon such as feral claw gauntlets ), you can use this spell to change the nature of that weapon. When this spell is cast, your claws take on an ominous glimmer. Each time you make a successful claw attack against a living creature of Small or larger size, you are healed of some amount of damage. You heal a number of hit points equal to half the base damage dealt (weapon dice only) by your claws of the vampire, rounded down (additional damage dealt because of a high Strength score or other enhancements does not count toward the amount you heal). You heal as many hit points as can be gained while the creature remains at 1 hit point or higher. Any damage that would reduce the creature to 0 or fewer hit points does not benefit you."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "If you have a claw attack (either from an actual natural weapon or from a weapon such as feral claw gauntlets ), you can use this spell t...",
+      "value": "<p>If you have a claw attack (either from an actual natural weapon or from a weapon such as feral claw gauntlets ), you can use this spell to change the nature of that weapon. When this spell is cast, your claws take on an ominous glimmer. Each time you make a successful claw attack against a living creature of Small or larger size, you are healed of some amount of damage. You heal a number of hit points equal to half the base damage dealt (weapon dice only) by your claws of the vampire, rounded down (additional damage dealt because of a high Strength score or other enhancements does not count toward the amount you heal). You heal as many hit points as can be gained while the creature remains at 1 hit point or higher. Any damage that would reduce the creature to 0 or fewer hit points does not benefit you.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "necromancer": 3
+      }
+    },
+    "level": 3,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!e66af16f9ca4cfe6"
+}

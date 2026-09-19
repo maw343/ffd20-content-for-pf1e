@@ -1,0 +1,65 @@
+{
+  "_id": "KaVHylfF2AFqZX7o",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785713309582,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/green_35.jpg",
+  "name": "Dilution (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Chemist 12</p><p>Once per day, the chemist can dilute any one alchemical item that can be ingested, creating two doses of the same alchemical item from one. Diluting an alchemical item costs a number of gil equal to one-quarter of the alchemical item's market value. An alchemical item that has been diluted cannot be diluted again.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "dilution",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Chemist",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Chemist - Discoveries"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "ffd20": {
+      "bombDiscovery": false
+    }
+  },
+  "_key": "!items!KaVHylfF2AFqZX7o"
+}

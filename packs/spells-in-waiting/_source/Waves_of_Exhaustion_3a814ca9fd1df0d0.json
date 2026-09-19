@@ -1,0 +1,60 @@
+{
+  "_id": "3a814ca9fd1df0d0",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Waves of Exhaustion",
+  "system": {
+    "actions": [
+      {
+        "_id": "156fd6aa616a3a3d",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "cone-shaped burst",
+        "duration": {
+          "units": "inst"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Waves of dark energy render all living creatures in the spell’s area exhausted",
+      "value": "<p>Waves of dark energy render all living creatures in the spell’s area exhausted. This spell has no effect on a creature that is already exhausted.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "necromancer": 7
+      }
+    },
+    "level": 7,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!3a814ca9fd1df0d0"
+}

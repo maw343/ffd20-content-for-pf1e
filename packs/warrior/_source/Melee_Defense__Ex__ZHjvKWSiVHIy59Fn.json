@@ -1,0 +1,27 @@
+{
+  "_id": "ZHjvKWSiVHIy59Fn",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_13.jpg",
+  "name": "Melee Defense (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>When wielding a melee weapon, a warrior gains a +1 shield bonus to his AC. This shield bonus stacks with that granted by any shield he wields. If fighting with two weapons and no shields, he gains a +2 shield bonus to his AC instead.</p>"
+    },
+    "tag": "meleedefense",
+    "source": "Final Fantasy d20 - Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!ZHjvKWSiVHIy59Fn"
+}

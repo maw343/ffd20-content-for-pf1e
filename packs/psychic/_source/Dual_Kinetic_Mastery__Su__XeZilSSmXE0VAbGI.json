@@ -1,0 +1,50 @@
+{
+  "_id": "XeZilSSmXE0VAbGI",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Dual Kinetic Mastery (Su)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Telekinetic Hurl and Telekinetic Combat class features</p><p><strong>Benefit:</strong> The psychic may wield melee weapons as normal and also have a weapon that is wielded telekinetically. The weapon must remain within 20 feet of the psychic. The psychic designates one square within range and can make attacks or attacks of opportunity from that square as well as the square in which she actually resides. This telekinetically-wielded weapon does not benefit from additional attacks from effects such haste, nor does it make iterative attacks. A psychic may only attack with weapons she wields or with the telekinetic weapon as a standard action, but may attack with her held weapons and with her telekinetic weapon on a full attack action.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "psychicTalent",
+    "tag": "dual_kinetic_mastery_su",
+    "requirements": "Telekinetic Hurl and Telekinetic Combat class features",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-PsychicClass",
+        "pages": "Psychic Talents"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!XeZilSSmXE0VAbGI"
+}

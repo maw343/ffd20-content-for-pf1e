@@ -1,0 +1,67 @@
+{
+  "_id": "acb3096677c75a99",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Shift Fate",
+  "system": {
+    "actions": [
+      {
+        "_id": "0fdaa4d1bd5c0e8a",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "immediate",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "120 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the mephisto’s ability to shift fates",
+      "value": "<p>The caster emulates the mephisto’s ability to shift fates. As an immediate action , the caster can force any one target within 120 feet to reroll a saving throw—this ability must be used immediately after the saving throw is rolled, and the target must abide by the result of this second roll. Learned From Mephisto</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 8
+      }
+    },
+    "level": 8,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!acb3096677c75a99"
+}

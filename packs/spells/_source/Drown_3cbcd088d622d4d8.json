@@ -1,0 +1,78 @@
+{
+  "_id": "3cbcd088d622d4d8",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Drown",
+  "system": {
+    "actions": [
+      {
+        "_id": "40415a90e57e5bc1",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 10))d6",
+              "types": [
+                "water"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude half/ends the effect — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The target of this spell is surrounded by a large globe of water, drowning for 1d6 points of water damage per caster level per round (maximum 10d6) and inflicts the Drenched status effect.",
+      "value": "<p>The target of this spell is surrounded by a large globe of water, drowning for 1d6 points of water damage per caster level per round (maximum 10d6) and inflicts the Drenched status effect. A successful Fortitude save reduces the damage by half and negates the status effect. If the target fails the initial saving throw, it gets another chance to save every round to end the effect until the duration is ended.</p>"
+    },
+    "descriptors": [
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 5,
+        "redmage": 5
+      }
+    },
+    "level": 5,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!3cbcd088d622d4d8"
+}

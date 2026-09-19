@@ -1,0 +1,69 @@
+{
+  "_id": "f7187311996fecce",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Warp Wood",
+  "system": {
+    "actions": [
+      {
+        "_id": "6b15a0fe36db1291",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "1 Small wooden object/level, all within a 20-ft. radius"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You cause wood to bend and warp, permanently destroying its straightness, form, and strength",
+      "value": "<p>You cause wood to bend and warp, permanently destroying its straightness, form, and strength. A warped door springs open (or becomes stuck, requiring a Strength check to open, at your option). A boat or ship springs a leak. Warped ranged weapons are useless. A warped melee weapon causes a -4 penalty on attack rolls. You may warp one Small or smaller object or its equivalent per caster level. A Medium object counts as two Small objects, a Large object as four, a Huge object as eight, a Gargantuan object as 16, and a Colossal object as 32. Alternatively, you can unwarp wood (effectively warping it back to normal) with this spell. Make whole, on the other hand, does no good in repairing a warped item. You can combine multiple consecutive warp wood spells to warp (or unwarp) an object that is too large for you to warp with a single spell. Until the object is completely warped, it suffers no ill effects.</p>"
+    },
+    "descriptors": [
+      "good"
+    ],
+    "learnedAt": {
+      "class": {
+        "druid": 2
+      }
+    },
+    "level": 2,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f7187311996fecce"
+}

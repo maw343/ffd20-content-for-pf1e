@@ -1,0 +1,67 @@
+{
+  "_id": "24faa3c24c4b325e",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Tonko-San",
+  "system": {
+    "actions": [
+      {
+        "_id": "66170e46e5dd8e2b",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "you or a creature or object weighing no more than 100 lbs./level"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless) or Will negates (harmless, object)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This ninjutsu functions as greater vanish",
+      "value": "<p>This ninjutsu functions as greater vanish .</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "ninja": 4
+      }
+    },
+    "level": 4,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!24faa3c24c4b325e"
+}

@@ -1,0 +1,68 @@
+{
+  "_id": "034e2a558fbd9c6f",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Vanish, Greater",
+  "system": {
+    "actions": [
+      {
+        "_id": "8936fdf885ebb6d3",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you or creature touched"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Vanish , except that it doesn’t end if the subject attacks.",
+      "value": "<p>This spell functions like\nVanish\n, except that it doesn’t end if the subject attacks.\nThe creature or object touched becomes invisible. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so.\nItems dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisible, although a source of light can become so (thus, the effect is that of a light with no visible source). Any part of an item that the subject carries but that extends more than 10 feet from it becomes visible.\nOf course, the subject is not magically silenced, and certain other conditions can render the recipient detectable (such as swimming in water or stepping in a puddle). If a check is required, a stationary invisible creature has a +40 bonus on its Stealth checks. This bonus is reduced to +20 if the creature is moving.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 6,
+        "blackmage": 6,
+        "illusionist": 4,
+        "redmage": 6,
+        "whitemage": 6,
+        "darkknight": 4
+      }
+    },
+    "level": 4,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "glamer"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!034e2a558fbd9c6f"
+}

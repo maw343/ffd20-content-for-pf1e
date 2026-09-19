@@ -1,0 +1,84 @@
+{
+  "_id": "b510e1e740ab5713",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Goblin Punch",
+  "system": {
+    "actions": [
+      {
+        "_id": "14b9082dd4c673f3",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "rsak",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "ray"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "ability": {
+          "attack": "dex",
+          "critMult": 2,
+          "critRange": 20
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d4",
+              "types": [
+                "wind"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex partial"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the wind blast of a goblin",
+      "value": "<p>The caster emulates the wind blast of a goblin. The caster must make a ranged touch attack, if it hits, the target takes 1d4+3 points of wind damage and must make a Reflex save or fall prone. Learned From Goblin Family</p>"
+    },
+    "descriptors": [
+      "wind"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 1
+      }
+    },
+    "level": 1,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!b510e1e740ab5713"
+}

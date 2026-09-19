@@ -1,0 +1,70 @@
+{
+  "_id": "50796f3a7f0b10ab",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Mortal Terror",
+  "system": {
+    "actions": [
+      {
+        "_id": "a2d4b0fa1f090a6f",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will partial (see text)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You imbue the target with an exaggerated sense of its own mortality and a drive for self-preservation",
+      "value": "<p>You imbue the target with an exaggerated sense of its own mortality and a drive for self-preservation. The target is shaken, and the first time each round the target takes damage (including the first round of the spell’s duration), it must succeed at another Will save or its fear level increases by one step (from shaken to frightened, and from frightened to panicked). If the target fails a saving throw against this effect while panicked, it is transfixed in terror and is helpless for the remainder of the spell’s duration. If the target succeeds at the initial Will save, it is shaken for 1 round but its fear level cannot be further increased by this spell’s effects during that round.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "darkknight": 2,
+        "illusionist": 2,
+        "necromancer": 2
+      }
+    },
+    "level": 2,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!50796f3a7f0b10ab"
+}

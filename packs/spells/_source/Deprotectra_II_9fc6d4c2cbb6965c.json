@@ -1,0 +1,54 @@
+{
+  "_id": "9fc6d4c2cbb6965c",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Deprotectra II",
+  "system": {
+    "actions": [
+      {
+        "_id": "e296919e024f9d67",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like D e protect ra , except the creatures in the area of effect are inflicted with a -4 penalty to Armor Class for the duration of the spell.",
+      "value": "<p>This spell functions like\nD\ne\nprotect\nra\n, except the creatures in the area of effect are inflicted with a -4 penalty to Armor Class for the duration of the spell.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!9fc6d4c2cbb6965c"
+}

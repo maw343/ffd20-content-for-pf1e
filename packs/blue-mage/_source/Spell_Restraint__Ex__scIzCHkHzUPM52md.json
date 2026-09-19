@@ -1,0 +1,65 @@
+{
+  "_id": "scIzCHkHzUPM52md",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785712946362,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_35.jpg",
+  "name": "Spell Restraint (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>Whenever the blue mage casts a spell with an area described as a radius, she may decide to make the radius smaller. She may reduce the radius down by any number of 5-foot increments, to a minimum of a 5-foot-radius.</p><p><em>* This talent adds effects to a blue mage's spellcasting ability. Only one of these talents can be applied to an individual spell and the decision must be made before the spell is cast.</em></p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "spellrestraint",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Blue Mage",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Blue Mage - Azure Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "ffd20": {
+      "spellcastingTalent": true
+    }
+  },
+  "_key": "!items!scIzCHkHzUPM52md"
+}

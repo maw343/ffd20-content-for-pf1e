@@ -1,0 +1,69 @@
+{
+  "_id": "7403d75958cdf492",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Calm Emotions",
+  "system": {
+    "actions": [
+      {
+        "_id": "37816f94ccaba32c",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "area": "creatures in a 20-ft.-radius spread",
+        "duration": {
+          "units": "round",
+          "value": "1 round/level",
+          "concentration": true
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This song calms agitated creatures.",
+      "value": "<p>This song calms agitated creatures. You have no control over the affected creatures, but calm emotions can stop raging creatures from fighting or joyous ones from reveling. Creatures so affected cannot take violent actions (although they can defend themselves) or do anything destructive. Any aggressive action against or damage dealt to a calmed creature immediately breaks the song on all calmed creatures.\nThis song automatically suppresses (but does not dispel) any morale bonuses granted by spells such as\nheroism\n,\nhunter’s prelude\n, and\nrage\n, and also negates a\nbard’s\nability to\ninspire courage\nor a\nberserker’s\nrage\nability. It also suppresses any fear effects and removes the\nantagonized\n,\nberserk\nand\nconfused\nstatus effects from all targets. While the song lasts, a suppressed spell, condition, or effect has no effect. When the calm emotions song ends, the original spell or effect takes hold of the creature again, provided that its duration has not expired in the meantime.\nFrenzied warriors\ncurrently under frenzy affected by calm emotions can still make saves to end the frenzy.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bard": 2
+      }
+    },
+    "level": 2,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "compulsion",
+      "mind-affecting"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!7403d75958cdf492"
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "mMiwCFKNHZmvceW7",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Critical Strike (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Red Mage 12</p><p>Whenever the red mage scores a critical hit with a melee weapon, he may cast a spell with a range of touch as a swift action, then make a touch attack with that spell against the target of the critical hit as a free action. The red mage can use this ability once per day.</p>"
+    },
+    "tag": "criticalstrikesu",
+    "source": "Final Fantasy d20 - Red Mage (Ruby Talents)"
+  },
+  "effects": [],
+  "_key": "!items!mMiwCFKNHZmvceW7"
+}

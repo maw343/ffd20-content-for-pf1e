@@ -1,0 +1,27 @@
+{
+  "_id": "S7TtjtCFMAJZyxib",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_12.jpg",
+  "name": "Empathic Link (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 2nd level, the beastmaster forms an empathic link with his companion out to a distance of up to 1 mile. At 6th level, the beastmaster extends his link to include not only his companion but also any animals he has befriended. The link allows the beastmaster and the animals to communicate their general emotional state (fear, hunger, happiness, curiosity) to one another. Note that the Intelligence of animals may limit what the creatures can communicate or understand.</p>"
+    },
+    "tag": "empathiclink",
+    "source": "Final Fantasy d20 - Beastmaster",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!S7TtjtCFMAJZyxib"
+}

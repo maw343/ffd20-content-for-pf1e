@@ -1,0 +1,76 @@
+{
+  "_id": "f5f5d4faf7aa6ac1",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Domain of the Hungry Flesh",
+  "system": {
+    "actions": [
+      {
+        "_id": "33822481dafeffa9",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "area": "all creatures within a 20-ft.-burst, centered on target point",
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d4",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude partial (see text)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You create a terrible abomination in an area",
+      "value": "<p>You create a terrible abomination in an area. It attacks everything inside, trying to trip (using caster’s level instead of BAB and Charisma ability score instead of Strength), dealing 2d6 plus caster level bludgeoning damage, entangling and, if they fail a fortitude save, dealing 1d4 damage to a random physical ability score.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "necromancer": 8
+      }
+    },
+    "level": 8,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f5f5d4faf7aa6ac1"
+}

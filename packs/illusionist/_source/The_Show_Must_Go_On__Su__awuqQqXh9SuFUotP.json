@@ -1,0 +1,58 @@
+{
+  "_id": "awuqQqXh9SuFUotP",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "The Show Must Go On (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 6th level, when an illusionist has a creature under the effects of an enfeebling spell and that creature has line of sight to an illusion spell the illusionist has cast with a duration of concentration, the illusionist can link the illusion spell to the enfeebled target. As long as the target has line of sight to the illusion and is enfeebled, and the illusionist has line of sight to both the target and the illusion, the illusionist can maintain the illusion as a free action each round. The illusionist can maintain only one illusion spell in this way. At 13th level, the illusionist can maintain two illusion spells in this way, requiring a separate enfeebled target for each illusion.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "the_show_must_go_on_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Illusionist"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Illusionist",
+          6
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!awuqQqXh9SuFUotP"
+}

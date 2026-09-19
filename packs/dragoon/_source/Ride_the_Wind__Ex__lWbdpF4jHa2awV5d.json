@@ -1,0 +1,89 @@
+{
+  "_id": "lWbdpF4jHa2awV5d",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785616131917,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_12.jpg",
+  "name": "Ride the Wind (Ex)",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 10th level, a dragoon learns to manipulate the very air around him to maximize his diving power and maneuverability.</p><p>The dragoon treats all dive attacks as if he dove from 10 feet higher, with this amount increasing by an additional 10 feet for every 3rd level after 10th.</p><p>Additionally, a dragoon may spend a daily usage of his Super Jump ability mid-jump to change direction once. This may occur at the apex of his high jump to allow the dragoon to move horizontally from that position before performing a dive attack. The distance traveled as a result of this ability counts towards the dragoon's maximum jumping distance.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "ridethewind",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": [
+        [
+          "Dragoon",
+          10
+        ]
+      ]
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {},
+    "source": "Final Fantasy d20 - Dragoon"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!lWbdpF4jHa2awV5d"
+}

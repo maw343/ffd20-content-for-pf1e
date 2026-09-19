@@ -1,0 +1,136 @@
+{
+  "_id": "3f361ec463eb8c3f",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785691036385,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Aura Break",
+  "system": {
+    "description": {
+      "value": "<p>You infuse a target with all the determination and adrenaline of one who is close to death in heated combat, shrouding them in a yellow hue.\nA target affected by this spell can activate a\nLimit Break\nregardless if they are below 50% of their maximum HP. Once a\nLimit Break\nhas been activated while under the effect of Aura Break the spell ends immediately. A creature cannot benefit from this spell more than once per hour.\nThis spell counters and dispels\ncurse\n.\nThis spell was submitted as a part of the SCC for September 2020 by DeadKingKicker.</p>",
+      "instructions": "",
+      "summary": "You infuse a target with all the determination and adrenaline of one who is close to death in heated combat, shrouding them in a yellow hue."
+    },
+    "tags": [],
+    "actions": [
+      {
+        "_id": "83ae62937e53fb62",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "attackNotes": [],
+    "effectNotes": [],
+    "links": {
+      "children": []
+    },
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 5,
+        "redmage": 5
+      },
+      "domain": {},
+      "subDomain": {},
+      "elementalSchool": {},
+      "bloodline": {}
+    },
+    "level": 5,
+    "clOffset": 0,
+    "slOffset": 0,
+    "school": "trs",
+    "subschool": [],
+    "descriptors": [],
+    "components": {
+      "value": "",
+      "verbal": true,
+      "somatic": true,
+      "thought": false,
+      "emotion": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": 0
+    },
+    "materials": {
+      "value": "",
+      "focus": "",
+      "gpValue": 0
+    },
+    "spellbook": "",
+    "preparation": {
+      "value": 0,
+      "max": 0
+    },
+    "uses": {
+      "autoDeductChargesCost": ""
+    },
+    "atWill": false,
+    "sr": true,
+    "showInQuickbar": false,
+    "domain": false,
+    "slotCost": 1,
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "showInCombat": false,
+    "clCheck": false
+  },
+  "type": "spell",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
+    }
+  },
+  "_key": "!items!3f361ec463eb8c3f"
+}

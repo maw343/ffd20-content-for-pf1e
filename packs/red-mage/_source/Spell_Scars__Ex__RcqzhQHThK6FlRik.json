@@ -1,0 +1,19 @@
+{
+  "_id": "RcqzhQHThK6FlRik",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Spell-Scars (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The red mage can use special scar-based tattoos called spell-scars on his skin to cast spells, much like scrolls. He can cast a spell from a spell-scar exactly like casting from a scroll; the ink and scars vanish when the spell is cast. The red mage does not need to be able to see his spell-scar to use it. A red mage has room on his skin for 18 total spell levels of spell-scars, which he can create using the rules for scribing scrolls (although they do not require the Scribe Scroll feat).</p>"
+    },
+    "tag": "spell-scarsex",
+    "source": "Final Fantasy d20 - Red Mage (Ruby Talents)"
+  },
+  "effects": [],
+  "_key": "!items!RcqzhQHThK6FlRik"
+}

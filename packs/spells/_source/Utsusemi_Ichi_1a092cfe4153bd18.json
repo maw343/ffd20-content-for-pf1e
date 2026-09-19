@@ -1,0 +1,61 @@
+{
+  "_id": "1a092cfe4153bd18",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Utsusemi-Ichi",
+  "system": {
+    "actions": [
+      {
+        "_id": "1ac9252bd21b7ebb",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level (until destroyed) DESCRIPTION This ninjutsu creates a single copied image of the ninja that shadows the ninjas every move and jumps in the way of attacks directed at the ninja If an attack is successful against the ninja and deals physical damage, or affects the ninja physically such as a combat maneuver. The copied image is destroyed and the damage or effect is negated and the ninjutsu ends. The copied image can be dispelled but cannot be destroyed by any other means but can be dismissed as a free action . Attacks without an attack roll do not affect the copied images and cannot be negated."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This ninjutsu creates a single copied image of the ninja that shadows the ninjas every move and jumps in the way of attacks directed at t...",
+      "value": "<p>This ninjutsu creates a single copied image of the ninja that shadows the ninjas every move and jumps in the way of attacks directed at the ninja If an attack is successful against the ninja and deals physical damage, or affects the ninja physically such as a combat maneuver. The copied image is destroyed and the damage or effect is negated and the ninjutsu ends. The copied image can be dispelled but cannot be destroyed by any other means but can be dismissed as a free action . Attacks without an attack roll do not affect the copied images and cannot be negated.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "ninja": 2
+      }
+    },
+    "level": 2,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!1a092cfe4153bd18"
+}

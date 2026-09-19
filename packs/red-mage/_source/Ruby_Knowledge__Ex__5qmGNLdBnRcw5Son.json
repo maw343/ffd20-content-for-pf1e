@@ -1,0 +1,27 @@
+{
+  "_id": "5qmGNLdBnRcw5Son",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Ruby Knowledge (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The red mage becomes more specialized in dealing and healing damage with his spells. Whenever he casts any 1st level spell or higher that deals a variable amount of damage, he adds his Intelligence bonus (if any, max his red mage level) to the damage dealt. Whenever he casts any 1st level spell or higher that heals a variable amount of hit point damage, he adds his Wisdom bonus (if any, max his red mage level) to the healing. Spells that create multiple instances of damage/healing gain this bonus on the first instance only. Spells dealing/healing damage over more than 1 round do not gain this benefit. This applies only to spells cast as a red mage.</p>"
+    },
+    "tag": "rubyknowledge",
+    "source": "Final Fantasy d20 - Red Mage",
+    "associations": {
+      "classes": [
+        [
+          "Red Mage",
+          3
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!5qmGNLdBnRcw5Son"
+}

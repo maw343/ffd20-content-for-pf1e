@@ -1,0 +1,66 @@
+{
+  "_id": "1b921ba111ce7c10",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Call Weapon",
+  "system": {
+    "actions": [
+      {
+        "_id": "1a5866dfd7ced273",
+        "name": "Use",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "one melee weapon wielded by an ally"
+        },
+        "duration": {
+          "units": "inst"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "When you cast this spell, a gust of wind wraps around a weapon wielded by an ally within 30 feet to cause it to fly across the space between you and into your open hand.",
+      "value": "<p>When you cast this spell, a gust of wind wraps around a weapon wielded by an ally within 30 feet to cause it to fly across the space between you and into your open hand. This extra energy persists in the weapon for the rest of the round, granting you a +2 circumstance bonus on attack rolls and weapon damage rolls made during the same round you cast this spell. If the ally targeted for this spell is unwilling to give up her weapon, the spell fails. An unconscious or dying ally is considered a “willing” target so long as the weapon to be called is still in contact with the ally’s body.</p>"
+    },
+    "descriptors": [
+      "wind"
+    ],
+    "learnedAt": {
+      "class": {
+        "redmage": 1
+      }
+    },
+    "level": 1,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "summoning"
+    ],
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!1b921ba111ce7c10"
+}

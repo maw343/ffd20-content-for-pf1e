@@ -1,0 +1,27 @@
+{
+  "_id": "vK6x0KIoYJZX9dXF",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Acrobatic Recovery (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>Stand up from prone as a move action or a swift action without provoking an attack of opportunity. Alternatively, you also stand up from prone as a free action, but this provokes an attack of opportunity. However, the dragoon can avoid provoking this attack of opportunity by successfully using the Acrobatics skill as if she were moving through a threatened square at full speed (a +10 to the DC).</p>"
+    },
+    "tag": "acrobaticrecovery",
+    "source": "Final Fantasy d20 - Dragoon Talents",
+    "associations": {
+      "classes": [
+        [
+          "Dragoon",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!vK6x0KIoYJZX9dXF"
+}

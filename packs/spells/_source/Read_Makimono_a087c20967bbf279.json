@@ -1,0 +1,61 @@
+{
+  "_id": "a087c20967bbf279",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Read Makimono",
+  "system": {
+    "actions": [
+      {
+        "_id": "e75580c044d2fadb",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "inst"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You can decipher and learn from makimonos instantly",
+      "value": "<p>You can decipher and learn from makimonos instantly. No time is needed to learn new ninjutsus.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "ninja": 0
+      }
+    },
+    "level": 0,
+    "school": "div",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a087c20967bbf279"
+}

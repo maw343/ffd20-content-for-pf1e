@@ -1,0 +1,75 @@
+{
+  "_id": "d9dqWqwKT9PUnfcG",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "folder": "RWSoA7Fj9yqo0y9U",
+  "img": "systems/pf1/icons/races/human.jpg",
+  "name": "Aegyl",
+  "system": {
+    "changes": [
+      {
+        "formula": "2",
+        "target": "dex",
+        "type": "racial",
+        "_id": "7n0gvnc0"
+      },
+      {
+        "formula": "2",
+        "target": "wis",
+        "type": "racial",
+        "_id": "x3iixsui"
+      },
+      {
+        "formula": "-2",
+        "target": "cha",
+        "type": "racial",
+        "_id": "yvkz5e9a"
+      },
+      {
+        "formula": "2",
+        "target": "skill.per",
+        "type": "racial",
+        "_id": "t57xok53"
+      }
+    ],
+    "contextNotes": [
+      {
+        "target": "allSavingThrows",
+        "text": "+[[2]] Racial vs Fear and Despair Effects"
+      },
+      {
+        "target": "allSavingThrows",
+        "text": "+[[2]] Racial vs Illusion Spells and Effects"
+      }
+    ],
+    "creatureSubtypes": [
+      "aegyl"
+    ],
+    "creatureTypes": [
+      "humanoid"
+    ],
+    "description": {
+      "value": "<p>The aegyl resemble humes, except they have large feathery wings on their back. These wings can come in different colors, from brown to red to black. All aegyl are cold and aloof.</p><h2>Standard Racial Traits</h2><ul><li><strong>Ability Score Modifiers</strong>: Aegyls gain +2 Dexterity, +2 Wisdom, and –2 Charisma.</li><li><strong>Type</strong>: Aegyls are Humanoid creatures with the aegyl subtype.</li><li><strong>Size</strong>: Aegyls are Medium creatures and have no bonuses or penalties due to their size.</li><li><strong>Base Speed</strong>: Aegyls have a base speed of 30 feet on land and a fly speed of 40 feet (poor).</li><li><strong>Languages</strong>: Aegyls begin play speaking Common and Aegyllan. Aegyl with high Intelligence scores can choose from the following: Draconic, Dwarven, Elvaan, Galkan, Giant, Goblin, and Orc.</li></ul><h3>Defense Racial Traits</h3><ul><li><strong>Elemental Resistance</strong>: Aegyls have wind and lightning resistance 5.</li><li><strong>Eternal Hope</strong>: Aegyls gain a +2 racial bonus on saving throws against fear and despair effects. Once per day, after a natural roll of 1 on a d20, they may reroll and use the second result.</li><li><strong>Illusion Resistance</strong>: Aegyls gain a +2 racial bonus on saving throws against illusion spells or effects.</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Keen Senses</strong>: Aegyls gain a +2 racial bonus on Perception checks.</li></ul><h3>Senses Racial Traits</h3><ul><li><strong>Low-Light Vision</strong>: An aegyl can see twice as far as a hume in dim light.</li></ul><h3>Weakness Racial Traits</h3><ul><li><strong>Emotionless</strong>: Aegyls receive a –2 penalty on Diplomacy checks when dealing with other races.</li></ul>"
+    },
+    "languages": [
+      "common"
+    ],
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "Base Races"
+      }
+    ],
+    "speeds": {
+      "land": 30,
+      "fly": 40
+    },
+    "tags": [
+      "Base"
+    ]
+  },
+  "type": "race",
+  "effects": [],
+  "_key": "!items!d9dqWqwKT9PUnfcG"
+}

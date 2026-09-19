@@ -1,0 +1,19 @@
+{
+  "_id": "Uep5tqRtJqsElsXi",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Surecast (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Combat Casting feat</p><p>The red mage exercises caution when in danger, casting his spells with more care. While in a threatened square, he may choose to spend a full-round action to cast a spell, with a casting time of standard action or less. Doing so allows him to cast the spell without needing to cast defensively.</p>"
+    },
+    "tag": "surecastsu",
+    "source": "Final Fantasy d20 - Red Mage (Ruby Talents)"
+  },
+  "effects": [],
+  "_key": "!items!Uep5tqRtJqsElsXi"
+}

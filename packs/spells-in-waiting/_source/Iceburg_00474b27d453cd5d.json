@@ -1,0 +1,73 @@
+{
+  "_id": "00474b27d453cd5d",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Iceburg",
+  "system": {
+    "actions": [
+      {
+        "_id": "fb317181cc861c61",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "area": "anchored area of ice up to one 100-ft. square per level, 20 ft. thick",
+        "duration": {
+          "units": "hour",
+          "value": "1 hour/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 15))d6",
+              "types": [
+                "cold"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell creates an anchored upright plane of ice anywhere within the caster’s line-of-sight",
+      "value": "<p>This spell creates an anchored upright plane of ice anywhere within the caster’s line-of-sight. An iceburg cannot form in an area occupied by physical objects or creatures. Its surface must be smooth and unbroken when created, though it can mold its edges to form a snug fit against any terrain it is cast on or adjacent to. Any creature adjacent to the iceburg when it is created may attempt a Reflex save to disrupt the wall as it is being formed. A successful save indicates that the spell automatically fails. Fire can melt an iceburg and it deals full damage to it (instead of the normal half damage taken by objects). Suddenly melting an iceburg creates a great cloud of steamy fog that lasts for 1 hour. The iceburg is 20 feet thick. It covers up to a 100-foot-square area per caster level (so a 20th-level geomancer can create a wall of ice 2,000 feet long and 100 feet high, a wall 1,000 feet long and 200 feet high, or any other combination of length and height that does not exceed 200,000 square feet). The entire area of the spell must be within the caster’s line of sight, which frequently limits the practical maximum size of the spell. The plane must be oriented to be straight up and down, it is not possible to use iceburg to create a ramp or tilted slope, or to lay it flat along the ground. An iceburg must either be anchored on the floor or be anchored on two opposite sides. Each 100-foot square of wall has 300 hit points. Creatures can hit the wall automatically. A section of wall whose hit points drop to 0 is breached. If a creature tries to break through the wall with a single attack, the DC for the Strength check is 25 + caster level. Even when the ice has been broken through, a sheet of frigid air remains. Any creature stepping through it (including the one who broke through the wall) takes 5d6 points of ice damage + 1 point per caster level (no save).</p>"
+    },
+    "descriptors": [
+      "fire"
+    ],
+    "learnedAt": {
+      "class": {
+        "geomancer": 9
+      }
+    },
+    "level": 9,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!00474b27d453cd5d"
+}

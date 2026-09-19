@@ -1,0 +1,63 @@
+{
+  "_id": "f5a6a32266d14882",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785721284052,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/shadow_11.jpg",
+  "name": "Fearsome Necromancy (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> —</p><p>When the necromancer forces any foe to save against a necromancy spell, he causes the creature to be shaken for 1d4 rounds, regardless of the result of the save. This mind-affecting fear ability does not stack with any other fear effect (it can't make a foe worse than shaken).</p>",
+      "instructions": ""
+    },
+    "tags": [
+      "Spellcasting Talent"
+    ],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "fearsomenecromancysu",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Necromancer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Necromancy Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!f5a6a32266d14882"
+}

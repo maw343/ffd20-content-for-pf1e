@@ -1,0 +1,80 @@
+{
+  "_id": "1a978fe5ef033c5a",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Ice Block",
+  "system": {
+    "actions": [
+      {
+        "_id": "bb05784f4ab4de12",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "spec",
+          "value": "1 round/level; see text"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "3d6",
+              "types": [
+                "cold"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude partial (Object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates huge ice elemental creating an ice encasing around the victims feet in solid ice 1 inch thick per 2 caster levels",
+      "value": "<p>The caster emulates huge ice elemental creating an ice encasing around the victims feet in solid ice 1 inch thick per 2 caster levels. The target of this spell receives the Immobilize status effect and takes 3d6 points of ice damage, if the victim makes the save they take half damage and resist the immobilize status effect. The victim is unable to move for the duration of the spell, until cured, removed with fire, or by smashing through it. The ice has hardness 0 and 3 hit points per inch of thickness; if broken, the creature is freed. A creature can break the ice as a full-round action with a successful Strength check (DC 10 + your caster level) or Escape Artist skill check (DC 15 + your caster level). Learned From Ice Elemental Family, Kaiser Dragon, and White Dragon Family</p>"
+    },
+    "descriptors": [
+      "fire"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 3
+      }
+    },
+    "level": 3,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!1a978fe5ef033c5a"
+}

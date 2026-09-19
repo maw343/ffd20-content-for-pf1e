@@ -1,0 +1,77 @@
+{
+  "_id": "014fbfb8a9247f16",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "100-Kuponze Swipe",
+  "system": {
+    "actions": [
+      {
+        "_id": "c1bec1b9ce1f0c99",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "cone-shaped burst",
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "7d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates Ruffletuft Kupta Kapa by summoning a great axe and swinging it in an arch in front of them",
+      "value": "<p>The caster emulates Ruffletuft Kupta Kapa by summoning a great axe and swinging it in an arch in front of them. All creatures caught within the area of effect take 7d6 points of non-elemental damage, a Reflex save for half damage. Learned From Ruffletuft Kupta Kapa & Good King Moggle Mog XII</p>"
+    },
+    "descriptors": [
+      "good"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 4
+      }
+    },
+    "level": 4,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!014fbfb8a9247f16"
+}

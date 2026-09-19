@@ -1,0 +1,19 @@
+{
+  "_id": "GYQb2hOlUkMnm3gh",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Arcane Redoubt, Greater (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Red Mage 12, Arcane Redoubt ruby arcana</p><p>Whenever the red mage uses his arcane redoubt ruby arcana, he may spend an additional point from his arcane pool in order to apply his shield bonus to AC (including any enhancement bonus) as a bonus on Reflex saves until the beginning of his next turn. If he is targeted with an effect requiring a Reflex save while using this power, he may spend 2 points from his arcane pool as an immediate action to grant himself evasion, or 4 points to grant himself improved evasion.</p>"
+    },
+    "tag": "arcaneredoubtgreatersu",
+    "source": "Final Fantasy d20 - Red Mage (Ruby Arcana)"
+  },
+  "effects": [],
+  "_key": "!items!GYQb2hOlUkMnm3gh"
+}

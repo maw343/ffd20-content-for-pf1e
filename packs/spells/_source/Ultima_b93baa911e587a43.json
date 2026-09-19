@@ -1,0 +1,73 @@
+{
+  "_id": "b93baa911e587a43",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Ultima",
+  "system": {
+    "actions": [
+      {
+        "_id": "924ae8e696a061ae",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "area": "60-ft.-radius spread",
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 20))d12",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This ultimate destruction spell erupts from the center in a large explosion of raw magical energy dealing 1d12 points of non-elemental damage per caster level (maximum 20d12) to every creature within the area.",
+      "value": "<p>This ultimate destruction spell erupts from the center in a large explosion of raw magical energy dealing 1d12 points of non-elemental damage per caster level (maximum 20d12) to every creature within the area.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 9
+      }
+    },
+    "level": 9,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!b93baa911e587a43"
+}

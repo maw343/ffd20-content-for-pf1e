@@ -1,0 +1,27 @@
+{
+  "_id": "1do6HuxRQLT5eEYD",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_14.jpg",
+  "name": "Aura Blast (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>Employ your martial spirit to strike a distant foe. Make a ranged touch attack against a target within 30 feet, and if it hits, the target takes non-elemental damage equal to 1d6 per monk level.</p>"
+    },
+    "tag": "aurablast",
+    "source": "Final Fantasy d20 - Blitz Techniques",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          3
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!1do6HuxRQLT5eEYD"
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "d53e1d3edc98e016",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Blurred Movement",
+  "system": {
+    "actions": [
+      {
+        "_id": "3968f558eb751cc0",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions as blur , except that the blurring occurs only when you move at least 10 feet on your turn and ceases at the end of ...",
+      "value": "<p>This spell functions as blur , except that the blurring occurs only when you move at least 10 feet on your turn and ceases at the end of your movement. It is therefore mainly used to protect against attacks on your turn, such as attacks of opportunity. If you move at least twice your speed on your turn, the blurring lasts until the start of your next turn.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 1,
+        "redmage": 1
+      }
+    },
+    "level": 1,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d53e1d3edc98e016"
+}

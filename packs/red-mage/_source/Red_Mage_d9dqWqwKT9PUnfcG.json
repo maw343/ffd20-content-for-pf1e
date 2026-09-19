@@ -1,0 +1,271 @@
+{
+  "_id": "d9dqWqwKT9PUnfcG",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785632350036,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/red_01.jpg",
+  "name": "Red Mage",
+  "system": {
+    "description": {
+      "value": "<p><em>Everyone wants to do something. Some people want to heal and help others, whether by magical or non-magical means. Some wish to become great warriors, forging their names in battle and increasing their martial prowess. Some wish to become better magicians, learning new spells or having better control over powers they already have. Others wish to become more skillful, learning new skills and becoming better at the skills they already have. But there are a rare few who wish to do everything at once. These skilled individuals are known as red mages. Red magic is an ancient arcane tradition that blends offensive spells, curative magic, and melee combat.</em></p><h2>Role</h2><p>Red mages spend much of their time traveling the world, learning whatever martial or arcane secrets they can find, dabbling in all sorts of lore to aid their search for perfection. They blend spellcasting and swordplay through spell combat and spellstrike, acting as versatile hybrid combatants capable of adapting to nearly any situation.</p><h2>Class Skills</h2><p>The red mage's class skills are Acrobatics (Dex), Bluff (Cha), Climb (Str), Craft (Int), Diplomacy (Cha), Fly (Dex), Intimidate (Cha), Knowledge (arcana) (Int), Knowledge (planes) (Int), Perception (Wis), Profession (Wis), Ride (Dex), Spellcraft (Int), Swim (Str), and Use Magic Device (Cha).</p><h2>Weapon and Armor Proficiency</h2><p>A red mage is proficient with all simple and martial weapons, as well as the power rod, power staff, power flail, and power pole. Red mages are proficient with light and medium armor and with shields (except tower shields), but armor and shields interfere with a red mage's ability to cast spells with somatic components in the manner of an arcane spellcaster wearing armor.</p><h2>Main Ability Score</h2><p>The red mage focuses on Intelligence for their spells and combat versatility, while also relying on Strength or Dexterity for melee combat.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "classAssociations": [
+        {
+          "name": "Red Magery (Ex)",
+          "uuid": "Compendium.world.red-mage.Item.fg0X8grPwT5Fz6NM",
+          "level": 1
+        },
+        {
+          "name": "Armored Mage (Ex)",
+          "uuid": "Compendium.world.red-mage.Item.kQxxxOar1zUSyzOx",
+          "level": 1
+        },
+        {
+          "name": "Spell Combat (Ex)",
+          "uuid": "Compendium.world.red-mage.Item.Q8EGTIm7r785QHow",
+          "level": 1
+        },
+        {
+          "name": "Spell Proficiency (Ex)",
+          "uuid": "Compendium.world.red-mage.Item.Brx5puAtptnOq8to",
+          "level": 1
+        },
+        {
+          "name": "Cantrips",
+          "uuid": "Compendium.world.red-mage.Item.gSv2lVaN254yDk9A",
+          "level": 1
+        },
+        {
+          "name": "Limit Breaks (Su)",
+          "uuid": "Compendium.world.red-mage.Item.nlWooa8SFJOVkISy",
+          "level": 1
+        },
+        {
+          "name": "Spellstrike (Su)",
+          "uuid": "Compendium.world.red-mage.Item.dBAMnROZaZRQH7Zd",
+          "level": 2
+        },
+        {
+          "name": "Ruby Talents (Ex/Su)",
+          "uuid": "Compendium.world.red-mage.Item.Iy7yFOO0CbQqwHDb",
+          "level": 2
+        },
+        {
+          "name": "Arcane Pool (Su)",
+          "uuid": "Compendium.world.red-mage.Item.aBIoV1KalSriHO0w",
+          "level": 2
+        },
+        {
+          "name": "Ruby Knowledge (Ex)",
+          "uuid": "Compendium.world.red-mage.Item.5qmGNLdBnRcw5Son",
+          "level": 3
+        },
+        {
+          "name": "Ruby Arcana",
+          "uuid": "Compendium.world.red-mage.Item.9JBfuseGhDrIonAM",
+          "level": 3
+        },
+        {
+          "name": "Spell Power (Ex)",
+          "uuid": "Compendium.world.red-mage.Item.gkN9m8sLkdxqUXx9",
+          "level": 4
+        },
+        {
+          "name": "Quick Cast (Ex)",
+          "uuid": "Compendium.world.red-mage.Item.YYtX67ExmWNNkcTl",
+          "level": 4
+        },
+        {
+          "name": "Convert (Ex)",
+          "uuid": "Compendium.world.red-mage.Item.NK0y9cP84xPPWkWI",
+          "level": 5
+        },
+        {
+          "name": "Clear Mind (Ex)",
+          "uuid": "Compendium.world.red-mage.Item.FNGHqnTVPIbxlulb",
+          "level": 5
+        },
+        {
+          "name": "Improved Spell Combat (Ex)",
+          "uuid": "Compendium.world.red-mage.Item.pYCsiBGH42tecEM6",
+          "level": 7
+        },
+        {
+          "name": "Fighter Training (Ex)",
+          "uuid": "Compendium.world.red-mage.Item.7YJ06tgKBMY1ExDs",
+          "level": 11
+        },
+        {
+          "name": "Jack-of-All-Trades (Ex)",
+          "uuid": "Compendium.world.red-mage.Item.27YbygMAYh7L5krY",
+          "level": 11
+        },
+        {
+          "name": "Greater Spell Combat (Ex)",
+          "uuid": "Compendium.world.red-mage.Item.CZTP5KEVBDg1rZsn",
+          "level": 14
+        },
+        {
+          "name": "Doublecast (Su)",
+          "uuid": "Compendium.world.red-mage.Item.FNIh551DHHihDItz",
+          "level": 15
+        },
+        {
+          "name": "Counterstrike (Ex)",
+          "uuid": "Compendium.world.red-mage.Item.8oP0e0uxxkRKThr1",
+          "level": 16
+        },
+        {
+          "name": "1 MP Spell (Su)",
+          "uuid": "Compendium.world.red-mage.Item.0e5TA95yyJouPxoF",
+          "level": 19
+        },
+        {
+          "name": "Red Wizard (Su)",
+          "uuid": "Compendium.world.red-mage.Item.B9tIZusfBbD25dC1",
+          "level": 20
+        }
+      ]
+    },
+    "tag": "redMage",
+    "armorProf": [
+      "lgt",
+      "med"
+    ],
+    "weaponProf": [
+      "simple",
+      "martial",
+      "Power Rods",
+      "Power Staves",
+      "Power Flails",
+      "Power Poles"
+    ],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "base",
+    "level": 1,
+    "hd": 8,
+    "hp": 8,
+    "bab": "med",
+    "skillsPerLevel": 6,
+    "savingThrows": {
+      "fort": {
+        "value": "high"
+      },
+      "ref": {
+        "value": "low"
+      },
+      "will": {
+        "value": "high"
+      }
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "wealth": "4d6 * 10",
+    "alignment": "",
+    "classSkills": {
+      "acr": true,
+      "apr": false,
+      "art": false,
+      "blf": true,
+      "ckg": false,
+      "clm": true,
+      "crf": true,
+      "dev": false,
+      "dip": true,
+      "dis": false,
+      "esc": false,
+      "fly": true,
+      "han": false,
+      "hea": false,
+      "int": true,
+      "kar": true,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kna": false,
+      "kno": false,
+      "kpl": true,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": true,
+      "prf": false,
+      "pro": true,
+      "rid": true,
+      "sen": false,
+      "slt": false,
+      "spl": true,
+      "ste": false,
+      "stl": false,
+      "sur": false,
+      "swm": true,
+      "umd": true
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Red Mage"
+      }
+    ],
+    "customHD": "",
+    "casting": {
+      "type": "spontaneous",
+      "progression": "med",
+      "ability": "int",
+      "spells": "arcane",
+      "domain": null,
+      "offset": null,
+      "cantrips": true
+    }
+  },
+  "type": "class",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!d9dqWqwKT9PUnfcG"
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "n5Usd8gfITpg8Rhs",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_14.jpg",
+  "name": "Greater Penetrating Attack (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Warrior 16, Penetrating Attack warrior talent</p><p>The warrior gains the Greater Penetrating Strike feat as a bonus feat.</p>"
+    },
+    "tag": "greaterpenetratingattack",
+    "source": "Final Fantasy d20 - Advanced Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          12
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!n5Usd8gfITpg8Rhs"
+}

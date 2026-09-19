@@ -1,0 +1,65 @@
+{
+  "_id": "kQdgv5kDdQHo0Vug",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785712060620,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/light_15.jpg",
+  "name": "Bereft of the Moon (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Astrologian 20, Nocturnal Sect</p><p>At 20th level, while under the Nocturnal Sect, the astrologian can emit a 30-foot darkness aura for 1 minute. This acts like a darkness spell except it grants the astrologian and all allies total concealment and are able to see within the aura. Spells and spell-like abilities with the light descriptor are automatically dispelled if brought inside this aura. She may use this ability a number of times per day equal to her Wisdom modifier.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "bereftofthemoon",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Astrologian",
+          20
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Sect Powers"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "ffd20": {
+      "sect": "Nocturnal"
+    }
+  },
+  "_key": "!items!kQdgv5kDdQHo0Vug"
+}

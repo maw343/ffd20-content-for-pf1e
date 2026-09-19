@@ -1,0 +1,27 @@
+{
+  "_id": "G3HG4yBtv6kLSuiv",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_12.jpg",
+  "name": "Formless Strikes (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 10th level, the monk gains the ability to change his physical strikes into pure energy, bypassing his enemy's defenses.</p><p>As a swift action, the monk can convert his unarmed strike damage into non-elemental damage lasting for a number of rounds equal to half his monk level.</p><p>The monk can use this ability once a day, gaining an additional usage at 17th level.</p>"
+    },
+    "tag": "formlessstrikes",
+    "source": "Final Fantasy d20 - Monk",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          10
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!G3HG4yBtv6kLSuiv"
+}

@@ -1,0 +1,68 @@
+{
+  "_id": "9ca7e07b59134aeb",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Strong Jaw",
+  "system": {
+    "actions": [
+      {
+        "_id": "1a1f902dc8a22cd4",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Laying a hand upon an allied creature’s jaw, claws, tentacles, or other natural weapons, you enhance the power of that creature’s natural...",
+      "value": "<p>Laying a hand upon an allied creature’s jaw, claws, tentacles, or other natural weapons, you enhance the power of that creature’s natural attacks. Each natural attack that creature makes deals damage as if the creature were two sizes larger than it actually is. If the creature is already Gargantuan or Colossal-sized, double the amount of damage dealt by each of its natural attacks instead. This spell does not actually change the creature’s size; all of its statistics except the amount of damage dealt by its natural attacks remain unchanged. Natural Attack Base Damage by Size* Fine Dim. Tiny Small Medium Large Huge Garg. Col. Bite 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 4d6 Claw – 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 Gore 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 4d6 Hoof, tentacle, wing – 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 Pincers, tail slap 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 4d6 Slam – 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 Sting – 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 Talons – 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 Other – 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "druid": 4
+      }
+    },
+    "level": 4,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!9ca7e07b59134aeb"
+}

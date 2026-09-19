@@ -1,0 +1,67 @@
+{
+  "_id": "a0a0d0dee5b1a066",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Marrow Drain",
+  "system": {
+    "actions": [
+      {
+        "_id": "9515a7fed77af6d7",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the MP siphoning of a skeleton",
+      "value": "<p>The caster emulates the MP siphoning of a skeleton. The target must make a Fortitude save or be drained for 1d3+1 MP, which heals the caster’s MP pool for the same amount. If the caster lacks an MP pool, its HP is restored instead. Learned From Skeleton Family and Soul Family</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 1
+      }
+    },
+    "level": 1,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a0a0d0dee5b1a066"
+}

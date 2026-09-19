@@ -1,0 +1,58 @@
+{
+  "_id": "uZaLnm7FyOiyMnzl",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Superior Mounted Combat (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>After achieving 12th level, a chocobo knight may attempt a Ride check (as a reaction) twice per round to negate a successful hit on his mount. At 18th level, the chocobo knight may make these attempts three times per round.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "superior_mounted_combat_",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Chocobo Knight"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Chocobo Knight",
+          12
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!uZaLnm7FyOiyMnzl"
+}

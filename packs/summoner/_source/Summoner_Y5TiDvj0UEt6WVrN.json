@@ -1,0 +1,432 @@
+{
+  "_id": "Y5TiDvj0UEt6WVrN",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/summon_01.jpg",
+  "name": "Summoner",
+  "system": {
+    "description": {
+      "value": "<p><em>While many who dabble in magic become adept at beckoning monsters from the farthest reaches of the planes, none are more skilled at it than the summoner. This practitioner of the magic arts forms a close bond with one particular outsider, known as an avatar, which gains power as the summoner becomes more proficient at his summoning. Over time, the two become linked, eventually even sharing a shard of the same soul.</em></p><h2>Role</h2><p>Summoners spend much of their time exploring the arcane arts alongside their avatars. While their power comes from within, they rely heavily on their avatar companions in dangerous situations. While a summoner and his avatar function as individuals, their true power lies in what they can accomplish together.</p><h2>Class Skills</h2><p>The summoner's class skills are Craft (Int), Diplomacy (Cha), Fly (Dex), Knowledge (all) (Int), Linguistics (Int), Profession (Wis), Ride (Dex), Spellcraft (Int), and Use Magic Device (Cha).</p><h2>Weapon and Armor Proficiency</h2><p>Summoners are proficient with all simple weapons including whips, scorpion whips, power rods and power staves, but not with any type of armor or shield. Heavier armor interferes with a summoner's movements, which can cause his spells with somatic components to fail.</p><h2>Main Ability Score</h2><p>The summoner mainly focuses on DEX for combat, and CHA for his class features and spells.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "classAssociations": [
+        {
+          "name": "Limit Breaks (Su)",
+          "uuid": "Compendium.world.summoner.Item.ddUvSOmcQJQmWvPM",
+          "level": 1
+        },
+        {
+          "name": "Avatar (Su)",
+          "uuid": "Compendium.world.summoner.Item.wCiNQS75NxjS55JW",
+          "level": 1
+        },
+        {
+          "name": "Spell Proficiency (Ex)",
+          "uuid": "Compendium.world.summoner.Item.Is9VZx035CDt0ZIq",
+          "level": 1
+        },
+        {
+          "name": "Cantrips",
+          "uuid": "Compendium.world.summoner.Item.UeZilSSmXE0VAbGI",
+          "level": 1
+        },
+        {
+          "name": "Summon Gear (Su)",
+          "uuid": "Compendium.world.summoner.Item.GhqCWYL6wUlaL1pl",
+          "level": 1
+        },
+        {
+          "name": "Life Link (Su)",
+          "uuid": "Compendium.world.summoner.Item.Z8g6KZKf5jiWjtzH",
+          "level": 2
+        },
+        {
+          "name": "Summon Monster (Sp)",
+          "uuid": "Compendium.world.summoner.Item.eMoFaiKeUimWbNUW",
+          "level": 2
+        },
+        {
+          "name": "Augment Summoning",
+          "uuid": "Compendium.world.summoner.Item.3pjV1nOKgNTomx5A",
+          "level": 2
+        },
+        {
+          "name": "Summon Talents (Ex or Su)",
+          "uuid": "Compendium.world.summoner.Item.KaoQ8no9ajUB8d0B",
+          "level": 2
+        },
+        {
+          "name": "Blood Pact (Su)",
+          "uuid": "Compendium.world.summoner.Item.iGMh9hCmlQG5R5s9",
+          "level": 3
+        },
+        {
+          "name": "Bond Senses (Su)",
+          "uuid": "Compendium.world.summoner.Item.3Q8SCZJTS8X7QvyP",
+          "level": 3
+        },
+        {
+          "name": "Summoner Bonds (Su)",
+          "uuid": "Compendium.world.summoner.Item.oudNeBdtqWPTtj6X",
+          "level": 3
+        },
+        {
+          "name": "Summon Monster (Sp)",
+          "uuid": "Compendium.world.summoner.Item.eMoFaiKeUimWbNUW",
+          "level": 4
+        },
+        {
+          "name": "Summon Talents (Ex or Su)",
+          "uuid": "Compendium.world.summoner.Item.KaoQ8no9ajUB8d0B",
+          "level": 4
+        },
+        {
+          "name": "Detect Summons (Su)",
+          "uuid": "Compendium.world.summoner.Item.uJgJgKYdpxpMTSPr",
+          "level": 4
+        },
+        {
+          "name": "Clear Mind (Ex)",
+          "uuid": "Compendium.world.summoner.Item.sCf4tm3jrvujCqBj",
+          "level": 5
+        },
+        {
+          "name": "Guarding Presence (Ex)",
+          "uuid": "Compendium.world.summoner.Item.BJ5jSgmG8gFH6aHL",
+          "level": 5
+        },
+        {
+          "name": "Summon Monster (Sp)",
+          "uuid": "Compendium.world.summoner.Item.eMoFaiKeUimWbNUW",
+          "level": 6
+        },
+        {
+          "name": "Summon Talents (Ex or Su)",
+          "uuid": "Compendium.world.summoner.Item.KaoQ8no9ajUB8d0B",
+          "level": 6
+        },
+        {
+          "name": "Counter-Summon (Su)",
+          "uuid": "Compendium.world.summoner.Item.SmuxvaaZCLnNWp5M",
+          "level": 6
+        },
+        {
+          "name": "Maker's Call (Su)",
+          "uuid": "Compendium.world.summoner.Item.r8SrPZ8upP8UMq6M",
+          "level": 7
+        },
+        {
+          "name": "Summon Tactics (Su)",
+          "uuid": "Compendium.world.summoner.Item.3qt7CH4t4mvdidCW",
+          "level": 7
+        },
+        {
+          "name": "Summon Monster (Sp)",
+          "uuid": "Compendium.world.summoner.Item.eMoFaiKeUimWbNUW",
+          "level": 8
+        },
+        {
+          "name": "Summon Talents (Ex or Su)",
+          "uuid": "Compendium.world.summoner.Item.KaoQ8no9ajUB8d0B",
+          "level": 8
+        },
+        {
+          "name": "Superior Summons",
+          "uuid": "Compendium.world.summoner.Item.awuqQqXh9SuFUotP",
+          "level": 8
+        },
+        {
+          "name": "Transposition (Su)",
+          "uuid": "Compendium.world.summoner.Item.Li1kmy8WT9r9FlsF",
+          "level": 9
+        },
+        {
+          "name": "Balanced Summoning (Su)",
+          "uuid": "Compendium.world.summoner.Item.WupkaAkd0LGcreLo",
+          "level": 9
+        },
+        {
+          "name": "Summon Monster (Sp)",
+          "uuid": "Compendium.world.summoner.Item.eMoFaiKeUimWbNUW",
+          "level": 10
+        },
+        {
+          "name": "Summon Talents (Ex or Su)",
+          "uuid": "Compendium.world.summoner.Item.KaoQ8no9ajUB8d0B",
+          "level": 10
+        },
+        {
+          "name": "Clear Mind (Ex)",
+          "uuid": "Compendium.world.summoner.Item.sCf4tm3jrvujCqBj",
+          "level": 10
+        },
+        {
+          "name": "Stable Summoning (Ex)",
+          "uuid": "Compendium.world.summoner.Item.0f48eai2pG2jAIHA",
+          "level": 10
+        },
+        {
+          "name": "Greater Blood Pact (Su)",
+          "uuid": "Compendium.world.summoner.Item.0Cq7e9wvyKTfJKAU",
+          "level": 11
+        },
+        {
+          "name": "Greater Guarding Presence (Su)",
+          "uuid": "Compendium.world.summoner.Item.dRkxrO3XKYP4oQph",
+          "level": 11
+        },
+        {
+          "name": "Summon Monster (Sp)",
+          "uuid": "Compendium.world.summoner.Item.eMoFaiKeUimWbNUW",
+          "level": 12
+        },
+        {
+          "name": "Weaken Summons (Su)",
+          "uuid": "Compendium.world.summoner.Item.uZaLnm7FyOiyMnzl",
+          "level": 12
+        },
+        {
+          "name": "Advanced Summon Talents (Ex or Su)",
+          "uuid": "Compendium.world.summoner.Item.VuzBtlsEDGNc2fOT",
+          "level": 12
+        },
+        {
+          "name": "Life Bond (Su)",
+          "uuid": "Compendium.world.summoner.Item.8ua4rWrKvFRlbryL",
+          "level": 13
+        },
+        {
+          "name": "Transpositioning (Su)",
+          "uuid": "Compendium.world.summoner.Item.dENx8fp7BjVlWJE8",
+          "level": 13
+        },
+        {
+          "name": "Summon Monster (Sp)",
+          "uuid": "Compendium.world.summoner.Item.eMoFaiKeUimWbNUW",
+          "level": 14
+        },
+        {
+          "name": "Advanced Summon Talents (Ex or Su)",
+          "uuid": "Compendium.world.summoner.Item.VuzBtlsEDGNc2fOT",
+          "level": 14
+        },
+        {
+          "name": "Summoner's Charm (Su)",
+          "uuid": "Compendium.world.summoner.Item.x9Uzl7uGKnOiWMIW",
+          "level": 14
+        },
+        {
+          "name": "Clear Mind (Ex)",
+          "uuid": "Compendium.world.summoner.Item.sCf4tm3jrvujCqBj",
+          "level": 15
+        },
+        {
+          "name": "Paragon Summons (Ex)",
+          "uuid": "Compendium.world.summoner.Item.erLfl8u4kzUhqYF4",
+          "level": 15
+        },
+        {
+          "name": "Summon Monster (Sp)",
+          "uuid": "Compendium.world.summoner.Item.eMoFaiKeUimWbNUW",
+          "level": 16
+        },
+        {
+          "name": "Advanced Summon Talents (Ex or Su)",
+          "uuid": "Compendium.world.summoner.Item.VuzBtlsEDGNc2fOT",
+          "level": 16
+        },
+        {
+          "name": "Master of Matter (Su)",
+          "uuid": "Compendium.world.summoner.Item.9XXKzZqap1Hyynm6",
+          "level": 16
+        },
+        {
+          "name": "Tireless Pact (Su)",
+          "uuid": "Compendium.world.summoner.Item.cCxYB6Fyyf0kxDgN",
+          "level": 17
+        },
+        {
+          "name": "Superior Guarding Presence (Su)",
+          "uuid": "Compendium.world.summoner.Item.KvfHlcrC4OOOkLBE",
+          "level": 17
+        },
+        {
+          "name": "Summon Monster (Sp)",
+          "uuid": "Compendium.world.summoner.Item.eMoFaiKeUimWbNUW",
+          "level": 18
+        },
+        {
+          "name": "Advanced Summon Talents (Ex or Su)",
+          "uuid": "Compendium.world.summoner.Item.VuzBtlsEDGNc2fOT",
+          "level": 18
+        },
+        {
+          "name": "Merge Forms (Su)",
+          "uuid": "Compendium.world.summoner.Item.zepvmaNYTbULXav4",
+          "level": 19
+        },
+        {
+          "name": "Summoning Mastery (Su)",
+          "uuid": "Compendium.world.summoner.Item.4H9PN11CvzCwmUAL",
+          "level": 19
+        },
+        {
+          "name": "Clear Mind (Ex)",
+          "uuid": "Compendium.world.summoner.Item.sCf4tm3jrvujCqBj",
+          "level": 20
+        },
+        {
+          "name": "Advanced Summon Talents (Ex or Su)",
+          "uuid": "Compendium.world.summoner.Item.VuzBtlsEDGNc2fOT",
+          "level": 20
+        },
+        {
+          "name": "Mighty Blood Pact (Su)",
+          "uuid": "Compendium.world.summoner.Item.THyvBJG6aJ7S3zVK",
+          "level": 20
+        },
+        {
+          "name": "Twin Avatar (Su)",
+          "uuid": "Compendium.world.summoner.Item.Z5dqOsYM9a4ZTbJK",
+          "level": 20
+        }
+      ]
+    },
+    "tag": "summoner",
+    "armorProf": [],
+    "weaponProf": [
+      "simple",
+      "whip",
+      "scorpion whip",
+      "Power Rod",
+      "Power Staff"
+    ],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "base",
+    "level": 1,
+    "hd": 6,
+    "hp": 6,
+    "bab": "low",
+    "skillsPerLevel": 4,
+    "savingThrows": {
+      "fort": {
+        "value": "low"
+      },
+      "ref": {
+        "value": "low"
+      },
+      "will": {
+        "value": "high"
+      }
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": "See Favored Class Bonuses: varies heavily by race — avatar natural armor fractions, avatar HP/skill rank, reduced avatar summon time, life link damage reduction, or DR/evil on avatar (Forgiven)."
+      }
+    },
+    "wealth": "2d6 * 10",
+    "alignment": "",
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "blf": false,
+      "ckg": false,
+      "clm": false,
+      "crf": true,
+      "dev": false,
+      "dip": true,
+      "dis": false,
+      "esc": false,
+      "fly": true,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": true,
+      "kdu": true,
+      "ken": true,
+      "kge": true,
+      "khi": true,
+      "klo": true,
+      "kna": true,
+      "kno": true,
+      "kpl": true,
+      "kre": true,
+      "lin": true,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": true,
+      "rid": true,
+      "sen": false,
+      "slt": false,
+      "spl": true,
+      "ste": false,
+      "stl": false,
+      "sur": false,
+      "swm": false,
+      "umd": true
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Summoner"
+      }
+    ],
+    "customHD": "",
+    "casting": {
+      "type": "spontaneous",
+      "progression": "high",
+      "ability": "cha",
+      "spells": "arcane",
+      "domain": null,
+      "offset": null,
+      "cantrips": true
+    }
+  },
+  "type": "class",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Y5TiDvj0UEt6WVrN"
+}

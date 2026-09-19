@@ -1,0 +1,27 @@
+{
+  "_id": "Fo1xVaLG8CVnGohW",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Irresistible Advance (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Phalanx Fighting and Spear Brace dragoon talents</p><p>Gain a bonus to your bull rush and overrun CMB checks. This bonus depends on the type of shield used: +1 with a buckler, +2 with a light shield, or +3 with a heavy shield.</p>"
+    },
+    "tag": "irresistibleadvance",
+    "source": "Final Fantasy d20 - Dragoon Talents",
+    "associations": {
+      "classes": [
+        [
+          "Dragoon",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!Fo1xVaLG8CVnGohW"
+}

@@ -1,0 +1,85 @@
+{
+  "_id": "d223c1d4d64de460",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Choco Stone",
+  "system": {
+    "actions": [
+      {
+        "_id": "b598cb21ef204de4",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "rsak",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1d4 rounds"
+        },
+        "ability": {
+          "attack": "dex",
+          "critMult": 2,
+          "critRange": 20
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "3d6",
+              "types": [
+                "earth"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude partial — see below (Object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates a brown chocobo’s ability to shoot out a burst of stones at an opponent within 30 ft",
+      "value": "<p>The caster emulates a brown chocobo’s ability to shoot out a burst of stones at an opponent within 30 ft. Requires a ranged touch attack roll to hit that deals 3d6+5 points of earth damage and inflicts the Weighted status effect for 1d4 rounds. A successful Fortitude save prevents the status effect from taking effect. Learned From Brown Chocobo</p>"
+    },
+    "descriptors": [
+      "earth"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 2
+      }
+    },
+    "level": 2,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d223c1d4d64de460"
+}

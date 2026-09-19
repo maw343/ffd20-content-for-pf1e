@@ -1,0 +1,83 @@
+{
+  "_id": "b2e6e86053ca19d4",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Ruby Ray",
+  "system": {
+    "actions": [
+      {
+        "_id": "2034c0f2cec6fe15",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "rsak",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "60 ft"
+        },
+        "target": {
+          "value": "ray"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "ability": {
+          "attack": "dex",
+          "critMult": 2,
+          "critRange": 20
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "15d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude partial (Object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the Ruby Weapon’s magical blast that shoots out from the caster’s fingertips",
+      "value": "<p>The caster emulates the Ruby Weapon’s magical blast that shoots out from the caster’s fingertips. The caster makes a ranged touch attack to hit, and if the ray hits, it deals 15d6 points of non-elemental damage and the target must make a Fortitude save or be inflicted with the Slow status. Learned From Ruby Weapon and Omega Weapon.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 6
+      }
+    },
+    "level": 6,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!b2e6e86053ca19d4"
+}

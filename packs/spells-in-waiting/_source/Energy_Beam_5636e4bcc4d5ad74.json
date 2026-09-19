@@ -1,0 +1,77 @@
+{
+  "_id": "5636e4bcc4d5ad74",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Energy Beam",
+  "system": {
+    "actions": [
+      {
+        "_id": "60a3e4d0741d9654",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "30-ft.-line",
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d4",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You call forth Valefor, a winged feathery aeon who fires a beam of energy at your enemies",
+      "value": "<p>You call forth Valefor, a winged feathery aeon who fires a beam of energy at your enemies. Enemies within the area of effect take 1d4 points of non-elemental damage per level (maximum 5d4), a Reflex save for half damage.</p>"
+    },
+    "descriptors": [
+      "fire"
+    ],
+    "learnedAt": {
+      "class": {
+        "summoner": 1
+      }
+    },
+    "level": 1,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!5636e4bcc4d5ad74"
+}

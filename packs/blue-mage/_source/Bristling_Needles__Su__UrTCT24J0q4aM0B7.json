@@ -1,0 +1,65 @@
+{
+  "_id": "UrTCT24J0q4aM0B7",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785712946353,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_35.jpg",
+  "name": "Bristling Needles (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Any Needles spell</p><p>Whenever the blue mage casts a Needles spell, it deals additional damage equal to the number of damage dice it rolls. In addition, the blue mage may choose a single natural weapon granted by Azure Physical Training. That weapon deals the same amount of additional damage on successful hits until the end of the blue mage's next turn.</p><p><em>* This talent adds effects to a blue mage's spellcasting ability. Only one of these talents can be applied to an individual spell and the decision must be made before the spell is cast.</em></p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "bristlingneedles",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Blue Mage",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Blue Mage - Azure Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "ffd20": {
+      "spellcastingTalent": true
+    }
+  },
+  "_key": "!items!UrTCT24J0q4aM0B7"
+}

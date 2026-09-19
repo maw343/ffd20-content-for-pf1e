@@ -1,0 +1,80 @@
+{
+  "_id": "601f3fa7e56d8419",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Gravity Ball",
+  "system": {
+    "actions": [
+      {
+        "_id": "7af28278d1ccc0fe",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "area": "20ft-radius",
+        "duration": {
+          "units": "round",
+          "value": "1 round/3 levels"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "2d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates (object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Summoning up an orb of dark matter, you toss it into a square, exploding into a large mass the dark matter forms a 5ft black hole that su...",
+      "value": "<p>Summoning up an orb of dark matter, you toss it into a square, exploding into a large mass the dark matter forms a 5ft black hole that sucks in nearby creatures to their demise. When cast and at the start of your turn, the gravity ball deals non-elemental damage to nearby creatures. Creatures within 20 ft take 2d6 damage, those within 15 ft take 4d6 damage, those within 10 ft take 6d6 damage, and those adjacent to the black hole take 8d6 damage. A successful fortitude save negates this damage. Creatures that fail this saving throw are afterwards pulled 5 ft towards the black hole and immobilized for 1 round, or stunned if they were already adjacent as their existence is pulled apart into nothingness. A creature that enters the spell’s area must immediately make a fortitude save or be immobilized or stunned as appropriate (but not pulled or damaged), and any creature that fails this save automatically forfeits its next save against the spell’s effects. Several gravity ball spells cannot affect the same area, similarly to how extradimensional space effects work, gravity balls that do occupy/affect the same spaces counteract each other and are effectively dispelled. This spell was submitted as a part of the SCC for January 2021 by DeadKingKicker.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 5,
+        "blackmage": 5,
+        "darkknight": 4,
+        "necromancer": 5,
+        "timemage": 5
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!601f3fa7e56d8419"
+}

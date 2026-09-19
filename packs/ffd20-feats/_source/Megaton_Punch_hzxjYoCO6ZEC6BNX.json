@@ -1,0 +1,50 @@
+{
+  "_id": "hzxjYoCO6ZEC6BNX",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Megaton Punch",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Base attack bonus +6, Magitek Operation feat</p><p><strong>Benefit:</strong> You can deliver a second slam in any round in which you make a full attack that includes a slam attack. The second slam uses your highest attack bonus with a -5 penalty, and deals your normal slam attack damage.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "technology",
+    "tag": "megaton_punch",
+    "requirements": "Base attack bonus +6, Magitek Operation feat",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-TechnologyFeats",
+        "pages": "Technology Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!hzxjYoCO6ZEC6BNX"
+}

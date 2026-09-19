@@ -1,0 +1,27 @@
+{
+  "_id": "ivRv5MnQ4xrU3yJd",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_12.jpg",
+  "name": "Beast of Legend (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 19th level, a single animal companion of the beastmaster gains the Advanced Template. Should the animal companion with this template die, the beastmaster may apply it to a new animal companion in an 8-hour long ritual costing 100 gil per beastmaster level.</p>"
+    },
+    "tag": "beastoflegend",
+    "source": "Final Fantasy d20 - Beastmaster",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          19
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!ivRv5MnQ4xrU3yJd"
+}

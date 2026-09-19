@@ -1,0 +1,69 @@
+{
+  "_id": "b453789b2e5a93b2",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Circle of Clarity",
+  "system": {
+    "actions": [
+      {
+        "_id": "6a8cade59f3a0b35",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "20-ft.-radius emanation centered on a creature, object, or point in space"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You create a magical emanation that interferes with all figments and glamers within it, giving creatures a +4 bonus on saving throws to r...",
+      "value": "<p>You create a magical emanation that interferes with all figments and glamers within it, giving creatures a +4 bonus on saving throws to recognize them as illusions. The emanation negates concealment less than total concealment within the area. Perception checks to notice creatures or objects within the area gain a bonus equal to half your caster level (maximum +10). The spell is stationary if cast on a point in space. It is mobile if centered on a creature or object, though creatures or attended objects can negate the spell with a saving throw or spell resistance.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 7
+      }
+    },
+    "level": 7,
+    "school": "div",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!b453789b2e5a93b2"
+}

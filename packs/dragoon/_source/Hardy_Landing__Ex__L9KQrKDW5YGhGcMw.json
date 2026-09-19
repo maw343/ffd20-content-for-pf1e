@@ -1,0 +1,89 @@
+{
+  "_id": "L9KQrKDW5YGhGcMw",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785616131917,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_12.jpg",
+  "name": "Hardy Landing (Ex)",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 2nd level, a dragoon becomes skilled at mitigating falling damage.</p><p>When first gaining this ability, the dragoon takes damage as if the fall were 10 feet shorter than it actually is (this effect stacks with the Acrobatics skill check (DC 15) to ignore the first 10 feet of a fall). Additionally, the dragoon treats all damage from falling as nonlethal. The dragoon's ability to absorb his fall improves with his dragoon level, allowing him another 10 feet every two levels after 2nd, until at 20th level he can fall any distance without harm.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "hardylanding",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": [
+        [
+          "Dragoon",
+          2
+        ]
+      ]
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {},
+    "source": "Final Fantasy d20 - Dragoon"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!L9KQrKDW5YGhGcMw"
+}

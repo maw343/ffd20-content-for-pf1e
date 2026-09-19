@@ -1,0 +1,70 @@
+{
+  "_id": "759679c692e7d90a",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Endure Elements",
+  "system": {
+    "actions": [
+      {
+        "_id": "49936e3fa33d6cd5",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "24 hour"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "A creature protected by endure elements suffers no harm from being in a hot or cold environment.",
+      "value": "<p>A creature protected by endure elements suffers no harm from being in a hot or cold environment. It can exist comfortably in conditions between –\n50 and 140 degrees Fahrenheit (-\n45 and 60 degrees Celsius) without having to make Fortitude saves. The creature’s equipment is likewise protected.\nEndure elements doesn’t provide any protection from fire or ice damage, nor does it protect against other environmental hazards such as smoke, lack of air, and so forth.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 1,
+        "blackmage": 1,
+        "druid": 1,
+        "whitemage": 1,
+        "geomancer": 1
+      }
+    },
+    "level": 1,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!759679c692e7d90a"
+}

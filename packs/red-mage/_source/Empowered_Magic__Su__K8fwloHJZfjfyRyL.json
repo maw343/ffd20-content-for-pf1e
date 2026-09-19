@@ -1,0 +1,19 @@
+{
+  "_id": "K8fwloHJZfjfyRyL",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Empowered Magic (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Red Mage 6</p><p>The red mage can cast one spell per day as if it were modified by the Empower Spell feat. This does not increase the MP cost or the level of the spell.</p>"
+    },
+    "tag": "empoweredmagicsu",
+    "source": "Final Fantasy d20 - Red Mage (Ruby Talents)"
+  },
+  "effects": [],
+  "_key": "!items!K8fwloHJZfjfyRyL"
+}

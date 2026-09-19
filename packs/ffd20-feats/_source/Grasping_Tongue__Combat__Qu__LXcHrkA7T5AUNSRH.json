@@ -1,0 +1,50 @@
+{
+  "_id": "LXcHrkA7T5AUNSRH",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Grasping Tongue (Combat, Qu)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Agile Tongue, qu</p><p><strong>Benefit:</strong> The qu can choose to make a grapple maneuver with its tongue on targets up to 10 feet away.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "racial",
+    "tag": "grasping_tongue_combat_q",
+    "requirements": "Agile Tongue, qu",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-RacialFeats",
+        "pages": "Racial Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!LXcHrkA7T5AUNSRH"
+}

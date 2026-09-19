@@ -1,0 +1,65 @@
+{
+  "_id": "x1RerrjVNjXHvnxE",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785713309583,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/green_35.jpg",
+  "name": "Phantom Limb (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The chemist can manifest a ghostly, incorporeal arm that juts out from his torso. This phantom limb does not grant the chemist any extra attacks or actions per round, and it cannot hold or grab anything (including incorporeal objects). The chemist may use his phantom limb to make a touch attack against a foe as a standard action, scraping away at the very fibers of the victim's soul. This attack deals 1d4 points of damage per chemist level (Fortitude half). Creatures that are immune to incorporeal attacks are immune to this damage, but otherwise the damage bypasses all forms of damage reduction except DR/epic. The chemist may suppress or activate this ability as a free action, and can use his phantom limb for a number of rounds per day equal to 3 + his Intelligence modifier (these rounds need not be consecutive).</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "phantomlimb",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Chemist",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Chemist - Discoveries"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "ffd20": {
+      "bombDiscovery": false
+    }
+  },
+  "_key": "!items!x1RerrjVNjXHvnxE"
+}

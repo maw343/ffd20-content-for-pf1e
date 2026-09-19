@@ -1,0 +1,69 @@
+{
+  "_id": "8c1abbfbe16810f5",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Bioja",
+  "system": {
+    "actions": [
+      {
+        "_id": "10258692a90c7e56",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "any number of creatures within 50 ft. of each other"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The targets of this spell receive the Sapped status effect",
+      "value": "<p>The targets of this spell receive the Sapped status effect. Sapped: This status effect causes the target to take non-elemental damage equal to the amount of its HD + its Constitution bonus each round. This damage cannot reduce the creature's HP below 1.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 7,
+        "necromancer": 7
+      }
+    },
+    "level": 7,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!8c1abbfbe16810f5"
+}

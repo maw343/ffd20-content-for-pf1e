@@ -1,0 +1,68 @@
+{
+  "_id": "b5d7305750851fa8",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Feel My Pain",
+  "system": {
+    "actions": [
+      {
+        "_id": "d9459095e59477b3",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1d8 rounds"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the Anima’s ability to focus on her target, giving a chilling feeling to her victim",
+      "value": "<p>The caster emulates the Anima’s ability to focus on her target, giving a chilling feeling to her victim. This ability functions like Unwilling Shield . as the spell, that lasts for 1d8 rounds and the target must make a Will save to negate this effect. Learned From anima</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 6
+      }
+    },
+    "level": 6,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!b5d7305750851fa8"
+}

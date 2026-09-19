@@ -1,0 +1,27 @@
+{
+  "_id": "uEJ5JpetzfpLISzj",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_13.jpg",
+  "name": "Adept: High Reflexes (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Chosen Weapon class feature</p><p>The warrior applies his chosen weapon bonus to Reflex saving throws. He loses this bonus when he is flat-footed or denied his Dexterity bonus to AC.</p>"
+    },
+    "tag": "adepthighreflexes",
+    "source": "Final Fantasy d20 - Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!uEJ5JpetzfpLISzj"
+}

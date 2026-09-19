@@ -1,0 +1,72 @@
+{
+  "_id": "3eb10e41478e9684",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Make Whole",
+  "system": {
+    "actions": [
+      {
+        "_id": "128cbac4e2e6a38f",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one object of up to 10 cu. ft./level or one construct creature of any size"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 10))d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions as mending , except that it repairs 1d6 points of damage per level when cast on an object or construct creature (max...",
+      "value": "<p>This spell functions as mending , except that it repairs 1d6 points of damage per level when cast on an object or construct creature (maximum 5d6). Make whole can fix destroyed magic items (at 0 hit points or less), and restores the magic properties of the item if your caster level is at least twice that of the item. Items with charges (such as wands) and single-use items (such as potions and scrolls) cannot be repaired in this way. When make whole is used on a construct creature, the spell bypasses any immunity to magic as if the spell did not allow spell resistance. Augment : For every mote of time spent into this spell, increase the maximum object size that can be repaired by 10 cubic feet. For every two motes of time spent, you can target an additional object or construct, and the damage repaired increases by 1d6. No two targets can be further than 30 feet apart at the time of casting.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 2
+      }
+    },
+    "level": 2,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!3eb10e41478e9684"
+}

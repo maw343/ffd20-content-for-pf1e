@@ -1,0 +1,30 @@
+{
+  "_id": "whO4esN696cRSoGi",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/feats/quick-draw.jpg",
+  "name": "Link",
+  "system": {
+    "associations": {
+      "classes": [
+        "Avatar"
+      ]
+    },
+    "class": "summonerAvatar",
+    "description": {
+      "value": "<p>A summoner and his avatar share a mental link allows for communication across any distance (as long as they are on the same plane). This communication is a free action, allowing the summoner to give orders to his avatar at any time. In addition, magic items interfere with the summoner's connection to his avatar. As a result, the summoner and his avatar share magic item slots. For example, if the summoner is wearing a ring, his avatar can wear no more than one ring. In case of a conflict, the items worn by the summoner remain active, and those used by the avatar become dormant. The avatar must possess the appropriate appendages to utilize a magic item.</p>"
+    },
+    "subType": "classFeat",
+    "abilityType": "ex",
+    "contextNotes": [
+      {
+        "target": "skill.han",
+        "text": "Free-action orders to avatar at any range (same plane); shared magic item slots (Not factored in)"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "_key": "!items!whO4esN696cRSoGi"
+}

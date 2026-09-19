@@ -1,0 +1,64 @@
+{
+  "_id": "bf88c54bc500b776",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Rippler",
+  "system": {
+    "actions": [
+      {
+        "_id": "3df95627b9db48bd",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "120 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You emulate the legendary Blue Dragon’s echoing ripples that swap all beneficial and negative status effects between himself and his victim",
+      "value": "<p>You emulate the legendary Blue Dragon’s echoing ripples that swap all beneficial and negative status effects between himself and his victim. To succeed at a rippling, you make one rippling check as if you were doing a dispel check (1d20+19) and compare that to the spell with highest caster level (DC = 11 + the spell’s caster level). If successful, you gain all the beneficial and negative effects that creature had and you swap them with yours. If not, nothing happens. Learned From Blue Dragon SHORT DESCRIPTION Swap positive and negative status effects with a target within 120 ft.</p>"
+    },
+    "descriptors": [
+      "negative"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 5
+      }
+    },
+    "level": 5,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!bf88c54bc500b776"
+}

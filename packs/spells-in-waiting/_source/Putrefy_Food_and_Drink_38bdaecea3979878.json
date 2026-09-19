@@ -1,0 +1,69 @@
+{
+  "_id": "38bdaecea3979878",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Putrefy Food and Drink",
+  "system": {
+    "actions": [
+      {
+        "_id": "1fbf16b467031a46",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "10 ft"
+        },
+        "target": {
+          "value": "1 cu. ft./level of food and water or one potion; see text"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell causes otherwise edible food to rot and spoil instantly, and water and other liquids to become brackish and undrinkable",
+      "value": "<p>This spell causes otherwise edible food to rot and spoil instantly, and water and other liquids to become brackish and undrinkable. Holy water and similar food and drink of significance are spoiled by putrefy food and drink , but the spell has no effect on creatures of any type, nor upon unholy water. Water weighs about 8 pounds per gallon. One cubic foot of water contains roughly 8 gallons and weighs about 60 pounds. Although potions and elixirs are unaffected by the normal use of the spell, you can instead choose to target a single such object with this spell, destroying it if it fails a Saving Throw.</p>"
+    },
+    "descriptors": [
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "necromancer": 0
+      }
+    },
+    "level": 0,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!38bdaecea3979878"
+}

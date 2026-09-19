@@ -1,0 +1,27 @@
+{
+  "_id": "zPKRyMhioxtiPMSV",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_13.jpg",
+  "name": "Warrior Spirit (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Warrior 6</p><p>The warrior gains a 'Spirit Pool' with value equal to (1 + his chosen weapon bonus). While wielding a weapon from his chosen weapon group, as a swift action, he can spend 1 point from this pool to grant the weapon an enhancement bonus equal to his chosen weapon bonus. This bonus stacks with existing enhancement bonuses (up to +5), and the warrior may also use it to grant weapons special abilities (using their enhancement bonus cost). Weapons must have at least a +1 bonus to gain weapon special abilities (either from the weapon itself or granted by this ability). This ability lasts for 1 minute after use.</p>"
+    },
+    "tag": "warriorspirit",
+    "source": "Final Fantasy d20 - Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!zPKRyMhioxtiPMSV"
+}

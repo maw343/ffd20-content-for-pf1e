@@ -1,0 +1,27 @@
+{
+  "_id": "iCKF0g6rT3QGLMU7",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_13.jpg",
+  "name": "Master's Orders (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The beastmaster can use this trick as a standard action when he is within 60ft and line of sight of his animal companion, doing so he allows his companion to make another save against one mind-affecting effect that is currently affecting his companion. The beastmaster can only use this trick once per effect.</p>"
+    },
+    "tag": "mastersorders",
+    "source": "Final Fantasy d20 - Beastmaster Tricks",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!iCKF0g6rT3QGLMU7"
+}

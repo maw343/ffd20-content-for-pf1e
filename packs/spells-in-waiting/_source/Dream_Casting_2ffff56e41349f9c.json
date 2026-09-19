@@ -1,0 +1,67 @@
+{
+  "_id": "2ffff56e41349f9c",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Dream Casting",
+  "system": {
+    "actions": [
+      {
+        "_id": "872233f1ab070522",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "you and one dreamer"
+        },
+        "duration": {
+          "units": "spec",
+          "value": "24 hours/level; see text"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You complete the spell with a few last gestures and arcane words",
+      "value": "<p>You complete the spell with a few last gestures and arcane words. You feel a pressure in your mind as you begin to relay the intent of your dreaming contact. This spell functions like dream, except as noted above and that you can alter the sleeping person’s dreams to produce a specific desired effect. The dreamer gets a Will saving throw to resist the additional effects of this spell; if the save succeeds, the dream casting spell can send only a message, in the manner of a dream spell. If the saving throw fails, you decide what additional effect the message carries. Fear: Your image in the dream is surrounded by intimidating imagery and an aura of power. For the duration of the spell, any time the dreamer can see you or knows you are present, he is shaken. This is a compulsion and fear effect. Charm: Your image in the dream appears particularly helpful and kind. For the duration of the spell, the dreamer is under the effect of a charm spell. This is a charm effect. Rage: Your image in the dream taunts and harasses the dreamer. For the duration of the spell, any time the dreamer can see you or knows you are present, he preferentially attacks you if in a combat situation. The dreamer gains a +2 morale bonus on saving throws, attack rolls, ability checks, skill checks, and weapon damage rolls when attacking you while under this effect. This is a compulsion effect. Confusion: Your image in the dream behaves in a bizarre and irrational manner. For the duration of the spell, the dreamer behaves in an unusual manner; he is confused for 1 round/level.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 6
+      }
+    },
+    "level": 6,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!2ffff56e41349f9c"
+}

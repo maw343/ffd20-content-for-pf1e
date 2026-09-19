@@ -1,0 +1,67 @@
+{
+  "_id": "15be0a100e80a38f",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Contagion, Greater",
+  "system": {
+    "actions": [
+      {
+        "_id": "c7346caea09d193c",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one living creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions as contagion , except the victim cannot overcome the disease without magic—making the required number of saves does ...",
+      "value": "<p>This spell functions as contagion , except the victim cannot overcome the disease without magic—making the required number of saves does not cure it. The DC to remove the disease with esuna is equal to the save DC + 5.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "necromancer": 6
+      }
+    },
+    "level": 6,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!15be0a100e80a38f"
+}

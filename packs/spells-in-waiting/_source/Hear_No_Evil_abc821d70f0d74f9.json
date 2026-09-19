@@ -1,0 +1,82 @@
+{
+  "_id": "abc821d70f0d74f9",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Hear No Evil",
+  "system": {
+    "actions": [
+      {
+        "_id": "8e3042023063e090",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "rsak",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1d8 rounds"
+        },
+        "ability": {
+          "attack": "dex",
+          "critMult": 2,
+          "critRange": 20
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "3d6",
+              "types": [
+                "negative"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "will",
+          "description": "Will partial"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates Anima’s ability to cause her foe to be deaf",
+      "value": "<p>The caster emulates Anima’s ability to cause her foe to be deaf. The caster can make a ranged touch attack, hitting a foe up to 30 feet away. The subject takes 3d6 points of shadow damage and the target must make a Will save or be inflicted with Deafened status effect for 1d8 rounds. Learned From Anima</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 2
+      }
+    },
+    "level": 2,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!abc821d70f0d74f9"
+}

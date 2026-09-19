@@ -1,0 +1,50 @@
+{
+  "_id": "XepvmaNYTbULXav4",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Uncanny Dodge (Ex)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> —</p><p><strong>Benefit:</strong> A time mage with this talent can react to danger before his senses would normally allow him to do so. He cannot be caught flat-footed, even if the attacker is invisible. He still loses his Dexterity bonus to AC if immobilized. A time mage with this ability can still lose his Dexterity bonus to AC if an opponent successfully uses the feint action against him.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "temporalTalent",
+    "tag": "uncanny_dodge_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-TimeMageClass",
+        "pages": "Temporal Talents"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!XepvmaNYTbULXav4"
+}

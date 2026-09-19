@@ -1,0 +1,78 @@
+{
+  "_id": "21462883c5a54bd8",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Maddening Cacophony",
+  "system": {
+    "actions": [
+      {
+        "_id": "dde6ae685a90675a",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "60 ft"
+        },
+        "area": "60-ft.-radius centered on caster",
+        "duration": {
+          "units": "round",
+          "value": "1d6 rounds"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the disturbing cacophony of sounds and words that sane life was not meant to hear from a Skull Dragon",
+      "value": "<p>The caster emulates the disturbing cacophony of sounds and words that sane life was not meant to hear from a Skull Dragon. All creatures in a 60-foot radius must make a Will save or be confused for 1d6 rounds and take 1d6 points of Wisdom damage. A creature that saves cannot be affected by this spell for 24 hours. This is a sonic mind-affecting effect. Learned From Skull Dragon</p>"
+    },
+    "descriptors": [
+      "sonic"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 8
+      }
+    },
+    "level": 8,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!21462883c5a54bd8"
+}

@@ -1,0 +1,80 @@
+{
+  "_id": "9f3cac63e31a39d4",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Sacrament",
+  "system": {
+    "actions": [
+      {
+        "_id": "04200d8b1e56c832",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "rsak",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "4 rays"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "ability": {
+          "attack": "dex",
+          "critMult": 2,
+          "critRange": 20
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "4d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates Alexander’s ability to fire rays of holy energy",
+      "value": "<p>The caster emulates Alexander’s ability to fire rays of holy energy. Each ray requires a ranged touch attack to hit and deals 4d6 points of holy damage. The rays may be fired at the same or different targets, but all rays must be aimed at targets within 30 feet of each other and fired simultaneously. Learned From Alexander, Ser Zephirin, and Diamond Weapon</p>"
+    },
+    "descriptors": [
+      "fire"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 7
+      }
+    },
+    "level": 7,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!9f3cac63e31a39d4"
+}

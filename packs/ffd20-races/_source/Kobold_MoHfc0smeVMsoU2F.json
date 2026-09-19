@@ -1,0 +1,173 @@
+{
+  "_id": "MoHfc0smeVMsoU2F",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1786065829449,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "RWSoA7Fj9yqo0y9U",
+  "img": "systems/pf1/icons/races/human.jpg",
+  "name": "Kobold",
+  "system": {
+    "description": {
+      "value": "<p>The kobolds are a race of mole-like creatures who have excavated a warren of tunnels beneath O'Ghomoro, seeking to divine Titan's teachings through alchemy and metallurgy.</p><h2>Standard Racial Traits</h2><ul><li><strong>Ability Score Modifiers</strong>: Kobolds gain +2 Dexterity, +2 Intelligence, and -2 Charisma.</li><li><strong>Size</strong>: Kobolds are Medium creatures.</li><li><strong>Type</strong>: Kobolds are humanoids with the kobold subtype.</li><li><strong>Base Speed</strong>: Kobolds have a base speed of 30 feet and burrow speed of 20 feet.</li><li><strong>Languages</strong>: Kobolds start off knowing Terran and Common. They can learn any of the beastmen languages.</li></ul><h3>Defense Racial Traits</h3><ul><li><strong>Bond to the Land</strong>: Kobolds gain a +2 dodge bonus to AC when in caves and rocky terrain.</li><li><strong>Reckless Work</strong>: Kobolds receive a +4 racial bonus on Constitution checks and Fortitude saves to avoid fatigue and exhaustion.</li><li><strong>Thick Hide</strong>: Kobolds gain a +1 natural armor bonus.</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Cave Dweller</strong>: Kobolds gain a +1 racial bonus on Knowledge (dungeoneering) and Survival checks made underground.</li><li><strong>Master Tinker</strong>: Kobolds gain a +1 racial bonus on Disable Device checks, and are treated as proficient with any non-exotic weapon they have personally crafted.</li></ul><h3>Offense Racial Traits</h3><ul><li><strong>Hatred</strong>: Kobolds gain a +2 attack bonus against Roegadyn-Galka of Lominsa.</li></ul><h3>Senses Racial Traits</h3><ul><li><strong>Low-Light Vision</strong>: Kobolds have low-light vision, allowing them to see twice as far as humes in dim light.</li></ul><h3>Social Racial Traits</h3><ul><li><strong>Emissary</strong>: Once per day, kobolds can roll twice when making a Bluff or Diplomacy check and take the better roll.</li></ul>",
+      "instructions": ""
+    },
+    "tags": [
+      "Beastman"
+    ],
+    "changes": [
+      {
+        "formula": "2",
+        "target": "dex",
+        "type": "racial",
+        "_id": "fea9i8qe"
+      },
+      {
+        "formula": "2",
+        "target": "int",
+        "type": "racial",
+        "_id": "89gjw1t9"
+      },
+      {
+        "formula": "-2",
+        "target": "cha",
+        "type": "racial",
+        "_id": "f8r1yw3r"
+      },
+      {
+        "formula": "1",
+        "target": "ac",
+        "type": "racial",
+        "_id": "fe1xkwyd"
+      },
+      {
+        "formula": "1",
+        "target": "skill.kdu",
+        "type": "racial",
+        "_id": "of1vdfrk"
+      },
+      {
+        "formula": "1",
+        "target": "skill.sur",
+        "type": "racial",
+        "_id": "bxspwp1q"
+      },
+      {
+        "formula": "1",
+        "target": "cmb.dis",
+        "type": "racial",
+        "_id": "heuzaalo"
+      }
+    ],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [
+      {
+        "target": "allSavingThrows",
+        "text": "+[[4]] Racial Constitution Checks vs Fatigue/Exhaustion"
+      },
+      {
+        "target": "attack",
+        "text": "+[[2]] vs Roegadyn-Galka (Hatred)"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [
+      "common"
+    ],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "size": "med",
+    "speeds": {
+      "land": 30,
+      "fly": null,
+      "flyManeuverability": "",
+      "swim": null,
+      "climb": null,
+      "burrow": 20
+    },
+    "creatureTypes": [
+      "humanoid"
+    ],
+    "creatureSubtypes": [
+      "kobold"
+    ],
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "Beastman Tribes"
+      }
+    ],
+    "quadruped": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "blf": false,
+      "clm": false,
+      "ckg": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "type": "race",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!MoHfc0smeVMsoU2F"
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "RENx8fp7BjVlWJE8",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Transpositioning (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 13th level, the summoner may touch a single ally as a swift action. He may then use an immediate action in a later round to instantly teleport to his ally's position while he appears in the summoner's location. Once he touches his ally, this ability lasts for a number of rounds equal to half his summoner level. When activating the swapping action, neither the summoner nor his ally is subject to attacks of opportunity, though any other actions may provoke as normal. This ability may be used a number of times per day equal to his Charisma modifier, though he may only use it with one ally at a time.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "transpositioning_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Summoner"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Summoner",
+          13
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!RENx8fp7BjVlWJE8"
+}

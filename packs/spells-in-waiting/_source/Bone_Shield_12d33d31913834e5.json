@@ -1,0 +1,62 @@
+{
+  "_id": "12d33d31913834e5",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Bone Shield",
+  "system": {
+    "actions": [
+      {
+        "_id": "5acc1b1e23df4a50",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "1 hour/level or until discharged"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You animate a bone with dark energy, giving it the power to float near your body and interpose itself against physical attacks",
+      "value": "<p>You animate a bone with dark energy, giving it the power to float near your body and interpose itself against physical attacks. This gives you damage reduction 5/-. Once the bone has prevented a total of 5 points of damage per caster level (maximum 50 points), it is destroyed and the spell is discharged.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "necromancer": 2
+      }
+    },
+    "level": 2,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!12d33d31913834e5"
+}

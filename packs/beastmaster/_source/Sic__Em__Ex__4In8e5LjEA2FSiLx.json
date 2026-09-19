@@ -1,0 +1,27 @@
+{
+  "_id": "4In8e5LjEA2FSiLx",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_13.jpg",
+  "name": "Sic 'Em (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The beastmaster can use this trick as a swift action. His animal companion makes one melee attack against an adjacent creature. The animal companion must be able to see and hear the beastmaster to make this attack.</p>"
+    },
+    "tag": "sicem",
+    "source": "Final Fantasy d20 - Beastmaster Tricks",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!4In8e5LjEA2FSiLx"
+}

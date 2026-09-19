@@ -1,0 +1,27 @@
+{
+  "_id": "tB6LtHCXURQdVys5",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_13.jpg",
+  "name": "Extreme Effort (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Strength 15</p><p>A warrior that selects this talent may perform feats of extreme physical effort. When making a Strength check, the warrior doubles his strength bonus. At 11th level, triple the strength bonus, and at 16th level, quadruple the strength bonus. The warrior may always take 10 on any Strength checks.</p>"
+    },
+    "tag": "extremeeffort",
+    "source": "Final Fantasy d20 - Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!tB6LtHCXURQdVys5"
+}

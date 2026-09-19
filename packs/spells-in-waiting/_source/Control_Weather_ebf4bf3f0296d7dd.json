@@ -1,0 +1,64 @@
+{
+  "_id": "ebf4bf3f0296d7dd",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Control Weather",
+  "system": {
+    "actions": [
+      {
+        "_id": "7b3d0c69ddb6786e",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "area": "2-mile-radius circle, centered on you; see text",
+        "duration": {
+          "units": "spec",
+          "value": "4d12 hours; see text"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You change the weather in the local area",
+      "value": "<p>You change the weather in the local area. It takes 10 minutes to cast the spell and an additional 10 minutes for the effects to manifest. You can call forth weather appropriate to the climate and season of the area you are in. You can also use this spell to cause the weather in the area to become calm and normal for the season. You control the general tendencies of the weather, such as the direction and intensity of the wind. You cannot control specific applications of the weather–where lightning strikes, for example, or the exact path of a tornado. The weather continues as you left it for the duration, or until you use a standard action to designate a new kind of weather (which fully manifests itself 10 minutes later). Contradictory conditions are not possible simultaneously. Control weather can do away with atmospheric phenomena (naturally occurring or otherwise) as well as create them. Table: Control Weather Season Possible Weather Spring tornado, thunderstorm, sleet storm, or hot weather Summer rain, heat wave, or hailstorm Autumn hot or cold weather, fog, or sleet Winter frigid color, blizzard, or thaw Late Winter hurricane-force winds, early spring</p>"
+    },
+    "descriptors": [
+      "cold",
+      "wind"
+    ],
+    "learnedAt": {
+      "class": {
+        "druid": 7,
+        "geomancer": 7
+      }
+    },
+    "level": 7,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!ebf4bf3f0296d7dd"
+}

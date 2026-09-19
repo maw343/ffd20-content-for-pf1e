@@ -1,0 +1,199 @@
+{
+  "folder": "DfnGKOLpv2IMav2K",
+  "type": "feat",
+  "name": "Rough Divide (Su)",
+  "system": {
+    "description": {
+      "value": "<p>As a standard action, the field specialist can leap forward at blinding speed, bringing his blade up with an upward strike that send rifts into the ground and upward onto his target. He can move up to his movement speed without provoking attacks of opportunity and makes a single melee attack against a target within reach. If successful, he deals triple melee weapon damage with his gun arm and plus double his gun arm’s firearm damage to the target. The target must make a Fortitude save (DC 10 + half of the field specialist’s level + his Charisma modifier) or be Stunned for 1 round.</p><p></p><p><strong>Requires Divide gun arm technique, Gunbreaker 12.</strong></p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [
+      {
+        "_id": "VbkLRvN7wbu5Hlko",
+        "name": "Use",
+        "activation": {
+          "cost": 1,
+          "type": "standard",
+          "unchained": {
+            "cost": 1,
+            "type": "nonaction"
+          }
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "range": {
+          "units": "melee"
+        },
+        "uses": {},
+        "actionType": "mwak",
+        "damage": {
+          "parts": [
+            {
+              "formula": "3*(1d6)",
+              "types": [
+                "slashing"
+              ]
+            },
+            {
+              "formula": "2*(1d6)",
+              "types": [
+                "fire"
+              ]
+            }
+          ]
+        },
+        "ability": {
+          "damage": "dex",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "description": "Fortitude negates condition"
+        },
+        "powerAttack": {
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          },
+          "primary": true
+        },
+        "held": "1h",
+        "ammo": {
+          "type": "none",
+          "cost": 1
+        }
+      }
+    ],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "blf": false,
+      "clm": false,
+      "ckg": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "_id": "HNKgR7Q6ztUMvhpO",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "KJytU1RQudYSFJXl": 3
+  },
+  "flags": {
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
+    },
+    "pf1": {
+      "migration": "11.11"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "coreVersion": "12.343",
+    "createdTime": 1745034313263,
+    "modifiedTime": 1783378055904,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!HNKgR7Q6ztUMvhpO"
+}

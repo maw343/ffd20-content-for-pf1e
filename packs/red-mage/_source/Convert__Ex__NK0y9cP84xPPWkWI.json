@@ -1,0 +1,27 @@
+{
+  "_id": "NK0y9cP84xPPWkWI",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Convert (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>Once per day, a red mage can convert hit points into MP as a swift action. For every 10 hit points converted, he receives 1 MP, never converting below 1 hit point, and only up to his red mage level in MP. Usable twice per day at 9th level, three times at 13th level, and four times at 17th level. If his hit points fall below 50% from using this ability, he cannot use limit breaks for 1 round.</p>"
+    },
+    "tag": "convert",
+    "source": "Final Fantasy d20 - Red Mage",
+    "associations": {
+      "classes": [
+        [
+          "Red Mage",
+          5
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!NK0y9cP84xPPWkWI"
+}

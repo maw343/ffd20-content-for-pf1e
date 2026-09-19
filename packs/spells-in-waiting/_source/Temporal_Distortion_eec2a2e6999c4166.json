@@ -1,0 +1,61 @@
+{
+  "_id": "eec2a2e6999c4166",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Temporal Distortion",
+  "system": {
+    "actions": [
+      {
+        "_id": "e0578e40d5dac660",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "30-ft.-radius emanation, centered on you",
+        "duration": {
+          "units": "round",
+          "value": "1 round"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Gathering power, you bring your hands together over your head and unleash a shockwave of temporal energy, freezing everything around you ...",
+      "value": "<p>Gathering power, you bring your hands together over your head and unleash a shockwave of temporal energy, freezing everything around you for a brief moment. Upon casting temporal distortion , everything within 30 feet of you (objects, creatures, environment, etc.) stops for 1 round. Creatures halt, arrows stop mid-flight, and sounds cease. A creature or object that enters the area after the initial casting is not affected. While the temporal distortion is in effect, everything that was within the area of the distortion when you cast it is invulnerable to everything; no one can target such creatures or objects with any attack or spell, nor can they be moved or harmed while the distortion lasts. Spells and effects that last longer than 1 round can be placed in the area, which will affect creatures and objects as normal once time starts flowing again. You are immune to the effects of your own temporal distortion unless you allow it to affect you. Despite this, so long as this spell is in effect, you cannot use motes of time, the temporal distortion interfering with the motes of time.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 9
+      }
+    },
+    "level": 9,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!eec2a2e6999c4166"
+}

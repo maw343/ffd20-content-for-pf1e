@@ -1,0 +1,61 @@
+{
+  "_id": "8qN8zbAqLIxnN5Ny",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785716981575,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/shadow_35.jpg",
+  "name": "Profane Rebuttal (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Harm Touch class feature</p><p>Once per round, when an enemy misses you with a melee attack, you may, as an immediate action, use your Harm Touch feature to heal yourself if you're undead, or damage the enemy. If the dark knight has Word of Healing they can use this talent on an ally or enemy at range, if an enemy misses the dark knight.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "profanerebuttal",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Dark Knight",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Dark Knight - Dark Knight Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!8qN8zbAqLIxnN5Ny"
+}

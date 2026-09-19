@@ -1,0 +1,68 @@
+{
+  "_id": "2e10b7661134ff80",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Nondetection, Greater",
+  "system": {
+    "actions": [
+      {
+        "_id": "d3605114015b28f3",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature or object touched"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "1 hour/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless, object)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell works like nondetection but will also block true seeing (or any ability similar), tremorsense, blindsense, and blindsight from...",
+      "value": "<p>This spell works like nondetection but will also block true seeing (or any ability similar), tremorsense, blindsense, and blindsight from noticing you. The warded creature or object becomes difficult to detect by divination spells such as clairaudience/clairvoyance , locate object , see invisibility , and detect spells. If a spell is attempted against the warded creature or item, the caster of the spell must succeed on a caster level check (1d20 + caster level) against a DC of 11 + the caster level of the spellcaster who cast nondetection . If you cast nondetection on yourself or on an item currently in your possession, the DC is 15 + your caster level. If cast on a creature, nondetection wards the creature’s gear as well as the creature itself.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 6
+      }
+    },
+    "level": 6,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!2e10b7661134ff80"
+}

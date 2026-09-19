@@ -1,0 +1,70 @@
+{
+  "_id": "3c4230b2a9dabe6f",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Sleepga",
+  "system": {
+    "actions": [
+      {
+        "_id": "0c480c9d66396a7c",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature/two levels (maximum of 5) within 30ft of each other"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 min./level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The spell causes one creature per two levels (maximum of 5) within 30 feet of each other to receive the Sleep status effect",
+      "value": "<p>The spell causes one creature per two levels (maximum of 5) within 30 feet of each other to receive the Sleep status effect. The victims fall into a magical slumber, can only be woken with a standard action . The targets of this spell must have a combined HD of 10 or less to be affected by this spell. Sleep: This status effect causes the creature to fall into a magical slumber. They are considered unconscious and thereby helpless. Slapping or wounding awakens an affected creature, but normal noise does not. Awakening a creature is a standard action (an application of the aid another action).</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 3,
+        "blackmage": 3,
+        "whitemage": 3
+      }
+    },
+    "level": 3,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!3c4230b2a9dabe6f"
+}

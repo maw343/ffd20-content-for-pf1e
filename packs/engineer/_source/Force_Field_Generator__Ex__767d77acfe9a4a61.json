@@ -1,0 +1,61 @@
+{
+  "_id": "767d77acfe9a4a61",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785718761459,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Force Field Generator (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Engineer 6</p><p>This medium-sized device enacts a force field, sheathing the engineer in a thin layer of shimmering energy that grants a number of bonus temporary hit points equal to half of the engineer's level x 5 (rounded down). All damage dealt to the engineer with an active force field is reduced from these hit points first. As long as the force field is active, the engineer is immune to critical hits. A force field has fast healing equal to half of the engineer's level, but once its hit points are reduced to 0, the force field shuts down and must be repaired, that takes an hour to do so. The force field generator has a hardness 10, 10 AC, and 30 hit points. It weighs 50 pounds. It takes two flasks of oil to maintain the force field for an hour. It requires a move action to turn on or off a force field generator.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "forcefieldgeneratorex",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Engineer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Engineer Tricks - Gadgets"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!767d77acfe9a4a61"
+}

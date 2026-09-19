@@ -1,0 +1,19 @@
+{
+  "_id": "ZaMg2ACcnz0LxnU5",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Wave Step (Sp)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Red Mage 6</p><p>As a swift action, a red mage can spend 1 point from his arcane pool and gain the effects of a water walk spell for 10 minutes per red mage level. If he expends 2 points from his arcane pool, he can affect a total number of touched creatures equal to his red mage level.</p>"
+    },
+    "tag": "wavestepsp",
+    "source": "Final Fantasy d20 - Red Mage (Ruby Arcana)"
+  },
+  "effects": [],
+  "_key": "!items!ZaMg2ACcnz0LxnU5"
+}

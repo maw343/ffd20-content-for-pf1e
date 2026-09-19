@@ -1,0 +1,63 @@
+{
+  "_id": "a2edee0c4fc79aaf",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Intercept Attack",
+  "system": {
+    "actions": [
+      {
+        "_id": "8f726c599c1151fb",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "immediate",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous DESCRIPTION If there is an ally adjacent to you, this spell wards the ally and creates a mystic connection so that all of its wounds transfer to you. The ally takes no damage from a singular attack (including those dealt by special abilities) that deal hit point damage, ability damage, ability drain, level drain or death effects. The amount of damage not taken by the warded creature is taken by you. Forms of harm that do not deal the types listed above such as blown away, charm, compulsion, and knocked down conditions and effects, are not affected."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "If there is an ally adjacent to you, this spell wards the ally and creates a mystic connection so that all of its wounds transfer to you",
+      "value": "<p>If there is an ally adjacent to you, this spell wards the ally and creates a mystic connection so that all of its wounds transfer to you. The ally takes no damage from a singular attack (including those dealt by special abilities) that deal hit point damage, ability damage, ability drain, level drain or death effects. The amount of damage not taken by the warded creature is taken by you. Forms of harm that do not deal the types listed above such as blown away, charm, compulsion, and knocked down conditions and effects, are not affected.</p>"
+    },
+    "descriptors": [
+      "death"
+    ],
+    "learnedAt": {
+      "class": {
+        "paladin": 2
+      }
+    },
+    "level": 2,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a2edee0c4fc79aaf"
+}

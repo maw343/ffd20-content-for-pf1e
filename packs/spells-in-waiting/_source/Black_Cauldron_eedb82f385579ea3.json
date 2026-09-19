@@ -1,0 +1,76 @@
+{
+  "_id": "eedb82f385579ea3",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Black Cauldron",
+  "system": {
+    "actions": [
+      {
+        "_id": "37689d0878f8db0d",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "area": "20-ft.-radius spread",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1 round/level (each)"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 15))d6",
+              "types": [
+                "negative"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude half — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You call forth Hades, a demonic aeon from the lower planes who pours a foul black liquid upon your enemies",
+      "value": "<p>You call forth Hades, a demonic aeon from the lower planes who pours a foul black liquid upon your enemies. Enemies within the area of effect take 1d6 points of shadow damage per level (maximum 10d6) and are inflicted with Poison, Confusion, Sleep, Silence, Mini, Frog, Slow, and Paralysis status for 1 round per level, Fortitude save for each status effect to negate.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "summoner": 8
+      }
+    },
+    "level": 8,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!eedb82f385579ea3"
+}

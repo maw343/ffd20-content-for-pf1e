@@ -1,0 +1,61 @@
+{
+  "_id": "t09mku4iZ0nWHLeY",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785613111632,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_03.jpg",
+  "name": "Limit Breaks (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 1st level, the knight receives the Limit Breaks (A Knight's Blessing and A Knight's Protection).</p><p><em>A Knight's Blessing (Su):</em> This Limit Break allows the knight to protect not only himself but his allies. For a duration of 1 round + 1 round per four knight levels after 1st, the knight and any allies within 30 feet gain the effects of Protect, Shell, and Regen. At 5th level, these increase to the II versions, at 9th level, the III versions, at 13th level, the IV versions, and at 17th level, the V versions. This limit break requires only a swift action.</p><p><em>A Knight's Protection (Su):</em> This Limit Break covers both the knight and his allies in a protective bubble. For a duration of 1 round + 1 round per four knight levels after 1st, this Limit Break grants the knight and any allies within 30 feet a protective bubble that grants damage reduction 1/- as well as elemental resistance (all) 5. Damage reduction increases by 1 and elemental resistance increases by 5 per four knight levels after 1st. This DR and ER stack with any granted by the knight's class features and knight talents. This limit break requires only a swift action.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "limitbreaks",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Knight",
+          1
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Knight"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!t09mku4iZ0nWHLeY"
+}

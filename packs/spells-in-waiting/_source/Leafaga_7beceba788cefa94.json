@@ -1,0 +1,70 @@
+{
+  "_id": "7beceba788cefa94",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Leafaga",
+  "system": {
+    "actions": [
+      {
+        "_id": "e9d7602bf7a5a6ea",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 10))d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like leafra , except it deals 1d8 points of (the appropriate type) damage per caster level (maximum 15d8) and the ar...",
+      "value": "<p>This spell functions like leafra , except it deals 1d8 points of (the appropriate type) damage per caster level (maximum 15d8) and the area of effect increases to a 30-ft-radius spread, or 1d6 non-elemental damage per level for no seasons.</p>"
+    },
+    "descriptors": [
+      "fire",
+      "wind",
+      "earth"
+    ],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!7beceba788cefa94"
+}

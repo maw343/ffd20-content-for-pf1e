@@ -1,0 +1,78 @@
+{
+  "_id": "f8b5457bbe6de504",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Fire Roar",
+  "system": {
+    "actions": [
+      {
+        "_id": "83106fab89fd2ea5",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "cone-shaped burst",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1d6 rounds"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "10d6",
+              "types": [
+                "fire"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates a fire gigas roaring a fiery cone",
+      "value": "<p>The caster emulates a fire gigas roaring a fiery cone. Any creature in the area of the roar takes 10d6 points of fire damage and are inflicted with the Burning status effect for 1d6 rounds. A successful Reflex save reduces the damage by half and negates the status effect. Learned From Fire Gigas, Greater Rathalos, Ancient Rathalos, and Red Dragon Family.</p>"
+    },
+    "descriptors": [
+      "fire"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 5
+      }
+    },
+    "level": 5,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f8b5457bbe6de504"
+}

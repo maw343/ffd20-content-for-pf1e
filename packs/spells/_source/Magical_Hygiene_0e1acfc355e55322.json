@@ -1,0 +1,75 @@
+{
+  "_id": "0e1acfc355e55322",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Magical Hygiene",
+  "system": {
+    "actions": [
+      {
+        "_id": "869a06ba1d0b29a2",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "one willing creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates (harmless) ",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You surround one creature with a flurry of shifting waters combined with cleaning chemicals that are non-harmful to the skin and eyes, as well as immediately drying them.",
+      "value": "<p>You surround one creature with a flurry of shifting waters combined with cleaning chemicals that are non-harmful to the skin and eyes, as well as immediately drying them. This spell removes dirt, sweat, blood stains, foul odors and so on from the creature’s body including their fur or feathers, though not their clothing or gear. After being affected by this spell, the creature has experienced a deep-cleaning, making them presentable for even the highest of society. This spell does not remove the effects of magical substances or otherwise strong effects, like the sticky adhesive of mimics.\nIf the caster wishes to spend 1 MP they can increase the effects of this cantrip to almost becoming a true spell, having this cleaning process keep the affected creature clean and pleasingly scented for up to 24 hours, granting them a +1 circumstance bonus on all saving throws against disease and charisma-based skill checks. If the creature is submerged in mud or is otherwise heavily attacked by dirt or foul smells the cantrip is removed.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 0,
+        "blackmage": 0,
+        "druid": 0,
+        "geomancer": 0,
+        "redmage": 0,
+        "summoner": 0,
+        "whitemage": 0
+      }
+    },
+    "level": 0,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "uses": {
+      "cost": "0",
+      "autoDeductChargesCost": "0"
+    }
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!0e1acfc355e55322"
+}

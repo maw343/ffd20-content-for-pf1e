@@ -1,0 +1,66 @@
+{
+  "_id": "182d13333e0bdd0e",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Alter Object",
+  "system": {
+    "actions": [
+      {
+        "_id": "0c5c7748659ebb0c",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "1 lb of nonliving material"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "1 hour"
+        }
+      }
+    ],
+    "components": {
+      "material": true
+    },
+    "description": {
+      "summary": "You point at an object, altering its physical makeup for up to 1 hour.",
+      "value": "<p>You point at an object, altering its physical makeup for up to 1 hour. At the choice of the caster, this cantrip can lift up to 1lb of material, alter its color, chill or warm it 10 degrees, and make slight changes to its shape. The caster may also decide to instead create a crude small object, the object is not overly sophisticated and can be usually examined as artificial., but can be used as a party trick or to impress people.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 0,
+        "blackmage": 0,
+        "geomancer": 0,
+        "redmage": 0,
+        "summoner": 0,
+        "whitemage": 0
+      }
+    },
+    "level": 0,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!182d13333e0bdd0e"
+}

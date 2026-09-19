@@ -1,0 +1,27 @@
+{
+  "_id": "ILzYtbKfuUq5cdQb",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_14.jpg",
+  "name": "Streamlined Flexibility (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Martial Flexibility class feature</p><p>As part of using Martial Flexibility, the warrior may also choose up to two feats he qualifies for, thereafter counting himself as having those feats for the purposes of prerequisites of other feats chosen with Martial Flexibility. He does not gain the chosen feats' benefits. The warrior may swap these chosen feats for others as part of any usage of Martial Flexibility, and he is only considered to have them while Martial Flexibility is active.</p>"
+    },
+    "tag": "streamlinedflexibility",
+    "source": "Final Fantasy d20 - Advanced Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          12
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!ILzYtbKfuUq5cdQb"
+}

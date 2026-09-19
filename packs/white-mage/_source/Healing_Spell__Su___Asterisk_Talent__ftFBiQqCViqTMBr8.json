@@ -1,0 +1,19 @@
+{
+  "_id": "ftFBiQqCViqTMBr8",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_02.jpg",
+  "name": "Healing Spell (Su) (Asterisk Talent)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>As a free action, the white mage adds an element of extra healing energy to any healing spell she is casting. Affected targets gain Fast Healing equal to the level of the spell for a duration of 1 round + her Wisdom modifier. The white mage may use this ability a number of times per day equal to 3 + her Wisdom modifier.</p><p><em>Asterisk talent: only one such talent's effect may be applied to an individual spell; decision made before casting.</em></p>"
+    },
+    "tag": "healingspellsu",
+    "source": "Final Fantasy d20 - White Mage (Mage Talents)"
+  },
+  "effects": [],
+  "_key": "!items!ftFBiQqCViqTMBr8"
+}

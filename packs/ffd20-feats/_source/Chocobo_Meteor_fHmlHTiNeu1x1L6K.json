@@ -1,0 +1,50 @@
+{
+  "_id": "fHmlHTiNeu1x1L6K",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Chocobo Meteor",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Improved Unarmed Strike, Chocobo Drift, Chocobo Style, Acrobatics 5 ranks</p><p><strong>Benefit:</strong> When you strike a target with Chocobo Style, an explosion of fiery energy happens, dealing 5d6 points of fire damage to the target and all creatures within a 15-ft.-radius, a Reflex save for half damage. This is in addition to the damage the target takes from Chocobo Style and is not multiplied on a critical hit.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "style",
+    "tag": "chocobo_meteor",
+    "requirements": "Improved Unarmed Strike, Chocobo Drift, Chocobo Style, Acrobatics 5 ranks",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-StyleFeats",
+        "pages": "Style Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!fHmlHTiNeu1x1L6K"
+}

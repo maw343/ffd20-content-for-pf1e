@@ -1,0 +1,27 @@
+{
+  "_id": "k4CWVD8I3m9Zrx2R",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_13.jpg",
+  "name": "Chameleon Step (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The beastmaster can move up to twice his speed as a move action. The beastmaster does not take any penalty on Stealth checks for movement during this move. This move provokes attacks of opportunity as normal (assuming enemies know he's there). A beastmaster can use this talent a number of times per day equal to 3 + his Dexterity modifier.</p>"
+    },
+    "tag": "chameleonstep",
+    "source": "Final Fantasy d20 - Beastmaster Tricks",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!k4CWVD8I3m9Zrx2R"
+}

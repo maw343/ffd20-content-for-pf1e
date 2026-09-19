@@ -1,0 +1,78 @@
+{
+  "_id": "a9f5e5b7811fcd49",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Cold Wave",
+  "system": {
+    "actions": [
+      {
+        "_id": "ecac88c0e45022c2",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "45 ft"
+        },
+        "area": "cone-shaped burst",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1 round/2 levels"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d4",
+              "types": [
+                "cold"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half; see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates huge ice elemental creating an area of extreme cold extending outward from the caster’s hands in a cone",
+      "value": "<p>The caster emulates huge ice elemental creating an area of extreme cold extending outward from the caster’s hands in a cone. It drains heat, dealing 1d4 points of ice damage per caster level (maximum 12d4) and 1d2 points of Dexterity damage. Learned From Ice Elemental Family</p>"
+    },
+    "descriptors": [
+      "cold"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a9f5e5b7811fcd49"
+}

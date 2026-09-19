@@ -1,0 +1,90 @@
+{
+  "_id": "KaoQ8no9ajUB8d0B",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Harm Touch (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, a necromancer surrounds his hand with a fiendish flame, causing terrible wounds to open on those he touches. Each day he can use this ability a number of times equal to half his necromancer level + his Charisma modifier. As a touch attack, a necromancer can cause 1d6 points of shadow damage plus an additional 1d6 points of shadow damage for every two necromancer levels he possesses after 3rd (2d6 at 5th, 3d6 at 7th, 4d6 at 9th, 5d6 at 11th, 6d6 at 13th, 7d6 at 15th, 8d6 at 17th, 9d6 at 19th). Using this ability is a standard action that does not provoke attacks of opportunity. Alternatively, a necromancer can use this power to heal undead creatures, restoring 1d6 hit points for every two levels the necromancer possesses.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "harm_touch_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Necromancer"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Necromancer",
+          3
+        ],
+        [
+          "Necromancer",
+          5
+        ],
+        [
+          "Necromancer",
+          7
+        ],
+        [
+          "Necromancer",
+          9
+        ],
+        [
+          "Necromancer",
+          11
+        ],
+        [
+          "Necromancer",
+          13
+        ],
+        [
+          "Necromancer",
+          15
+        ],
+        [
+          "Necromancer",
+          17
+        ],
+        [
+          "Necromancer",
+          19
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!KaoQ8no9ajUB8d0B"
+}

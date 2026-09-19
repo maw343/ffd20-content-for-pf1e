@@ -1,0 +1,77 @@
+{
+  "_id": "f3324b262b21633f",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Lightning Bolt",
+  "system": {
+    "actions": [
+      {
+        "_id": "89ebc81bd1c7ee63",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "120 ft"
+        },
+        "target": {
+          "value": "120-ft. line"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 10))d6",
+              "types": [
+                "electricity"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You release a powerful stroke of lightning energy that deals 1d6 points of lightning damage per caster level (maximum 10d6) to each creature within its area.",
+      "value": "<p>You release a powerful stroke of lightning energy that deals 1d6 points of lightning damage per caster level (maximum 10d6) to each creature within its area. The bolt begins at your fingertips.\nThe lightning bolt sets fire to combustibles and damages objects in its path. It can melt metals with a low melting point, such as lead, gold, copper, silver, or bronze. If the damage caused to an interposing barrier shatters or breaks through it, the bolt may continue beyond the barrier if the spell’s range permits; otherwise, it stops at the barrier just as any other spell effect does.</p>"
+    },
+    "descriptors": [
+      "lightning"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 3
+      }
+    },
+    "level": 3,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f3324b262b21633f"
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "Z6NFgGTNrgQiua6C",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_13.jpg",
+  "name": "Steel Headbutt (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>While wearing medium or heavy armor, a warrior can deliver a headbutt with his helm as part of a full attack action. This headbutt is in addition to his normal attacks, and is made using the warrior's base attack bonus – 5. A helmet headbutt deals 1d3 points of damage if the warrior is wearing medium armor, or 1d4 points of damage if he is wearing heavy armor (1d2 and 1d3, respectively, for Small creatures), plus an amount of damage equal to half the warrior's Strength modifier. Treat this attack as a weapon attack made using the same special material (if any) as the armor. The armor's enhancement bonus does not modify the headbutt attack, but the helm can be enchanted as a separate weapon.</p>"
+    },
+    "tag": "steelheadbutt",
+    "source": "Final Fantasy d20 - Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!Z6NFgGTNrgQiua6C"
+}

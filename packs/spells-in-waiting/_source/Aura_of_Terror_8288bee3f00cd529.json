@@ -1,0 +1,64 @@
+{
+  "_id": "8288bee3f00cd529",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Aura of Terror",
+  "system": {
+    "actions": [
+      {
+        "_id": "2bab4a7cebbb1908",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You speak a few curt words and your face is briefly overlaid with the image of a violet-shaded skull",
+      "value": "<p>You speak a few curt words and your face is briefly overlaid with the image of a violet-shaded skull. The skull fades, but the nimbus of violet light remains around you. You become surrounded by an aura of fear, granting you a frightful presence not unlike that of a dragon. Whenever you charge or attack, you inspire fear in all creatures within 30 feet that have fewer Hit Dice than your caster level. Each potentially affected opponent must succeed on a Will save or become shaken—a condition that lasts until the opponent is out of range. A successful save leaves that opponent immune to your frightful presence for 24 hours. If you cast this spell when you already have the frightful presence ability or a fear aura, the existing ability becomes more effective in the following ways: The radius of the area affected by the ability increases by 10 feet. The DC of your frightful presence ability increases by 2. Creatures that would normally be shaken by your fear aura are frightened instead, and creatures that would normally be frightened are panicked.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "necromancer": 6
+      }
+    },
+    "level": 6,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!8288bee3f00cd529"
+}

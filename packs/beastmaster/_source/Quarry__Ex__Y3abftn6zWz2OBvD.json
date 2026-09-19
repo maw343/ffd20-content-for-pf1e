@@ -1,0 +1,27 @@
+{
+  "_id": "Y3abftn6zWz2OBvD",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_12.jpg",
+  "name": "Quarry (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 8th level, a beastmaster can, as a standard action, denote one target within his line of sight as his quarry.</p><p>Whenever he is following the tracks of his quarry, a beastmaster can take 10 on his Survival skill checks while moving at normal speed, without penalty. In addition, he receives a +2 insight bonus on attack rolls made against his quarry, and all critical threats are automatically confirmed.</p><p>A beastmaster can have no more than one quarry at a time. He can dismiss this effect at any time as a free action, but he cannot select a new quarry for 24 hours. If the beastmaster sees proof that his quarry is dead, he can select a new quarry after waiting 1 hour.</p>"
+    },
+    "tag": "quarry",
+    "source": "Final Fantasy d20 - Beastmaster",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          8
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!Y3abftn6zWz2OBvD"
+}

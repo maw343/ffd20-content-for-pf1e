@@ -1,0 +1,68 @@
+{
+  "_id": "2a5c95e3ca4731c5",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Natural Rhythm",
+  "system": {
+    "actions": [
+      {
+        "_id": "989a4ad081a2f8a9",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You enhance a creature’s ability to harm an opponent based on the number of times it has already injured that opponent with a natural attack",
+      "value": "<p>You enhance a creature’s ability to harm an opponent based on the number of times it has already injured that opponent with a natural attack. Each time the creature successfully strikes an opponent with a natural attack, the subject gains a cumulative +1 bonus on damage rolls made against that opponent when making natural attacks (maximum +5 bonus). If an attack misses, the bonus to damage for all attacks resets to +0.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "druid": 2
+      }
+    },
+    "level": 2,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!2a5c95e3ca4731c5"
+}

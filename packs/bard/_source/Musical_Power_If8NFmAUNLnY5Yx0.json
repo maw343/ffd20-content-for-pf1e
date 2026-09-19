@@ -1,0 +1,135 @@
+{
+  "_id": "If8NFmAUNLnY5Yx0",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785456295586,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/yellow_37.jpg",
+  "name": "Musical Power",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 1st level, a bard can empower and use any musical instrument or performance skill as a weapon.</p><p>Using his ranks in the associated performance skill (perform (strings) for a harp) in place of his Base Attack Bonus, the bard can, as a standard action, make a ranged touch attack against a foe within 25 feet + 5 feet per two bard levels. This attack deals non-elemental damage equal to 1d4 + his Charisma modifier.</p><p>Any instrument wielded by the bard can be enchanted as if it was a ranged weapon, applying any enhancement/enchantment onto this attack. If he does not use an instrument, in the case of Perform (Act), (Comedy), (Dance), (Oratory), (Sing), etc., he does not gain any bonuses on musical power.</p><p>Rolling a natural 1 with an instrument causes it to gain the broken condition, receiving a -2 penalty on attack rolls and halving the bard's skill bonus to Perform checks with that instrument. With an hour's worth of work, a bard can repair a single instrument with the broken condition.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "musicalpower",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "blf": false,
+      "clm": false,
+      "ckg": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    },
+    "source": "Final Fantasy d20 - Bard",
+    "showInCombat": false
+  },
+  "effects": [],
+  "folder": "OcBZmiqIY9C4SYxK",
+  "sort": 150000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
+    }
+  },
+  "_key": "!items!If8NFmAUNLnY5Yx0"
+}

@@ -1,0 +1,65 @@
+{
+  "_id": "8m4aFY9nd5GGhkAA",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785712946357,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_35.jpg",
+  "name": "Focused Dragon Expertise (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Favored Enemy (dragon) class feature</p><p>The blue mage gains a bonus on saving throws against breath weapons and fear effects equal to half her favored enemy (dragon) bonus. Whenever she succeeds at a Reflex saving throw against a dragon's extraordinary or supernatural ability that would deal half damage, she instead takes no damage. If she already has the evasion class feature, she instead gain a knight's stalwart ability against dragons' extraordinary and supernatural abilities.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "focuseddragonexpertise",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Blue Mage",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Blue Mage - Azure Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "ffd20": {
+      "spellcastingTalent": false
+    }
+  },
+  "_key": "!items!8m4aFY9nd5GGhkAA"
+}

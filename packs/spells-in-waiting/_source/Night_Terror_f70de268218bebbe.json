@@ -1,0 +1,78 @@
+{
+  "_id": "f70de268218bebbe",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Night Terror",
+  "system": {
+    "actions": [
+      {
+        "_id": "77dcaffe2828f7ac",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "Instantaneous; see text"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "15d4",
+              "types": [
+                "negative"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates Diabolos’s ability to inflict an inner nightmare within a target creature",
+      "value": "<p>The caster emulates Diabolos’s ability to inflict an inner nightmare within a target creature. The subject must make a Will save or take 15d4 points of shadow damage and is inflicted with Frightened status effect for 1d6 rounds. If the victim is asleep, the target takes 15d8 points of shadow damage and is inflicted with the Panicked status effect for 1d8 rounds instead. Learned From diabolos</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 7
+      }
+    },
+    "level": 7,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f70de268218bebbe"
+}

@@ -1,0 +1,60 @@
+{
+  "_id": "ff7401a5947e0664",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Mesmerizing Voice",
+  "system": {
+    "actions": [
+      {
+        "_id": "992c5d82c6c85370",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "30-ft.-radius spread, centered on you",
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster can emulate Siren’s ability to sing a mesmerizing song that charms all those nearby",
+      "value": "<p>The caster can emulate Siren’s ability to sing a mesmerizing song that charms all those nearby. Creatures within the area of effect must make a Will save or be charm and this spell functions exactly like Charm for 1 minute. Learned From leanan family and siren</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!ff7401a5947e0664"
+}

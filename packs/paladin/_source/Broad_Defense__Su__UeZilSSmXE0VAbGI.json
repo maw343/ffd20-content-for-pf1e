@@ -1,0 +1,50 @@
+{
+  "_id": "UeZilSSmXE0VAbGI",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Broad Defense (Su)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Shared Defense class feature</p><p><strong>Benefit:</strong> The range of your Shared Defense ability is doubled (10ft before level 7).</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "paladinTalent",
+    "tag": "broad_defense_su",
+    "requirements": "Shared Defense class feature",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-PaladinClass",
+        "pages": "Paladin Talents"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!UeZilSSmXE0VAbGI"
+}

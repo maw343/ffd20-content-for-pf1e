@@ -1,0 +1,79 @@
+{
+  "_id": "3b20dc57b103c1bc",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Rock Spikes",
+  "system": {
+    "actions": [
+      {
+        "_id": "3c5a14c3754d7d7f",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d6",
+              "types": [
+                "earth"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "An aura of rocky spikes covers the subject touched by this spell.",
+      "value": "<p>An aura of rocky spikes covers the subject touched by this spell. Anytime creatures attacking with natural weapons, unarmed strikes, or handheld weapons successfully strike the subject of this spell take 1d6 points of earth damage.</p>"
+    },
+    "descriptors": [
+      "earth"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 4,
+        "redmage": 4
+      }
+    },
+    "level": 4,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!3b20dc57b103c1bc"
+}

@@ -1,0 +1,74 @@
+{
+  "_id": "GhqCWYL6wUlaL1pl",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Fast Movement (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>Also at 1st level, when not firing or reloading, the gunner can quickly change position. When wearing light or no armor and carrying no more than a light load, his base move speed increases by 10 feet. This bonus increases by 10 feet for every four gunner levels after 1st level (+20' at 5th, +30' at 9th, +40' at 13th, +50' at 17th).</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "fast_movement_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Gunner"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Gunner",
+          1
+        ],
+        [
+          "Gunner",
+          5
+        ],
+        [
+          "Gunner",
+          9
+        ],
+        [
+          "Gunner",
+          13
+        ],
+        [
+          "Gunner",
+          17
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!GhqCWYL6wUlaL1pl"
+}

@@ -1,0 +1,66 @@
+{
+  "_id": "11c81bee1111c7aa",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Water III",
+  "system": {
+    "actions": [
+      {
+        "_id": "d2d783b1add111a3",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "5d6 + @spells.primary.abilityMod + min(@spells.primary.cl.total,15)",
+              "types": [
+                "water"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Water , except it deals 5d6 points of water damage + your casting modifier (Intelligence or Charisma) + 1 point per caster level (maximum +15) and inflicts the Drenched status effect for 1d8 rounds.",
+      "value": "<p>This spell functions like\nWater\n, except it deals 5d6 points of water damage + your casting modifier (Intelligence or Charisma) + 1 point per caster level (maximum +15) and inflicts the Drenched status effect for 1d8 rounds. A successful Fortitude save prevents the status effect from taking effect.</p>"
+    },
+    "descriptors": [
+      "water"
+    ],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!11c81bee1111c7aa"
+}

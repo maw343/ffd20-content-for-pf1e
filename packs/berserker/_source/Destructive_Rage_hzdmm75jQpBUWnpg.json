@@ -1,0 +1,61 @@
+{
+  "_id": "hzdmm75jQpBUWnpg",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785712226310,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/red_35.jpg",
+  "name": "Destructive Rage",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>While in a rage, a berserker gains a +2 bonus on melee damage rolls, thrown weapon damage rolls, and sunder combat maneuvers. He ignores 5 points of a target's damage reduction and object hardness.<br><br><i>Greater Destructive Rage (Ex):</i> At 11th level, a berserker's bonus on melee damage rolls, thrown weapon damage rolls, and sunder combat maneuvers while raging increases to +3. He ignores 10 points of a target's damage reduction and object hardness.<br><br><i>Mighty Destructive Rage (Ex):</i> At 20th level, a berserker's bonus on melee damage rolls, thrown weapon damage rolls, and sunder combat maneuvers while raging increases to +4. He ignores 20 points of a target's damage reduction and object hardness.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "destructiverage",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Berserker",
+          1
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Berserker - Rage Forms"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!hzdmm75jQpBUWnpg"
+}

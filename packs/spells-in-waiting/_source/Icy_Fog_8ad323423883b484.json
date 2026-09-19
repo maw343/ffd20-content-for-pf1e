@@ -1,0 +1,76 @@
+{
+  "_id": "8ad323423883b484",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Icy Fog",
+  "system": {
+    "actions": [
+      {
+        "_id": "c0f86019a4fa88e4",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "fog spreads in 20-ft. radius, 20 ft. high"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "2d6",
+              "types": [
+                "cold"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Icy fog creates a billowing mass of misty vapors like the solid fog spell",
+      "value": "<p>Icy fog creates a billowing mass of misty vapors like the solid fog spell. In addition to slowing down creatures and obscuring sight, this spell’s vapors are highly icy and cold. Each round on your turn, starting when you cast the spell, the fog deals 2d6 points of ice damage to each creature and object within it.</p>"
+    },
+    "descriptors": [
+      "cold"
+    ],
+    "learnedAt": {
+      "class": {
+        "summoner": 6
+      }
+    },
+    "level": 6,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!8ad323423883b484"
+}

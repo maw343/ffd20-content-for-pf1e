@@ -1,0 +1,1174 @@
+{
+  "_id": "xmt933R7yUs8fF5a",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/races/creature-types/outsider.png",
+  "name": "Shiva (Avatar)",
+  "prototypeToken": {
+    "texture": {
+      "src": "systems/pf1/icons/races/creature-types/outsider.png"
+    }
+  },
+  "type": "character",
+  "effects": [],
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 13
+      },
+      "dex": {
+        "value": 14
+      },
+      "con": {
+        "value": 14
+      },
+      "int": {
+        "value": 14
+      },
+      "wis": {
+        "value": 12
+      },
+      "cha": {
+        "value": 14
+      }
+    },
+    "attributes": {
+      "naturalAC": 1,
+      "speed": {
+        "land": {
+          "base": 30
+        }
+      },
+      "spells": {
+        "spellbooks": {
+          "primary": {
+            "name": "Primary"
+          },
+          "secondary": {
+            "name": "Secondary"
+          },
+          "spelllike": {
+            "name": "Spell-likes",
+            "inUse": true,
+            "casterType": "high",
+            "class": "hd",
+            "cl": {
+              "formula": ""
+            },
+            "autoSpellLevelCalculation": true,
+            "autoSpellLevels": true,
+            "psychic": false,
+            "arcaneSpellFailure": true,
+            "hasCantrips": true,
+            "spellPreparationMode": "spontaneous",
+            "baseDCFormula": "10 + sl + ablMod",
+            "ability": "cha",
+            "spellPoints": {
+              "useSystem": true,
+              "value": 0,
+              "maxFormula": "@attributes.hd.total",
+              "restoreFormula": ""
+            },
+            "spells": {
+              "spell0": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell1": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell2": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell3": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell4": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell5": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell6": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell7": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell8": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell9": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              }
+            },
+            "spellSlotAbilityBonusFormula": "",
+            "domainSlotValue": 1,
+            "kind": "arcane",
+            "noAbilityLimit": false
+          },
+          "tertiary": {
+            "name": "Tertiary"
+          }
+        }
+      }
+    },
+    "traits": {
+      "senses": {}
+    },
+    "details": {
+      "notes": {
+        "value": "<h2>Shiva - Starting Statistics</h2><p>Size Medium; Speed 30 ft.; AC +1 natural armor; Special Qualities: Ice immunity.</p><h3>7th-Level Advancement</h3><p>Size Large; Reach 10 ft; AC +2 natural armor; Attack slam (1d8), kick (1d6); Ability Scores Str +2, Dex -2, Con +2, Wis +2, Cha +2</p>"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "YZcnMjTyBsiBEwyu",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/blue_04.jpg",
+      "name": "Slam",
+      "type": "attack",
+      "system": {
+        "subType": "natural",
+        "held": null,
+        "actions": [
+          {
+            "_id": "OZhYdYWSuBTSZfVH",
+            "name": "Slam",
+            "actionType": "mwak",
+            "activation": {
+              "type": "attack",
+              "unchained": {
+                "type": "attack"
+              }
+            },
+            "ability": {
+              "attack": "_default",
+              "damage": "str"
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "1d6",
+                  "types": [
+                    "bludgeoning"
+                  ]
+                }
+              ]
+            },
+            "duration": {
+              "units": "inst"
+            },
+            "img": "systems/pf1/icons/skills/blue_04.jpg",
+            "range": {
+              "units": "melee"
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!xmt933R7yUs8fF5a.YZcnMjTyBsiBEwyu"
+    },
+    {
+      "_id": "DNTy7dWPKqZwUyXG",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/blue_04.jpg",
+      "name": "Kick",
+      "type": "attack",
+      "system": {
+        "subType": "natural",
+        "held": null,
+        "actions": [
+          {
+            "_id": "PpEmW90W0O5T7YiF",
+            "name": "Kick",
+            "actionType": "mwak",
+            "activation": {
+              "type": "attack",
+              "unchained": {
+                "type": "attack"
+              }
+            },
+            "ability": {
+              "attack": "_default",
+              "damage": "str"
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "1d4",
+                  "types": [
+                    "bludgeoning"
+                  ]
+                }
+              ]
+            },
+            "duration": {
+              "units": "inst"
+            },
+            "img": "systems/pf1/icons/skills/blue_04.jpg",
+            "range": {
+              "units": "melee"
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!xmt933R7yUs8fF5a.DNTy7dWPKqZwUyXG"
+    },
+    {
+      "_id": "e5PYo31priuYnET1",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/blue_29.jpg",
+      "name": "Avatar (Summoner) - Shiva",
+      "type": "class",
+      "system": {
+        "tag": "summonerAvatar",
+        "bab": "high",
+        "savingThrows": {
+          "fort": {
+            "value": "low"
+          },
+          "ref": {
+            "value": "high"
+          },
+          "will": {
+            "value": "high"
+          }
+        },
+        "skillsPerLevel": 4,
+        "customHD": "round((@item.level - 1) * 0.75) + 1",
+        "classSkills": {
+          "acr": true,
+          "cli": true,
+          "fly": true,
+          "per": true,
+          "sen": true,
+          "ste": true,
+          "swm": true
+        },
+        "description": {
+          "value": "<p>Shiva's Avatar class features are tied to the summoner's class level. HD equals round((level-1)*0.75)+1, matching the confirmed Avatar Base Statistics progression.</p>"
+        },
+        "links": {
+          "classAssociations": [
+            {
+              "level": 1,
+              "name": "Darkvision",
+              "uuid": "Compendium.world.summoner-avatar.Item.rBiKROGZrsrSJW9e"
+            },
+            {
+              "level": 1,
+              "name": "Link",
+              "uuid": "Compendium.world.summoner-avatar.Item.whO4esN696cRSoGi"
+            },
+            {
+              "level": 1,
+              "name": "MP Pool",
+              "uuid": "Compendium.world.summoner-avatar.Item.xc8uXIXh7uw17DJg"
+            },
+            {
+              "level": 2,
+              "name": "Evasion",
+              "uuid": "Compendium.world.summoner-avatar.Item.aWsQSjFrTV4T4bTy"
+            },
+            {
+              "level": 4,
+              "name": "Magic Attacks",
+              "uuid": "Compendium.world.summoner-avatar.Item.Yb24EZjAyvl5jApv"
+            },
+            {
+              "level": 5,
+              "name": "Ability Score Increase",
+              "uuid": "Compendium.world.summoner-avatar.Item.S4WzYkN4ZDxGJGhk"
+            },
+            {
+              "level": 6,
+              "name": "Devotion",
+              "uuid": "Compendium.world.summoner-avatar.Item.07tZrbo6EPl0yFPu"
+            },
+            {
+              "level": 8,
+              "name": "Multiattack",
+              "uuid": "Compendium.world.summoner-avatar.Item.rMu0fIsM5uq6sEP8"
+            },
+            {
+              "level": 10,
+              "name": "Ability Score Increase",
+              "uuid": "Compendium.world.summoner-avatar.Item.S4WzYkN4ZDxGJGhk"
+            },
+            {
+              "level": 14,
+              "name": "Improved Evasion",
+              "uuid": "Compendium.world.summoner-avatar.Item.2QaoSbpMfbCg5dYT"
+            },
+            {
+              "level": 15,
+              "name": "Ability Score Increase",
+              "uuid": "Compendium.world.summoner-avatar.Item.S4WzYkN4ZDxGJGhk"
+            }
+          ]
+        }
+      },
+      "effects": [],
+      "_key": "!actors.items!xmt933R7yUs8fF5a.e5PYo31priuYnET1"
+    },
+    {
+      "_id": "wwBzvquAtFTmVwsq",
+      "_stats": {
+        "coreVersion": "12.331",
+        "compendiumSource": "Compendium.world.summoner-avatar.Item.rBiKROGZrsrSJW9e"
+      },
+      "img": "systems/pf1/icons/skills/blue_02.jpg",
+      "name": "Darkvision",
+      "system": {
+        "associations": {
+          "classes": [
+            "Avatar"
+          ]
+        },
+        "class": "summonerAvatar",
+        "description": {
+          "value": "<p>The avatar has darkvision out to a range of 60 feet.</p>"
+        },
+        "subType": "classFeat",
+        "abilityType": "ex"
+      },
+      "type": "feat",
+      "effects": [],
+      "_key": "!actors.items!xmt933R7yUs8fF5a.wwBzvquAtFTmVwsq"
+    },
+    {
+      "_id": "MZrZyhb1Dsu1HAX0",
+      "_stats": {
+        "coreVersion": "12.331",
+        "compendiumSource": "Compendium.world.summoner-avatar.Item.whO4esN696cRSoGi"
+      },
+      "img": "systems/pf1/icons/feats/quick-draw.jpg",
+      "name": "Link",
+      "system": {
+        "associations": {
+          "classes": [
+            "Avatar"
+          ]
+        },
+        "class": "summonerAvatar",
+        "description": {
+          "value": "<p>A summoner and his avatar share a mental link allows for communication across any distance (as long as they are on the same plane). This communication is a free action, allowing the summoner to give orders to his avatar at any time. In addition, magic items interfere with the summoner's connection to his avatar. As a result, the summoner and his avatar share magic item slots. For example, if the summoner is wearing a ring, his avatar can wear no more than one ring. In case of a conflict, the items worn by the summoner remain active, and those used by the avatar become dormant. The avatar must possess the appropriate appendages to utilize a magic item.</p>"
+        },
+        "subType": "classFeat",
+        "abilityType": "ex",
+        "contextNotes": [
+          {
+            "target": "skill.han",
+            "text": "Free-action orders to avatar at any range (same plane); shared magic item slots (Not factored in)"
+          }
+        ]
+      },
+      "type": "feat",
+      "effects": [],
+      "_key": "!actors.items!xmt933R7yUs8fF5a.MZrZyhb1Dsu1HAX0"
+    },
+    {
+      "_id": "C7Gq7OklBGoEP1mi",
+      "_stats": {
+        "coreVersion": "12.331",
+        "compendiumSource": "Compendium.world.summoner-avatar.Item.xc8uXIXh7uw17DJg"
+      },
+      "img": "systems/pf1/icons/skills/blue_11.jpg",
+      "name": "MP Pool",
+      "system": {
+        "associations": {
+          "classes": [
+            "Avatar"
+          ]
+        },
+        "class": "summonerAvatar",
+        "description": {
+          "value": "<p>An avatar has an MP pool with a maximum equal to the summoner's level. The avatar regains MP equal to the summoner's level when the summoner does their 30-minute meditation after resting. The avatar may spend its magic points on spells and abilities granted by the specific avatar page. In the case of Yojimbo, this MP Pool is spent at a 1 MP to 10 gil ratio for his abilities but otherwise does not function as gil. Spells that would absorb MP treat avatars as they would summoned creatures, and do not work when allies use them.</p><p><em>Schema note: implemented as a pf1 Spell Points pool (<code>system.attributes.spells.spellbooks.spelllike.spellPoints</code>: <code>useSystem</code>, <code>value</code>, <code>maxFormula</code>, <code>restoreFormula</code>) on the avatar's actor sheet, with <code>maxFormula: \"@attributes.hd.total\"</code> since avatar HD equals summoner level.</em></p>"
+        },
+        "subType": "classFeat"
+      },
+      "type": "feat",
+      "effects": [],
+      "_key": "!actors.items!xmt933R7yUs8fF5a.C7Gq7OklBGoEP1mi"
+    },
+    {
+      "_id": "KpaDcyvZv821lQcZ",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Limit Break: Diamond Dust",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "su",
+        "level": 1,
+        "description": {
+          "value": "<p>At 1st level, Shiva conjures a massive blizzard. Enemies within 30 feet take 1d6 ice damage per summoner level and are inflicted Frozen for 1 round + 1 round per four summoner levels after 1st, Reflex save halves and negates.</p>"
+        },
+        "tag": "shivalimitbreakdiamonddust",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "HllcR5ffUJG01sH1",
+            "name": "Limit Break: Diamond Dust",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": "30 ft.",
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "1d6/level",
+                  "types": [
+                    "ice"
+                  ]
+                }
+              ]
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "con",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.con.mod",
+              "description": "half damage / negates"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!xmt933R7yUs8fF5a.KpaDcyvZv821lQcZ"
+    },
+    {
+      "_id": "8dawXVyhVQwaCobC",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Icy Kick",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "ex",
+        "level": 2,
+        "description": {
+          "value": "<p>At 2nd level, Every 1d4+1 rounds, kick attack; if it hits, adds 1d6 ice damage.</p>"
+        },
+        "tag": "shivaicykick",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "O2kLGfNSA8F82crD",
+            "name": "Icy Kick",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": "rwak",
+            "ability": {
+              "attack": "dex",
+              "damage": "",
+              "damageMult": 1,
+              "critRange": 20
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!xmt933R7yUs8fF5a.8dawXVyhVQwaCobC"
+    },
+    {
+      "_id": "FzenWzgjYxuyvQjB",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Blizzard II",
+      "type": "spell",
+      "system": {
+        "subType": null,
+        "abilityType": "sp",
+        "level": 4,
+        "description": {
+          "value": "<p>At 4th level, Shiva is able to cast Blizzard II like the spell.</p>"
+        },
+        "tag": "shivablizzardii",
+        "spellPoints": {
+          "cost": "2"
+        },
+        "learnedAt": {
+          "class": {
+            "summonerAvatar": 4
+          }
+        },
+        "spellbook": "spelllike",
+        "actions": [
+          {
+            "_id": "PE1HgxYninyuUzCj",
+            "name": "Blizzard II",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": "spellsave"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!xmt933R7yUs8fF5a.FzenWzgjYxuyvQjB"
+    },
+    {
+      "_id": "nnmy9edUCTbOhDxE",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Axe Kick",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "ex",
+        "level": 6,
+        "description": {
+          "value": "<p>At 6th level, As a standard action, Shiva attacks twice with her kick.</p>"
+        },
+        "tag": "shivaaxekick",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "88mkWMMgh1zrJw96",
+            "name": "Axe Kick",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": ""
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!xmt933R7yUs8fF5a.nnmy9edUCTbOhDxE"
+    },
+    {
+      "_id": "7PTbQ60CxrzlX334",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Frost Armor",
+      "type": "spell",
+      "system": {
+        "subType": null,
+        "abilityType": "sp",
+        "level": 8,
+        "description": {
+          "value": "<p>At 8th level, Allies within 30 feet gain effect of Ice Spikes, as the black magic spell. Blue mages may learn as 4th level spell (Knowledge: Planes DC 23).</p>"
+        },
+        "tag": "shivafrostarmor",
+        "spellPoints": {
+          "cost": "4"
+        },
+        "learnedAt": {
+          "class": {
+            "summonerAvatar": 8
+          }
+        },
+        "spellbook": "spelllike",
+        "actions": [
+          {
+            "_id": "qDiQ8rR91O1ej3x9",
+            "name": "Frost Armor",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": "30 ft.",
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": ""
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!xmt933R7yUs8fF5a.7PTbQ60CxrzlX334"
+    },
+    {
+      "_id": "DSrIsd1LiBFdVh0Q",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Blizzaga",
+      "type": "spell",
+      "system": {
+        "subType": null,
+        "abilityType": "sp",
+        "level": 10,
+        "description": {
+          "value": "<p>At 10th level, Shiva is able to cast Blizzaga like the spell.</p>"
+        },
+        "tag": "shivablizzaga",
+        "spellPoints": {
+          "cost": "5"
+        },
+        "learnedAt": {
+          "class": {
+            "summonerAvatar": 10
+          }
+        },
+        "spellbook": "spelllike",
+        "actions": [
+          {
+            "_id": "1a9GMaBSNUpNfGLp",
+            "name": "Blizzaga",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": "spellsave"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!xmt933R7yUs8fF5a.DSrIsd1LiBFdVh0Q"
+    },
+    {
+      "_id": "SuZsT5epshSvFwAt",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Shatter",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "ex",
+        "level": 12,
+        "description": {
+          "value": "<p>At 12th level, As a standard action, single attack against a frozen target; if it hits, it's an automatic critical hit and ends the frozen effect.</p>"
+        },
+        "tag": "shivashatter",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "xmOSVkf1vgM5zoTJ",
+            "name": "Shatter",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": ""
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!xmt933R7yUs8fF5a.SuZsT5epshSvFwAt"
+    },
+    {
+      "_id": "UkcYlOF5pMZ7vHU5",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Hailstorm",
+      "type": "spell",
+      "system": {
+        "subType": null,
+        "abilityType": "sp",
+        "level": 14,
+        "description": {
+          "value": "<p>At 14th level, Hailstorm for 1 round per summoner level dealing 3d6 bludgeoning and 2d6 ice damage each turn, Reflex save halves each instance. Blue mages may learn as 5th level spell (Knowledge: Planes DC 25).</p>"
+        },
+        "tag": "shivahailstorm",
+        "spellPoints": {
+          "cost": "5"
+        },
+        "learnedAt": {
+          "class": {
+            "summonerAvatar": 14
+          }
+        },
+        "spellbook": "spelllike",
+        "actions": [
+          {
+            "_id": "giZOM41BqBeh3fcI",
+            "name": "Hailstorm",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": 100,
+              "units": "ft",
+              "per": ""
+            },
+            "area": {
+              "value": "20-ft.-radius",
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "3d6+2d6",
+                  "types": [
+                    "bludgeoning+ice"
+                  ]
+                }
+              ]
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "con",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.con.mod",
+              "description": "half damage / negates"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!xmt933R7yUs8fF5a.UkcYlOF5pMZ7vHU5"
+    },
+    {
+      "_id": "yES3DVhyyFubo8Kw",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Icicle Rush",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "ex",
+        "level": 16,
+        "description": {
+          "value": "<p>At 16th level, Every 1d4+1 rounds as a full-round action, attacks three times with slam adding 1d4 ice damage per slam, -5 penalty.</p>"
+        },
+        "tag": "shivaiciclerush",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "WuXCvENZXPeI9XKB",
+            "name": "Icicle Rush",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": "rwak",
+            "ability": {
+              "attack": "dex",
+              "damage": "",
+              "damageMult": 1,
+              "critRange": 20
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!xmt933R7yUs8fF5a.yES3DVhyyFubo8Kw"
+    },
+    {
+      "_id": "ncoPlX711v6FfTji",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Absolute Zero",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "su",
+        "level": 18,
+        "description": {
+          "value": "<p>At 18th level, Every 1d4+1 rounds, freeze the air in 120-ft.-radius dealing 4d6 ice damage and Frozen 1d4 rounds unless Fortitude save; those failing take additional 2d6 ice damage at end of duration.</p>"
+        },
+        "tag": "shivaabsolutezero",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "6GihqdsVdq0vGHGh",
+            "name": "Absolute Zero",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": "120-ft.-radius",
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "4d6",
+                  "types": [
+                    "ice"
+                  ]
+                }
+              ]
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "con",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.con.mod",
+              "description": "half damage / negates"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!xmt933R7yUs8fF5a.ncoPlX711v6FfTji"
+    },
+    {
+      "_id": "kXGdTQErNsIqiW4Q",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Heavenly Strike",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "su",
+        "level": 20,
+        "description": {
+          "value": "<p>At 20th level, Every 1d4+1 rounds as a full-round action, massive glacier in 50-ft.-radius dealing 15d8 ice damage, Reflex save for half.</p>"
+        },
+        "tag": "shivaheavenlystrike",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "W3pzJr4I5VyevPCE",
+            "name": "Heavenly Strike",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": 100,
+              "units": "ft",
+              "per": ""
+            },
+            "area": {
+              "value": "50-ft.-radius",
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "15d8",
+                  "types": [
+                    "ice"
+                  ]
+                }
+              ]
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "con",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.con.mod",
+              "description": "half damage / negates"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!xmt933R7yUs8fF5a.kXGdTQErNsIqiW4Q"
+    }
+  ],
+  "_key": "!actors!xmt933R7yUs8fF5a"
+}

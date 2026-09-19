@@ -1,0 +1,176 @@
+{
+  "_id": "efad1eb8c6d46bb2",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785690341936,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Aera",
+  "system": {
+    "description": {
+      "value": "<p>A blast of powerful winds explodes dealing 1d6 points of wind damage per caster level (maximum 10d6) to every creature within the area.</p>",
+      "instructions": "",
+      "summary": "A blast of powerful winds explodes dealing 1d6 points of wind damage per caster level (maximum 10d6) to every creature within the area."
+    },
+    "tags": [],
+    "actions": [
+      {
+        "_id": "9245d59af010395e",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          },
+          "cost": 1
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "area": "20-ft.-radius spread",
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 10))d6",
+              "types": [
+                "wind"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half",
+          "dc": "",
+          "harmless": false
+        },
+        "uses": {},
+        "ability": {
+          "critRange": 20,
+          "critMult": 2
+        },
+        "powerAttack": {
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "ammo": {
+          "type": "none"
+        }
+      }
+    ],
+    "attackNotes": [],
+    "effectNotes": [],
+    "links": {
+      "children": []
+    },
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 3,
+        "redmage": 3
+      },
+      "domain": {},
+      "subDomain": {},
+      "elementalSchool": {},
+      "bloodline": {}
+    },
+    "level": 3,
+    "clOffset": 0,
+    "slOffset": 0,
+    "school": "evo",
+    "subschool": [],
+    "descriptors": [
+      "wind"
+    ],
+    "components": {
+      "value": "",
+      "verbal": true,
+      "somatic": true,
+      "thought": false,
+      "emotion": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": 0
+    },
+    "materials": {
+      "value": "",
+      "focus": "",
+      "gpValue": 0
+    },
+    "spellbook": "",
+    "preparation": {
+      "value": 0,
+      "max": 0
+    },
+    "uses": {
+      "autoDeductChargesCost": ""
+    },
+    "atWill": false,
+    "sr": true,
+    "showInQuickbar": false,
+    "domain": false,
+    "slotCost": 1,
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "showInCombat": false,
+    "clCheck": false,
+    "material": {
+      "base": {
+        "value": "",
+        "custom": false
+      },
+      "normal": {
+        "value": "",
+        "custom": false
+      },
+      "addon": []
+    },
+    "alignments": {
+      "lawful": false,
+      "chaotic": false,
+      "good": false,
+      "evil": false
+    }
+  },
+  "type": "spell",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
+    }
+  },
+  "_key": "!items!efad1eb8c6d46bb2"
+}

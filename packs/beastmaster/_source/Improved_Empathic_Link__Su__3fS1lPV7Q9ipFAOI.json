@@ -1,0 +1,27 @@
+{
+  "_id": "3fS1lPV7Q9ipFAOI",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_12.jpg",
+  "name": "Improved Empathic Link (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 9th level, the beastmaster gains an improved empathic link with his animal companion. The beastmaster can see through a companion's eyes as a swift action, maintaining this connection as long as he likes (as long as the companion is within 1 mile) and ending it as a free action. The beastmaster is blinded while maintaining this connection.</p>"
+    },
+    "tag": "improvedempathiclink",
+    "source": "Final Fantasy d20 - Beastmaster",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          9
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!3fS1lPV7Q9ipFAOI"
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "pdbJphfDJSNu8yv2",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Improved Damage Reduction (Shindroid)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Shindroid</p><p><strong>Benefit:</strong> You gain damage reduction 1/adamantine or improve your existing damage reduction by 1.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "racial",
+    "tag": "improved_damage_reductio",
+    "requirements": "Shindroid",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-RacialFeats",
+        "pages": "Racial Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!pdbJphfDJSNu8yv2"
+}

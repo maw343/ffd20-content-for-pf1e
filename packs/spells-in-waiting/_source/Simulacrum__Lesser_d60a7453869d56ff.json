@@ -1,0 +1,63 @@
+{
+  "_id": "d60a7453869d56ff",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Simulacrum, Lesser",
+  "system": {
+    "actions": [
+      {
+        "_id": "0657f308d17f3c43",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "0 ft"
+        },
+        "target": {
+          "value": "one duplicate creature"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "1 hour/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions as simulacrum , except you can’t create a simulacrum of a creature whose HD or levels exceed your caster level, and ...",
+      "value": "<p>This spell functions as simulacrum , except you can’t create a simulacrum of a creature whose HD or levels exceed your caster level, and it has no magical abilities. The creature is not under your control, though it recognizes you are its creator.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 4
+      }
+    },
+    "level": 4,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d60a7453869d56ff"
+}

@@ -1,0 +1,137 @@
+{
+  "folder": "ai4V5FVW04U0h9b6",
+  "type": "feat",
+  "name": "Magicked Ammo (Su)",
+  "system": {
+    "description": {
+      "value": "<p>The gunbreaker is able to infuse ammo he sets into his gun arm with magical energy. Whenever he loads a gun arm, a portion of the gun arm’s ammunition becomes magicked, and can be used to deal extra damage or activate the gunbreaker’s abilities. As noted on the Table: The Gunbreaker, upon loading a gun arm, the gunbreaker infuses a number of the loaded rounds with his aether; the amount of infused rounds increases as the gunbreaker gains class levels. Depending on the gun arm, all of the gun arm’s ammo capacity can be infused rounds. When the gunbreaker reaches 19th level, all ammo loaded is infused, regardless of the gun arm’s capacity. If the gunbreaker has ammo loaded which isn’t infused, he can take a move action to infuse the remaining ammo in his gun arm by running his hand over the weapon – this action allows him to infuse an amount of loaded ammo equal to the amount he infuses from reloading. He can never have more magicked ammo available than his max.</p><p>When the gunbreaker loads his gun arm, the first set of rounds to be used are always infused first – meaning the rounds he spends first are the rounds that are infused. Infused rounds naturally deal an additional 1 point of damage, and are considered magic for the purpose of bypassing DR. At 3rd level and every two gunbreaker levels thereafter, this extra damage increases by 1. </p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "su",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "blf": false,
+      "clm": false,
+      "ckg": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "_id": "LR3aC43CnrtChmCj",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "KJytU1RQudYSFJXl": 3
+  },
+  "flags": {
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
+    },
+    "pf1": {
+      "migration": "11.8"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "coreVersion": "12.343",
+    "createdTime": 1745010025395,
+    "modifiedTime": 1753052295525,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!LR3aC43CnrtChmCj"
+}

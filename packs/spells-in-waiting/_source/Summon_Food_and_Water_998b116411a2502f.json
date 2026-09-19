@@ -1,0 +1,65 @@
+{
+  "_id": "998b116411a2502f",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Summon Food and Water",
+  "system": {
+    "actions": [
+      {
+        "_id": "b267468a0b68c218",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "food and water to sustain three humanoids or one horse/level for 24 hours"
+        },
+        "duration": {
+          "units": "spec",
+          "value": "24 hours; see text"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The food that this spell summons is simple fare of your choice–highly nourishing, if rather bland",
+      "value": "<p>The food that this spell summons is simple fare of your choice–highly nourishing, if rather bland. Food so summoned decays and becomes inedible after 24 hours, although it can be kept fresh for another 24 hours by casting a purify food and drink spell on it. The water summoned by this spell is just like clean rain water, and it doesn’t go bad as the food does.</p>"
+    },
+    "descriptors": [
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "summoner": 3
+      }
+    },
+    "level": 3,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!998b116411a2502f"
+}

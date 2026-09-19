@@ -1,0 +1,27 @@
+{
+  "_id": "nlpsIdeczbDhE0a5",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Subtle Blow (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>Strike at a creature in a subtle, unexpected way, throwing them off kilter. You may declare your next attack on your turn to be a Subtle Blow as a swift action. If the attack hits, you deal weapon dice damage to them and your opponent loses their swift action on their next turn. A creature can only be affected by a Subtle Blow once per day.</p>"
+    },
+    "tag": "subtleblow",
+    "source": "Final Fantasy d20 - Monk Talents",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!nlpsIdeczbDhE0a5"
+}

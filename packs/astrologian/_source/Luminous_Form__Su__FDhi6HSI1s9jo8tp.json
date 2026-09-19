@@ -1,0 +1,61 @@
+{
+  "_id": "FDhi6HSI1s9jo8tp",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785711942770,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/light_15.jpg",
+  "name": "Luminous Form (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The astrologian can transform her body into churning light, granting her the effects of blur and causing her body to shed light as a sunrod. At 7th level, creatures that end their turn adjacent to the astrologian's luminous form become blinded for 1 round (Fort negates). At 13th level, creatures that end their turn adjacent to astrologian's luminous form are blinded for 1d4 rounds (Fortitude reduces to 1 round). At 18th level, the astrologian's luminescence is as bright as natural sunlight, and creatures affected by natural sunlight are so affected if they end their turn adjacent to her luminous form. The astrologian can maintain her luminous form for up to 1 minute per day per astrologian level; this duration need not be continuous, but it must be used in 1-minute increments.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "luminousform",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Astrologian",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Astrology Secrets"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!FDhi6HSI1s9jo8tp"
+}

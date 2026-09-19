@@ -1,0 +1,74 @@
+{
+  "_id": "6da8e016402ad114",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Drainra",
+  "system": {
+    "actions": [
+      {
+        "_id": "9ff0b7c345fbf7b9",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "15 ft"
+        },
+        "area": "creatures within a 15-ft.-radius spread centered on you",
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(floor(@spells.primary.cl.total/2), 9))d6",
+              "types": [
+                "negative"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You siphon life from all nearby creatures within 15-ft.",
+      "value": "<p>You siphon life from all nearby creatures within 15-ft.-radius spread. All creatures must make a Fortitude save or take 1d6 points of shadow damage per two caster levels (maximum of 9d6). If the save fails, the caster also gains health equal to half the damage dealt.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 7,
+        "necromancer": 7
+      }
+    },
+    "level": 7,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!6da8e016402ad114"
+}

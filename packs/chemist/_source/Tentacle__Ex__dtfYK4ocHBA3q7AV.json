@@ -1,0 +1,65 @@
+{
+  "_id": "dtfYK4ocHBA3q7AV",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785713309585,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/green_35.jpg",
+  "name": "Tentacle (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The chemist grows a prehensile, arm-length tentacle on his body. The tentacle is fully under his control and cannot be concealed except with magic or bulky clothing. The tentacle does not give the chemist any extra attacks or actions per round, though he can use it to make a tentacle attack (1d4 damage for a Medium alchemist, 1d3 damage for a Small one) with the grab ability. The tentacle can manipulate or hold items as well as the chemist's original arms can (for example, allowing the chemist to use one hand to wield a weapon, the tentacle to hold a potion, and the third hand to throw a bomb). Unlike an arm, the tentacle has no magic item slots.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "tentacle",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Chemist",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Chemist - Discoveries"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "ffd20": {
+      "bombDiscovery": false
+    }
+  },
+  "_key": "!items!dtfYK4ocHBA3q7AV"
+}

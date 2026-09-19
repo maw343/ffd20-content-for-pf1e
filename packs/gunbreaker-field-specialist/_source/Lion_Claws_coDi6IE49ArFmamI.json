@@ -1,0 +1,138 @@
+{
+  "folder": "TtkUZpnQAPzuLAMd",
+  "type": "feat",
+  "name": "Lion Claws",
+  "system": {
+    "description": {
+      "value": "<p><em>You start off stronger when making trigger attacks, going right for the throat.</em></p><p><strong>Prerequisites:</strong> Dex 15, Proficiency with a trigger attack gunarm, Lion Style, base attack bonus +6.</p><p>BENEFIT</p><p>When making a full attack action with a gunarm in Lion Style, your first trigger attack fires two bullets. If the attack hits, both bullets hit. Apply precision-based damage (such as sneak attack) and critical hit damage only once for the first bullet. Damage bonuses apply to each bullet. Damage reduction and resistances apply separately to each bullet. These two bullets must attack the same target.</p><p><strong>Special:</strong> If you have the Lightning Shot gunbreaker talent, you may fire two bullets with your first ranged attack as part of a full attack action.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "feat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "blf": false,
+      "clm": false,
+      "ckg": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    },
+    "showInCombat": false
+  },
+  "_id": "coDi6IE49ArFmamI",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "KJytU1RQudYSFJXl": 3
+  },
+  "flags": {
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
+    },
+    "pf1": {
+      "migration": "11.8"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "coreVersion": "12.343",
+    "createdTime": 1745090597698,
+    "modifiedTime": 1783368725236,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!coDi6IE49ArFmamI"
+}

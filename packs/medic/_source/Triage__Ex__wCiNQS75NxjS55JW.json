@@ -1,0 +1,134 @@
+{
+  "_id": "wCiNQS75NxjS55JW",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Triage (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>A medic must be able to react immediately to any danger that threatens her allies. At 1st level, a medic gains the ability to perform a triage as a standard action, which provokes attacks of opportunity. When she does, she can move up to her base movement speed, so long as she ends her movement adjacent to a living ally. That ally is healed for 1d6 + 1 per rank in her Heal skill + her Wisdom modifier in hit points. Only living allies can be healed this way. This increases by 1d6 per medic level thereafter (2d6 at 2nd, up to 20d6 at 20th). In addition, she can apply the effects of one of her medical practices to the ally, if applicable. Applying triage also stops any bleeding effects. The medic can also perform a triage on herself, doing so only requires a swift action, which doesn't provoke attacks of opportunity; she does not move when she does so. A medic can use this ability a number of times per day equal to 3 plus her medic level plus her Wisdom modifier. Alternatively, the medic can spend a full round action (which also provokes attacks of opportunity) to apply her triage to multiple allies at once, moving up to twice her base movement speed. Each ally can only benefit from the full-round use of triage's healing once per use of the ability. Using triage in this way consumes a usage per day for every creature affected.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "triage_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Medic"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Medic",
+          1
+        ],
+        [
+          "Medic",
+          2
+        ],
+        [
+          "Medic",
+          3
+        ],
+        [
+          "Medic",
+          4
+        ],
+        [
+          "Medic",
+          5
+        ],
+        [
+          "Medic",
+          6
+        ],
+        [
+          "Medic",
+          7
+        ],
+        [
+          "Medic",
+          8
+        ],
+        [
+          "Medic",
+          9
+        ],
+        [
+          "Medic",
+          10
+        ],
+        [
+          "Medic",
+          11
+        ],
+        [
+          "Medic",
+          12
+        ],
+        [
+          "Medic",
+          13
+        ],
+        [
+          "Medic",
+          14
+        ],
+        [
+          "Medic",
+          15
+        ],
+        [
+          "Medic",
+          16
+        ],
+        [
+          "Medic",
+          17
+        ],
+        [
+          "Medic",
+          18
+        ],
+        [
+          "Medic",
+          19
+        ],
+        [
+          "Medic",
+          20
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!wCiNQS75NxjS55JW"
+}

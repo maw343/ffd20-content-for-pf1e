@@ -1,0 +1,71 @@
+{
+  "_id": "f84f3a0dab577833",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Pass without Trace",
+  "system": {
+    "actions": [
+      {
+        "_id": "25a1f199bed38e6f",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "one creature/level touched"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "1 hour/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The subject or subjects of this spell do not leave footprints or a scent trail while moving",
+      "value": "<p>The subject or subjects of this spell do not leave footprints or a scent trail while moving. Tracking the subjects is impossible by non-magical means.</p>"
+    },
+    "descriptors": [
+      "earth"
+    ],
+    "learnedAt": {
+      "class": {
+        "druid": 1,
+        "geomancer": 1
+      }
+    },
+    "level": 1,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f84f3a0dab577833"
+}

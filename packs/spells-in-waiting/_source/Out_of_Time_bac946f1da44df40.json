@@ -1,0 +1,68 @@
+{
+  "_id": "bac946f1da44df40",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Out of Time",
+  "system": {
+    "actions": [
+      {
+        "_id": "4fc7fba1e1e304c9",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature or object"
+        },
+        "duration": {
+          "units": "spec",
+          "value": "1 round/2 levels, see text"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will partial (object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell forces a target out of the natural flow of time, effectively making it stop existing for a brief moment",
+      "value": "<p>This spell forces a target out of the natural flow of time, effectively making it stop existing for a brief moment. The target must make a Will save or vanish completely for one round per two caster levels. No magic or divinations can detect the target during this time, as it exists outside of time and space—in effect, the target ceases to exist for the duration of this spell. At the end of the duration, the target reappears unharmed in the space it last occupied (or the nearest possible space, if the original space is now occupied). A target that makes its saving throw reduces the duration to only 1 round. This spell cannot target artifacts or similarly unique items, nor a deity or similarly powerful being.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 8
+      }
+    },
+    "level": 8,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!bac946f1da44df40"
+}

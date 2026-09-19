@@ -1,0 +1,63 @@
+{
+  "_id": "d88a22e01bfeb634",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Summon Feast",
+  "system": {
+    "actions": [
+      {
+        "_id": "95d780c582200c5e",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "feast for one creature/level"
+        },
+        "duration": {
+          "units": "spec",
+          "value": "1 hour plus 12 hours; see text"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You summon forth a great feast, including a magnificent table, chairs, service, and food and drink",
+      "value": "<p>You summon forth a great feast, including a magnificent table, chairs, service, and food and drink. The feast takes 1 hour to consume, and the beneficial effects do not set in until this hour is over. Every creature partaking of the feast is cured of all sickness and nausea, receives the benefits of esuna, and gains 1d8 temporary hit points + 1 point per two caster levels (maximum +10) after imbibing the nectar-like beverage that is part of the feast. The ambrosial food grants each creature that partakes a +1 morale bonus on attack rolls and Will saves and a +4 morale bonus on saving throws against poison and fear effects for 12 hours. If the feast is interrupted for any reason, the spell is ruined and all effects of the spell are negated.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "summoner": 6
+      }
+    },
+    "level": 6,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d88a22e01bfeb634"
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "ltMOWYrz7Z45tt5y",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_02.jpg",
+  "name": "Effortless Healing (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The white mage has learned to cast healing spells with minimal effort. She may cast such spells without provoking attacks of opportunity. This ability applies only to healing spells that she casts as a white mage, not to those that she may have by virtue of levels in another class.</p>"
+    },
+    "tag": "effortlesshealingex",
+    "source": "Final Fantasy d20 - White Mage (Advanced Mage Talents)"
+  },
+  "effects": [],
+  "_key": "!items!ltMOWYrz7Z45tt5y"
+}

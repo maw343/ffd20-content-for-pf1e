@@ -1,0 +1,68 @@
+{
+  "_id": "abcfdc40628ff2d0",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Bewitching Gaze",
+  "system": {
+    "actions": [
+      {
+        "_id": "74ecb97096502b6f",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "spec",
+          "value": "see text"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the overwhelming gaze of the ahriman elite’s massive eye to inflict debilitate foes",
+      "value": "<p>The caster emulates the overwhelming gaze of the ahriman elite’s massive eye to inflict debilitate foes. The target of this spell must make a successful Fortitude save for each status effect or be inflicted with (in order) Blind, Silence, Immobilize, and Disable for 2d4 rounds each and also Petrification. Learned From ahriman elite</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 6
+      }
+    },
+    "level": 6,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!abcfdc40628ff2d0"
+}

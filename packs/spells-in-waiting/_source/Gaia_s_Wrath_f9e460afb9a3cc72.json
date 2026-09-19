@@ -1,0 +1,78 @@
+{
+  "_id": "f9e460afb9a3cc72",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Gaia’s Wrath",
+  "system": {
+    "actions": [
+      {
+        "_id": "461c650fd126b2fe",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "area": "30-ft.-radius spread",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1 round/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 15))d6",
+              "types": [
+                "earth"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You call forth Titan, a great giant who rends the very earth asunder",
+      "value": "<p>You call forth Titan, a great giant who rends the very earth asunder. Titan conjures an earthquake to rumble underneath your enemies within the area of effect, dealing 1d6 points of earth damage per caster level (maximum 15d6) and inflicts the Weighted status effect, a successful Reflex save for half damage and negates the status effect.</p>"
+    },
+    "descriptors": [
+      "earth"
+    ],
+    "learnedAt": {
+      "class": {
+        "summoner": 5
+      }
+    },
+    "level": 5,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f9e460afb9a3cc72"
+}

@@ -1,0 +1,76 @@
+{
+  "_id": "6bb2d7d0f80d39a6",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Umbral Storm",
+  "system": {
+    "actions": [
+      {
+        "_id": "9830a5e31a71e7a6",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "50 ft"
+        },
+        "area": "20-ft.-radius burst",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1d4+1 rounds"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "8d6",
+              "types": [
+                "electricity"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the blinding lightning burst from an ahriman",
+      "value": "<p>The caster emulates the blinding lightning burst from an ahriman. Creatures within the area of effect take 8d6 points of lightning damage and are inflicted with the Blind status for 1d4+1 rounds. A successful Reflex halves the damage and negates the status effect. Learned From ahriman family, Nega Elemental, and lightning elemental family</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!6bb2d7d0f80d39a6"
+}

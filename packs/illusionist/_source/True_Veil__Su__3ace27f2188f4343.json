@@ -1,0 +1,61 @@
+{
+  "_id": "3ace27f2188f4343",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785720422236,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "True Veil (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Illusionist 6</p><p>An illusionist can spend 1 point from his veil pool to imbue his disguise with a measure of reality. The illusionist's disguise self spell-like ability is treated as a polymorph effect, though it retains the illusion school. Other creatures no longer get a Will save to recognize the effect as an illusion, though they can still make Perception checks to realize the illusionist is using a disguise. The effect lasts for a number of minutes equal to the illusionist's level.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "trueveilsu",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Illusionist",
+          3
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Veil Powers"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!3ace27f2188f4343"
+}

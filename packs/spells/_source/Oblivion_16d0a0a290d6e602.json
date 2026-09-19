@@ -1,0 +1,78 @@
+{
+  "_id": "16d0a0a290d6e602",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Oblivion",
+  "system": {
+    "actions": [
+      {
+        "_id": "fc55fa1ac4e64416",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; see text"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 15))d6",
+              "types": [
+                "negative"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude half — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You conjure dark energy upon a creature that addles them with powerful ailments",
+      "value": "<p>You conjure dark energy upon a creature that addles them with powerful ailments. The target is dealt 1d6 shadow damage per caster level (Max 15d6) and inflicted with Sap and Slow for a number of rounds equal to your Wisdom modifier. A Fortitude save can half this damage, and negate the status effects.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "ninja": 6
+      }
+    },
+    "level": 6,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!16d0a0a290d6e602"
+}

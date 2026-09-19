@@ -1,0 +1,63 @@
+{
+  "_id": "01dc3c6e93774b51",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785720769193,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Revitalizing Touch (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Triage class feature</p><p>The target of the medic's triage ability heals an amount of ability score damage equal to the medic's Wisdom modifier instead of healing hit point damage. This healing may be divided up as the medic chooses between multiple ability scores as necessary.</p>",
+      "instructions": ""
+    },
+    "tags": [
+      "Triage Practice"
+    ],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "revitalizingtouchex",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Medic",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Medical Practices"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!01dc3c6e93774b51"
+}

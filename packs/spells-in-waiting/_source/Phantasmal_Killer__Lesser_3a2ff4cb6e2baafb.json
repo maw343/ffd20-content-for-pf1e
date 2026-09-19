@@ -1,0 +1,78 @@
+{
+  "_id": "3a2ff4cb6e2baafb",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Phantasmal Killer, Lesser",
+  "system": {
+    "actions": [
+      {
+        "_id": "f6996ab9d31e2146",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "one living creature"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1 minute"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Will disbelief, then Fortitude partial — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You create a phantasmal image of the most fearsome creature imaginable to the subject simply by forming the fears of the subject’s subcon...",
+      "value": "<p>You create a phantasmal image of the most fearsome creature imaginable to the subject simply by forming the fears of the subject’s subconscious mind into something that its conscious mind can visualize: this most horrible beast. Only the spell’s subject can see the phantasmal killer. You see only a vague shape. The target first gets a Will save to recognize the image as unreal. If that save fails, the phantasm touches the subject, and the subject must succeed on a Fortitude save or become unconscious from fear for 1 minute if the target has less than 6 HD. Even if the Fortitude save is successful, the subject takes 1d6 points of damage. If the subject of a phantasmal killer attack succeeds in disbelieving and possesses telepathy or is wearing a helm of telepathy, the beast can be turned upon you. You must then disbelieve it or become subject to its deadly fear attack.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 1
+      }
+    },
+    "level": 1,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!3a2ff4cb6e2baafb"
+}

@@ -1,0 +1,74 @@
+{
+  "_id": "c1dbac1c3270e111",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Rebounding Aspected Star",
+  "system": {
+    "actions": [
+      {
+        "_id": "a05357da3e8512b6",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one floating star"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Snapping your fingers you create a spark of power, these sparks then shoot towards a targeted location and ignite a small star of light",
+      "value": "<p>Snapping your fingers you create a spark of power, these sparks then shoot towards a targeted location and ignite a small star of light. The star you create produces 10ft bright light and 10ft dim light and can be targeted by your star globe . You do not need to make an attack roll against a rebounding star but may still miss due to total concealment . Hitting a rebounding star resets the distance at which you can attack with your star globe , and allows you to circumvent cover, though if you cannot see your target you still suffer miss chance for concealment. You can have any number of rebounding aspected stars active at once, and may rebound off of several with a single attack. For each star you rebound off, you add an additional 1d6 points of damage to your attack.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 4
+      }
+    },
+    "level": 4,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!c1dbac1c3270e111"
+}

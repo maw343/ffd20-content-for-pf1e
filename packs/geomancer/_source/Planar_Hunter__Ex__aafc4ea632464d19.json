@@ -1,0 +1,61 @@
+{
+  "_id": "aafc4ea632464d19",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785719681673,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Planar Hunter (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Favored Terrain class feature</p><p>When the geomancer is on one of the planes she has selected as a favored terrain, she gains a +2 bonus on weapon attack rolls against outsiders native to that plane. She also ignores up to 5 points of damage reduction when making weapon attacks against outsiders native to that plane, except for damage reduction without a type (such as DR 10/—). In addition, she gains this bonus against extraplanar creatures she encounters and identifies as being from one of her planar favored terrains, such as with a successful Knowledge (planes) check, regardless of what plane she or they are on. The geomancer may select this trick multiple times. Each time she takes it, she applies it to a different qualifying favored terrain.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "planarhunterex",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Geomancer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Geomancy Tricks"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!aafc4ea632464d19"
+}

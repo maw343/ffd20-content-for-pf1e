@@ -1,0 +1,61 @@
+{
+  "_id": "228935ab1c9e432d",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Envenom",
+  "system": {
+    "actions": [
+      {
+        "_id": "f87012020cd66049",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "weapon touched"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level  DESCRIPTION Upon casting this spell, the caster’s weapon becomes enveloped with debilitating poison. At the time of using this ninjutsu choose a single poison on your person that is applied normally through injury. It is magically consumed, and applied on the weapon instantly. The DC of the poison is instead treated as the DC of the spell level of this ninjutsu instead."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Upon casting this spell, the caster’s weapon becomes enveloped with debilitating poison",
+      "value": "<p>Upon casting this spell, the caster’s weapon becomes enveloped with debilitating poison. At the time of using this ninjutsu choose a single poison on your person that is applied normally through injury. It is magically consumed, and applied on the weapon instantly. The DC of the poison is instead treated as the DC of the spell level of this ninjutsu instead.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "ninja": 2
+      }
+    },
+    "level": 2,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!228935ab1c9e432d"
+}

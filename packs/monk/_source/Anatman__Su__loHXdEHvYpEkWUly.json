@@ -1,0 +1,27 @@
+{
+  "_id": "loHXdEHvYpEkWUly",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Anatman (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Mantra blitz technique</p><p>Channel your Mantra inward, greatly enhancing its effect. Instead of channeling the benefits of Mantra to your allies, you may channel it to only affect yourself, doubling all healing amplification effects of Mantra.</p>"
+    },
+    "tag": "anatman",
+    "source": "Final Fantasy d20 - Monk Talents",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!loHXdEHvYpEkWUly"
+}

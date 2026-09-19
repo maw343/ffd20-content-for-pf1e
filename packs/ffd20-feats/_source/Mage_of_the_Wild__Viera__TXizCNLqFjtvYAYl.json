@@ -1,0 +1,50 @@
+{
+  "_id": "TXizCNLqFjtvYAYl",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Mage of the Wild (Viera)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Attuned to the Wild, viera</p><p><strong>Benefit:</strong> When you are in a terrain type you have selected the Attuned to the Wild feat for, you gain a +2 bonus on caster level checks, concentration checks, and, Knowledge (arcana) and Spellcraft checks. If you are in an area that qualifies as more than one kind of terrain, these bonuses do not stack; you receive the bonus for only one of the terrain types.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "racial",
+    "tag": "mage_of_the_wild_viera",
+    "requirements": "Attuned to the Wild, viera",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-RacialFeats",
+        "pages": "Racial Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!TXizCNLqFjtvYAYl"
+}

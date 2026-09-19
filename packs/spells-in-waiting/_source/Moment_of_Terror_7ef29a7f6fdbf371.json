@@ -1,0 +1,68 @@
+{
+  "_id": "7ef29a7f6fdbf371",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Moment of Terror",
+  "system": {
+    "actions": [
+      {
+        "_id": "c62df7a97523d6bb",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "1 creature of up to Large-size"
+        },
+        "duration": {
+          "units": "spec",
+          "value": "1 round; see text"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will disbelief"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You brutally force the target’s mind to experience a dimension of nightmares and terror",
+      "value": "<p>You brutally force the target’s mind to experience a dimension of nightmares and terror. This unnatural dislocation opens conduits of pain for the target, causing the target’s body to fall prone and helpless as the target mindlessly screams unless it makes a successful Will save. If the target failed its Will save, once the initial effect ends, the memory of the awful pain remains, making the target susceptible to other mental assault, imposing a –2 penalty on Will saves against mind-affecting spells and effects for a period of one day. This penalty does not stack from multiple uses of this spell.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 4
+      }
+    },
+    "level": 4,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!7ef29a7f6fdbf371"
+}

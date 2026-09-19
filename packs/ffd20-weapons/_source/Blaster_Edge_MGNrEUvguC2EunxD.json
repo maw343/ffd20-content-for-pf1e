@@ -1,0 +1,89 @@
+{
+  "_id": "MGNrEUvguC2EunxD",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/items/weapons/longbow.PNG",
+  "name": "Blaster Edge",
+  "system": {
+    "actions": [
+      {
+        "_id": "717496d8612e42d4",
+        "ability": {
+          "attack": "_default",
+          "critMult": 2
+        },
+        "actionType": "rwak",
+        "activation": {
+          "type": "attack",
+          "unchained": {
+            "type": "attack"
+          }
+        },
+        "conditionals": [],
+        "damage": {
+          "parts": [
+            {
+              "formula": "sizeRoll(1, 8, @size)",
+              "types": [
+                "slashing"
+              ]
+            }
+          ]
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "extraAttacks": {
+          "type": "standard"
+        },
+        "name": "Attack",
+        "range": {
+          "maxIncrements": 10,
+          "units": "ft",
+          "value": "0"
+        }
+      }
+    ],
+    "baseTypes": [
+      "Blaster Edge"
+    ],
+    "description": {
+      "unidentified": "<h3>Statistics</h3><p><b>Damage</b> 1d6 (small), 1d8 (medium); <b>Critical</b> 20/x2; <b>Type</b> Slashing</p><h3>Description</h3>\n<h3>Blaster Edge</h3>\n<p><strong>Cost:</strong> 25.0 gp</p>\n<p><strong>Damage:</strong> 1d6 (Small), 1d8 (Medium)</p>\n<p><strong>Critical:</strong> 20</p>\n<p><strong>Weight:</strong> 7.0 lb</p>\n<p><strong>Type:</strong> Slashing</p>\n<p><strong>Special:</strong> —</p>"
+    },
+    "hardness": 5,
+    "hp": {
+      "base": 10
+    },
+    "material": {
+      "base": {
+        "value": "steel"
+      }
+    },
+    "price": 25,
+    "properties": {
+      "spc": true
+    },
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "1"
+      }
+    ],
+    "subType": "martial",
+    "tags": [],
+    "weaponGroups": [
+      "firearms"
+    ],
+    "weaponSubtype": "ranged",
+    "hands": 2,
+    "held": "2h",
+    "weight": {
+      "value": 7
+    }
+  },
+  "type": "weapon",
+  "effects": [],
+  "folder": "EXOWeap00000000001",
+  "_key": "!items!MGNrEUvguC2EunxD"
+}

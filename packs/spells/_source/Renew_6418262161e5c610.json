@@ -1,0 +1,69 @@
+{
+  "_id": "6418262161e5c610",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Renew",
+  "system": {
+    "actions": [
+      {
+        "_id": "b89c091076c78d10",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "area": "20-ft.-radius burst",
+        "duration": {
+          "units": "round",
+          "value": "3 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Allies within the area of effect are enveloped in a soft green glow that pulses, providing them with healing over time.",
+      "value": "<p>Allies within the area of effect are enveloped in a soft green glow that pulses, providing them with healing over time. The targets receive Fast Healing 2 (heals 2 hit points a round).</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 3,
+        "whitemage": 3
+      }
+    },
+    "level": 3,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "healing"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!6418262161e5c610"
+}

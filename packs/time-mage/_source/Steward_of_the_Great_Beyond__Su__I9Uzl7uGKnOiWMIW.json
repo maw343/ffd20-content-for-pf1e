@@ -1,0 +1,50 @@
+{
+  "_id": "I9Uzl7uGKnOiWMIW",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Steward of the Great Beyond (Su)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Time Mage 10</p><p><strong>Benefit:</strong> Whenever a creature attempts to use a teleportation effect or summon a creature within 30 feet of the time mage, he may attempt to block the effect. Make an opposed caster level check (1d20 + caster level) as an immediate action. If the check succeeds, the spell or effect fails and is wasted; otherwise, it is unaffected. He can use this ability once per day plus one additional time for every five time mage levels he possesses beyond 10th.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "temporalTalent",
+    "tag": "steward_of_the_great_bey",
+    "requirements": "Time Mage 10",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-TimeMageClass",
+        "pages": "Temporal Talents"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!I9Uzl7uGKnOiWMIW"
+}

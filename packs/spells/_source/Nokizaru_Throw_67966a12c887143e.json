@@ -1,0 +1,61 @@
+{
+  "_id": "67966a12c887143e",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Nokizaru Throw",
+  "system": {
+    "actions": [
+      {
+        "_id": "3168c8709cb2f0d0",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "one item on person"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1 minute DESCRIPTION As Fuma Throw , except it deals three additional damage dice."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "As Fuma Throw , except it deals three additional damage dice",
+      "value": "<p>As Fuma Throw , except it deals three additional damage dice.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "ninja": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!67966a12c887143e"
+}

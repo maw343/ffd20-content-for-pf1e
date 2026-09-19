@@ -1,0 +1,61 @@
+{
+  "_id": "a658af8c61a94eff",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Longshot",
+  "system": {
+    "actions": [
+      {
+        "_id": "9f4370df6129c471",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell reduces the effect of range, granting a +10-foot bonus to the range increment of any weapon used by the subject.",
+      "value": "<p>This spell reduces the effect of range, granting a +10-foot bonus to the range increment of any weapon used by the subject.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "redmage": 1
+      }
+    },
+    "level": 1,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a658af8c61a94eff"
+}

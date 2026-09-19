@@ -1,0 +1,66 @@
+{
+  "_id": "ea9d4209e76eeb86",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Leniency",
+  "system": {
+    "actions": [
+      {
+        "_id": "32001ec191190bf9",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "heal",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will half ,"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell heals a single ally with a burst of blessed restoration",
+      "value": "<p>This spell heals a single ally with a burst of blessed restoration. It heals one ally within range equal to your caster level (maximum 10) plus your Charisma modifier. If used on yourself, it heals twice as much.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "paladin": 2
+      }
+    },
+    "level": 2,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!ea9d4209e76eeb86"
+}

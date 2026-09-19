@@ -1,0 +1,27 @@
+{
+  "_id": "7jt7nOHK9xQOOgfh",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_13.jpg",
+  "name": "Parry (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Warrior 4, Melee Defense warrior talent</p><p>The warrior can negate a melee attack by rolling an opposed attack roll, DC = the opponent's attack roll. This uses one of the warrior's attacks of opportunity (if he has more with Combat Reflexes) for the round in which it is used. He receives a –5 penalty to his attack roll every time he uses this after the first. He must have a melee weapon in hand, and he must be aware of his foe and not flat-footed.</p>"
+    },
+    "tag": "parry",
+    "source": "Final Fantasy d20 - Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!7jt7nOHK9xQOOgfh"
+}

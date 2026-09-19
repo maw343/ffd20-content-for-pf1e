@@ -1,0 +1,69 @@
+{
+  "_id": "13db708c8cc204f2",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Silence",
+  "system": {
+    "actions": [
+      {
+        "_id": "efe43fe65af7ea1a",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The target of this spell receives the Silenced status effect.",
+      "value": "<p>The target of this spell receives the\nSilenced\nstatus effect. The victim is unable to cast spells until cured. Casters with the Silent Spell feat can bypass this status effect if used with spells.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 2,
+        "blackmage": 2,
+        "redmage": 2,
+        "whitemage": 2
+      }
+    },
+    "level": 2,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!13db708c8cc204f2"
+}

@@ -1,0 +1,67 @@
+{
+  "_id": "acb889e02e48f3a0",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Bunshin",
+  "system": {
+    "actions": [
+      {
+        "_id": "2c1ca14b9df10cd5",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will half (see text)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You summon a copied image of yourself that fights alongside you, mimicking your every move and sound",
+      "value": "<p>You summon a copied image of yourself that fights alongside you, mimicking your every move and sound. Every time you attack your copied image also attacks striking with you, increasing any physical damage you deal by 50%. This extra damage can be halved with a successful Will save for each time it applies. The image only copies basic attacks such as with weapons or ranged attacks. It does not copy ninjutsus. This extra damage does not multiply on a critical hit.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "ninja": 6
+      }
+    },
+    "level": 6,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!acb889e02e48f3a0"
+}

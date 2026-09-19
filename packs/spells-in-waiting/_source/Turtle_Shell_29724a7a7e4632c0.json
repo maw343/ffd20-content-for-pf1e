@@ -1,0 +1,68 @@
+{
+  "_id": "29724a7a7e4632c0",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Turtle Shell",
+  "system": {
+    "actions": [
+      {
+        "_id": "33ea92da5d54c0e2",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "heal",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "round",
+          "value": "up to 5 rounds"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the defensive power of an adamantoise",
+      "value": "<p>The caster emulates the defensive power of an adamantoise. This spell can only be cast when the caster’s health is 50% or lower. The caster receives Fast Healing 10, 15/- Damage reduction, +10 armor bonus to AC, and (all) Elemental Resist 15 for up to 5 rounds but cannot perform any other actions. Learned From adamantoise</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 6
+      }
+    },
+    "level": 6,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!29724a7a7e4632c0"
+}

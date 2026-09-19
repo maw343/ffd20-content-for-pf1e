@@ -1,0 +1,67 @@
+{
+  "_id": "b0aef7c78030af6b",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Illusory Pit",
+  "system": {
+    "actions": [
+      {
+        "_id": "15d0b19950eb7048",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "area": "10-ft. cube/level",
+        "duration": {
+          "units": "round",
+          "value": "concentration + 1 round/level",
+          "concentration": true
+        },
+        "save": {
+          "type": "will",
+          "description": "Will disbelief"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You shove downward with your hand, speaking the spell’s arcane words as you do so",
+      "value": "<p>You shove downward with your hand, speaking the spell’s arcane words as you do so. The ground disappears where you indicate, forming an impossibly deep pit. You create the illusion of a pit, and each creature entering or within the area is forced to make a Will save or believe the floor on which it stands has become a bottomless chasm. Those that fail their saves fall prone and are unable to take any action except clawing desperately at the floor in the hopes of stopping their apparent fall. An attack on an affected creature frees it from the effect of the illusion but leaves it stunned for 1 round. Likewise, when the spell ends, creatures that believed they were falling are stunned for 1 round. Flying creatures passing over an illusory pit are unaffected by the spell.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 6
+      }
+    },
+    "level": 6,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!b0aef7c78030af6b"
+}

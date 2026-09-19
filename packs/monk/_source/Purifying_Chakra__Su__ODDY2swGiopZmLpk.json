@@ -1,0 +1,27 @@
+{
+  "_id": "ODDY2swGiopZmLpk",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Purifying Chakra (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Chakra and Purification blitz techniques</p><p>Channel your purification energies while activating Chakra. When activating the Chakra blitz technique (or the Invigorate talent), you may spend an additional ki point to also activate the Purification blitz technique, relieving yourself of status ailments within that same action.</p>"
+    },
+    "tag": "purifyingchakra",
+    "source": "Final Fantasy d20 - Monk Talents",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!ODDY2swGiopZmLpk"
+}

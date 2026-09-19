@@ -1,0 +1,70 @@
+{
+  "_id": "KudNeBdtqWPTtj6X",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Reactive System (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 5th level, a time mage gains a +2 bonus on saving throws against area of effect spells and effects plus an additional +2 every five time mage levels thereafter (+4 at 10th, +6 at 15th, +8 at 20th). At 10th level, whenever he attempts a Reflex save, the time mage can roll twice and take the best result.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "reactive_system_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Time Mage"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Time Mage",
+          5
+        ],
+        [
+          "Time Mage",
+          10
+        ],
+        [
+          "Time Mage",
+          15
+        ],
+        [
+          "Time Mage",
+          20
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!KudNeBdtqWPTtj6X"
+}

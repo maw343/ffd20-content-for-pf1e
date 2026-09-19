@@ -1,0 +1,73 @@
+{
+  "_id": "5214cce92ae6be6a",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Shackle",
+  "system": {
+    "actions": [
+      {
+        "_id": "9c4d8af8d1097ba2",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "msak",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "one set of restraints; see text"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "1 hour/level"
+        },
+        "touch": true,
+        "ability": {
+          "attack": "str",
+          "critMult": 2,
+          "critRange": 20
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex negates; see text"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You summon a set of Small or Medium masterwork restraints into being",
+      "value": "<p>You summon a set of Small or Medium masterwork restraints into being. When you cast this spell, you can choose whether the restraints are manacles or fetters (manacles specifically designed to fit around the ankles). You also summon the restraints’ key to your person; the Disable Device DC to open the locked restraints is equal to 15 + your caster level + the modifier of your primary casting ability score. Typically, the restraints appear in your hands. However, as part of the spell’s casting, you can make a melee touch attack against a creature; if you succeed and the creature then fails a Reflex saving throw against the spell’s DC, the locked fetters appear clasped on the creature or locked manacles clasp you and the creature together. You can instead have manacles restrain the target’s limbs in front of or behind it. You can make melee touch attacks against two creatures you can reach. If you succeed at both attacks and both creatures fail their Reflex saving throws, you can cause the set of manacles to bind the targets together. As you increase in level, the restraints become stronger and you gain more control over them. If you are 6th level or higher, you can make the restraints mithral, or you can summon Tiny or Large restraints. If you are 12th level or higher, you can summon Diminutive or Huge restraints. If you use an emerald worth at least 1,000 gil as a material component while casting this spell, as a standard action once during its duration, you can affect any creature bound by these restraints as per dimensional anchor with a duration of 1 minute per caster level. If you are 18th level or higher and use an emerald worth at least 1,000 gil as a material component while casting this spell, the restraints’ hardness increases to 30, they have 60 hit points, and they can’t be broken with a successful Strength check. (The emerald must be worth at least 2,000 gil if you also wish to use the dimensional anchor effect described earlier.) If you cast this spell before the duration of a previous casting has lapsed, you can create a new set of restraints or reset the previous spell’s duration. If you used an expensive material component during a previous casting, you must again use a component when creating new restraints or resetting the duration if you wish to maintain the special effect. You do not need to touch these previously created shackles to renew their duration, though you must be on the same plane as the shackles. When this spell ends, the restraints disappear, and any ongoing effects created by the spell end.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "summoner": 2
+      }
+    },
+    "level": 2,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!5214cce92ae6be6a"
+}

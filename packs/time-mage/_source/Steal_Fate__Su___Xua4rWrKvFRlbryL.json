@@ -1,0 +1,50 @@
+{
+  "_id": "Xua4rWrKvFRlbryL",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Steal Fate (Su)*",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> —</p><p><strong>Benefit:</strong> As a standard action, the time mage can attempt to steal a crucial moment from a target's future, reducing the chance the target will enjoy a happy and prosperous future. The time mage spends a mote and the target must make a Will save (DC 10 + half of the time mage's level + his Intelligence modifier) or suffer a penalty to all attack and damage rolls, skill checks, and saving throws. This effect lasts for 1 round per time mage level. The penalty suffered is equal to -1, and increases to -2 at 8th level, and -3 at 16th level, while the time mage gains this as a bonus as he uses the stolen fate to carefully plan each action he takes. Steal Fate has a range of 30 feet.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "temporalTalent",
+    "tag": "steal_fate_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-TimeMageClass",
+        "pages": "Temporal Talents"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Xua4rWrKvFRlbryL"
+}

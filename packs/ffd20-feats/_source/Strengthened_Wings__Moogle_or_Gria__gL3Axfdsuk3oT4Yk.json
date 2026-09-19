@@ -1,0 +1,50 @@
+{
+  "_id": "gL3Axfdsuk3oT4Yk",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Strengthened Wings (Moogle or Gria)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Character level 10, moogle or gria</p><p><strong>Benefit:</strong> Your fly speed increases by 10 feet, your flight maneuverability increases by 1 step, and you no longer need to rest after flying. You can only fly as long as you do not carry more than a Light load, are not wearing any armor heavier than medium, and are not fatigued or exhausted.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "racial",
+    "tag": "strengthened_wings_moogl",
+    "requirements": "Character level 10, moogle or gria",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-RacialFeats",
+        "pages": "Racial Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!gL3Axfdsuk3oT4Yk"
+}

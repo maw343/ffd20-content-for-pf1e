@@ -1,0 +1,61 @@
+{
+  "_id": "58a4a09947544368",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785718761461,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Rampage Armor (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Engineer 8, proficient in heavy armor</p><p>This complex, bulky suit of plate armor is distinguished by the hydraulics and gears visible in its joints and the backpack-sized engine around its shoulders. Like plate armor, rampage armor requires help to don, which takes a half hour to do so correctly. Once inside, the engineer must spend a full-round action to activate the armor, allowing him to move about freely and benefit from its effects. To function, the armor requires one flask of alchemist's fire per hour. If the armor is not put on properly or lacks fuel, it cannot be moved by the wearer in any way, leaving him paralyzed until he can remove himself from the armor, taking 10 minutes, or activate it. When functioning properly, the armor provides a +2 mechanical bonus to Strength, and the wearer's Strength is treated as +10 higher when determining carrying capacity. The armor has the same hit points and hardness as plate armor. Rampage armor can be enchanted like normal armor.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "rampagearmorex",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Engineer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Engineer Tricks - Gadgets"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!58a4a09947544368"
+}

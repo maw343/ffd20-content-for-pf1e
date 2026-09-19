@@ -1,0 +1,68 @@
+{
+  "_id": "e1bba19bc33546fc",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Phantasmal Web",
+  "system": {
+    "actions": [
+      {
+        "_id": "bc2ce9a1ec667de1",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "one creature/level, no two of which may be more than 30 ft. apart"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Will disbelief, then Fortitude partial — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You implant within the minds of your targets the illusion that they are engulfed in tangled webs teeming with swarms of tiny spiders",
+      "value": "<p>You implant within the minds of your targets the illusion that they are engulfed in tangled webs teeming with swarms of tiny spiders. Those who fail to disbelieve the phantasmal web are treated as if in a web spell, but must also make a Fortitude save at the beginning of each turn or become nauseated for that round by the phantasmal spiders. As the phantasmal web exists only in the minds of the targets, it cannot be burned or destroyed, and it provides no cover (though it does provide concealment) against attacks made by the targets. Targets cannot escape the phantasmal web by moving, even by teleportation. Freedom of movement allows unobstructed movement but does not negate the concealment or nausea effects. Targets of the spell perceive everyone else around them to be engulfed in webs and swarming spiders, but the spell has no visible effect to other creatures (who may assist allies to disbelieve the effect).</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 4
+      }
+    },
+    "level": 4,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!e1bba19bc33546fc"
+}

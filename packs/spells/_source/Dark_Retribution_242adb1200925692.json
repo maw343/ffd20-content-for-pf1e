@@ -1,0 +1,77 @@
+{
+  "_id": "242adb1200925692",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Dark Retribution",
+  "system": {
+    "actions": [
+      {
+        "_id": "de571cb51aba9a52",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "self"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/two levels"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d8",
+              "types": [
+                "negative"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Your shadow becomes a sentient guardian for you, lashing out at aggressors within its range",
+      "value": "<p>Your shadow becomes a sentient guardian for you, lashing out at aggressors within its range. Anyone who makes an attack against you, targets you with a harmful spell, or otherwise takes an action that would harm you, takes 1d8 points of shadow damage. This damage is done after the action from the aggressor is resolved.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "darkknight": 4
+      }
+    },
+    "level": 4,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!242adb1200925692"
+}

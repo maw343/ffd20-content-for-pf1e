@@ -1,0 +1,77 @@
+{
+  "_id": "6d0b6b2130947bbc",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Release the Hounds",
+  "system": {
+    "actions": [
+      {
+        "_id": "a1730c4142269803",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "pack of canines"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "3d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell summons a pack of canines that respond to the spellcaster’s commands and act in perfect unison, causing them to function like ...",
+      "value": "<p>This spell summons a pack of canines that respond to the spellcaster’s commands and act in perfect unison, causing them to function like a swarm. The pack uses the statistics for a winter wolf, except it loses its breath weapon, the cold subtype, and its cold special attack and gains the swarm subtype, a swarm attack that deals 3d6 points of damage, and the distraction special attack (DC 17). Whenever the pack damages an opponent with its swarm attack, it can immediately attempt a trip combat maneuver check against that creature with its trip special attack. The pack does not gain any damage reduction or immunity to damage and can be attacked by effects that target a specific number of creatures, though such attacks deal 1/4 the normal amount of damage (25%) and effects that don’t deal hit point damage are only 25% likely to work.</p>"
+    },
+    "descriptors": [
+      "cold"
+    ],
+    "learnedAt": {
+      "class": {
+        "druid": 5,
+        "summoner": 5
+      }
+    },
+    "level": 5,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!6d0b6b2130947bbc"
+}

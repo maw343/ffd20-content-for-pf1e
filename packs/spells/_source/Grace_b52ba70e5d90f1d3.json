@@ -1,0 +1,61 @@
+{
+  "_id": "b52ba70e5d90f1d3",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Grace",
+  "system": {
+    "actions": [
+      {
+        "_id": "6c4d8469332ec74b",
+        "name": "Use",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Until the end of your turn, your movement does not provoke attacks of opportunity.",
+      "value": "<p>Until the end of your turn, your movement does not provoke attacks of opportunity. This does not stop AoO from\nstanding up from prone\nor\ndrawing items from a bag\nas they are not moving distance.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "whitemage": 2,
+        "redmage": 2
+      }
+    },
+    "level": 2,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!b52ba70e5d90f1d3"
+}

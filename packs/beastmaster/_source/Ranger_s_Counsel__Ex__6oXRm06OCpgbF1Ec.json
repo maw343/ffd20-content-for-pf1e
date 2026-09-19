@@ -1,0 +1,27 @@
+{
+  "_id": "6oXRm06OCpgbF1Ec",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_13.jpg",
+  "name": "Ranger's Counsel (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Any skill 1 rank</p><p>As a swift action, the beastmaster can grant all allies within 30 feet that are within line of sight and can hear him a +2 bonus on skill checks with a single skill of his choice. This bonus lasts for 1 round.</p>"
+    },
+    "tag": "rangerscounsel",
+    "source": "Final Fantasy d20 - Beastmaster Tricks",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!6oXRm06OCpgbF1Ec"
+}

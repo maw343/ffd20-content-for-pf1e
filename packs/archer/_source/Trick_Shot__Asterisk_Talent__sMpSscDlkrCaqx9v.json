@@ -1,0 +1,84 @@
+{
+  "_id": "sMpSscDlkrCaqx9v",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785115555213,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_02.jpg",
+  "name": "Trick Shot (Asterisk Talent)",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Archer 6</p><p>An archer with this talent can choose one of the following actions: disarm, feint, or sunder. He can perform this action with a bow or crossbow against any target within 30 feet, with a -4 penalty to his attack roll. Every four levels beyond 6th, he may choose an additional trick shot to learn. These maneuvers use up arrows as normal. At 14th level, he may also choose from the following actions: bull rush, grapple, trip. A target grappled by an arrow or bolt can break free by destroying the archer's arrow or bolt (hardness 5, hit points 1, break DC 13) or with an Escape Artist or Strength check (against the archer's -4 penalty).</p><p><em>Asterisk talent: cannot be combined with other asterisked talents; usable once per round.</em></p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "trickshot",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {},
+    "source": "Final Fantasy d20 - Archer (Archery Talents)"
+  },
+  "effects": [],
+  "folder": "WmmObPCDVZhaIakd",
+  "sort": 103125,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!sMpSscDlkrCaqx9v"
+}

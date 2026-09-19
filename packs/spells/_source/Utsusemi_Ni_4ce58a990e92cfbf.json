@@ -1,0 +1,61 @@
+{
+  "_id": "4ce58a990e92cfbf",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Utsusemi-Ni",
+  "system": {
+    "actions": [
+      {
+        "_id": "9292542378ba2bb6",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level (until destroyed) DESCRIPTION This ninjutsu functions as Utsusemi-Ichi , but creates 2 copied images. Each image negates a single successful attack made against the ninja."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This ninjutsu functions as Utsusemi-Ichi , but creates 2 copied images",
+      "value": "<p>This ninjutsu functions as Utsusemi-Ichi , but creates 2 copied images. Each image negates a single successful attack made against the ninja.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "ninja": 4
+      }
+    },
+    "level": 4,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!4ce58a990e92cfbf"
+}

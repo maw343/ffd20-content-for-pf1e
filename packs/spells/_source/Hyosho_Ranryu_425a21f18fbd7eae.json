@@ -1,0 +1,85 @@
+{
+  "_id": "425a21f18fbd7eae",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Hyosho Ranryu",
+  "system": {
+    "actions": [
+      {
+        "_id": "a7c651dd00dd784d",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "rsak",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "one creature/two levels (maximum of 10)"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1d4 rounds"
+        },
+        "ability": {
+          "attack": "dex",
+          "critMult": 2,
+          "critRange": 20
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 15))d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "will",
+          "description": "Will partial (see text)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You summon forth 1 shuriken of watery ice per ninja level (maximum of 15) that sail through the air striking their targets",
+      "value": "<p>You summon forth 1 shuriken of watery ice per ninja level (maximum of 15) that sail through the air striking their targets. You make a ranged touch attack against one creature per two ninja levels within the range of the ninjutsu, but each creature cannot be more than 50 feet from each other or you can choose multiple shurikens for a single target. With each successful attack, you deal 1d6 damage per shuriken (half ice/half water). Targets hit must make a Will save or be Silenced for 1d4 rounds. Multiple attacks against the target do not extend the effect but can refresh it.</p>"
+    },
+    "descriptors": [
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "ninja": 6
+      }
+    },
+    "level": 6,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!425a21f18fbd7eae"
+}

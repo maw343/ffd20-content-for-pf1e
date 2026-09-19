@@ -1,0 +1,61 @@
+{
+  "_id": "c9005397668b984c",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Energy Aegis",
+  "system": {
+    "actions": [
+      {
+        "_id": "ef287d7416c2797b",
+        "name": "Use",
+        "activation": {
+          "type": "immediate",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "When you cast this spell, specify an elemental type (earth, fire, ice, lightning, water, or wind).",
+      "value": "<p>When you cast this spell, specify an elemental type (earth, fire, ice, lightning, water, or wind). Against the next attack using this energy type that targets you, you gain elemental resistance 20.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "redmage": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!c9005397668b984c"
+}

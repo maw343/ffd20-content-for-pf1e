@@ -1,0 +1,78 @@
+{
+  "_id": "688a0289e9c6c2a8",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Annihilate",
+  "system": {
+    "actions": [
+      {
+        "_id": "f702dfa7db71b6e5",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "100 ft"
+        },
+        "area": "30-ft.-radius spread",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1 round/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 15))d8",
+              "types": [
+                "fire"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the powerful nuke ability of a king bomb",
+      "value": "<p>The caster emulates the powerful nuke ability of a king bomb. Creatures within the area of effect take 15d8 points of fire damage and are inflicted with the Burning status for 1 round per level. A successful Reflex save halves the damage and negates the status effect. Learned From king bomb and MOAB</p>"
+    },
+    "descriptors": [
+      "fire"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 7
+      }
+    },
+    "level": 7,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!688a0289e9c6c2a8"
+}

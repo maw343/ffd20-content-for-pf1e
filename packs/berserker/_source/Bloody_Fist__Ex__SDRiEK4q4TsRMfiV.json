@@ -1,0 +1,65 @@
+{
+  "_id": "SDRiEK4q4TsRMfiV",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785712621521,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/red_35.jpg",
+  "name": "Bloody Fist (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Berserker 12</p><p>While raging, the berserker may attempt to punch through an opponent's flesh and rip out one of its vital organs. In order to do so, the berserker must confirm a critical hit against an opponent with a natural attack or unarmed strike. The berserker deals damage as normal for a critical hit and the opponent must succeed at a Fortitude save (DC 10 + half of the berserker's level + his Strength modifier) or take 1d4 points of Constitution damage as one of its vital organs is ripped free from its body. This power can only be used once per rage.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "bloodyfist",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Berserker",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Rage Powers - Rage Power"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "ffd20": {
+      "rageStance": false
+    }
+  },
+  "_key": "!items!SDRiEK4q4TsRMfiV"
+}

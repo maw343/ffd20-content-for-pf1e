@@ -1,0 +1,50 @@
+{
+  "_id": "hf6bHWmqlviqDs7p",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Leg Sweep",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Raiden Thrust feat, BAB +7</p><p><strong>Benefit:</strong> At 5 TP or more, you may spend all TP to deliver a special polearm attack that takes the place of an attack in a full-attack or just a single attack. This attack deals normal damage + 1d6 points of damage, and the opponent must make a Fortitude save (DC 10 + half of your character level + your Strength or Dexterity modifier) or be forced prone and staggered for 1d4 rounds. At 10 TP or more, you may spend all TP to deal normal damage + 2d6 points of damage and force your target to make a Fortitude save (DC 12 + half of your character level + your Strength or Dexterity modifier) or be forced prone and staggered for 2d4 rounds. At 15 TP, you may spend all TP to deal normal damage + 3d6 points of damage and force your target to make a Fortitude save (DC 14 + half of your character level + your Strength or Dexterity modifier) or be forced prone and staggered for 3d4 rounds.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "weaponSkill",
+    "tag": "leg_sweep",
+    "requirements": "Raiden Thrust feat, BAB +7",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-WeaponSkillFeats",
+        "pages": "Weapon Skill Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!hf6bHWmqlviqDs7p"
+}

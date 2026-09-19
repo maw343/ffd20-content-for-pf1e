@@ -1,0 +1,62 @@
+{
+  "_id": "8dd59d8813ef6d8e",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Phalanx",
+  "system": {
+    "actions": [
+      {
+        "_id": "ba0300707ea64751",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Light surrounds you by reducing any physical damage you take.",
+      "value": "<p>Light surrounds you by reducing any physical damage you take. For the duration of the spell, the caster receives Damage Reduction 5/magic.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "paladin": 1,
+        "redmage": 2
+      }
+    },
+    "level": 1,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!8dd59d8813ef6d8e"
+}

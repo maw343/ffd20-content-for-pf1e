@@ -1,0 +1,69 @@
+{
+  "_id": "031b3f9a3b5122d5",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Recall Agony, Mass",
+  "system": {
+    "actions": [
+      {
+        "_id": "37f0e256a04cd007",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "one creature/2 levels (maximum of 5), no two of which can be more than 30 ft. apart DESCRIPTION This spell functions as Recall Agony except it deals 8d6 points of non-elemental damage to multiple creatures within the area of effect."
+        },
+        "duration": {
+          "units": "spec"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "8d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions as Recall Agony except it deals 8d6 points of non-elemental damage to multiple creatures within the area of effect",
+      "value": "<p>This spell functions as Recall Agony except it deals 8d6 points of non-elemental damage to multiple creatures within the area of effect.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!031b3f9a3b5122d5"
+}

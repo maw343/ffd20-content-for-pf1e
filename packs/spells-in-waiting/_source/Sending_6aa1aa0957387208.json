@@ -1,0 +1,62 @@
+{
+  "_id": "6aa1aa0957387208",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Sending",
+  "system": {
+    "actions": [
+      {
+        "_id": "17220ad102b51cb8",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "spec",
+          "value": "1 round; see text"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Through space and time, you contact a particular creature with which you are familiar and send a short message of 25 words or less to the...",
+      "value": "<p>Through space and time, you contact a particular creature with which you are familiar and send a short message of 25 words or less to the subject. The subject recognizes you if it knows you. It can answer in like manner immediately. A creature with an Intelligence score as low as 1 can understand the sending , though the subject’s ability to react is limited as normal by its Intelligence. Even if the sending is received, the subject is not obligated to act upon it in any manner. If the creature in question is not on the same plane of existence as you are, there is a 5% chance that the sending does not arrive. (Local conditions on other planes may worsen this chance considerably.)</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 4
+      }
+    },
+    "level": 4,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!6aa1aa0957387208"
+}

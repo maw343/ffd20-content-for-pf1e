@@ -1,0 +1,67 @@
+{
+  "_id": "e24ae52eea2ae3f9",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Touch of Lethargy",
+  "system": {
+    "actions": [
+      {
+        "_id": "f34a06c328ebefb4",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "living creature touched"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell causes the target creature touched to gain the Staggered condition",
+      "value": "<p>This spell causes the target creature touched to gain the Staggered condition.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "necromancer": 0
+      }
+    },
+    "level": 0,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!e24ae52eea2ae3f9"
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "vYRtR9bFkLNT7wSo",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_13.jpg",
+  "name": "Heel (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The beastmaster can use this trick as an immediate action when his animal companion moves. When the companion moves, the square it starts out in is not considered threatened by any opponent it can see, and therefore visible enemies do not get attacks of opportunity against it when it moves from that square. The companion must end this movement in a square adjacent to the beastmaster. The animal companion must be able to see and hear the beastmaster to take this movement.</p>"
+    },
+    "tag": "heel",
+    "source": "Final Fantasy d20 - Beastmaster Tricks",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!vYRtR9bFkLNT7wSo"
+}

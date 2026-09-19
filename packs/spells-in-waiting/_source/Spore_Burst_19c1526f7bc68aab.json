@@ -1,0 +1,62 @@
+{
+  "_id": "19c1526f7bc68aab",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Spore Burst",
+  "system": {
+    "actions": [
+      {
+        "_id": "af35b192f4ed44e2",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "one plant creature; see text"
+        },
+        "duration": {
+          "units": "spec",
+          "value": "see text"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You cause a willing plant creature’s body to sprout small, puffy mushrooms that remain for 1 round per caster level or until the creature...",
+      "value": "<p>You cause a willing plant creature’s body to sprout small, puffy mushrooms that remain for 1 round per caster level or until the creature uses them. As a standard action , the target can cause these mushrooms to burst open, releasing a cloud of toxic spores that affect all creatures in a 20-foot-radius spread. Those in the area must succeed at Fortitude saves or be sickened for 1d6 rounds as they are overcome by sneezing and coughing. The caster is immune to this poison effect, as are all creatures of the plant type.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "druid": 2
+      }
+    },
+    "level": 2,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!19c1526f7bc68aab"
+}

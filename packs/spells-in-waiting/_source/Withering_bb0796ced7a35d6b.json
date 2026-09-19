@@ -1,0 +1,65 @@
+{
+  "_id": "bb0796ced7a35d6b",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Withering",
+  "system": {
+    "actions": [
+      {
+        "_id": "f0a2d9b26dfbd6b3",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "area": "spherical blast with a radius of 10 ft. / level",
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This horrendous spell ages every living thing in the area",
+      "value": "<p>This horrendous spell ages every living thing in the area. All living things in the area of this effect are aged 5d4 years in the blink of an eye.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 8
+      }
+    },
+    "level": 8,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!bb0796ced7a35d6b"
+}

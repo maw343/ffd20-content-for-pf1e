@@ -1,0 +1,50 @@
+{
+  "_id": "7CApaZEu6H6TCFXO",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Expanded Fiendish Resistances (Kindred)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Kindred, fiendish resistance racial trait</p><p><strong>Benefit:</strong> Pick one of the following elemental types that you do not already have resistance to: earth, ice, water, or wind. You gain resistance 5 to that element type.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "racial",
+    "tag": "expanded_fiendish_resist",
+    "requirements": "Kindred, fiendish resistance racial trait",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-RacialFeats",
+        "pages": "Racial Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!7CApaZEu6H6TCFXO"
+}

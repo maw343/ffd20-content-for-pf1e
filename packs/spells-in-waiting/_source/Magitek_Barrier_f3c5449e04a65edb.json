@@ -1,0 +1,65 @@
+{
+  "_id": "f3c5449e04a65edb",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Magitek Barrier",
+  "system": {
+    "actions": [
+      {
+        "_id": "fa92fe4b38edbdde",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/2 levels"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates a Mega Armor ability to shield their allies and themselves within the area of effect are protected against magical at...",
+      "value": "<p>The caster emulates a Mega Armor ability to shield their allies and themselves within the area of effect are protected against magical attacks and deflect physical attacks. They receive a +2 deflection bonus to Armor Class and a barrier that deflects the next spell (like the Reflect spell) targeted at themselves back at its caster. It is then discharged or lasts until duration of the spell, whichever happens first. Learned From magitek family</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 5
+      }
+    },
+    "level": 5,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f3c5449e04a65edb"
+}

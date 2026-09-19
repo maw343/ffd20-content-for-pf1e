@@ -1,0 +1,58 @@
+{
+  "_id": "A8SrPZ8upP8UMq6M",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Maker's Call (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 7th level, as a standard action, a summoner can call his avatar to his side. The avatar must be within 120 feet. When used, the avatar appears adjacent to the summoner (or as close as possible if all adjacent spaces are occupied). If the avatar is out of range, the ability is wasted. The summoner can use this ability once per day at 7th level, plus one additional time per day for every four levels beyond 7th.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "makers_call_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Summoner"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Summoner",
+          7
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!A8SrPZ8upP8UMq6M"
+}

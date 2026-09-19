@@ -1,0 +1,66 @@
+{
+  "_id": "67ae0995999d67f0",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Grove of Respite",
+  "system": {
+    "actions": [
+      {
+        "_id": "de18b590e5088d8a",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "20-ft.-radius grove"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "2 hours/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You summon a sheltered grove of trees surrounding a shallow spring",
+      "value": "<p>You summon a sheltered grove of trees surrounding a shallow spring. The grove appears from nowhere even in the most barren, rocky soil regardless of season, but the spell must be cast outside on open ground. The area within the grove is temperate and comfortable, although the grove provides no illumination and provides no protection from the elements. The water in the grove’s spring is clean and drinkable. Additionally, the trees provide a variety of ripe fruit, regardless of season, which acts as a goodberry spell for up to eight people. The grove is warded with an timer spell that alerts you whenever any creature enters the area. Once the spell expires, the grove vanishes, including all fruit, water, and other materials from it, although any nourishment or healing gained from its effects remains.</p>"
+    },
+    "descriptors": [
+      "water",
+      "good"
+    ],
+    "learnedAt": {
+      "class": {
+        "druid": 4
+      }
+    },
+    "level": 4,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!67ae0995999d67f0"
+}

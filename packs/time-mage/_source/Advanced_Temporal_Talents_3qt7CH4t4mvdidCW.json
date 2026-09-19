@@ -1,0 +1,74 @@
+{
+  "_id": "3qt7CH4t4mvdidCW",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Advanced Temporal Talents",
+  "system": {
+    "description": {
+      "value": "<p>Beginning at 12th level, a time mage adds advanced temporal talents to his choices when picking a new temporal talent. Many advanced talents require a time mage to spend two of his daily uses of his mote of time ability. This still qualifies as spending a mote once during his turn, even though multiple motes are spent. A complete list of advanced temporal talents is detailed on a separate reference page.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "advanced_temporal_talent",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Time Mage"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Time Mage",
+          12
+        ],
+        [
+          "Time Mage",
+          14
+        ],
+        [
+          "Time Mage",
+          16
+        ],
+        [
+          "Time Mage",
+          18
+        ],
+        [
+          "Time Mage",
+          20
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!3qt7CH4t4mvdidCW"
+}

@@ -1,0 +1,94 @@
+{
+  "_id": "Z8g6KZKf5jiWjtzH",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Medical Practice (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>As the medic gains experience, she picks up various useful tricks to help her be more effective at the job of saving her friends. At 2nd level, the medic can learn one medical practice, and she learns a new practice at 4th level and every two medic levels thereafter. Medical practices that apply to her use of her triage ability are marked with an asterisk. A medic can only apply one medical practice that applies to her triage ability each time she uses triage, unless another ability increases this limit. A complete list of medical practices is detailed on a separate reference page.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "medical_practice_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Medic"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Medic",
+          2
+        ],
+        [
+          "Medic",
+          4
+        ],
+        [
+          "Medic",
+          6
+        ],
+        [
+          "Medic",
+          8
+        ],
+        [
+          "Medic",
+          10
+        ],
+        [
+          "Medic",
+          12
+        ],
+        [
+          "Medic",
+          14
+        ],
+        [
+          "Medic",
+          16
+        ],
+        [
+          "Medic",
+          18
+        ],
+        [
+          "Medic",
+          20
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Z8g6KZKf5jiWjtzH"
+}

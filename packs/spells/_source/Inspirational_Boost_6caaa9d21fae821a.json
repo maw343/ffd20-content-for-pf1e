@@ -1,0 +1,67 @@
+{
+  "_id": "6caaa9d21fae821a",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Inspirational Boost",
+  "system": {
+    "actions": [
+      {
+        "_id": "fc301787483916d5",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text",
+          "value": "see text"
+        },
+        "target": {
+          "value": "allies affected by your Inspire Courage bardic performance"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "As you finish, the song’s chant allows you to segue easily into bolstering your allies.",
+      "value": "<p>As you finish, the song’s chant allows you to segue easily into bolstering your allies. While this song is in effect, the bonuses granted by your inspire courage bardic music increases by 1. The effect lasts until your inspire courage effect ends or this song ends, whichever comes first. If you don’t begin to use your inspire courage ability before the beginning of your next turn, the song’s effect ends.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bard": 1
+      }
+    },
+    "level": 1,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!6caaa9d21fae821a"
+}

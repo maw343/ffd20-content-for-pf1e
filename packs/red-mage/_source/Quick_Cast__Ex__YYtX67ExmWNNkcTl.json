@@ -1,0 +1,27 @@
+{
+  "_id": "YYtX67ExmWNNkcTl",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Quick Cast (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>Once per day, a red mage can cast one currently known spell up to 6th level as a swift action, so long as the spell's casting time is 1 standard action or less. He can use this ability an additional time per day for every four red mage levels thereafter.</p>"
+    },
+    "tag": "quickcast",
+    "source": "Final Fantasy d20 - Red Mage",
+    "associations": {
+      "classes": [
+        [
+          "Red Mage",
+          4
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!YYtX67ExmWNNkcTl"
+}

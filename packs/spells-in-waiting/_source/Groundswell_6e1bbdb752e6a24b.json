@@ -1,0 +1,71 @@
+{
+  "_id": "6e1bbdb752e6a24b",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Groundswell",
+  "system": {
+    "actions": [
+      {
+        "_id": "40cd7a52b9b84030",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell allows the target to cause the ground to rise up beneath him",
+      "value": "<p>This spell allows the target to cause the ground to rise up beneath him. As a swift action , the target can cause the ground to rise 5 feet, while all adjacent squares are treated as steep slopes. The groundswell precludes flanking from creatures standing at lower elevations than the target. If the target moves after creating a groundswell, the ground returns to its normal elevation at the end of his turn; otherwise, it remains in place until the target moves or uses a swift action to return the ground to normal. A groundswell cannot increase elevation of the ground beyond 5 feet.</p>"
+    },
+    "descriptors": [
+      "earth"
+    ],
+    "learnedAt": {
+      "class": {
+        "druid": 2,
+        "geomancer": 2
+      }
+    },
+    "level": 2,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!6e1bbdb752e6a24b"
+}

@@ -1,0 +1,68 @@
+{
+  "_id": "ea62f76c8e8c59d5",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Destroy Spells",
+  "system": {
+    "actions": [
+      {
+        "_id": "e256a6e835542fd9",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one living spellcaster"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; see text"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates; see text"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "By using this spell, you delete 1d4 spells permanently from the subject’s mind",
+      "value": "<p>By using this spell, you delete 1d4 spells permanently from the subject’s mind. You specify the level of each spell, and the GM randomly determines which of the subject’s spells is actually deleted. After 24 hours, the target may make an additional Fortitude save to negate the effect. Basuna can be used to restore the lost spells, but it must be cast within 1 week of losing the spells.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "necromancer": 9
+      }
+    },
+    "level": 9,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!ea62f76c8e8c59d5"
+}

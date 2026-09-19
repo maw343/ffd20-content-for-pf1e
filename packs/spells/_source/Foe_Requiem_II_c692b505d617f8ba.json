@@ -1,0 +1,63 @@
+{
+  "_id": "c692b505d617f8ba",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Foe Requiem II",
+  "system": {
+    "actions": [
+      {
+        "_id": "e9f96da183197fc1",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "one creature/round"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round",
+          "concentration": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You play a song of destruction.",
+      "value": "<p>You play a song of destruction. Each round this song is in effect, the targeted creature suffers non-elemental damage equal to double your Charisma modifier. You may only have 1 Foe Requiem/Discord song in effect.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bard": 3
+      }
+    },
+    "level": 3,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!c692b505d617f8ba"
+}

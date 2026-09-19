@@ -1,0 +1,61 @@
+{
+  "_id": "SDjtcL9ivCrV1J8w",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785629255951,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/light_05.jpg",
+  "name": "Steal Spell (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The black mage can attempt to gain the benefit of a spell currently active on another creature. The black mage must successfully dispel the spell to be stolen, using the dispel spell. If the spell is lower level than the highest level spell the black mage could cast, has a duration greater than 1 round, and the black mage could theoretically have selected it as a spell known, the black mage gains the benefit of the spell. It lasts for a duration of one round per two black mage levels or until its original duration expires, whichever comes first. A black mage may attempt this a number of times per day equal to 3 + his Intelligence modifier.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "stealspell",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Black Mage",
+          12
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Mage Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!SDjtcL9ivCrV1J8w"
+}

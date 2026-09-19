@@ -1,0 +1,139 @@
+{
+  "type": "feat",
+  "name": "Gunsmith",
+  "system": {
+    "description": {
+      "value": "<p>At 1st level, a field specialist begins play with a gun arm of his choice. The field specialist must choose a Gunblade (Standard) for his starting gun arm. All other creatures treat his gun arm as if it had the broken condition. If the weapon already has the broken condition, it does not work at all for anyone else trying to use it. This starting weapon can only be sold for scrap (it’s worth 4d10 gil when sold). The field specialist also gains Gunsmithing as a bonus feat.</p><p>At 6th level and every six field specialist levels thereafter, a field specialist  can reconfigure his gun arms with a single modification by spending 1 hour of work. He may reconfigure his gun arms as many times as he likes but is only granted up to 3 (at 18th level) of the following benefits at a time: </p><p>Brutally Weighted: Bludgeoning weapons with this modification cause a creature to be hit to take a -2 penalty to its CMD against bull rush, reposition, and trip maneuvers until the end of its next turn or until it is subject to such a maneuver. Cost: 1,500 gil.</p><p>Clearing Mechanism: This modification allows the field specialist to remove the broken condition from this gun arm as a full-round action, as long as that condition was gained by a firearm misfire. This modification can only be taken once. Cost: 1,500 gil.</p><p>Dual-Balanced: When wielding two weapons with the dual-balanced modification, reduce any two-weapon fighting penalties by 1 for both weapons. Cost: 2,000 gil.</p><p>Greater Ammo Capacity: The reconfigured weapon can hold 50% more ammunition than normal. This modification can only be taken once. Cost: 1,500 gil.</p><p>Pressurized Chamber: When the field specialist makes an Acrobatics check to jump, he can blast out a round of magicked ammo to gain a +5 circumstance bonus on his roll. Cost: 2,500 gil.</p><p>Razor Sharp: Gain +2 bonus on piercing or slashing melee weapon damage rolls. Cost: 1,000 gil.</p><p>Resonance Blade: Removes the penalty from trigger attacks. Cost: 2,000 gil.</p><p>Spring-Loaded Cylinder: Loading becomes a swift action. Only for cylinder-based gun arms. This modification can only be taken once. Cost: 1,500 gil.</p><p>Tactically Adapted: When this modification is added to a weapon, choose a weapon quality from the following list to gain: blocking, brace, disarm, distracting, nonlethal, performance, or trip. Cost: 2,000 gil.</p><p>Versatile Design: Choose a fighter weapon group. This modification treats the gun arm as a part of that weapon group. This modification can only be taken once. Cost: 1,000 gil.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "blf": false,
+      "clm": false,
+      "ckg": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    },
+    "sources": [],
+    "showInCombat": false
+  },
+  "_id": "cLkqCzmCtRxo8KZo",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "folder": "ai4V5FVW04U0h9b6",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "KJytU1RQudYSFJXl": 3
+  },
+  "flags": {
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
+    },
+    "pf1": {
+      "migration": "11.8"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "coreVersion": "12.343",
+    "createdTime": 1745007811153,
+    "modifiedTime": 1785110413896,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!cLkqCzmCtRxo8KZo"
+}

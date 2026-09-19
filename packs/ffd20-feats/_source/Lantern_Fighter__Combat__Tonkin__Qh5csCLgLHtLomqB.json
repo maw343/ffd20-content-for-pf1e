@@ -1,0 +1,50 @@
+{
+  "_id": "Qh5csCLgLHtLomqB",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Lantern Fighter (Combat, Tonkin)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Tonkin</p><p><strong>Benefit:</strong> You treat a lantern as a light weapon that deals bludgeoning damage equal to that of a light mace of its size plus 1 point of fire damage, and you do not incur penalties as you would for using it as an improvised weapon.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "racial",
+    "tag": "lantern_fighter_combat_t",
+    "requirements": "Tonkin",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-RacialFeats",
+        "pages": "Racial Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Qh5csCLgLHtLomqB"
+}

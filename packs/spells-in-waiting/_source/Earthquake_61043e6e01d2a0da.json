@@ -1,0 +1,78 @@
+{
+  "_id": "61043e6e01d2a0da",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Earthquake",
+  "system": {
+    "actions": [
+      {
+        "_id": "9f22b36c68f7e45f",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "creatures within a 30-ft.-radius spread centered on you",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1d6 rounds"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "8d6",
+              "types": [
+                "earth"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster can emulate the ground-shaking power of a T-Rexaur",
+      "value": "<p>The caster can emulate the ground-shaking power of a T-Rexaur. Creatures within the area of effect take 8d6 points of earth damage and are inflicted with the Weighted status effect for 1d6 rounds (Reflex save for half damage and negate the status effect). Learned From Centipede Family, Dark Fang, Gigas Family, Lich, Pieuje, Sand Worm, Brown Dragon Family, Visage, and T-Rex.</p>"
+    },
+    "descriptors": [
+      "earth"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 4
+      }
+    },
+    "level": 4,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!61043e6e01d2a0da"
+}

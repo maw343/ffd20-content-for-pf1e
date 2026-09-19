@@ -1,0 +1,76 @@
+{
+  "_id": "edf7415f4fccb02b",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Death",
+  "system": {
+    "actions": [
+      {
+        "_id": "7889a0966fedcc1e",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "5d6",
+              "types": [
+                "negative"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You gather the shadow elemental powers to summon, briefly, the Grim Reaper against your opponent.",
+      "value": "<p>You gather the shadow elemental powers to summon, briefly, the Grim Reaper against your opponent. The target of this spell must make a Fortitude save or his life is snuffed out. If the save is successful, the target suffers 5d6 points of shadow damage.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 9,
+        "necromancer": 9
+      }
+    },
+    "level": 9,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!edf7415f4fccb02b"
+}

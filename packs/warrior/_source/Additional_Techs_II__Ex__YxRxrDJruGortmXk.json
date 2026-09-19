@@ -1,0 +1,27 @@
+{
+  "_id": "YxRxrDJruGortmXk",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_12.jpg",
+  "name": "Additional Techs II (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 5th level, the warrior can make use of the following warrior techniques:</p><ul><li><strong>Reliable Strike (Ex):</strong> Once per round as a free action, even outside of his turn, the warrior can spend 1 stamina to immediately reroll the last attack roll he just made with a weapon from his chosen weapon group, this must be done after the roll is made but before the outcome is known.</li><li><strong>Resolute Act (Ex):</strong> As a free action, the warrior can add a +2 competence bonus to a skill check by spending 1 stamina. At 9th level, and every 4 warrior levels thereafter, this competence bonus increases by +1 (to a maximum of +5 at 17th level). The warrior can use this ability after a skill check is rolled, but before the results are revealed.</li><li><strong>Rush (Ex):</strong> The warrior can charge at an enemy as a full-round action by spending 1 stamina, if his attack hits, he may make a free Bull Rush attempt that adds +1 for every 5 feet he moved towards his target.</li></ul>"
+    },
+    "tag": "additionaltechsii",
+    "source": "Final Fantasy d20 - Warrior",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          5
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!YxRxrDJruGortmXk"
+}

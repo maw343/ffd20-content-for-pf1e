@@ -1,0 +1,66 @@
+{
+  "_id": "f262394c4763e387",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Sluggish Movement",
+  "system": {
+    "actions": [
+      {
+        "_id": "0ad76f81c92908ed",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "20 ft"
+        },
+        "area": "20-ft.-radius burst centered on you",
+        "duration": {
+          "units": "round",
+          "value": "1 round"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Any creature with 5 Hit Dice or less is slowed for 1 round",
+      "value": "<p>Any creature with 5 Hit Dice or less is slowed for 1 round. Creatures beyond the radius of the burst are not slowed. An affected creature under the effect of a haste spell has the haste spell suppressed (not dispelled) for 1 round.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 1
+      }
+    },
+    "level": 1,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f262394c4763e387"
+}

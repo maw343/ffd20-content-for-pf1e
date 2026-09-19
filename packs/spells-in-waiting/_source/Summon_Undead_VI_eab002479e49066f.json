@@ -1,0 +1,55 @@
+{
+  "_id": "eab002479e49066f",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Summon Undead VI",
+  "system": {
+    "actions": [
+      {
+        "_id": "da90cfa2fd3cffc4",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Summon Undead I , except that you can summon a creature of the undead type with a CR rating of 8 or lower, 1d3 ...",
+      "value": "<p>This spell functions like Summon Undead I , except that you can summon a creature of the undead type with a CR rating of 8 or lower, 1d3 5th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!eab002479e49066f"
+}

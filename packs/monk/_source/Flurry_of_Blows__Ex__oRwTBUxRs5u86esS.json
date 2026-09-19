@@ -1,0 +1,27 @@
+{
+  "_id": "oRwTBUxRs5u86esS",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_12.jpg",
+  "name": "Flurry of Blows (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 1st level, a monk can make a flurry of blows as a full-attack action. When making a flurry of blows, the monk can make one additional attack at his highest base attack bonus. This additional attack stacks with the bonus attacks from Haste and other similar effects. When using this ability, the monk can make these attacks with any combination of his unarmed strikes and weapons that have the monk special weapon quality.</p><p>He takes no penalty for using multiple weapons when making a flurry of blows, but he does not gain any additional attacks beyond what's already granted by the flurry for doing so. (He can still gain additional attacks from a high base attack bonus, from this ability, and from Haste and similar effects).</p><p>At 11th level, a monk can make an additional attack at his highest base attack bonus whenever he makes a flurry of blows. This stacks with the first attack from this ability and additional attacks from Haste and similar effects.</p>"
+    },
+    "tag": "flurryofblows",
+    "source": "Final Fantasy d20 - Monk",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          1
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!oRwTBUxRs5u86esS"
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "e5a496a5641657d1",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Silent Object",
+  "system": {
+    "actions": [
+      {
+        "_id": "15919cb9fa1be01b",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "area": "20-ft.-radius emanation centered on a touched object",
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true
+    },
+    "description": {
+      "summary": "Upon the casting of this spell, complete silence prevails in the affected area of the object.",
+      "value": "<p>Upon the casting of this spell, complete silence prevails in the affected area of the object. All sound is stopped: Conversation is impossible, spells with verbal components cannot be cast, and no noise whatsoever issues from, enters, or passes through the area. Creatures in an area of a\nsilence object\nspell are immune to sonic or language-based attacks, spells, and effects.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 4,
+        "illusionist": 2,
+        "whitemage": 4
+      }
+    },
+    "level": 2,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "glamer"
+    ],
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!e5a496a5641657d1"
+}

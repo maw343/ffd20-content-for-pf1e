@@ -1,0 +1,87 @@
+{
+  "_id": "6BamKxxosemQ9F0v",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "folder": "RWSoA7Fj9yqo0y9U",
+  "img": "systems/pf1/icons/races/human.jpg",
+  "name": "Yagudo",
+  "system": {
+    "changes": [
+      {
+        "formula": "2",
+        "target": "dex",
+        "type": "racial",
+        "_id": "ytebs48g"
+      },
+      {
+        "formula": "2",
+        "target": "wis",
+        "type": "racial",
+        "_id": "1er08znr"
+      },
+      {
+        "formula": "-2",
+        "target": "con",
+        "type": "racial",
+        "_id": "2v928a1u"
+      },
+      {
+        "formula": "1",
+        "target": "ac",
+        "type": "racial",
+        "_id": "su2a4owl"
+      }
+    ],
+    "contextNotes": [
+      {
+        "target": "skill.lin",
+        "text": "+[[4]] Racial (Valiant Linguist)"
+      },
+      {
+        "target": "skill.kre",
+        "text": "+[[2]] Racial +1 per 5 ranks (Zealot Devotee)"
+      }
+    ],
+    "creatureSubtypes": [
+      "yagudo"
+    ],
+    "creatureTypes": [
+      "humanoid"
+    ],
+    "description": {
+      "value": "<p>The yagudos are a race of crow-like bipeds inhabiting the continent of Mindartia, violently devout and ritualistic, organized under a strict religious hierarchy.</p><h2>Standard Racial Traits</h2><ul><li><strong>Ability Score Modifiers</strong>: Yagudos gain +2 Dexterity, +2 Wisdom, and -2 Constitution.</li><li><strong>Size</strong>: Yagudos are Medium creatures.</li><li><strong>Type</strong>: Yagudos are Humanoid creatures with the yagudo subtype.</li><li><strong>Base Speed</strong>: Yagudos have a base speed of 30 feet.</li><li><strong>Languages</strong>: Yagudos begin play speaking Common and their own dialect of Yagudo. Yagudos with high Intelligence scores can choose any language as a bonus language.</li></ul><h3>Defense Racial Traits</h3><ul><li><strong>Feathers of Gale</strong>: Yagudos gain a +1 natural armor bonus.</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Stalker</strong>: Perception and Stealth are always class skills for yagudo.</li><li><strong>Valiant Linguist</strong>: Yagudos gain a +4 racial bonus on Linguistics checks, and learn 2 languages each time they gain a rank in Linguistics.</li><li><strong>Zealot Devotee</strong>: Yagudos gain a +2 to all Knowledge (Religion) checks and an additional +1 per 5 ranks in the skill.</li></ul><h3>Offense Racial Traits</h3><ul><li><strong>Biting Is the Last Resort</strong>: Yagudos possess a bite natural attack dealing 1d4 points of damage.</li><li><strong>Swordtrained</strong>: Yagudo are automatically proficient with swordlike weapons (scizores, cutlasses, daggers, falchions, greatswords, kukris, longswords, punching daggers, rapiers, scimitars, short swords, and sword canes).</li></ul><h3>Senses Racial Traits</h3><ul><li><strong>Low-Light Vision</strong>: A yagudo can see twice as far as a hume in dim light.</li></ul>"
+    },
+    "languages": [
+      "common"
+    ],
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "Beastman Tribes"
+      }
+    ],
+    "speeds": {
+      "land": 30
+    },
+    "tags": [
+      "Beastman"
+    ],
+    "weaponProf": [
+      "Scizore",
+      "Cutlass",
+      "Dagger",
+      "Falchion",
+      "Kukri",
+      "Longsword",
+      "Punching Dagger",
+      "Rapier",
+      "Scimitar",
+      "Short Sword",
+      "Sword Cane"
+    ]
+  },
+  "type": "race",
+  "effects": [],
+  "_key": "!items!6BamKxxosemQ9F0v"
+}

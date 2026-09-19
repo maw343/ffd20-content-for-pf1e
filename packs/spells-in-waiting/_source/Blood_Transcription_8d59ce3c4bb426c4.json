@@ -1,0 +1,62 @@
+{
+  "_id": "8d59ce3c4bb426c4",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Blood Transcription",
+  "system": {
+    "actions": [
+      {
+        "_id": "06088f08486bdbed",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "one dead spellcaster"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "24 hours"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "By consuming 1 pint of blood from a spellcaster killed within the last 24 hours, you can attempt to learn a spell that spellcaster knew",
+      "value": "<p>By consuming 1 pint of blood from a spellcaster killed within the last 24 hours, you can attempt to learn a spell that spellcaster knew. Select one spell available to the dead spellcaster (this must be a spell on your class’s spell list); you gain the knowledge of this spell for 24 hours. During this time, you may write it down using the normal rules for scribe scroll . Once you have learned it, you may cast the spell normally.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "necromancer": 2
+      }
+    },
+    "level": 2,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!8d59ce3c4bb426c4"
+}

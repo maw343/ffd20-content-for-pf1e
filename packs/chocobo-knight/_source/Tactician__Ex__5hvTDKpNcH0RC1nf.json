@@ -1,0 +1,61 @@
+{
+  "_id": "5hvTDKpNcH0RC1nf",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785716207583,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_35.jpg",
+  "name": "Tactician (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The chocobo knight gains a teamwork feat he qualifies for as a bonus feat. As a standard action, he may grant one teamwork feat he possesses to all allies that see or hear him (limited to within 60ft if there are more than 10 allies). Allies gain the benefit of the granted feat even if they don't meet its prerequisites/requirements, lasting until the end of combat. This talent is usable times per day equal to (1, +1 per five chocobo knight levels).</p><p><strong>Special:</strong> This talent may be taken more than once - copies of it simply grant a teamwork feat and 1 extra use per day.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "tactician",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Chocobo Knight",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Chocobo Knight - Mounted Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!5hvTDKpNcH0RC1nf"
+}

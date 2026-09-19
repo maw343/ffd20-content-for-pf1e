@@ -1,0 +1,83 @@
+{
+  "_id": "4b4ffacc3254a54e",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Elemental Assessor",
+  "system": {
+    "actions": [
+      {
+        "_id": "645213ed07c152d9",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "rsak",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one elemental ray"
+        },
+        "duration": {
+          "units": "spec",
+          "value": "1d4+1 rounds (see text)"
+        },
+        "ability": {
+          "attack": "dex",
+          "critMult": 2,
+          "critRange": 20
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "2d6",
+              "types": [
+                "earth"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "A ray of spiraling colors springs from your hand and streaks to its target",
+      "value": "<p>A ray of spiraling colors springs from your hand and streaks to its target. You must make a successful ranged touch attack to hit your target with the ray, which deals 2d6 points of earth damage, 2d6 points of fire damage, 2d6 points of ice damage, and 2d6 points of lightning damage. The type of energy that does the most points of damage to the target then persists, dealing another 4d6 points of that type of damage per round for 1d4+1 rounds.</p>"
+    },
+    "descriptors": [
+      "fire",
+      "earth"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 6,
+        "geomancer": 6
+      }
+    },
+    "level": 6,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!4b4ffacc3254a54e"
+}

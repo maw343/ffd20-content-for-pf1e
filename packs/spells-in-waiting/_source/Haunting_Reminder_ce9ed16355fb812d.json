@@ -1,0 +1,69 @@
+{
+  "_id": "ce9ed16355fb812d",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Haunting Reminder",
+  "system": {
+    "actions": [
+      {
+        "_id": "c1c3f9d495688747",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "12 hours + 2 hours/level or until triggered, then 1 day/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "As part of casting this spell, you can attempt a single Intimidate check to make the target act friendly to you",
+      "value": "<p>As part of casting this spell, you can attempt a single Intimidate check to make the target act friendly to you. If you succeed, the target assists you normally, but it remains fearful of your retribution even after its attitude shifts to unfriendly. If the creature reports your coercion to authorities, attacks you, or otherwise acts in a purposeful way that threatens you or your objectives (at the GM’s discretion), the spell triggers, inflicting the creature with the unshakable certainty that you will find and punish it. This imposes the shaken condition on the creature for 1 day per caster level; during this time, the creature takes a -2 penalty on saving throws against spells you cast with the fear descriptor.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "darkknight": 1,
+        "illusionist": 2
+      }
+    },
+    "level": 1,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!ce9ed16355fb812d"
+}

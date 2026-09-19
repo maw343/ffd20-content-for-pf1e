@@ -1,0 +1,50 @@
+{
+  "_id": "YxT2MxH0qXHCLCmB",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Riot Brutality",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Shinsect Riot Style, Riot Takedown, Improved Grapple</p><p><strong>Benefit:</strong> When you succeed at grappling or pinning a creature with Riot Takedown, you can spend an attack of opportunity in order to slam them into the ground or into an adjacent, unattended surface or object, dealing bludgeoning damage to both the creature and the object or surface.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "style",
+    "tag": "riot_brutality",
+    "requirements": "Shinsect Riot Style, Riot Takedown, Improved Grapple",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-StyleFeats",
+        "pages": "Style Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!YxT2MxH0qXHCLCmB"
+}

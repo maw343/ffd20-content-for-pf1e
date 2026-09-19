@@ -1,0 +1,58 @@
+{
+  "_id": "8777430b1f83b571",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Slidestream",
+  "system": {
+    "actions": [
+      {
+        "_id": "f39fcdf4b313a879",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "1 hour/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Slidestream allows you to walk the line between dimensions to travel quickly",
+      "value": "<p>Slidestream allows you to walk the line between dimensions to travel quickly. You and any creature you touch are then shifted along the borders of reality. This functions as a shadow walk spell, except as noted here, and you cannot use it to travel to other planes.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 6
+      }
+    },
+    "level": 6,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!8777430b1f83b571"
+}

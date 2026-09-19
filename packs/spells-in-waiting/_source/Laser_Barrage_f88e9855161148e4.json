@@ -1,0 +1,77 @@
+{
+  "_id": "f88e9855161148e4",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Laser Barrage",
+  "system": {
+    "actions": [
+      {
+        "_id": "30f1c3a05b5a08f2",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "60 ft"
+        },
+        "area": "60-ft.-cone",
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "5d10",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You mimic a deathmask’s ability to unleash a hail of lasers upon its foes",
+      "value": "<p>You mimic a deathmask’s ability to unleash a hail of lasers upon its foes. For each enemy within a 60 ft. cone, roll 1d4; the number rolled is how many times they take the 5d10 non-elemental damage. After the total damage is rolled, the affected creature makes a Reflex save for half damage. Learned From Deathmask and Ser Noudenet.</p>"
+    },
+    "descriptors": [
+      "death"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 8
+      }
+    },
+    "level": 8,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f88e9855161148e4"
+}

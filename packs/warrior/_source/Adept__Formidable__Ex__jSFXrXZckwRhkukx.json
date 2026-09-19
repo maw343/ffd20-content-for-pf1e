@@ -1,0 +1,27 @@
+{
+  "_id": "jSFXrXZckwRhkukx",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_13.jpg",
+  "name": "Adept: Formidable (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Chosen Weapon class feature</p><p>The warrior adds his chosen weapon bonus to Intimidate checks. He can atttempt Intimidate checks to Demoralize or Antagonize as a move action. He gains the Dazzling Display feat ignoring its prerequisites, becoming able to use it with his chosen weapon. He may additionally use Dazzling Display as a standard action, or as a free action usable outside of his turn after rendering an opponent unconscious or bringing it below 0 hit points.</p>"
+    },
+    "tag": "adeptformidable",
+    "source": "Final Fantasy d20 - Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!jSFXrXZckwRhkukx"
+}

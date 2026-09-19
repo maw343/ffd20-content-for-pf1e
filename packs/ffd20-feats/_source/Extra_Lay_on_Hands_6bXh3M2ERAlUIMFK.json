@@ -1,0 +1,50 @@
+{
+  "_id": "6bXh3M2ERAlUIMFK",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Extra Lay on Hands",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Lay on Hands class feature</p><p><strong>Benefit:</strong> You can use your lay on hands ability two additional times per day.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "classFeat",
+    "tag": "extra_lay_on_hands",
+    "requirements": "Lay on Hands class feature",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-ClassFeats",
+        "pages": "Class Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!6bXh3M2ERAlUIMFK"
+}

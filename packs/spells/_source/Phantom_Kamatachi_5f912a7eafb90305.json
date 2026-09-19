@@ -1,0 +1,78 @@
+{
+  "_id": "5f912a7eafb90305",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Phantom Kamatachi",
+  "system": {
+    "actions": [
+      {
+        "_id": "d0510ae0dbf7191d",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "area": "20-ft.-radius",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1 round/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 10))d6",
+              "types": [
+                "wind"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You send a mirage of yourself forward that explodes into slicing wind, dealing 1d6 wind damage per caster level (Max 10d6) and you gain t...",
+      "value": "<p>You send a mirage of yourself forward that explodes into slicing wind, dealing 1d6 wind damage per caster level (Max 10d6) and you gain the effects of Vanish for 1 round per caster level (Max 5). A Reflex save can half this damage.</p>"
+    },
+    "descriptors": [
+      "wind"
+    ],
+    "learnedAt": {
+      "class": {
+        "ninja": 3
+      }
+    },
+    "level": 3,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!5f912a7eafb90305"
+}

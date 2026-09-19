@@ -1,0 +1,66 @@
+{
+  "_id": "e60a32a9106f301c",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Engulf",
+  "system": {
+    "actions": [
+      {
+        "_id": "d2d94ce1de36422c",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "effect": "one creature afflicted with Drenched status effect",
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates (Object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The target for this spell requires the Drenched status effect to be in effect.",
+      "value": "<p>The target for this spell requires the Drenched status effect to be in effect. Once you cast this spell, the Drenched status effect is removed and the creature is surrounded by a globe of swirling water, taking water damage equal to your caster level (maximum 5) plus your Intelligence modifier per round until freed. While trapped in a globe of swirling water, the target is considered entangled. The target can break free by spending 1 round and making a DC 15 Swim check to swim free.</p>"
+    },
+    "descriptors": [
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 1
+      }
+    },
+    "level": 1,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!e60a32a9106f301c"
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "LFzcwBGKorSsldZB",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Brutish Combat (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Str 15, Spell Combat class feature</p><p>The red mage may use the spell combat ability with two-handed weapons. Taking his hand off of a weapon and taking hold of it again with two hands are both free actions that can be done as part of the full attack to cast his spell as part of the spell combat ability. However, the red mage takes an additional -2 penalty to attack rolls when doing so, and his full attack ends after he casts the spell, even if he would normally have more attacks to make.</p>"
+    },
+    "tag": "brutishcombatex",
+    "source": "Final Fantasy d20 - Red Mage (Ruby Talents)"
+  },
+  "effects": [],
+  "_key": "!items!LFzcwBGKorSsldZB"
+}

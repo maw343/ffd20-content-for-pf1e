@@ -1,0 +1,68 @@
+{
+  "_id": "jvirO1I2r16jPjBT",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "folder": "RWSoA7Fj9yqo0y9U",
+  "img": "systems/pf1/icons/races/human.jpg",
+  "name": "Moomba",
+  "system": {
+    "changes": [
+      {
+        "formula": "2",
+        "target": "con",
+        "type": "racial",
+        "_id": "gcba92i9"
+      },
+      {
+        "formula": "2",
+        "target": "cha",
+        "type": "racial",
+        "_id": "w6gffdbe"
+      },
+      {
+        "formula": "-2",
+        "target": "int",
+        "type": "racial",
+        "_id": "3cv8j1bx"
+      }
+    ],
+    "contextNotes": [
+      {
+        "target": "cmd",
+        "text": "+[[4]] Racial vs Bull Rush or Trip"
+      },
+      {
+        "target": "skill.dip",
+        "text": "+[[4]] with Moogles and Chocobos"
+      }
+    ],
+    "creatureSubtypes": [
+      "moomba"
+    ],
+    "creatureTypes": [
+      "monstrousHumanoid"
+    ],
+    "description": {
+      "value": "<p>Moombas are cute bipedal/quadrupedal lion-like creatures with opposable thumbs, the final stage in the life cycle of a shumi.</p><h2>Standard Racial Traits</h2><ul><li><strong>Ability Score Modifiers</strong>: Moombas gain +2 Constitution, +2 Charisma and -2 Intelligence.</li><li><strong>Size</strong>: Moombas are Small creatures.</li><li><strong>Type</strong>: Moombas are Monstrous Humanoid creatures with a moomba subtype.</li><li><strong>Base Speed</strong>: Moombas have a base speed of 40 feet.</li><li><strong>Languages</strong>: Moombas cannot fully speak any language, communicating through body language. They begin play understanding Common, and with high Intelligence may choose Undercommon or moogle.</li></ul><h3>Defense Racial Traits</h3><ul><li><strong>Desert Runner</strong>: Moombas receive a +4 racial bonus on Constitution checks and Fortitude saves to avoid fatigue and exhaustion.</li><li><strong>Stability</strong>: Moombas receive a +4 racial bonus to their CMD when resisting bull rush or trip attempts while standing on the ground.</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Choco / Mog buddies</strong>: Moombas gain a +4 bonus on Diplomacy, Bluff, Wild Empathy, and Ride checks with moogles/chocobos.</li><li><strong>Prehensile Tail</strong>: Moombas can retrieve small, stowed objects as a swift action with their tail.</li></ul><h3>Offense Racial Traits</h3><ul><li><strong>Bite</strong>: Moombas have a natural bite attack, dealing 1d3 points of damage.</li><li><strong>Claws</strong>: Moombas receive two claw attacks that deal 1d3 points of damage.</li><li><strong>Slapping Tail</strong>: Moombas have a tail attack of opportunity with 5-foot reach, dealing 1d4 plus Strength modifier.</li></ul><h3>Senses Racial Traits</h3><ul><li><strong>Darkvision</strong>: Moombas have darkvision with a range of 60 feet.</li></ul><h3>Weakness Racial Traits</h3><ul><li><strong>Broken Language</strong>: Moombas take a -4 penalty on Diplomacy except against moombas, shumi, moogles, and chocobos.</li><li><strong>Vocal Failure</strong>: Casting spells with vocal components requires a Linguistics check (DC 15 + double spell level) or the spell is lost.</li></ul>"
+    },
+    "languages": [
+      "common"
+    ],
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "Base Races"
+      }
+    ],
+    "speeds": {
+      "land": 40
+    },
+    "tags": [
+      "Base"
+    ]
+  },
+  "type": "race",
+  "effects": [],
+  "_key": "!items!jvirO1I2r16jPjBT"
+}

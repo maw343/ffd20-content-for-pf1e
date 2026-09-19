@@ -1,0 +1,61 @@
+{
+  "_id": "5b07c165f26ebe6e",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Chameleon Scales",
+  "system": {
+    "actions": [
+      {
+        "_id": "e141f604903a8418",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "10 minutes/level  DESCRIPTION You temporarily alter the color of your skin, hide, or scales to another option legal for your race. You take no penalty for using Disguise to appear as a member of a different race as long as that race has the same type and color of skin, hide, or scales as you."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You temporarily alter the color of your skin, hide, or scales to another option legal for your race",
+      "value": "<p>You temporarily alter the color of your skin, hide, or scales to another option legal for your race. You take no penalty for using Disguise to appear as a member of a different race as long as that race has the same type and color of skin, hide, or scales as you.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "druid": 0
+      }
+    },
+    "level": 0,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!5b07c165f26ebe6e"
+}

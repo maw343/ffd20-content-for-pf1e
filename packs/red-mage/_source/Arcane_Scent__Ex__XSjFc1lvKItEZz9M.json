@@ -1,0 +1,19 @@
+{
+  "_id": "XSjFc1lvKItEZz9M",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Arcane Scent (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The red mage can sniff out other spellcasters. By spending 1 point from his arcane pool, the red mage gains the scent special quality for 1 hour per red mage level. This scent can only detect creatures capable of casting spells or using spell-like abilities. Additionally, while this effect persists, the red mage can attempt a Spellcraft check as a move action to determine the highest level spell a detected creature is capable of casting (DC 10 + the creature's caster level). The red mage can only attempt this Spellcraft check once per creature per 24 hours.</p>"
+    },
+    "tag": "arcanescentex",
+    "source": "Final Fantasy d20 - Red Mage (Ruby Arcana)"
+  },
+  "effects": [],
+  "_key": "!items!XSjFc1lvKItEZz9M"
+}

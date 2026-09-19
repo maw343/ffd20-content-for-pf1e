@@ -1,0 +1,27 @@
+{
+  "_id": "Q8EGTIm7r785QHow",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Spell Combat (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>A red mage learns to cast spells and wield his weapons at the same time. This functions much like two-weapon fighting, but the off-hand weapon is a spell being cast. He must have one hand free while wielding a light or one-handed melee weapon in the other.</p><p>As a full-round action, he can make all of his attacks with his melee weapon at a -2 penalty and can also cast any spell from his red mage spell list with a casting time of 1 standard action (any attack roll made as part of this spell also takes this penalty). If he casts this spell defensively, he can take an additional penalty on his attack rolls, up to his Charisma bonus, and add the same amount as a circumstance bonus on his Concentration check. If the check fails, the spell is wasted, but the attacks still take the penalty. A red mage can cast the spell first or make weapon attacks first, but cannot cast the spell between weapon attacks if he has more than one attack. This ability applies only to spells cast as a red mage.</p>"
+    },
+    "tag": "spellcombat",
+    "source": "Final Fantasy d20 - Red Mage",
+    "associations": {
+      "classes": [
+        [
+          "Red Mage",
+          1
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!Q8EGTIm7r785QHow"
+}

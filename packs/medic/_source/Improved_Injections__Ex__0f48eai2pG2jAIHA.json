@@ -1,0 +1,58 @@
+{
+  "_id": "0f48eai2pG2jAIHA",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Improved Injections (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>Beginning at 10th level, the medic's knowledge of medical injections improves. Adrenaline Shot also grants an additional attack with a -2 penalty on all attack rolls. Feline Vision also gains Darkvision (60 feet) and now grants a +8 competence bonus to Perception checks. Mental Boost now grants a +4 alchemical bonus to Int/Wis/Cha. Physical Boost now grants a +4 alchemical bonus to Str/Dex/Con. Regenerative Serum now grants Fast Healing 4.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "improved_injections_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Medic"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Medic",
+          10
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!0f48eai2pG2jAIHA"
+}

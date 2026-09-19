@@ -1,0 +1,66 @@
+{
+  "_id": "b65ca0dabadb7595",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Blizzard II",
+  "system": {
+    "actions": [
+      {
+        "_id": "4c349e3e4b4e1768",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "3d6 + @spells.primary.abilityMod + min(@spells.primary.cl.total,10)",
+              "types": [
+                "cold"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Blizzard , except it deals 3d6 points of ice damage + your casting modifier (Intelligence, Wisdom, or Charisma) + 1 point per caster level (maximum +10) and inflicts the Frozen status effect for 1d6 rounds.",
+      "value": "<p>This spell functions like\nBlizzard\n, except it deals 3d6 points of ice damage + your casting modifier (Intelligence, Wisdom, or Charisma) + 1 point per caster level (maximum +10) and inflicts the Frozen status effect for 1d6 rounds. A successful Fortitude save prevents the status effect from taking effect.</p>"
+    },
+    "descriptors": [
+      "ice"
+    ],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!b65ca0dabadb7595"
+}

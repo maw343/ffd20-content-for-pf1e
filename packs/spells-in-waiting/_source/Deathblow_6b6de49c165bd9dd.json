@@ -1,0 +1,77 @@
+{
+  "_id": "6b6de49c165bd9dd",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Deathblow",
+  "system": {
+    "actions": [
+      {
+        "_id": "d07a9b76f31e6e5b",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "5d4",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude partial"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You call forth Choco/Mog, a unique duo of a moogle riding a chocobo that charges a single enemy",
+      "value": "<p>You call forth Choco/Mog, a unique duo of a moogle riding a chocobo that charges a single enemy. The target takes 5d4 points of non-elemental damage and must make a Fortitude save or be stunned for 1 round.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "summoner": 2
+      }
+    },
+    "level": 2,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!6b6de49c165bd9dd"
+}

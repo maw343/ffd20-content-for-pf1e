@@ -1,0 +1,56 @@
+{
+  "_id": "dRkxrO3XKYP4oQph",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Shadow Wall (Su)",
+  "system": {
+    "description": {
+      "value": "<p>Swift action while in Grit Stance: doubles DR and damage penalty for a number of rounds equal to Cha modifier, up to 3/day.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "tag": "shadow_wall",
+    "associations": {
+      "classes": [
+        {
+          "name": "Dark Knight",
+          "level": 15
+        }
+      ]
+    },
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Dark Knight"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!dRkxrO3XKYP4oQph"
+}

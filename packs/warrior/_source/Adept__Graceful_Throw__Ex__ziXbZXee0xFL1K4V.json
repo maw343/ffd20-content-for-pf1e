@@ -1,0 +1,27 @@
+{
+  "_id": "ziXbZXee0xFL1K4V",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_14.jpg",
+  "name": "Adept: Graceful Throw (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Chosen Weapon class feature</p><p>When the warrior makes a ranged attack with a thrown weapon he is proficient with and applies his Dexterity modifier on attack rolls and his Strength modifier on the damage roll, he doubles his chosen weapon bonus on the damage roll.</p>"
+    },
+    "tag": "adeptgracefulthrow",
+    "source": "Final Fantasy d20 - Advanced Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          12
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!ziXbZXee0xFL1K4V"
+}

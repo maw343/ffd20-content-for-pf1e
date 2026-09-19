@@ -1,0 +1,27 @@
+{
+  "_id": "PGaGjhSBrjx7ey20",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Bodily Wisdom (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Martial Wisdom class feature</p><p>You may use your Constitution score instead of your Wisdom score for the purposes of meeting the prerequisites of style feats, combat feats that have a style feat listed as a prerequisite, and the Stunning Fist feat.</p>"
+    },
+    "tag": "bodilywisdom",
+    "source": "Final Fantasy d20 - Monk Talents",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!PGaGjhSBrjx7ey20"
+}

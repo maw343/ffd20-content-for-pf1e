@@ -1,0 +1,67 @@
+{
+  "_id": "91597e3a50024816",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Winter Feathers",
+  "system": {
+    "actions": [
+      {
+        "_id": "198b22ae2fe64171",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "feathered creature touched"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "24 hour"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The target’s feathers thicken and fluff up to ward against winter’s chill.",
+      "value": "<p>The target’s feathers thicken and fluff up to ward against winter’s chill. The target suffers no harm from being in a cold environment, and can exist comfortably in conditions as low as –50 degrees Fahrenheit without having to make Fortitude saves. The creature’s equipment is likewise protected. This spell doesn’t provide any protection from cold damage, nor does it protect against other environmental hazards associated with cold weather (such as slipping on ice, blindness from snow, and so on).\nWhen you cast this spell, you may have the target’s feathers turn white for the duration, granting it a +4 circumstance bonus on Stealth checks to hide in ice and snow.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "druid": 1,
+        "whitemage": 1
+      }
+    },
+    "level": 1,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!91597e3a50024816"
+}

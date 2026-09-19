@@ -1,0 +1,79 @@
+{
+  "_id": "3729e00acec14f89",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Meteor",
+  "system": {
+    "actions": [
+      {
+        "_id": "13afa926ac5b4e51",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "area": "80-ft.-radius burst spread",
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "15d10",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You summon forth a massive meteor that comes crashing down from the heavens, incinerating those caught in its wake",
+      "value": "<p>You summon forth a massive meteor that comes crashing down from the heavens, incinerating those caught in its wake. Creatures within the area of effect take 15d10 points of damage (half in fire damage, the other half in earth damage), with creatures within the inner 20-ft.radius burst taking maximized damage and also reducing the Evasion class feature by one step (ie: Improved Evasion > Evasion > Nothing). A Reflex save is allowed for half damage. You must be in an outside environment to cast this spell.</p>"
+    },
+    "descriptors": [
+      "fire",
+      "earth"
+    ],
+    "learnedAt": {
+      "class": {
+        "astrologian": 9,
+        "timemage": 9
+      }
+    },
+    "level": 9,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!3729e00acec14f89"
+}

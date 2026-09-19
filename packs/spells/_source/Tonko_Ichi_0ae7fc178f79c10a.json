@@ -1,0 +1,61 @@
+{
+  "_id": "0ae7fc178f79c10a",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Tonko-Ichi",
+  "system": {
+    "actions": [
+      {
+        "_id": "fa7669b05bd1632c",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level (up to 5 rounds)  DESCRIPTION This ninjutsu functions like vanish , except the effect only lasts for 1 round per ninja level (maximum of 5 rounds). Like vanish, the ninjutsu immediately ends if the subject attacks any creature."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This ninjutsu functions like vanish , except the effect only lasts for 1 round per ninja level (maximum of 5 rounds)",
+      "value": "<p>This ninjutsu functions like vanish , except the effect only lasts for 1 round per ninja level (maximum of 5 rounds). Like vanish, the ninjutsu immediately ends if the subject attacks any creature.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "ninja": 1
+      }
+    },
+    "level": 1,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!0ae7fc178f79c10a"
+}

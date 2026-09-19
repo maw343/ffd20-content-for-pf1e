@@ -1,0 +1,65 @@
+{
+  "_id": "055ee2869191dbb1",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Planar Refuge",
+  "system": {
+    "actions": [
+      {
+        "_id": "5a74a3e4f9eed1aa",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "50-ft.-radius area of safe environment"
+        },
+        "duration": {
+          "units": "day",
+          "value": "1 day/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell enforces the rules of the Material Plane on other planes of existence",
+      "value": "<p>This spell enforces the rules of the Material Plane on other planes of existence. Upon casting this spell on another plane, a spherical pocket of wilderness terrain forms around the designated point. The affected area defies the local climate and planar traits, suppressing any harmful environmental effects such as toxicity, extreme temperatures, or lack of air (though this spell doesn’t affect gravity). The area also becomes lush with edible plants whose appearance, taste, and smell bear characteristics distinct to the environment. On a negative-dominant plane, for example, the plants grow ghastly white leaves and taste bitter. Though planar refuge can be cast on any plane of existence other than the Material Plane, it requires a body of solid matter at least as large as its area to function.</p>"
+    },
+    "descriptors": [
+      "negative"
+    ],
+    "learnedAt": {
+      "class": {
+        "druid": 7
+      }
+    },
+    "level": 7,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!055ee2869191dbb1"
+}

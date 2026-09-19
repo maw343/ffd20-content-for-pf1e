@@ -1,0 +1,62 @@
+{
+  "_id": "91d197e0e9918eec",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Hero's Defense",
+  "system": {
+    "actions": [
+      {
+        "_id": "afbd764a34c9fedf",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "heal",
+        "activation": {
+          "type": "immediate",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous DESCRIPTION The instant before you are reduced to 0 or fewer hit points, you can expend a use of your lay on hands ability to heal yourself as if you had used lay on hands, plus an additional 1d6 hit points. If this healing brings your hit point total above 0 hit points, you do not fall, and may continue to act. If you have no more uses of lay on hands this spell has no effect."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The instant before you are reduced to 0 or fewer hit points, you can expend a use of your lay on hands ability to heal yourself as if you...",
+      "value": "<p>The instant before you are reduced to 0 or fewer hit points, you can expend a use of your lay on hands ability to heal yourself as if you had used lay on hands, plus an additional 1d6 hit points. If this healing brings your hit point total above 0 hit points, you do not fall, and may continue to act. If you have no more uses of lay on hands this spell has no effect.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "paladin": 1
+      }
+    },
+    "level": 1,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!91d197e0e9918eec"
+}

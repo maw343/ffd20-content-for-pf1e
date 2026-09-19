@@ -1,0 +1,60 @@
+{
+  "_id": "579a345341618a09",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Fastidiousness",
+  "system": {
+    "actions": [
+      {
+        "_id": "77bb5b1e707ffc33",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "While protected by fastidiousness, your person and your equipment stay clean and dry.",
+      "value": "<p>While protected by fastidiousness, your person and your equipment stay clean and dry. Dust and moisture slough off immediately; even when you are completely soiled, your appearance reverts to a pristine state over the course of 1 minute.\nWhile this spell offers no protection against most attacks, staying constantly sanitary grants you a +2 circumstance bonus on Fortitude saving throws against inhaled and ingested diseases.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "druid": 1,
+        "whitemage": 1
+      }
+    },
+    "level": 1,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!579a345341618a09"
+}

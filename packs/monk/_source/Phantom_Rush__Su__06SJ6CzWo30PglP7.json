@@ -1,0 +1,27 @@
+{
+  "_id": "06SJ6CzWo30PglP7",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_14.jpg",
+  "name": "Phantom Rush (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Monk 6</p><p>Rush your target in a phantom-like blur, assaulting them with a barrage of blows. As a swift action, you empower your next charge against a target within 30 feet to not provoke attacks of opportunity from movement. Additionally, once you arrive at your target, you may perform a flurry of blows.</p>"
+    },
+    "tag": "phantomrush",
+    "source": "Final Fantasy d20 - Blitz Techniques",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          3
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!06SJ6CzWo30PglP7"
+}

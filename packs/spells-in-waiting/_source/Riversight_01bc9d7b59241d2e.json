@@ -1,0 +1,64 @@
+{
+  "_id": "01bc9d7b59241d2e",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Riversight",
+  "system": {
+    "actions": [
+      {
+        "_id": "dc3d3214b89e3dc2",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "non-magical freshwater waterway Effect magical sensor"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You can view events transpiring along a natural watercourse you touch",
+      "value": "<p>You can view events transpiring along a natural watercourse you touch. You can see anything on or within the river as if you were present at that location, or you can observe anything happening within 15 feet of the river’s banks as if peering from the water’s surface. Moving your point of view to a different location along the river is a standard action , though your perception can follow something moving along the river as a free action . The range of this spell is affected by whether you are attempting to gaze up or downriver—if viewing a location downriver, you can view any spot within 2 miles per caster level; if viewing upriver, you can view any spot within 1/2 mile per caster level. The magical sensor created by this spell can travel only as far along the river as your range and the river permits; obstructions such as dams and reservoirs halt the sensor, as does an estuary flowing into the sea or other body of saltwater.</p>"
+    },
+    "descriptors": [
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "druid": 2
+      }
+    },
+    "level": 2,
+    "school": "div",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!01bc9d7b59241d2e"
+}

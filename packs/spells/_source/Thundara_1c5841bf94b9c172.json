@@ -1,0 +1,76 @@
+{
+  "_id": "1c5841bf94b9c172",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Thundara",
+  "system": {
+    "actions": [
+      {
+        "_id": "7d6ac524c476dd5c",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "area": "20-ft.-radius spread",
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 10))d6",
+              "types": [
+                "electricity"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "A large bolt of lightning strikes the area and explodes dealing 1d6 points of lightning damage per caster level (maximum 10d6) to every creature within the area.",
+      "value": "<p>A large bolt of lightning strikes the area and explodes dealing 1d6 points of lightning damage per caster level (maximum 10d6) to every creature within the area.</p>"
+    },
+    "descriptors": [
+      "lightning"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 3,
+        "redmage": 3
+      }
+    },
+    "level": 3,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!1c5841bf94b9c172"
+}

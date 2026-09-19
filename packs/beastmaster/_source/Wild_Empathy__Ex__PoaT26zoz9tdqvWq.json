@@ -1,0 +1,27 @@
+{
+  "_id": "PoaT26zoz9tdqvWq",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_12.jpg",
+  "name": "Wild Empathy (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>A beastmaster can use body language, vocalizations and demeanor to improve the attitude of any creature of the animal, magical beast or vermin types. This ability functions just like a Diplomacy check made to improve a humanoid's attitude towards a character. Typically, domesticated creatures have a starting attitude of indifferent and wild creatures begin as unfriendly.</p><p>Magical beasts may only be influenced by a beastmaster's wild empathy if the creature's Intelligence score is 5 or less, and the beastmaster suffers a –4 penalty on any attempts to do so. The beastmaster rolls 1d20 + his beastmaster level + his Charisma modifier to determine the wild empathy check result.</p><p>To use wild empathy, the beastmaster and the creature must be able to study each other, which mean they must be within 30 feet of one another. A standard attempt to make a wild empathy check requires 1 minute, but as with influencing people, circumstances may require that the process take more or less time.</p>"
+    },
+    "tag": "wildempathy",
+    "source": "Final Fantasy d20 - Beastmaster",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          1
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!PoaT26zoz9tdqvWq"
+}

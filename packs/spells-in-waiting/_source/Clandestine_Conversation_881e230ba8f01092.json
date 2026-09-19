@@ -1,0 +1,62 @@
+{
+  "_id": "881e230ba8f01092",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Clandestine Conversation",
+  "system": {
+    "actions": [
+      {
+        "_id": "1c54d0a4d573014f",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "two creatures"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "10 minutes/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The targets can converse without anyone overhearing what they are saying",
+      "value": "<p>The targets can converse without anyone overhearing what they are saying. Creatures who can read lips might still be able to determine what is said, but no Perception check can possibly allow one to overhear the conversation. While under the effect of this spell, a target creature can speak to someone not affected by this spell, but everyone can hear that conversation normally. Only when one target creature speaks to the other target creature does the conversation remain private.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 0
+      }
+    },
+    "level": 0,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!881e230ba8f01092"
+}

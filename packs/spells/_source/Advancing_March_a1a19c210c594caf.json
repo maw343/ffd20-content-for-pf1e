@@ -1,0 +1,68 @@
+{
+  "_id": "a1a19c210c594caf",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Advancing March",
+  "system": {
+    "actions": [
+      {
+        "_id": "e557f6eeba75be81",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "all allies within 30 ft. of you"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round",
+          "concentration": true
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You play a rousing march song, inspiring your allies to move and attack faster.",
+      "value": "<p>You play a rousing march song, inspiring your allies to move and attack faster. Each round this song is in effect, allies within 30 feet of the bard gain the\nHasted\nstatus effect.\nHasted: This status effect grants the character a +1 bonus to Attack rolls, +1 bonus to Reflex saves, +30 foot movement, and an extra attack if the subject uses a full-attack option. Haste counters and dispels slow.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bard": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a1a19c210c594caf"
+}

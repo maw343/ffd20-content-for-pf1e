@@ -1,0 +1,27 @@
+{
+  "_id": "KjzmTdWINfjjAgSv",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Flexible Flanker (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>You may choose any square adjacent to you and treat that square as your location for determining who you are flanking, even if that square is occupied by a creature, object, or solid barrier.</p>"
+    },
+    "tag": "flexibleflanker",
+    "source": "Final Fantasy d20 - Dragoon Talents",
+    "associations": {
+      "classes": [
+        [
+          "Dragoon",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!KjzmTdWINfjjAgSv"
+}

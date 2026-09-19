@@ -1,0 +1,80 @@
+{
+  "_id": "dab8a13d74be3494",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Fire Maw",
+  "system": {
+    "actions": [
+      {
+        "_id": "5ff79ae0b3dd967e",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "your animal companion"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d4",
+              "types": [
+                "fire"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Your animal companion’s bite attack deals an additional 1d4 points of fire damage, and the fire deals another 1d4 points of fire damage t...",
+      "value": "<p>Your animal companion’s bite attack deals an additional 1d4 points of fire damage, and the fire deals another 1d4 points of fire damage to the target on the next round. The fire continues to deal damage for 1 additional round per 4 caster levels (to a maximum of 6 total rounds at caster level 20th). This ongoing fire damage doesn’t stack from multiple attacks, but the duration resets if a newer bite would cause the ongoing damage to last longer than the duration remaining from a previous one. The fire does not harm the animal companion.</p>"
+    },
+    "descriptors": [
+      "fire"
+    ],
+    "learnedAt": {
+      "class": {
+        "druid": 1
+      }
+    },
+    "level": 1,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!dab8a13d74be3494"
+}

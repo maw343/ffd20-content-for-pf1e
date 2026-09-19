@@ -1,0 +1,19 @@
+{
+  "name": "Level 10",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "ndlEwaWT0W0yaiT5",
+  "sort": 1300000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "11.315",
+    "createdTime": 1745009581518,
+    "modifiedTime": 1745027590979,
+    "lastModifiedBy": "KJytU1RQudYSFJXl"
+  },
+  "_key": "!folders!ndlEwaWT0W0yaiT5"
+}

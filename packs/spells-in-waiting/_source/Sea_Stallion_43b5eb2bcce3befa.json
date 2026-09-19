@@ -1,0 +1,55 @@
+{
+  "_id": "43b5eb2bcce3befa",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Sea Stallion",
+  "system": {
+    "actions": [
+      {
+        "_id": "7bf38d02500a261c",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions as sea steed , but as long as you stay mounted on the target, you also gain the amphibious quality and your melee at...",
+      "value": "<p>This spell functions as sea steed , but as long as you stay mounted on the target, you also gain the amphibious quality and your melee attacks function as if you were under the effect of freedom of movement. the benefits you gain from this spell are not polymorph effects. If you dismount from the target, you retain the amphibious quality for up to 1 minute, but not the other benefits. You regain all of the benefits once you mount the target creature again.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!43b5eb2bcce3befa"
+}

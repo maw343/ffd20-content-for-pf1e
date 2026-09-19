@@ -1,0 +1,61 @@
+{
+  "_id": "9aa35a1bfd4044f9",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785719681670,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Forester (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Favored Terrain (forests) class feature</p><p>The geomancer ignores difficult terrain created by light or heavy undergrowth, and she ignores increased DCs for Acrobatics and Stealth checks in light or heavy undergrowth. In addition, she can use trees to shield herself from attacks, gaining a +1 cover bonus to her AC whenever she is adjacent to a tree (including while climbing). If she is adjacent to two or more trees simultaneously, she gains a +2 cover bonus to her AC and a +1 bonus on Reflex saving throws.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "foresterex",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Geomancer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Geomancy Tricks"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!9aa35a1bfd4044f9"
+}

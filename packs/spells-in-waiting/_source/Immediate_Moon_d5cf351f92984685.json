@@ -1,0 +1,66 @@
+{
+  "_id": "d5cf351f92984685",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Immediate Moon",
+  "system": {
+    "actions": [
+      {
+        "_id": "177aa92338fefedf",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "area": "100ft radius",
+        "duration": {
+          "units": "minute",
+          "value": "10 minutes/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negate (object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Forcing matter in the palm of your hands, you throw it to the sky to burst alight a miniature moon",
+      "value": "<p>Forcing matter in the palm of your hands, you throw it to the sky to burst alight a miniature moon. Creating a small 10ft moon, this creation produces dim light within 100ft of it. Any creatures that are affected by moonlight take a half effect from this, though it does not force lycanthropes to transform. More than one moon from this spell or Greater Moon within 400ft of each other will be pulled together and dispel both.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d5cf351f92984685"
+}

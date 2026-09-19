@@ -1,0 +1,79 @@
+{
+  "_id": "a9bb50e89eb9266c",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Fire Storm",
+  "system": {
+    "actions": [
+      {
+        "_id": "8fde8a0d9fae5e3d",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "area": "two 10-ft. cubes per level (S)",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1 round/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d6 + @spells.primary.abilityMod + min(@spells.primary.cl.total, 20)",
+              "types": [
+                "fire"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "When this spell is cast, the whole area is shot through with sheets of roaring flame",
+      "value": "<p>When this spell is cast, the whole area is shot through with sheets of roaring flame. The raging flames do not harm natural vegetation, ground cover, or any plant creatures in the area that you wish to exclude from damage. Any other creature within the area takes 1d6 points of fire damage per caster level (maximum 20d6). Creatures that fail their Reflex save suffer the Burning status effect.</p>"
+    },
+    "descriptors": [
+      "fire"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 8,
+        "geomancer": 7
+      }
+    },
+    "level": 7,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a9bb50e89eb9266c"
+}

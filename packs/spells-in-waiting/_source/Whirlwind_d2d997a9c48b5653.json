@@ -1,0 +1,82 @@
+{
+  "_id": "d2d997a9c48b5653",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Whirlwind",
+  "system": {
+    "actions": [
+      {
+        "_id": "f5b0a3cf4d8392fd",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "target": {
+          "value": "cyclone 10 ft. wide at base, 30 ft. wide at top, and 30 ft. tall"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "3d6",
+              "types": [
+                "wind"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex negates — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell creates a powerful cyclone of raging wind that moves through the air, along the ground, or over water at a speed of 60 feet pe...",
+      "value": "<p>This spell creates a powerful cyclone of raging wind that moves through the air, along the ground, or over water at a speed of 60 feet per round. You can concentrate on controlling the cyclone’s every movement or specify a simple program. Directing the cyclone’s movement or changing its programmed movement is a standard action for you. The cyclone always moves during your turn. If the cyclone exceeds the spell’s range, it moves in a random, uncontrolled fashion for 1d3 rounds and then dissipates. (You can’t regain control of the cyclone, even if it comes back within range.) Any Large or smaller creature that comes in contact with the spell effect must succeed on a Reflex save or take 3d6 points of wind damage. A Medium or smaller creature that fails its first save must succeed on a second one or be picked up bodily by the cyclone and held suspended in its powerful winds, taking 1d8 points of wind damage each round on your turn with no save allowed. You may direct the cyclone to eject any carried creatures whenever you wish, depositing the hapless souls wherever the cyclone happens to be when they are released.</p>"
+    },
+    "descriptors": [
+      "wind",
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "druid": 8,
+        "geomancer": 8
+      }
+    },
+    "level": 8,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d2d997a9c48b5653"
+}

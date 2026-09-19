@@ -1,0 +1,67 @@
+{
+  "_id": "ad36fbe42dede663",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Wind Shield",
+  "system": {
+    "actions": [
+      {
+        "_id": "4ee9fd317a058773",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "An ever-flowing gust of wind surrounds around you.",
+      "value": "<p>An ever-flowing gust of wind surrounds around you. This field deflects incoming arrows, rays, and other ranged attacks. Each ranged attack directed at you for whom the attacker must make an attack roll has a 20% miss chance (similar to the effects of concealment). Other attacks that simply work at a distance are not affected.</p>"
+    },
+    "descriptors": [
+      "wind"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 1,
+        "druid": 1,
+        "geomancer": 1,
+        "redmage": 1,
+        "whitemage": 1
+      }
+    },
+    "level": 1,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!ad36fbe42dede663"
+}

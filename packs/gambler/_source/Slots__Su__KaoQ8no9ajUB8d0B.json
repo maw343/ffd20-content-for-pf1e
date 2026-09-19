@@ -1,0 +1,90 @@
+{
+  "_id": "KaoQ8no9ajUB8d0B",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Slots (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, a gambler gains the ability to spin the slots, entrusting both his allies and enemies to the whims of fate. The gambler may activate this ability by expending the MGP cost of a selected reel as a standard action to affect all allies or enemies within 30 feet. The gambler cannot activate a reel with a base MGP cost exceeding their gambler level. The gambler rolls 3d8 (7s are wildcards) to determine a Win (doubles), Jackpot (triples), or Dud (no match) effect from the selected reel. New reels become available as the gambler levels: Boost at 5th, Hobble at 7th, Toadstool at 9th, Hypnotize at 11th, Mega Jinx at 13th, Mega Boost at 15th, Omen at 17th, and Last Ditch at 19th, alongside the Elemental and Jinx reels available from 3rd level.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "slots_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Gambler"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Gambler",
+          3
+        ],
+        [
+          "Gambler",
+          5
+        ],
+        [
+          "Gambler",
+          7
+        ],
+        [
+          "Gambler",
+          9
+        ],
+        [
+          "Gambler",
+          11
+        ],
+        [
+          "Gambler",
+          13
+        ],
+        [
+          "Gambler",
+          15
+        ],
+        [
+          "Gambler",
+          17
+        ],
+        [
+          "Gambler",
+          19
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!KaoQ8no9ajUB8d0B"
+}

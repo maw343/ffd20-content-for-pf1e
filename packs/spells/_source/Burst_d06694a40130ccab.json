@@ -1,0 +1,77 @@
+{
+  "_id": "d06694a40130ccab",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Burst",
+  "system": {
+    "actions": [
+      {
+        "_id": "fb7cfa2b1c4cc59b",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 15))d6",
+              "types": [
+                "electricity"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "A bolt of lightning streaks towards the targeted creature, surging with electricity power dealing 1d6 points of lightning damage per caster level (maximum 15d6) and inflicting the Static status effect for 1d6 rounds.",
+      "value": "<p>A bolt of lightning streaks towards the targeted creature, surging with electricity power dealing 1d6 points of lightning damage per caster level (maximum 15d6) and inflicting the Static status effect for 1d6 rounds. A successful Reflex save reduces the damage by half and negates the status effect.</p>"
+    },
+    "descriptors": [
+      "lightning"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 6
+      }
+    },
+    "level": 6,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d06694a40130ccab"
+}

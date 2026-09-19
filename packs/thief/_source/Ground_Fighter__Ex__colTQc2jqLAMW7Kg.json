@@ -1,0 +1,61 @@
+{
+  "_id": "colTQc2jqLAMW7Kg",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785614788358,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/shadow_11.jpg",
+  "name": "Ground Fighter (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>A thief with this talent can stand up from prone as a move action or a swift action without provoking an attack of opportunity. She can stand up from prone as a free action but this provokes an attack of opportunity. However, the thief can avoid provoking this attack of opportunity by successfully using the Acrobatics skill as if she were moving through a threatened square at full speed. While prone, a thief with this ability can move at half speed. This movement provokes attacks of opportunity as normal. A thief with this talent can take a 5-foot step while crawling and she reduces the penalties on her attack rolls and to her Armor Class for being prone by 2.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "groundfighter",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Thief",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Thief Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!colTQc2jqLAMW7Kg"
+}

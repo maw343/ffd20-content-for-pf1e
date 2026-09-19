@@ -1,0 +1,27 @@
+{
+  "_id": "ioyO1XJRXEouctV2",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_12.jpg",
+  "name": "Scent (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 8th level, a beastmaster gains the scent ability.</p><p>This ability allows the beastmaster to detect approaching enemies, sniff out hidden foes, and track by sense of smell. A beastmaster can identify familiar odors just as humes do familiar sights. The beastmaster can detect opponents within 30 feet by sense of smell. If the opponent is upwind, the range increases to 60 feet; if downwind, it drops to 15 feet. Strong scents, such as smoke or rotting garbage, can be detected at twice the ranges noted above.</p><p>When the beastmaster detects a scent, the exact location of the source is not revealed—only its presence somewhere within range. The beastmaster can take a move action to note the direction of the scent. Whenever a beastmaster comes within 5 feet of the source, the beastmaster pinpoints the source's location.</p>"
+    },
+    "tag": "scent",
+    "source": "Final Fantasy d20 - Beastmaster",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          8
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!ioyO1XJRXEouctV2"
+}

@@ -1,0 +1,177 @@
+{
+  "_id": "058e263af3b39622",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1786842598606,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Abyss II",
+  "system": {
+    "description": {
+      "value": "<p>A whirl of shadowy plague surrounds the targeted creature, creeping away at their life force dealing 1d8 points of shadow damage per caster level (maximum 20d8) and inflicts the Dimmed status effect for 1d8 rounds. A successful Reflex save reduces the damage by half and negates the status effect. Dimmed: A dark mask surrounds the creature's face, making it difficult to see clearly. Creatures that are inflicted with this status effect suffer a 20% fail chance on all checks and activities that rely on vision (such as reading and Perception checks to spot). The dimmed creature also treats all their enemies as if they had concealment (20% miss chance). Light spells and effects remove this status effect.</p>",
+      "instructions": "",
+      "summary": "A whirl of shadowy plague surrounds the targeted creature, creeping away at their life force dealing 1d8 points of shadow damage per cast..."
+    },
+    "tags": [],
+    "actions": [
+      {
+        "_id": "1abf3853a8d271be",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          },
+          "cost": 1
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous/1d8 rounds"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 20))d8",
+              "types": [
+                "negative"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half; see text",
+          "dc": "",
+          "harmless": false
+        },
+        "uses": {},
+        "ability": {
+          "critRange": 20,
+          "critMult": 2
+        },
+        "powerAttack": {
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "ammo": {
+          "type": "none"
+        }
+      }
+    ],
+    "attackNotes": [],
+    "effectNotes": [],
+    "links": {
+      "children": []
+    },
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 8,
+        "necromancer": 8
+      },
+      "domain": {},
+      "subDomain": {},
+      "elementalSchool": {},
+      "bloodline": {}
+    },
+    "level": 8,
+    "clOffset": 0,
+    "slOffset": 0,
+    "school": "nec",
+    "subschool": [],
+    "descriptors": [],
+    "components": {
+      "value": "",
+      "verbal": true,
+      "somatic": true,
+      "thought": false,
+      "emotion": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": 0
+    },
+    "materials": {
+      "value": "",
+      "focus": "",
+      "gpValue": 0
+    },
+    "spellbook": "",
+    "preparation": {
+      "value": 0,
+      "max": 0
+    },
+    "uses": {
+      "autoDeductChargesCost": ""
+    },
+    "atWill": false,
+    "sr": true,
+    "showInQuickbar": false,
+    "domain": false,
+    "slotCost": 1,
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "showInCombat": false,
+    "clCheck": false,
+    "material": {
+      "base": {
+        "value": "",
+        "custom": false
+      },
+      "normal": {
+        "value": "",
+        "custom": false
+      },
+      "addon": []
+    },
+    "alignments": {
+      "lawful": false,
+      "chaotic": false,
+      "good": false,
+      "evil": false
+    }
+  },
+  "type": "spell",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
+    }
+  },
+  "_key": "!items!058e263af3b39622"
+}

@@ -1,0 +1,60 @@
+{
+  "_id": "1f848d458eb022a1",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Shadow Body",
+  "system": {
+    "actions": [
+      {
+        "_id": "453b88be63cecccc",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Your body and all your equipment are subsumed by your shadow.",
+      "value": "<p>Your body and all your equipment are subsumed by your shadow. As a living shadow, you blend perfectly into any other shadow and vanish in darkness. You appear as an unattached shadow in areas of full light.\nYou can move at your normal speed, on any surface, including walls and ceilings, as well as across the surfaces of liquids—even up the face of a waterfall.\nYour space does not change, so you cannot move into locations you would not normally be able to move into.\nWhile in your shadow body, you gain damage reduction 10/magic and darkvision out to 60 feet. You are immune to extra damage from critical hits, ability damage, disease, drowning, and poison. You take only half damage from earth, fire, and lightning of all kinds but 1.5x damage against holy damage.\nWhile affected by this spell, you can be detected by spells or class features that detect life or presences (including\ntrue seeing\n), or if you make suspicious movements in lighted areas.\nYou cannot harm anyone physically or manipulate any objects, but you can use your spells normally. Doing so may attract notice, but if you remain in a shadowed area, you get a +15 bonus on your Stealth check to remain unnoticed.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 8,
+        "necromancer": 8
+      }
+    },
+    "level": 8,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!1f848d458eb022a1"
+}

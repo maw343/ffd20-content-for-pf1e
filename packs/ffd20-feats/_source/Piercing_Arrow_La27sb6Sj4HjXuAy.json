@@ -1,0 +1,50 @@
+{
+  "_id": "La27sb6Sj4HjXuAy",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Piercing Arrow",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Flaming Arrow feat, BAB +5</p><p><strong>Benefit:</strong> At 5 TP or more, you may spend all TP to deliver a special bow attack that takes the place of an attack in a full-attack or just a single attack. This attack is made targeting touch AC, and deals normal damage + 1d6 damage. At 10 TP or more, you may spend all TP to target touch AC and dealing normal damage + 3d6 damage. At 15 TP, you may spend all TP to target touch AC and dealing normal damage + 5d6 damage.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "weaponSkill",
+    "tag": "piercing_arrow",
+    "requirements": "Flaming Arrow feat, BAB +5",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-WeaponSkillFeats",
+        "pages": "Weapon Skill Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!La27sb6Sj4HjXuAy"
+}

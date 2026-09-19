@@ -1,0 +1,83 @@
+{
+  "_id": "jWtmIa0Nq3QpZlq1",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "folder": "RWSoA7Fj9yqo0y9U",
+  "img": "systems/pf1/icons/races/human.jpg",
+  "name": "Au Ra",
+  "system": {
+    "changes": [
+      {
+        "formula": "2",
+        "target": "str",
+        "type": "racial",
+        "_id": "bh3nfkcj"
+      },
+      {
+        "formula": "2",
+        "target": "wis",
+        "type": "racial",
+        "_id": "8jjjuy08"
+      },
+      {
+        "formula": "-2",
+        "target": "cha",
+        "type": "racial",
+        "_id": "hecoo6ma"
+      },
+      {
+        "formula": "1",
+        "target": "ac",
+        "type": "racial",
+        "_id": "ivedciym"
+      },
+      {
+        "formula": "2",
+        "target": "skill.itm",
+        "type": "racial",
+        "_id": "6b7i8qk4"
+      },
+      {
+        "formula": "2",
+        "target": "skill.sur",
+        "type": "racial",
+        "_id": "6nsghvno"
+      }
+    ],
+    "contextNotes": [
+      {
+        "target": "allSavingThrows",
+        "text": "+[[2]] Racial vs Fear"
+      }
+    ],
+    "creatureSubtypes": [
+      "au ra"
+    ],
+    "creatureTypes": [
+      "humanoid"
+    ],
+    "description": {
+      "value": "<p>The auri are split into two clans, the Raen and Xaela. The Xaela tend to be wiser and stronger, but their fierce brute looks are a bit intimidating.</p><h2>Standard Racial Traits</h2><ul><li><strong>Ability Score Modifiers</strong>: Au Ra (Xaela) gain +2 Strength, +2 Wisdom, and –2 Charisma.</li><li><strong>Type</strong>: Auri are Humanoid creatures with the Au ra subtype.</li><li><strong>Size</strong>: Auri are Medium creatures and thus receive no bonuses or penalties due to their size.</li><li><strong>Base Speed</strong>: Auri have a base speed of 30 feet.</li><li><strong>Languages</strong>: Auri begin play speaking Common and Draconic. Auri with high Intelligence scores can choose from the following: Elvaan, Galkan, Goblin, Kojin, Matanga, and Orc.</li></ul><h3>Defense Racial Traits</h3><ul><li><strong>Elemental Resistance</strong>: Auri have ice resistance 5, lightning resistance 5, and fire resistance 5.</li><li><strong>Scales</strong>: Auri's patches of scales grant them a +1 natural armor bonus to their Armor Class.</li><li><strong>Fearless</strong>: Auri get a +2 racial bonus on all saving throws against fear.</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Imposing Figure</strong>: Xaela gain a +2 racial bonus to Intimidate checks.</li><li><strong>Survivalist</strong>: All auri gain a +2 racial bonus on all Survival checks.</li></ul><h3>Senses Racial Traits</h3><ul><li><strong>Darkvision</strong>: Auri can see perfectly in the dark up to 60 feet.</li></ul>"
+    },
+    "languages": [
+      "common",
+      "draconic"
+    ],
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "Base Races"
+      }
+    ],
+    "speeds": {
+      "land": 30
+    },
+    "tags": [
+      "Base"
+    ]
+  },
+  "type": "race",
+  "effects": [],
+  "_key": "!items!jWtmIa0Nq3QpZlq1"
+}

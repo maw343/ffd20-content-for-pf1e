@@ -1,0 +1,19 @@
+{
+  "_id": "sIkJ6AwmfhCSazA7",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Scroll Mastery (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Red Mage 6</p><p>Whenever the red mage uses a scroll, he may expend 1 point from his arcane pool to allow him to calculate the DC for any spell contained on the scroll using his Charisma modifier, instead of the minimum modifier needed cast a spell of that level.</p>"
+    },
+    "tag": "scrollmasterysu",
+    "source": "Final Fantasy d20 - Red Mage (Ruby Arcana)"
+  },
+  "effects": [],
+  "_key": "!items!sIkJ6AwmfhCSazA7"
+}

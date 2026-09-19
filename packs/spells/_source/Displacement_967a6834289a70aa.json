@@ -1,0 +1,70 @@
+{
+  "_id": "967a6834289a70aa",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Displacement",
+  "system": {
+    "actions": [
+      {
+        "_id": "fb5c5d2c738903d0",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The subject of this spell appears to be about 2 feet away from its true location.",
+      "value": "<p>The subject of this spell appears to be about 2 feet away from its true location. The creature benefits from a 50% miss chance as if it had total\nconcealment\n. Unlike actual total\nconcealment\n, displacement does not prevent enemies from targeting the creature normally.\nTrue seeing\nreveals its true location and negates the miss chance.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 3,
+        "redmage": 3
+      }
+    },
+    "level": 3,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "glamer"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!967a6834289a70aa"
+}

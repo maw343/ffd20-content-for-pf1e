@@ -1,0 +1,27 @@
+{
+  "_id": "27YbygMAYh7L5krY",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Jack-of-All-Trades (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The red mage can use any skill, even if it normally requires training. At 15th level, he considers all skills to be class skills. At 19th level, he can take 10 on any skill check, even if not normally allowed.</p>"
+    },
+    "tag": "jackofalltrades",
+    "source": "Final Fantasy d20 - Red Mage",
+    "associations": {
+      "classes": [
+        [
+          "Red Mage",
+          11
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!27YbygMAYh7L5krY"
+}

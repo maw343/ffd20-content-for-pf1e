@@ -1,0 +1,67 @@
+{
+  "_id": "ef849966a7970a0e",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Mastery of Flesh",
+  "system": {
+    "actions": [
+      {
+        "_id": "558a85adb9c60a06",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude half (object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You know how to deal with both mortal and immortal flesh",
+      "value": "<p>You know how to deal with both mortal and immortal flesh. When used against an enemy, this spell deals 4d8 + caster level (maximum +5) damage to living targets and 2d8 + caster level (maximum +5) to undead targets. When used on an ally, it instead heals undead targets for 4d8 + caster level (maximum +5) and living targets for 2d8 + caster level (maximum +5).</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "necromancer": 3
+      }
+    },
+    "level": 3,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!ef849966a7970a0e"
+}

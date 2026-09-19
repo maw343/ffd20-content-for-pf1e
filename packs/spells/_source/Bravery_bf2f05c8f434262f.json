@@ -1,0 +1,66 @@
+{
+  "_id": "bf2f05c8f434262f",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Bravery",
+  "system": {
+    "actions": [
+      {
+        "_id": "35ffa4be799227c1",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell grants the touched subject an increase to all physical damage, melee and range, by +1 morale bonus per two caster levels.",
+      "value": "<p>This spell grants the touched subject an increase to all physical damage, melee and range, by +1\nmorale bonus\nper two caster levels.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "whitemage": 7
+      }
+    },
+    "level": 7,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!bf2f05c8f434262f"
+}

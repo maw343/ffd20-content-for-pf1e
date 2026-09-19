@@ -1,0 +1,27 @@
+{
+  "_id": "lxyuyPLEyjEf0qFN",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_14.jpg",
+  "name": "Weapon Defense Flair (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Melee Defense warrior talent</p><p>While affected by the Melee Defense talent and not wielding a shield, the warrior counts as both wielding and not wielding a shield for any purpose, whichever is more beneficial (chosen by the warrior otherwise); he may likewise choose to count one of his wielded weapons as a shield, counting the Melee Defense AC bonus as its base AC bonus. He adds half of the total enhancement bonus of all of his wielded weapons (rounded down, maximum +5) as an enhancement bonus to his shield AC from Melee Defense. This talent counts as the Shield Focus feat. This talent does not allow the warrior to enchant weapons as shields. Using this talent disables Melee Defense from stacking with other shield AC bonuses.</p>"
+    },
+    "tag": "weapondefenseflair",
+    "source": "Final Fantasy d20 - Advanced Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          12
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!lxyuyPLEyjEf0qFN"
+}

@@ -1,0 +1,68 @@
+{
+  "_id": "6c478fd6a03730e9",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Entice",
+  "system": {
+    "actions": [
+      {
+        "_id": "d9ae125e021b7a95",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates blowing a kiss like a lamia towards her target",
+      "value": "<p>The caster emulates blowing a kiss like a lamia towards her target. The target must make a Will save or be inflicted with the Charm like and this spell functions exactly like Charm . The charm effect on this spell is harder to overcome unlike other charm spells and has its DC increase by 1. If the creature is currently being threatened or attacked by you or your allies, however, it receives a +5 bonus on its saving throw. Learned From Lamia and Succubus’ Families</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!6c478fd6a03730e9"
+}

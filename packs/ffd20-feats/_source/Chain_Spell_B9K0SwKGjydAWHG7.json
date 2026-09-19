@@ -1,0 +1,50 @@
+{
+  "_id": "B9K0SwKGjydAWHG7",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Chain Spell",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Widen Spell</p><p><strong>MP Increase:</strong> +3</p><p><strong>Benefit:</strong> You can chain any spell that affects a single target and that deals either earth, fire, holy, ice, lightning, shadow, water, or wind damage. After the primary target is struck, the spell can arc to a number of secondary targets equal to your character level (maximum twenty). The secondary arcs each strike one target and deal half as much damage as the primary one did (round down). Each target gets to make a saving throw, if one is allowed by the spell. You can choose secondary targets as you like, but they must all be within 30 feet of the primary target, and no target can be struck more than once. You can choose to affect fewer secondary targets than the maximum (to avoid allies in the area, for example.)</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "metamagic",
+    "tag": "chain_spell",
+    "requirements": "Widen Spell",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-MetamagicFeats",
+        "pages": "Metamagic Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!B9K0SwKGjydAWHG7"
+}

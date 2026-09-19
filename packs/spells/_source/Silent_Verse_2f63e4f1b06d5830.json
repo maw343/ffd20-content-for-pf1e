@@ -1,0 +1,67 @@
+{
+  "_id": "2f63e4f1b06d5830",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Silent Verse",
+  "system": {
+    "actions": [
+      {
+        "_id": "dbe27d407251a505",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "one creature/round"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round",
+          "concentration": true
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You play a soft verse, silencing an enemy.",
+      "value": "<p>You play a soft verse, silencing an enemy. Each round this song is in effect, an enemy within 30 feet of the bard suffers the\nSilenced\nstatus effect.\nSilenced: This status effect causes the character to be unable to cast spells or perform songs. A silenced character cannot cast any spells nor perform any songs until he is cured of this status effect. Casters with the Silent Spell feat can bypass this status effect if used with spells.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bard": 2
+      }
+    },
+    "level": 2,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!2f63e4f1b06d5830"
+}

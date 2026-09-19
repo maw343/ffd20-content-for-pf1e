@@ -1,0 +1,65 @@
+{
+  "_id": "e145e630966e5d2b",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Stone Breath",
+  "system": {
+    "actions": [
+      {
+        "_id": "bf73ba19636ade90",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "cone-shaped burst",
+        "duration": {
+          "units": "perm"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster can emulate a dry gray breath of a Demonolith upon creatures in a 30-ft",
+      "value": "<p>The caster can emulate a dry gray breath of a Demonolith upon creatures in a 30-ft.-cone, instantly turning them to stone. Creatures within the area of effect are inflicted with the Statue status effect. Learned From doomstone family Statue: A creature afflicted by this status effect has had its entire body turned to stone. They are considered unconscious and thus incapable of performing any action. If this creature cracks or breaks, but the broken pieces are joined with the body as they return to flesh, they are unharmed. If the creature’s body is incomplete when it returns to flesh, the body is likewise incomplete and there is some amount of permanent hit point loss and/or debilitation.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 7
+      }
+    },
+    "level": 7,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!e145e630966e5d2b"
+}

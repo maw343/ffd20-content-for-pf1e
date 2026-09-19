@@ -1,0 +1,50 @@
+{
+  "_id": "RXta2R9mGlBjXFH6",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Varg Exemplar (Varg)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Varg</p><p><strong>Benefit:</strong> Your wolflike nature manifests in one of the following ways. You choose the manifestation when you take this feat, and cannot change it later.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "racial",
+    "tag": "varg_exemplar_varg",
+    "requirements": "Varg",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-RacialFeats",
+        "pages": "Racial Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!RXta2R9mGlBjXFH6"
+}

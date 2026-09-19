@@ -1,0 +1,72 @@
+{
+  "_id": "b2b59ede0f899148",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Esuna",
+  "system": {
+    "actions": [
+      {
+        "_id": "54f8a3550f4634fc",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "A bright, blue light swirls about its target, removing the vast majority of lesser negative status effects inflicted upon them.",
+      "value": "<p>A bright, blue light swirls about its target, removing the vast majority of lesser negative status effects inflicted upon them.\nThe target is relieved of all of the following status effects:\nBlinded\n,\nCharmed\n,\nCowering\n,\nDazed\n,\nDazzled\n,\nDeafened\n,\nDeprotect\n,\nDeshell\n,\nDiseased\n,\nEntangled\n,\nExhausted\n,\nFatigued\n,\nFrightened\n,\nImmobilized\n,\nImperil\n,\nNauseated\n,\nPanicked\n,\nParalyzed\n,\nPetrification\n,\nPoisoned\n,\nSapped\n,\nShaken\n,\nSickened\n,\nSilenced\n,\nSleep\n,\nSlow\n, and\nStaggered\n.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 4,
+        "whitemage": 4,
+        "redmage": 4,
+        "paladin": 4
+      }
+    },
+    "level": 4,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "healing"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!b2b59ede0f899148"
+}

@@ -1,0 +1,70 @@
+{
+  "_id": "4805a038f4ca93cd",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Weapon Conductor, Mass",
+  "system": {
+    "actions": [
+      {
+        "_id": "509ef4039ebb1b37",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "weapons that can be thrown"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless, object)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "With a quick instruction via the use of music, you create a connection between weapons and masters.",
+      "value": "<p>With a quick instruction via the use of music, you create a connection between weapons and masters.\nFor the duration of the song, the target weapons act as if they had the\nreturning\nweapon special ability, but the duration is split into 1-minute intervals among the targeted weapons.\nThis song can be used as the prerequisite for the\nreturning\nweapon special ability.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bard": 3
+      }
+    },
+    "level": 3,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "summoning"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!4805a038f4ca93cd"
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "LlhR9XETyqvAg6Uc",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_13.jpg",
+  "name": "Track Master (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Survival 4 ranks</p><p>A beastmaster with this trick can follow tracks much faster than normal. When using Survival to follow tracks, the beastmaster may move at their full speed without penalty, or double their speed at a -10 to their Survival check. When tracking his quarry, the beastmaster can track at double speed without penalty.</p>"
+    },
+    "tag": "trackmaster",
+    "source": "Final Fantasy d20 - Beastmaster Tricks",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!LlhR9XETyqvAg6Uc"
+}

@@ -1,0 +1,91 @@
+{
+  "_id": "RZMoDcq5cIPZOmz9",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/items/weapons/longbow.PNG",
+  "name": "Power Staff",
+  "system": {
+    "actions": [
+      {
+        "_id": "1daa96544bf04469",
+        "ability": {
+          "attack": "_default",
+          "critMult": 2
+        },
+        "actionType": "rwak",
+        "activation": {
+          "type": "attack",
+          "unchained": {
+            "type": "attack"
+          }
+        },
+        "conditionals": [],
+        "damage": {
+          "parts": [
+            {
+              "formula": "sizeRoll(1, 6, @size)",
+              "types": [
+                "elemental"
+              ]
+            }
+          ]
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "extraAttacks": {
+          "type": "standard"
+        },
+        "name": "Attack (Ranged)",
+        "range": {
+          "maxIncrements": 10,
+          "units": "ft",
+          "value": "30"
+        }
+      }
+    ],
+    "baseTypes": [
+      "Power Staff"
+    ],
+    "description": {
+      "unidentified": "<h3>Statistics</h3><p><b>Damage</b> 1d6 (small), 1d8 (medium); <b>Critical</b> 20/x2; <b>Type</b> Slashing</p><h3>Description</h3>\n<h3>Power Staff</h3>\n<p><strong>Cost:</strong> 75 gil</p><p><strong>Damage:</strong> 1d6 (small), 1d6 (medium)</p><p><strong>Critical:</strong> x2</p><p><strong>Weight:</strong> 4 lbs.</p><p><strong>Type:</strong> Elemental</p><p><strong>Range Increment:</strong> 30 ft. (Max)</p><p><strong>Special:</strong> —</p><p>Power Weapons are built for mages or anyone with an MP pool and a caster level. It requires an MP pool and caster level to use, even with Exotic Weapon Proficiency. They are supernatural and do not function within anti-magic fields. Instead of Strength or Dexterity, Power Weapons deal extra elemental damage equal to the wielder's casting modifier, capped by caster level.</p><p>Ranged Power Weapons have a set range of 30 feet and use ranged touch attacks, provoking attacks of opportunity.</p>"
+    },
+    "hardness": 5,
+    "hp": {
+      "base": 10
+    },
+    "material": {
+      "base": {
+        "value": "steel"
+      }
+    },
+    "price": 75,
+    "properties": {
+      "spc": true
+    },
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "1"
+      }
+    ],
+    "subType": "exotic",
+    "tags": [
+      "Power Weapon"
+    ],
+    "weaponGroups": [
+      "exotic"
+    ],
+    "weaponSubtype": "ranged",
+    "hands": 2,
+    "held": "2h",
+    "weight": {
+      "value": 4
+    }
+  },
+  "type": "weapon",
+  "effects": [],
+  "folder": "PWRWeap00000000001",
+  "_key": "!items!RZMoDcq5cIPZOmz9"
+}

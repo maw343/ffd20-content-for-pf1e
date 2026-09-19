@@ -1,0 +1,58 @@
+{
+  "_id": "SmuxvaaZCLnNWp5M",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Pocket Pair (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>At 9th level, when performing a full-attack action with throwing cards, the gambler's first attack launches two cards at his target. If the attack hits, both cards hit. Apply precision-based damage and critical hit damage only once for this attack. Damage bonuses apply to each card, as do other damage bonuses. Damage reduction and resistances apply separately to each card.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "pocket_pair_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Gambler"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Gambler",
+          9
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!SmuxvaaZCLnNWp5M"
+}

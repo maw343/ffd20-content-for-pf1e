@@ -1,0 +1,77 @@
+{
+  "_id": "a4d512075fe44aa3",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Holy Orb",
+  "system": {
+    "actions": [
+      {
+        "_id": "c41e3be51f4589aa",
+        "name": "Use",
+        "actionType": "rsak",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one missile of holy"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "ability": {
+          "attack": "dex",
+          "critMult": 2,
+          "critRange": 20
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d3",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You fire a small orb of holy energy at the target.",
+      "value": "<p>You fire a small orb of holy energy at the target. You must succeed on a ranged touch attack to hit your target. The orb deals 1d3 points of holy damage.\nThis cantrip is not potent enough to be able to heal the wounds of creatures that would normally\nabsorb\nthe element. If a creature with holy\nabsorption\nis hit by this cantrip they instead just negate the damage.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "whitemage": 0
+      }
+    },
+    "level": 0,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a4d512075fe44aa3"
+}

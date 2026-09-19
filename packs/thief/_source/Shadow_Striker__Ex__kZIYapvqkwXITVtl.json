@@ -1,0 +1,61 @@
+{
+  "_id": "kZIYapvqkwXITVtl",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785614788366,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/shadow_11.jpg",
+  "name": "Shadow Striker (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Thief 4</p><p>The thief excels at fighting from the shadows, hitting her opponents when they least expect it. She can use each of the following actions once per encounter as a standard action: Blinding Strike: The thief makes a single melee or ranged attack against an opponent within range. If she damages the target, she gains total concealment against that target until the beginning of her next turn. Confusing Strike: The thief makes a single melee or ranged attack against an opponent within range. If this opponent is denied its Dexterity bonus to its AC, or if she has concealment from this opponent, a successful attack also causes the opponent, on failing a Will saving throw (DC 10 + 1/2 your character level + your Int modifier) to be able to take only a swift action on its next turn. Unexpected Attack: The thief makes a melee or ranged attack within her range against an opponent from whom she has concealment. She gains a +2 bonus on this attack roll if she has concealment, or a +5 bonus if she has total concealment.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "shadowstriker",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Thief",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Thief Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!kZIYapvqkwXITVtl"
+}

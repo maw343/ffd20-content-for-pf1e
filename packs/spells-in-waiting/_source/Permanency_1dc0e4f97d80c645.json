@@ -1,0 +1,65 @@
+{
+  "_id": "1dc0e4f97d80c645",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Permanency",
+  "system": {
+    "actions": [
+      {
+        "_id": "0d0f48cc6078e57a",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "see text"
+        },
+        "duration": {
+          "units": "perm",
+          "value": "permanent; see text"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell makes the duration of certain other spells permanent",
+      "value": "<p>This spell makes the duration of certain other spells permanent. You first cast the desired spell and then follow it with the permanency spell. Depending on the spell, you must be of a certain caster level and must expend a specific gil value of diamond dust as a material component. Spells cast on other targets are vulnerable to dispel as normal. The GM may allow other spells to be made permanent. You can make the following spells permanent: Table: Permanency Target: Self Only Spell Minimum Caster Level Gil Cost Comprehend Languages 10th 5,000 Detect Magic 9th 2,500 Detect Curse 11th 7,500 Enlarge, Greater 14th 15,000 Longstrider 10th 5,000 Read Magic 9th 2,500 Shrink, Greater 14th 15,000 See Invisibility 11th 7,500 Target: Self, Others, or Objects Anthropomorphic Animal 12th 10,000 Awaken 14th 15,000 Darkvision 11th 7,500 Magic Fang 10th 5,000 Magic Fang, Greater 12th 10,000 Resistance 9th 2,500 Tongues 13th 12,500 True Seeing 15th 17,500 Target: Objects or Areas Alter Object 9th 2,500 Alter River 13th 12,500 Loathsome Veil 12th 10,000 Magic Mouth 11th 7,500 Planar Refuge 16th 20,000 Prismatic Sphere 18th 25,000 Prismatic Wall 17th 22,500 Summon Cottage 13th 12,500 Summon Demiplane, Lesser 14th 15,000 Summon Demiplane 16th 20,000 Summon Demiplane, Greater 18th 25,000 Symbol of Death 17th 22,500 Symbol of Mirroring 11th 7,500 Vanish 12th 10,000 Wall of Fire 13th 12,500 Web 11th 5,000</p>"
+    },
+    "descriptors": [
+      "fire",
+      "death"
+    ],
+    "learnedAt": {
+      "class": {
+        "timemage": 5
+      }
+    },
+    "level": 5,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!1dc0e4f97d80c645"
+}

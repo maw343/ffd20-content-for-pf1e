@@ -1,0 +1,50 @@
+{
+  "_id": "iGMh9hCmlQG5R5s9",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Markmanship: Trip (Ex)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Gunner 4</p><p><strong>Benefit:</strong> The gunner gains Ranged Trip as a bonus feat, ignoring prerequisites, and usable as a standard action. It only functions with firearms.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "gunneryTalent",
+    "tag": "markmanship_trip_ex",
+    "requirements": "Gunner 4",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-GunnerClass",
+        "pages": "Gunnery Talents"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!iGMh9hCmlQG5R5s9"
+}

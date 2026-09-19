@@ -1,0 +1,27 @@
+{
+  "_id": "vYRtR9bFkLNT7wSo",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "HP Boost (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Monk 2 (1st rank), Monk 6 (2nd rank), Monk 10 (3rd rank)</p><p>Gain an additional amount of maximum hit points equal to your monk level. Each time you gain a monk level after selecting this talent, your maximum hit points increase by one. This talent may be taken up to three times; the 1st rank being accessible at 2nd level or higher, the 2nd rank at 6th level or higher, and the 3rd rank at 10th level or higher. These effects stack with eachother.</p>"
+    },
+    "tag": "hpboost",
+    "source": "Final Fantasy d20 - Monk Talents",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!vYRtR9bFkLNT7wSo"
+}

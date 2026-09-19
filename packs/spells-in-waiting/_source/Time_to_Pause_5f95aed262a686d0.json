@@ -1,0 +1,55 @@
+{
+  "_id": "5f95aed262a686d0",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Time to Pause",
+  "system": {
+    "actions": [
+      {
+        "_id": "4c8b5e9dca7070ad",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Time to Act except it gives the caster sufficient time to take 10 on his check",
+      "value": "<p>This spell functions like Time to Act except it gives the caster sufficient time to take 10 on his check. He can still only make one skill check and the caster must still abide by all the restrictions of the lesser spell.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!5f95aed262a686d0"
+}

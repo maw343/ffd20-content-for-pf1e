@@ -1,0 +1,72 @@
+{
+  "_id": "c549fef4a07969ce",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Blindna",
+  "system": {
+    "actions": [
+      {
+        "_id": "34d5147ab2334d03",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell cures the Blind status effect, whether the effect is normal or magical in nature.",
+      "value": "<p>This spell cures the Blind status effect, whether the effect is normal or magical in nature. The spell does not restore eyes that have been lost, but it repairs them if they’re damaged. Blindna counters and dispels blindness.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 2,
+        "whitemage": 2,
+        "redmage": 2,
+        "paladin": 2
+      }
+    },
+    "level": 2,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "healing"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!c549fef4a07969ce"
+}

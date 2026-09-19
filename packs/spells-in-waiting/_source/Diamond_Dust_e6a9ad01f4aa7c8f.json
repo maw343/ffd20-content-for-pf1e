@@ -1,0 +1,76 @@
+{
+  "_id": "e6a9ad01f4aa7c8f",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Diamond Dust",
+  "system": {
+    "actions": [
+      {
+        "_id": "eebebae282be5c11",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "area": "20-ft.-radius spread",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1 round/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 10))d6",
+              "types": [
+                "cold"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You call forth Shiva, the empress of ice, wreathed in frost",
+      "value": "<p>You call forth Shiva, the empress of ice, wreathed in frost. Shiva conjures a blizzard of freezing ice on your enemies, dealing 1d6 points of ice damage per caster level (maximum 10d6) and inflicts the Frozen status effect, a successful Reflex save for half damage and negates the status effect.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "summoner": 4
+      }
+    },
+    "level": 4,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!e6a9ad01f4aa7c8f"
+}

@@ -1,0 +1,66 @@
+{
+  "_id": "eabc235fdda169f4",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Blink, Greater",
+  "system": {
+    "actions": [
+      {
+        "_id": "a31e53a7983fd501",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "An immaterial fog descends over your eyes as you complete the spell",
+      "value": "<p>An immaterial fog descends over your eyes as you complete the spell. You perceive the closeness of a parallel, temporal reality, and you know that you can pass freely between that world and the one upon which you stand. This spell functions like Blink , except that you have control over the timing of your “blinking” back and forth on the outskirts of time. You can also ready an action to blink away from any physical or magical attack. The attack misses automatically. While blinking, you have no chance of interfering with your own attacks or your own spells. When moving through solid objects, you do not risk materializing inside one unless you actually end your movement there, in which case you materialize and are shunted off to the nearest open space, taking 1d6 points of damage per 5 feet traveled in this manner.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!eabc235fdda169f4"
+}

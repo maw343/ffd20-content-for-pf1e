@@ -1,0 +1,62 @@
+{
+  "_id": "ade2aaf298f0c6e0",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Instant Clot",
+  "system": {
+    "actions": [
+      {
+        "_id": "7aa869ba273bd1ab",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "living creature touched"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Bleed effects on the target immediately end when this spell is cast, and no blood flows out when the target is damaged by a slashing or p...",
+      "value": "<p>Bleed effects on the target immediately end when this spell is cast, and no blood flows out when the target is damaged by a slashing or piercing weapon. The target takes the full amount of damage from attacks, but because the wounds produce no blood, they do not attract creatures with the ability to sense blood, such as sharks . If the target suffers another bleed effect while this spell is in effect, the bleed effect ends and the spell is immediately dismissed.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "necromancer": 1
+      }
+    },
+    "level": 1,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!ade2aaf298f0c6e0"
+}

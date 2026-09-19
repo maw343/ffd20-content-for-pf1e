@@ -1,0 +1,70 @@
+{
+  "_id": "2304c4d838562e65",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Full-Cure",
+  "system": {
+    "actions": [
+      {
+        "_id": "58f5d996200115da",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one living creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You surround a living creature with an incredibly powerful, holy light, that heals the target to full hit points.",
+      "value": "<p>You surround a living creature with an incredibly powerful, holy light, that heals the target to full hit points.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 8,
+        "whitemage": 8
+      }
+    },
+    "level": 8,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "healing"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!2304c4d838562e65"
+}

@@ -1,0 +1,69 @@
+{
+  "_id": "3bc15e2b3dc2a2dd",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Dissipation",
+  "system": {
+    "actions": [
+      {
+        "_id": "a6924c0040200f6f",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "For every 5 caster levels you possess, dissipation prevents 1 negative level, 1 level drain, 1 point of ability damage, or 1 point of ability drain (to a maximum of 4 levels or points prevented at 20th caster level) to the creature touched.",
+      "value": "<p>For every 5 caster levels you possess, dissipation prevents 1 negative level, 1 level drain, 1 point of ability damage, or 1 point of ability drain (to a maximum of 4 levels or points prevented at 20th caster level) to the creature touched.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "whitemage": 6
+      }
+    },
+    "level": 6,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "healing"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!3bc15e2b3dc2a2dd"
+}

@@ -1,0 +1,78 @@
+{
+  "_id": "4f8e66e13a8db6af",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Hollow Nozuchi",
+  "system": {
+    "actions": [
+      {
+        "_id": "6e2978a079c76268",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "area": "20-ft.-radius",
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "3d6",
+              "types": [
+                "earth"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude partial"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The earth in the designated area is brought forth, and becomes bursting with ethereal snakes made of earth energy that coil, and bite at ...",
+      "value": "<p>The earth in the designated area is brought forth, and becomes bursting with ethereal snakes made of earth energy that coil, and bite at those within. The area becomes treated as difficult terrain, and creatures within are dealt 3d6 earth damage, and must make a Fortitude save each round or be Entangled for 1 round. The caster is unaffected by this ninjutsu, and can freely traverse the area of effect.</p>"
+    },
+    "descriptors": [
+      "earth"
+    ],
+    "learnedAt": {
+      "class": {
+        "ninja": 3
+      }
+    },
+    "level": 3,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!4f8e66e13a8db6af"
+}

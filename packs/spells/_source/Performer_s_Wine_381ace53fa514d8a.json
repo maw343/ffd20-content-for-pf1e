@@ -1,0 +1,66 @@
+{
+  "_id": "381ace53fa514d8a",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Performer's Wine",
+  "system": {
+    "actions": [
+      {
+        "_id": "818069f710248d1f",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "10 ft"
+        },
+        "target": {
+          "value": "1 cu. ft./2 levels of liquid (see text)"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "5 minute/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This song turns non-magic liquids—including spoiled, rotten, diseased, poisonous, or otherwise contaminated drinks, tears, seawater, and similar fluids—into mead or wine of average quality.",
+      "value": "<p>This song turns non-magic liquids—including spoiled, rotten, diseased, poisonous, or otherwise contaminated drinks, tears, seawater, and similar fluids—into mead or wine of average quality. This song does not prevent subsequent natural decay or spoilage.\nUnholy water and similar liquids of significance are spoiled by performer’s wine, but the song has no effect on creatures of any type or on magical potions or alchemical items.\nCreatures that drink the mead or wine created by this song become sharp-witted and clear-minded, gaining a +2 enhancement bonus on all Intelligence– and Wisdom-based skill checks. This increases to a +5 bonus at caster level 9th, and to +10 (the maximum) at caster level 15th.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bard": 1
+      }
+    },
+    "level": 1,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!381ace53fa514d8a"
+}

@@ -1,0 +1,79 @@
+{
+  "_id": "fb23cc2dc928350f",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Boneshatter",
+  "system": {
+    "actions": [
+      {
+        "_id": "cbc2df61b91bff85",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one corporeal creature or object"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous and 1 minute/level; see text"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 15))d6",
+              "types": [
+                "negative"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude partial — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The target’s bones or exoskeleton shiver and splinter, dealing 1d6 points of shadow damage per caster level (maximum 15d6) to the target,...",
+      "value": "<p>The target’s bones or exoskeleton shiver and splinter, dealing 1d6 points of shadow damage per caster level (maximum 15d6) to the target, who is also exhausted for 1 minute per caster level from the pain and exertion of the transformation. If used against a skeletal undead creature, it instead takes 1d8 points of non-elemental damage per caster level, a Will save for half damage. If the target makes its save, it takes half damage and is fatigued rather than exhausted. Objects made of bone, chitin, or similar material take half again as much (+50%) damage from this spell. This spell has no effect on creatures that lack either skeletons or hard carapaces. If the target belongs to the Skeleton or Skeleton Horror family, then this spell deals non-elemental damage instead of shadow damage, dealing damage to the target as normal.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "darkknight": 4,
+        "necromancer": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!fb23cc2dc928350f"
+}

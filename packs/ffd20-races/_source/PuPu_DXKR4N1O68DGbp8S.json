@@ -1,0 +1,70 @@
+{
+  "_id": "DXKR4N1O68DGbp8S",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "folder": "RWSoA7Fj9yqo0y9U",
+  "img": "systems/pf1/icons/races/human.jpg",
+  "name": "PuPu",
+  "system": {
+    "changes": [
+      {
+        "formula": "2",
+        "target": "dex",
+        "type": "racial",
+        "_id": "70ukazzd"
+      },
+      {
+        "formula": "2",
+        "target": "int",
+        "type": "racial",
+        "_id": "6g4ypb4r"
+      },
+      {
+        "formula": "2",
+        "target": "skill.kno.tec",
+        "type": "racial",
+        "_id": "r0so0nyv"
+      },
+      {
+        "formula": "2",
+        "target": "skill.rep",
+        "type": "racial",
+        "_id": "ujpb1v50"
+      }
+    ],
+    "contextNotes": [
+      {
+        "target": "allSavingThrows",
+        "text": "+[[2]] Racial vs Mind-Affecting Effects/Confusion"
+      }
+    ],
+    "creatureSubtypes": [
+      "alien"
+    ],
+    "creatureTypes": [
+      "aberration"
+    ],
+    "description": {
+      "value": "<p>The PuPu are small blue aliens of vast technological advancements, driven by curiosity and a devotion to collecting rare items.</p><h2>Standard Racial Traits</h2><ul><li><strong>Ability Score Modifiers</strong>: PuPu gain +2 Dexterity and +2 Intelligence.</li><li><strong>Type</strong>: PuPu are aberrations (humanoids).</li><li><strong>Size</strong>: PuPu are Small creatures.</li><li><strong>Base Speed</strong>: PuPu have a base speed of 20 feet.</li><li><strong>Languages</strong>: PuPu begin play speaking Common and PuPon. PuPu with high Intelligence scores can choose from: Draconic, Dwarven, Elvaan, Galkan, Giant, Goblin, and Sylvan.</li></ul><h3>Defense Racial Traits</h3><ul><li><strong>Alien Mindset</strong>: PuPu gain a +2 racial bonus on saving throws against mind-affecting effects, antagonize, confusion, and berserk.</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Technological Savant</strong>: PuPu gain a +2 racial bonus on Knowledge (Technology or Engineering) and Repair skill checks.</li><li><strong>Technologist</strong>: PuPu gain the Technologist feat at 1st level.</li></ul><h3>Senses Racial Traits</h3><ul><li><strong>Darkvision</strong>: PuPu can see perfectly in the dark up to 60 feet.</li></ul>"
+    },
+    "languages": [
+      "common"
+    ],
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "Base Races"
+      }
+    ],
+    "speeds": {
+      "land": 20
+    },
+    "tags": [
+      "Base"
+    ]
+  },
+  "type": "race",
+  "effects": [],
+  "_key": "!items!DXKR4N1O68DGbp8S"
+}

@@ -1,0 +1,1167 @@
+{
+  "_id": "D9jBYnvx4GkwfpOp",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/races/creature-types/outsider.png",
+  "name": "Diabolos (Avatar)",
+  "prototypeToken": {
+    "texture": {
+      "src": "systems/pf1/icons/races/creature-types/outsider.png"
+    }
+  },
+  "type": "character",
+  "effects": [],
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 12
+      },
+      "dex": {
+        "value": 14
+      },
+      "con": {
+        "value": 13
+      },
+      "cha": {
+        "value": 16
+      }
+    },
+    "attributes": {
+      "naturalAC": 1,
+      "speed": {
+        "land": {
+          "base": 30
+        },
+        "fly": {
+          "base": 60,
+          "maneuverability": "average"
+        }
+      },
+      "spells": {
+        "spellbooks": {
+          "primary": {
+            "name": "Primary"
+          },
+          "secondary": {
+            "name": "Secondary"
+          },
+          "spelllike": {
+            "name": "Spell-likes",
+            "inUse": true,
+            "casterType": "high",
+            "class": "hd",
+            "cl": {
+              "formula": ""
+            },
+            "autoSpellLevelCalculation": true,
+            "autoSpellLevels": true,
+            "psychic": false,
+            "arcaneSpellFailure": true,
+            "hasCantrips": true,
+            "spellPreparationMode": "spontaneous",
+            "baseDCFormula": "10 + sl + ablMod",
+            "ability": "cha",
+            "spellPoints": {
+              "useSystem": true,
+              "value": 0,
+              "maxFormula": "@attributes.hd.total",
+              "restoreFormula": ""
+            },
+            "spells": {
+              "spell0": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell1": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell2": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell3": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell4": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell5": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell6": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell7": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell8": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell9": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              }
+            },
+            "spellSlotAbilityBonusFormula": "",
+            "domainSlotValue": 1,
+            "kind": "arcane",
+            "noAbilityLimit": false
+          },
+          "tertiary": {
+            "name": "Tertiary"
+          }
+        }
+      }
+    },
+    "traits": {
+      "senses": {}
+    },
+    "details": {
+      "notes": {
+        "value": "<h2>Diabolos - Starting Statistics</h2><p>Size Medium; Speed 30 ft., fly 60 ft. (average); AC +1 natural armor; Special Qualities: Dark immunity.</p><h3>7th-Level Advancement</h3><p>Size Large; Reach 10 ft; AC +2 natural armor; Attack 2 slams (1d8); Ability Scores Str +4, Dex -2, Con +2, Cha +2</p>"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "q51UAgg4EvZSEBzA",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/blue_04.jpg",
+      "name": "Slam",
+      "type": "attack",
+      "system": {
+        "subType": "natural",
+        "held": null,
+        "actions": [
+          {
+            "_id": "ASYW6JtlOpDRfZxa",
+            "name": "Slam",
+            "actionType": "mwak",
+            "activation": {
+              "type": "attack",
+              "unchained": {
+                "type": "attack"
+              }
+            },
+            "ability": {
+              "attack": "_default",
+              "damage": "str"
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "1d6",
+                  "types": [
+                    "bludgeoning"
+                  ]
+                }
+              ]
+            },
+            "duration": {
+              "units": "inst"
+            },
+            "img": "systems/pf1/icons/skills/blue_04.jpg",
+            "range": {
+              "units": "melee"
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!D9jBYnvx4GkwfpOp.q51UAgg4EvZSEBzA"
+    },
+    {
+      "_id": "Wt2BPfSErADG9J6R",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/blue_04.jpg",
+      "name": "Slam",
+      "type": "attack",
+      "system": {
+        "subType": "natural",
+        "held": null,
+        "actions": [
+          {
+            "_id": "qt2o7XR0Y6R5pNsS",
+            "name": "Slam",
+            "actionType": "mwak",
+            "activation": {
+              "type": "attack",
+              "unchained": {
+                "type": "attack"
+              }
+            },
+            "ability": {
+              "attack": "_default",
+              "damage": "str"
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "1d6",
+                  "types": [
+                    "bludgeoning"
+                  ]
+                }
+              ]
+            },
+            "duration": {
+              "units": "inst"
+            },
+            "img": "systems/pf1/icons/skills/blue_04.jpg",
+            "range": {
+              "units": "melee"
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!D9jBYnvx4GkwfpOp.Wt2BPfSErADG9J6R"
+    },
+    {
+      "_id": "OaKpkAJ3dQc316vd",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/blue_29.jpg",
+      "name": "Avatar (Summoner) - Diabolos",
+      "type": "class",
+      "system": {
+        "tag": "summonerAvatar",
+        "bab": "high",
+        "savingThrows": {
+          "fort": {
+            "value": "low"
+          },
+          "ref": {
+            "value": "high"
+          },
+          "will": {
+            "value": "high"
+          }
+        },
+        "skillsPerLevel": 4,
+        "customHD": "round((@item.level - 1) * 0.75) + 1",
+        "classSkills": {
+          "acr": true,
+          "cli": true,
+          "fly": true,
+          "per": true,
+          "sen": true,
+          "ste": true,
+          "swm": true
+        },
+        "description": {
+          "value": "<p>Diabolos's Avatar class features are tied to the summoner's class level. HD equals round((level-1)*0.75)+1, matching the confirmed Avatar Base Statistics progression.</p>"
+        },
+        "links": {
+          "classAssociations": [
+            {
+              "level": 1,
+              "name": "Darkvision",
+              "uuid": "Compendium.world.summoner-avatar.Item.rBiKROGZrsrSJW9e"
+            },
+            {
+              "level": 1,
+              "name": "Link",
+              "uuid": "Compendium.world.summoner-avatar.Item.whO4esN696cRSoGi"
+            },
+            {
+              "level": 1,
+              "name": "MP Pool",
+              "uuid": "Compendium.world.summoner-avatar.Item.xc8uXIXh7uw17DJg"
+            },
+            {
+              "level": 2,
+              "name": "Evasion",
+              "uuid": "Compendium.world.summoner-avatar.Item.aWsQSjFrTV4T4bTy"
+            },
+            {
+              "level": 4,
+              "name": "Magic Attacks",
+              "uuid": "Compendium.world.summoner-avatar.Item.Yb24EZjAyvl5jApv"
+            },
+            {
+              "level": 5,
+              "name": "Ability Score Increase",
+              "uuid": "Compendium.world.summoner-avatar.Item.S4WzYkN4ZDxGJGhk"
+            },
+            {
+              "level": 6,
+              "name": "Devotion",
+              "uuid": "Compendium.world.summoner-avatar.Item.07tZrbo6EPl0yFPu"
+            },
+            {
+              "level": 8,
+              "name": "Multiattack",
+              "uuid": "Compendium.world.summoner-avatar.Item.rMu0fIsM5uq6sEP8"
+            },
+            {
+              "level": 10,
+              "name": "Ability Score Increase",
+              "uuid": "Compendium.world.summoner-avatar.Item.S4WzYkN4ZDxGJGhk"
+            },
+            {
+              "level": 14,
+              "name": "Improved Evasion",
+              "uuid": "Compendium.world.summoner-avatar.Item.2QaoSbpMfbCg5dYT"
+            },
+            {
+              "level": 15,
+              "name": "Ability Score Increase",
+              "uuid": "Compendium.world.summoner-avatar.Item.S4WzYkN4ZDxGJGhk"
+            }
+          ]
+        }
+      },
+      "effects": [],
+      "_key": "!actors.items!D9jBYnvx4GkwfpOp.OaKpkAJ3dQc316vd"
+    },
+    {
+      "_id": "yiz5ByJaEFr5gtXl",
+      "_stats": {
+        "coreVersion": "12.331",
+        "compendiumSource": "Compendium.world.summoner-avatar.Item.rBiKROGZrsrSJW9e"
+      },
+      "img": "systems/pf1/icons/skills/blue_02.jpg",
+      "name": "Darkvision",
+      "system": {
+        "associations": {
+          "classes": [
+            "Avatar"
+          ]
+        },
+        "class": "summonerAvatar",
+        "description": {
+          "value": "<p>The avatar has darkvision out to a range of 60 feet.</p>"
+        },
+        "subType": "classFeat",
+        "abilityType": "ex"
+      },
+      "type": "feat",
+      "effects": [],
+      "_key": "!actors.items!D9jBYnvx4GkwfpOp.yiz5ByJaEFr5gtXl"
+    },
+    {
+      "_id": "BTGJBD34JEHtdw2W",
+      "_stats": {
+        "coreVersion": "12.331",
+        "compendiumSource": "Compendium.world.summoner-avatar.Item.whO4esN696cRSoGi"
+      },
+      "img": "systems/pf1/icons/feats/quick-draw.jpg",
+      "name": "Link",
+      "system": {
+        "associations": {
+          "classes": [
+            "Avatar"
+          ]
+        },
+        "class": "summonerAvatar",
+        "description": {
+          "value": "<p>A summoner and his avatar share a mental link allows for communication across any distance (as long as they are on the same plane). This communication is a free action, allowing the summoner to give orders to his avatar at any time. In addition, magic items interfere with the summoner's connection to his avatar. As a result, the summoner and his avatar share magic item slots. For example, if the summoner is wearing a ring, his avatar can wear no more than one ring. In case of a conflict, the items worn by the summoner remain active, and those used by the avatar become dormant. The avatar must possess the appropriate appendages to utilize a magic item.</p>"
+        },
+        "subType": "classFeat",
+        "abilityType": "ex",
+        "contextNotes": [
+          {
+            "target": "skill.han",
+            "text": "Free-action orders to avatar at any range (same plane); shared magic item slots (Not factored in)"
+          }
+        ]
+      },
+      "type": "feat",
+      "effects": [],
+      "_key": "!actors.items!D9jBYnvx4GkwfpOp.BTGJBD34JEHtdw2W"
+    },
+    {
+      "_id": "YMYc1aFQSecRc3uc",
+      "_stats": {
+        "coreVersion": "12.331",
+        "compendiumSource": "Compendium.world.summoner-avatar.Item.xc8uXIXh7uw17DJg"
+      },
+      "img": "systems/pf1/icons/skills/blue_11.jpg",
+      "name": "MP Pool",
+      "system": {
+        "associations": {
+          "classes": [
+            "Avatar"
+          ]
+        },
+        "class": "summonerAvatar",
+        "description": {
+          "value": "<p>An avatar has an MP pool with a maximum equal to the summoner's level. The avatar regains MP equal to the summoner's level when the summoner does their 30-minute meditation after resting. The avatar may spend its magic points on spells and abilities granted by the specific avatar page. In the case of Yojimbo, this MP Pool is spent at a 1 MP to 10 gil ratio for his abilities but otherwise does not function as gil. Spells that would absorb MP treat avatars as they would summoned creatures, and do not work when allies use them.</p><p><em>Schema note: implemented as a pf1 Spell Points pool (<code>system.attributes.spells.spellbooks.spelllike.spellPoints</code>: <code>useSystem</code>, <code>value</code>, <code>maxFormula</code>, <code>restoreFormula</code>) on the avatar's actor sheet, with <code>maxFormula: \"@attributes.hd.total\"</code> since avatar HD equals summoner level.</em></p>"
+        },
+        "subType": "classFeat"
+      },
+      "type": "feat",
+      "effects": [],
+      "_key": "!actors.items!D9jBYnvx4GkwfpOp.YMYc1aFQSecRc3uc"
+    },
+    {
+      "_id": "p0aQ66XaZXWmbCvT",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Limit Break: Dark Messenger",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "su",
+        "level": 1,
+        "description": {
+          "value": "<p>At 1st level, Diabolos conjures a black hole of dark energy. Enemies within 30 feet take 1d6 points of shadow damage per summoner level, Reflex save for half damage.</p>"
+        },
+        "tag": "diaboloslimitbreakdarkmessenger",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "gRpgLMBURzsDCl8z",
+            "name": "Limit Break: Dark Messenger",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": "30 ft. radius",
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "1d6/level",
+                  "types": [
+                    "shadow"
+                  ]
+                }
+              ]
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "con",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.con.mod",
+              "description": "half damage / negates"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!D9jBYnvx4GkwfpOp.p0aQ66XaZXWmbCvT"
+    },
+    {
+      "_id": "61Kz7JkvRVzzzfGD",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Shadow Strike",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "ex",
+        "level": 2,
+        "description": {
+          "value": "<p>At 2nd level, Every 1d4+1 rounds, Diabolos makes a slam attack from a shadow up to 30 feet away at -5 penalty; the foe is flat-footed against the attack.</p>"
+        },
+        "tag": "diabolosshadowstrike",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "W9gNOUI9QW03s2K7",
+            "name": "Shadow Strike",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": "rwak",
+            "ability": {
+              "attack": "dex",
+              "damage": "",
+              "damageMult": 1,
+              "critRange": 20
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!D9jBYnvx4GkwfpOp.61Kz7JkvRVzzzfGD"
+    },
+    {
+      "_id": "LnyUr8FiwZ7Yd8x4",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Dark II",
+      "type": "spell",
+      "system": {
+        "subType": null,
+        "abilityType": "sp",
+        "level": 4,
+        "description": {
+          "value": "<p>At 4th level, Diabolos is able to cast Dark II like the spell.</p>"
+        },
+        "tag": "diabolosdarkii",
+        "spellPoints": {
+          "cost": "2"
+        },
+        "learnedAt": {
+          "class": {
+            "summonerAvatar": 4
+          }
+        },
+        "spellbook": "spelllike",
+        "actions": [
+          {
+            "_id": "ePVPdlhXFsMnCAsA",
+            "name": "Dark II",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": "spellsave"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!D9jBYnvx4GkwfpOp.LnyUr8FiwZ7Yd8x4"
+    },
+    {
+      "_id": "R1HL9qfQdSi81TrE",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Nether Blast",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "su",
+        "level": 6,
+        "description": {
+          "value": "<p>At 6th level, Every 1d4+1 rounds, Diabolos sends a blast of nether: ranged touch attack against a target within 30 feet dealing 5d6 shadow damage, bypasses 10 shadow resistance and deals 10 shadow damage to shadow-immune creatures.</p>"
+        },
+        "tag": "diabolosnetherblast",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "XsErc57jjb3jhrik",
+            "name": "Nether Blast",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": 30,
+              "units": "ft",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "5d6",
+                  "types": [
+                    "shadow"
+                  ]
+                }
+              ]
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": "rwak",
+            "ability": {
+              "attack": "dex",
+              "damage": "",
+              "damageMult": 1,
+              "critRange": 20
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!D9jBYnvx4GkwfpOp.R1HL9qfQdSi81TrE"
+    },
+    {
+      "_id": "58jXaA0xp0op99oM",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Nightmarish Slumber",
+      "type": "spell",
+      "system": {
+        "subType": null,
+        "abilityType": "sp",
+        "level": 8,
+        "description": {
+          "value": "<p>At 8th level, Creatures in a 20-ft.-radius must Will save or be inflicted with sleep and -1d6 to attack rolls for 1d6 rounds. Blue mages may learn as 4th level spell (Knowledge: Planes DC 23).</p>"
+        },
+        "tag": "diabolosnightmarishslumber",
+        "spellPoints": {
+          "cost": "4"
+        },
+        "learnedAt": {
+          "class": {
+            "summonerAvatar": 8
+          }
+        },
+        "spellbook": "spelllike",
+        "actions": [
+          {
+            "_id": "Kc2tZIsE0uFgysAB",
+            "name": "Nightmarish Slumber",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": "20-ft.-radius",
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "cha",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.cha.mod",
+              "description": "half damage / negates"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!D9jBYnvx4GkwfpOp.58jXaA0xp0op99oM"
+    },
+    {
+      "_id": "VUC5vs3Yr5qoLsR0",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Pit of Despair",
+      "type": "spell",
+      "system": {
+        "subType": null,
+        "abilityType": "sp",
+        "level": 10,
+        "description": {
+          "value": "<p>At 10th level, Target suffers the effects of Gravity, as the black magic spell. Blue mages may learn as 5th level spell (Knowledge: Planes DC 25).</p>"
+        },
+        "tag": "diabolospitofdespair",
+        "spellPoints": {
+          "cost": "5"
+        },
+        "learnedAt": {
+          "class": {
+            "summonerAvatar": 10
+          }
+        },
+        "spellbook": "spelllike",
+        "actions": [
+          {
+            "_id": "wMaibKqYtXZasa8e",
+            "name": "Pit of Despair",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": ""
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!D9jBYnvx4GkwfpOp.VUC5vs3Yr5qoLsR0"
+    },
+    {
+      "_id": "6oWWwQJ0W3f56Xvp",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Corruption",
+      "type": "spell",
+      "system": {
+        "subType": null,
+        "abilityType": "sp",
+        "level": 12,
+        "description": {
+          "value": "<p>At 12th level, Target within 30 feet must Will save or be inflicted with Confuse status. Blue mages may learn as 6th level spell (Knowledge: Planes DC 27).</p>"
+        },
+        "tag": "diaboloscorruption",
+        "spellPoints": {
+          "cost": "6"
+        },
+        "learnedAt": {
+          "class": {
+            "summonerAvatar": 12
+          }
+        },
+        "spellbook": "spelllike",
+        "actions": [
+          {
+            "_id": "2KAailTj4VXJqZfQ",
+            "name": "Corruption",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": "30 ft.",
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "cha",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.cha.mod",
+              "description": "half damage / negates"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!D9jBYnvx4GkwfpOp.6oWWwQJ0W3f56Xvp"
+    },
+    {
+      "_id": "mIQOQdqb3OksfcBq",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Gigaton Press",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "ex",
+        "level": 14,
+        "description": {
+          "value": "<p>At 14th level, All enemies in a 30-ft.-radius knocked prone and grappled unless Fortitude save. A creature that saves is immune for 24 hours.</p>"
+        },
+        "tag": "diabolosgigatonpress",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "JCGufK5ekraMVcKp",
+            "name": "Gigaton Press",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": "30-ft.-radius",
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "str",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.str.mod",
+              "description": "half damage / negates"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!D9jBYnvx4GkwfpOp.mIQOQdqb3OksfcBq"
+    },
+    {
+      "_id": "mEmbIsvoLuUCO5f5",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Night Terror",
+      "type": "spell",
+      "system": {
+        "subType": null,
+        "abilityType": "sp",
+        "level": 16,
+        "description": {
+          "value": "<p>At 16th level, Subject within 100 feet must Will save or take 15d4 shadow damage and Frightened for 1d6 rounds (15d8 shadow and Panicked 1d8 rounds if asleep). Blue mages may learn as 7th level spell (Knowledge: Planes DC 29).</p>"
+        },
+        "tag": "diabolosnightterror",
+        "spellPoints": {
+          "cost": "7"
+        },
+        "learnedAt": {
+          "class": {
+            "summonerAvatar": 16
+          }
+        },
+        "spellbook": "spelllike",
+        "actions": [
+          {
+            "_id": "M1iLEIX5uhn5uUIq",
+            "name": "Night Terror",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": 100,
+              "units": "ft",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "15d4",
+                  "types": [
+                    "shadow"
+                  ]
+                }
+              ]
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "cha",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.cha.mod",
+              "description": "half damage / negates"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!D9jBYnvx4GkwfpOp.mEmbIsvoLuUCO5f5"
+    },
+    {
+      "_id": "RnYgozwxKg2gMIZV",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Black Orb",
+      "type": "spell",
+      "system": {
+        "subType": null,
+        "abilityType": "sp",
+        "level": 18,
+        "description": {
+          "value": "<p>At 18th level, Diabolos is able to cast Black Orb like the spell.</p>"
+        },
+        "tag": "diabolosblackorb",
+        "spellPoints": {
+          "cost": "8"
+        },
+        "learnedAt": {
+          "class": {
+            "summonerAvatar": 18
+          }
+        },
+        "spellbook": "spelllike",
+        "actions": [
+          {
+            "_id": "emrfUGZ2iyQMiThf",
+            "name": "Black Orb",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": "spellsave"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!D9jBYnvx4GkwfpOp.RnYgozwxKg2gMIZV"
+    },
+    {
+      "_id": "F3zHEtVg1XpwI661",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Pavor Nocturnus",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "su",
+        "level": 20,
+        "description": {
+          "value": "<p>At 20th level, Once per day, target must Fortitude save or die; on success, inflicted with dispel as a 20th-level caster instead.</p>"
+        },
+        "tag": "diabolospavornocturnus",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "mRhk8ySLmDTCVhR9",
+            "name": "Pavor Nocturnus",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "con",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.con.mod",
+              "description": "half damage / negates"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!D9jBYnvx4GkwfpOp.F3zHEtVg1XpwI661"
+    }
+  ],
+  "_key": "!actors!D9jBYnvx4GkwfpOp"
+}

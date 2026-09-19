@@ -1,0 +1,58 @@
+{
+  "_id": "XpjV1nOKgNTomx5A",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Time Flicker (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, as a standard action, the time mage can flicker in and out of time, gaining concealment (as the blur spell). He can use this ability for 1 minute per time mage level per day. This duration does not need to be consecutive, but it must be spent in 1-minute increments. At 7th level, each time the time mage activates this ability, he can treat it as the blink spell, though each round spent this way counts as 1 minute of his normal time flicker duration.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "time_flicker_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Time Mage"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Time Mage",
+          3
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!XpjV1nOKgNTomx5A"
+}

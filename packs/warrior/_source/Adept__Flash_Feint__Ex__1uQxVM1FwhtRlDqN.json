@@ -1,0 +1,27 @@
+{
+  "_id": "1uQxVM1FwhtRlDqN",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_14.jpg",
+  "name": "Adept: Flash Feint (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Chosen Weapon class feature</p><p>The warrior gains Bluff as a class skill. He adds his chosen weapon bonus on Bluff checks to feint and to the DCs of feint checks made against him. If the warrior has the Improved Feint feat, he can feint as part of his first attack during a full attack. If the warrior has the Greater Feint feat, once per turn, he can attempt a feint as a swift action.</p>"
+    },
+    "tag": "adeptflashfeint",
+    "source": "Final Fantasy d20 - Advanced Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          12
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!1uQxVM1FwhtRlDqN"
+}

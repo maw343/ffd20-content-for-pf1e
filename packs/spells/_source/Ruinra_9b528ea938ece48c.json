@@ -1,0 +1,60 @@
+{
+  "_id": "9b528ea938ece48c",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Ruinra",
+  "system": {
+    "actions": [
+      {
+        "_id": "bfbe277e395660ca",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "up to five creatures, no two of which can be more than 30 ft. apart"
+        },
+        "duration": {
+          "units": "inst"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You create powerful missiles of magical force, each of which darts from your fingertips and unerringly strikes its target, dealing 2d6+5 points of non-elemental damage.",
+      "value": "<p>You create powerful missiles of magical force, each of which darts from your fingertips and unerringly strikes its target, dealing 2d6+5 points of non-elemental damage. The missile then explodes in a burst of force that deals half this amount of damage to all creatures adjacent to the primary target who can make a Reflex save for half damage.\nThe missile strikes unerringly, even if the target is in melee or has anything less than total cover or concealment. A caster cannot single out specific parts of a creature. The spell can target and damage unattended objects.\nYou gain one missile for every four caster levels, two at 8th level, three at 12th, four at 16th, and five missiles at 20th level. You can make more than one missile strike a single target, if desired. However, you must designate targets before rolling for spell resistance or damage.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 4
+      }
+    },
+    "level": 4,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!9b528ea938ece48c"
+}

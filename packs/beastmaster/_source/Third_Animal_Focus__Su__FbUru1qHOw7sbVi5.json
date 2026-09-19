@@ -1,0 +1,27 @@
+{
+  "_id": "FbUru1qHOw7sbVi5",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_12.jpg",
+  "name": "Third Animal Focus (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 13th level, whenever a beastmaster uses his animal focus ability, he selects three different animal aspects for himself instead of two, and can assign three aspects to his companion instead of two. As with the companion's previous aspect, the third one does not count against the minutes per day a beastmaster can take on an aspect.</p><p>If the beastmaster's animal companion is dead and the beastmaster has applied the companion's animal aspect to himself, that aspect does not count toward his maximum of three aspects at once. The beastmaster can still apply only one of his dead companion's aspects to himself, not all three.</p>"
+    },
+    "tag": "thirdanimalfocus",
+    "source": "Final Fantasy d20 - Beastmaster",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          13
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!FbUru1qHOw7sbVi5"
+}

@@ -1,0 +1,68 @@
+{
+  "_id": "8fddf1a69d02bd02",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Cleansing",
+  "system": {
+    "actions": [
+      {
+        "_id": "6ab774da45caa95e",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature/level, within 30 ft. of each other"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You call forth Crusader, a holy descendent of Alexander who cures allies of Disease and Poison status effects",
+      "value": "<p>You call forth Crusader, a holy descendent of Alexander who cures allies of Disease and Poison status effects. You must make a caster level check (1d20 + caster level) against the DC of the Disease or Poison status effect affecting the target. Success means that the status effects are cured.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "summoner": 2
+      }
+    },
+    "level": 2,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!8fddf1a69d02bd02"
+}

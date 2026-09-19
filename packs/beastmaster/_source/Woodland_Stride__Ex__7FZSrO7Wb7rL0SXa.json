@@ -1,0 +1,27 @@
+{
+  "_id": "7FZSrO7Wb7rL0SXa",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_12.jpg",
+  "name": "Woodland Stride (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>Starting at 5th level, a beastmaster and his animal companion may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at their normal speed and without taking damage or suffering any other impairment. Thorns, briars, and overgrown areas that are enchanted or magically manipulated to impede motion will still affect the hunter and her animal companion.</p>"
+    },
+    "tag": "woodlandstride",
+    "source": "Final Fantasy d20 - Beastmaster",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          5
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!7FZSrO7Wb7rL0SXa"
+}

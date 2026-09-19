@@ -1,0 +1,61 @@
+{
+  "_id": "02d4b11b52b40e11",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Ninja Run II",
+  "system": {
+    "actions": [
+      {
+        "_id": "d4f267c21cbe4c16",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level DESCRIPTION This ninjutsu functions as Ninja Run , except the climb speed is 40 feet, and may use the run action while climbing."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This ninjutsu functions as Ninja Run , except the climb speed is 40 feet, and may use the run action while climbing",
+      "value": "<p>This ninjutsu functions as Ninja Run , except the climb speed is 40 feet, and may use the run action while climbing.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "ninja": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!02d4b11b52b40e11"
+}

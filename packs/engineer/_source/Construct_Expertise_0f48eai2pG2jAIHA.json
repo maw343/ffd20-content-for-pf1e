@@ -1,0 +1,58 @@
+{
+  "_id": "0f48eai2pG2jAIHA",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Construct Expertise",
+  "system": {
+    "description": {
+      "value": "<p>At 15th level, the engineer gains the Craft Construct feat. The engineer does not need to meet the prerequisites for this feat. He uses his engineer levels as his effective caster level when creating constructs. The engineer can eschew spells needed to craft a construct, but the costs to craft are doubled, or he must have access to the prerequisite spells, either through use of a magical item or cast by another spellcaster.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "construct_expertise",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Engineer"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Engineer",
+          15
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!0f48eai2pG2jAIHA"
+}

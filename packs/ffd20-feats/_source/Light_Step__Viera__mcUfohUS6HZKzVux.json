@@ -1,0 +1,50 @@
+{
+  "_id": "mcUfohUS6HZKzVux",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Light Step (Viera)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Acrobatic Steps, Nimble Moves, viera</p><p><strong>Benefit:</strong> You can ignore the effects of difficult terrain in natural environments, as if it were normal terrain.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "racial",
+    "tag": "light_step_viera",
+    "requirements": "Acrobatic Steps, Nimble Moves, viera",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-RacialFeats",
+        "pages": "Racial Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!mcUfohUS6HZKzVux"
+}

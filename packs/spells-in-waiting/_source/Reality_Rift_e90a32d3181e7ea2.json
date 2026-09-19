@@ -1,0 +1,77 @@
+{
+  "_id": "e90a32d3181e7ea2",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Reality Rift",
+  "system": {
+    "actions": [
+      {
+        "_id": "17a62420715894c1",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/ 3 levels"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You cast a creature outside of time and space, temporarily negating its existence",
+      "value": "<p>You cast a creature outside of time and space, temporarily negating its existence. If it fails its save, it is inflicted with the Banished status effect, it and all items it is carrying disappear into nothingness, ceasing to exist. At the end of this spell’s duration, that creature reappears where it was. If another creature or object is occupying the space it reappears in, then the target is shunted off to the nearest open space and takes 1d6 points of damage per 5 ft. it traveled. Once a creature has been affected by or saved against this effect it is immune to it for 24 hours.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!e90a32d3181e7ea2"
+}

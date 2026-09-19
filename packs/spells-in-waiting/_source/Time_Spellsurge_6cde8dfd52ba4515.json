@@ -1,0 +1,61 @@
+{
+  "_id": "6cde8dfd52ba4515",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Time Spellsurge",
+  "system": {
+    "actions": [
+      {
+        "_id": "db4a0f1c4148a7ad",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level DESCRIPTION Green and yellow sparks fly off your body as a light breeze picks up, lifting loose debris and swirling around with a faint howl. This spell speeds the flow of magic through you, hastening your spellcasting ability. Casting times for chronomancy spells are reduced as follows: Normal Casting Time New Casting Time 1 standard action 1 swift action 1 full-round action 1 standard action 2-10 Rounds 1 round less than normal Time spellsurge has no effect on any spell with a casting time of greater than 1 minute or a casting time not listed on the table. You can’t choose to ignore this effect; that is, you can’t opt to cast a spell using its normal casting time. Thus, if all your spells normally have casting times of 1 standard action , they take 1 swift action instead, and because you can’t take more than one swift action in a round, you won’t be able to cast multiple spells per round while under the effect of time spellsurge. (If you have available spells with casting times of 1 full round, you are still able to cast one of those spells per round in tandem). This spell doesn’t stack with any other effect that reduces a spell’s casting time."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Green and yellow sparks fly off your body as a light breeze picks up, lifting loose debris and swirling around with a faint howl",
+      "value": "<p>Green and yellow sparks fly off your body as a light breeze picks up, lifting loose debris and swirling around with a faint howl. This spell speeds the flow of magic through you, hastening your spellcasting ability. Casting times for chronomancy spells are reduced as follows: Normal Casting Time New Casting Time 1 standard action 1 swift action 1 full-round action 1 standard action 2-10 Rounds 1 round less than normal Time spellsurge has no effect on any spell with a casting time of greater than 1 minute or a casting time not listed on the table. You can’t choose to ignore this effect; that is, you can’t opt to cast a spell using its normal casting time. Thus, if all your spells normally have casting times of 1 standard action , they take 1 swift action instead, and because you can’t take more than one swift action in a round, you won’t be able to cast multiple spells per round while under the effect of time spellsurge. (If you have available spells with casting times of 1 full round, you are still able to cast one of those spells per round in tandem). This spell doesn’t stack with any other effect that reduces a spell’s casting time.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 7
+      }
+    },
+    "level": 7,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!6cde8dfd52ba4515"
+}

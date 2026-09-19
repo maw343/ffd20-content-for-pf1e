@@ -1,0 +1,61 @@
+{
+  "_id": "GqHJT8OZe419WxzY",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785712798689,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_35.jpg",
+  "name": "Favored Enemy (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 2nd level, a blue mage selects a creature type from the blue mage favored enemies table. She gains a +2 bonus on Knowledge, Perception, Sense Motive, and Survival checks against creatures of her selected type. Likewise, she gets a +2 bonus on weapon attack and damage rolls against them.<br><br>At 7th level and every five blue mage levels thereafter (12th and 17th level), the blue mage may select an additional favored enemy. In addition, at each such interval, the bonus against any one favored enemy (including the one just selected, if so desired) increases by +2.<br><br>If the blue mage chooses humanoids or outsiders as a favored enemy, she must also choose an associated subtype. If a specific creature falls into more than one category of favored enemy, the blue mage's bonuses do not stack; she simply uses whichever bonus is higher.<br><br>Table: Favored Enemies — Aberration, Animal, Construct, Dragon, Fey, Humanoid (subtype), Magical beast, Monstrous humanoid, Ooze, Outsider (subtype), Plant, Undead, Vermin.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "favoredenemy",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Blue Mage",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Blue Mage"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!GqHJT8OZe419WxzY"
+}

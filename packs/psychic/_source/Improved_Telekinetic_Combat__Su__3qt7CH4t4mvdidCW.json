@@ -1,0 +1,58 @@
+{
+  "_id": "3qt7CH4t4mvdidCW",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Improved Telekinetic Combat (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 9th level, a psychic may add her Intelligence modifier as a bonus to damage rolls when using telekinetic combat, and the AC penalty decreases to -1. In addition, the weight limit increases to 50 lbs. per psychic level on telekinesis when using sustained force. She may spend 1 point from her phrenic pool when activating telekinetic combat as a full-round action, move her weapon up to 30 feet, and make an attack with it in the same action as using telekinesis. She gains a +2 bonus on this attack roll and takes a -2 penalty to her AC for 1 round as if she were charging.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "improved_telekinetic_com",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Psychic"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Psychic",
+          9
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!3qt7CH4t4mvdidCW"
+}

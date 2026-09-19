@@ -1,0 +1,1213 @@
+{
+  "_id": "C2d0wP1bQ1WQ8X0u",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/races/creature-types/outsider.png",
+  "name": "Ixion (Avatar)",
+  "prototypeToken": {
+    "texture": {
+      "src": "systems/pf1/icons/races/creature-types/outsider.png"
+    }
+  },
+  "type": "character",
+  "effects": [],
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 12
+      },
+      "dex": {
+        "value": 16
+      },
+      "con": {
+        "value": 14
+      },
+      "int": {
+        "value": 8
+      },
+      "cha": {
+        "value": 16
+      }
+    },
+    "attributes": {
+      "naturalAC": 1,
+      "speed": {
+        "land": {
+          "base": 60
+        }
+      },
+      "spells": {
+        "spellbooks": {
+          "primary": {
+            "name": "Primary"
+          },
+          "secondary": {
+            "name": "Secondary"
+          },
+          "spelllike": {
+            "name": "Spell-likes",
+            "inUse": true,
+            "casterType": "high",
+            "class": "hd",
+            "cl": {
+              "formula": ""
+            },
+            "autoSpellLevelCalculation": true,
+            "autoSpellLevels": true,
+            "psychic": false,
+            "arcaneSpellFailure": true,
+            "hasCantrips": true,
+            "spellPreparationMode": "spontaneous",
+            "baseDCFormula": "10 + sl + ablMod",
+            "ability": "cha",
+            "spellPoints": {
+              "useSystem": true,
+              "value": 0,
+              "maxFormula": "@attributes.hd.total",
+              "restoreFormula": ""
+            },
+            "spells": {
+              "spell0": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell1": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell2": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell3": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell4": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell5": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell6": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell7": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell8": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell9": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              }
+            },
+            "spellSlotAbilityBonusFormula": "",
+            "domainSlotValue": 1,
+            "kind": "arcane",
+            "noAbilityLimit": false
+          },
+          "tertiary": {
+            "name": "Tertiary"
+          }
+        }
+      }
+    },
+    "traits": {
+      "senses": {}
+    },
+    "details": {
+      "notes": {
+        "value": "<h2>Ixion - Starting Statistics</h2><p>Size Medium; Speed 60 ft.; AC +1 natural armor; Special Qualities: Lightning immunity.</p><h3>7th-Level Advancement</h3><p>Size Large; Reach 5 ft; AC +2 natural armor; Attack gore (1d8), 2 hooves (1d6); Ability Scores Str +4, Dex -2, Con +2, Cha +2</p>"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "Nx1nTU3Ed8RuRO5R",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/blue_04.jpg",
+      "name": "Gore",
+      "type": "attack",
+      "system": {
+        "subType": "natural",
+        "held": null,
+        "actions": [
+          {
+            "_id": "5QNvO2RZWGfSZrPB",
+            "name": "Gore",
+            "actionType": "mwak",
+            "activation": {
+              "type": "attack",
+              "unchained": {
+                "type": "attack"
+              }
+            },
+            "ability": {
+              "attack": "_default",
+              "damage": "str"
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "1d6",
+                  "types": [
+                    "piercing"
+                  ]
+                }
+              ]
+            },
+            "duration": {
+              "units": "inst"
+            },
+            "img": "systems/pf1/icons/skills/blue_04.jpg",
+            "range": {
+              "units": "melee"
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!C2d0wP1bQ1WQ8X0u.Nx1nTU3Ed8RuRO5R"
+    },
+    {
+      "_id": "iYXpJGqCLNSmnic1",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/blue_04.jpg",
+      "name": "Hoof",
+      "type": "attack",
+      "system": {
+        "subType": "natural",
+        "held": null,
+        "actions": [
+          {
+            "_id": "wEUZNMD7Fy9obwaP",
+            "name": "Hoof",
+            "actionType": "mwak",
+            "activation": {
+              "type": "attack",
+              "unchained": {
+                "type": "attack"
+              }
+            },
+            "ability": {
+              "attack": "_default",
+              "damage": "str"
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "1d4",
+                  "types": [
+                    "bludgeoning"
+                  ]
+                }
+              ]
+            },
+            "duration": {
+              "units": "inst"
+            },
+            "img": "systems/pf1/icons/skills/blue_04.jpg",
+            "range": {
+              "units": "melee"
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!C2d0wP1bQ1WQ8X0u.iYXpJGqCLNSmnic1"
+    },
+    {
+      "_id": "5HhqpaKnNgtKtIWV",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/blue_04.jpg",
+      "name": "Hoof",
+      "type": "attack",
+      "system": {
+        "subType": "natural",
+        "held": null,
+        "actions": [
+          {
+            "_id": "X4neZLj5jf5coBUb",
+            "name": "Hoof",
+            "actionType": "mwak",
+            "activation": {
+              "type": "attack",
+              "unchained": {
+                "type": "attack"
+              }
+            },
+            "ability": {
+              "attack": "_default",
+              "damage": "str"
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "1d4",
+                  "types": [
+                    "bludgeoning"
+                  ]
+                }
+              ]
+            },
+            "duration": {
+              "units": "inst"
+            },
+            "img": "systems/pf1/icons/skills/blue_04.jpg",
+            "range": {
+              "units": "melee"
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!C2d0wP1bQ1WQ8X0u.5HhqpaKnNgtKtIWV"
+    },
+    {
+      "_id": "giYqcmOmczzuEbxI",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/blue_29.jpg",
+      "name": "Avatar (Summoner) - Ixion",
+      "type": "class",
+      "system": {
+        "tag": "summonerAvatar",
+        "bab": "high",
+        "savingThrows": {
+          "fort": {
+            "value": "low"
+          },
+          "ref": {
+            "value": "high"
+          },
+          "will": {
+            "value": "high"
+          }
+        },
+        "skillsPerLevel": 4,
+        "customHD": "round((@item.level - 1) * 0.75) + 1",
+        "classSkills": {
+          "acr": true,
+          "cli": true,
+          "fly": true,
+          "per": true,
+          "sen": true,
+          "ste": true,
+          "swm": true
+        },
+        "description": {
+          "value": "<p>Ixion's Avatar class features are tied to the summoner's class level. HD equals round((level-1)*0.75)+1, matching the confirmed Avatar Base Statistics progression.</p>"
+        },
+        "links": {
+          "classAssociations": [
+            {
+              "level": 1,
+              "name": "Darkvision",
+              "uuid": "Compendium.world.summoner-avatar.Item.rBiKROGZrsrSJW9e"
+            },
+            {
+              "level": 1,
+              "name": "Link",
+              "uuid": "Compendium.world.summoner-avatar.Item.whO4esN696cRSoGi"
+            },
+            {
+              "level": 1,
+              "name": "MP Pool",
+              "uuid": "Compendium.world.summoner-avatar.Item.xc8uXIXh7uw17DJg"
+            },
+            {
+              "level": 2,
+              "name": "Evasion",
+              "uuid": "Compendium.world.summoner-avatar.Item.aWsQSjFrTV4T4bTy"
+            },
+            {
+              "level": 4,
+              "name": "Magic Attacks",
+              "uuid": "Compendium.world.summoner-avatar.Item.Yb24EZjAyvl5jApv"
+            },
+            {
+              "level": 5,
+              "name": "Ability Score Increase",
+              "uuid": "Compendium.world.summoner-avatar.Item.S4WzYkN4ZDxGJGhk"
+            },
+            {
+              "level": 6,
+              "name": "Devotion",
+              "uuid": "Compendium.world.summoner-avatar.Item.07tZrbo6EPl0yFPu"
+            },
+            {
+              "level": 8,
+              "name": "Multiattack",
+              "uuid": "Compendium.world.summoner-avatar.Item.rMu0fIsM5uq6sEP8"
+            },
+            {
+              "level": 10,
+              "name": "Ability Score Increase",
+              "uuid": "Compendium.world.summoner-avatar.Item.S4WzYkN4ZDxGJGhk"
+            },
+            {
+              "level": 14,
+              "name": "Improved Evasion",
+              "uuid": "Compendium.world.summoner-avatar.Item.2QaoSbpMfbCg5dYT"
+            },
+            {
+              "level": 15,
+              "name": "Ability Score Increase",
+              "uuid": "Compendium.world.summoner-avatar.Item.S4WzYkN4ZDxGJGhk"
+            }
+          ]
+        }
+      },
+      "effects": [],
+      "_key": "!actors.items!C2d0wP1bQ1WQ8X0u.giYqcmOmczzuEbxI"
+    },
+    {
+      "_id": "NMDfrqffWSkQW1n4",
+      "_stats": {
+        "coreVersion": "12.331",
+        "compendiumSource": "Compendium.world.summoner-avatar.Item.rBiKROGZrsrSJW9e"
+      },
+      "img": "systems/pf1/icons/skills/blue_02.jpg",
+      "name": "Darkvision",
+      "system": {
+        "associations": {
+          "classes": [
+            "Avatar"
+          ]
+        },
+        "class": "summonerAvatar",
+        "description": {
+          "value": "<p>The avatar has darkvision out to a range of 60 feet.</p>"
+        },
+        "subType": "classFeat",
+        "abilityType": "ex"
+      },
+      "type": "feat",
+      "effects": [],
+      "_key": "!actors.items!C2d0wP1bQ1WQ8X0u.NMDfrqffWSkQW1n4"
+    },
+    {
+      "_id": "OqyiLHqfW6djS9Vp",
+      "_stats": {
+        "coreVersion": "12.331",
+        "compendiumSource": "Compendium.world.summoner-avatar.Item.whO4esN696cRSoGi"
+      },
+      "img": "systems/pf1/icons/feats/quick-draw.jpg",
+      "name": "Link",
+      "system": {
+        "associations": {
+          "classes": [
+            "Avatar"
+          ]
+        },
+        "class": "summonerAvatar",
+        "description": {
+          "value": "<p>A summoner and his avatar share a mental link allows for communication across any distance (as long as they are on the same plane). This communication is a free action, allowing the summoner to give orders to his avatar at any time. In addition, magic items interfere with the summoner's connection to his avatar. As a result, the summoner and his avatar share magic item slots. For example, if the summoner is wearing a ring, his avatar can wear no more than one ring. In case of a conflict, the items worn by the summoner remain active, and those used by the avatar become dormant. The avatar must possess the appropriate appendages to utilize a magic item.</p>"
+        },
+        "subType": "classFeat",
+        "abilityType": "ex",
+        "contextNotes": [
+          {
+            "target": "skill.han",
+            "text": "Free-action orders to avatar at any range (same plane); shared magic item slots (Not factored in)"
+          }
+        ]
+      },
+      "type": "feat",
+      "effects": [],
+      "_key": "!actors.items!C2d0wP1bQ1WQ8X0u.OqyiLHqfW6djS9Vp"
+    },
+    {
+      "_id": "mJOgRr2BtgTDnui3",
+      "_stats": {
+        "coreVersion": "12.331",
+        "compendiumSource": "Compendium.world.summoner-avatar.Item.xc8uXIXh7uw17DJg"
+      },
+      "img": "systems/pf1/icons/skills/blue_11.jpg",
+      "name": "MP Pool",
+      "system": {
+        "associations": {
+          "classes": [
+            "Avatar"
+          ]
+        },
+        "class": "summonerAvatar",
+        "description": {
+          "value": "<p>An avatar has an MP pool with a maximum equal to the summoner's level. The avatar regains MP equal to the summoner's level when the summoner does their 30-minute meditation after resting. The avatar may spend its magic points on spells and abilities granted by the specific avatar page. In the case of Yojimbo, this MP Pool is spent at a 1 MP to 10 gil ratio for his abilities but otherwise does not function as gil. Spells that would absorb MP treat avatars as they would summoned creatures, and do not work when allies use them.</p><p><em>Schema note: implemented as a pf1 Spell Points pool (<code>system.attributes.spells.spellbooks.spelllike.spellPoints</code>: <code>useSystem</code>, <code>value</code>, <code>maxFormula</code>, <code>restoreFormula</code>) on the avatar's actor sheet, with <code>maxFormula: \"@attributes.hd.total\"</code> since avatar HD equals summoner level.</em></p>"
+        },
+        "subType": "classFeat"
+      },
+      "type": "feat",
+      "effects": [],
+      "_key": "!actors.items!C2d0wP1bQ1WQ8X0u.mJOgRr2BtgTDnui3"
+    },
+    {
+      "_id": "Nx3oTLPB3ML2e1w9",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Limit Break: Thor's Hammer",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "su",
+        "level": 1,
+        "description": {
+          "value": "<p>At 1st level, Ixion calls down judgment of the heavens. Enemies within 30 feet take 1d6 lightning damage per summoner level, Reflex save for half damage.</p>"
+        },
+        "tag": "ixionlimitbreakthor'shammer",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "iR8giXhBmrsUzee7",
+            "name": "Limit Break: Thor's Hammer",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": "30 ft.",
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "1d6/level",
+                  "types": [
+                    "lightning"
+                  ]
+                }
+              ]
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "con",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.con.mod",
+              "description": "half damage / negates"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!C2d0wP1bQ1WQ8X0u.Nx3oTLPB3ML2e1w9"
+    },
+    {
+      "_id": "BZAcSjhmBdblketB",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Static Charge",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "ex",
+        "level": 2,
+        "description": {
+          "value": "<p>At 2nd level, Every 1d4+1 rounds while charging, Ixion can inflict static and dazzled status for 1d6 rounds each. Reflex save negates.</p>"
+        },
+        "tag": "ixionstaticcharge",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "eSREXbAjkD6hKJUb",
+            "name": "Static Charge",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "cha",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.cha.mod",
+              "description": "half damage / negates"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!C2d0wP1bQ1WQ8X0u.BZAcSjhmBdblketB"
+    },
+    {
+      "_id": "FDhSh424U529Zhcx",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Chaos Charge",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "su",
+        "level": 4,
+        "description": {
+          "value": "<p>At 4th level, Every 1d4+1 rounds, Ixion attacks with his horn at -5 penalty. Hit deals normal gore + 2d6 lightning damage; Fortitude save or stunned 1 round.</p>"
+        },
+        "tag": "ixionchaoscharge",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "xdG40XpjDo3i5bh8",
+            "name": "Chaos Charge",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "cha",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.cha.mod",
+              "description": "half damage / negates"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!C2d0wP1bQ1WQ8X0u.FDhSh424U529Zhcx"
+    },
+    {
+      "_id": "F2xE732UtXyzUmdT",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Lightning Bolt",
+      "type": "spell",
+      "system": {
+        "subType": null,
+        "abilityType": "sp",
+        "level": 6,
+        "description": {
+          "value": "<p>At 6th level, Ixion is able to cast Lightning Bolt like the spell.</p>"
+        },
+        "tag": "ixionlightningbolt",
+        "spellPoints": {
+          "cost": "3"
+        },
+        "learnedAt": {
+          "class": {
+            "summonerAvatar": 6
+          }
+        },
+        "spellbook": "spelllike",
+        "actions": [
+          {
+            "_id": "67LyM2jDruoZatG5",
+            "name": "Lightning Bolt",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": "spellsave"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!C2d0wP1bQ1WQ8X0u.F2xE732UtXyzUmdT"
+    },
+    {
+      "_id": "R6vnIV07rJAACOAE",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Aerospark",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "su",
+        "level": 8,
+        "description": {
+          "value": "<p>At 8th level, Every 1d4+1 rounds as a full-round action, Ixion fires two lightning blasts at two targets within 60 feet, each dealing 3d6 + Charisma modifier lightning damage.</p>"
+        },
+        "tag": "ixionaerospark",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "34oDy1EbLqnQkOt1",
+            "name": "Aerospark",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": 60,
+              "units": "ft",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "3d6",
+                  "types": [
+                    "lightning"
+                  ]
+                }
+              ]
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "cha",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.cha.mod",
+              "description": "negates additional effect"
+            },
+            "actionType": "rwak",
+            "ability": {
+              "attack": "dex",
+              "damage": "",
+              "damageMult": 1,
+              "critRange": 20
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!C2d0wP1bQ1WQ8X0u.R6vnIV07rJAACOAE"
+    },
+    {
+      "_id": "Fsb8GI7IA2QvhRLN",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Fulmination Spiral",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "ex",
+        "level": 10,
+        "description": {
+          "value": "<p>At 10th level, Every 1d4+1 rounds as a full-round action, charges a 30-ft.-line dealing triple gore damage and Deprotect II, Reflex save halves and negates.</p>"
+        },
+        "tag": "ixionfulminationspiral",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "5oYkH9Mg01nEqdEi",
+            "name": "Fulmination Spiral",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": "30-ft.-line",
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "con",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.con.mod",
+              "description": "half damage / negates"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!C2d0wP1bQ1WQ8X0u.Fsb8GI7IA2QvhRLN"
+    },
+    {
+      "_id": "uuhqB8xXZGVU8xkD",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Chain Lightning",
+      "type": "spell",
+      "system": {
+        "subType": null,
+        "abilityType": "sp",
+        "level": 12,
+        "description": {
+          "value": "<p>At 12th level, Ixion is able to cast Chain Lightning like the spell.</p>"
+        },
+        "tag": "ixionchainlightning",
+        "spellPoints": {
+          "cost": "6"
+        },
+        "learnedAt": {
+          "class": {
+            "summonerAvatar": 12
+          }
+        },
+        "spellbook": "spelllike",
+        "actions": [
+          {
+            "_id": "gBs6AiQNh424ONaQ",
+            "name": "Chain Lightning",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": "spellsave"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!C2d0wP1bQ1WQ8X0u.uuhqB8xXZGVU8xkD"
+    },
+    {
+      "_id": "Y2vCDNpBN1iXMbmt",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Thunder Guard",
+      "type": "spell",
+      "system": {
+        "subType": null,
+        "abilityType": "sp",
+        "level": 14,
+        "description": {
+          "value": "<p>At 14th level, Allies within 30 feet gain +10 morale bonus to saves versus lightning spells and effects. Blue mage may learn as 6th level spell (Knowledge: Planes DC 27).</p>"
+        },
+        "tag": "ixionthunderguard",
+        "spellPoints": {
+          "cost": "6"
+        },
+        "learnedAt": {
+          "class": {
+            "summonerAvatar": 14
+          }
+        },
+        "spellbook": "spelllike",
+        "actions": [
+          {
+            "_id": "U81Jt0UlmNn9GHxG",
+            "name": "Thunder Guard",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": "30 ft.",
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": ""
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!C2d0wP1bQ1WQ8X0u.Y2vCDNpBN1iXMbmt"
+    },
+    {
+      "_id": "XYuL37jtPUW7LBfC",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Odin's Lance",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "ex",
+        "level": 16,
+        "description": {
+          "value": "<p>At 16th level, Every 1d4+1 rounds, Ixion thrusts at -5 penalty; a hit is treated as a critical hit dealing double damage.</p>"
+        },
+        "tag": "ixionodin'slance",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "OY2GBatPcZI2tnl0",
+            "name": "Odin's Lance",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": "rwak",
+            "ability": {
+              "attack": "dex",
+              "damage": "",
+              "damageMult": 1,
+              "critRange": 20
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!C2d0wP1bQ1WQ8X0u.XYuL37jtPUW7LBfC"
+    },
+    {
+      "_id": "g73FWfK2AULcz52A",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Stormbolts",
+      "type": "spell",
+      "system": {
+        "subType": null,
+        "abilityType": "sp",
+        "level": 18,
+        "description": {
+          "value": "<p>At 18th level, Ixion is able to cast Stormbolts like the spell.</p>"
+        },
+        "tag": "ixionstormbolts",
+        "spellPoints": {
+          "cost": "8"
+        },
+        "learnedAt": {
+          "class": {
+            "summonerAvatar": 18
+          }
+        },
+        "spellbook": "spelllike",
+        "actions": [
+          {
+            "_id": "3gNvLDXxHOucr2Of",
+            "name": "Stormbolts",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": "spellsave"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!C2d0wP1bQ1WQ8X0u.g73FWfK2AULcz52A"
+    },
+    {
+      "_id": "Z0Jr376CchD6RRdu",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Lightning Horn",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "su",
+        "level": 20,
+        "description": {
+          "value": "<p>At 20th level, Every 1d4+1 rounds as a full-round action, super-charged lightning bolt dealing 15d8 lightning damage in a 100-ft.-line 10 feet wide, Reflex save for half.</p>"
+        },
+        "tag": "ixionlightninghorn",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "xoQnPs7qodnLiX2p",
+            "name": "Lightning Horn",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": "100-ft.-line, 10 ft. wide",
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "15d8",
+                  "types": [
+                    "lightning"
+                  ]
+                }
+              ]
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "cha",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.cha.mod",
+              "description": "half damage / negates"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!C2d0wP1bQ1WQ8X0u.Z0Jr376CchD6RRdu"
+    }
+  ],
+  "_key": "!actors!C2d0wP1bQ1WQ8X0u"
+}

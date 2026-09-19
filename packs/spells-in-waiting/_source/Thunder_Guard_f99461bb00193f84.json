@@ -1,0 +1,67 @@
+{
+  "_id": "f99461bb00193f84",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Thunder Guard",
+  "system": {
+    "actions": [
+      {
+        "_id": "1d655270d503b1f3",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "allies within a 30-ft.-radius centered on you",
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates Ixion’s ability to grant nearby allies a shocking guard",
+      "value": "<p>The caster emulates Ixion’s ability to grant nearby allies a shocking guard. All allies within 30 feet gain a +10 morale bonus to saving throws versus lightning spells and effects. Learned From Ixion</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 6
+      }
+    },
+    "level": 6,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f99461bb00193f84"
+}

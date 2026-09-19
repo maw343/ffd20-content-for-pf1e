@@ -1,0 +1,67 @@
+{
+  "_id": "cf2d559e904fc9a0",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Petrifying Beak",
+  "system": {
+    "actions": [
+      {
+        "_id": "4d9a1119c1463229",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "perm"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You call forth Cockatrice, a bird-like creature able to turn an enemy into stone with its beak",
+      "value": "<p>You call forth Cockatrice, a bird-like creature able to turn an enemy into stone with its beak. The target of this spell is inflicted with the Petrification status effect. Petrification: The flesh of a creature suffering from Petrification turns to stone over the course of a short period of time. The subject is allowed a saving throw for every round this is in effect; the effect worsens if they fail. Once inflicted with Petrification, a successful saving throw means the subject staves off the oncoming effects for that round. While a creature might stave off the effects of Petrification for a short period of time, Petrification effects usually persist until it inevitably consumes them. Upon failing their first saving throw, the process begins with the subject’s legs turning to stone. Creatures on this stage cannot use move actions for any sort of ground-based movement. Upon failing their second saving throw, the subjects arms and upper torso also turn to stone. Creatures on this stage cannot use any actions save for talking and using abilities that only require a vocal component. Airborne creatures on this stage immediately fall to the ground, taking falling damage as normal. Upon failing their third saving throw, the subject’s entire body is turned to stone. The Petrification status effect is removed and is instead replaced with the Statue status effect. Statue: A creature afflicted by this status effect has had its entire body turned to stone. They are considered unconscious and thus incapable of performing any action. If this creature cracks or breaks, but the broken pieces are joined with the body as they return to flesh, they are unharmed. If the creature’s body is incomplete when it returns to flesh, the body is likewise incomplete and there is some amount of permanent hit point loss and/or debilitation.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "summoner": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!cf2d559e904fc9a0"
+}

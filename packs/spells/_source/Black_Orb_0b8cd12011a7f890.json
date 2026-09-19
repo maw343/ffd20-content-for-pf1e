@@ -1,0 +1,67 @@
+{
+  "_id": "0b8cd12011a7f890",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Black Orb",
+  "system": {
+    "actions": [
+      {
+        "_id": "5d0dbfd8b3b154f3",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "1-ft.-diameter sphere"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates (Object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You create a small weightless sphere of pure dark energy.",
+      "value": "<p>You create a small weightless sphere of pure dark energy. As a\nmove action\n, you can move it up to 30 feet per round in any direction. If it enters a space with a living creature, it stops moving for the round and that creature gains one negative level (Fortitude negates). Any creature passing through or ending its turn in the space occupied by the sphere gains one negative level (Fortitude negates). Twenty-four hours after gaining a negative level from the sphere, the subject must make a Fortitude saving throw (the DC of this save is equal to the DC of this spell) for each negative level. If the save succeeds, that negative level is removed. If it fails, that negative level becomes permanent.\nIf more than one orb (from different castings of the spell) enters the same space, the orbs automatically fuse together. The resulting orb uses the higher of the two orbs’ DCs as its DC and whichever duration has more time left. If the orbs are from different casters, each must make an opposed Intelligence check to move the sphere.\nAn undead creature that passes through or ends its turn in the space occupied by the orb gains 2d4 × 5 temporary hit points for 1 hour.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 8,
+        "necromancer": 8
+      }
+    },
+    "level": 8,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!0b8cd12011a7f890"
+}

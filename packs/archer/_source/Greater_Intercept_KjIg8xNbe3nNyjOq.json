@@ -1,0 +1,84 @@
+{
+  "_id": "KjIg8xNbe3nNyjOq",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785115383747,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_02.jpg",
+  "name": "Greater Intercept",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Archer 18, Intercept Arrow and Improved Intercept archery talents</p><p>Whenever an archer successfully deflects an attack with his intercept arrow talent, he can redirect the attack against a target within 30 feet, using the intercepted attack's attack roll against the new target's AC.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "greaterintercept",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {},
+    "source": "Final Fantasy d20 - Archer (Archery Talents)"
+  },
+  "effects": [],
+  "folder": "WmmObPCDVZhaIakd",
+  "sort": 150000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!KjIg8xNbe3nNyjOq"
+}

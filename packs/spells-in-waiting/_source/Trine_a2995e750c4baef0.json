@@ -1,0 +1,66 @@
+{
+  "_id": "a2995e750c4baef0",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Trine",
+  "system": {
+    "actions": [
+      {
+        "_id": "8ce531bc04adeecd",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "area": "45-ft.-radius spread",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1 round/level"
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates Kefka creating a triangular energy field that deals damage to all enemies dealing 1d8 points of lightning elemental d...",
+      "value": "<p>The caster emulates Kefka creating a triangular energy field that deals damage to all enemies dealing 1d8 points of lightning elemental damage per caster level (maximum 15d8) and are inflicted with the Blind and Silence status effect for 1 round per level. A successful Reflex save halves the damage and negates the status effects. Learned From Kefka Palazzo , Kaiser Dragon , and Rest</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 7
+      }
+    },
+    "level": 7,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a2995e750c4baef0"
+}

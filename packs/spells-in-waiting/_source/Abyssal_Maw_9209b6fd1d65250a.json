@@ -1,0 +1,78 @@
+{
+  "_id": "9209b6fd1d65250a",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Abyssal Maw",
+  "system": {
+    "actions": [
+      {
+        "_id": "631da4bf7232b319",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "area": "20-ft.-radius spread",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; permanent; see text"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 15))d6",
+              "types": [
+                "earth"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude half and negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You call forth Jormungand, a large serpent creature who causes the ground to explode and petrifies enemies",
+      "value": "<p>You call forth Jormungand, a large serpent creature who causes the ground to explode and petrifies enemies. Enemies within the area of effect takes 1d6 points of earth damage per caster level (maximum 10d6) and are inflicted with the Statue status effect. A successful Fortitude save halves the damage and negates the status effect. Statue: A creature afflicted by this status effect has had its entire body turned to stone. They are considered unconscious and thus incapable of performing any action. If this creature cracks or breaks, but the broken pieces are joined with the body as they return to flesh, they are unharmed. If the creature’s body is incomplete when it returns to flesh, the body is likewise incomplete and there is some amount of permanent hit point loss and/or debilitation.</p>"
+    },
+    "descriptors": [
+      "earth"
+    ],
+    "learnedAt": {
+      "class": {
+        "summoner": 7
+      }
+    },
+    "level": 7,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!9209b6fd1d65250a"
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "0073339a399e2774",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Renew II",
+  "system": {
+    "actions": [
+      {
+        "_id": "9f01ebadb0747701",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "heal",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Renew , except the targets receive Fast Healing 4 for the duration of the spell",
+      "value": "<p>This spell functions like Renew , except the targets receive Fast Healing 4 for the duration of the spell.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 5
+      }
+    },
+    "level": 5,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!0073339a399e2774"
+}

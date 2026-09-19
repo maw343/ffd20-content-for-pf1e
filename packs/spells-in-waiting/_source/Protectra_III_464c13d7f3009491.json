@@ -1,0 +1,57 @@
+{
+  "_id": "464c13d7f3009491",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Protectra III",
+  "system": {
+    "actions": [
+      {
+        "_id": "479c77d69f711270",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Protectra , except the targets gain a +6 deflection bonus to Armor Class for the duration of the spell",
+      "value": "<p>This spell functions like Protectra , except the targets gain a +6 deflection bonus to Armor Class for the duration of the spell.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 7
+      }
+    },
+    "level": 7,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!464c13d7f3009491"
+}

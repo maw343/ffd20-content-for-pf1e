@@ -1,0 +1,19 @@
+{
+  "_id": "exIJ1Bwz4792zTqc",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_02.jpg",
+  "name": "Healing Hands (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>Whenever a white mage casts a spell that cures hit point damage, she adds her Wisdom modifier as an Insight Bonus to the amount of damage healed. This does not apply to Fast Healing or Regeneration effects.</p>"
+    },
+    "tag": "healinghandsex",
+    "source": "Final Fantasy d20 - White Mage (Advanced Mage Talents)"
+  },
+  "effects": [],
+  "_key": "!items!exIJ1Bwz4792zTqc"
+}

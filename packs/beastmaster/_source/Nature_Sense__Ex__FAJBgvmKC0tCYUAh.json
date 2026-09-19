@@ -1,0 +1,27 @@
+{
+  "_id": "FAJBgvmKC0tCYUAh",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_12.jpg",
+  "name": "Nature Sense (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>Also, at 1st level, a beastmaster gains a +2 bonus on Knowledge (nature) and Survival checks.</p>"
+    },
+    "tag": "naturesense",
+    "source": "Final Fantasy d20 - Beastmaster",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          1
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!FAJBgvmKC0tCYUAh"
+}

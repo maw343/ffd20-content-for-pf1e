@@ -1,0 +1,60 @@
+{
+  "_id": "5d4db11310c31079",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Allegro",
+  "system": {
+    "actions": [
+      {
+        "_id": "fe914b3612b384d7",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "inst"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This song allows you to act more swiftly while maintaining a bardic performance.",
+      "value": "<p>This song allows you to act more swiftly while maintaining a bardic performance. You must already be maintaining a bardic performance before you can perform allegro. You gain the benefits of the spell haste for as long as you maintain that bardic performance. If you cease maintaining the bardic performance or it is interrupted, this song’s duration ends. As an\nimmediate action\nwhile you are maintaining a bardic performance, you can dismiss allegro to reroll a Reflex save or Dexterity-based skill check. You must choose to reroll before the result of the original roll is known. You must take the result of the reroll, even if it’s worse than the original roll. Allegro dispels and is dispelled by slow.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bard": 2
+      }
+    },
+    "level": 2,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!5d4db11310c31079"
+}

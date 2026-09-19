@@ -1,0 +1,66 @@
+{
+  "_id": "5db7e63f4b777026",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Mislead",
+  "system": {
+    "actions": [
+      {
+        "_id": "f453157bcb95fef4",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "you/one illusory double"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You become invisible (as greater vanish ), and at the same time, an illusory double of you (as major image ) appears.",
+      "value": "<p>You become invisible (as\ngreater vanish\n), and at the same time, an illusory double of you (as\nmajor image\n) appears. You are then free to go elsewhere while your double moves away. The double appears within range but thereafter moves as you direct it (which requires concentration beginning on the first round after the casting). You can make the illusion appear superimposed perfectly over your own body so that observers don’t notice an image appearing and you turning invisible. You and the illusion can then move in different directions. The double moves at your speed and can talk and gesture as if it were real, but it cannot attack or cast spells, though it can pretend to do so.\nThe illusory double lasts as long as you concentrate upon it, plus 3 additional rounds. After you cease concentration, the illusory double continues to carry out the same activity until the duration expires. The greater vanish lasts for 1 round per level, regardless of concentration.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 6,
+        "redmage": 6
+      }
+    },
+    "level": 6,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "figment",
+      "glamer"
+    ],
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!5db7e63f4b777026"
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "SUSNm7GWKsa2Pnyd",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_12.jpg",
+  "name": "Inner Strength (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 19th level, the monk attains the ability to draw out his latent power, bolstering his defenses.</p><p>As a standard action, the monk gains a source of DR/–, with this amount being equal to the monk's Constitution bonus. This effect stacks with any existing sources of DR/–, and lasts for 1 minute.</p><p>The monk can use this ability 3 times per day.</p>"
+    },
+    "tag": "innerstrength",
+    "source": "Final Fantasy d20 - Monk",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          19
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!SUSNm7GWKsa2Pnyd"
+}

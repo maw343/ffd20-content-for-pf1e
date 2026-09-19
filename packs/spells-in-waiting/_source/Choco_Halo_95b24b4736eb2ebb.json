@@ -1,0 +1,68 @@
+{
+  "_id": "95b24b4736eb2ebb",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Choco Halo",
+  "system": {
+    "actions": [
+      {
+        "_id": "e7c3b58affdadb1e",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates(harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates a gold chocobo’s ability to place a halo over their an ally or themselves",
+      "value": "<p>The caster emulates a gold chocobo’s ability to place a halo over their an ally or themselves. The target gains auto-raise, float, and haste: the ability to receive the Reraise status when the subject dies, gently float over the ground by 5 feet, receive +1 bonus to Attack rolls, +1 bonus to Reflex saves, +30 foot movement, and an extra attack if the subject uses a full-attack option. Learned From chocobo family</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 8
+      }
+    },
+    "level": 8,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!95b24b4736eb2ebb"
+}

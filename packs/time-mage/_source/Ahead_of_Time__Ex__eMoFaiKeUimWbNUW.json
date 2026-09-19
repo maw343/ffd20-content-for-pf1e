@@ -1,0 +1,58 @@
+{
+  "_id": "eMoFaiKeUimWbNUW",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Ahead of Time (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>At 2nd level, the time mage's growing control over time grants him a +2 bonus to initiative rolls. Whenever the time mage rolls for initiative, he can roll twice and take either result. At 7th level, the time mage can always act in the surprise round, but if he fails to notice the ambush, he acts last, regardless of his initiative result (he acts in the normal order in following rounds). At 11th level, the time mage can roll for initiative three times and take any one of the results. This bonus stacks with the bonus granted by the improved initiative feat.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "ahead_of_time_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Time Mage"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Time Mage",
+          2
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!eMoFaiKeUimWbNUW"
+}

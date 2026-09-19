@@ -1,0 +1,67 @@
+{
+  "_id": "d526808ae487355c",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Forest's Sense",
+  "system": {
+    "actions": [
+      {
+        "_id": "2841498560cd966b",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "spec",
+          "value": "1 minute/level ; see text"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You can sense the location of a target creature within range if it is also within 10 feet of a living plant or fungus",
+      "value": "<p>You can sense the location of a target creature within range if it is also within 10 feet of a living plant or fungus. You must be able to target the creature by tangible qualities such as its build, clothing texture, size, or tracks, but you need not have line of effect to your target. the fungus or plants near the target serve as a scrying sensor for this spell. Your senses of hearing, smell, and touch extend to all fungus and plants within 10 feet of the target, allowing you to gauge the size and shape of nearby objects and potentially to overhear conversations in which the target is currently participating. Your scent ability and tremorsense extend through this scrying sensor if you have them, but any other special senses you might have do not. For 1 day after casting this spell, you gain a +5 insight bonus on Survival checks to track creatures you sensed via the spell. You can dismiss this bonus on Survival checks.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "druid": 4
+      }
+    },
+    "level": 4,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d526808ae487355c"
+}

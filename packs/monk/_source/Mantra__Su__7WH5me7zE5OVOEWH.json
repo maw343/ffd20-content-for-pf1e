@@ -1,0 +1,27 @@
+{
+  "_id": "7WH5me7zE5OVOEWH",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_14.jpg",
+  "name": "Mantra (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>Sing an ancient mantra, amplifying healing effects on you and nearby allies. As a swift action, add an extra 1d6 + an additional 1d6 per three monk levels healing you and allies within 20 feet receive from healing with dice components. Fast healing effects are instead increased by 1 per 3 monk levels. This effect lasts for one minute. Healing received from effects with no dice components or fast healing are otherwise unaffected.</p>"
+    },
+    "tag": "mantra",
+    "source": "Final Fantasy d20 - Blitz Techniques",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          3
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!7WH5me7zE5OVOEWH"
+}

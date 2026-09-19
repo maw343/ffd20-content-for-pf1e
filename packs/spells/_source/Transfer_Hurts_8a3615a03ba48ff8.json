@@ -1,0 +1,71 @@
+{
+  "_id": "8a3615a03ba48ff8",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Transfer Hurts",
+  "system": {
+    "actions": [
+      {
+        "_id": "c8f2cfb1934b3e1d",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "willing creature touched"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "2d10",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You heal another creature’s wounds, transferring some of its damage to yourself",
+      "value": "<p>You heal another creature’s wounds, transferring some of its damage to yourself. When you cast this spell, you can heal as much as 2d10 points of damage. The target regains a number of hit points equal to the dice result, and you lose hit points equal to half of that amount. (This loss can bring you to 0 or fewer hit points.) Class features and abilities you may have such as damage reduction and regeneration do not lessen or change this damage, since you are taking the target’s pain into yourself in an empathic manner. The damage transferred by this spell has no type, so even if you have immunity to the type of damage the target originally took, the transfer occurs normally and deals hit point damage to you. Alternatively, you can use this spell to absorb one poison or one disease afflicting the target creature into yourself. When you absorb a poison or disease, you do not take any of the damage previously dealt to the target by the affliction, but you do assume the burden of making the secondary and/or continuing Fortitude saves to combat the affliction. Finally, you can use this spell to transfer up to 1 point of ability damage per caster level from the target to yourself.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "darkknight": 2
+      }
+    },
+    "level": 2,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!8a3615a03ba48ff8"
+}

@@ -1,0 +1,78 @@
+{
+  "_id": "797e83dab765997a",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Phantasmal Tripwire",
+  "system": {
+    "actions": [
+      {
+        "_id": "5d48d2a2f2be12ae",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one living creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d3",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "will",
+          "description": "Will disbelief, then Will negates — see text"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You create a phantasmal image of a tripwire by forming the thoughts of the subject’s subconscious mind into something that its conscious ...",
+      "value": "<p>You create a phantasmal image of a tripwire by forming the thoughts of the subject’s subconscious mind into something that its conscious mind can visualize: a wire strung in front of its feet. Only the spell’s subject can sense the phantasmal tripwire . You see only a vague shape near its feet. The target first gets a Will save to recognize the sensation as unreal. If that save fails, the subject believes the tripwire is real. The subject then must succeed on a second Will save or fall prone and suffer 1d3 nonlethal damage. If the subject of phantasmal tripwire succeeds in disbelieving and possesses telepathy or is wearing a helm of telepathy, the image of the tripwire can be turned upon you. You must then disbelieve it or become subject to believing that you’re caught up in a trip wire upon which you must succeed on a second Will save or fall prone and suffer 1d3 nonlethal damage.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 0,
+        "ninja": 0
+      }
+    },
+    "level": 0,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!797e83dab765997a"
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "TMTJmNMNRjGzrY31",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Lion Claws",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Dex 15, Proficiency with a trigger attack gunarm, Lion Style, base attack bonus +6</p><p><strong>Benefit:</strong> When making a full attack action with a gunarm in Lion Style, your first trigger attack fires two bullets. If the attack hits, both bullets hit. Apply precision-based damage and critical hit damage only once for the first bullet. Damage bonuses apply to each bullet. Damage reduction and resistances apply separately to each bullet. These two bullets must attack the same target.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "style",
+    "tag": "lion_claws",
+    "requirements": "Dex 15, Proficiency with a trigger attack gunarm, Lion Style, base attack bonus +6",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-StyleFeats",
+        "pages": "Style Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!TMTJmNMNRjGzrY31"
+}

@@ -1,0 +1,67 @@
+{
+  "_id": "fae2133dfb3643f4",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "24 Hours",
+  "system": {
+    "actions": [
+      {
+        "_id": "def58c2713467df4",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell greatly accelerates time for a single creature",
+      "value": "<p>This spell greatly accelerates time for a single creature. In an instant, the creature experiences a single day’s worth of rest and relaxation. The target receives all the benefits of a single day of rest, including hit point recovery, ability damage repair, etc., except for MP recovery and daily abilities. As a by-product, the creature ages one full day. Spells and other external forces with a fixed duration do not experience the day but poisons, diseases and other internal forces progress as if a day had passed. If 24 hours was cast on a bleeding individual, for example, this spell would kill them.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 6
+      }
+    },
+    "level": 6,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!fae2133dfb3643f4"
+}

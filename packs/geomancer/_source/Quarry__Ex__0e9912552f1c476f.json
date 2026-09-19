@@ -1,0 +1,61 @@
+{
+  "_id": "0e9912552f1c476f",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785719681674,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Quarry (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Geomancer 8, Track geomancy trick</p><p>A geomancer with this trick can, as a standard action, denote one target within her line of sight as her quarry. Whenever she is following the tracks of her quarry, a geomancer can take 10 on her Survival skill checks while moving at normal speed, without penalty. In addition, she receives a +2 insight bonus on attack rolls made against her quarry, and all critical threats are automatically confirmed. A geomancer can have no more than one quarry at a time. She can dismiss this effect at any time as a free action, but she cannot select a new quarry for 24 hours. If the geomancer sees proof that her quarry is dead, she can select a new quarry after waiting 1 hour.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "quarryex",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Geomancer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Geomancy Tricks"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!0e9912552f1c476f"
+}

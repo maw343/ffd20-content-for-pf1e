@@ -1,0 +1,27 @@
+{
+  "_id": "M4FXwlcohFRfPokF",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_13.jpg",
+  "name": "Effortless Dual-Wielding (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Warrior 6, Two-Weapon Fighting feat</p><p>The warrior may treat one-handed weapons as light weapons for two-weapon fighting penalties.</p>"
+    },
+    "tag": "effortlessdualwielding",
+    "source": "Final Fantasy d20 - Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!M4FXwlcohFRfPokF"
+}

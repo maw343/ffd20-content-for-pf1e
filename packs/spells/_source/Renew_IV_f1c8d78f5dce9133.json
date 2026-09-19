@@ -1,0 +1,58 @@
+{
+  "_id": "f1c8d78f5dce9133",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Renew IV",
+  "system": {
+    "actions": [
+      {
+        "_id": "c58dd01e8bb9bec6",
+        "name": "Use",
+        "actionType": "heal",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Renew , except the targets receive Fast Healing 8 for the duration of the spell.",
+      "value": "<p>This spell functions like\nRenew\n, except the targets receive Fast Healing 8 for the duration of the spell.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "healing"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f1c8d78f5dce9133"
+}

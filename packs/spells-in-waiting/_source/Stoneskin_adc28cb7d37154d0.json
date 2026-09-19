@@ -1,0 +1,75 @@
+{
+  "_id": "adc28cb7d37154d0",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Stoneskin",
+  "system": {
+    "actions": [
+      {
+        "_id": "1e8e381f7d7ddf6c",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "10 minutes/level or until discharged"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You beckon the earth to absorb into the subject’s skin reducing the damage from physical attacks",
+      "value": "<p>You beckon the earth to absorb into the subject’s skin reducing the damage from physical attacks. For the duration of the spell, the target receives Damage Reduction 10/adamantine. It ignores the first 10 points of damage each time it takes damage from physical attacks, though an adamantine weapon bypasses the reduction. Once the spell has prevented a total of 10 points of damage per caster level (maximum 150 points), it is discharged.</p>"
+    },
+    "descriptors": [
+      "earth"
+    ],
+    "learnedAt": {
+      "class": {
+        "astrologian": 4,
+        "blackmage": 4,
+        "whitemage": 4,
+        "redmage": 4,
+        "druid": 5,
+        "geomancer": 5
+      }
+    },
+    "level": 4,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!adc28cb7d37154d0"
+}

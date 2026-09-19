@@ -1,0 +1,27 @@
+{
+  "_id": "aMjI2tvGC0Q3LWcL",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_13.jpg",
+  "name": "Rain of Blows (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Warrior 6</p><p>The warrior may make an extra attack at his highest BAB with his chosen weapon as part of a full attack, but all of his attacks take a -2 penalty that turn. This does not stack with anything that could grant his main-hand weapon extra attacks (such as Haste), but he may gain other extra attacks (such as from two-weapon fighting).</p>"
+    },
+    "tag": "rainofblows",
+    "source": "Final Fantasy d20 - Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!aMjI2tvGC0Q3LWcL"
+}

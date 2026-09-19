@@ -1,0 +1,61 @@
+{
+  "_id": "fb5edf45fa1ea419",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Skillful Moment",
+  "system": {
+    "actions": [
+      {
+        "_id": "2d00c87b00f8b5db",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round DESCRIPTION Upon casting this spell, you channel a future result of one designated course of action into an act you’re about to perform. When casting this spell, choose one skill. The round after you cast this spell, you may take 20 on the chosen skill as a single standard action . You only gain this benefit on the skill noted at the time of the spell’s casting, gaining no bonus to any other skill. If you do not make the skill check in the round immediately following the spell’s casting, the benefit is lost. This spell does not affect skill checks that would take longer than a standard action ."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Upon casting this spell, you channel a future result of one designated course of action into an act you’re about to perform",
+      "value": "<p>Upon casting this spell, you channel a future result of one designated course of action into an act you’re about to perform. When casting this spell, choose one skill. The round after you cast this spell, you may take 20 on the chosen skill as a single standard action . You only gain this benefit on the skill noted at the time of the spell’s casting, gaining no bonus to any other skill. If you do not make the skill check in the round immediately following the spell’s casting, the benefit is lost. This spell does not affect skill checks that would take longer than a standard action .</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 1
+      }
+    },
+    "level": 1,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!fb5edf45fa1ea419"
+}

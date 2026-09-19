@@ -1,0 +1,69 @@
+{
+  "_id": "81ce3a0c5ed60643",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Moment of Greatness",
+  "system": {
+    "actions": [
+      {
+        "_id": "c8ace3b794bebe6c",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "50 ft"
+        },
+        "target": {
+          "value": "the caster and allies within a 50-ft. burst centered on the caster"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level or until discharged"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will disbelieves (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Each creature affected by this spell believes they have the potential for greater success and glory",
+      "value": "<p>Each creature affected by this spell believes they have the potential for greater success and glory. If the affected creature is benefiting from a morale bonus of any type, it can double that morale bonus on one roll or check, before making the roll. Once an affected creature uses this spell’s effect, the spell is discharged for that subject.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 1
+      }
+    },
+    "level": 1,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!81ce3a0c5ed60643"
+}

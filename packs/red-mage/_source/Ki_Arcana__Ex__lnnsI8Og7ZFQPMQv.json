@@ -1,0 +1,19 @@
+{
+  "_id": "lnnsI8Og7ZFQPMQv",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Ki Arcana (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Red Mage 6, levels in a class that grants a ki pool</p><p>The red mage may use points from his arcana pool and ki points from a ki pool granted by another class interchangeably.</p>"
+    },
+    "tag": "kiarcanaex",
+    "source": "Final Fantasy d20 - Red Mage (Ruby Arcana)"
+  },
+  "effects": [],
+  "_key": "!items!lnnsI8Og7ZFQPMQv"
+}

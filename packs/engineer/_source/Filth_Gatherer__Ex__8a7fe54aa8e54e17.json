@@ -1,0 +1,61 @@
+{
+  "_id": "8a7fe54aa8e54e17",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785718761458,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Filth Gatherer (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> —</p><p>Featuring a tap in its side and an iron crank above, this simple clay jug holds up to four gallons of impure water, poured into the top. Operating the crank pumps the water through a number of filters, chemical separators, and complex mechanisms that separate any impurities in the water into a separate container within the jug, leaving clean, drinkable water on the bottom. Opening the tap releases the purified water, while opening the separate compartment reveals the gathered waste—poisons, dirt, disease—cleansed from the water and safely contained. This brown ooze can be used as a poison coating that causes victims to contract filth fever. If the water contained another disease or poison, this coating also causes that effect with the same DC as the original poison or disease. The filth gatherer is Small, and it has hardness 8 and 30 hit points. It weighs 50 pounds while empty.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "filthgathererex",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Engineer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Engineer Tricks - Gadgets"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!8a7fe54aa8e54e17"
+}

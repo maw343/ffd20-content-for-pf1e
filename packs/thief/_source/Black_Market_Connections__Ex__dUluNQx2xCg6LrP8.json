@@ -1,0 +1,61 @@
+{
+  "_id": "dUluNQx2xCg6LrP8",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785614788348,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/shadow_11.jpg",
+  "name": "Black Market Connections (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>A thief with this talent gains better access to magic items from black market connections. She treats every settlement as one size greater (see Table: Settlement Statistics) for the purpose of determining the gil limit of the base value of items for sale, as well as the number of minor, medium, and major magic items for sale in the settlement. If the settlement is already a metropolis, all minor and medium magic items are for sale, as well as 3d8 major magic items. With a successful Diplomacy check, the thief can treat the settlement as two sizes larger. If the settlement is already a metropolis and she succeeds at the check, all magic items are for sale. If the settlement is already a large city and she succeeds at the check, all minor and medium magic items are for sale, as well as 3d8 major magic items. With a successful check, the thief can also sell stolen items on the black market. If the check fails by 5 or more, the thief does something to spook the market, and treats the city as normal for 1 week. Furthermore, those in control of the black market may alert the authorities to the thief's presence in an act of reprisal for spooking the market or to divert attention away from their illicit activities. The DCs of the checks are by settlement size and are given in the following: Thorp (DC 10), Hamlet (DC 12), Village (DC 15), Small Town (DC 18), Large Town (DC 20), Small City (DC 25), Large City (DC 30), and Metropolis (DC 35)</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "blackmarketconnections",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Thief",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Thief Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!dUluNQx2xCg6LrP8"
+}

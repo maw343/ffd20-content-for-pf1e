@@ -1,0 +1,50 @@
+{
+  "_id": "gFsQpu7jy97UNFbZ",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Gunslinger (Combat, Variety of Races)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Goblin, gnath, tarutaru, moogle, mandragora, tonkin, or palico</p><p><strong>Benefit:</strong> You can wield Medium firearms without taking the penalty for an inappropriately sized weapon.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "racial",
+    "tag": "gunslinger_combat_variet",
+    "requirements": "Goblin, gnath, tarutaru, moogle, mandragora, tonkin, or palico",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-RacialFeats",
+        "pages": "Racial Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!gFsQpu7jy97UNFbZ"
+}
