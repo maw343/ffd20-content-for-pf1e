@@ -1,0 +1,84 @@
+{
+  "_id": "da3461787bc96c2c",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Raijin",
+  "system": {
+    "actions": [
+      {
+        "_id": "1271eab1cf371f38",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "area": "10 feet square, 100 feet high column above",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous 1d4 rounds"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 15))d6",
+              "types": [
+                "electricity"
+              ]
+            },
+            {
+              "formula": "(min(@spells.primary.cl.total, 15))d6",
+              "types": [
+                "wind"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You call forth a column of roaring lightning that slices through the air, hitting all in its path before slamming the ground, dealing 1d6...",
+      "value": "<p>You call forth a column of roaring lightning that slices through the air, hitting all in its path before slamming the ground, dealing 1d6 half lightning/half wind damage per ninja level (maximum of 15d6) to all in a 10 feet square and 100 feet high column above the radius. Those affected are also inflicted with Slow for 1d4 rounds. A Reflex save can half this damage and negate the Slow effect.</p>"
+    },
+    "descriptors": [
+      "wind"
+    ],
+    "learnedAt": {
+      "class": {
+        "ninja": 6
+      }
+    },
+    "level": 6,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!da3461787bc96c2c"
+}

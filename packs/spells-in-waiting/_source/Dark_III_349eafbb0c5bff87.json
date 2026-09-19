@@ -1,0 +1,69 @@
+{
+  "_id": "349eafbb0c5bff87",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Dark III",
+  "system": {
+    "actions": [
+      {
+        "_id": "3d607312c50fdde7",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "5d6 + @spells.primary.abilityMod + min(@spells.primary.cl.total, 15)",
+              "types": [
+                "negative"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Dark , except it deals 5d6 points of shadow damage + your casting modifier (Intelligence or Charisma) + 1 point...",
+      "value": "<p>This spell functions like Dark , except it deals 5d6 points of shadow damage + your casting modifier (Intelligence or Charisma) + 1 point per caster level (maximum +15) and inflicts the Dimmed status effect for 1d8 rounds. A successful Fortitude save prevents the status effect from taking effect.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 3,
+        "necromancer": 3
+      }
+    },
+    "level": 3,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!349eafbb0c5bff87"
+}

@@ -1,0 +1,68 @@
+{
+  "_id": "eff56baab5f1aeef",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Quick Etude III",
+  "system": {
+    "actions": [
+      {
+        "_id": "3c1448f2c0116b6f",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "allies within 30 ft. of you"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round",
+          "concentration": true
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You play the song of fast reflexes, enhancing nearby allies Armor Class to dodge ranged attacks better.",
+      "value": "<p>You play the song of fast reflexes, enhancing nearby allies Armor Class to dodge ranged attacks better. Each round this song is in effect, the targets gain a +6 dodge bonus to Armor Class against ranged attacks.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bard": 5
+      }
+    },
+    "level": 5,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!eff56baab5f1aeef"
+}

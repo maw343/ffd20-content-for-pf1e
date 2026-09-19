@@ -1,0 +1,58 @@
+{
+  "_id": "3qt7CH4t4mvdidCW",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Safeguard (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>At 11th level, the chemist is able to protect his gear and his belongings from the harms of battle with great speed and precision. He is immune to steal combat maneuvers and gains a +4 bonus to his CMD versus sunder and disarm combat maneuvers. A helpless chemist does not gain the benefits of this ability.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "safeguard_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Chemist"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Chemist",
+          11
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!3qt7CH4t4mvdidCW"
+}

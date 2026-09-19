@@ -1,0 +1,68 @@
+{
+  "_id": "179daa79973e0a23",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Eyebite",
+  "system": {
+    "actions": [
+      {
+        "_id": "ed97e1e68f4fe3fa",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one living creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Each round, you can target a single living creature, striking it with waves of power",
+      "value": "<p>Each round, you can target a single living creature, striking it with waves of power. Depending on the target’s HD, this attack has as many as three effects. You must spend a swift action each round after the first to target a foe. HD Spell Effect 10 or more Sickened 5-9 Panicked, Sickened 4 or less Comatose, panicked, sickened The effects are cumulative and concurrent. Sickened: Sudden pain and fever sweeps over the subject’s body. A creature affected by this spell remains sickened for 10 minutes per caster level. Panicked: The subject becomes panicked for 1d4 rounds. Even after the panic ends, the creature remains shaken for 10 minutes per caster level, and it automatically becomes panicked again if it comes within sight of you during that time. This is a fear effect. Comatose: The subject falls into a catatonic coma for 10 minutes per caster level. During this time, it cannot be awakened by any means short of dispelling the effect. This is not a sleep effect, and thus elves are not immune to it.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "necromancer": 6
+      }
+    },
+    "level": 6,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!179daa79973e0a23"
+}

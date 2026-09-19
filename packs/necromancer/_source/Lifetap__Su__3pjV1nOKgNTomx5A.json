@@ -1,0 +1,58 @@
+{
+  "_id": "3pjV1nOKgNTomx5A",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Lifetap (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, whenever the necromancer casts single-target spells (of 1st-level or higher) that deals shadow damage to a living creature, he gains health back equal to spell level of the spell + his Charisma modifier or the number of dice damage + his Charisma modifier. If this would put him above his normal hit point total, he can transfer the excess to his bone commander. Any excess left over on the bone commander above its normal hit point total dissipates.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "lifetap_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Necromancer"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Necromancer",
+          3
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!3pjV1nOKgNTomx5A"
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "awuqQqXh9SuFUotP",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Quaff Potion Mastery (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>At 13th level, the chemist's ability to ingest alchemical items becomes legendary. He can ingest an alchemical item as a swift action instead of a move action. The chemist also doesn't provoke an attack of opportunity from ingesting an alchemical item. In addition, when ingesting an alchemical item, the bonus to saving throws increases to +4.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "quaff_potion_mastery_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Chemist"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Chemist",
+          13
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!awuqQqXh9SuFUotP"
+}

@@ -1,0 +1,1218 @@
+{
+  "_id": "pFMTkYA8oNkWoukg",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/races/creature-types/outsider.png",
+  "name": "Bismarck (Avatar)",
+  "prototypeToken": {
+    "texture": {
+      "src": "systems/pf1/icons/races/creature-types/outsider.png"
+    }
+  },
+  "type": "character",
+  "effects": [],
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 16
+      },
+      "con": {
+        "value": 16
+      },
+      "int": {
+        "value": 8
+      },
+      "cha": {
+        "value": 12
+      }
+    },
+    "attributes": {
+      "naturalAC": 1,
+      "speed": {
+        "land": {
+          "base": 30
+        },
+        "fly": {
+          "base": 60,
+          "maneuverability": "poor"
+        },
+        "swim": {
+          "base": 60
+        }
+      },
+      "spells": {
+        "spellbooks": {
+          "primary": {
+            "name": "Primary"
+          },
+          "secondary": {
+            "name": "Secondary"
+          },
+          "spelllike": {
+            "name": "Spell-likes",
+            "inUse": true,
+            "casterType": "high",
+            "class": "hd",
+            "cl": {
+              "formula": ""
+            },
+            "autoSpellLevelCalculation": true,
+            "autoSpellLevels": true,
+            "psychic": false,
+            "arcaneSpellFailure": true,
+            "hasCantrips": true,
+            "spellPreparationMode": "spontaneous",
+            "baseDCFormula": "10 + sl + ablMod",
+            "ability": "cha",
+            "spellPoints": {
+              "useSystem": true,
+              "value": 0,
+              "maxFormula": "@attributes.hd.total",
+              "restoreFormula": ""
+            },
+            "spells": {
+              "spell0": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell1": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell2": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell3": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell4": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell5": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell6": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell7": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell8": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell9": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              }
+            },
+            "spellSlotAbilityBonusFormula": "",
+            "domainSlotValue": 1,
+            "kind": "arcane",
+            "noAbilityLimit": false
+          },
+          "tertiary": {
+            "name": "Tertiary"
+          }
+        }
+      }
+    },
+    "traits": {
+      "senses": {}
+    },
+    "details": {
+      "notes": {
+        "value": "<h2>Bismarck - Starting Statistics</h2><p>Size Medium; Speed 30 ft., fly 60 ft. (poor), swim 60 ft.; AC +1 natural armor; Special Qualities: Strong against Water and Wind.</p><h3>7th-Level Advancement</h3><p>Size Large; Reach 5 ft; AC +2 natural armor; Attack bite (1d6 + 1d6 water) or slam (1d10), tail slap (1d6 + 1d6 wind); Ability Scores Str +4, Dex -2, Con +2, Cha +2</p>"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "q5PtHlDJIGZwqTAb",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/blue_04.jpg",
+      "name": "Bite",
+      "type": "attack",
+      "system": {
+        "subType": "natural",
+        "held": null,
+        "actions": [
+          {
+            "_id": "mINx15pYCyJqtjhu",
+            "name": "Bite",
+            "actionType": "mwak",
+            "activation": {
+              "type": "attack",
+              "unchained": {
+                "type": "attack"
+              }
+            },
+            "ability": {
+              "attack": "_default",
+              "damage": "str"
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "1d4",
+                  "types": [
+                    "piercing"
+                  ]
+                }
+              ]
+            },
+            "duration": {
+              "units": "inst"
+            },
+            "img": "systems/pf1/icons/skills/blue_04.jpg",
+            "range": {
+              "units": "melee"
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!pFMTkYA8oNkWoukg.q5PtHlDJIGZwqTAb"
+    },
+    {
+      "_id": "8KAzVLMSRps9hEZw",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/blue_04.jpg",
+      "name": "Slam",
+      "type": "attack",
+      "system": {
+        "subType": "natural",
+        "held": null,
+        "actions": [
+          {
+            "_id": "sJJ6keExDny6AceD",
+            "name": "Slam",
+            "actionType": "mwak",
+            "activation": {
+              "type": "attack",
+              "unchained": {
+                "type": "attack"
+              }
+            },
+            "ability": {
+              "attack": "_default",
+              "damage": "str"
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "1d8",
+                  "types": [
+                    "bludgeoning"
+                  ]
+                }
+              ]
+            },
+            "duration": {
+              "units": "inst"
+            },
+            "img": "systems/pf1/icons/skills/blue_04.jpg",
+            "range": {
+              "units": "melee"
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!pFMTkYA8oNkWoukg.8KAzVLMSRps9hEZw"
+    },
+    {
+      "_id": "AKJFcPuSbyMI4Ctf",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/blue_04.jpg",
+      "name": "Tail Slap",
+      "type": "attack",
+      "system": {
+        "subType": "natural",
+        "held": null,
+        "actions": [
+          {
+            "_id": "874AQTjA9lokBygD",
+            "name": "Tail Slap",
+            "actionType": "mwak",
+            "activation": {
+              "type": "attack",
+              "unchained": {
+                "type": "attack"
+              }
+            },
+            "ability": {
+              "attack": "_default",
+              "damage": "str"
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "1d4",
+                  "types": [
+                    "bludgeoning"
+                  ]
+                }
+              ]
+            },
+            "duration": {
+              "units": "inst"
+            },
+            "img": "systems/pf1/icons/skills/blue_04.jpg",
+            "range": {
+              "units": "melee"
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!pFMTkYA8oNkWoukg.AKJFcPuSbyMI4Ctf"
+    },
+    {
+      "_id": "RVj56ZaJA8vxUyuX",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/blue_29.jpg",
+      "name": "Avatar (Summoner) - Bismarck",
+      "type": "class",
+      "system": {
+        "tag": "summonerAvatar",
+        "bab": "high",
+        "savingThrows": {
+          "fort": {
+            "value": "low"
+          },
+          "ref": {
+            "value": "high"
+          },
+          "will": {
+            "value": "high"
+          }
+        },
+        "skillsPerLevel": 4,
+        "customHD": "round((@item.level - 1) * 0.75) + 1",
+        "classSkills": {
+          "acr": true,
+          "cli": true,
+          "fly": true,
+          "per": true,
+          "sen": true,
+          "ste": true,
+          "swm": true
+        },
+        "description": {
+          "value": "<p>Bismarck's Avatar class features are tied to the summoner's class level. HD equals round((level-1)*0.75)+1, matching the confirmed Avatar Base Statistics progression.</p>"
+        },
+        "links": {
+          "classAssociations": [
+            {
+              "level": 1,
+              "name": "Darkvision",
+              "uuid": "Compendium.world.summoner-avatar.Item.rBiKROGZrsrSJW9e"
+            },
+            {
+              "level": 1,
+              "name": "Link",
+              "uuid": "Compendium.world.summoner-avatar.Item.whO4esN696cRSoGi"
+            },
+            {
+              "level": 1,
+              "name": "MP Pool",
+              "uuid": "Compendium.world.summoner-avatar.Item.xc8uXIXh7uw17DJg"
+            },
+            {
+              "level": 2,
+              "name": "Evasion",
+              "uuid": "Compendium.world.summoner-avatar.Item.aWsQSjFrTV4T4bTy"
+            },
+            {
+              "level": 4,
+              "name": "Magic Attacks",
+              "uuid": "Compendium.world.summoner-avatar.Item.Yb24EZjAyvl5jApv"
+            },
+            {
+              "level": 5,
+              "name": "Ability Score Increase",
+              "uuid": "Compendium.world.summoner-avatar.Item.S4WzYkN4ZDxGJGhk"
+            },
+            {
+              "level": 6,
+              "name": "Devotion",
+              "uuid": "Compendium.world.summoner-avatar.Item.07tZrbo6EPl0yFPu"
+            },
+            {
+              "level": 8,
+              "name": "Multiattack",
+              "uuid": "Compendium.world.summoner-avatar.Item.rMu0fIsM5uq6sEP8"
+            },
+            {
+              "level": 10,
+              "name": "Ability Score Increase",
+              "uuid": "Compendium.world.summoner-avatar.Item.S4WzYkN4ZDxGJGhk"
+            },
+            {
+              "level": 14,
+              "name": "Improved Evasion",
+              "uuid": "Compendium.world.summoner-avatar.Item.2QaoSbpMfbCg5dYT"
+            },
+            {
+              "level": 15,
+              "name": "Ability Score Increase",
+              "uuid": "Compendium.world.summoner-avatar.Item.S4WzYkN4ZDxGJGhk"
+            }
+          ]
+        }
+      },
+      "effects": [],
+      "_key": "!actors.items!pFMTkYA8oNkWoukg.RVj56ZaJA8vxUyuX"
+    },
+    {
+      "_id": "nzpMTLfYpjc68JKo",
+      "_stats": {
+        "coreVersion": "12.331",
+        "compendiumSource": "Compendium.world.summoner-avatar.Item.rBiKROGZrsrSJW9e"
+      },
+      "img": "systems/pf1/icons/skills/blue_02.jpg",
+      "name": "Darkvision",
+      "system": {
+        "associations": {
+          "classes": [
+            "Avatar"
+          ]
+        },
+        "class": "summonerAvatar",
+        "description": {
+          "value": "<p>The avatar has darkvision out to a range of 60 feet.</p>"
+        },
+        "subType": "classFeat",
+        "abilityType": "ex"
+      },
+      "type": "feat",
+      "effects": [],
+      "_key": "!actors.items!pFMTkYA8oNkWoukg.nzpMTLfYpjc68JKo"
+    },
+    {
+      "_id": "anMnEhBoAcHM45FQ",
+      "_stats": {
+        "coreVersion": "12.331",
+        "compendiumSource": "Compendium.world.summoner-avatar.Item.whO4esN696cRSoGi"
+      },
+      "img": "systems/pf1/icons/feats/quick-draw.jpg",
+      "name": "Link",
+      "system": {
+        "associations": {
+          "classes": [
+            "Avatar"
+          ]
+        },
+        "class": "summonerAvatar",
+        "description": {
+          "value": "<p>A summoner and his avatar share a mental link allows for communication across any distance (as long as they are on the same plane). This communication is a free action, allowing the summoner to give orders to his avatar at any time. In addition, magic items interfere with the summoner's connection to his avatar. As a result, the summoner and his avatar share magic item slots. For example, if the summoner is wearing a ring, his avatar can wear no more than one ring. In case of a conflict, the items worn by the summoner remain active, and those used by the avatar become dormant. The avatar must possess the appropriate appendages to utilize a magic item.</p>"
+        },
+        "subType": "classFeat",
+        "abilityType": "ex",
+        "contextNotes": [
+          {
+            "target": "skill.han",
+            "text": "Free-action orders to avatar at any range (same plane); shared magic item slots (Not factored in)"
+          }
+        ]
+      },
+      "type": "feat",
+      "effects": [],
+      "_key": "!actors.items!pFMTkYA8oNkWoukg.anMnEhBoAcHM45FQ"
+    },
+    {
+      "_id": "W3jpDKkywO95UawT",
+      "_stats": {
+        "coreVersion": "12.331",
+        "compendiumSource": "Compendium.world.summoner-avatar.Item.xc8uXIXh7uw17DJg"
+      },
+      "img": "systems/pf1/icons/skills/blue_11.jpg",
+      "name": "MP Pool",
+      "system": {
+        "associations": {
+          "classes": [
+            "Avatar"
+          ]
+        },
+        "class": "summonerAvatar",
+        "description": {
+          "value": "<p>An avatar has an MP pool with a maximum equal to the summoner's level. The avatar regains MP equal to the summoner's level when the summoner does their 30-minute meditation after resting. The avatar may spend its magic points on spells and abilities granted by the specific avatar page. In the case of Yojimbo, this MP Pool is spent at a 1 MP to 10 gil ratio for his abilities but otherwise does not function as gil. Spells that would absorb MP treat avatars as they would summoned creatures, and do not work when allies use them.</p><p><em>Schema note: implemented as a pf1 Spell Points pool (<code>system.attributes.spells.spellbooks.spelllike.spellPoints</code>: <code>useSystem</code>, <code>value</code>, <code>maxFormula</code>, <code>restoreFormula</code>) on the avatar's actor sheet, with <code>maxFormula: \"@attributes.hd.total\"</code> since avatar HD equals summoner level.</em></p>"
+        },
+        "subType": "classFeat"
+      },
+      "type": "feat",
+      "effects": [],
+      "_key": "!actors.items!pFMTkYA8oNkWoukg.W3jpDKkywO95UawT"
+    },
+    {
+      "_id": "lMmpjwBia0GJkOX8",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Limit Break: Breach Blast",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "su",
+        "level": 1,
+        "description": {
+          "value": "<p>At 1st level, Bismarck brings up a massive wave of bubbles, washing away nearby foes. Enemies within 30 feet take 1d6 points of damage (half water/half wind) per summoner level, Reflex save for half damage.</p>"
+        },
+        "tag": "bismarcklimitbreakbreachblast",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "rojbloEFWI5DLT31",
+            "name": "Limit Break: Breach Blast",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": "30 ft. radius",
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "1d6/level",
+                  "types": [
+                    "half water/half wind"
+                  ]
+                }
+              ]
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "con",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.con.mod",
+              "description": "half damage / negates"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!pFMTkYA8oNkWoukg.lMmpjwBia0GJkOX8"
+    },
+    {
+      "_id": "dYCbtq1bJW8ISjnh",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Water Blast",
+      "type": "spell",
+      "system": {
+        "subType": null,
+        "abilityType": "sp",
+        "level": 2,
+        "description": {
+          "value": "<p>At 2nd level, Bismarck is able to cast Water Blast like the spell.</p>"
+        },
+        "tag": "bismarckwaterblast",
+        "spellPoints": {
+          "cost": "1"
+        },
+        "learnedAt": {
+          "class": {
+            "summonerAvatar": 2
+          }
+        },
+        "spellbook": "spelllike",
+        "actions": [
+          {
+            "_id": "n3iFaxLVmy2echrb",
+            "name": "Water Blast",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": "spellsave"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!pFMTkYA8oNkWoukg.dYCbtq1bJW8ISjnh"
+    },
+    {
+      "_id": "Og9YzwO07py8FTXh",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Tail Dive",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "ex",
+        "level": 4,
+        "description": {
+          "value": "<p>At 4th level, Every 1d4+1 rounds, Bismarck adds a dive to his tail slap attack, at -5 penalty dealing double damage.</p>"
+        },
+        "tag": "bismarcktaildive",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "nF2OP2GISlzO2sPd",
+            "name": "Tail Dive",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "con",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.con.mod",
+              "description": "negates additional effect"
+            },
+            "actionType": "rwak",
+            "ability": {
+              "attack": "dex",
+              "damage": "",
+              "damageMult": 1,
+              "critRange": 20
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!pFMTkYA8oNkWoukg.Og9YzwO07py8FTXh"
+    },
+    {
+      "_id": "nV7oYyVGUWFS7LAx",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Battering Ram",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "ex",
+        "level": 6,
+        "description": {
+          "value": "<p>At 6th level, Every 1d4+1 rounds, Bismarck charges with his slam attack; if he hits, a bull rush attempt forces a Reflex save or the target becomes staggered for 1d4+1 rounds.</p>"
+        },
+        "tag": "bismarckbatteringram",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "re2CgVFsHEKw2Cxy",
+            "name": "Battering Ram",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "str",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.str.mod",
+              "description": "half damage / negates"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!pFMTkYA8oNkWoukg.nV7oYyVGUWFS7LAx"
+    },
+    {
+      "_id": "yldJXbaJEjYlnT7Z",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Sea Song",
+      "type": "spell",
+      "system": {
+        "subType": null,
+        "abilityType": "sp",
+        "level": 8,
+        "description": {
+          "value": "<p>At 8th level, Bismarck lets loose an aquatic hymn. Allies within 30 feet gain a morale bonus to AC equal to Bismarck's Charisma modifier for 1d6 rounds. Blue mages may learn this as a 4th level spell (Knowledge: Planes DC 23).</p>"
+        },
+        "tag": "bismarckseasong",
+        "spellPoints": {
+          "cost": "4"
+        },
+        "learnedAt": {
+          "class": {
+            "summonerAvatar": 8
+          }
+        },
+        "spellbook": "spelllike",
+        "actions": [
+          {
+            "_id": "tNN24ssb8f88AFVE",
+            "name": "Sea Song",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": "30 ft.",
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": ""
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!pFMTkYA8oNkWoukg.yldJXbaJEjYlnT7Z"
+    },
+    {
+      "_id": "epP4WRDV6z1OwqDN",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Geyser",
+      "type": "spell",
+      "system": {
+        "subType": null,
+        "abilityType": "sp",
+        "level": 10,
+        "description": {
+          "value": "<p>At 10th level, Bismarck is able to cast Geyser like the spell.</p>"
+        },
+        "tag": "bismarckgeyser",
+        "spellPoints": {
+          "cost": "5"
+        },
+        "learnedAt": {
+          "class": {
+            "summonerAvatar": 10
+          }
+        },
+        "spellbook": "spelllike",
+        "actions": [
+          {
+            "_id": "xruCfDBHqwuNPvYh",
+            "name": "Geyser",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": "spellsave"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!pFMTkYA8oNkWoukg.epP4WRDV6z1OwqDN"
+    },
+    {
+      "_id": "8DOoBHhBpChuWK2y",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Tidal Charge",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "ex",
+        "level": 12,
+        "description": {
+          "value": "<p>At 12th level, Every 1d4+1 rounds as a full-round action, Bismarck charges in a 50-ft.-line dealing triple slam damage and knocking foes prone unless Reflex save.</p>"
+        },
+        "tag": "bismarcktidalcharge",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "jnCJU2RuW1GymL6m",
+            "name": "Tidal Charge",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": "50-ft.-line",
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "con",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.con.mod",
+              "description": "half damage / negates"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!pFMTkYA8oNkWoukg.8DOoBHhBpChuWK2y"
+    },
+    {
+      "_id": "THGKlnCc1EZ2BcTC",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Exploding Bubbles",
+      "type": "spell",
+      "system": {
+        "subType": null,
+        "abilityType": "sp",
+        "level": 14,
+        "description": {
+          "value": "<p>At 14th level, Bismarck breathes exploding bubbles in a 15-ft. cone dealing 15d6 damage (half water/half wind) and knocking prone. Reflex save halves and negates prone. Blue mages may learn as 6th level spell (Knowledge: Planes DC 27).</p>"
+        },
+        "tag": "bismarckexplodingbubbles",
+        "spellPoints": {
+          "cost": "6"
+        },
+        "learnedAt": {
+          "class": {
+            "summonerAvatar": 14
+          }
+        },
+        "spellbook": "spelllike",
+        "actions": [
+          {
+            "_id": "AEI4mTz0QA91jK5Y",
+            "name": "Exploding Bubbles",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": "15-ft.-cone",
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "15d6",
+                  "types": [
+                    "half water/half wind"
+                  ]
+                }
+              ]
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "con",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.con.mod",
+              "description": "half damage / negates"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!pFMTkYA8oNkWoukg.THGKlnCc1EZ2BcTC"
+    },
+    {
+      "_id": "yQNMO9ARN3D7vKii",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Aerial Rush",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "ex",
+        "level": 16,
+        "description": {
+          "value": "<p>At 16th level, Every 1d4+1 rounds as a full-round action, Bismarck attacks three times with slam plus 1d4 wind damage per slam, -5 penalty each.</p>"
+        },
+        "tag": "bismarckaerialrush",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "cd7LwMcuXtBOw4Le",
+            "name": "Aerial Rush",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "con",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.con.mod",
+              "description": "negates additional effect"
+            },
+            "actionType": "rwak",
+            "ability": {
+              "attack": "dex",
+              "damage": "",
+              "damageMult": 1,
+              "critRange": 20
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!pFMTkYA8oNkWoukg.yQNMO9ARN3D7vKii"
+    },
+    {
+      "_id": "bdGpK4hZdiAPIfCi",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Tsunami",
+      "type": "spell",
+      "system": {
+        "subType": null,
+        "abilityType": "sp",
+        "level": 18,
+        "description": {
+          "value": "<p>At 18th level, Bismarck is able to cast Tsunami like the spell.</p>"
+        },
+        "tag": "bismarcktsunami",
+        "spellPoints": {
+          "cost": "9"
+        },
+        "learnedAt": {
+          "class": {
+            "summonerAvatar": 18
+          }
+        },
+        "spellbook": "spelllike",
+        "actions": [
+          {
+            "_id": "jJPg8z4GArH5NOYY",
+            "name": "Tsunami",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": "spellsave"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!pFMTkYA8oNkWoukg.bdGpK4hZdiAPIfCi"
+    },
+    {
+      "_id": "DSJtLnhF6uRqilTO",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Foam Breath",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "su",
+        "level": 20,
+        "description": {
+          "value": "<p>At 20th level, Every 1d4+1 rounds, Bismarck channels a beam of bubbles dealing 15d8 damage (half water/half wind) in a 60-ft.-line 10 feet wide. Reflex save for half damage.</p>"
+        },
+        "tag": "bismarckfoambreath",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "xOIEuFBSnvlwXEAB",
+            "name": "Foam Breath",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": "60-ft.-line, 10 ft. wide",
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "15d8",
+                  "types": [
+                    "half water/half wind"
+                  ]
+                }
+              ]
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "con",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.con.mod",
+              "description": "half damage / negates"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!pFMTkYA8oNkWoukg.DSJtLnhF6uRqilTO"
+    }
+  ],
+  "_key": "!actors!pFMTkYA8oNkWoukg"
+}

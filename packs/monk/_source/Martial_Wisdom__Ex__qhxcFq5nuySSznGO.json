@@ -1,0 +1,27 @@
+{
+  "_id": "qhxcFq5nuySSznGO",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_12.jpg",
+  "name": "Martial Wisdom (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 1st level, the monk's Wisdom score counts as 3 points higher for the purposes of meeting the prerequisites of style feats, combat feats that have a style feat listed as a prerequisite, and the Stunning Fist feat.</p>"
+    },
+    "tag": "martialwisdom",
+    "source": "Final Fantasy d20 - Monk",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          1
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!qhxcFq5nuySSznGO"
+}

@@ -1,0 +1,64 @@
+{
+  "_id": "ec605c1c7ce16651",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Poof!",
+  "system": {
+    "actions": [
+      {
+        "_id": "7693aba746cb57ef",
+        "name": "Use",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "When you cast this spell, you disappear into the shadows.",
+      "value": "<p>When you cast this spell, you disappear into the shadows. This spell functions like\nvanish\n, except the effect only lasts until the end of the caster’s turn. Like vanish, the spell immediately ends if the subject attacks any creature.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 1,
+        "redmage": 1
+      }
+    },
+    "level": 1,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "glamer",
+      "shadow"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!ec605c1c7ce16651"
+}

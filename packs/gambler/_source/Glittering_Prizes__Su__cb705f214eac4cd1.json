@@ -1,0 +1,61 @@
+{
+  "_id": "cb705f214eac4cd1",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785719346361,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Glittering Prizes (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> —</p><p>You can expend up to your gambler level in MGP to conjure a single magical weapon, armor, or wondrous item with continuous or unlimited-use effects, worth up to 1,000 gil in price per MGP spent. The conjured item appears within 100 feet of you, lasts for 1 hour, and vanishes if its wielder or bearer moves beyond this range. If the conjured item is wearable or able to be wielded, you may conjure it directly onto a willing ally within range. When conjuring a magical weapon or armor, you may exchange enhancement bonuses for special abilities of equivalent value, but each item must have at least a +1 enhancement bonus. Ranged weapons created this way generate their normal ammunition automatically when used. Thrown ammunition is conjured in lots of 10.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "glitteringprizessu",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Gambler",
+          4
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Gambits"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!cb705f214eac4cd1"
+}

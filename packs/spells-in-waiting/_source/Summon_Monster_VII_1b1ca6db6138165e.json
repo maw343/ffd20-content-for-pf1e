@@ -1,0 +1,67 @@
+{
+  "_id": "1b1ca6db6138165e",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Summon Monster VII",
+  "system": {
+    "actions": [
+      {
+        "_id": "124f23a097bb68df",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one summoned creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Table: Summon Monster VII Creature Subtype(s) Alberich (Devil, Evil, Extraplanar, Lawful) Fell Tortoise* (Reptilian, [holy/shadow]) Great...",
+      "value": "<p>Table: Summon Monster VII Creature Subtype(s) Alberich (Devil, Evil, Extraplanar, Lawful) Fell Tortoise* (Reptilian, [holy/shadow]) Greater Demon (Chaotic, Demon, Evil, Extraplanar) Elemental (Greater) (Elemental, Extraplanar) Yellowtooth* [(holy/shadow)] Zauberer (Daemon, Extraplanar) This spell functions like Summon Monster I , except that you can summon one creature from the 7th-level list with a CR rating of 10 or lower, 1d3 creatures of the same kind from the 6th-level list , or 1d4+1 creatures of the same kind from the 5th-level or lower lists.</p>"
+    },
+    "descriptors": [
+      "evil",
+      "lawful",
+      "chaotic"
+    ],
+    "learnedAt": {
+      "class": {
+        "summoner": 7
+      }
+    },
+    "level": 7,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!1b1ca6db6138165e"
+}

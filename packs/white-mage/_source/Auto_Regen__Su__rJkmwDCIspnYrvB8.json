@@ -1,0 +1,27 @@
+{
+  "_id": "rJkmwDCIspnYrvB8",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/light_02.jpg",
+  "name": "Auto-Regen (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The white mage begins regenerating hit points. The white mage gains Fast Healing 2 up to 50% health, gaining the Regen status effect that cannot be dispelled. At 14th level, the white mage's Fast Healing increases to 4.</p>"
+    },
+    "tag": "autoregen",
+    "source": "Final Fantasy d20 - White Mage",
+    "associations": {
+      "classes": [
+        [
+          "White Mage",
+          7
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!rJkmwDCIspnYrvB8"
+}

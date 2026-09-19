@@ -1,0 +1,50 @@
+{
+  "_id": "4j4eiCQ0dQp8m3v8",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Riot Expert",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Shinsect Riot Style, Riot Elite, and a Base Attack Bonus +11</p><p><strong>Benefit:</strong> While in Shinsect Riot Style, you gain an insight bonus equal to your Intelligence modifier to AC when you are surrounded by more than two creatures. You increase the DC to Reflex saves for splash weapons you wield. You deal an extra 2d6 points of damage on a critical hit with a club, tonfa, or 1-handed firearm. In addition, you cannot be staggered or stunned by non-magical sources while wearing medium or heavy armor.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "style",
+    "tag": "riot_expert",
+    "requirements": "Shinsect Riot Style, Riot Elite, and a Base Attack Bonus +11",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-StyleFeats",
+        "pages": "Style Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!4j4eiCQ0dQp8m3v8"
+}

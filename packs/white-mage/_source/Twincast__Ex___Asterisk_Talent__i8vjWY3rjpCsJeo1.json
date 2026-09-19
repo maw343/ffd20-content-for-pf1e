@@ -1,0 +1,19 @@
+{
+  "_id": "i8vjWY3rjpCsJeo1",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_02.jpg",
+  "name": "Twincast (Ex) (Asterisk Talent)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>Once per day, the white mage may cast two spells as a standard action, but the combined MP cost cannot exceed her caster level. The two spells must have the same casting time and if they have a target, the targets for the spells may be different.</p><p><em>Asterisk talent: only one such talent's effect may be applied to an individual spell; decision made before casting.</em></p>"
+    },
+    "tag": "twincastex",
+    "source": "Final Fantasy d20 - White Mage (Advanced Mage Talents)"
+  },
+  "effects": [],
+  "_key": "!items!i8vjWY3rjpCsJeo1"
+}

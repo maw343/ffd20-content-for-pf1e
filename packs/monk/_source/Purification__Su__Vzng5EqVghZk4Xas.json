@@ -1,0 +1,27 @@
+{
+  "_id": "Vzng5EqVghZk4Xas",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_14.jpg",
+  "name": "Purification (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Monk 6</p><p>Release positive energy to remove status ailments. You remove one negative status effect for every six monk levels you possess to a target you touch. This changes to a swift action if you target yourself with this ability.</p>"
+    },
+    "tag": "purification",
+    "source": "Final Fantasy d20 - Blitz Techniques",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          3
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!Vzng5EqVghZk4Xas"
+}

@@ -1,0 +1,70 @@
+{
+  "_id": "40d066d3a30f1be4",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Metallasis",
+  "system": {
+    "actions": [
+      {
+        "_id": "3840364441beaed9",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates (Object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell wraps itself around a target, increasing the magnetic forces around the metallic objects the target wields",
+      "value": "<p>This spell wraps itself around a target, increasing the magnetic forces around the metallic objects the target wields. If the target fails a fortitude save, they treat all their metallic gear as being 3x heavier than usual, this does not affect the damage or attack rolls of weapons. This increase in weight may push the target into heavier loads. This effect increases to 4x at CL10, 5x at CL 14, and 6x at CL 19. This spell was submitted as a part of the SCC for August 2020 by DeadKingKicker.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 4,
+        "druid": 4,
+        "geomancer": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!40d066d3a30f1be4"
+}

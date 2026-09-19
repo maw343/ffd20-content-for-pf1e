@@ -1,0 +1,58 @@
+{
+  "_id": "oudNeBdtqWPTtj6X",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Deft Hands (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>Also at 5th level, a chemist becomes so accustomed to where his alchemical items lie, he may draw them from his person as a free action instead of a move action.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "deft_hands_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Chemist"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Chemist",
+          5
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!oudNeBdtqWPTtj6X"
+}

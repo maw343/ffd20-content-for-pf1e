@@ -1,0 +1,27 @@
+{
+  "_id": "lwLNEQx9wZTpLrET",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_13.jpg",
+  "name": "Uncanny Dodge (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Warrior 6</p><p>The warrior can react to danger before his senses would normally allow him to do so. He cannot be caught flat-footed, even if the attacker is invisible. He still loses his Dexterity bonus to AC if immobilized. A warrior with this ability can still lose his Dexterity bonus to AC if an opponent successfully uses the feint action against him. If a warrior already has uncanny dodge from a different class, he automatically gains improved uncanny dodge (see below) instead.</p>"
+    },
+    "tag": "uncannydodge",
+    "source": "Final Fantasy d20 - Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!lwLNEQx9wZTpLrET"
+}

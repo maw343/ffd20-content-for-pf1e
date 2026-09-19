@@ -1,0 +1,27 @@
+{
+  "_id": "VWFaYnS0s5avqRNP",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_14.jpg",
+  "name": "Rising Phoenix (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>Invoke the wrath of a fiery phoenix, incinerating nearby enemies. You deal 1d6 per monk level fire damage to all enemies within 15 feet of you. A successful Reflex save (DC 10 + half of your monk level + your Constitution modifier) halves this damage.</p>"
+    },
+    "tag": "risingphoenix",
+    "source": "Final Fantasy d20 - Blitz Techniques",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          3
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!VWFaYnS0s5avqRNP"
+}

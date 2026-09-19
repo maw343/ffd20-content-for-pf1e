@@ -1,0 +1,71 @@
+{
+  "_id": "cbcad6026037ffc5",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Ray of Entropy",
+  "system": {
+    "actions": [
+      {
+        "_id": "1b3e858fcd36ca4b",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "rsak",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "ray"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        },
+        "ability": {
+          "attack": "dex",
+          "critMult": 2,
+          "critRange": 20
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You release a crackling black ray",
+      "value": "<p>You release a crackling black ray. The smell of decay fills the air. When you cast this spell, you unleash a ray of negative energy that consumes the life energy of the subject. You must succeed on a ranged touch attack with the ray to strike a target. If your attack is successful against a living creature, the ray makes the subject weaker, slower, and less healthy. The subject takes a –4 penalty to Strength, Constitution, and Dexterity for the duration of the spell.</p>"
+    },
+    "descriptors": [
+      "negative"
+    ],
+    "learnedAt": {
+      "class": {
+        "necromancer": 6
+      }
+    },
+    "level": 6,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!cbcad6026037ffc5"
+}

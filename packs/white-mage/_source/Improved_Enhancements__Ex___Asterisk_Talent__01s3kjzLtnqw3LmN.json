@@ -1,0 +1,19 @@
+{
+  "_id": "01s3kjzLtnqw3LmN",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_02.jpg",
+  "name": "Improved Enhancements (Ex) (Asterisk Talent)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>When the white mage casts an enhancement spell, its highly effective on the first round. During the first round that the enhancement spell was cast, the effects are doubled. She may use this ability three times per day.</p><p><em>Asterisk talent: only one such talent's effect may be applied to an individual spell; decision made before casting.</em></p>"
+    },
+    "tag": "improvedenhancementsex",
+    "source": "Final Fantasy d20 - White Mage (Mage Talents)"
+  },
+  "effects": [],
+  "_key": "!items!01s3kjzLtnqw3LmN"
+}

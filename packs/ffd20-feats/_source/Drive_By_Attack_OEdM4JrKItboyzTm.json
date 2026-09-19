@@ -1,0 +1,50 @@
+{
+  "_id": "OEdM4JrKItboyzTm",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Drive-By Attack",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Drive 1 rank</p><p><strong>Benefit:</strong> If you are the operator of the vehicle or Magitek and use the charge action, you may move and attack as if with a standard charge and then move again (continuing the straight line of the charge). Your total movement for the round can't exceed double your mounted speed. You and your vehicle or Magitek do not provoke an attack of opportunity from the opponent that you attack.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "technology",
+    "tag": "drive-by_attack",
+    "requirements": "Drive 1 rank",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-TechnologyFeats",
+        "pages": "Technology Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!OEdM4JrKItboyzTm"
+}

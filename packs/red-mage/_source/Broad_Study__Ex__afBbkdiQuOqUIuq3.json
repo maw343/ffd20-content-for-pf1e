@@ -1,0 +1,19 @@
+{
+  "_id": "afBbkdiQuOqUIuq3",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Broad Study (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Red Mage 4, Spellstrike or Spell Combat class features</p><p>The red mage selects another one of his spellcasting classes. The red mage can use his spellstrike or spell combat abilities while casting or using spells from the spell list of that class.</p>"
+    },
+    "tag": "broadstudyex",
+    "source": "Final Fantasy d20 - Red Mage (Ruby Talents)"
+  },
+  "effects": [],
+  "_key": "!items!afBbkdiQuOqUIuq3"
+}

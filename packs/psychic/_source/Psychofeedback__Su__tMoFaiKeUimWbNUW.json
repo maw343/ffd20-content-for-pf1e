@@ -1,0 +1,50 @@
+{
+  "_id": "tMoFaiKeUimWbNUW",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Psychofeedback (Su)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Benefit:</strong> As a swift action, the psychic can spend 2 points from her phrenic pool to gain an enhancement bonus equal to her Intelligence modifier to Strength, Dexterity, or Constitution score. This bonus lasts for 1 minute per psychic level.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "phrenicAmplification",
+    "tag": "psychofeedback_su",
+    "requirements": "Phrenic Amplifications class feature",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-PsychicClass",
+        "pages": "Phrenic Amplifications"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!tMoFaiKeUimWbNUW"
+}

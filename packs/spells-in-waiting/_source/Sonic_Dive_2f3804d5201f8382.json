@@ -1,0 +1,77 @@
+{
+  "_id": "2f3804d5201f8382",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Sonic Dive",
+  "system": {
+    "actions": [
+      {
+        "_id": "c4b1650c8f21c523",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "15 ft"
+        },
+        "area": "allies within a 15-ft.-radius centered on you",
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You call forth Quetzalli, a massive bird creature who imbues the essence of a dragoon upon your allies",
+      "value": "<p>You call forth Quetzalli, a massive bird creature who imbues the essence of a dragoon upon your allies. Allies within the area of effect deal an extra 1d6 points of damage when charging.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "summoner": 1
+      }
+    },
+    "level": 1,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!2f3804d5201f8382"
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "44Nh7cP128Jm1t2m",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_14.jpg",
+  "name": "Reinforced Fortitude (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>If a warrior makes a Fortitude save that has an effect on a successful save, he takes no effect on a successful save (i.e., ''Fortitude partial' becomes 'Fortitude negate'). This ability can only be used if the warrior is wearing light armor, medium armor, or no armor. A helpless warrior does not gain the benefit of the Reinforced Fortitude ability.</p>"
+    },
+    "tag": "reinforcedfortitude",
+    "source": "Final Fantasy d20 - Advanced Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          12
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!44Nh7cP128Jm1t2m"
+}

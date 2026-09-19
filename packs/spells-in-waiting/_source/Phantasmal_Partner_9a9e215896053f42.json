@@ -1,0 +1,69 @@
+{
+  "_id": "9a9e215896053f42",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Phantasmal Partner",
+  "system": {
+    "actions": [
+      {
+        "_id": "018257e4098b8c2e",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one willing creature"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "1 hour or until 1 creature has been aided"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will disbelief (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Forming an image from a creature’s mind and experiences, you summon forth a spectral silhouette of a creature barring the resemblance in ...",
+      "value": "<p>Forming an image from a creature’s mind and experiences, you summon forth a spectral silhouette of a creature barring the resemblance in the creature’s mind. This silhouette acts as a partner for the selected willing creature, aiding them in morning routines, meditation, and exercises. If needed, it can affect the creature’s mind to think of it as a sparring partner. Only one partner can aid one creature, and once it has aided one creature for 1 routine it dissipates. If a partner is not required, the creature can choose to save against it, otherwise, they can decide to let it affect them. The partner only affects the following instances: Meditation: For spellcasters who meditate at the beginning of the day after a rest, to recover Magic Points , the creature only requires 15 minutes for meditating rather than 30. Sword Saint : The battle tactics, weapon drills, and/or meditation in prayer undertaken by sword saints for their swordskills only takes 5 minutes instead of the usual 10 minutes. SeeD Operative : Acting as an instructor, the partner speeds up the meditation process needed for sharing drawn spells around other SeeD Operatives to 5 minutes instead of 10 minutes. This can affect 2 creatures per casting instead of the usual 1. Reading Books: The time it takes to read books is reduced, as the partner aids in reminding the user of his past readings. For the Blue Book , take only 30 minutes to read it rather than 1 hour. Adventurer’s chronicles , and similar 1d4 round books, take only 1d2 rounds instead of 1d4. A book of Puzzles reduces the maximum time from 1 hour to 55 minutes and increases the reduction of surpassing the intelligence check to 15 minutes instead of 10 for every 5 over the DC.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 1
+      }
+    },
+    "level": 1,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!9a9e215896053f42"
+}

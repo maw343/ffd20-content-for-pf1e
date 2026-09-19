@@ -1,0 +1,58 @@
+{
+  "_id": "3qt7CH4t4mvdidCW",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Minor Illusion Esoterica (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>At 5th level, the illusionist's unflagging focus on illusions opens his mind to new possibilities and increases the save DCs of his illusion spells that have a saving throw entry of 'Will disbelief' by 2.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "minor_illusion_esoterica",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Illusionist"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Illusionist",
+          5
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!3qt7CH4t4mvdidCW"
+}

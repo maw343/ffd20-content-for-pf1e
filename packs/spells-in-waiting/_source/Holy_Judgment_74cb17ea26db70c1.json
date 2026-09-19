@@ -1,0 +1,76 @@
+{
+  "_id": "74cb17ea26db70c1",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Holy Judgment",
+  "system": {
+    "actions": [
+      {
+        "_id": "af5aa88a46e1e509",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "area": "30-ft.-radius burst",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous/2d4 rounds"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 20))d8",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude half — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You call forth Alexander, an ancient weapon imbued with sacred power to decimate your enemies with holy destruction",
+      "value": "<p>You call forth Alexander, an ancient weapon imbued with sacred power to decimate your enemies with holy destruction. Creatures within the area of effect take 1d8 points of holy damage per caster level and are inflicted with the Doom status for 2d4 rounds. A successful Fortitude save halves the damage and negates the status effect. Doom: This status effect causes a countdown to start whereupon the character inflicted dies if not cured of this status effect. The usual duration is 2d4 rounds.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "summoner": 9
+      }
+    },
+    "level": 9,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!74cb17ea26db70c1"
+}

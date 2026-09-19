@@ -1,0 +1,98 @@
+{
+  "_id": "lFOaVXUjQTswsADH",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "folder": "RWSoA7Fj9yqo0y9U",
+  "img": "systems/pf1/icons/races/elf.png",
+  "name": "Mithra",
+  "system": {
+    "changes": [
+      {
+        "_id": "gatm5ykr",
+        "formula": "2",
+        "target": "dex",
+        "type": "racial"
+      },
+      {
+        "_id": "swgv2ky3",
+        "formula": "2",
+        "target": "cha",
+        "type": "racial"
+      },
+      {
+        "_id": "r2ij2wjq",
+        "formula": "-2",
+        "target": "wis",
+        "type": "racial"
+      },
+      {
+        "_id": "0g8m7z8g",
+        "formula": "2",
+        "target": "skill.per",
+        "type": "racial"
+      },
+      {
+        "_id": "i6m8la8n",
+        "formula": "2",
+        "target": "skill.ste",
+        "type": "racial"
+      },
+      {
+        "_id": "vqywaa3o",
+        "formula": "2",
+        "target": "skill.sur",
+        "type": "racial"
+      },
+      {
+        "_id": "nzh5qrsr",
+        "formula": "2",
+        "target": "init",
+        "type": "racial"
+      }
+    ],
+    "contextNotes": [
+      {
+        "target": "ac",
+        "text": "+[[4]] Dodge vs Yagudo"
+      },
+      {
+        "target": "cmd",
+        "text": "+[[1]] Racial vs Trip (Nimble Faller)"
+      },
+      {
+        "target": "speed",
+        "text": "+[[10]] Racial when using Charge, Run, or Withdraw (Sprinter)"
+      }
+    ],
+    "creatureSubtypes": [
+      "mithra"
+    ],
+    "creatureTypes": [
+      "humanoid"
+    ],
+    "description": {
+      "value": "<p><em>Graceful and agile, the feline Mithra hail originally from Khazam, but crossed the great sea to fight the crystal war at the side of the other races of Vana’diel. Male births are exceedingly rare, and male adventuring mithra are so rare as to be unheard of. Mithra are known for their energy and curiosity, and of course for their good-humored mischievous nature.</em></p><h2>Standard Racial Traits</h2><ul><li><strong>Ability Score Racial Traits</strong>: Mithra are sociable and agile, but often lack common sense. They gain +2 <em>Dexterity</em>, +2 <em>Charisma</em>, and –2 <em>Wisdom</em>.</li><li><strong>Type</strong>: Mithra are <em>humanoids</em> with the <em>mithra</em> subtype.</li><li><strong>Size</strong>: Mithra are Medium creatures and have no bonuses or penalties due to their size.</li><li><strong>Base Speed</strong>: Mithra have a base speed of 30 feet.</li><li><strong>Languages</strong>: Mithra begin play speaking Common and Mithran. Mithra with high <em>Intelligence</em> scores can choose from the following: Elvaan, Lupin, Goblin, Lalafellan, Orc, and Vieran.</li></ul><h3>Defense Racial Traits</h3><ul><li><strong>Cat’s Luck (Ex)</strong>: Once per day, when a mithra makes a Reflex saving throw, she can roll the saving throw twice and take the better result. She must decide to use this ability before the saving throw is attempted.</li><li><strong>Lesser Defensive Training</strong>: With their peaceful life being threatened by the yagudo, mithra tend to be more cautious around them. Mithra gain a +4 <em>dodge bonus</em> to AC against yagudo.</li><li><strong>Nimble Faller</strong>: Mithra land on their feet even when they take lethal damage from a fall and take damage as if the fall were 10 feet shorter than it actually is. Furthermore, mithra gain a +1 bonus to their CMD against trip maneuvers.</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Fleet-Footed</strong>: Mithra receive Run as a bonus feat and a +2 <em>racial bonus</em> on initiative checks.</li><li><strong>Natural Hunter</strong>: Mithra receive a +2 <em>racial bonus</em> on Perception, Stealth, and Survival checks.</li></ul><h3>Movement Racial Traits</h3><ul><li><strong>Sprinter</strong>: Mithra gain a 10-foot <em>racial bonus</em> to their speed when using the charge, run, or withdraw actions.</li></ul><h3>Senses Racial Traits</h3><ul><li><strong>Low-Light Vision</strong>: Mithra have low-light vision allowing them to see twice as far as humes in dim light.</li></ul>"
+    },
+    "languages": [
+      "common",
+      "mithran"
+    ],
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "Core Races - Mithra"
+      }
+    ],
+    "speeds": {
+      "land": 30
+    },
+    "tags": [
+      "Core",
+      "FFD20"
+    ]
+  },
+  "type": "race",
+  "effects": [],
+  "_key": "!items!lFOaVXUjQTswsADH"
+}

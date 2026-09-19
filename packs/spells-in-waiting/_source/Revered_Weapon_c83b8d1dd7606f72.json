@@ -1,0 +1,72 @@
+{
+  "_id": "c83b8d1dd7606f72",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Revered Weapon",
+  "system": {
+    "actions": [
+      {
+        "_id": "4765c1858a412afd",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "allies within 30 ft.-radius centered on you",
+        "duration": {
+          "units": "round",
+          "value": "1d6 rounds"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates Kirin’s ability to imbue holy light into his allies’ weapons",
+      "value": "<p>The caster emulates Kirin’s ability to imbue holy light into his allies’ weapons. All allies within a 30 ft. radius of the caster add an additional 1d6 points of holy damage to their weapon damage rolls. This duration lasts for 1d6 rounds. Learned From Kirin , and Lakshmi</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!c83b8d1dd7606f72"
+}

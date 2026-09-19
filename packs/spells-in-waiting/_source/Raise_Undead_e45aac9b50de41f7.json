@@ -1,0 +1,62 @@
+{
+  "_id": "e45aac9b50de41f7",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Raise Undead",
+  "system": {
+    "actions": [
+      {
+        "_id": "1aa5fa55cc442414",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "one dead creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level or 1 minute/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You raise a corpse into a zombiefied version",
+      "value": "<p>You raise a corpse into a zombiefied version. Any corpse with a hit dice less than your caster level raises into a Zombie. The undead creature retains its class features, feats, skills, and stats as it had in life but gains the Zombie template. The caster can cast this spell in 2 ways. The first way: It can be cast a swift action, but casts at touch range and only lasts 1 round per level. The second way: It can be cast as a full-round action, but casts at close range and lasts 1 minute per level. Once a corpse has been affected by this spell or this Grave Knight spell, it can no longer be affected. The undead created by this spell obeys your commands to the best of their ability and does not normally try to attack you.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "necromancer": 6
+      }
+    },
+    "level": 6,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!e45aac9b50de41f7"
+}

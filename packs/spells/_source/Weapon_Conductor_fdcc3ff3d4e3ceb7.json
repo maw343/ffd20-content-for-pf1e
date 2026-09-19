@@ -1,0 +1,70 @@
+{
+  "_id": "fdcc3ff3d4e3ceb7",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Weapon Conductor",
+  "system": {
+    "actions": [
+      {
+        "_id": "81637ac58a66dbb8",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one weapon that can be thrown"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless, object)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "With a quick instruction via the use of music, you create a connection between weapon and master.",
+      "value": "<p>With a quick instruction via the use of music, you create a connection between weapon and master.\nFor the duration of the song, the target weapon acts as if it had the\nreturning\nweapon special ability.\nThis song can be used as the prerequisite for the\nreturning\nweapon special ability.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bard": 2
+      }
+    },
+    "level": 2,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "summoning"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!fdcc3ff3d4e3ceb7"
+}

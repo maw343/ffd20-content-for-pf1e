@@ -1,0 +1,19 @@
+{
+  "_id": "fHFN1Irla7zYTDeq",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Devoted Blade (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Red Mage 12</p><p>Whenever the red mage enhances his weapon using his arcane pool, he may spend 1 additional point from his arcane pool to add either the abyssal, anarchic, axiomatic, holy, shining, or unholy special ability to the list of available options. A red mage may only add one of these abilities if it matches his own alignment.</p>"
+    },
+    "tag": "devotedbladesu",
+    "source": "Final Fantasy d20 - Red Mage (Ruby Arcana)"
+  },
+  "effects": [],
+  "_key": "!items!fHFN1Irla7zYTDeq"
+}

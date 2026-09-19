@@ -1,0 +1,27 @@
+{
+  "_id": "x6KrV4C9E1d2PECh",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_12.jpg",
+  "name": "Animal Companion (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>A beastmaster may begin play with any of the animals listed as available companions. This animal is a loyal companion that accompanies the beastmaster on his adventures.</p><p>Unlike normal animals of its kind, an animal companion's Hit Dice, abilities, skills, and feats advance as the beastmaster advances in level. If a character receives an animal companion from more than one source, his effective beastmaster levels stack for the purposes of determining the statistics and abilities of the companion. Most animal companions increase in size when their beastmaster reaches 4th or 7th level, depending on the companion.</p><p>If a beastmaster releases his companion from service, he may gain a new one by performing a ceremony requiring 24 uninterrupted hours of prayer in the environment where the new companion typically lives. This ceremony can also replace an animal companion that has perished.</p><p><strong>Animal Companion Base Statistics</strong></p><p>Class Level determines HD, BAB, Fort/Ref/Will saves, Skills, Feats, Natural Armor Bonus, Str/Dex Bonus, Bonus Tricks, and Special abilities gained (Link, Shared Senses at 1st; Evasion at 3rd; Magic Attacks at 4th; Ability Score Increase at 5th; Devotion at 6th; Multiattack at 9th; further Ability Score Increases at 10th and 15th; Improved Evasion at 15th; Blood Bond at 18th).</p><p><em>Link (Ex):</em> A beastmaster can handle his companion as a free action, or push it as a move action, even if he doesn't have any ranks in the Handle Animal skill. The beastmaster gains a +4 competence bonus on all wild empathy checks and Handle Animal checks made regarding the animal companion.</p><p><em>Magic Attacks (Su):</em> The animal companion treats its natural attacks as if they were magic for the purposes of overcoming damage reduction. If the beastmaster is 10th level or higher, all of the animal companion's natural weapons are treated as the alignment of the beastmaster for the purpose of overcoming damage reduction.</p><p><em>Shared Senses (Ex):</em> When within 30 feet of their animal companion, the beastmaster can select one of its senses as a swift action to gain for 1 minute. If the beastmaster already has the same sense, he increases his by half of what his companion has. The beastmaster can share its companion's senses a number of times per day equal to his Wisdom modifier.</p><p><em>Evasion (Ex):</em> If the animal companion is subjected to an attack that normally allows a Reflex saving throw for half damage, it takes no damage if it makes a successful saving throw.</p><p><em>Devotion (Ex):</em> The animal companion gains a +4 morale bonus on Will saves against enfeebling spells and effects.</p><p><em>Ability Score Increase (Ex):</em> The animal companion adds +1 to any one of its ability scores.</p><p><em>Multiattack:</em> The animal companion gains Multiattack as a bonus feat if it has three or more natural attacks and does not already have this feat. If it does not have the requisite three or more attacks, the companion instead gains a second attack with its primary natural weapon, albeit at a –5 penalty.</p><p><em>Improved Evasion (Ex):</em> When subjected to an attack that normally allows a Reflex saving throw for half damage, the animal companion takes no damage if it makes a successful saving throw and half damage if the saving throw fails.</p><p><em>Blood Bond (Ex):</em> After a beastmaster has achieved 18th level, the bond between him and his companion grows so strong that the companion gains a +2 bonus on all attack rolls, checks and saves if it witnesses the beastmaster being threatened or harmed. This bonus lasts as long as the threat is immediate and apparent.</p><p>The ambusher, bully, daredevil, precocious companion, tracker, verdant companion, and wrecker archetypes are all particularly appropriate for the beastmaster's animal companion. These archetypes replace shared senses, if applicable, instead of shared spells.</p>"
+    },
+    "tag": "animalcompanion",
+    "source": "Final Fantasy d20 - Beastmaster",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          1
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!x6KrV4C9E1d2PECh"
+}

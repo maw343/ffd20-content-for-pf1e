@@ -1,0 +1,78 @@
+{
+  "_id": "0d00097b8d17b399",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Dark Orb",
+  "system": {
+    "actions": [
+      {
+        "_id": "cba3096ea17198a3",
+        "name": "Use",
+        "actionType": "rsak",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one missile of shadow"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "ability": {
+          "attack": "dex",
+          "critMult": 2,
+          "critRange": 20
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d3",
+              "types": [
+                "negative"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You fire a small orb of shadow energy at the target.",
+      "value": "<p>You fire a small orb of shadow energy at the target. You must succeed on a ranged touch attack to hit your target. The orb deals 1d3 points of shadow damage.\nThis cantrip is not potent enough to be able to heal the wounds of creatures that would normally\nabsorb\nthe element. If a creature with shadow\nabsorption\nis hit by this cantrip they instead just negate the damage.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 0,
+        "necromancer": 0
+      }
+    },
+    "level": 0,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!0d00097b8d17b399"
+}

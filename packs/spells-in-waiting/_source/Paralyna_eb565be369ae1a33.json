@@ -1,0 +1,71 @@
+{
+  "_id": "eb565be369ae1a33",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Paralyna",
+  "system": {
+    "actions": [
+      {
+        "_id": "a6f2159a522328fd",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You can free an ally from the effects of temporary paralysis or related magic, including spells and effects that cause a creature to gain...",
+      "value": "<p>You can free an ally from the effects of temporary paralysis or related magic, including spells and effects that cause a creature to gain the staggered condition. The paralysis is negated but this spell does not restore ability score reduced by penalties, damage, or drain.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 2,
+        "whitemage": 2,
+        "redmage": 2,
+        "paladin": 2
+      }
+    },
+    "level": 2,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!eb565be369ae1a33"
+}

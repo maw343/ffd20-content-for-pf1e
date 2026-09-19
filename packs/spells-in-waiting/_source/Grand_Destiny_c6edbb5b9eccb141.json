@@ -1,0 +1,69 @@
+{
+  "_id": "c6edbb5b9eccb141",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Grand Destiny",
+  "system": {
+    "actions": [
+      {
+        "_id": "f2743e6c73998694",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "10 minutes/level or until discharged"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will disbelieve (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You make the target think it has the power to seize a grand destiny",
+      "value": "<p>You make the target think it has the power to seize a grand destiny. The target gains a +4 competence bonus that it can choose to apply before rolling any attack roll, caster level check, saving throw, or skill check. The spell ends once the bonus has been applied to two rolls. At 12th level and 15th level, the bonus can be applied an additional time before the spell is discharged. A subject can be under the effect of only one grand destiny spell at a time.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 5
+      }
+    },
+    "level": 5,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!c6edbb5b9eccb141"
+}

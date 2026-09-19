@@ -1,0 +1,27 @@
+{
+  "_id": "ZV9IM9PB1CMHTHaG",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_14.jpg",
+  "name": "Adept: Spell Parry (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Disruptive feat, Chosen Weapon class feature</p><p>As an immediate action, when the warrior makes an initial saving throw against a spell, spell-like ability or supernatural ability, he may add his chosen weapon bonus to the saving throw.</p>"
+    },
+    "tag": "adeptspellparry",
+    "source": "Final Fantasy d20 - Advanced Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          12
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!ZV9IM9PB1CMHTHaG"
+}

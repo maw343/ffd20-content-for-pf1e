@@ -1,0 +1,80 @@
+{
+  "_id": "d010d8ac369e8ef6",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Chill",
+  "system": {
+    "actions": [
+      {
+        "_id": "7967bff333dc433d",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "a weapon or natural weapon"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d6",
+              "types": [
+                "cold"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude partial"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates biting cold of a ice lizard’s bite",
+      "value": "<p>The caster emulates biting cold of a ice lizard’s bite. The caster can imbue his weapon or natural weapon to inflict an additional 1d6 points of ice damage on a hit, and any creature that takes this additional ice damage must make a Fortitude save or be staggered for 1 round by the numbing chill. Learned From Evil Head Family, Quachacho, Ice Lizard, and Ice Golem</p>"
+    },
+    "descriptors": [
+      "cold",
+      "evil"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 1
+      }
+    },
+    "level": 1,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d010d8ac369e8ef6"
+}

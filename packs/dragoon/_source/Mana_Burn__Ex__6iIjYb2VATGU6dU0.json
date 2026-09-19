@@ -1,0 +1,27 @@
+{
+  "_id": "6iIjYb2VATGU6dU0",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Mana Burn (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Lancet class feature</p><p>Upon landing a successful strike with your Lancet ability, you can force your target to make a Will save (DC: 10 + half your dragoon level + your Constitution modifier) or suffer MP damage equal to the amount of dice rolled for your Lancet's healing.</p>"
+    },
+    "tag": "manaburn",
+    "source": "Final Fantasy d20 - Dragoon Talents",
+    "associations": {
+      "classes": [
+        [
+          "Dragoon",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!6iIjYb2VATGU6dU0"
+}

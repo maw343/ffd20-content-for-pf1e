@@ -1,0 +1,19 @@
+{
+  "_id": "7Iy7unx81KjI6vxo",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Pool Strike, Arcing (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Red Mage 12, Pool Strike ruby arcana</p><p>The red mage can expend 1 additional point from his arcane pool when using the pool strike arcana. If his attack hits, the red mage can target a number of enemies within 15 feet equal to his Charisma modifier (minimum 0) with a ranged touch attack as a free action. Those struck take the same elemental damage as the primary target of the pool strike, including increased damage on a critical hit.</p>"
+    },
+    "tag": "poolstrikearcingsu",
+    "source": "Final Fantasy d20 - Red Mage (Ruby Arcana)"
+  },
+  "effects": [],
+  "_key": "!items!7Iy7unx81KjI6vxo"
+}

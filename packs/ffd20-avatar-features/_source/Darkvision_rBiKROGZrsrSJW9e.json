@@ -1,0 +1,24 @@
+{
+  "_id": "rBiKROGZrsrSJW9e",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_02.jpg",
+  "name": "Darkvision",
+  "system": {
+    "associations": {
+      "classes": [
+        "Avatar"
+      ]
+    },
+    "class": "summonerAvatar",
+    "description": {
+      "value": "<p>The avatar has darkvision out to a range of 60 feet.</p>"
+    },
+    "subType": "classFeat",
+    "abilityType": "ex"
+  },
+  "type": "feat",
+  "effects": [],
+  "_key": "!items!rBiKROGZrsrSJW9e"
+}

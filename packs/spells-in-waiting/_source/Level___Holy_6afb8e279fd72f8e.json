@@ -1,0 +1,76 @@
+{
+  "_id": "6afb8e279fd72f8e",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Level ? Holy",
+  "system": {
+    "actions": [
+      {
+        "_id": "f4960c452e5fda7c",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "30-ft.-radius, centered on caster",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1 round/level – see description"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 15))d8",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half – see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates a silver dragon wyrm that shines a dazzling light towards all enemies within a 30 ft",
+      "value": "<p>The caster emulates a silver dragon wyrm that shines a dazzling light towards all enemies within a 30 ft. radius of you with HD that are prime numbers (2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, etc.), dealing 1d8 points of holy damage per caster level (maximum 15d8) and inflicting the Illuminated status effect for 2d4 rounds, a successful Reflex save reduces this damage by half and reduced Illuminated to 1 round. Enemies without a prime number HD are unaffected. Learned From Silver Dragon Family, Kaiser Dragon, and Omega Weapon.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 6
+      }
+    },
+    "level": 6,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!6afb8e279fd72f8e"
+}

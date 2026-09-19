@@ -1,0 +1,64 @@
+{
+  "_id": "67089b029169fdda",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Choco Feather, Mass",
+  "system": {
+    "actions": [
+      {
+        "_id": "c50fb53e8fb531fd",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "one creature/level, no two of which can be more than 30 ft. apart DESCRIPTION As choco feather , except this spell affects multiple creatures."
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "As choco feather , except this spell affects multiple creatures",
+      "value": "<p>As choco feather , except this spell affects multiple creatures.</p>"
+    },
+    "descriptors": [
+      "wind"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 3,
+        "druid": 3,
+        "whitemage": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!67089b029169fdda"
+}

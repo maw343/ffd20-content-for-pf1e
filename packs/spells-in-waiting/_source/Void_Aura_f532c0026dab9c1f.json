@@ -1,0 +1,78 @@
+{
+  "_id": "f532c0026dab9c1f",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Void Aura",
+  "system": {
+    "actions": [
+      {
+        "_id": "c0a75f307fa5e883",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "2d6",
+              "types": [
+                "negative"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell surrounds you with an aura of nothingness that channels dark energy",
+      "value": "<p>This spell surrounds you with an aura of nothingness that channels dark energy. Creatures adjacent to you when this spell is cast and at the start of your turn take 2d6 points of shadow damage. In addition, creatures affected by your aura are fatigued, and cannot speak, cast spells with verbal components, or perform songs. Creatures adjacent to you are allowed a Reflex save to halve the damage and negate the fatigue effect, but cannot speak regardless of whether their save is successful as long as they are adjacent to you.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 3,
+        "necromancer": 3
+      }
+    },
+    "level": 3,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f532c0026dab9c1f"
+}

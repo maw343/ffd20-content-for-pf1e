@@ -1,0 +1,72 @@
+{
+  "_id": "40794b6fb8643efb",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "False Blink",
+  "system": {
+    "actions": [
+      {
+        "_id": "240bde0804234a82",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "rsak",
+        "activation": {
+          "type": "immediate",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "ability": {
+          "attack": "dex",
+          "critMult": 2,
+          "critRange": 20
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "For a brief moment just before the target attacks you with a weapon or ranged touch attack, you appear to blink out of existence to him",
+      "value": "<p>For a brief moment just before the target attacks you with a weapon or ranged touch attack, you appear to blink out of existence to him. As you don’t actually go anywhere, the target can make a Will save to see through your illusion. If he fails, his attack upon you is at a – 1 penalty.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 0,
+        "ninja": 0
+      }
+    },
+    "level": 0,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!40794b6fb8643efb"
+}

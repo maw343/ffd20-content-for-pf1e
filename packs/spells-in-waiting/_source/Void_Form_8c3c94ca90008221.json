@@ -1,0 +1,62 @@
+{
+  "_id": "8c3c94ca90008221",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Void Form",
+  "system": {
+    "actions": [
+      {
+        "_id": "51f9faa3f5f3b192",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates becoming incorporeal as a void yai oni",
+      "value": "<p>The caster emulates becoming incorporeal as a void yai oni. In this form, the caster appears as a solid black shadow of its true form. The caster gains the incorporeal subtype and incorporeal defensive ability while in void form. Any gear or armor the caster carries becomes incorporeal as well—it loses its AC bonus from armor and natural armor, but gains a deflection bonus to its AC equal to its Intelligence modifier. The caster may still speak while incorporeal and can still cast spells. Learned From void yai oni</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 8
+      }
+    },
+    "level": 8,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!8c3c94ca90008221"
+}

@@ -1,0 +1,66 @@
+{
+  "_id": "c09caae3a35c869f",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Bestow Curse, Greater",
+  "system": {
+    "actions": [
+      {
+        "_id": "e3afbebb53451931",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "perm"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "As bestow curse except with the following changes: Choose one of the following: -12 penalty to an ability score, or -6 penalty to two abi...",
+      "value": "<p>As bestow curse except with the following changes: Choose one of the following: -12 penalty to an ability score, or -6 penalty to two ability scores (to a minimum ability score of 1). -8 penalty on attack rolls, saves, ability checks, and skill checks. Each turn, the target has a 25% chance to act normally; otherwise, it takes no actions. You may also invent your own curse, but it should be no more powerful than those described above. The curse bestowed by this spell cannot be dispelled, but it can be removed with a Basuna spell. The DC to remove the curse with dispel increases by 5.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "necromancer": 8
+      }
+    },
+    "level": 8,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!c09caae3a35c869f"
+}

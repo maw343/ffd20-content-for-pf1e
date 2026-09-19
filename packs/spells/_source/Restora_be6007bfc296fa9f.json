@@ -1,0 +1,71 @@
+{
+  "_id": "be6007bfc296fa9f",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Restora",
+  "system": {
+    "actions": [
+      {
+        "_id": "9a0ca70c72695863",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Restore , except that it also dispels temporary negative levels or one permanent negative level.",
+      "value": "<p>This spell functions like\nRestore\n, except that it also dispels temporary negative levels or one permanent negative level. This spell cannot be used to dispel more than one permanent negative level possessed by a target in a 1-week period.\nRestora cures all temporary ability damage, and it restores all points permanently drained from a single ability score (your choice if more than one is drained).  It also eliminates any fatigue or exhaustion suffered by the target and restores stamina points equal to double the target’s Constitution modifier.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 4,
+        "whitemage": 4,
+        "redmage": 4,
+        "paladin": 4
+      }
+    },
+    "level": 4,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "healing"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!be6007bfc296fa9f"
+}

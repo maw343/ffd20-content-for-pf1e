@@ -1,0 +1,85 @@
+{
+  "_id": "514283d0e168181d",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Goka Mekkyaku",
+  "system": {
+    "actions": [
+      {
+        "_id": "aa86a3e328bb0065",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "area": "20-ft.-radius",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1d4 rounds"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 15))d6",
+              "types": [
+                "fire"
+              ]
+            },
+            {
+              "formula": "(min(@spells.primary.cl.total, 15))d6",
+              "types": [
+                "earth"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You summon a ball of fire that explodes on impact and raising the earth with the explosion, dealing 1d6 damage (half fire/half earth) per...",
+      "value": "<p>You summon a ball of fire that explodes on impact and raising the earth with the explosion, dealing 1d6 damage (half fire/half earth) per ninja level (maximum of 15d6) and inflicts the Confuse status effect for 1d4 rounds those in the radius. A Reflex save can half this damage and negate the status effect.</p>"
+    },
+    "descriptors": [
+      "fire",
+      "earth"
+    ],
+    "learnedAt": {
+      "class": {
+        "ninja": 6
+      }
+    },
+    "level": 6,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!514283d0e168181d"
+}

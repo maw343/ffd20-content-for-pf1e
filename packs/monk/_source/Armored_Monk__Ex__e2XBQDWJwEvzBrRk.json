@@ -1,0 +1,27 @@
+{
+  "_id": "e2XBQDWJwEvzBrRk",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Armored Monk (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>You become proficient in wearing light armor. Additionally, you do not lose access to your flurry of blows, flying kick, blitz techniques, and greased lightning abilities while wearing light armor.</p>"
+    },
+    "tag": "armoredmonk",
+    "source": "Final Fantasy d20 - Monk Talents",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!e2XBQDWJwEvzBrRk"
+}

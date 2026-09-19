@@ -1,0 +1,66 @@
+{
+  "_id": "196c03c49d4245d5",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Stonega",
+  "system": {
+    "actions": [
+      {
+        "_id": "eb6df3ddc3aa687f",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 15))d8",
+              "types": [
+                "earth"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Stonera , except it deals 1d8 points of earth damage per caster level (maximum 15d8) and the area of effect increases to a 30-ft-radius spread.",
+      "value": "<p>This spell functions like\nStonera\n, except it deals 1d8 points of earth damage per caster level (maximum 15d8) and the area of effect increases to a 30-ft-radius spread.</p>"
+    },
+    "descriptors": [
+      "earth"
+    ],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!196c03c49d4245d5"
+}

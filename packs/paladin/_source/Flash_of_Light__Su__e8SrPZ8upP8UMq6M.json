@@ -1,0 +1,58 @@
+{
+  "_id": "e8SrPZ8upP8UMq6M",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Flash of Light (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 9th level, a paladin can channel holy energy into a burst of light within a 10-ft.-radius. All enemies in the area of effect are inflicted with Blind and Shaken status effects, a Fortitude save (DC 10 + half of the paladin's level + her Charisma modifier) is required for each status effect to negate. Every five paladin levels thereafter, the area of effect increases by 10 feet. Using this ability consumes two uses of the paladin's lay on hands ability, and the effects last for 3 rounds plus a number of rounds equal to her Charisma bonus (if any).</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "flash_of_light_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Paladin"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Paladin",
+          9
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!e8SrPZ8upP8UMq6M"
+}

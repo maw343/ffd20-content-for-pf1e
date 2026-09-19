@@ -1,0 +1,63 @@
+{
+  "_id": "99a9c2032861c96a",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Feather Bar, Mass",
+  "system": {
+    "actions": [
+      {
+        "_id": "343251c60ef75c6b",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "10 minute/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Playing through a bar of beats you create a musical effect that causes objects to become lighter.",
+      "value": "<p>Playing through a bar of beats you create a musical effect that causes objects to become lighter. Unlike feather bar, you can affect a number of objects equal to half your\ncaster level\n. The target’s weight decreases by half. If this song is cast on armor, the armor’s armor check penalty decreases by 1, though its categorization as light, medium, or heavy does not change.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bard": 5
+      }
+    },
+    "level": 5,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!99a9c2032861c96a"
+}

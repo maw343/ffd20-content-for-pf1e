@@ -1,0 +1,101 @@
+{
+  "type": "buff",
+  "name": "Soul Voice",
+  "system": {
+    "description": {
+      "value": "<p>This Limit Break allows the bard to be able to perform songs with perfect efficiency. For a duration of 1 round + 1 round per four bard levels after 1st, the bard can select one song each round started and performed during the limit break that has all variables and effects maximized and doubled. This limit break requires only a swift action.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [
+      {
+        "name": "Use",
+        "activation": {
+          "unchained": {
+            "cost": 1,
+            "type": "nonaction"
+          },
+          "cost": 1,
+          "type": "nonaction"
+        },
+        "actionType": "other",
+        "_id": "Ji41UCW90AzdD7kZ",
+        "uses": {},
+        "powerAttack": {
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "description": "<p>This Limit Break allows the bard to be able to perform songs with perfect efficiency. For a duration of 1 round + 1 round per four bard levels after 1st, the bard can select one song each round started and performed during the limit break that has all variables and effects maximized and doubled. This limit break requires only a swift action.</p>",
+        "range": {
+          "units": "personal"
+        },
+        "ammo": {
+          "type": "none"
+        }
+      }
+    ],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "feat",
+    "active": false,
+    "level": 0,
+    "duration": {
+      "value": "1 + floor(@classes.bard.level/4)",
+      "units": "round",
+      "end": "turnStart"
+    },
+    "conditions": [],
+    "hideFromToken": false,
+    "showInQuickbar": false
+  },
+  "_id": "tSnFLhSplC6l2n6R",
+  "img": "icons/svg/ice-aura.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "KJytU1RQudYSFJXl": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": 1785624186512,
+    "modifiedTime": 1785624244750,
+    "lastModifiedBy": "KJytU1RQudYSFJXl"
+  },
+  "_key": "!items!tSnFLhSplC6l2n6R"
+}

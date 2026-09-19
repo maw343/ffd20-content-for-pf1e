@@ -1,0 +1,58 @@
+{
+  "_id": "Li1kmy8WT9r9FlsF",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Master Mechanic (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>At 14th level, the engineer becomes fully experienced in the art of quick repairs and mechanical tinkering, even under pressure. The engineer can always take 10 on his jury-rig check or when using Disable Device, even when under adverse conditions. In addition, the engineer can make repairs or disable a device with masterful speed: he can make repairs on an object or vehicle in half the normal amount of time (repairing double the normal amount of damage per day of work). Simple devices can be disabled as a standard action, Tricky can be disabled in 1d2 rounds, and Difficult and Extreme devices can be disabled in 1d4+1 rounds.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "master_mechanic_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Engineer"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Engineer",
+          14
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Li1kmy8WT9r9FlsF"
+}

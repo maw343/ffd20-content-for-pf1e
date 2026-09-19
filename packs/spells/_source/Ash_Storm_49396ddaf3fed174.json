@@ -1,0 +1,63 @@
+{
+  "_id": "49396ddaf3fed174",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Ash Storm",
+  "system": {
+    "actions": [
+      {
+        "_id": "cdb6ea2f3048a3ea",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "area": "cylinder (40-ft. radius, 20 ft. high)",
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Driving ash blocks all sight (even darkvision) within the spell’s area of effect, and falling cinders cause the ground in the area to become difficult terrain.",
+      "value": "<p>Driving ash blocks all sight (even darkvision) within the spell’s area of effect, and falling cinders cause the ground in the area to become difficult terrain.</p>"
+    },
+    "descriptors": [
+      "fire"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 3,
+        "darkknight": 3
+      }
+    },
+    "level": 3,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!49396ddaf3fed174"
+}

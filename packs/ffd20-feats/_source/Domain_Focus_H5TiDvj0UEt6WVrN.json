@@ -1,0 +1,50 @@
+{
+  "_id": "H5TiDvj0UEt6WVrN",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Domain Focus",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Domains class feature</p><p><strong>Benefit:</strong> Add +1 to the Difficulty Class for all saving throws against spells from your domains. This also increases the DC for saving throws against domain powers.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "general",
+    "tag": "domain_focus",
+    "requirements": "Domains class feature",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-GeneralFeats",
+        "pages": "General Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!H5TiDvj0UEt6WVrN"
+}

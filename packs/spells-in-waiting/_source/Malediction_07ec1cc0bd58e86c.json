@@ -1,0 +1,75 @@
+{
+  "_id": "07ec1cc0bd58e86c",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Malediction",
+  "system": {
+    "actions": [
+      {
+        "_id": "6a3b77f186945fb8",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "creatures within a 30-ft.-radius spread centered on you",
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "12d6",
+              "types": [
+                "negative"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude half — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates a draugar by releasing their malevolence on all nearby enemies within 30-ft",
+      "value": "<p>The caster emulates a draugar by releasing their malevolence on all nearby enemies within 30-ft.-radius spread. All creatures must make a Fortitude save for half damage, taking 12d6 points of shadow damage and the caster is healed by half of the total damage. Learned From draugar and leanan family</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 9
+      }
+    },
+    "level": 9,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!07ec1cc0bd58e86c"
+}

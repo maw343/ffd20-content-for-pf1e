@@ -1,0 +1,63 @@
+{
+  "_id": "f6d1cf693d049fe5",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Thorn Javelin",
+  "system": {
+    "actions": [
+      {
+        "_id": "074eaf0c9782c8f7",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "0 ft"
+        },
+        "target": {
+          "value": "javelin-like thorn"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "A wooden thorn the size of a javelin (appropriate for your size) appears in your open hand",
+      "value": "<p>A wooden thorn the size of a javelin (appropriate for your size) appears in your open hand. You can wield this thorn as a javelin, and you are proficient in its use. Any creature struck by the javelin must succeed at a Fortitude save or be sickened for 1 round. If you throw the javelin, another one appears in your hand. Any javelin that leaves your grasp disappears at the end of your turn. Each javelin attack you make reduces the spell’s remaining duration by 1 minute. If an attack reduces the remaining duration to 0 minutes or less, the spell ends after that attack resolves.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "druid": 1
+      }
+    },
+    "level": 1,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f6d1cf693d049fe5"
+}

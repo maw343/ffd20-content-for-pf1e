@@ -1,0 +1,58 @@
+{
+  "_id": "dRkxrO3XKYP4oQph",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Therapy (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>At 13th level, the medic can cure 1 point of permanent ability damage (ability drain) to one of the subject's ability scores. This takes one month to heal. This is reduced by 1 day per each rank in the Heal skill.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "therapy_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Medic"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Medic",
+          13
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!dRkxrO3XKYP4oQph"
+}

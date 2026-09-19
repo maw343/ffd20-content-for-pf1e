@@ -1,0 +1,27 @@
+{
+  "_id": "CjTfmqufgijy3I3R",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_13.jpg",
+  "name": "Long Strides (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>A beastmaster with this trick increases his movement speed by 10 feet if he is wearing light armor or no armor. If he has a natural Fly, Climb, or Swim Speed, it increases by 10 feet as well.</p>"
+    },
+    "tag": "longstrides",
+    "source": "Final Fantasy d20 - Beastmaster Tricks",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!CjTfmqufgijy3I3R"
+}

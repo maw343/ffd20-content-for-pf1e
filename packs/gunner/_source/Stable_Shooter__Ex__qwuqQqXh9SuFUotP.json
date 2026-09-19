@@ -1,0 +1,50 @@
+{
+  "_id": "qwuqQqXh9SuFUotP",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Stable Shooter (Ex)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> —</p><p><strong>Benefit:</strong> When wielding a sniper rifle or heavy autotek, the gunner is always treated as though it was supported or mounted and may reload these weapons while prone, although she takes a -2 penalty on attack rolls with these weapons when using them with this talent. This penalty is doubled when making a full attack action with weapons wielded with this talent.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "gunneryTalent",
+    "tag": "stable_shooter_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-GunnerClass",
+        "pages": "Gunnery Talents"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!qwuqQqXh9SuFUotP"
+}

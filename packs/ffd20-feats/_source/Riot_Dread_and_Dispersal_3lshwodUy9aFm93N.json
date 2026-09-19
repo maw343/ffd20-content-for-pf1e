@@ -1,0 +1,50 @@
+{
+  "_id": "3lshwodUy9aFm93N",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Riot Dread and Dispersal",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Shinsect Riot Style, Riot Suppressive Fire, 5 ranks in Intimidate or 5 ranks in Bluff</p><p><strong>Benefit:</strong> When you succeed on the feint or demoralize attempt provided by the Riot Suppressive Fire feat by 5 or more, the condition of their foe worsens with an additional AC penalty or provoking attacks of opportunity.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "style",
+    "tag": "riot_dread_and_dispersal",
+    "requirements": "Shinsect Riot Style, Riot Suppressive Fire, 5 ranks in Intimidate or 5 ranks in Bluff",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-StyleFeats",
+        "pages": "Style Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!3lshwodUy9aFm93N"
+}

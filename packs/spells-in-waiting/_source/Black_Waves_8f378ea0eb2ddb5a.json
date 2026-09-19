@@ -1,0 +1,75 @@
+{
+  "_id": "8f378ea0eb2ddb5a",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Black Waves",
+  "system": {
+    "actions": [
+      {
+        "_id": "35cca5c8737fa8e0",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "creatures within a 30-ft.-radius centered on you",
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "3d6",
+              "types": [
+                "negative"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster can emulate a shadowy spread of waves of an unseelie which spreads to 30-ft",
+      "value": "<p>The caster can emulate a shadowy spread of waves of an unseelie which spreads to 30-ft.-radius. Creatures within the area of effect take 3d6+12 points of shadow damage, a succcessful Reflex save for half damage. Learned From Unseelie and Black Dragon Family</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 3
+      }
+    },
+    "level": 3,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!8f378ea0eb2ddb5a"
+}

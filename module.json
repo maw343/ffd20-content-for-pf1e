@@ -1,0 +1,449 @@
+{
+  "id": "ffd20-content-for-pf1e",
+  "title": "FFD20 Content for PF1e",
+  "description": "Final Fantasy-inspired content module for the FFD20 Pathfinder 1e system, providing jobs, feats, races, weapons, spells, and starting equipment.",
+  "authors": [
+    {
+      "name": "maw343",
+      "email": "milkus500@gmail.com",
+      "url": "https://github.com/maw343"
+    }
+  ],
+  "version": "1.0.0",
+  "url": "https://github.com/maw343/ffd20-content-for-pf1e",
+  "manifest": "https://raw.githubusercontent.com/maw343/ffd20-content-for-pf1e/v1.0.0/module.json",
+  "download": "https://github.com/maw343/ffd20-content-for-pf1e/releases/download/v1.0.0/ffd20-content-for-pf1e-v1.0.0.zip",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "packs": [
+    {
+      "name": "archer",
+      "label": "Archer",
+      "path": "packs/archer",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "astrologian",
+      "label": "Astrologian",
+      "path": "packs/astrologian",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bard",
+      "label": "Bard",
+      "path": "packs/bard",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "beastmaster",
+      "label": "Beastmaster",
+      "path": "packs/beastmaster",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "berserker",
+      "label": "Berserker",
+      "path": "packs/berserker",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "black-mage",
+      "label": "Black Mage",
+      "path": "packs/black-mage",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "blue-mage",
+      "label": "Blue Mage",
+      "path": "packs/blue-mage",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "chemist",
+      "label": "Chemist",
+      "path": "packs/chemist",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "chocobo-knight",
+      "label": "Chocobo Knight",
+      "path": "packs/chocobo-knight",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cleric",
+      "label": "Cleric",
+      "path": "packs/cleric",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dark-knight",
+      "label": "Dark Knight",
+      "path": "packs/dark-knight",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dragoon",
+      "label": "Dragoon",
+      "path": "packs/dragoon",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "engineer",
+      "label": "Engineer",
+      "path": "packs/engineer",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ffd20-avatar-features",
+      "label": "FFD20 Avatar Features",
+      "path": "packs/ffd20-avatar-features",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ffd20-avatars",
+      "label": "FFD20-Avatars",
+      "path": "packs/ffd20-avatars",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ffd20-feats",
+      "label": "FFD20-Feats",
+      "path": "packs/ffd20-feats",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ffd20-races",
+      "label": "FFD20-Races",
+      "path": "packs/ffd20-races",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ffd20-weapons",
+      "label": "FFD20-Weapons",
+      "path": "packs/ffd20-weapons",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "gambler",
+      "label": "Gambler",
+      "path": "packs/gambler",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "geomancer",
+      "label": "Geomancer",
+      "path": "packs/geomancer",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "gunbreaker-field-specialist",
+      "label": "Gunbreaker Field Specialist",
+      "path": "packs/gunbreaker-field-specialist",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "gunner",
+      "label": "Gunner",
+      "path": "packs/gunner",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "illusionist",
+      "label": "Illusionist",
+      "path": "packs/illusionist",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "knight",
+      "label": "Knight",
+      "path": "packs/knight",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "medic",
+      "label": "Medic",
+      "path": "packs/medic",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "monk",
+      "label": "Monk",
+      "path": "packs/monk",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "necromancer",
+      "label": "Necromancer",
+      "path": "packs/necromancer",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "paladin",
+      "label": "Paladin",
+      "path": "packs/paladin",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "psychic",
+      "label": "Psychic",
+      "path": "packs/psychic",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "red-mage",
+      "label": "Red Mage",
+      "path": "packs/red-mage",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells-in-waiting",
+      "label": "Spells in Waiting",
+      "path": "packs/spells-in-waiting",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "starting-equipment",
+      "label": "Starting Equipment",
+      "path": "packs/starting-equipment",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "summoner",
+      "label": "Summoner",
+      "path": "packs/summoner",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "thief",
+      "label": "Thief",
+      "path": "packs/thief",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "time-mage",
+      "label": "Time Mage",
+      "path": "packs/time-mage",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "warrior",
+      "label": "Warrior",
+      "path": "packs/warrior",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "white-mage",
+      "label": "White Mage",
+      "path": "packs/white-mage",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf1",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "_id": "592c6c8e37f8a5a8",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Endure Elements, Communal",
+  "system": {
+    "actions": [
+      {
+        "_id": "98f447c4b50237fc",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creatures touched"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "24 hour"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like endure elements , except you divide the duration in 1-hour increments among the creatures touched.",
+      "value": "<p>This spell functions like\nendure elements\n, except you divide the duration in 1-hour increments among the creatures touched.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 2,
+        "blackmage": 2,
+        "druid": 2,
+        "whitemage": 2,
+        "geomancer": 2
+      }
+    },
+    "level": 2,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!592c6c8e37f8a5a8"
+}

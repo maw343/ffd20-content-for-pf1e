@@ -1,0 +1,50 @@
+{
+  "_id": "Az5aNw8YBOFGp5QB",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Arcane Ruin (Al Bhed)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Al Bhed, character level 6</p><p><strong>Benefit:</strong> Any successful hit that you score against a magic item that causes damage to that item also causes that item to obtain the broken condition. The item must be restored to its original hit points before it may lose this condition.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "racial",
+    "tag": "arcane_ruin_al_bhed",
+    "requirements": "Al Bhed, character level 6",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-RacialFeats",
+        "pages": "Racial Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Az5aNw8YBOFGp5QB"
+}

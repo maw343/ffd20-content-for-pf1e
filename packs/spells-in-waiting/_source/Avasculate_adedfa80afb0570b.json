@@ -1,0 +1,72 @@
+{
+  "_id": "adedfa80afb0570b",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Avasculate",
+  "system": {
+    "actions": [
+      {
+        "_id": "51389b2773a4a7ef",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "rsak",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "ray"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "ability": {
+          "attack": "dex",
+          "critMult": 2,
+          "critRange": 20
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude partial"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You shoot a black ray of necromantic energy from your outstretched hand, causing your foe to violently purge blood or other vital fluids ...",
+      "value": "<p>You shoot a black ray of necromantic energy from your outstretched hand, causing your foe to violently purge blood or other vital fluids through his skin. You must succeed on a ranged touch attack with the ray to strike a target. If the attack succeeds, the subject is reduced to half of its current hit points (rounded down) and stunned for 1 round. On a successful Fortitude saving throw, the subject is not stunned.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "necromancer": 7
+      }
+    },
+    "level": 7,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!adedfa80afb0570b"
+}

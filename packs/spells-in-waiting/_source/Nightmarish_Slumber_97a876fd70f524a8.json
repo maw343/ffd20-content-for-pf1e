@@ -1,0 +1,66 @@
+{
+  "_id": "97a876fd70f524a8",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Nightmarish Slumber",
+  "system": {
+    "actions": [
+      {
+        "_id": "d3d9b9afaf359397",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "20 ft"
+        },
+        "area": "Creatures within a 20-ft.-radius spread centered on you",
+        "duration": {
+          "units": "round",
+          "value": "1d6 rounds"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates Diabolos’s ability to put all creatures in a 20-ft",
+      "value": "<p>The caster emulates Diabolos’s ability to put all creatures in a 20-ft.-radius area into a nightmarish slumber. Creatures within the area of effect must make a Will save or be inflicted with Sleep status effect and lowers their attack rolls by 1d6 for 1d6 rounds. Learned From Diabolos and Kaiser Dragon.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!97a876fd70f524a8"
+}

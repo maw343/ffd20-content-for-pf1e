@@ -1,0 +1,68 @@
+{
+  "_id": "d54f2b54225eb8f4",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Elemental Carol II",
+  "system": {
+    "actions": [
+      {
+        "_id": "81791a1f86ba999b",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "allies within 30 ft. of you"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round",
+          "concentration": true
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You play a song of the elements, bestowing your allies with a resistance to elemental spells and effects.",
+      "value": "<p>You play a song of the elements, bestowing your allies with a resistance to elemental spells and effects. The bard chooses an element type: dark, earth, fire, ice, light, lightning, water, or wind. Each round this song is in effect, allies within 30 feet of the bard gain a +4 morale bonus to Saving Throws against the elemental (of the chosen type) spells and effects as well as an Elemental (of the chosen type) Resistance of 10.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bard": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d54f2b54225eb8f4"
+}

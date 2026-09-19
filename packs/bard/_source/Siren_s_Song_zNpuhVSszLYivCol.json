@@ -1,0 +1,98 @@
+{
+  "type": "buff",
+  "name": "Siren's Song",
+  "system": {
+    "description": {
+      "value": "<p>This Limit Break causes the bard’s music to pierce almost any barrier. For a duration of 1 round + 1 round per four bard levels after 1st, any effect that would block or warp sounds such as deafened or silenced, and effects such as distort speech, is ignored for songs and bardic performance. This limit break requires only a swift action.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [
+      {
+        "name": "Use",
+        "activation": {
+          "unchained": {
+            "cost": 1,
+            "type": "nonaction"
+          },
+          "cost": 1,
+          "type": "nonaction"
+        },
+        "actionType": "other",
+        "_id": "krOtLsD3jH8KxpkO",
+        "uses": {},
+        "powerAttack": {
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "description": "<p>This Limit Break causes the bard’s music to pierce almost any barrier. For a duration of 1 round + 1 round per four bard levels after 1st, any effect that would block or warp sounds such as deafened or silenced, and effects such as distort speech, is ignored for songs and bardic performance. This limit break requires only a swift action.</p>",
+        "ammo": {
+          "type": "none"
+        }
+      }
+    ],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "feat",
+    "active": false,
+    "level": 0,
+    "duration": {
+      "value": "1 + floor(@classes.bard.level/4)",
+      "units": "round",
+      "end": "turnStart"
+    },
+    "conditions": [],
+    "hideFromToken": false,
+    "showInQuickbar": false
+  },
+  "_id": "zNpuhVSszLYivCol",
+  "img": "icons/svg/ice-aura.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "KJytU1RQudYSFJXl": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": 1785623960894,
+    "modifiedTime": 1785624120749,
+    "lastModifiedBy": "KJytU1RQudYSFJXl"
+  },
+  "_key": "!items!zNpuhVSszLYivCol"
+}

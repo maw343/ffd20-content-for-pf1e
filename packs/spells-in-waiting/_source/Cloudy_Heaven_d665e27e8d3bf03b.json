@@ -1,0 +1,70 @@
+{
+  "_id": "d665e27e8d3bf03b",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Cloudy Heaven",
+  "system": {
+    "actions": [
+      {
+        "_id": "0e1911e4f504c3b3",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "60 ft"
+        },
+        "target": {
+          "value": "60-ft.-radius centered on the caster"
+        },
+        "duration": {
+          "units": "spec",
+          "value": "see text"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the Kaiser Dragon bringing forth a veil of darkness with a smattering of silver orbs that glow like stars",
+      "value": "<p>The caster emulates the Kaiser Dragon bringing forth a veil of darkness with a smattering of silver orbs that glow like stars. All creatures within a 60 foot radius who die or are already dead are brought back to life at full health upon death, with the Berserk and Zombie status effects for 2d4 rounds; if the creature is immune to either of these, then they simply stay dead. Also, all creatures within the radius must make a Fortitude save or be inflicted with the Doom status (1d4+1 rounds). Learned From Kaiser Dragon</p>"
+    },
+    "descriptors": [
+      "death"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 9
+      }
+    },
+    "level": 9,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d665e27e8d3bf03b"
+}

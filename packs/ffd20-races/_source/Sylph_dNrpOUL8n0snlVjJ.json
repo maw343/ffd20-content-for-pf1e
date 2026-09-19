@@ -1,0 +1,77 @@
+{
+  "_id": "dNrpOUL8n0snlVjJ",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "folder": "RWSoA7Fj9yqo0y9U",
+  "img": "systems/pf1/icons/races/human.jpg",
+  "name": "Sylph",
+  "system": {
+    "changes": [
+      {
+        "formula": "2",
+        "target": "dex",
+        "type": "racial",
+        "_id": "1zlhcw3f"
+      },
+      {
+        "formula": "2",
+        "target": "cha",
+        "type": "racial",
+        "_id": "qlcqa336"
+      },
+      {
+        "formula": "-4",
+        "target": "str",
+        "type": "racial",
+        "_id": "bp70ukaz"
+      },
+      {
+        "formula": "2",
+        "target": "skill.ste",
+        "type": "racial",
+        "_id": "zd6g4ypb"
+      }
+    ],
+    "contextNotes": [
+      {
+        "target": "allSavingThrows",
+        "text": "+[[1]] Racial vs Spells and Spell-like Effects"
+      },
+      {
+        "target": "cl",
+        "text": "Spell Resistance equal to 6 + Character Level"
+      }
+    ],
+    "creatureSubtypes": [
+      "sylph"
+    ],
+    "creatureTypes": [
+      "fey"
+    ],
+    "description": {
+      "value": "<p>A diminutive people who dwell deep within the Black Shroud, sylphs resemble delicate dolls wrapped in vibrant leaves, relying on magic and illusion rather than physical combat.</p><h2>Standard Racial Traits</h2><ul><li><strong>Ability Score Modifiers</strong>: Sylphs gain +2 Dexterity, +2 Charisma, and -4 Strength.</li><li><strong>Size</strong>: Sylphs are Small creatures.</li><li><strong>Type</strong>: Sylphs are fey with the sylph subtype.</li><li><strong>Base Speed</strong>: Sylphs have a base speed of 20 feet and a fly speed of 40 feet (poor).</li><li><strong>Languages</strong>: Sylphs start out with Sylvan and Common. Sylphs with high Intelligence scores can learn from: Elvaan, Mandragoran, Mithran, or Vieran.</li></ul><h3>Defense Racial Traits</h3><ul><li><strong>Elemental Resistance</strong>: Sylphs have lightning resistance 5.</li><li><strong>Magic Resistant</strong>: Sylphs get a +1 racial saving throw bonus against spells or spell-like effects.</li><li><strong>Spell Resistance, Lesser</strong>: Sylphs gain spell resistance equal to 6 + their character level.</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Beguiling Liar</strong>: Sylphs gain a +4 racial bonus on Bluff checks to convince an opponent a lie is true.</li><li><strong>Camouflage</strong>: Sylphs gain a +2 racial bonus on Stealth checks in forested terrain.</li></ul><h3>Magical Racial Traits</h3><ul><li><strong>Fey Magic</strong>: Sylphs add +1 to the DC of illusion spells and gain spell-like abilities: 1/day—hidden presence; 3/week—charm, lesser confusion, sleep.</li></ul><h3>Senses Racial Traits</h3><ul><li><strong>Low-Light Vision</strong>: Sylphs have low-light vision, allowing them to see twice as far as humes in dim light.</li></ul>"
+    },
+    "languages": [
+      "common",
+      "sylvan"
+    ],
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "Beastman Tribes"
+      }
+    ],
+    "speeds": {
+      "land": 20,
+      "fly": 40,
+      "flyManeuverability": "poor"
+    },
+    "tags": [
+      "Beastman"
+    ]
+  },
+  "type": "race",
+  "effects": [],
+  "_key": "!items!dNrpOUL8n0snlVjJ"
+}

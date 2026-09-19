@@ -1,0 +1,58 @@
+{
+  "_id": "cHyvBJG6aJ7S3zVK",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Mighty Blood Pact (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 20th level, when a summoner makes a blood pact with his avatar, the bonuses increases. Empower: The avatar gains a +8 morale bonus to its casting stat and a +4 bonus to caster level. Rage: The morale bonus to Strength and Constitution increases to +8, and the morale bonus on Will saves increases to +4. Ward: The dodge bonus to AC increases to +6, the resistance bonus to saves increases to +6, and the damage reduction increases to 6/-.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "mighty_blood_pact_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Summoner"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Summoner",
+          20
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!cHyvBJG6aJ7S3zVK"
+}

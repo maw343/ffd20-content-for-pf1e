@@ -1,0 +1,70 @@
+{
+  "_id": "53cb160a07668ccd",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Disappear",
+  "system": {
+    "actions": [
+      {
+        "_id": "d663d314cf8c883a",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like vanish , except the effect only lasts for 1 round per caster level (maximum of 5 rounds).",
+      "value": "<p>This spell functions like\nvanish\n, except the effect only lasts for 1 round per caster level (maximum of 5 rounds). Like vanish, the spell immediately ends if the subject attacks any creature.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 1,
+        "redmage": 1
+      }
+    },
+    "level": 1,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "glamer"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!53cb160a07668ccd"
+}

@@ -1,0 +1,76 @@
+{
+  "_id": "1d17be14e90512d1",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Mind Flay",
+  "system": {
+    "actions": [
+      {
+        "_id": "47fb96181a9dcaf9",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "cone-shaped burst",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1 round/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d4",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude half — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You call forth Mindflayer, a squid-faced creature who sends a blast of mind energy towards your enemies",
+      "value": "<p>You call forth Mindflayer, a squid-faced creature who sends a blast of mind energy towards your enemies. Enemies within the area of effect take 1d4 points of non-elemental damage per caster level (maximum 15d4) and are inflicted with Disabled and Sap status effects unless they make a successful Fortitude save for half damage and negates the status effects.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "summoner": 7
+      }
+    },
+    "level": 7,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!1d17be14e90512d1"
+}

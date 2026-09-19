@@ -1,0 +1,403 @@
+{
+  "type": "container",
+  "name": "Outfit, Elijah",
+  "system": {
+    "description": {
+      "value": "",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "reduction": {
+        "value": 0,
+        "percent": null
+      }
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 0,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {
+      "base": 10,
+      "offset": 0
+    },
+    "broken": false,
+    "hardness": 0,
+    "items": {
+      "WWDd80XpdhmJUl3C": {
+        "name": "Constructed Arm (Garden Crafted)",
+        "type": "implant",
+        "_id": "WWDd80XpdhmJUl3C",
+        "img": "systems/pf1/icons/items/weapons/spiked-gauntlet.png",
+        "system": {
+          "description": {
+            "value": "",
+            "unidentified": ""
+          },
+          "tags": [],
+          "changes": [],
+          "changeFlags": {
+            "loseDexToAC": false,
+            "noMediumEncumbrance": false,
+            "noHeavyEncumbrance": false,
+            "mediumArmorFullSpeed": false,
+            "heavyArmorFullSpeed": false
+          },
+          "contextNotes": [],
+          "uses": {
+            "value": null,
+            "per": "",
+            "autoDeductChargesCost": "",
+            "maxFormula": "",
+            "rechargeFormula": ""
+          },
+          "links": {
+            "children": []
+          },
+          "flags": {
+            "boolean": {},
+            "dictionary": {}
+          },
+          "scriptCalls": [],
+          "tag": "",
+          "actions": [
+            {
+              "_id": "2d2H1oZG89vasS2Q",
+              "name": "Attack",
+              "activation": {
+                "cost": 1,
+                "type": "nonaction",
+                "unchained": {
+                  "cost": 1,
+                  "type": "nonaction"
+                }
+              },
+              "range": {
+                "value": null,
+                "units": "melee"
+              },
+              "uses": {},
+              "actionType": "mwak",
+              "attackBonus": "1[Weapon Focus]",
+              "damage": {
+                "parts": [
+                  {
+                    "formula": "1d8",
+                    "types": [
+                      "piercing",
+                      "bludgeoning"
+                    ]
+                  }
+                ]
+              },
+              "extraAttacks": {
+                "type": "standard",
+                "formula": {
+                  "count": "",
+                  "bonus": "",
+                  "label": ""
+                }
+              },
+              "ability": {
+                "attack": "str",
+                "damage": "str",
+                "damageMult": 1,
+                "critRange": 20,
+                "critMult": 3
+              },
+              "powerAttack": {
+                "damageBonus": 2,
+                "critMultiplier": 1
+              },
+              "naturalAttack": {
+                "secondary": {
+                  "attackBonus": "",
+                  "damageMult": 0.5
+                },
+                "primary": true
+              },
+              "held": "1h",
+              "ammo": {
+                "type": "none",
+                "cost": 1
+              }
+            }
+          ],
+          "attackNotes": [],
+          "effectNotes": [],
+          "quantity": 1,
+          "weight": {
+            "value": 0
+          },
+          "equipped": true,
+          "carried": true,
+          "price": 0,
+          "size": "med",
+          "resizing": false,
+          "timeworn": false,
+          "artifact": false,
+          "identified": true,
+          "unidentified": {
+            "price": 0,
+            "name": ""
+          },
+          "cursed": false,
+          "cl": 0,
+          "aura": {
+            "custom": false,
+            "school": ""
+          },
+          "subType": "cybertech",
+          "implant": null,
+          "install": null,
+          "implanted": false,
+          "slot": "arm",
+          "disabled": false,
+          "showInQuickbar": false,
+          "nonlethal": false,
+          "hp": {
+            "max": 10,
+            "offset": 0
+          }
+        },
+        "effects": [],
+        "folder": null,
+        "sort": 100000,
+        "ownership": {
+          "default": 0
+        },
+        "flags": {
+          "lilhelper": {
+            "item": {
+              "hideAttacks": false,
+              "autoPowerAttack": false,
+              "keen": false,
+              "skipDialog": 0,
+              "rollmodeOverride": "",
+              "rollOverride": ""
+            }
+          },
+          "pf1": {
+            "migration": "11.8"
+          }
+        },
+        "_stats": {
+          "systemId": null,
+          "systemVersion": "10.8",
+          "coreVersion": "11.315",
+          "createdTime": 1747601744461,
+          "modifiedTime": null,
+          "lastModifiedBy": "KJytU1RQudYSFJXl"
+        }
+      },
+      "tq1DIivwRd9LKPLU": {
+        "type": "equipment",
+        "system": {
+          "description": {
+            "value": "",
+            "instructions": "",
+            "unidentified": "<p>The regulation dress worn by cadets of the prestigious Balamb Garden military academy. This distinguished uniform consists of a structured navy blue jacket adorned with golden yellow accents and intricate silver embroidery along the collar and shoulder panels. The formal military styling features a high collar, fitted silhouette, and ceremonial chain detailing that connects across the shoulders - a symbol of the Garden's disciplined traditions.</p><p></p><p>Note: While the uniform code exists, enforcement remains relaxed outside of official events - a testament to the Garden's philosophy that true discipline comes from within rather than external compulsion. Some rebellious students, like a certain gunblade-wielding troublemaker, have been known to completely disregard uniform protocols without facing serious consequences.</p>"
+          },
+          "tags": [],
+          "quantity": 1,
+          "weight": {
+            "value": 0
+          },
+          "equipped": true,
+          "carried": true,
+          "price": 0,
+          "size": "med",
+          "resizing": false,
+          "timeworn": false,
+          "artifact": false,
+          "identified": true,
+          "unidentified": {
+            "price": 0,
+            "name": ""
+          },
+          "cursed": false,
+          "cl": 0,
+          "aura": {
+            "custom": false,
+            "school": ""
+          },
+          "hp": {
+            "base": 10
+          },
+          "broken": false,
+          "hardness": 0,
+          "changes": [],
+          "changeFlags": {
+            "immuneToMorale": false,
+            "loseDexToAC": false,
+            "noMediumEncumbrance": false,
+            "noHeavyEncumbrance": false,
+            "mediumArmorFullSpeed": false,
+            "heavyArmorFullSpeed": false,
+            "lowLightVision": false,
+            "seeInvisibility": false,
+            "seeInDarkness": false
+          },
+          "contextNotes": [],
+          "actions": [],
+          "attackNotes": [],
+          "effectNotes": [],
+          "uses": {
+            "value": null,
+            "per": "",
+            "autoDeductChargesCost": "",
+            "maxFormula": "",
+            "rechargeFormula": ""
+          },
+          "links": {
+            "children": [],
+            "charges": []
+          },
+          "tag": "",
+          "flags": {
+            "boolean": {},
+            "dictionary": {}
+          },
+          "scriptCalls": [],
+          "masterwork": false,
+          "enh": null,
+          "proficient": false,
+          "held": "1h",
+          "ammo": {
+            "type": "",
+            "capacity": null,
+            "misfire": null,
+            "explode": null
+          },
+          "subType": "wondrous",
+          "slot": "slotless",
+          "equipmentSubtype": "",
+          "hands": 0,
+          "baseTypes": [],
+          "armor": {
+            "value": 0,
+            "dex": null,
+            "acp": 0,
+            "enh": 0,
+            "material": {
+              "base": {
+                "value": "",
+                "custom": false
+              },
+              "normal": {
+                "value": "",
+                "custom": false
+              },
+              "addon": []
+            }
+          },
+          "spellFailure": 0,
+          "showInQuickbar": false,
+          "showInCombat": false,
+          "nonlethal": false
+        },
+        "name": "School Uniform, Balamb Garden",
+        "img": "icons/svg/combat.svg",
+        "effects": [],
+        "ownership": {
+          "default": 0,
+          "KJytU1RQudYSFJXl": 3
+        },
+        "flags": {
+          "lilhelper": {
+            "item": {
+              "hideAttacks": false,
+              "autoPowerAttack": false,
+              "keen": false,
+              "skipDialog": 0,
+              "rollmodeOverride": "",
+              "rollOverride": ""
+            }
+          }
+        },
+        "_stats": {
+          "coreVersion": "12.343",
+          "systemId": "pf1",
+          "systemVersion": "11.8",
+          "createdTime": 1756519203784,
+          "modifiedTime": null,
+          "lastModifiedBy": "KJytU1RQudYSFJXl",
+          "compendiumSource": "Item.LetSUp5E4C8SusE6",
+          "duplicateSource": null
+        },
+        "_id": "tq1DIivwRd9LKPLU",
+        "folder": null,
+        "sort": 0
+      }
+    },
+    "maxWeight": null,
+    "sellMultiplier": 0.5,
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "masterwork": false
+  },
+  "_id": "2ylp4bVfdSAIc9Q1",
+  "img": "icons/svg/barrel.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "KJytU1RQudYSFJXl": 3
+  },
+  "flags": {
+    "pf1": {
+      "migration": "11.8"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "coreVersion": "12.343",
+    "createdTime": 1747597862237,
+    "modifiedTime": 1756519206473,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!2ylp4bVfdSAIc9Q1"
+}

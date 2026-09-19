@@ -1,0 +1,70 @@
+{
+  "_id": "uJgJgKYdpxpMTSPr",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Alchemical Savant (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>At 6th level, the chemist has become accustomed to crafting alchemical items. The amount of alchemical items he is allowed to craft per day increases to 2, as opposed to the limit of 1 magic item per day, as long as he would have the time to do so. This increases to 3/day at 9th level, 4/day at 12th level, and 5/day at 15th level.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "alchemical_savant_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Chemist"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Chemist",
+          6
+        ],
+        [
+          "Chemist",
+          9
+        ],
+        [
+          "Chemist",
+          12
+        ],
+        [
+          "Chemist",
+          15
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!uJgJgKYdpxpMTSPr"
+}

@@ -1,0 +1,66 @@
+{
+  "_id": "1e8ee978dd1793f4",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Disenchant",
+  "system": {
+    "actions": [
+      {
+        "_id": "7b7a7ce7b0f5a0bf",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "area": "all magical effects and magic items within a 40-ft.-radius burst, or one magic item (see text)",
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "All magical effects and magic items within the radius of the spell, except for those that you carry or touch, are disjoined",
+      "value": "<p>All magical effects and magic items within the radius of the spell, except for those that you carry or touch, are disjoined. That is, spells and spell-like effects are unraveled and destroyed completely (ending the effect as a dispel spell does), and each permanent magic item must make a successful Will save or be turned into a normal item for the duration of this spell. An item in a creature’s possession uses its own Will save bonus or its possessor’s Will save bonus, whichever is higher. If an item’s saving throw results in a natural 1 on the die, the item is destroyed instead of being suppressed. You also have a 1% chance per caster level of destroying an antimagic field. If the antimagic field survives the disenchant , no items within it are disjoined. You can also use this spell to target a single item. The item gets a Will save at a -5 penalty to avoid being permanently destroyed. Even artifacts are subject to disenchant, though there is only a 1% chance per caster level of actually affecting such powerful items. If successful, the artifact’s power unravels, and it is destroyed (with no save). If an artifact is destroyed, you must make a DC 25 Will save or permanently lose all spellcasting abilities. These abilities cannot be recovered by mortal magic. Destroying artifacts is a dangerous business, and it is 95% likely to attract the attention of some powerful being who has an interest in or connection with the device.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 9
+      }
+    },
+    "level": 9,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!1e8ee978dd1793f4"
+}

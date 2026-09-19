@@ -1,0 +1,63 @@
+{
+  "_id": "644a5e459360906e",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Summon Materia I",
+  "system": {
+    "actions": [
+      {
+        "_id": "39a5e1237eacb398",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one common level 1 materia"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "10 minutes/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell summons a common level 1 materia of any type",
+      "value": "<p>This spell summons a common level 1 materia of any type. The materia disappears and the spell ends if the materia is farther than 100 feet from the summoner.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "summoner": 3
+      }
+    },
+    "level": 3,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!644a5e459360906e"
+}

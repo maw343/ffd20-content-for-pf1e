@@ -1,0 +1,68 @@
+{
+  "_id": "dc75d9aa3b11b81c",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Dread Spikes II",
+  "system": {
+    "actions": [
+      {
+        "_id": "606e198db197fc37",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "3d4",
+              "types": [
+                "negative"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Dread Spikes , except it deals 3d4 points of shadow damage and the subject is healed by that much instead",
+      "value": "<p>This spell functions like Dread Spikes , except it deals 3d4 points of shadow damage and the subject is healed by that much instead.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "darkknight": 4
+      }
+    },
+    "level": 4,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!dc75d9aa3b11b81c"
+}

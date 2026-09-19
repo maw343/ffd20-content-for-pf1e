@@ -1,0 +1,50 @@
+{
+  "_id": "6wyKaHKYJ6RoODQ5",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Evasive Action",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Drive 1 rank</p><p><strong>Benefit:</strong> Once per round, when your vehicle or Magitek is hit in combat, you may attempt a Drive check (as an immediate action) to negate the hit. The hit is negated if your Drive check result is greater than the opponent's attack roll.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "technology",
+    "tag": "evasive_action",
+    "requirements": "Drive 1 rank",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-TechnologyFeats",
+        "pages": "Technology Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!6wyKaHKYJ6RoODQ5"
+}

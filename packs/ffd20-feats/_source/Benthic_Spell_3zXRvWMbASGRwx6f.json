@@ -1,0 +1,50 @@
+{
+  "_id": "3zXRvWMbASGRwx6f",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Benthic Spell",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> —</p><p><strong>MP Increase:</strong> +1</p><p><strong>Benefit:</strong> You can modify a spell that deals earth, fire, ice, or lightning damage to deal damage through high-pressure water instead. The spell gains the water descriptor, and you can either replace the spell's normal damage with water damage or split the spell's damage so that half is bludgeoning and half water. Creatures with damage reduction apply their damage reduction to bludgeoning damage from a benthic spell, but the spell counts as bludgeoning and magic for the purposes of bypassing damage reduction.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "metamagic",
+    "tag": "benthic_spell",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-MetamagicFeats",
+        "pages": "Metamagic Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!3zXRvWMbASGRwx6f"
+}

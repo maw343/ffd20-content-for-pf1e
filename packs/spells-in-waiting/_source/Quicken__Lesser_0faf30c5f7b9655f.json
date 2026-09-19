@@ -1,0 +1,62 @@
+{
+  "_id": "0faf30c5f7b9655f",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Quicken, Lesser",
+  "system": {
+    "actions": [
+      {
+        "_id": "9820ba879fda65fb",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature (other than you)"
+        },
+        "duration": {
+          "units": "inst"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You grant the target creature an immediate move action that takes place after this spell is cast",
+      "value": "<p>You grant the target creature an immediate move action that takes place after this spell is cast. This does not modify the creature’s Initiative, however. A creature can only be affected by this type of spell (including the other versions of Quicken) once a minute.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!0faf30c5f7b9655f"
+}

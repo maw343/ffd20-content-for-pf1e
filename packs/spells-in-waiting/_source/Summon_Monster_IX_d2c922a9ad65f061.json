@@ -1,0 +1,67 @@
+{
+  "_id": "d2c922a9ad65f061",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Summon Monster IX",
+  "system": {
+    "actions": [
+      {
+        "_id": "b89c3a527a2051ee",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one summoned creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Table: Summon Monster IX Creature Subtype(s) Apocrypha (Chaotic, Demon, Evil, Extraplanar) Havocfang* [(holy/shadow)] Garulessa* [(holy/s...",
+      "value": "<p>Table: Summon Monster IX Creature Subtype(s) Apocrypha (Chaotic, Demon, Evil, Extraplanar) Havocfang* [(holy/shadow)] Garulessa* [(holy/shadow)] Jackanapes (Devil, Evil, Extraplanar, Lawful) Pneumaflayer (Devil, Extraplanar) This spell functions like Summon Monster I , except that you can summon one creature from the 9th-level list with a CR rating of 14 or lower, 1d3 creatures of the same kind from the 8th-level list , or 1d4+1 creatures of the same kind from the 7th-level or lower lists.</p>"
+    },
+    "descriptors": [
+      "evil",
+      "lawful",
+      "chaotic"
+    ],
+    "learnedAt": {
+      "class": {
+        "summoner": 9
+      }
+    },
+    "level": 9,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d2c922a9ad65f061"
+}

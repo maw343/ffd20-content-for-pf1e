@@ -1,0 +1,27 @@
+{
+  "_id": "PzhhHzbj77ZcDV2q",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_14.jpg",
+  "name": "Storm of Blows (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Rain of Blows warrior talent</p><p>The warrior may make an additional extra attack when using Rain of Blows at the cost of making its penalty -4 instead of -2.</p>"
+    },
+    "tag": "stormofblows",
+    "source": "Final Fantasy d20 - Advanced Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          12
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!PzhhHzbj77ZcDV2q"
+}

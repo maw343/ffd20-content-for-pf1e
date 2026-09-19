@@ -1,0 +1,61 @@
+{
+  "_id": "9996659f53234f65",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785720769186,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Anatomical Manipulation (Su or Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Medic 10</p><p>The medic so used to the effects of antitoxins, drugs, and alchemical items that her body can be reinforced by manipulating the chemical reactions within the body. Whenever the medic ingests an antitoxin, drug, or alchemical item that grants a bonus to her physical ability scores, Fortitude, or reflex save, she can convert that bonus into a miss chance against sneak attack and critical hits based on the amount of the bonus. A +2 bonus converts into 25%, a +4 converts into 50%, a +6 converts to 75%, and a +8 or higher gives temporary immunity for the duration of the antitoxin, drug, or alchemical item. The medic does not gain these benefits for the above listed items that have a duration of longer than 8 hours. This is a free action, once the antitoxin, drug, or alchemical item is consumed.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "anatomicalmanipulationsuorex",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Medic",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Medical Practices"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!9996659f53234f65"
+}

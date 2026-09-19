@@ -1,0 +1,61 @@
+{
+  "_id": "57d0a22b97c78318",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Vermin Shape I",
+  "system": {
+    "actions": [
+      {
+        "_id": "269111b505b0ada2",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level DESCRIPTION When you cast this spell, you assume the form of any Small or Medium creature of the vermin type. If the form you assume has any of the following abilities, you gain the listed ability: climb 30 feet, fly 30 feet (average maneuverability), swim 30 feet, darkvision 60 feet, low-light vision, scent, and lunge. You don’t gain full immunity to mind-affecting effects, but you do gain a +2 resistance bonus on all saving throws against such effects. Small vermin: If you take the form of a Small vermin, you gain a +2 size bonus to your Dexterity and a +2 natural armor bonus. Medium vermin: If you take the form of a Medium vermin, you gain a +2 size bonus to your Strength and a +3 natural armor bonus."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "When you cast this spell, you assume the form of any Small or Medium creature of the vermin type",
+      "value": "<p>When you cast this spell, you assume the form of any Small or Medium creature of the vermin type. If the form you assume has any of the following abilities, you gain the listed ability: climb 30 feet, fly 30 feet (average maneuverability), swim 30 feet, darkvision 60 feet, low-light vision, scent, and lunge. You don’t gain full immunity to mind-affecting effects, but you do gain a +2 resistance bonus on all saving throws against such effects. Small vermin: If you take the form of a Small vermin, you gain a +2 size bonus to your Dexterity and a +2 natural armor bonus. Medium vermin: If you take the form of a Medium vermin, you gain a +2 size bonus to your Strength and a +3 natural armor bonus.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "druid": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!57d0a22b97c78318"
+}

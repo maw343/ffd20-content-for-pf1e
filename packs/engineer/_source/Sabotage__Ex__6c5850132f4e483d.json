@@ -1,0 +1,61 @@
+{
+  "_id": "6c5850132f4e483d",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785718761470,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Sabotage (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> —</p><p>The engineer can sabotage an object so that it operates poorly. The engineer must succeed on a Disable Device check (DC 20) to accomplish the downgrade and sabotaging a masterwork object is slightly harder (DC 25). Noticing the engineer's handiwork without first testing the sabotaged device requires a successful Perception check (DC = the engineer's Disable Device check result). Fixing the sabotaged item requires a successful Craft check.<br><br><strong>Sabotaging a Device:</strong> As a full-round action, the engineer can reconfigure so that anyone who uses it suffers a penalty equal to half of the engineer's level on skill checks made to use the device.<br><strong>Sabotaging a Weapon:</strong> As a full-round action, the engineer can sabotage a weapon so that it has the broken condition the next time it is used. A sabotaged weapon cannot be used effectively until repaired. This use of sabotage also applies to vehicles.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "sabotageex",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Engineer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Engineer Tricks - Techniques"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!6c5850132f4e483d"
+}

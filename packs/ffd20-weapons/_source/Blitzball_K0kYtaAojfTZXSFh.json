@@ -1,0 +1,89 @@
+{
+  "_id": "K0kYtaAojfTZXSFh",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/items/weapons/longbow.PNG",
+  "name": "Blitzball",
+  "system": {
+    "actions": [
+      {
+        "_id": "2e6da036d0024207",
+        "ability": {
+          "attack": "_default",
+          "critMult": 2
+        },
+        "actionType": "rwak",
+        "activation": {
+          "type": "attack",
+          "unchained": {
+            "type": "attack"
+          }
+        },
+        "conditionals": [],
+        "damage": {
+          "parts": [
+            {
+              "formula": "sizeRoll(1, 8, @size)",
+              "types": [
+                "slashing"
+              ]
+            }
+          ]
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "extraAttacks": {
+          "type": "standard"
+        },
+        "name": "Attack",
+        "range": {
+          "maxIncrements": 10,
+          "units": "ft",
+          "value": "0"
+        }
+      }
+    ],
+    "baseTypes": [
+      "Blitzball"
+    ],
+    "description": {
+      "unidentified": "<h3>Statistics</h3><p><b>Damage</b> 1d6 (small), 1d8 (medium); <b>Critical</b> 20/x2; <b>Type</b> Slashing</p><h3>Description</h3>\n<h3>Blitzball</h3>\n<p><strong>Cost:</strong> 5.0 gp</p>\n<p><strong>Damage:</strong> 1d6 (Small), 1d8 (Medium)</p>\n<p><strong>Critical:</strong> 20</p>\n<p><strong>Weight:</strong> 2.0 lb</p>\n<p><strong>Type:</strong> Slashing</p>\n<p><strong>Special:</strong> —</p>"
+    },
+    "hardness": 5,
+    "hp": {
+      "base": 10
+    },
+    "material": {
+      "base": {
+        "value": "steel"
+      }
+    },
+    "price": 5,
+    "properties": {},
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "1"
+      }
+    ],
+    "subType": "martial",
+    "tags": [
+      "Performance"
+    ],
+    "weaponGroups": [
+      "thrown"
+    ],
+    "weaponSubtype": "ranged",
+    "hands": 1,
+    "held": "1h",
+    "weight": {
+      "value": 2
+    }
+  },
+  "type": "weapon",
+  "effects": [],
+  "folder": "THRWeap00000000001",
+  "_key": "!items!K0kYtaAojfTZXSFh"
+}

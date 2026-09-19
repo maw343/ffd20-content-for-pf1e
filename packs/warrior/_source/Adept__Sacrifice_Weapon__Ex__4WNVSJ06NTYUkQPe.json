@@ -1,0 +1,27 @@
+{
+  "_id": "4WNVSJ06NTYUkQPe",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_13.jpg",
+  "name": "Adept: Sacrifice Weapon (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Chosen Weapon class feature</p><p>When damage would cause the warrior or an adjacent ally to be knocked unconscious or killed, the warrior can redirect that damage to an equipped weapon, albeit the weapon's hardness is halved for damage calculation. This is a free action usable outside of the warrior's turn. This talent can be used times per day equal to his chosen weapon bonus (minimum 1).</p>"
+    },
+    "tag": "adeptsacrificeweapon",
+    "source": "Final Fantasy d20 - Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!4WNVSJ06NTYUkQPe"
+}

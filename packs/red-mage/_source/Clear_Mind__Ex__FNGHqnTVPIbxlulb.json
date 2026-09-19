@@ -1,0 +1,27 @@
+{
+  "_id": "FNGHqnTVPIbxlulb",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Clear Mind (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The red mage can regain MP quicker while relaxed and free from overt distractions. He does not gain this recovery while asleep or unconscious. He regains 1 MP per hour, increasing by 1 for every five red mage levels after 5th.</p>"
+    },
+    "tag": "clearmind",
+    "source": "Final Fantasy d20 - Red Mage",
+    "associations": {
+      "classes": [
+        [
+          "Red Mage",
+          5
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!FNGHqnTVPIbxlulb"
+}

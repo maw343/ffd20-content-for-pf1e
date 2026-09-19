@@ -1,0 +1,62 @@
+{
+  "_id": "6987a1c811d77dd1",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Unspell",
+  "system": {
+    "actions": [
+      {
+        "_id": "254679d474cf971c",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "area": "one spellcaster, creature, or object",
+        "duration": {
+          "units": "inst"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This ninjutsu functions like Dispel , except it is more concentrated on dispelling beneficial status effects instead of any magical effects",
+      "value": "<p>This ninjutsu functions like Dispel , except it is more concentrated on dispelling beneficial status effects instead of any magical effects. When casting this ninjutsu, the casters caster level is considered 2 higher against effects that provide beneficial status effects such as Haste, Protect, etc. However, the caster level is considered 2 lower when attempting to dispel magical effects that do not provide beneficial status effects such as Shield, Bar-element etc. Unspell can be used just like Dispel in every way, and retains this bonuses and negatives even when being used to counterspell.</p>"
+    },
+    "descriptors": [
+      "negative"
+    ],
+    "learnedAt": {
+      "class": {
+        "ninja": 3
+      }
+    },
+    "level": 3,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!6987a1c811d77dd1"
+}

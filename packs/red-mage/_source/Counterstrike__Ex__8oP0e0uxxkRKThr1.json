@@ -1,0 +1,27 @@
+{
+  "_id": "8oP0e0uxxkRKThr1",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Counterstrike (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>Whenever an enemy within reach of the red mage successfully casts a spell defensively, that enemy provokes an attack of opportunity from the red mage after the spell is complete. This attack of opportunity cannot disrupt the spell.</p>"
+    },
+    "tag": "counterstrike",
+    "source": "Final Fantasy d20 - Red Mage",
+    "associations": {
+      "classes": [
+        [
+          "Red Mage",
+          16
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!8oP0e0uxxkRKThr1"
+}

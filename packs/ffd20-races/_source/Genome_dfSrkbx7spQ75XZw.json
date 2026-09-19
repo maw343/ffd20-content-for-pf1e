@@ -1,0 +1,74 @@
+{
+  "_id": "dfSrkbx7spQ75XZw",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "folder": "RWSoA7Fj9yqo0y9U",
+  "img": "systems/pf1/icons/races/human.jpg",
+  "name": "Genome",
+  "system": {
+    "changes": [
+      {
+        "formula": "2",
+        "target": "dex",
+        "type": "racial",
+        "_id": "p1qheuza"
+      },
+      {
+        "formula": "2",
+        "target": "int",
+        "type": "racial",
+        "_id": "aloninn9"
+      },
+      {
+        "formula": "-2",
+        "target": "cha",
+        "type": "racial",
+        "_id": "6yzmcizn"
+      },
+      {
+        "formula": "4",
+        "target": "skill.ste",
+        "type": "racial",
+        "_id": "mn0luwui"
+      }
+    ],
+    "contextNotes": [
+      {
+        "target": "allSavingThrows",
+        "text": "+[[2]] Racial vs Death Spells and Effects"
+      },
+      {
+        "target": "skill.dip",
+        "text": "-[[2]] Isolated (vs other races)"
+      }
+    ],
+    "creatureSubtypes": [
+      "genome"
+    ],
+    "creatureTypes": [
+      "humanoid"
+    ],
+    "description": {
+      "value": "<p>Genomes are a race of artificial humanoids created in production facilities, often lacking a soul and awaiting the attainment of one.</p><h2>Standard Racial Traits</h2><ul><li><strong>Ability Score Modifiers</strong>: Genomes gain +2 Dexterity, +2 Intelligence, and -2 Charisma.</li><li><strong>Type</strong>: Genomes are humanoids with the genome subtype.</li><li><strong>Size</strong>: Genomes are Medium creatures and thus receive no bonuses or penalties due to their size.</li><li><strong>Base Speed</strong>: Genomes have a base speed of 30 feet.</li><li><strong>Languages</strong>: Genomes begin play speaking Common. Genomes with high Intelligence scores can choose any languages they want.</li></ul><h3>Defense Racial Traits</h3><ul><li><strong>Reborn Spirit</strong>: Genomes gain a +2 racial bonus to saving throws against Death spells and effects.</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Sneaky</strong>: Genomes gain a +4 racial bonus on Stealth checks.</li><li><strong>Technological Instinct</strong>: Genomes gain Technologist as a bonus feat and always treat Knowledge (Technology) as a class skill.</li></ul><h3>Offense Racial Traits</h3><ul><li><strong>Dexterous Tail</strong>: Genomes have a long, flexible tail able to retrieve small, stowed objects as a swift action.</li><li><strong>Ideal Vessel</strong>: A genome's class level is considered 1 level higher for determining the DC of class abilities.</li></ul><h3>Weakness Racial Traits</h3><ul><li><strong>Isolated</strong>: Genomes take a -2 penalty on all Diplomacy checks. A humanoid's starting attitude towards genomes is one step worse than normal.</li></ul>"
+    },
+    "languages": [
+      "common"
+    ],
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "Base Races"
+      }
+    ],
+    "speeds": {
+      "land": 30
+    },
+    "tags": [
+      "Base"
+    ]
+  },
+  "type": "race",
+  "effects": [],
+  "_key": "!items!dfSrkbx7spQ75XZw"
+}

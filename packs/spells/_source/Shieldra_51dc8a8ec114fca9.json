@@ -1,0 +1,62 @@
+{
+  "_id": "51dc8a8ec114fca9",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Shieldra",
+  "system": {
+    "actions": [
+      {
+        "_id": "954d97c463a7a21e",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like s hield , except it affects one creature per two levels (maximum of 5) within 30 feet of each other.",
+      "value": "<p>This spell functions like\ns\nhield\n, except it affects one creature per two levels (maximum of 5) within 30 feet of each other. This spell works against the\nRuin\nra\nand\nRuinga\nspells as well as\nRuin\n.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 4,
+        "blackmage": 4,
+        "paladin": 4,
+        "redmage": 4,
+        "timemage": 4,
+        "whitemage": 4
+      }
+    },
+    "level": 4,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!51dc8a8ec114fca9"
+}

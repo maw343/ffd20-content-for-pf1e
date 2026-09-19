@@ -1,0 +1,19 @@
+{
+  "_id": "ArJoSoKeYck0oXiy",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Heavily Armored Mage (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Red Mage 12, Armored Mage class feature</p><p>The red mage gains proficiency with heavy armor and can cast red mage spells in heavy armor without incurring the armor's normal spell failure chance.</p>"
+    },
+    "tag": "heavilyarmoredmageex",
+    "source": "Final Fantasy d20 - Red Mage (Ruby Talents)"
+  },
+  "effects": [],
+  "_key": "!items!ArJoSoKeYck0oXiy"
+}

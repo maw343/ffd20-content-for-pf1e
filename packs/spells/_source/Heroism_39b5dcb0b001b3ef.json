@@ -1,0 +1,71 @@
+{
+  "_id": "39b5dcb0b001b3ef",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Heroism",
+  "system": {
+    "actions": [
+      {
+        "_id": "dcde19370d71af38",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "10 minute/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell imbues a single creature with great bravery and morale in battle.",
+      "value": "<p>This spell imbues a single creature with great bravery and morale in battle. The target gains a +2\nmorale bonus\non attack rolls, saves, and skill checks.\nHeroism, Greater\nSchool\nenhancing (\ncompulsion\n) [\nmind-affecting\n];\nLevel\nastrologian 6, white mage 6\nEFFECT\nDuration\n1 min./level\nDESCRIPTION\nThis spell functions like\nheroism\n, except the creature gains a +4\nmorale bonus\non attack rolls, saves, and skill checks, immunity to fear effects, and\ntemporary hit points\nequal to your caster level (maximum 20).</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 3,
+        "whitemage": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "compulsion",
+      "mind-affecting"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!39b5dcb0b001b3ef"
+}

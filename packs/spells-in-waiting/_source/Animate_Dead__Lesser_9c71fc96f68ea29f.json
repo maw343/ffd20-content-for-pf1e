@@ -1,0 +1,58 @@
+{
+  "_id": "9c71fc96f68ea29f",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Animate Dead, Lesser",
+  "system": {
+    "actions": [
+      {
+        "_id": "a3bdd28e7fb4463c",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "inst"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions as animate dead , except you can only create a single Small or Medium skeleton or zombie",
+      "value": "<p>This spell functions as animate dead , except you can only create a single Small or Medium skeleton or zombie . You cannot create variant skeletons or zombies with this spell.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "necromancer": 2
+      }
+    },
+    "level": 2,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!9c71fc96f68ea29f"
+}

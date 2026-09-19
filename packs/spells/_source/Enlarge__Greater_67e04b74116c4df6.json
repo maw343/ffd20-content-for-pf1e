@@ -1,0 +1,60 @@
+{
+  "_id": "67e04b74116c4df6",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Enlarge, Greater",
+  "system": {
+    "actions": [
+      {
+        "_id": "e6cc0ce44d415dd8",
+        "name": "Use",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "personal"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round"
+        }
+      }
+    ],
+    "components": {
+      "material": true
+    },
+    "description": {
+      "summary": "Your height immediately doubles, and your weight increases by a factor of eight.",
+      "value": "<p>Your height immediately doubles, and your weight increases by a factor of eight. This increase changes your size category to the next larger one. You gain a +4 size bonus to Strength and Constitution and take a -2 penalty to your Dexterity. You gain a +2 enhancement bonus to your natural armor. You gain DR 3/-. At 15th level, this damage reduction becomes 6/- (the maximum). Your size modifier for AC and attacks changes as appropriate to your new size category (see Table: Size Modifiers). This spell doesn’t change your speed. Determine space and reach as appropriate to your new size.\nIf insufficient room is available for the desired growth, you attain the maximum possible size and may make a Strength check (using your increased Strength) to burst any enclosures in the process (see Smashing an Object). If you fail, you are constrained without harm by the materials enclosing you–the spell cannot crush you by increasing your size.\nAll equipment you wear or carry is similarly enlarged by the spell. Melee weapons deal more damage (see Table: Tiny and Large Weapon Damage). Other magical properties are not affected by this spell. Any enlarged item that leaves your possession (including a projectile or thrown weapon) instantly returns to its normal size. This means that thrown and projectile weapons deal their normal damage. Magical properties of enlarged items are not increased by this spell.\nMultiple magical effects that increase size do not stack. This spell only works on creatures of the\nhumanoid\ntype.\nTable: Medium/Large Weapon Damage\nMedium Weapon Damage\nLarge Weapon Damage\n1d2\n1d3\n1d3\n1d4\n1d4\n1d6\n1d6\n1d8\n1d8\n2d6\n1d10\n2d8\n1d12\n3d6\n2d4\n2d6\n2d6\n3d6\n2d8\n3d8\n2d10\n4d8</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "redmage": 5
+      }
+    },
+    "level": 5,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!67e04b74116c4df6"
+}

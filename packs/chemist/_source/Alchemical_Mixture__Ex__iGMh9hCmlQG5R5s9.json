@@ -1,0 +1,70 @@
+{
+  "_id": "iGMh9hCmlQG5R5s9",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Alchemical Mixture (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>At 4th level, a chemist can make temporary alchemical items known as mixtures to use throughout the day. He can prepare a maximum number of mixtures equal to 3 + his Intelligence modifier, or a lesser amount as noted below. Additionally, the combined worth (price) of the alchemical items cannot exceed 750 gil per chemist level. Mixtures dissolve if not used within the same day of their creation. At 4th level, these items can only be Tier 1. At 7th level, the chemist can create an alchemical item from the Tier 2 list. At 10th level, the chemist can create an alchemical item from the Tier 3 list. At 13th level, the chemist can create an alchemical item from the Tier 4 list.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "alchemical_mixture_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Chemist"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Chemist",
+          4
+        ],
+        [
+          "Chemist",
+          7
+        ],
+        [
+          "Chemist",
+          10
+        ],
+        [
+          "Chemist",
+          13
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!iGMh9hCmlQG5R5s9"
+}

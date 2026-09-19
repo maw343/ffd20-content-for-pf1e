@@ -1,0 +1,61 @@
+{
+  "_id": "7dd1b9d9bc2ca476",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Walk Through Space",
+  "system": {
+    "actions": [
+      {
+        "_id": "766400fbe2a1b250",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level DESCRIPTION When under the effects of this spell, you can teleport up to 30 feet as a move action. You must end this movement in an unoccupied space that you can stand on within line of sight. Alternatively, you can spend a move action to teleport to a standing position from lying prone. Teleporting does not provoke attacks of opportunity."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "When under the effects of this spell, you can teleport up to 30 feet as a move action",
+      "value": "<p>When under the effects of this spell, you can teleport up to 30 feet as a move action. You must end this movement in an unoccupied space that you can stand on within line of sight. Alternatively, you can spend a move action to teleport to a standing position from lying prone. Teleporting does not provoke attacks of opportunity.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 7
+      }
+    },
+    "level": 7,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!7dd1b9d9bc2ca476"
+}

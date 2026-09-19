@@ -1,0 +1,68 @@
+{
+  "_id": "6d6b4fce6ce336aa",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Ventriloquism",
+  "system": {
+    "actions": [
+      {
+        "_id": "97efce21be9d9ff0",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "intelligible sound, usually speech"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 min./level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will disbelief (if interacted with)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You can make your voice (or any sound that you can normally make vocally) seem to issue from someplace else",
+      "value": "<p>You can make your voice (or any sound that you can normally make vocally) seem to issue from someplace else. You can speak in any language you know. With respect to such voices and sounds, anyone who hears the sound and rolls a successful save recognizes it as illusory (but still hears it).</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 1
+      }
+    },
+    "level": 1,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!6d6b4fce6ce336aa"
+}

@@ -1,0 +1,56 @@
+{
+  "_id": "df1372316d87a150",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Spark III",
+  "system": {
+    "actions": [
+      {
+        "_id": "083f655418f8024d",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Spark , but deals lightning damage equal to your caster level (maximum 15) plus five times your Intelligence modifier and the secondary targets must all be within 30 feet of the primary target.",
+      "value": "<p>This spell functions like\nSpark\n, but deals lightning damage equal to your caster level (maximum 15) plus five times your Intelligence modifier and the secondary targets must all be within 30 feet of the primary target.</p>"
+    },
+    "descriptors": [
+      "lightning"
+    ],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!df1372316d87a150"
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "2f206e54b4f8ac03",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Delay Poison, Communal",
+  "system": {
+    "actions": [
+      {
+        "_id": "72d5fa04ee4008f9",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "creatures touched DESCRIPTION This spell functions like delay poison , except you divide the duration in 1-hour intervals among the creatures touched."
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like delay poison , except you divide the duration in 1-hour intervals among the creatures touched",
+      "value": "<p>This spell functions like delay poison , except you divide the duration in 1-hour intervals among the creatures touched.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!2f206e54b4f8ac03"
+}

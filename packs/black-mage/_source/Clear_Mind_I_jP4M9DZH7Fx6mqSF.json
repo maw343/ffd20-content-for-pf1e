@@ -1,0 +1,19 @@
+{
+  "_id": "jP4M9DZH7Fx6mqSF",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/yellow_37.jpg",
+  "name": "Clear Mind I",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 5th level, a black mage can regain his MP quicker. The black mage must be relaxed and must be free from overt distractions, such as combat raging nearby or other loud noises. For example, he could be riding in the back of a carriage and benefit from this ability. The black mage does not gain this recovery if he is asleep or unconscious. The black mage regains 1 MP per hour. This increases by 1 for every five black mage levels after 5th.</p>"
+    },
+    "tag": "clearmindi",
+    "source": "Final Fantasy d20 - Black Mage"
+  },
+  "effects": [],
+  "_key": "!items!jP4M9DZH7Fx6mqSF"
+}

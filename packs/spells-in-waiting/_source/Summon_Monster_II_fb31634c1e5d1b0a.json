@@ -1,0 +1,67 @@
+{
+  "_id": "fb31634c1e5d1b0a",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Summon Monster II",
+  "system": {
+    "actions": [
+      {
+        "_id": "de20829e589171b7",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one summoned creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Table: Summon Monster II Creature Subtype(s) Centipede* [(holy/shadow)] Cave Bat* (Avian, [holy/shadow]) Cobra* (Reptilian, [holy/shadow]...",
+      "value": "<p>Table: Summon Monster II Creature Subtype(s) Centipede* [(holy/shadow)] Cave Bat* (Avian, [holy/shadow]) Cobra* (Reptilian, [holy/shadow]) Elemental (Minor) (Elemental, Extraplanar) Hedgehog Pie (Daemon, Evil, Extraplanar) Gremlin (Devil, Evil, Extraplanar, Lawful) Imp (Devil, Evil, Extraplanar, Lawful) Tarantula* [(holy/shadow)] Wolf* [(holy/shadow)] Vulture* (Avian, [holy/shadow]) This spell functions like Summon Monster I , except that you can summon one creature from the 2nd-level list with a CR rating of 1 or lower, or 1d3 creatures of the same kind from the 1st-level list .</p>"
+    },
+    "descriptors": [
+      "evil",
+      "lawful"
+    ],
+    "learnedAt": {
+      "class": {
+        "darkknight": 2,
+        "summoner": 2
+      }
+    },
+    "level": 2,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!fb31634c1e5d1b0a"
+}

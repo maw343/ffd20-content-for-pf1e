@@ -1,0 +1,27 @@
+{
+  "_id": "L3btaGlHlgLzVZKV",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_13.jpg",
+  "name": "Debilitating Assault (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Warrior 4</p><p>The warrior uses his weapons' unique properties to cripple opponents. When an opponent takes physical damage from the warrior's chosen weapon, until their next turn, they suffer (non-stacking) penalties based on the damage type: Bludgeoning: -2 penalty to AC. Slashing: -2 penalty to hit. Piercing: -2 penalty to damage rolls.</p>"
+    },
+    "tag": "debilitatingassault",
+    "source": "Final Fantasy d20 - Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!L3btaGlHlgLzVZKV"
+}

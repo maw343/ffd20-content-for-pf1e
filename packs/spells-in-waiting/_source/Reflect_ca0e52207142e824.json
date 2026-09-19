@@ -1,0 +1,69 @@
+{
+  "_id": "ca0e52207142e824",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Reflect",
+  "system": {
+    "actions": [
+      {
+        "_id": "81d2a5d1b73e6b00",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "until expended or 10 min./level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Spells and spell-like effects targeted on you are turned back upon the original caster",
+      "value": "<p>Spells and spell-like effects targeted on you are turned back upon the original caster. The spell turns only spells that have you as a target. Effect and area spells are not affected. Reflect also fails to stop touch range spells. From seven to ten (1d4+6) spell levels are affected by the turning. The exact number is rolled secretly. When you are targeted by a spell of higher level than the amount of reflect you have left, that spell is partially turned. Subtract the amount of reflect left from the spell level of the incoming spell, then divide the result by the spell level of the incoming spell to see what fraction of the effect gets through. For damaging spells, you and the caster each take a fraction of the damage. For non-damaging spells, each of you has a proportional chance to be the one who is affected. If you and a spellcasting attacker are both warded by reflect effects in operation, a resonating field is created. Roll randomly to determine the result. Table: Reflect Resonance d% Effect 01-70 Spell drains away without effect. 71-80 Spell affects both of you equally at full effect. 81-97 Both turning effects are rendered nonfunctional for 1d4 minutes. 98-100 Both of you go through a rift into another plane.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 7,
+        "whitemage": 7
+      }
+    },
+    "level": 7,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!ca0e52207142e824"
+}

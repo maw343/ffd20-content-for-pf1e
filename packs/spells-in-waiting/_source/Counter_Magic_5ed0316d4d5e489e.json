@@ -1,0 +1,67 @@
+{
+  "_id": "5ed0316d4d5e489e",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Counter Magic",
+  "system": {
+    "actions": [
+      {
+        "_id": "390f8914dc501852",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "immediate",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "one spellcaster"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You reverse time before a spell is cast, disrupting the enemy spellcaster’s mana flow",
+      "value": "<p>You reverse time before a spell is cast, disrupting the enemy spellcaster’s mana flow. Whenever a spellcaster casts a 1st-5th level spell or use a spell-like ability, you can cast this spell to interrupt it, effectively canceling it.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 6
+      }
+    },
+    "level": 6,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!5ed0316d4d5e489e"
+}

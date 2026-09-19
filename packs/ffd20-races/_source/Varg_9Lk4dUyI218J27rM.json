@@ -1,0 +1,80 @@
+{
+  "_id": "9Lk4dUyI218J27rM",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "folder": "RWSoA7Fj9yqo0y9U",
+  "img": "systems/pf1/icons/races/human.jpg",
+  "name": "Varg",
+  "system": {
+    "changes": [
+      {
+        "formula": "2",
+        "target": "str",
+        "type": "racial",
+        "_id": "pn23873s"
+      },
+      {
+        "formula": "2",
+        "target": "wis",
+        "type": "racial",
+        "_id": "sj7o3llb"
+      },
+      {
+        "formula": "-2",
+        "target": "cha",
+        "type": "racial",
+        "_id": "i5m1thqr"
+      },
+      {
+        "formula": "1",
+        "target": "ac",
+        "type": "racial",
+        "_id": "i3hj05mx"
+      },
+      {
+        "formula": "2",
+        "target": "skill.per",
+        "type": "racial",
+        "_id": "82qxw9dd"
+      }
+    ],
+    "contextNotes": [
+      {
+        "target": "allSavingThrows",
+        "text": "+[[2]] Racial vs Fear"
+      },
+      {
+        "target": "skill.dip",
+        "text": "-[[2]] Emotionless (vs other races)"
+      }
+    ],
+    "creatureSubtypes": [
+      "varg"
+    ],
+    "creatureTypes": [
+      "humanoid"
+    ],
+    "description": {
+      "value": "<p>Sometimes mistakenly referred to as 'Werewolves', the vargs are lean and powerful wolfmen, a mixture of human and bestial characteristics.</p><h2>Standard Racial Traits</h2><ul><li><strong>Ability Score Modifiers</strong>: Vargs gain +2 Strength, +2 Wisdom, and –2 Charisma.</li><li><strong>Size</strong>: Vargs are Medium creatures.</li><li><strong>Type</strong>: Vargs are Humanoid creatures with the varg subtype.</li><li><strong>Base Speed</strong>: Vargs have a base speed of 30 feet.</li><li><strong>Languages</strong>: Vargs begin play speaking Common and Lupin. Vargs with high Intelligence scores can choose from: Draconic, Dwarven, Elvaan, Galkan, Giant, Goblin, and Orc.</li></ul><h3>Defense Racial Traits</h3><ul><li><strong>Fearless</strong>: Vargs gain a +2 racial bonus on all saving throws against fear effects.</li><li><strong>Natural Armor</strong>: Vargs have a +1 natural armor bonus.</li><li><strong>Lycanthropy Resistance</strong>: Vargs are immune to the curse of lycanthropy, and their natural attacks count as silver.</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Keen Senses</strong>: Vargs receive a +2 racial bonus on Perception checks.</li><li><strong>Wolf Empathy</strong>: Vargs receive a +4 racial bonus on Handle Animal and Diplomacy checks when dealing with wolves.</li></ul><h3>Offense Racial Traits</h3><ul><li><strong>Bite</strong>: Vargs gain a natural bite attack, dealing 1d4 points of damage.</li></ul><h3>Senses Racial Traits</h3><ul><li><strong>Darkvision</strong>: Vargs can see perfectly in the dark up to 60 feet.</li><li><strong>Scent</strong>: Vargs gain the scent ability.</li></ul><h3>Weakness Racial Traits</h3><ul><li><strong>Emotionless</strong>: Vargs receive a –2 penalty on Diplomacy checks when dealing with other races.</li></ul>"
+    },
+    "languages": [
+      "common"
+    ],
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "Base Races"
+      }
+    ],
+    "speeds": {
+      "land": 30
+    },
+    "tags": [
+      "Base"
+    ]
+  },
+  "type": "race",
+  "effects": [],
+  "_key": "!items!9Lk4dUyI218J27rM"
+}

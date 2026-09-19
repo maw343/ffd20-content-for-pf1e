@@ -1,0 +1,58 @@
+{
+  "_id": "3RkxrO3XKYP4oQph",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Time Wizard (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 20th level, the ultimate expression of the time mage's power is the ability to eliminate time and age from his personal time line. The time mage no longer ages physically, preventing him from dying of age or suffering any reduction to his ability scores due to age. If he is older than middle age for his race he reverts to a physical form at the prime of his health, gaining back any Strength, Dexterity, or Constitution lost due to aging. He is now immune to age effects. Additionally, the time mage's daily pool of aevum increases by an amount equal to his Intelligence modifier, and spending aevum now counts as a move action (unless a power specifies otherwise). The time mage can spend a maximum of two aevum in a single round. In addition, when the time mage regains his MP and abilities for the day, he can also re-assign his skill points, feats, and spells known as he wishes. The time mage must meet the prerequisites for any new feats he selects, and he cannot change out a feat he is using as a prerequisite for other feats or abilities. The new selection of skill point allotment, feats, and spells known is instant, remaining until the time mage changes them again with this ability.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "time_wizard_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Time Mage"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Time Mage",
+          20
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!3RkxrO3XKYP4oQph"
+}

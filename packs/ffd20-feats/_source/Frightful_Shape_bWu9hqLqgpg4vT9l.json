@@ -1,0 +1,50 @@
+{
+  "_id": "bWu9hqLqgpg4vT9l",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Frightful Shape",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Con 19, beast shape class feature</p><p><strong>Benefit:</strong> Attacking while in beast shape can frighten opponents within 30 feet (Will DC 10 + half character level + Cha mod). Failure causes shaken (or panicked if 4 HD or fewer) for a number of rounds equal to your character level; success grants 24-hour immunity. Mind-affecting fear effect.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "classFeat",
+    "tag": "frightful_shape",
+    "requirements": "Con 19, beast shape class feature",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-ClassFeats",
+        "pages": "Class Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!bWu9hqLqgpg4vT9l"
+}

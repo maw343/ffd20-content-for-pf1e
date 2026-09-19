@@ -1,0 +1,67 @@
+{
+  "_id": "c316d3de799107fd",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Euphoric Tranquility",
+  "system": {
+    "actions": [
+      {
+        "_id": "8088be41c97f3440",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "none and Will partial (see below)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "A creature under the effect of this illusion enters a state of euphoria",
+      "value": "<p>A creature under the effect of this illusion enters a state of euphoria. The target treats all creatures as dear friends and abhors violence, but may rise up to protect itself if violence is perpetrated against it. Until the end of the spell’s duration, the creature’s speed is halved, and it cannot make attacks or cast spells. If the creature is attacked, it gets a Will Saving Throw. If the Saving Throw succeeds, the creature can make act normally for 1 round. If the Saving Throw fails, the creature moves half its speed away from the attacker as its next action. Furthermore, if the creature is interacted with, or questioned while under the effects of this spell, it is considered to have an attitude of Helpful (see Table: Starting Attitudes and Diplomacy DC’s to Modify below or see the full Diplomacy skill details for more information), though any advice or answers it gives may be disjointed or stream of consciousness due to its euphoric state. Table: Starting Attitudes and Diplomacy DC’s to Modify Starting Attitude Diplomacy DC Hostile 25 + creature’s Cha Modifier Unfriendly 20 + creature’s Cha Modifier Indifferent 15 + creature’s Cha Modifier Friendly 10 + creature’s Cha Modifier Helpful 0 + creature’s Cha Modifier</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 8
+      }
+    },
+    "level": 8,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!c316d3de799107fd"
+}

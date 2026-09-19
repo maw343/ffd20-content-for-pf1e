@@ -1,0 +1,77 @@
+{
+  "_id": "a06f1bcfc91e488c",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Black Hole",
+  "system": {
+    "actions": [
+      {
+        "_id": "44a80d24075ffcf1",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "area": "20-ft.-radius emanation",
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "6d6",
+              "types": [
+                "bludgeoning"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex partial (see below); (object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Creatures and objects within the spell’s radius are staggered, cannot move in any direction except towards the center of the spell and ar...",
+      "value": "<p>Creatures and objects within the spell’s radius are staggered, cannot move in any direction except towards the center of the spell and are slowly pulled to a single point in the center of the spell’s area. Each creature that enters or begins its turn in the spell’s area must save until it is crushed in the center of the hole or it escapes the radius. Each creature who fails the save takes 6d6 points of bludgeoning damage and moves 5 feet closer to the center of the spell’s area. On a successful save, a creature can move 5 feet away from the spell’s center as a move action . A creature that begins its turn at the spell’s center and fails the save takes double damage from the spell. A creature that dies while within the spell’s area is crushed by the black hole’s gravity and vanishes, utterly destroyed in the void. Creatures in the affected area add their size bonus or penalty to CMD on saves against black hole. Each creature that enters or begins its turn in the black hole must save until it is crushed in the center of the hole or it escapes the radius. The black hole distorts space so that creatures inside the area of effect can move through or share spaces without penalty. All ranged attack rolls into the black hole suffer a –10 penalty to hit. Ranged attack rolls out of the black hole with corporeal weapons miss automatically.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 9,
+        "timemage": 9
+      }
+    },
+    "level": 9,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a06f1bcfc91e488c"
+}

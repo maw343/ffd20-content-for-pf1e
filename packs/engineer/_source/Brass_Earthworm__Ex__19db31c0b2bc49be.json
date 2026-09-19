@@ -1,0 +1,61 @@
+{
+  "_id": "19db31c0b2bc49be",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785718761456,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Brass Earthworm (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> —</p><p>When at rest, the brass earthworm appears to be a heavy brass cylinder roughly the size of a small log. When activated as a full-round action, the earth worm can be set to a specific mode and dropped on the ground, where it will expand to a flexible tube lined with treads and a large drill head that completes one of the following projects in 30 seconds. The brass earthworm requires 2 flasks of oil to power its engine for one run. Refueling it costs 2 full-round actions. If used in combat, the earthworm has a burrow speed of 20 feet and cannot attack. The brass earthworm has hardness 5, 10 AC, and 30 hit points. It weighs 50 pounds.<br><br><strong>Moat:</strong> The earthworm rushes in circles around the engineer, up to 40 feet away but no less than 10 feet away, creating a circular moat that is 10 feet deep.<br><strong>Trench:</strong> The earthworm rushes back and forth in the direction it is set, creating a ditch roughly 30 feet long and 10 feet deep.<br><strong>Tunnel:</strong> The brass earthworm burrows 100 feet in the direction it is set, leaving a tunnel behind it, 3 feet in diameter.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "brassearthwormex",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Engineer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Engineer Tricks - Gadgets"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!19db31c0b2bc49be"
+}

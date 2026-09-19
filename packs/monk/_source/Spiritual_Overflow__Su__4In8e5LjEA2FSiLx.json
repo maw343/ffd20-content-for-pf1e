@@ -1,0 +1,27 @@
+{
+  "_id": "4In8e5LjEA2FSiLx",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Spiritual Overflow (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Soul Spiral blitz technique</p><p>Overflow your lifeforce to reach allies in need. When utilizing your Soul Spiral blitz technique, you may sacrifice an additional amount of hit points to increase its range. This range increase is equal to an additional 5 feet per 5 additional hit points sacrificed. When used in this way, these additional sacrificed hit points do not heal your allies.</p>"
+    },
+    "tag": "spiritualoverflow",
+    "source": "Final Fantasy d20 - Monk Talents",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!4In8e5LjEA2FSiLx"
+}

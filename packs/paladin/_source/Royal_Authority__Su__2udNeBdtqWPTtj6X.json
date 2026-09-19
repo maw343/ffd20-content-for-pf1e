@@ -1,0 +1,50 @@
+{
+  "_id": "2udNeBdtqWPTtj6X",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Royal Authority (Su)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Cost:</strong> 1 holy pool point</p><p><strong>Benefit:</strong> As a standard action, the paladin can make her authority known. She selects an enemy within 50 feet, the target must make a Will save (DC 10 + half of the paladin's level + her Charisma modifier) or be compelled to surrender to the paladin, to lay down arms and give up the fight for a duration of 1 minute per paladin level. An enemy that succumbs to this ability remains docile until it is injured by the paladin or one of her obvious allies, at which point the compulsion to surrender immediately ends and the enemy is free to make his own choices again. If the enemy makes the save, it is not subject to this ability for 24 hours.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "divineArt",
+    "tag": "royal_authority_su",
+    "requirements": "Divine Arts class feature",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-PaladinClass",
+        "pages": "Divine Arts"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!2udNeBdtqWPTtj6X"
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "0dqiQLWGd0Cbv3RH",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Dragon Roar",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Str 15, Improved Unarmed Strike, Dragon Style, Stunning Fist, Acrobatics 8 ranks</p><p><strong>Benefit:</strong> You gain one additional Stunning Fist attempt per day. While using Dragon Style, as a standard action you can expend two Stunning Fist attempts to unleash a concussive roar in a 15-foot cone. Creatures caught in the cone take your unarmed strike damage and become shaken for 1d4 rounds. A successful Will save reduces the damage by half and prevents a target from being shaken.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "style",
+    "tag": "dragon_roar",
+    "requirements": "Str 15, Improved Unarmed Strike, Dragon Style, Stunning Fist, Acrobatics 8 ranks",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-StyleFeats",
+        "pages": "Style Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!0dqiQLWGd0Cbv3RH"
+}

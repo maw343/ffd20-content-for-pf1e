@@ -1,0 +1,78 @@
+{
+  "_id": "be7cd24513b2c09e",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Blind Needles",
+  "system": {
+    "actions": [
+      {
+        "_id": "ddfcabaca28e1ffd",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous/1d6 rounds"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "6d4",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates shooting out a white needles from their fingertip like a Killer Bee towards the opponent",
+      "value": "<p>The caster emulates shooting out a white needles from their fingertip like a Killer Bee towards the opponent. The caster must make a range touch attack, and if it hits, the target takes 6d4 points of non-elemental damage and must make a Fortitude save or be inflicted with the Blind status effect. Learned From Wasp Family</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 3
+      }
+    },
+    "level": 3,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!be7cd24513b2c09e"
+}

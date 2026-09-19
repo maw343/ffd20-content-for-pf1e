@@ -1,0 +1,50 @@
+{
+  "_id": "is9VZx035CDt0ZIq",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Circle of Scorn (Su)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Cost:</strong> 1 holy pool point</p><p><strong>Benefit:</strong> The paladin plunges her weapon into the ground causing beams of piercing light to erupt around her in a 30-ft.-radius dealing 1d6 points of holy damage + an additional 1d6 per two paladin levels to all enemies within. A successful Reflex save (DC 10 + half of the paladin's level + her Charisma modifier) halves the damage. Evil creatures who fail the save take additional points of holy damage equal to the paladin's Charisma modifier every round for 3 rounds after.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "divineArt",
+    "tag": "circle_of_scorn_su",
+    "requirements": "Divine Arts class feature",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-PaladinClass",
+        "pages": "Divine Arts"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!is9VZx035CDt0ZIq"
+}

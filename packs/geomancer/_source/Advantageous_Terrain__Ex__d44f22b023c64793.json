@@ -1,0 +1,61 @@
+{
+  "_id": "d44f22b023c64793",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785719681669,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Advantageous Terrain (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> —</p><p>When a geomancer with this trick is within one of her favored terrains, she can spend up to 3 consecutive rounds studying an area of terrain to gain the benefits below. Each round of studying terrain is a standard action. During the first round of studying terrain, the geomancer designates a 60-foot-radius-burst area from a single square within line of sight. Depending on how many rounds the geomancer spends studying the area, she or her allies gain the following benefits for 10 minutes per geomancer level she possesses. • 1st Round: Allies within line of sight and that can hear the geomancer gain a +2 bonus on initiative checks while within the advantageous terrain area. • 2nd Round: Allies within line of sight and that can hear the geomancer gain a +2 on Perception, Stealth, and Survival checks while within the advantageous terrain area. • 3rd Round: The geomancer's movement is not hampered by difficult terrain while within the advantageous terrain area. Furthermore, the geomancer can take 10 on Climb and Swim checks and checks to jump while within the area, even when in immediate danger or distracted.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "advantageousterrainex",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Geomancer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Geomancy Tricks"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!d44f22b023c64793"
+}

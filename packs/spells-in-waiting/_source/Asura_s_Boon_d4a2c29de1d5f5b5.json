@@ -1,0 +1,69 @@
+{
+  "_id": "d4a2c29de1d5f5b5",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Asura’s Boon",
+  "system": {
+    "actions": [
+      {
+        "_id": "06d5f999425c030e",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature/2 levels (maximum of 5)"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; see text"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You call forth Asura, the six-armed Queen of the Avatars with three faces – anger, benevolence, and joy",
+      "value": "<p>You call forth Asura, the six-armed Queen of the Avatars with three faces – anger, benevolence, and joy. Roll a d6. 1-2, the Queen shows an angry face and casts Protect II spell on each creature. 3-4, the Queen shows a pleased face and casts Raise spell on each creature. 5-6, the Queen shows a happy face and casts Cure II spell on each creature. Asura uses your casting modifier and spell level for any of the spells.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "summoner": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d4a2c29de1d5f5b5"
+}

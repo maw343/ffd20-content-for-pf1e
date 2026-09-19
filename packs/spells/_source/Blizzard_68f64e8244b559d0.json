@@ -1,0 +1,84 @@
+{
+  "_id": "68f64e8244b559d0",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Blizzard",
+  "system": {
+    "actions": [
+      {
+        "_id": "05f517d077ee13be",
+        "name": "Use",
+        "actionType": "rsak",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "ability": {
+          "attack": "dex",
+          "critMult": 2,
+          "critRange": 20
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d6 + @spells.primary.abilityMod + min(@spells.primary.cl.total,5)",
+              "types": [
+                "cold"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude partial ( object )"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You direct a blast of ice at your opponent.",
+      "value": "<p>You direct a blast of ice at your opponent. Requires a ranged touch attack roll to hit that deals 1d6 points of ice damage + your casting modifier (Intelligence, Wisdom, or Charisma) + 1 point per caster level (maximum +5) and inflicts the Frozen status effect for 1d4 rounds. A successful Fortitude save prevents the status effect from taking effect.</p>"
+    },
+    "descriptors": [
+      "ice"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 1,
+        "necromancer": 1,
+        "redmage": 1
+      }
+    },
+    "level": 1,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!68f64e8244b559d0"
+}

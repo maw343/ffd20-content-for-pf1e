@@ -1,0 +1,61 @@
+{
+  "_id": "06805235bada6354",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Guiding Star",
+  "system": {
+    "actions": [
+      {
+        "_id": "dba624fe133d573b",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 day/level  DESCRIPTION You form a bond with your surroundings when you cast this spell. For the remaining duration of the spell you can always, as a standard action , determine your approximate distance from that area as well as the direction you must travel in order to reach it. You cannot determine the location of the area if you are on a different plane. The area counts as “very familiar” for the purposes of teleport or similar spells. You can only attune yourself to one location at a time. If you cast the spell at another spot you lose the ability to locate your original area."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You form a bond with your surroundings when you cast this spell",
+      "value": "<p>You form a bond with your surroundings when you cast this spell. For the remaining duration of the spell you can always, as a standard action , determine your approximate distance from that area as well as the direction you must travel in order to reach it. You cannot determine the location of the area if you are on a different plane. The area counts as “very familiar” for the purposes of teleport or similar spells. You can only attune yourself to one location at a time. If you cast the spell at another spot you lose the ability to locate your original area.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 2
+      }
+    },
+    "level": 2,
+    "school": "div",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!06805235bada6354"
+}

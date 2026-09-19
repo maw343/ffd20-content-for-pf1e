@@ -1,0 +1,78 @@
+{
+  "_id": "30ba862770d46d02",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Ice Body",
+  "system": {
+    "actions": [
+      {
+        "_id": "959d947976ab7a73",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d6",
+              "types": [
+                "cold"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Your form transmutes into living ice, granting you several abilities",
+      "value": "<p>Your form transmutes into living ice, granting you several abilities. You gain the ice subtype and damage reduction 5/magic. You are immune to ability score damage, blindness, critical hits, deafness, disease, drowning, poison, stunning, and all spells or attacks that affect your physiology or respiration, because you have no physiology or respiration while this spell is in effect. You cannot drink (and thus can’t use potions) or play wind instruments. Your unarmed attack deals damage equal to a club sized for you (1d4 for Small characters or 1d6 for Medium characters) plus 1d6 points of ice damage and inflicts the Frozen status effect. You are considered armed when making unarmed attacks. You may burrow through non-magical ice or snow at your base speed as easily as a fish swims through water. You can move through magical ice and snow if you succeed on a caster level check (1d20 + caster level) against a DC of 11 + the caster level of the effect; you automatically succeed on caster level checks against effects that you created. Your passage through snow and ice in this fashion leaves behind no tunnel or hole.</p>"
+    },
+    "descriptors": [
+      "wind",
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 7,
+        "whitemage": 7,
+        "geomancer": 7
+      }
+    },
+    "level": 7,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!30ba862770d46d02"
+}

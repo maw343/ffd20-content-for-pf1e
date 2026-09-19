@@ -1,0 +1,62 @@
+{
+  "_id": "06ba7e6913f8ee33",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Time Slip",
+  "system": {
+    "actions": [
+      {
+        "_id": "12ba1261154ff0c8",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates Psycheflayer clock rotating and engulfing his target into a deep slumber",
+      "value": "<p>The caster emulates Psycheflayer clock rotating and engulfing his target into a deep slumber. The victim of this effect is aged 5d4 years in the blink of an eye with a Fortitude save to resist the effects. If the victim fails the Fortitude save, he must make a Will save or he falls into a magical slumber, can only be woken with a standard action . The target of this spell must have a HD equal to or less than the caster’s caster level + caster modifier to be affected by this spell. This is a mind-affecting spell. Learned From Soulflayer Family and Gilgamesh</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 7
+      }
+    },
+    "level": 7,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!06ba7e6913f8ee33"
+}

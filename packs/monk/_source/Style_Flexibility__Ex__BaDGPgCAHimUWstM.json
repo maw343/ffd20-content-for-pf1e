@@ -1,0 +1,27 @@
+{
+  "_id": "BaDGPgCAHimUWstM",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_12.jpg",
+  "name": "Style Flexibility (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 4th level, the monk gains the ability to deeply contemplate and refine his combat techniques, enhancing his adaptability in battle. This grants him a style feat slot which can be filled, or substituted, with a chosen style feat or a combat feat that lists a style feat as a prerequisite. Filling or substituting feats within any number of style feat slots requires one hour of uninterrupted meditation. The monk must meet all prerequisites for the chosen feat.</p><p>The monk gains an additional style feat slot at 9th and 14th levels.</p>"
+    },
+    "tag": "styleflexibility",
+    "source": "Final Fantasy d20 - Monk",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          4
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!BaDGPgCAHimUWstM"
+}

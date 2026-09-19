@@ -1,0 +1,27 @@
+{
+  "_id": "nlWooa8SFJOVkISy",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Limit Breaks (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 1st level, the red mage receives the Limit Breaks (Dual Spellcasting and Flexibility).</p><p><em>Dual Spellcasting (Su):</em> Allows the red mage to cast 1 healing spell and 1 damaging spell with the same standard action for a duration of 1 round + 1 round per four red mage levels after 1st. MP must be paid for both spells, and both must have a casting time of 1 standard action. Requires only a swift action.</p><p><em>Flexibility (Su):</em> Allows the red mage to change his current HP total and current MP total on the fly. Once per round as a free action, for a duration of 1 round + 1 round per four red mage levels after 1st, the red mage can swap points from HP to MP or MP to HP on a 3 to 1 basis (3 HP to 1 MP), never below 1 hit point. Requires only a swift action.</p>"
+    },
+    "tag": "limitbreaks",
+    "source": "Final Fantasy d20 - Red Mage",
+    "associations": {
+      "classes": [
+        [
+          "Red Mage",
+          1
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!nlWooa8SFJOVkISy"
+}

@@ -1,0 +1,55 @@
+{
+  "_id": "bf6390eaceeed9ee",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Summon Undead V",
+  "system": {
+    "actions": [
+      {
+        "_id": "6f98d2693814d0d0",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Summon Undead I , except that you can summon a creature of the undead type with a CR rating of 6 or lower, 1d3 ...",
+      "value": "<p>This spell functions like Summon Undead I , except that you can summon a creature of the undead type with a CR rating of 6 or lower, 1d3 4th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!bf6390eaceeed9ee"
+}

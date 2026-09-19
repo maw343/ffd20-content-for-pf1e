@@ -1,0 +1,58 @@
+{
+  "_id": "wCiNQS75NxjS55JW",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Bone Commander (Su)",
+  "system": {
+    "description": {
+      "value": "<p>The necromancer develops a strong connection to the mystic powers of death and learns to walk a path between the living and the dead. He begins play with a bone commander of his choice: Warrior, Rogue, Sniper, or Wizard. This bone commander is a loyal companion that accompanies the necromancer on his adventures and can communicate in common with a raspy voice. It takes a full-round action to summon a bone commander. If the necromancer dies (his bone commander is destroyed if he does) or his bone commander is destroyed, the necromancer must perform a necromantic ritual that requires 8 hours of uninterrupted concentration and costs 100 gil per necromancer level in material components to summon a new bone commander. The bone commander advances using the Bone Commander Base Statistics table, gaining Undead Traits, Armor/Weapon Proficiency, Shared Spells, and Link at 1st level, Evasion at 3rd, Ability Score Increase and Magic Attacks at 4th, and further Ability Score Increases at 9th and 14th and 20th level, plus Improved Evasion at 15th level.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "bone_commander_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Necromancer"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Necromancer",
+          1
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!wCiNQS75NxjS55JW"
+}

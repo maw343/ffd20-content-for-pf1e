@@ -1,0 +1,62 @@
+{
+  "_id": "b9cd74da79f03184",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Suspend Life",
+  "system": {
+    "actions": [
+      {
+        "_id": "061ef2e82ffd7ec6",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "perm",
+          "value": "permanent unless ended or dismissed; see text DESCRIPTION You can place yourself into suspended animation. Even spells and class features that detect life are incapable of determining that you are alive. While you are suspended, you are aware of your surroundings. You feel the passage of one day for every year that actually passes. Though on a slower schedule, you grow hungry after a “day” without food (though a year passes in actuality) and begin to suffer the effects of thirst and starvation as appropriate. Time-based physical effects like aging are similarly slowed down, although durations of spells and similar effects are treated normally. If you take any damage, you come out of your suspended animation 4 rounds later. The suspended animation can also be ended by a successful use of the dispel spell. If you choose to dismiss the spell, your suspended animation ends 10 rounds later."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You can place yourself into suspended animation",
+      "value": "<p>You can place yourself into suspended animation. Even spells and class features that detect life are incapable of determining that you are alive. While you are suspended, you are aware of your surroundings. You feel the passage of one day for every year that actually passes. Though on a slower schedule, you grow hungry after a “day” without food (though a year passes in actuality) and begin to suffer the effects of thirst and starvation as appropriate. Time-based physical effects like aging are similarly slowed down, although durations of spells and similar effects are treated normally. If you take any damage, you come out of your suspended animation 4 rounds later. The suspended animation can also be ended by a successful use of the dispel spell. If you choose to dismiss the spell, your suspended animation ends 10 rounds later.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "necromancer": 8,
+        "timemage": 6
+      }
+    },
+    "level": 6,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!b9cd74da79f03184"
+}

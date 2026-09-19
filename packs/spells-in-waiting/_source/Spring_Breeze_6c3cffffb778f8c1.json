@@ -1,0 +1,66 @@
+{
+  "_id": "6c3cffffb778f8c1",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Spring Breeze",
+  "system": {
+    "actions": [
+      {
+        "_id": "683408c856a48c6e",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "creatures within a 30-ft.-radius centered on you",
+        "duration": {
+          "units": "spec",
+          "value": "1d6"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster can emulate a bluish-yellow, sleepy breeze from a treant that surrounds himself and all those creatures within 30-ft",
+      "value": "<p>The caster can emulate a bluish-yellow, sleepy breeze from a treant that surrounds himself and all those creatures within 30-ft.-radius. Creatures within the area of effect must make a Will save or be inflicted with Sleep status effect for 1d6 rounds. Learned From treant</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 3
+      }
+    },
+    "level": 3,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!6c3cffffb778f8c1"
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "EOcKza90ddUR3Igm",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Greater Armor Specialization",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> BAB +8, Armor Focus, Armor Specialization, Greater Armor Focus</p><p><strong>Benefit:</strong> When wearing armor in the weight class selected for Greater Armor Focus, the damage reduction from Armor Specialization increases to DR 3/-. This stacks with any other damage reduction of the same type, such as the armor being made of adamantine, or that granted by class abilities or racial traits. Also, whenever an enemy makes a critical threat, your AC is treated as 4 points higher when rolling to confirm.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "combat",
+    "tag": "greater_armor_specializa",
+    "requirements": "BAB +8, Armor Focus, Armor Specialization, Greater Armor Focus",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CombatFeats",
+        "pages": "Combat Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!EOcKza90ddUR3Igm"
+}

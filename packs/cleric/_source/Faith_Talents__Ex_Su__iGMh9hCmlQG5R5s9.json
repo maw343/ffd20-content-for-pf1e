@@ -1,0 +1,74 @@
+{
+  "_id": "iGMh9hCmlQG5R5s9",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Faith Talents (Ex/Su)",
+  "system": {
+    "description": {
+      "value": "<p>As a cleric gains experience, he learns a number of talents that assist him in manipulating spells and maintaining faith. At 2nd level and every two levels thereafter (through 10th level), a cleric gains one faith talent. A cleric cannot select an individual talent more than once. Talents marked with an asterisk (*) add effects to a cleric's spellcasting ability; only one such talent can be applied to an individual spell, and the decision must be made before the spell is cast.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "faith_talents_ex-su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Cleric"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Cleric",
+          2
+        ],
+        [
+          "Cleric",
+          4
+        ],
+        [
+          "Cleric",
+          6
+        ],
+        [
+          "Cleric",
+          8
+        ],
+        [
+          "Cleric",
+          10
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!iGMh9hCmlQG5R5s9"
+}

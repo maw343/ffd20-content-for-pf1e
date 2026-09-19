@@ -1,0 +1,58 @@
+{
+  "_id": "erLfl8u4kzUhqYF4",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Victor's Rally (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>At 15th level, the sight of chocobo knight's triumph can inspire his allies to greatness. When a chocobo knight reduces a creature to 0 or fewer hit points, the chocobo knight can select an ally (other than themselves or his mount) within the radius of his commander's aura, allowing that ally to either immediately make an attack with a weapon they're wielding or move up to their movement speed (this movement does not provoke attacks of opportunity). Reducing a creature with fewer HD than half the chocobo knight's level does not activate this effect, and an ally can only be affected by this class feature once every five minutes.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "victors_rally_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Chocobo Knight"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Chocobo Knight",
+          15
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!erLfl8u4kzUhqYF4"
+}

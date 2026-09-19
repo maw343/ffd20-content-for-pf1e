@@ -1,0 +1,82 @@
+{
+  "_id": "78c01e397baf77ba",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Speak No Evil",
+  "system": {
+    "actions": [
+      {
+        "_id": "96147feab8bca6bb",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "rsak",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1d4 rounds"
+        },
+        "ability": {
+          "attack": "dex",
+          "critMult": 2,
+          "critRange": 20
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "5d6",
+              "types": [
+                "negative"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "will",
+          "description": "Will partial"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates Anima’s ability to cause her foe to be silent",
+      "value": "<p>The caster emulates Anima’s ability to cause her foe to be silent. The caster can make a ranged touch attack, hitting a foe up to 30 feet away. The target takes 5d6 points of shadow damage and the target must make a Will save or be inflicted with Silence status effect for 1d4 rounds. Learned From Anima and Shadow Elemental Family</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 3
+      }
+    },
+    "level": 3,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!78c01e397baf77ba"
+}

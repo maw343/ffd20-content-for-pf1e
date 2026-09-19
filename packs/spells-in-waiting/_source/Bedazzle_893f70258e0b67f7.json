@@ -1,0 +1,66 @@
+{
+  "_id": "893f70258e0b67f7",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Bedazzle",
+  "system": {
+    "actions": [
+      {
+        "_id": "1801158d9623f86f",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "30-ft.-radius spread, centered on caster",
+        "duration": {
+          "units": "round",
+          "value": "1d6 rounds"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the hypnotic twirl and coy hum of the flan princess",
+      "value": "<p>The caster emulates the hypnotic twirl and coy hum of the flan princess. All creatures within the area of effect must make a Will save for each effect to negate are inflicted with the Charm (this spell functions exactly like Charm ) and Confuse status effects for 1d6 rounds. Learned From flan princess and Succubus Family</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 5
+      }
+    },
+    "level": 5,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!893f70258e0b67f7"
+}

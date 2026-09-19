@@ -1,0 +1,61 @@
+{
+  "_id": "d773ed083058d630",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Darkvision, Communal",
+  "system": {
+    "actions": [
+      {
+        "_id": "4b944d37f41f945c",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "creatures touched DESCRIPTION This spell functions like darkvision , except you may divide the duration in 1-hour intervals among the creatures touched."
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like darkvision , except you may divide the duration in 1-hour intervals among the creatures touched",
+      "value": "<p>This spell functions like darkvision , except you may divide the duration in 1-hour intervals among the creatures touched.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 3,
+        "darkknight": 2
+      }
+    },
+    "level": 2,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d773ed083058d630"
+}

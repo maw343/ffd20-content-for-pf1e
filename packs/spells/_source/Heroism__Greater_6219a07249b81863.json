@@ -1,0 +1,58 @@
+{
+  "_id": "6219a07249b81863",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Heroism, Greater",
+  "system": {
+    "actions": [
+      {
+        "_id": "61445fb9e402b317",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like heroism , except the creature gains a +4 morale bonus on attack rolls, saves, and skill checks, immunity to fear effects, and temporary hit points equal to your caster level (maximum 20).",
+      "value": "<p>This spell functions like\nheroism\n, except the creature gains a +4\nmorale bonus\non attack rolls, saves, and skill checks, immunity to fear effects, and\ntemporary hit points\nequal to your caster level (maximum 20).</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "compulsion",
+      "mind-affecting"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!6219a07249b81863"
+}

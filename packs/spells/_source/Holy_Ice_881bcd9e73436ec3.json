@@ -1,0 +1,72 @@
+{
+  "_id": "881bcd9e73436ec3",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Holy Ice",
+  "system": {
+    "actions": [
+      {
+        "_id": "773efafbe360f569",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "wall of ice or flying ice javelins (see text)"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell creates a large mass of frozen holy water that can be used for one of two effects.",
+      "value": "<p>This spell creates a large mass of frozen holy water that can be used for one of two effects.\nHoly Ice Wall: This functions like wall of ice (hemisphere or plane). Any creature that touches or attacks the ice wall with melee attacks takes 1 point of holy damage; extended contact with the wall (such as standing or walking on it) deals 1d6 points of holy damage. Even when the ice has been broken through, a sheet of frigid holy air remains. Any creature that steps through it (including the one who broke through the wall) takes 1d6 points of damage + 1 point per caster level (no save); half of this damage is ice damage and the other half is holy damage.\nHoly Ice Javelins: The spell creates a number of javelins of frozen holy water in your square equal to half your caster level (max of 10), which hurl themselves toward one or more targets that are no more than 10 feet away from each other. These javelins are hurled all at once, you must select all your targets before hurling them. You must succeed on ranged attack rolls (one per javelin) against normal AC to hit the target with the javelin, using your\nbase attack bonus\n+ your\nWisdom\nmodifier to hit. The javelins deal 1d6 points of ice damage each, plus 1 point of holy damage per caster level (max of 15). The javelins are destroyed by this attack whether they hit or miss.</p>"
+    },
+    "descriptors": [
+      "ice"
+    ],
+    "learnedAt": {
+      "class": {
+        "whitemage": 5
+      }
+    },
+    "level": 5,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!881bcd9e73436ec3"
+}

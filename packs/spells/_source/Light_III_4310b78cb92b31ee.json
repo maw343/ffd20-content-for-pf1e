@@ -1,0 +1,80 @@
+{
+  "_id": "4310b78cb92b31ee",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Light III",
+  "system": {
+    "actions": [
+      {
+        "_id": "d92c57deec9bbfa7",
+        "name": "Use",
+        "actionType": "rsak",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "ability": {
+          "attack": "dex",
+          "critMult": 2,
+          "critRange": 20
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "5d6 + @spells.primary.abilityMod + min(@spells.primary.cl.total, 15)",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude partial (object) — see below"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You direct a blast of holy energy at your opponent.",
+      "value": "<p>You direct a blast of holy energy at your opponent. Requires a ranged touch attack roll to hit that deals 5d6 points of holy damage + your Wisdom modifier + 1 point per caster level (maximum +15) and inflicts the\nIlluminated\nstatus effect for 1d8 rounds. A successful Fortitude save prevents the status effect from taking effect.\nIlluminated: An illuminated creature shines brightly, allowing others to see them clearly. The creature sheds normal light in a 5-foot radius from themselves, and increase the light level for an additional 5 feet by one step, up to normal light (darkness becomes dim light, and dim light becomes normal light), illuminated creatures take a -20 penalty on all Stealth checks. Due to the shining beacon of light, creatures attacking an illuminated target receive a circumstance bonus to attack rolls equal to 1/2 the spell level of the spell that inflicted the illuminated status (\nLight III\ngrants +1 attack) minimum 1. Dark spells and effects remove this status effect.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "whitemage": 3
+      }
+    },
+    "level": 3,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!4310b78cb92b31ee"
+}

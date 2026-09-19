@@ -1,0 +1,61 @@
+{
+  "_id": "g4ynkkPnjJQV7clO",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785712798690,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_35.jpg",
+  "name": "Invoke (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 6th level, the blue mage can invoke a creature to use its spell-like or supernatural ability. The blue mage must know what the creature possesses for abilities by using the scan ability. If a creature has more than one ability, the blue mage can decide which one she wants the creature to use.<br><br>The creature gets a Will save (DC 10 + half of the blue mage's level + her Intelligence modifier) to negate this ability, if it fails, on its next turn, it will use its ability. This ability has a range of 60 feet and requires a move action which doesn't provoke attacks of opportunity. This is a mind-affecting effect.<br><br>At 12th level, the blue mage's ability to invoke a creature to use its abilities improves. The blue mage can use this ability as a swift action.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "invoke",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Blue Mage",
+          6
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Blue Mage"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!g4ynkkPnjJQV7clO"
+}

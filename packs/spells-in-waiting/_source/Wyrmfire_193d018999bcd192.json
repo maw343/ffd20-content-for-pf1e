@@ -1,0 +1,78 @@
+{
+  "_id": "193d018999bcd192",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Wyrmfire",
+  "system": {
+    "actions": [
+      {
+        "_id": "4e97080d17cdf734",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "cone-shaped burst",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1 round/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 10))d6",
+              "types": [
+                "fire"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You call forth Salamander, a fire-breathing lizard with an appetite for destruction that breathes fire upon your enemies within a 30-ft",
+      "value": "<p>You call forth Salamander, a fire-breathing lizard with an appetite for destruction that breathes fire upon your enemies within a 30-ft.-cone. Creatures within the area of effect take 1d6 points of fire damage per level (maximum 10d6) and are inflicted with the Burning status effect for 1 round per level, a Reflex save for half damage and negates the status effect.</p>"
+    },
+    "descriptors": [
+      "fire"
+    ],
+    "learnedAt": {
+      "class": {
+        "summoner": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!193d018999bcd192"
+}

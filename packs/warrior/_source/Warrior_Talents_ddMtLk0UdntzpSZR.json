@@ -1,0 +1,27 @@
+{
+  "_id": "ddMtLk0UdntzpSZR",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_12.jpg",
+  "name": "Warrior Talents",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>As a warrior gains experience, he learns a number of talents that aid him and confound his foes. Starting at 2nd level, the warrior gains one warrior talent. He gains an additional warrior talent for every 2 levels of warrior attained after 2nd level. Unless specified otherwise, a warrior cannot select an individual talent more than once. A complete list of warrior talents can be found in the Warrior Talents compendium.</p>"
+    },
+    "tag": "warriortalents",
+    "source": "Final Fantasy d20 - Warrior",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!ddMtLk0UdntzpSZR"
+}

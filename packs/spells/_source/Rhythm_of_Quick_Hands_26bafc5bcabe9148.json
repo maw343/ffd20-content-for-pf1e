@@ -1,0 +1,68 @@
+{
+  "_id": "26bafc5bcabe9148",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Rhythm of Quick Hands",
+  "system": {
+    "actions": [
+      {
+        "_id": "f1a89d1aa2868f13",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "up to four creatures, no two of which can be more than 30 ft. apart"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round",
+          "concentration": true
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Starting up a catchy tune with quick timing you cause a target to follow your rhythm.",
+      "value": "<p>Starting up a catchy tune with quick timing you cause a target to follow your rhythm. While under the effects of this song the targets gain use of the\nQuick Draw\nfeat and may also draw one alchemical item per round as a\nfree action\n.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bard": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!26bafc5bcabe9148"
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "qdUvSOmcQJQmWvPM",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Limit Breaks (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 1st level, the psychic receives the Limit Breaks (Foresight and Psychic Bomb). Foresight (Su): This Limit Break grants the psychic a powerful sixth sense in relation to herself. The psychic receives instantaneous warnings of impending danger or harm. For a duration of 1 round + 1 round per four psychic levels after 1st, the psychic can't be surprised or flat-footed. In addition, the limit break gives the psychic a general idea of what action the character might take to best protect herself and gives the psychic a +1 insight bonus to AC. This bonus improves by 1 per four psychic levels after 1st. This insight bonus is lost whenever the psychic would lose a Dexterity bonus to AC. This limit break requires only an immediate action and is usable outside of combat. Psychic Bomb (Su): This Limit Break allows the psychic to let off a powerful telekinetic explosion within 100 feet, in a 30-ft.-radius. Enemies within the area of effect take 2d6 points of non-elemental damage + an additional 2d6 damage per four psychic levels after 1st, a successful Reflex save (DC 10 + half of the psychic's level + her Intelligence modifier) halves the damage. In addition, enemies that fail the Reflex save are also dazed for 1 round.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "limit_breaks_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Psychic"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Psychic",
+          1
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!qdUvSOmcQJQmWvPM"
+}

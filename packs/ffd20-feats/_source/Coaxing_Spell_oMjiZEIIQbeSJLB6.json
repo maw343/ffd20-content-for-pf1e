@@ -1,0 +1,50 @@
+{
+  "_id": "oMjiZEIIQbeSJLB6",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Coaxing Spell",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Spell Focus (enfeebling), Knowledge (dungeoneering) 6 ranks</p><p><strong>MP Increase:</strong> +2</p><p><strong>Benefit:</strong> This feat only works with mind-affecting spells. A coaxing spell affects mindless oozes and vermin as if they weren't mindless, but has no effect on other creature types.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "metamagic",
+    "tag": "coaxing_spell",
+    "requirements": "Spell Focus (enfeebling), Knowledge (dungeoneering) 6 ranks",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-MetamagicFeats",
+        "pages": "Metamagic Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!oMjiZEIIQbeSJLB6"
+}

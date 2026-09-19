@@ -1,0 +1,27 @@
+{
+  "_id": "huhvoxu7R4tSMC1z",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_14.jpg",
+  "name": "Supreme Armorer (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>While wearing armor, the warrior adds one-quarter of his warrior level to its armor bonus, up to +5. This does not increase the armor's base bonus (for purposes of other abilities).</p>"
+    },
+    "tag": "supremearmorer",
+    "source": "Final Fantasy d20 - Advanced Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          12
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!huhvoxu7R4tSMC1z"
+}

@@ -1,0 +1,78 @@
+{
+  "_id": "eBEEshPJhkcHjznl",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "folder": "RWSoA7Fj9yqo0y9U",
+  "img": "systems/pf1/icons/races/human.jpg",
+  "name": "Velkk",
+  "system": {
+    "changes": [
+      {
+        "formula": "2",
+        "target": "str",
+        "type": "racial",
+        "_id": "4cscau9h"
+      },
+      {
+        "formula": "2",
+        "target": "cha",
+        "type": "racial",
+        "_id": "8f2at0kf"
+      },
+      {
+        "formula": "-2",
+        "target": "int",
+        "type": "racial",
+        "_id": "p6eayr91"
+      },
+      {
+        "formula": "2",
+        "target": "skill.sur",
+        "type": "racial",
+        "_id": "iq7r2725"
+      }
+    ],
+    "contextNotes": [
+      {
+        "target": "allSavingThrows",
+        "text": "+[[2]] Racial vs Fear"
+      },
+      {
+        "target": "cmd",
+        "text": "+[[4]] Racial vs Bull Rush or Trip"
+      },
+      {
+        "target": "cl",
+        "text": "+[[2]] to overcome Spell Resistance"
+      }
+    ],
+    "creatureSubtypes": [
+      "velkk"
+    ],
+    "creatureTypes": [
+      "humanoid"
+    ],
+    "description": {
+      "value": "<p>The Velkk are one of Vana'diel's more formidable and distinct beastman tribes, lupine and bipedal, operating with a feral, pack-based mentality driven by primal aggression.</p><h2>Velkk Racial Traits</h2><ul><li><strong>Ability Score Modifiers</strong>: Velkks gain +2 Strength, +2 Charisma and -2 Intelligence.</li><li><strong>Size</strong>: Velkks are Medium creatures.</li><li><strong>Type</strong>: Velkks are humanoids with the velkk subtype.</li><li><strong>Base Speed</strong>: Velkks have a base speed of 30 feet.</li><li><strong>Languages</strong>: Common and Velkk. Velkks with high Intelligence scores can choose from Antican, Elvaan, Goblin, Kobold, Mithran, Vieran, and Yagudo.</li></ul><h3>Defense Racial Traits</h3><ul><li><strong>Fearless</strong>: Velkks gain a +2 racial bonus on all saving throws against fear effects.</li><li><strong>Stability</strong>: Velkks receive a +4 bonus to CMD when resisting a bull rush or trip attempt while standing on the ground.</li><li><strong>Water Resistant</strong>: Velkks gain Water Resistance 5.</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Survivalist</strong>: Velkks gain a +2 racial bonus on all Survival skill checks.</li></ul><h3>Magical Racial Traits</h3><ul><li><strong>Affinity for Magic</strong>: Velkks gain a +2 racial bonus on caster level checks made to overcome spell resistance and a +2 racial bonus on dispel checks.</li></ul><h3>Senses Racial Traits</h3><ul><li><strong>Darkvision</strong>: Velkks can see perfectly in the dark up to 60 feet.</li><li><strong>Low-Light Vision</strong>: Velkks can see twice as far as a hume in dim light.</li><li><strong>Scent</strong>: Velkks gain the scent ability.</li></ul>"
+    },
+    "languages": [
+      "common"
+    ],
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "Beastman Tribes"
+      }
+    ],
+    "speeds": {
+      "land": 30
+    },
+    "tags": [
+      "Beastman"
+    ]
+  },
+  "type": "race",
+  "effects": [],
+  "_key": "!items!eBEEshPJhkcHjznl"
+}

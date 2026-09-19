@@ -1,0 +1,27 @@
+{
+  "_id": "tjhuVVlZZ4FTh8nk",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_12.jpg",
+  "name": "Limit Breaks (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 1st level, the warrior receives the Limit Breaks (Critical Strikes and Omnistrike).</p><p><em>Critical Strikes (Su):</em> This Limit Break causes the warrior to focus on the weak spots and deadly parts of an enemy to deal the most damage. For a duration of 1 round + 1 round per four warrior levels after 1st, the warrior counts his first successful attack with his chosen weapon as a confirmed critical hit, every attack thereafter gains a +4 competence bonus on confirmation checks. This limit break requires only a swift action.</p><p><em>Omnistrike (Su):</em> This Limit Break hones the warrior's speed, increasing his number of attacks. For a duration of 1 round + 1 round per four warrior levels after 1st, during a full-attack with his chosen weapon, the warrior can make 1 additional attack at his highest BAB, another at -5 at 6th level, another at -10 at 11th level, and one last one at -15 at 16th level. These attacks are not doubled by any other effect but otherwise stack with haste and similar effects. This limit break requires only a swift action.</p>"
+    },
+    "tag": "limitbreaks",
+    "source": "Final Fantasy d20 - Warrior",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          1
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!tjhuVVlZZ4FTh8nk"
+}

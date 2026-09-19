@@ -1,0 +1,76 @@
+{
+  "_id": "2a785bc1d0200cf0",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Miasma",
+  "system": {
+    "actions": [
+      {
+        "_id": "e3e623091d40dfc1",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "cone-shaped burst",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous – see text"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "5d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half – see text"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster can the cie’th cocytus’s ability to belch forth a cloud of noxious mist",
+      "value": "<p>The caster can the cie’th cocytus’s ability to belch forth a cloud of noxious mist. This deals 5d6 non-elemental damage to all enemies in a 30-ft.-cone; a successful Reflex save halves this damage. All enemies within the area of effect that failed the Reflex save must make a series of saves to avoid each of the following effects: Disease (Fort), Silence (Will), Sap (Fort), and Slow (Will), all of which last for 1d8 rounds. Learned From cie’th cocytus, cie’th edimmu, cie’th pijavica, cie’th varcolaci</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 5
+      }
+    },
+    "level": 5,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!2a785bc1d0200cf0"
+}

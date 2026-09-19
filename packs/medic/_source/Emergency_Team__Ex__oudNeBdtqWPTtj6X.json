@@ -1,0 +1,58 @@
+{
+  "_id": "oudNeBdtqWPTtj6X",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Emergency Team (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>Also at 3rd level, the medic is skilled at working on and managing an emergency medical team. Allies automatically succeed on aid another attempts when assisting the medic with Heal checks.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "emergency_team_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Medic"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Medic",
+          3
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!oudNeBdtqWPTtj6X"
+}

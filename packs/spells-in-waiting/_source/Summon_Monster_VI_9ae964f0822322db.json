@@ -1,0 +1,65 @@
+{
+  "_id": "9ae964f0822322db",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Summon Monster VI",
+  "system": {
+    "actions": [
+      {
+        "_id": "885a997984a39562",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one summoned creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Table: Summon Monster VI Creature Subtype(s) Alphatusk* [(holy/shadow)] Dual Horn* [(holy/shadow)] Elemental (Huge) (Elemental, Extraplan...",
+      "value": "<p>Table: Summon Monster VI Creature Subtype(s) Alphatusk* [(holy/shadow)] Dual Horn* [(holy/shadow)] Elemental (Huge) (Elemental, Extraplanar) Groundpede* [(holy/shadow)] Halma* [(holy/shadow)] Steel Bat* (Avian, [holy/shadow]) Soulflayer (Devil, Extraplanar) Wolf Spider* [(holy/shadow)] This spell functions like Summon Monster I , except that you can summon one creature from the 6th-level list with a CR rating of 8 or lower, 1d3 creatures of the same kind from the 5th-level list , or 1d4+1 creatures of the same kind from the 4th-level or lower lists.</p>"
+    },
+    "descriptors": [
+      "evil"
+    ],
+    "learnedAt": {
+      "class": {
+        "summoner": 6
+      }
+    },
+    "level": 6,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!9ae964f0822322db"
+}

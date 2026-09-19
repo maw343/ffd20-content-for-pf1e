@@ -1,0 +1,54 @@
+{
+  "_id": "a21286837a4dabbe",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Deshell III",
+  "system": {
+    "actions": [
+      {
+        "_id": "9360ac0da57d649e",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like D eshell , except the target is inflicted with a -6 penalty to Saving Throws versus spells, spell-like abilities, and supernatural abilities for the duration of the spell.",
+      "value": "<p>This spell functions like\nD\neshell\n, except the target is inflicted with a -6 penalty to Saving Throws versus spells, spell-like abilities, and supernatural abilities for the duration of the spell.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a21286837a4dabbe"
+}

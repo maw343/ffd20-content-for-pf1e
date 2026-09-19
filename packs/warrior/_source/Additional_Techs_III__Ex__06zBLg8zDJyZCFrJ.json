@@ -1,0 +1,27 @@
+{
+  "_id": "06zBLg8zDJyZCFrJ",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_12.jpg",
+  "name": "Additional Techs III (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 7th level, the warrior can make use of the following warrior techniques:</p><ul><li><strong>Backswing (Ex):</strong> The warrior can initiate a backswing attack, as part of a full-round action, at the cost of 2 stamina. The warrior makes a full-attack with a weapon from his chosen weapon group, and adds double his Strength bonus on damage rolls for all attacks after the first with a two-handed weapon, 1 1/2 times his Strength bonus with a one-handed weapon, and full Strength bonus on all off-handed attacks. This ability doesn't stack with any other ability that applies a different ability score (or ability score as a different type) to damage, nor abilities that alter the calculation of your Strength bonus on damage.</li><li><strong>Beatdown (Ex):</strong> The warrior puts his full force behind a single attack, or one made within a full-attack, as a swift action that costs 1 stamina. If the attack hits, it deals double damage.</li><li><strong>Blitz (Ex):</strong> When the warrior hits an enemy with a melee attack, he may spend 1 stamina as a free action to perform an additional combat maneuver against the enemy struck. Blitz can only be used once per round. The warrior must have the \"improved\" feat for the combat maneuver he performs.</li></ul>"
+    },
+    "tag": "additionaltechsiii",
+    "source": "Final Fantasy d20 - Warrior",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          7
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!06zBLg8zDJyZCFrJ"
+}

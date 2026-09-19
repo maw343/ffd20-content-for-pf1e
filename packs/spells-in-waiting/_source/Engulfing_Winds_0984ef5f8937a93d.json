@@ -1,0 +1,80 @@
+{
+  "_id": "0984ef5f8937a93d",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Engulfing Winds",
+  "system": {
+    "actions": [
+      {
+        "_id": "a6ff97a0350692f9",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous/1d4 rounds"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "4d4",
+              "types": [
+                "wind"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude half (object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the enveloping winds of a hobgoblin",
+      "value": "<p>The caster emulates the enveloping winds of a hobgoblin. The target of this spell takes 4d4 points of wind damage and is inflicted with the Squalled status for 1d4 rounds. A successful Fortitude save reduces this damage by half and prevents the status effect from taking effect. Learned From Air Elemental, Minor Air Elemental, Griffon, Hatchling Green Dragon, Wyrmling Green Dragon, and Goblin Family</p>"
+    },
+    "descriptors": [
+      "wind"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 1
+      }
+    },
+    "level": 1,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!0984ef5f8937a93d"
+}

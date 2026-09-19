@@ -1,0 +1,67 @@
+{
+  "_id": "d6cf90777dff7646",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Song of Winter",
+  "system": {
+    "actions": [
+      {
+        "_id": "8090de82d0489441",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "area": "20-ft.-radius spread",
+        "duration": {
+          "units": "round",
+          "value": "1 round",
+          "concentration": true
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates (object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "A chilling melody from your instrument causes a miniature blizzard to roll in.",
+      "value": "<p>A chilling melody from your instrument causes a miniature blizzard to roll in. Creatures caught within the area of effect when the song is cast, or end their turn within it, must make a Fortitude save or be affected by the\nFrozen\nstatus effect for the duration of the song.\nFrozen: Ice forms upon the creature’s legs and wings (if any), encasing them in solid ice. Creatures that are inflicted with this status effect are frozen to the spot, unable to move. Frozen airborne creatures are no longer able to hover and immediately fall to the floor, taking falling damage as normal. If a Frozen creature takes falling damage apply the damage to both the creature and the ice (after hardness reductions).</p>\n<p>The ice has 10 AC, hardness equal to the spell level, and hit points equal to 3 x spell level (Blizzard III has hardness 3 with 9 HP); if broken, the creature is freed. Alternatively, they can break loose by spending 1 round and making a Strength check (DC 10 + SL) or an Escape Artist check (DC 15 + SL).</p>\n<p>Fire spells and effects that deal fire damage can melt the ice and remove this status effect.</p>"
+    },
+    "descriptors": [
+      "ice"
+    ],
+    "learnedAt": {
+      "class": {
+        "bard": 2
+      }
+    },
+    "level": 2,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d6cf90777dff7646"
+}

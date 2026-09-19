@@ -1,0 +1,58 @@
+{
+  "_id": "eaoQ8no9ajUB8d0B",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Temporal Precognition (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 4th level, the time mage gains the ability to see small instances of the future, and gains a +1 insight bonus on attack rolls, skill checks, or saving throws. At the beginning of each round, he can choose where to apply his insight bonus to, and this bonus applies to any actions related to his choice until the end of the round. This insight bonus increases by 1 for every four levels after 4th.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "temporal_precognition_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Time Mage"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Time Mage",
+          4
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!eaoQ8no9ajUB8d0B"
+}

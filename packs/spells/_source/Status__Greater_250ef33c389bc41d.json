@@ -1,0 +1,57 @@
+{
+  "_id": "250ef33c389bc41d",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Status, Greater",
+  "system": {
+    "actions": [
+      {
+        "_id": "9d244884797ad73c",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "As status , but you can also cast a limited selection of spells through the link, as if you were touching the target.",
+      "value": "<p>As\nstatus\n, but you can also cast a limited selection of spells through the link, as if you were touching the target. You can cast any spell that meets all of the following conditions:\nLevel\n1st or 2nd\nRange\ntouch\nTarget\ncreature touched\nSaving Throw\nharmless</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "div",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!250ef33c389bc41d"
+}

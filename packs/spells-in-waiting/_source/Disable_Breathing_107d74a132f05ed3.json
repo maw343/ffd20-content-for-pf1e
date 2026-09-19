@@ -1,0 +1,68 @@
+{
+  "_id": "107d74a132f05ed3",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Disable Breathing",
+  "system": {
+    "actions": [
+      {
+        "_id": "499a9a8733af503b",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "one breathing humanoid"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Will negates, Fortitude partial"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You cause the subject to purge its entire store of air in one explosive exhalation, and thereby disrupt the subject’s autonomic breathing...",
+      "value": "<p>You cause the subject to purge its entire store of air in one explosive exhalation, and thereby disrupt the subject’s autonomic breathing cycle. The subject’s lungs do not automatically function again while the spell’s duration lasts. If the target succeeds on a Will save when disable breathing is cast, it is unaffected by this spell. If it fails its Will save, it can still continue to breathe by taking a standard action in each round to gasp for breath. An affected creature can attempt to take actions normally (instead of consciously controlling its breathing), but each round it does so, beginning in the round when it failed its Will save, the subject risks blacking out from lack of oxygen. It must succeed on a Fortitude save at the end of any of its turns in which it did not consciously take a breath. The DC of this save increases by 1 in every consecutive round after the first one that goes by without a breath; the DC drops back to its original value if the subject spends an action to take a breath. If a subject fails a Fortitude save, it is disabled (0 hp). In the following round, it drops to –1 hit points and is dying. Curing spells can revive a dying subject normally, so long as this spell’s duration has expired; if the spell is still in effect, a revived creature is still subject to Fortitude saves in each round when it does not consciously breathe.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "necromancer": 3
+      }
+    },
+    "level": 3,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!107d74a132f05ed3"
+}

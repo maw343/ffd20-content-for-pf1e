@@ -1,0 +1,50 @@
+{
+  "_id": "9XXKzZqap1Hyynm6",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Body Fuel",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> —</p><p><strong>Benefit:</strong> As a swift action, you can recover 2 MP by taking 1 point of ability burn to each of your three ability scores: Strength, Dexterity, and Constitution. You can recover additional MP for a proportional cost.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "general",
+    "tag": "body_fuel",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-GeneralFeats",
+        "pages": "General Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!9XXKzZqap1Hyynm6"
+}

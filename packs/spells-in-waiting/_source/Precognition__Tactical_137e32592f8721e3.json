@@ -1,0 +1,61 @@
+{
+  "_id": "137e32592f8721e3",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Precognition, Tactical",
+  "system": {
+    "actions": [
+      {
+        "_id": "d53111f64f9dd005",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "touched creature"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 min./level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You grant the subject’s awareness to extend a fraction of a second into the future, allowing them to better perform a particular combat m...",
+      "value": "<p>You grant the subject’s awareness to extend a fraction of a second into the future, allowing them to better perform a particular combat maneuver. Select one type of combat maneuver, such as bull rush or reposition, when you cast this spell. The subject gains a +2 enhancement bonus to combat maneuver checks of that type for the duration of the effect.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 1
+      }
+    },
+    "level": 1,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!137e32592f8721e3"
+}

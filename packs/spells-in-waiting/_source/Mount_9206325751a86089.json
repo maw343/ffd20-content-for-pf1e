@@ -1,0 +1,67 @@
+{
+  "_id": "9206325751a86089",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Mount",
+  "system": {
+    "actions": [
+      {
+        "_id": "0101b5d35392e3e9",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one mount"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "2 hours/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You summon a yellow chocobo to serve you as a mount",
+      "value": "<p>You summon a yellow chocobo to serve you as a mount. The chocobo serves willingly and well. The chocobo comes with a bit and bridle and a riding saddle. The chocobo is not combat-trained, so it will run away if attacked.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 1,
+        "blackmage": 1,
+        "summoner": 1,
+        "whitemage": 1,
+        "redmage": 1
+      }
+    },
+    "level": 1,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!9206325751a86089"
+}

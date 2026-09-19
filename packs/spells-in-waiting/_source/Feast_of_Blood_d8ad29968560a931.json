@@ -1,0 +1,67 @@
+{
+  "_id": "d8ad29968560a931",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Feast of Blood",
+  "system": {
+    "actions": [
+      {
+        "_id": "37b01f5e15566f2a",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "all creatures within a 20-ft.-burst, centered on target creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude half/partial"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell acts as Exsanguinate , except it affects all creatures in a 20 feet radius and grants the caster temporary hit points equal to...",
+      "value": "<p>This spell acts as Exsanguinate , except it affects all creatures in a 20 feet radius and grants the caster temporary hit points equal to the damage dealt (maximum 5 per caster level).</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "necromancer": 7
+      }
+    },
+    "level": 7,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d8ad29968560a931"
+}

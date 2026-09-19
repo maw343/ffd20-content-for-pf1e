@@ -1,0 +1,58 @@
+{
+  "_id": "0Cq7e9wvyKTfJKAU",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Destruction Retribution (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 16th level, when any undead the necromancer summoned is destroyed, it releases a burst of dark energy upon its destruction, dealing 1d6 points of shadow damage plus an additional 1d6 points per 2 Hit Dice to every creature within a 10-foot burst, a Reflex save (DC 10 + half of the undead's Hit Dice + necromancer's Charisma modifier) for half damage.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "destruction_retribution_",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Necromancer"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Necromancer",
+          16
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!0Cq7e9wvyKTfJKAU"
+}

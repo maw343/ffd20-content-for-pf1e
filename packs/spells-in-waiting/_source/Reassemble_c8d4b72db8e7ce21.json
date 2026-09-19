@@ -1,0 +1,70 @@
+{
+  "_id": "c8d4b72db8e7ce21",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Reassemble",
+  "system": {
+    "actions": [
+      {
+        "_id": "75c3684dd043b4c1",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "heal",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "constructed creature touched"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Reassemble enables you to channel temporal energy into a constructed creature to wipe away injury and afflictions",
+      "value": "<p>Reassemble enables you to channel temporal energy into a constructed creature to wipe away injury and afflictions. It immediately ends any one adverse condition affecting the target. It also cures 10 hit points of damage per level of the caster, to a maximum of 150 points at 15th level. Reassemble does not remove negative levels or restore permanently drained ability score points. In addition, the subject gains a +4 resistance bonus on saving throws against the status effect that was cured.</p>"
+    },
+    "descriptors": [
+      "negative"
+    ],
+    "learnedAt": {
+      "class": {
+        "timemage": 6
+      }
+    },
+    "level": 6,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!c8d4b72db8e7ce21"
+}

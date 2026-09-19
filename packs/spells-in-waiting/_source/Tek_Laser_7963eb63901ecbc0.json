@@ -1,0 +1,72 @@
+{
+  "_id": "7963eb63901ecbc0",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Tek Laser",
+  "system": {
+    "actions": [
+      {
+        "_id": "6899f0fd218990b2",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "cone-shaped burst",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1d3 rounds"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "5d8",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the laser blast of the warmech",
+      "value": "<p>The caster emulates the laser blast of the warmech. All creatures caught within the area of effect take 5d8 points of non-elemental damage, a Reflex save for half damage. Those failing the Reflex save must make a Fortitude save or be stunned for 1d3 rounds. Learned From Magitek Armor family and Machine.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!7963eb63901ecbc0"
+}

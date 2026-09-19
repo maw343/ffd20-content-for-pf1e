@@ -1,0 +1,71 @@
+{
+  "_id": "034aa9762e639595",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Rescue",
+  "system": {
+    "actions": [
+      {
+        "_id": "77047edf8da452fe",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one allied creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You pull one willing ally toward you, potentially rescuing them from combat",
+      "value": "<p>You pull one willing ally toward you, potentially rescuing them from combat. This spell targets one ally within the close range of you, and moves them to a free space adjacent to you. The ally being pulled toward you does not provoke any opportunity attacks against them while being magically forced toward you. This only affects an ally not currently grappled.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 3,
+        "paladin": 3,
+        "whitemage": 3,
+        "redmage": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!034aa9762e639595"
+}

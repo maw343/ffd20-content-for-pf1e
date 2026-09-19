@@ -1,0 +1,66 @@
+{
+  "_id": "24119bc2c89405c2",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Stop Gaze",
+  "system": {
+    "actions": [
+      {
+        "_id": "7b72f622f96fdecf",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "150 ft"
+        },
+        "area": "150-ft.-cone burst",
+        "duration": {
+          "units": "minute",
+          "value": "1 minute."
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the central eye of a gazer",
+      "value": "<p>The caster emulates the central eye of a gazer. Creatures in the area of effect receives the Stop status effect. The victims are unable to move and act (are helpless) for the duration of the spell or until cured. Learned From gazer</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 9
+      }
+    },
+    "level": 9,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!24119bc2c89405c2"
+}

@@ -1,0 +1,61 @@
+{
+  "_id": "ribkiONOuj1tdQoQ",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785712226310,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/red_35.jpg",
+  "name": "Dueling Rage",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>When a berserker enters a rage, he chooses one target within sight to challenge. While in a rage, he gains a +3 bonus on attack rolls and damage rolls against the target of his challenge. The berserker does not take the –2 penalty to his Armor Class for being in rage against attacks made by the target of his challenge. If the target of the challenge is killed, the berserker exits his rage. The challenge ends when the berserker exits the rage.<br><br><i>Greater Dueling Rage (Ex):</i> At 11th level, a berserker's bonus on attack rolls and damage rolls against the target of his challenge increases to +4.<br><br><i>Mighty Dueling Rage (Ex):</i> At 20th level, a berserker's bonus on attack rolls and damage rolls against the target of his challenge increases to +5.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "duelingrage",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Berserker",
+          1
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Berserker - Rage Forms"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!ribkiONOuj1tdQoQ"
+}

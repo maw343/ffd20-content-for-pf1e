@@ -1,0 +1,19 @@
+{
+  "_id": "p2e02nNThG7Der1b",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Quick Learner (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The red mage chooses one of the following abilities to add to his list of class features: Bonus Metamagic Feat: The red mage gains a bonus metamagic feat he meets the prerequisites for. Weapon Bond (Ex): The red mage selects one weapon he is proficient with. He gains Weapon Focus with this weapon, even if he does not meet the prerequisites for it. The red mage can only take this ability once. This talent can only be taken once.</p>"
+    },
+    "tag": "quicklearnerex",
+    "source": "Final Fantasy d20 - Red Mage (Ruby Talents)"
+  },
+  "effects": [],
+  "_key": "!items!p2e02nNThG7Der1b"
+}

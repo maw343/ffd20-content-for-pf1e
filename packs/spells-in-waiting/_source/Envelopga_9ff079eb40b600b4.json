@@ -1,0 +1,69 @@
+{
+  "_id": "9ff079eb40b600b4",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Envelopga",
+  "system": {
+    "actions": [
+      {
+        "_id": "fad275a5515bfea5",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "area": "20 ft.-radius burst",
+        "duration": {
+          "units": "round",
+          "value": "3 rounds + 1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Allies within the area of effect are protected by a veil that helps evade physical attacks",
+      "value": "<p>Allies within the area of effect are protected by a veil that helps evade physical attacks. The targets gain a +2 dodge bonus to Armor Class for the duration of the spell. This spell does not stack with Envelope or other envelope spells.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 3,
+        "timemage": 3,
+        "whitemage": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!9ff079eb40b600b4"
+}

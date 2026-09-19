@@ -1,0 +1,50 @@
+{
+  "_id": "UeZilSSmXE0VAbGI",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Gun Kata (Ex)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> —</p><p><strong>Benefit:</strong> While wielding a firearm, the gunner gains the benefits of the Martial Arts class feature, treating her monk level as 1 for it, but makes all such attacks by using her firearms as melee weapons (actual formulas are unchanged). She does not actually gain a monk level. She may treat the enhancement bonus and material of a wielded firearm (but not its ammunition) as that of these attacks. At 6th level, once per round, as a free action usable outside of her turn, when the gunner lands an unarmed attack with this ability, she may make a ranged attack against the target with a wielded firearm at a -2 penalty, without provoking attacks.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "gunneryTalent",
+    "tag": "gun_kata_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-GunnerClass",
+        "pages": "Gunnery Talents"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!UeZilSSmXE0VAbGI"
+}

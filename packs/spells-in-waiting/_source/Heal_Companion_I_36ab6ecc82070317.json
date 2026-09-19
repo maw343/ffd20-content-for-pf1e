@@ -1,0 +1,78 @@
+{
+  "_id": "36ab6ecc82070317",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Heal Companion I",
+  "system": {
+    "actions": [
+      {
+        "_id": "44e81cae2793d02f",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "heal",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "your animal companion"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 10))d6",
+              "types": [
+                "healing"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "will",
+          "description": "Will half (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "A soft white glow surrounds your wounded animal companion, healing for 1d6 points of damage + your Wisdom modifier + 1 point per caster l...",
+      "value": "<p>A soft white glow surrounds your wounded animal companion, healing for 1d6 points of damage + your Wisdom modifier + 1 point per caster level (maximum +5).</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "druid": 1
+      }
+    },
+    "level": 1,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!36ab6ecc82070317"
+}

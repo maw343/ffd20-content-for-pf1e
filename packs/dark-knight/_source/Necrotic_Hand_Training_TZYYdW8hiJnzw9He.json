@@ -1,0 +1,61 @@
+{
+  "_id": "TZYYdW8hiJnzw9He",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785716981574,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/shadow_35.jpg",
+  "name": "Necrotic Hand Training",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>Taking this talent lets you gain one of the following feats as a bonus feat: Greater Defile, Greater Mercy, Radiant Charge, Reward of Grace, Reward of Life, Ultimate Defile, Word of Healing. Effects that would affect Lay on Hands instead affect Harm Touch. This talent may be taken more than once. Each time, a different feat much be selected. You must meet all prerequisites for the feat chosen.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "necrotichandtraining",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Dark Knight",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Dark Knight - Dark Knight Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!TZYYdW8hiJnzw9He"
+}

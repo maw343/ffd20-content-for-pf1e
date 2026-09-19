@@ -1,0 +1,85 @@
+{
+  "_id": "5a234a28438eb957",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Huton-San",
+  "system": {
+    "actions": [
+      {
+        "_id": "b54d70f0b6cba6ed",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "rsak",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1d4 rounds"
+        },
+        "ability": {
+          "attack": "dex",
+          "critMult": 2,
+          "critRange": 20
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "5d6 + @spells.primary.abilityMod + min(@spells.primary.cl.total, 15)",
+              "types": [
+                "wind"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude partial (see text) [Object]"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You direct a devastating blast of wind at your opponent",
+      "value": "<p>You direct a devastating blast of wind at your opponent. Requires a ranged touch attack roll to hit that deals 5d6 points of wind damage + your casting modifier (Wisdom) + 1 point per ninja level (maximum +15) and grants the Imperil (ice) status effect to the target on a failed Fortitude save, lasting for 1d4 rounds. Imperil: This status effect lowers a creature's elemental resistance of an element (as described by the spell or ability) by one step (Absorb > Immune > Resist > None > Weakness). Creatures that are reduced from Immune to Resist are assumed to have Resist 20 for that respective element. Creatures with Weakness to an element receive 1.5x damage from that element as well as suffer a -2 penalty from saving throws associated with that element. This status effect stacks with itself, so long as each application is of a different element.</p>"
+    },
+    "descriptors": [
+      "wind"
+    ],
+    "learnedAt": {
+      "class": {
+        "ninja": 3
+      }
+    },
+    "level": 3,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!5a234a28438eb957"
+}

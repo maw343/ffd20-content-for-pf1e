@@ -1,0 +1,61 @@
+{
+  "_id": "dc87a6c5d5ae465c",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785721284050,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/shadow_11.jpg",
+  "name": "Undead Legion (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Necromancer 4</p><p>The necromancer's meditations on the undead have revealed a ritual that allow him to instill rudimentary tactics into his undead hordes. Pick a teamwork feat. From now on, when he creates/summons undead, the undead come into being with this teamwork feat, even if they are normally mindless. The undead must otherwise meet the prerequisites of the teamwork feat. In addition, his mindless undead learn how to get into position to flank without his command and they gain a +2 dodge bonus to AC against attacks of opportunity from movement. This talent may be taken additional times. Each time it is taken after the first, he can draw from one additional teamwork feat to instill in his undead minions. The undead can still only possess one such teamwork feat. Choosing which teamwork feat to instill is a free action done at time of creation.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "undeadlegionex",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Necromancer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Necromancy Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!dc87a6c5d5ae465c"
+}

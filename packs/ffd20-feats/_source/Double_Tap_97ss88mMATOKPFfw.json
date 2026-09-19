@@ -1,0 +1,50 @@
+{
+  "_id": "97ss88mMATOKPFfw",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Double Tap",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> BAB +4, Weapon Focus (any Simple Firearms), proficiency with simple firearms</p><p><strong>Benefit:</strong> As a standard action, you can take a single attack action to make a double-tap attack with a firearm. This attack gains a +1 bonus to the attack roll, and you gain a bonus to damage equal to your character level. The firearm used cannot have any other property that allows it to attack multiple targets or an area in a single attack. This attack cannot benefit from any other feats, nor any class feature that alters the effect of your attack or damage. This expends ammunition equal to two attack rolls, and if you cannot expend that ammunition, you cannot use this ability.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "combat",
+    "tag": "double_tap",
+    "requirements": "BAB +4, Weapon Focus (any Simple Firearms), proficiency with simple firearms",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CombatFeats",
+        "pages": "Combat Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!97ss88mMATOKPFfw"
+}

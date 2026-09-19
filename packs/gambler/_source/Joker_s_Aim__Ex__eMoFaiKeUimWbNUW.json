@@ -1,0 +1,70 @@
+{
+  "_id": "eMoFaiKeUimWbNUW",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Joker's Aim (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, the gambler hones his throwing technique. He gains a +1 bonus on attack and damage rolls made with throwing weapons. This bonus increases by +1 for every five gambler levels beyond 3rd (+2 at 8th, +3 at 13th, +4 at 18th).</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "jokers_aim_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Gambler"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Gambler",
+          3
+        ],
+        [
+          "Gambler",
+          8
+        ],
+        [
+          "Gambler",
+          13
+        ],
+        [
+          "Gambler",
+          18
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!eMoFaiKeUimWbNUW"
+}

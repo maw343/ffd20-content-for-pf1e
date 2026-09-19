@@ -1,0 +1,50 @@
+{
+  "_id": "CGecxoBVMKfBHZEF",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Authoritative Spell",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> —</p><p><strong>MP Increase:</strong> +2</p><p><strong>Benefit:</strong> You can alter any spell that targets a single creature to become an authoritative spell. When you cast an authoritative spell, choose one of the following activities to prohibit: move closer to you, move away from you, make a melee weapon attack, make a ranged weapon attack, cast an offensive spell, or cast a non-offensive spell. A creature that is affected by the spell and fails its saving throw against that spell (if the spell allows a saving throw to resist) cannot perform any action of the selected type on its next turn. An authoritative spell gains the lawful descriptor, and the additional effect is a mind-affecting compulsion effect.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "metamagic",
+    "tag": "authoritative_spell",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-MetamagicFeats",
+        "pages": "Metamagic Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!CGecxoBVMKfBHZEF"
+}

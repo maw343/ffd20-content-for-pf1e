@@ -1,0 +1,50 @@
+{
+  "_id": "qPNF8Fdxg5inFvDY",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Familiar",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Caster Level 1st. Must be chosen at 1st level</p><p><strong>Benefit:</strong> A familiar is a magical pet that enhances the caster's skills and senses and can aid him in magic.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "general",
+    "tag": "familiar",
+    "requirements": "Caster Level 1st. Must be chosen at 1st level",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-GeneralFeats",
+        "pages": "General Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!qPNF8Fdxg5inFvDY"
+}

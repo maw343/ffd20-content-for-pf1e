@@ -1,0 +1,85 @@
+{
+  "_id": "4a89979c515114f9",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Blaster",
+  "system": {
+    "actions": [
+      {
+        "_id": "e01154d9d4a7bc51",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "rsak",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "ray"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous/1d4 rounds"
+        },
+        "ability": {
+          "attack": "dex",
+          "critMult": 2,
+          "critRange": 20
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "3d6",
+              "types": [
+                "electricity"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude partial"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates a Coeurl by releasing a pulse of electricity through his/her fingertips at a single target within 30 ft",
+      "value": "<p>The caster emulates a Coeurl by releasing a pulse of electricity through his/her fingertips at a single target within 30 ft. The caster must make a ranged touch attack, if it hits, the target takes 3d6 points of lightning damage and must make a Fortitude save or be inflicted with Immobilize status for 1d4 rounds. Learned From Coeurl Family, Yellow Dragon Family, and Lightning Elemental Family</p>"
+    },
+    "descriptors": [
+      "electricity"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 3
+      }
+    },
+    "level": 3,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!4a89979c515114f9"
+}

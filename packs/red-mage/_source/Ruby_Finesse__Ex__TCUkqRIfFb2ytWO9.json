@@ -1,0 +1,19 @@
+{
+  "_id": "TCUkqRIfFb2ytWO9",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Ruby Finesse (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Red Mage 4</p><p>A red mage with this ruby talent gains Weapon Finesse as a bonus feat. In addition, he can select any one type of weapon that can be used with Weapon Finesse (such as rapiers or daggers). Once this choice is made, it cannot be changed. Whenever he makes a successful melee attack with the selected weapon, he adds his Dexterity modifier instead of his Strength modifier to the damage roll. If any effect would prevent the red mage from adding his Strength modifier to the damage roll, he does not add his Dexterity modifier. The red mage can select a second weapon at 10th level and a third at 16th level.</p>"
+    },
+    "tag": "rubyfinesseex",
+    "source": "Final Fantasy d20 - Red Mage (Ruby Talents)"
+  },
+  "effects": [],
+  "_key": "!items!TCUkqRIfFb2ytWO9"
+}

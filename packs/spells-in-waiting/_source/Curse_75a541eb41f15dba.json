@@ -1,0 +1,65 @@
+{
+  "_id": "75a541eb41f15dba",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Curse",
+  "system": {
+    "actions": [
+      {
+        "_id": "edf100553a6a2231",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "creatures within a 30-ft.-radius centered on you",
+        "duration": {
+          "units": "perm"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates a ghost and curses creatures around them",
+      "value": "<p>The caster emulates a ghost and curses creatures around them. Creatures within the area of effect must make a Will save or be inflicted with Cursed status effect. Learned From Gheist and Ghost Family Cursed: This status effect prohibits the creature from using Supernatural (Su) class features and abilities.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!75a541eb41f15dba"
+}

@@ -1,0 +1,70 @@
+{
+  "_id": "019c282da0ead25d",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Drainga",
+  "system": {
+    "actions": [
+      {
+        "_id": "4c175f23a16349dd",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "creatures within a 30-ft.-radius spread centered on you DESCRIPTION This spell functions like Drainra , except the area of effect is increased to a 30-ft.-radius spread and it deals 1d6 points of shadow damage per two caster levels (maximum of 12d6). If the save fails, the caster also gains health equal to half the damage dealt.",
+        "duration": {
+          "units": "spec"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d6",
+              "types": [
+                "negative"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Drainra , except the area of effect is increased to a 30-ft",
+      "value": "<p>This spell functions like Drainra , except the area of effect is increased to a 30-ft.-radius spread and it deals 1d6 points of shadow damage per two caster levels (maximum of 12d6). If the save fails, the caster also gains health equal to half the damage dealt.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 9
+      }
+    },
+    "level": 9,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!019c282da0ead25d"
+}

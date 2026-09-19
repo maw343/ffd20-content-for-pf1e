@@ -1,0 +1,62 @@
+{
+  "_id": "3c0650f8910aeaef",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Suit of the Dancer",
+  "system": {
+    "actions": [
+      {
+        "_id": "0acb55cec89c42f7",
+        "name": "Use",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "inst"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "A strum of strings, a beat of drums, or a wave of symbols creates a wash of sound that clings onto your clothes to make them better suited to the situation.",
+      "value": "<p>A strum of strings, a beat of drums, or a wave of symbols creates a wash of sound that clings onto your clothes to make them better suited to the situation.\nThis song allows you to replace your currently worn clothing with any stored in your Attire Space, with 1 performance you can exchange your current clothing with 1 outfit from your space. If you do not want to trade out an outfit, you can instead have the outfit appear neatly folded adjacently to the bard.\nStoring clothing into the bard’s Attire Space requires 1 performance of this song per outfit and it can hold a total weight of clothes equal to 10lbs per caster level.\nYou cannot use this song to affect any form of armor or wondrous items, unless the items are counted as clothing.\nAny clothes stored or changed out are cleaned as if affected by the\nMagical Cleaning\ncantrip.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bard": 1
+      }
+    },
+    "level": 1,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "summoning"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!3c0650f8910aeaef"
+}

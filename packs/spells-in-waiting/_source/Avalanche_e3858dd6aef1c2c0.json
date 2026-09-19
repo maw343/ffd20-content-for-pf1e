@@ -1,0 +1,75 @@
+{
+  "_id": "e3858dd6aef1c2c0",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Avalanche",
+  "system": {
+    "actions": [
+      {
+        "_id": "b72aa4b11708c3cc",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "60 ft"
+        },
+        "area": "cylinder (30 ft. radius, 60 ft. high)",
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "10d8",
+              "types": [
+                "cold"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half, see text"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You call upon the legendary Ice Dragon’s ability to rain crashing snow and ice upon your foes",
+      "value": "<p>You call upon the legendary Ice Dragon’s ability to rain crashing snow and ice upon your foes. You create a mass of snow and ice that crashes onto a 30 ft. radius that is 60 ft. high. This deals 10d8 points of ice damage to all creatures within the area. Every creature and object that takes damage is subject to a bull rush attempt, those hit are pushed directly away from the center of the spell’s radius. Learned From Ice Dragon</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 7
+      }
+    },
+    "level": 7,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!e3858dd6aef1c2c0"
+}

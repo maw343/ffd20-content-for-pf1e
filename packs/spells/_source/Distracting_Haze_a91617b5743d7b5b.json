@@ -1,0 +1,67 @@
+{
+  "_id": "a91617b5743d7b5b",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Distracting Haze",
+  "system": {
+    "actions": [
+      {
+        "_id": "8cf88f55fb6a6770",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The target creature is surrounded by a fuzzy haze that affects both their body and their mind, making them slower to react to danger.",
+      "value": "<p>The target creature is surrounded by a fuzzy haze that affects both their body and their mind, making them slower to react to danger.\nIf the target fails a Will save, they have any\nEvasion\ntype feature or feat reduced by 1 stage (Improved evasion > evasion > nothing) for the duration of the spell. This affects any similar effect like a\nwarrior’s\nmettle\ntalent.\nThis spell was submitted as a part of the SCC for July 2021 by DeadKingKicker.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 6,
+        "redmage": 6
+      }
+    },
+    "level": 6,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a91617b5743d7b5b"
+}

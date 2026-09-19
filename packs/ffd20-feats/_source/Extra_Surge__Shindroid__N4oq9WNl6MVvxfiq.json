@@ -1,0 +1,50 @@
+{
+  "_id": "N4oq9WNl6MVvxfiq",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Extra Surge (Shindroid)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Con 13, shindroid, nanite surge racial trait</p><p><strong>Benefit:</strong> You can use your nanite surge ability one additional time per day.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "racial",
+    "tag": "extra_surge_shindroid",
+    "requirements": "Con 13, shindroid, nanite surge racial trait",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-RacialFeats",
+        "pages": "Racial Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!N4oq9WNl6MVvxfiq"
+}

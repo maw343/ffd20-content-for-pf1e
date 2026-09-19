@@ -1,0 +1,68 @@
+{
+  "_id": "806e2fc70f0c4e4b",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Shield Other",
+  "system": {
+    "actions": [
+      {
+        "_id": "9212f45af57c4a96",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "1 hour/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell wards the subject and creates a mystic connection between you and the subject so that some of its wounds are transferred to you.",
+      "value": "<p>This spell wards the subject and creates a mystic connection between you and the subject so that some of its wounds are transferred to you. The subject gains a +1\ndeflection bonus\nto AC and a +1\nresistance bonus\non saves.\nAdditionally, all hit point damage the subject takes is split in half between them and you. Other forms of harm or indirect lowering of hit points (such as from Constitution damage) are not split. When splitting damage from Shield Other, only the target’s DR/ER/Hardness applies, before the split. Modifiers such as weakness or immunity (to a damage type) are applied, before the split.\nWhen the spell ends, subsequent damage is no longer divided between the subject and you, but damage already split is not reassigned to the subject. If you and the subject of the spell move out of range of each other, the spell ends.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "paladin": 2,
+        "whitemage": 4
+      }
+    },
+    "level": 2,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!806e2fc70f0c4e4b"
+}

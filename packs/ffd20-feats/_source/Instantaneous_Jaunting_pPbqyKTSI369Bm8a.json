@@ -1,0 +1,50 @@
+{
+  "_id": "pPbqyKTSI369Bm8a",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Instantaneous Jaunting",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Ability to cast 5th-level spells</p><p><strong>Benefit:</strong> As long as you have a chronomancy [teleportation] spell of 5th level or higher in your known spells and have at least 5 MP in your MP pool, you may teleport as a move action 10 + 10 feet times the highest-level chronomancy [teleportation] spell you can cast. Once used you must wait 1d4 rounds before teleporting this way again. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting chronomancy [teleportation] spells.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "reserve",
+    "tag": "instantaneous_jaunting",
+    "requirements": "Ability to cast 5th-level spells",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-ReserveFeats",
+        "pages": "Reserve Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!pPbqyKTSI369Bm8a"
+}

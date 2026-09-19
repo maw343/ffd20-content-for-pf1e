@@ -1,0 +1,77 @@
+{
+  "_id": "0d11ec93f1148fc4",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Wind Slash",
+  "system": {
+    "actions": [
+      {
+        "_id": "3365559026f49cbe",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "60 ft"
+        },
+        "area": "cone-shaped burst",
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "15d6",
+              "types": [
+                "wind"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates a Green Dragon’s ability to cause the wind front of itself to slice all those in a 60-ft",
+      "value": "<p>The caster emulates a Green Dragon’s ability to cause the wind front of itself to slice all those in a 60-ft.-cone. Creatures within the area of effect take 15d6 points of wind damage, Reflex save for half damage. Learned From Garuda ‘Creature’, Green Dragon Family, Tiamat, Omega Weapon, Storm Dragon, Kaiser Dragon, and Wyvern family</p>"
+    },
+    "descriptors": [
+      "wind"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 8
+      }
+    },
+    "level": 8,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!0d11ec93f1148fc4"
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "WupkaAkd0LGcreLo",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Crooked Cards (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 15th level, as a swift action, the gambler can activate this ability to increase the bonus of his next Phantom Roll that takes place on his turn by half. This ability must be declared before attempting a new Phantom Roll. If the roll results in an unlucky bonus, the increase does not apply, and if the gambler busts, he instead suffers the effect with a penalty equal to the negative value of the unlucky bonus for the duration of 1 minute.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "crooked_cards_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Gambler"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Gambler",
+          15
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!WupkaAkd0LGcreLo"
+}

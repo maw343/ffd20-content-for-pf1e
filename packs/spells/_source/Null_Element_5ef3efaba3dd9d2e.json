@@ -1,0 +1,67 @@
+{
+  "_id": "5ef3efaba3dd9d2e",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Null Element",
+  "system": {
+    "actions": [
+      {
+        "_id": "1f637a6b01416d7a",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You ward your allies against a single elemental-based attack, selecting an element when the spell is cast (earth, fire, holy, ice, lightning, shadow, water, or wind).",
+      "value": "<p>You ward your allies against a single elemental-based attack, selecting an element when the spell is cast (earth, fire, holy, ice, lightning, shadow, water, or wind). The next time a target warded by this spell takes elemental damage of the selected type, that damage is negated. This spell only negates one instance of damage, any damage taken after is treated normally.\nThis spell was submitted as a part of the SCC for December 2020 by Still Landslide.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "redmage": 3,
+        "whitemage": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!5ef3efaba3dd9d2e"
+}

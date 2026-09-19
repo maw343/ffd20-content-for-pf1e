@@ -1,0 +1,50 @@
+{
+  "_id": "qxIngjiNH8ZijRc5",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Parallel Self (Su)*",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Time Mage 20</p><p><strong>Benefit:</strong> If the time mage is killed, he can immediately expend 10 motes of time to summon an alternate version of himself from a parallel existence, appearing up to 30 feet away. This alternate version is identical to the time mage except he is a member of a random race, determined using the table that accompanies the reincarnate spell. The alternate version has half the time mage's total hit points (but not any temporary hit points) and MP when he died. The alternate version has the same equipment as the time mage but does not bear any artifacts the time mage was carrying. Any expendable items, charges, or expensive material components the alternate version uses are also expended for the time mage. This alternate version remains for 1 minute before the duplicate and its equipment are ripped back to their reality.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "advancedTemporalTalent",
+    "tag": "parallel_self_su",
+    "requirements": "Time Mage 20",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-TimeMageClass",
+        "pages": "Advanced Temporal Talents"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!qxIngjiNH8ZijRc5"
+}

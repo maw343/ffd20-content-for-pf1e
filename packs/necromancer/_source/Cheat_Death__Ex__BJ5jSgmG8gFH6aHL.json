@@ -1,0 +1,58 @@
+{
+  "_id": "BJ5jSgmG8gFH6aHL",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Cheat Death (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>At 7th level, the necromancer's mastery over death and dying has progressed to the point where he can deny a foe the ability to send him into death's embrace in a single, cowardly blow. Whenever anyone attempts a coup de grace on the necromancer, he automatically makes the subsequent Fortitude save. The attacker still deals just as much damage as he normally would, and the necromancer could still die from that damage. Similarly, when he takes massive damage (50 or more points of damage from a single attack), the necromancer automatically succeeds on the Fortitude save to survive the associated trauma, although he can be killed by sheer damage dealt.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "cheat_death_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Necromancer"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Necromancer",
+          7
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!BJ5jSgmG8gFH6aHL"
+}

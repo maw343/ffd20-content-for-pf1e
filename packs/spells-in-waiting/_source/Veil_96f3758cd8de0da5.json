@@ -1,0 +1,69 @@
+{
+  "_id": "96f3758cd8de0da5",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Veil",
+  "system": {
+    "actions": [
+      {
+        "_id": "eeec174dfa6d3ab4",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "target": {
+          "value": "one or more creatures, no two of which can be more than 30 ft. apart"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "concentration + 1 hour/level",
+          "concentration": true
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You instantly change the appearance of the subjects and then maintain that appearance for the spell’s duration",
+      "value": "<p>You instantly change the appearance of the subjects and then maintain that appearance for the spell’s duration. You can make the subjects appear to be anything you wish. The subjects look, feel, and smell just like the creatures the spell makes them resemble. Affected creatures resume their normal appearances if slain. You must succeed on a Disguise check to duplicate the appearance of a specific individual. This spell gives you a +10 bonus on the check. Unwilling targets can negate the spell’s effect on them by making Will saves or with Spell Resistance. Those who interact with the subjects can attempt Will disbelief saves to see through the illusion, but Spell Resistance doesn’t help.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 6
+      }
+    },
+    "level": 6,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!96f3758cd8de0da5"
+}

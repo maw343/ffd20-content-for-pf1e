@@ -1,0 +1,77 @@
+{
+  "_id": "2f0d1e62a9e4e525",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Magnitude 8",
+  "system": {
+    "actions": [
+      {
+        "_id": "bbfdb5a9b1adc8d6",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "60 ft"
+        },
+        "area": "creatures within a 60-ft.-radius spread centered on you",
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "15d10",
+              "types": [
+                "earth"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster can emulate the ground-shaking might of a Brown Dragon",
+      "value": "<p>The caster can emulate the ground-shaking might of a Brown Dragon. Creatures within the area of effect take 15d10 points of earth damage and are inflicted with the weighted status effect for 1d8 rounds. They must make reflex save for half damage and negates the status effect. Learned From Andagranda, Brown Dragon Family, Dark Behemoth, Dark Fang, Forgiven Revelry, Kaiser Dragon, Omega Weapon, Ser Ignasse, Visage, and Gigas Family</p>"
+    },
+    "descriptors": [
+      "earth"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 8
+      }
+    },
+    "level": 8,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!2f0d1e62a9e4e525"
+}

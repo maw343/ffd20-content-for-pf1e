@@ -1,0 +1,58 @@
+{
+  "_id": "MCq7e9wvyKTfJKAU",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Temporal Manipulation (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 19th level, once per day, the time mage can use his mastery over time to modify the duration of a 7th level or lower spell. He increases the duration of a spell the time mage casts by 1 step. Rounds → Minutes, Minutes → 10 Minutes, 10 Minutes → Hours, to a maximum of 24 hours.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "temporal_manipulation_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Time Mage"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Time Mage",
+          19
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!MCq7e9wvyKTfJKAU"
+}

@@ -1,0 +1,428 @@
+{
+  "_id": "mOnbrBxO7ExpxJnP",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785712720236,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_35.jpg",
+  "name": "Blue Mage",
+  "type": "class",
+  "system": {
+    "description": {
+      "value": "<p><em>The blue mages, warrior-mages who master the techniques of monsters, comprise an organization called the Azure Academy. Their motto is \"fight fire with fire.\" When not performing undercover missions, or adventuring in an area where doing so would endanger them unnecessarily, they prefer to wear blue—they claim that this is the color of monsters' souls.</em></p>\n<p><em>Blue mages are invariably those who have had close calls with monsters and learned from them, intuitively figuring out how to predict, evade, and finally replicate monsters' attacks. The Azure Academy observes particularly observant adventurers and attempts to recruit the cream of the crop. After training for at least a month at the Academy's headquarters, a new recruit is ready to go out and begin amassing her own arsenal of monster techniques.</em></p>\n<p><strong>Role:</strong> At its core, the blue mage embodies ultimate versatility, learning and mimicking the abilities of the very monsters they encounter. Unlike other casters tied to specific schools or divine patrons, the blue mage's spell list is theoretically boundless, granting them an unparalleled capacity to adapt. Their role within a party is that of a dynamic wildcard, capable of filling diverse needs on the fly—from dishing out unexpected burst damage with a Dragon's Breath, to providing crucial battlefield control with a mighty Ram's Voice, or even offering emergency healing with a revitalizing White Wind.</p>\n<p>This adaptive power isn't without its challenges; a blue mage must actively seek out creatures and <em>experience</em> their abilities firsthand – often by being targeted by them – to master them for their own use. This distinct \"learn from monsters\" mechanic shapes their playstyle, encouraging strategic encounters, careful observation of enemy tactics, and a proactive pursuit of new and powerful Blue Magic. Ultimately, the blue mage's role is that of a living compendium, a master of mimicry who turns the foes' strengths into their own, making them one of the most unpredictable and rewarding classes.</p>\n<p><strong>Alignment:</strong> Any</p>\n<p><strong>Hit Die:</strong> d8</p>\n<p><strong>Starting Wealth:</strong> 4d6 x 10 gil (average 140 gil.) In addition, each character begins play with an outfit worth 10 gil or less.</p>\n<p><strong>Class Skills:</strong> The blue mage's class skills (and the key ability for each skill) are Acrobatics (Dex), Appraise (Int), Craft (Int), Fly (Dex), Knowledge (all) (Int), Linguistics (Int), Perception (Wis), Profession (Wis), Sense Motive (Wis), Spellcraft (Int), and Survival (Wis).</p>\n<p><strong>Skill Points Per Level:</strong> 8 + Int modifier</p>\n<p><strong>Class Main Ability Scores:</strong> The blue mage mainly focuses on STR/DEX for martial combat, STR and INT for class features, and INT for their spellcasting.</p>\n<h2>Weapon and Armor Proficiency</h2>\n<p>Blue mages are proficient with all simple weapons including longswords, power rod, power staff, power flail, power pole, sword canes, and scimitars. Blue mages are proficient with light armor and light shields but can cause their spells with somatic components to fail.</p>\n<h2>Creature Magic</h2>\n<p>A blue mage has the power to gain new spells from creatures that have supernatural abilities by learning from them. The blue mage must witness the creature (not a blue mage) use its abilities for the blue mage to learn by making an appropriate Knowledge (see below) skill check or learn by being struck by the ability (she learns the spell automatically if she is struck by the spell of a creature and not a blue mage, even if she makes a save), she cannot learn by observing blue mage spells via the use of wondrous items or being cast by another blue mage.</p>\n<p>The initial skill check is DC 15 + 2 per spell level of the ability.</p>\n<p>A blue mage begins play with 2 1st level blue mage spells of her choice. Each time a character attains a new blue mage level, she gains one spell of her choice to add to her list of spells (the free spell must be of a spell level she can cast). In addition, if a blue mage is created beyond the 1st level, she gains an additional spell of her highest spell level she has access to for each blue mage level after the 1st.</p>\n<p>Unlike the other mages, a blue mage cannot purchase or find scrolls to add spells to her spells known list, but she can learn new blue mage spells from another blue mage if taught.</p>\n<ul>\n<li>Arcana (dragons, magical beasts)</li>\n<li>Dungeoneering (aberrations, oozes)</li>\n<li>Engineering or Technology (constructs)</li>\n<li>Local (humanoids, monstrous humanoids)</li>\n<li>Nature (animals, fey, plants, vermin)</li>\n<li>Planes (outsiders)</li>\n<li>Religion (undead)</li>\n</ul>\n<p>Once learned, the ability becomes a spell in the blue mage's known spells list. See the monster's description to find out the spell level of a creature's supernatural abilities. The blue mage can learn spells above her spell level, but cannot cast those spells until she has attain the level to be able to cast them.</p>\n<p>To learn or cast a spell, the blue mage must have an Intelligence score equal to at least 10 + the spell level (Int 11 for 1st-level spells, Int 12 for 2nd-level spells, and so forth). The Difficulty Class for a saving throw against a blue mage's spell is 10 + the spell level + the blue mage's Intelligence modifier. In addition, a blue mage gains additional MP for having a high attribute (Intelligence—see Table: Bonus MP per Day (by Spell Level)).</p>\n<h2>Favored Class Bonuses</h2>\n<ul>\n<li><strong>Dwarf:</strong> Add +1/4 bonus to damage to the blue mage's natural attacks.</li>\n<li><strong>Elvaan:</strong> Add +1/6 bonus to Knowledge (all) skill checks.</li>\n<li><strong>Galka:</strong> Add +1/4 bonus to damage to the blue mage's natural attacks.</li>\n<li><strong>Genome:</strong> Add +1/6 bonus to Knowledge (all) skill checks.</li>\n<li><strong>Half-Breed:</strong> Add one spell known from the blue mage spell list. This spell must be at least one level below the highest spell level the blue mage can cast.</li>\n<li><strong>Hume:</strong> Add one spell known from the blue mage spell list. This spell must be at least one level below the highest spell level the blue mage can cast.</li>\n<li><strong>Immortal:</strong> Add +1/6 bonus to Knowledge (all) skill checks.</li>\n<li><strong>Kindred:</strong> Add +1/4 bonus to damage to the blue mage's natural attacks.</li>\n<li><strong>Kojin:</strong> Add +1/6 to the blue mage's damage when casting any spells with the water descriptor.</li>\n<li><strong>Lambkin:</strong> Add +1/6 bonus to Knowledge (all) skill checks.</li>\n<li><strong>Matanga:</strong> Add +1/6 bonus to Knowledge (all) skill checks.</li>\n<li><strong>Mithra:</strong> Add +1/6 bonus to Knowledge (all) skill checks.</li>\n<li><strong>Moogle:</strong> Add +1/4 bonus to damage to the blue mage's natural attacks.</li>\n<li><strong>Mutant:</strong> Add +1/6 bonus to all Knowledge skill checks.</li>\n<li><strong>Nu Mou:</strong> Add +1/6 bonus to Knowledge (all) skill checks.</li>\n<li><strong>Qu:</strong> Add +1/6 bonus to Knowledge (all) skill checks.</li>\n<li><strong>Ronso:</strong> Add a +1/2 bonus on concentration checks made to cast defensively.</li>\n<li><strong>Seto Lion:</strong> Add +1/6 bonus to Knowledge (all) skill checks.</li>\n<li><strong>Tarutaru:</strong> Add +1/6 bonus to Knowledge (all) skill checks.</li>\n<li><strong>Viera:</strong> Add one spell known from the blue mage's spell list. This spell must be at least one level below the highest-level spell the blue mage can cast.</li>\n</ul>\n<h2>Archetypes</h2>\n<p>A complete list of blue mage archetypes can be found here: Blue Mage Archetypes.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "classAssociations": [
+        {
+          "name": "Blue Magery (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.imhcW0YY3kdmgXtv",
+          "level": 1
+        },
+        {
+          "name": "Spell Proficiency (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.9yAvleao2pRZq1Vw",
+          "level": 1
+        },
+        {
+          "name": "Cantrips",
+          "uuid": "Compendium.world.blue-mage.Item.lK2KpHtEc4K3tuUQ",
+          "level": 1
+        },
+        {
+          "name": "Limit Breaks (Su)",
+          "uuid": "Compendium.world.blue-mage.Item.vsUkIRyQjoasoNSo",
+          "level": 1
+        },
+        {
+          "name": "Scan (Su)",
+          "uuid": "Compendium.world.blue-mage.Item.tzdTQBR7E9dPDIo8",
+          "level": 2
+        },
+        {
+          "name": "Azure Talents",
+          "uuid": "Compendium.world.blue-mage.Item.a7sHYD1zzeTPH36c",
+          "level": 2
+        },
+        {
+          "name": "Favored Enemy (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.GqHJT8OZe419WxzY",
+          "level": 2
+        },
+        {
+          "name": "Armored Mage (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.nEM2Mv80tNaNQ4S2",
+          "level": 3
+        },
+        {
+          "name": "Analysis (Ex or Su)",
+          "uuid": "Compendium.world.blue-mage.Item.z08USa3sYScB0w5B",
+          "level": 3
+        },
+        {
+          "name": "Azure Physical Training (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.tG3jRPGlA3s7Q3xX",
+          "level": 4
+        },
+        {
+          "name": "Azure Talents",
+          "uuid": "Compendium.world.blue-mage.Item.a7sHYD1zzeTPH36c",
+          "level": 4
+        },
+        {
+          "name": "Clear Mind (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.FGabgfB6TvIfZk7c",
+          "level": 5
+        },
+        {
+          "name": "Blue Magery (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.imhcW0YY3kdmgXtv",
+          "level": 5
+        },
+        {
+          "name": "Azure Learning (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.W2RJySI4u4LzUt9Z",
+          "level": 5
+        },
+        {
+          "name": "Invoke (Su)",
+          "uuid": "Compendium.world.blue-mage.Item.g4ynkkPnjJQV7clO",
+          "level": 6
+        },
+        {
+          "name": "Azure Talents",
+          "uuid": "Compendium.world.blue-mage.Item.a7sHYD1zzeTPH36c",
+          "level": 6
+        },
+        {
+          "name": "Refined Knowledge (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.3uVFvuDud6LomWFa",
+          "level": 6
+        },
+        {
+          "name": "I Know That Trick (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.bREL7X0JAdfFtI7N",
+          "level": 7
+        },
+        {
+          "name": "Analysis (Ex or Su)",
+          "uuid": "Compendium.world.blue-mage.Item.z08USa3sYScB0w5B",
+          "level": 7
+        },
+        {
+          "name": "Favored Enemy (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.GqHJT8OZe419WxzY",
+          "level": 7
+        },
+        {
+          "name": "Azure Physical Training (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.tG3jRPGlA3s7Q3xX",
+          "level": 8
+        },
+        {
+          "name": "Azure Talents",
+          "uuid": "Compendium.world.blue-mage.Item.a7sHYD1zzeTPH36c",
+          "level": 8
+        },
+        {
+          "name": "Blue Magery (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.imhcW0YY3kdmgXtv",
+          "level": 9
+        },
+        {
+          "name": "Azure Counter (Su)",
+          "uuid": "Compendium.world.blue-mage.Item.HqnXCywNgff80hqg",
+          "level": 9
+        },
+        {
+          "name": "Advantageous Opportunity (Su)",
+          "uuid": "Compendium.world.blue-mage.Item.rqB8MQ2X2UTY9DH8",
+          "level": 9
+        },
+        {
+          "name": "Clear Mind (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.FGabgfB6TvIfZk7c",
+          "level": 10
+        },
+        {
+          "name": "Libra (Su)",
+          "uuid": "Compendium.world.blue-mage.Item.BcijG2vSioSm4rME",
+          "level": 10
+        },
+        {
+          "name": "Azure Talents",
+          "uuid": "Compendium.world.blue-mage.Item.a7sHYD1zzeTPH36c",
+          "level": 10
+        },
+        {
+          "name": "Simulation (Su)",
+          "uuid": "Compendium.world.blue-mage.Item.Xwh4Sj3kcuSG5tQx",
+          "level": 11
+        },
+        {
+          "name": "Analysis (Ex or Su)",
+          "uuid": "Compendium.world.blue-mage.Item.z08USa3sYScB0w5B",
+          "level": 11
+        },
+        {
+          "name": "Azure Physical Training (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.tG3jRPGlA3s7Q3xX",
+          "level": 12
+        },
+        {
+          "name": "Advanced Azure Talents",
+          "uuid": "Compendium.world.blue-mage.Item.ktM3d8BNrq316W4j",
+          "level": 12
+        },
+        {
+          "name": "Favored Enemy (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.GqHJT8OZe419WxzY",
+          "level": 12
+        },
+        {
+          "name": "Blue Magery (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.imhcW0YY3kdmgXtv",
+          "level": 13
+        },
+        {
+          "name": "Easy Learning (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.Q7oh1PNO7nM5f4Gz",
+          "level": 13
+        },
+        {
+          "name": "Improved Advantageous Opportunity (Su)",
+          "uuid": "Compendium.world.blue-mage.Item.TB5n5eOoSnOQxOpW",
+          "level": 13
+        },
+        {
+          "name": "Advanced Azure Talents",
+          "uuid": "Compendium.world.blue-mage.Item.ktM3d8BNrq316W4j",
+          "level": 14
+        },
+        {
+          "name": "Seen It Before (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.2RpDgptkVHYxMlld",
+          "level": 14
+        },
+        {
+          "name": "Clear Mind (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.FGabgfB6TvIfZk7c",
+          "level": 15
+        },
+        {
+          "name": "Doublecast (Su)",
+          "uuid": "Compendium.world.blue-mage.Item.09DgoSSq2IlI7Xjr",
+          "level": 15
+        },
+        {
+          "name": "Analysis (Ex or Su)",
+          "uuid": "Compendium.world.blue-mage.Item.z08USa3sYScB0w5B",
+          "level": 15
+        },
+        {
+          "name": "Azure Physical Training (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.tG3jRPGlA3s7Q3xX",
+          "level": 16
+        },
+        {
+          "name": "Advanced Azure Talents",
+          "uuid": "Compendium.world.blue-mage.Item.ktM3d8BNrq316W4j",
+          "level": 16
+        },
+        {
+          "name": "Azure Lore (Su)",
+          "uuid": "Compendium.world.blue-mage.Item.PDQ2gom5pQRXpctj",
+          "level": 17
+        },
+        {
+          "name": "Blue Magery (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.imhcW0YY3kdmgXtv",
+          "level": 17
+        },
+        {
+          "name": "Favored Enemy (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.GqHJT8OZe419WxzY",
+          "level": 17
+        },
+        {
+          "name": "1 MP Spell (Su)",
+          "uuid": "Compendium.world.blue-mage.Item.kBMRoXU2HlhcXC8X",
+          "level": 18
+        },
+        {
+          "name": "Advanced Azure Talents",
+          "uuid": "Compendium.world.blue-mage.Item.ktM3d8BNrq316W4j",
+          "level": 18
+        },
+        {
+          "name": "Cerulean Focus (Su)",
+          "uuid": "Compendium.world.blue-mage.Item.HmXhF0eIEvS9Xu9L",
+          "level": 19
+        },
+        {
+          "name": "Analysis (Ex or Su)",
+          "uuid": "Compendium.world.blue-mage.Item.z08USa3sYScB0w5B",
+          "level": 19
+        },
+        {
+          "name": "Clear Mind (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.FGabgfB6TvIfZk7c",
+          "level": 20
+        },
+        {
+          "name": "Assimilation (Su)",
+          "uuid": "Compendium.world.blue-mage.Item.rdPoYC812KjCrhTR",
+          "level": 20
+        },
+        {
+          "name": "Azure Physical Training (Ex)",
+          "uuid": "Compendium.world.blue-mage.Item.tG3jRPGlA3s7Q3xX",
+          "level": 20
+        },
+        {
+          "name": "Advanced Azure Talents",
+          "uuid": "Compendium.world.blue-mage.Item.ktM3d8BNrq316W4j",
+          "level": 20
+        }
+      ]
+    },
+    "tag": "blueMage",
+    "armorProf": [
+      "lgt",
+      "shl"
+    ],
+    "weaponProf": [
+      "simple",
+      "Longsword",
+      "Power Rod",
+      "Power Staff",
+      "Power Flail",
+      "Power Pole",
+      "Sword Cane",
+      "Scimitar"
+    ],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "base",
+    "level": 1,
+    "hd": 8,
+    "hp": 8,
+    "bab": "med",
+    "skillsPerLevel": 8,
+    "savingThrows": {
+      "fort": {
+        "value": "low"
+      },
+      "ref": {
+        "value": "low"
+      },
+      "will": {
+        "value": "high"
+      }
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": "See Favored Class Bonuses: varies by race — bonuses to natural attack damage, bonuses to Knowledge (all) checks, extra spells known, bonuses to concentration checks, or increased damage when casting spells with the water descriptor."
+      }
+    },
+    "wealth": "4d6 * 10",
+    "alignment": "",
+    "classSkills": {
+      "acr": true,
+      "apr": true,
+      "art": false,
+      "blf": false,
+      "ckg": false,
+      "clm": false,
+      "crf": true,
+      "dev": false,
+      "dip": false,
+      "dis": false,
+      "esc": false,
+      "fly": true,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": true,
+      "kdu": true,
+      "ken": true,
+      "kge": true,
+      "khi": true,
+      "klo": true,
+      "kna": true,
+      "kno": true,
+      "kpl": true,
+      "kre": true,
+      "lin": true,
+      "lor": false,
+      "per": true,
+      "prf": false,
+      "pro": true,
+      "rid": false,
+      "sen": true,
+      "slt": false,
+      "spl": true,
+      "ste": false,
+      "stl": false,
+      "sur": true,
+      "swm": false,
+      "umd": false
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Blue Mage"
+      }
+    ],
+    "customHD": "",
+    "casting": {
+      "type": "spontaneous",
+      "progression": "high",
+      "ability": "int",
+      "spells": "arcane",
+      "domain": null,
+      "offset": null,
+      "cantrips": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!mOnbrBxO7ExpxJnP"
+}

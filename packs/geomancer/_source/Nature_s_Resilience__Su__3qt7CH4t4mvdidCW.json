@@ -1,0 +1,58 @@
+{
+  "_id": "3qt7CH4t4mvdidCW",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Nature's Resilience (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 9th level, whenever a geomancer is on one of her favored terrains, she gains a bonus equal to her favored terrain bonus on all saves against extraordinary, spell-like and supernatural abilities.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "natures_resilience_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Geomancer"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Geomancer",
+          9
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!3qt7CH4t4mvdidCW"
+}

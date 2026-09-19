@@ -1,0 +1,19 @@
+{
+  "_id": "dC3WPmETR4biPHnY",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/yellow_37.jpg",
+  "name": "Bypass Spell Resistance",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 17th level, the black mage's command of magic is such that he may unravel a creature's natural resistance to magic. As a free action, a black mage may reduce a target's spell resistance by his black mage level for their next spell, once per day per target. In addition, a black mage constantly ignores energy resistance equal to half his caster level.</p>"
+    },
+    "tag": "bypassspellresistance",
+    "source": "Final Fantasy d20 - Black Mage"
+  },
+  "effects": [],
+  "_key": "!items!dC3WPmETR4biPHnY"
+}

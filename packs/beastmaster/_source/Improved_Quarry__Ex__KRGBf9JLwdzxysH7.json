@@ -1,0 +1,27 @@
+{
+  "_id": "KRGBf9JLwdzxysH7",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_12.jpg",
+  "name": "Improved Quarry (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 15th level, the beastmaster's ability to hunt his quarry improves. He can now select a quarry as a free action, and can now take 20 while using Survival to track his quarry, while moving at normal speed without penalty. His insight bonus to attack his quarry increases to +4. If his quarry is killed or dismissed, he can select a new one after 10 minutes have passed.</p>"
+    },
+    "tag": "improvedquarry",
+    "source": "Final Fantasy d20 - Beastmaster",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          15
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!KRGBf9JLwdzxysH7"
+}

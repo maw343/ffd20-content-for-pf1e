@@ -1,0 +1,71 @@
+{
+  "_id": "aad79d4c2ce0a1da",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Summon Demiplane, Greater",
+  "system": {
+    "actions": [
+      {
+        "_id": "5cef056f115bc13a",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "0 ft"
+        },
+        "target": {
+          "value": "extradimensional demiplane, up to 20 10-ft. cubes/level (S)"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "1 day/level or instantaneous (see text)"
+        },
+        "save": {
+          "type": "will",
+          "description": "none; Spell resistance no DESCRIPTION This spell functions as summon demiplane , except the area is larger and you can add more features to the plane. You can use this spell to expand a demiplane you summon ed with lesser summon demiplane or summon demiplane (you do not need to summon an entirely new plane using this spell), in which case it has a duration of 1 day/level. Alternatively, when cast within your demiplane, you may add to your demiplane (or remove from it) one of the following features (or any of the features described in create demiplane) with each casting of the spell, in which case it has an instantaneous duration. Energy: Your plane gains the (minor) negative- or positive- dominant energy trait. A plane cannot have both the negative-dominant and positive-dominant energy traits. Magic: Your plane gains the dead magic, enhanced magic, impeded magic, or wild magic planar trait. If you selected dead magic, you are trapped within your plane unless it has a permanent planar portal (such as the portal feature, below). If you selected enhanced or impeded magic, choose one type of magic to be enhanced or impeded, such as “effects with the fire descriptor or that manipulate fire”. A plane cannot be enhanced and impeded for the same kinds of spells. Morphic: You may use move earth at will in your demiplane at one-tenth of the spell’s normal casting time, and can reshape normal plants in the same manner (such as by twisting trees into a fence or humanlike shapes). You are even able to affect rock formations with this ability, though the casting time for this is only half normal. Portal: Your demiplane gains a permanent gate to one location on another plane, which can only be used for planar travel. This location must be very familiar to you. This gate is always open and usable from both sides, but you can secure it using normal means (such as by building a door around it). Time: By default, time passes at the normal rate in your demiplane. By selecting this feature, you may make your plane have the erratic time, flowing time (half or double normal time), or timeless trait (see Time)."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions as summon demiplane , except the area is larger and you can add more features to the plane",
+      "value": "<p>This spell functions as summon demiplane , except the area is larger and you can add more features to the plane. You can use this spell to expand a demiplane you summon ed with lesser summon demiplane or summon demiplane (you do not need to summon an entirely new plane using this spell), in which case it has a duration of 1 day/level. Alternatively, when cast within your demiplane, you may add to your demiplane (or remove from it) one of the following features (or any of the features described in create demiplane) with each casting of the spell, in which case it has an instantaneous duration. Energy: Your plane gains the (minor) negative- or positive- dominant energy trait. A plane cannot have both the negative-dominant and positive-dominant energy traits. Magic: Your plane gains the dead magic, enhanced magic, impeded magic, or wild magic planar trait. If you selected dead magic, you are trapped within your plane unless it has a permanent planar portal (such as the portal feature, below). If you selected enhanced or impeded magic, choose one type of magic to be enhanced or impeded, such as “effects with the fire descriptor or that manipulate fire”. A plane cannot be enhanced and impeded for the same kinds of spells. Morphic: You may use move earth at will in your demiplane at one-tenth of the spell’s normal casting time, and can reshape normal plants in the same manner (such as by twisting trees into a fence or humanlike shapes). You are even able to affect rock formations with this ability, though the casting time for this is only half normal. Portal: Your demiplane gains a permanent gate to one location on another plane, which can only be used for planar travel. This location must be very familiar to you. This gate is always open and usable from both sides, but you can secure it using normal means (such as by building a door around it). Time: By default, time passes at the normal rate in your demiplane. By selecting this feature, you may make your plane have the erratic time, flowing time (half or double normal time), or timeless trait (see Time).</p>"
+    },
+    "descriptors": [
+      "fire",
+      "earth",
+      "negative"
+    ],
+    "learnedAt": {
+      "class": {
+        "summoner": 9
+      }
+    },
+    "level": 9,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!aad79d4c2ce0a1da"
+}

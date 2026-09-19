@@ -1,0 +1,27 @@
+{
+  "_id": "dBAMnROZaZRQH7Zd",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Spellstrike (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>Whenever a red mage casts a touch (melee or ranged) spell from the red mage spell list, he can deliver the spell through any weapon he is wielding as part of a melee attack, making one free melee attack with his weapon (at his highest base attack bonus) instead of the normal touch attack. If successful, this attack deals normal weapon damage plus the spell's effects. If made in concert with spell combat, this attack takes all spell combat penalties. The attack uses the weapon's critical range, but the spell effect only deals x2 damage on a critical hit while weapon damage uses its own critical modifier.</p>"
+    },
+    "tag": "spellstrike",
+    "source": "Final Fantasy d20 - Red Mage",
+    "associations": {
+      "classes": [
+        [
+          "Red Mage",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!dBAMnROZaZRQH7Zd"
+}

@@ -1,0 +1,94 @@
+{
+  "_id": "5k4d51IMoHfc0sme",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "folder": "RWSoA7Fj9yqo0y9U",
+  "img": "systems/pf1/icons/races/gnome.png",
+  "name": "Tarutaru",
+  "system": {
+    "changes": [
+      {
+        "_id": "so5fea9i",
+        "formula": "2",
+        "target": "dex",
+        "type": "racial"
+      },
+      {
+        "_id": "8qe89gjw",
+        "formula": "2",
+        "target": "int",
+        "type": "racial"
+      },
+      {
+        "_id": "1t9f8r1y",
+        "formula": "-2",
+        "target": "str",
+        "type": "racial"
+      },
+      {
+        "_id": "w3rfe1xk",
+        "formula": "2",
+        "target": "skill.kar",
+        "type": "racial"
+      },
+      {
+        "_id": "wydof1vd",
+        "formula": "2",
+        "target": "skill.spl",
+        "type": "racial"
+      }
+    ],
+    "contextNotes": [
+      {
+        "target": "ac",
+        "text": "+[[4]] Dodge vs Giants"
+      },
+      {
+        "target": "allSavingThrows",
+        "text": "+[[1]] Racial vs Spells and Spell-like Abilities (Magic Resistant)"
+      },
+      {
+        "target": "savingThrows.will",
+        "text": "+[[2]] Racial vs Illusion Spells and Spell-likes (Stubborn)"
+      },
+      {
+        "target": "cl",
+        "text": "+[[2]] Racial to overcome Spell Resistance and Dispel Checks (Magic Aptitude)"
+      },
+      {
+        "target": "skill.pro",
+        "text": "+[[2]] Racial to a chosen Craft or Profession (Talented)"
+      }
+    ],
+    "creatureSubtypes": [
+      "tarutaru"
+    ],
+    "creatureTypes": [
+      "humanoid"
+    ],
+    "description": {
+      "value": "<p><em>Tarutarus resemble children in size, though this does not reflect their age; they do not seem to change their appearance at all as they age. Tarutarus lack the physical strength and durability of their fellow enlightened races as a result of their racial predilection towards magical study, but they command greater reserves of magical power as a result, and are the most studious and intelligent of the races.</em></p><h2>Standard Racial Traits</h2><ul><li><strong>Ability Score Racial Traits</strong>: Tarutarus are quick in both mind and body, but physically frail. They gain +2 <em>Dexterity</em>, +2 <em>Intelligence</em>, and –2 <em>Strength</em>.</li><li><strong>Type</strong>: Tarutarus are <em>Humanoid</em> creatures with the <em>tarutaru</em> subtype.</li><li><strong>Size</strong>: Tarutarus are Small creatures and thus gain a +1 <em>size bonus</em> to their AC, a +1 <em>size bonus</em> on attack rolls, a –1 penalty to their Combat Maneuver Bonus and Combat Maneuver Defense, and a +4 <em>size bonus</em> on Stealth checks.</li><li><strong>Base Speed (Slow Speed)</strong>: Tarutarus have a base speed of 20 feet on land.</li><li><strong>Languages</strong>: Tarutarus begin play speaking Common and Lalafellan. Tarutarus with high <em>Intelligence</em> scores can choose from the following: Draconic, Dwarven, Elvaan, Galkan, Giant, Goblin, and Orc.</li></ul><h3>Defense Racial Traits</h3><ul><li><strong>Defensive Training</strong>: Tarutarus get a +4 <em>dodge bonus</em> to AC against monsters of the <em>giant</em> subtype.</li><li><strong>Magic Resistant</strong>: Tarutarus get a +1 <em>racial bonus</em> on saving throws against spells or spell-like effects.</li><li><strong>Stubborn</strong>: Tarutarus gain a +2 <em>racial bonus</em> on Will saving throws to resist spells and spell-like abilities of the illusion school. If a tarutaru fails such a save, it receives another save 1 round later to prematurely end the effect (assuming the spell or spell-like ability has a duration greater than 1 round), at the same DC as the first.</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Magic Expert</strong>: Tarutarus gain a +2 <em>racial bonus</em> on Knowledge (Arcana) and Spellcraft checks.</li><li><strong>Talented</strong>: Tarutarus receive a +2 <em>racial bonus</em> on a Craft or Profession skill of their choice.</li></ul><h3>Magical Racial Traits</h3><ul><li><strong>Magic Aptitude</strong>: Tarutarus gain a +2 <em>racial bonus</em> on caster level checks made to overcome spell resistance and a +2 <em>racial bonus</em> on dispel checks.</li><li><strong>Magick Focus</strong>: Tarutarus gain a +2 <em>racial bonus</em> on concentration checks made to cast spells defensively.</li><li><strong>Spell-Like Ability (Sp)</strong>: Tarutarus can use @UUID[Compendium.pf1.spells.uqh87jz757r2cb7r]{Detect Magic} at will as a <em>spell-like ability</em> (<em>caster level</em> equal to the tarutaru's class level).</li></ul><h3>Senses Racial Traits</h3><ul><li><strong>Low-Light Vision</strong>: Tarutarus can see twice as far as a hume in starlight, moonlight, torchlight, and similar conditions of poor illumination.</li></ul>"
+    },
+    "languages": [
+      "common",
+      "lalafellan"
+    ],
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "Core Races - Tarutaru"
+      }
+    ],
+    "speeds": {
+      "land": 20
+    },
+    "tags": [
+      "Core",
+      "FFD20"
+    ]
+  },
+  "type": "race",
+  "effects": [],
+  "_key": "!items!5k4d51IMoHfc0sme"
+}

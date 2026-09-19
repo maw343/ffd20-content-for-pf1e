@@ -1,0 +1,81 @@
+{
+  "_id": "c86ed72928149d19",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Quench",
+  "system": {
+    "actions": [
+      {
+        "_id": "aae771e8237d1720",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "one 20-ft. cube/level (s) or one fire-based magic item"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 10))d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "will",
+          "description": "none or Will negates (object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Quench is often used to put out forest fires and other conflagrations",
+      "value": "<p>Quench is often used to put out forest fires and other conflagrations. It extinguishes all non-magical fires in its area. The spell also dispels any fire spells in its area, though you must succeed on a dispel check (1d20 +1 per caster level, maximum +15) against each spell to dispel it. The DC to dispel such spells is 11 + the caster level of the fire spell. Each creature with the fire subtype within the area of a quench spell takes 1d6 points of damage per caster level (maximum 10d6, no save allowed). Alternatively, you can target the spell on a single magic item that creates or controls flame. The item loses all its fire-based magical abilities for 1d4 hours unless it succeeds on a Will save. Artifacts are immune to this effect.</p>"
+    },
+    "descriptors": [
+      "fire",
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "druid": 3,
+        "geomancer": 3
+      }
+    },
+    "level": 3,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!c86ed72928149d19"
+}

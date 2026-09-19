@@ -1,0 +1,27 @@
+{
+  "_id": "kQOVuCKdbPw7TW14",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_13.jpg",
+  "name": "Fast Movement (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>A warrior that selects this talent increases his base speed by 10 ft.</p>"
+    },
+    "tag": "fastmovement",
+    "source": "Final Fantasy d20 - Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!kQOVuCKdbPw7TW14"
+}

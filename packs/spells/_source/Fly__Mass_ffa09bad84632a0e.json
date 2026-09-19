@@ -1,0 +1,66 @@
+{
+  "_id": "ffa09bad84632a0e",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Fly, Mass",
+  "system": {
+    "actions": [
+      {
+        "_id": "2131e9b3f0a13821",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature/level, no two of which can be more than 30 ft. apart"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions as Fly , except that it can target numerous creatures and lasts longer.",
+      "value": "<p>This spell functions as\nFly\n, except that it can target numerous creatures and lasts longer.</p>"
+    },
+    "descriptors": [
+      "wind"
+    ],
+    "learnedAt": {
+      "class": {
+        "astrologian": 7,
+        "blackmage": 7,
+        "druid": 7,
+        "whitemage": 7,
+        "geomancer": 7
+      }
+    },
+    "level": 7,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!ffa09bad84632a0e"
+}

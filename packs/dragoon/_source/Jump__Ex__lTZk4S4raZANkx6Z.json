@@ -1,0 +1,89 @@
+{
+  "_id": "lTZk4S4raZANkx6Z",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785616131917,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_12.jpg",
+  "name": "Jump (Ex)",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 1st level, a dragoon trains for years in the ability to leap astounding and even supernatural distances.</p><p>The dragoon adds his dragoon levels to all Acrobatic skill checks for jumping. A dragoon's ability to jump with his Acrobatic checks is treated as though he got a running start and has the Run feat, regardless of whether or not he gets a running start. The dragoon may long jump as part of a move action or charge action, allowing him to ignore difficult terrain for the distance he jumps. The dragoon uses his jump's Acrobatics check to resolve against all opponents CMD while long jumping or high jumping through threatened squares, but takes the +10 to DC for moving at full speed while doing so.</p><p>A dragoon's maximum jump distance is twice his base speed, instead of being limited by his normal base speed (30-foot land speed = 60-foot jump maximum). Starting at 3rd level and for every 3rd level thereafter, the dragoon further increases his maximum jump distance by an additional 10 feet.</p><p>Should the dragoon utilize any of his base speed for movement on his turn, subtract that distance from his maximum jump distance to determine the distance he has left to jump.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "jump",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": [
+        [
+          "Dragoon",
+          1
+        ]
+      ]
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {},
+    "source": "Final Fantasy d20 - Dragoon"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!lTZk4S4raZANkx6Z"
+}

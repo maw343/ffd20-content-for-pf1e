@@ -1,0 +1,82 @@
+{
+  "_id": "c84d0cc2028bd122",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Undead Touch",
+  "system": {
+    "actions": [
+      {
+        "_id": "960c4a6cf6a48b33",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "msak",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature or creatures touched (up to one/level)"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "touch": true,
+        "ability": {
+          "attack": "str",
+          "critMult": 2,
+          "critRange": 20
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 10))d6",
+              "types": [
+                "negative"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude partial or Will negates — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "A touch from your hand, which glows with blue energy, disrupts the life force of living creatures",
+      "value": "<p>A touch from your hand, which glows with blue energy, disrupts the life force of living creatures. Each touch channels dark energy that deals 1d6 points of shadow damage. The touched creature also takes 1 point of Strength damage unless it makes a successful Fortitude saving throw. You can use this melee touch attack up to one time per level. An undead creature you touch takes no damage of either sort, but it must make a successful Will saving throw or flee as if panicked for 1d4 rounds + 1 round per caster level.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "necromancer": 1
+      }
+    },
+    "level": 1,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!c84d0cc2028bd122"
+}

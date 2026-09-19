@@ -1,0 +1,27 @@
+{
+  "_id": "1B1H2jAxlbzGd69r",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Enemy Step (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Wall Jumping class feature</p><p>Treat corporeal creatures at least one size larger than yourself as walls when using the Wall Jumping class feature.</p>"
+    },
+    "tag": "enemystep",
+    "source": "Final Fantasy d20 - Dragoon Talents",
+    "associations": {
+      "classes": [
+        [
+          "Dragoon",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!1B1H2jAxlbzGd69r"
+}

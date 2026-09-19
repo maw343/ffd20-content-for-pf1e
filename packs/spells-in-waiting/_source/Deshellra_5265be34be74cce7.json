@@ -1,0 +1,68 @@
+{
+  "_id": "5265be34be74cce7",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Deshellra",
+  "system": {
+    "actions": [
+      {
+        "_id": "b7d9d3e170f0ac93",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "area": "20-ft.-radius burst",
+        "duration": {
+          "units": "round",
+          "value": "3 rounds + 1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Creatures within the area of effect have their magical resistance reduced",
+      "value": "<p>Creatures within the area of effect have their magical resistance reduced. Creatures in the area of effect are inflicted with the Deshell status effect that incurs a -2 penalty to Saving Throws versus spells, spell-like abilities, and supernatural abilities for the duration of the spell. Deshellra counters and dispels Shellra .</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 3,
+        "darkknight": 3,
+        "whitemage": 3
+      }
+    },
+    "level": 3,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!5265be34be74cce7"
+}

@@ -1,0 +1,68 @@
+{
+  "_id": "208a893682ccf8f9",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Shriek",
+  "system": {
+    "actions": [
+      {
+        "_id": "aa037b3f37504297",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "all creatures within a 30-ft.-radius centered on caster",
+        "duration": {
+          "units": "round",
+          "value": "1d4 rounds"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the unsettling shriek of a mandragora",
+      "value": "<p>The caster emulates the unsettling shriek of a mandragora. All creatures within 30 feet of the caster must make a Will save or become nauseated for 1d4 rounds. This is a sonic, mind-affecting effect. Learned From Mandragora Family</p>"
+    },
+    "descriptors": [
+      "sonic"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 2
+      }
+    },
+    "level": 2,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!208a893682ccf8f9"
+}

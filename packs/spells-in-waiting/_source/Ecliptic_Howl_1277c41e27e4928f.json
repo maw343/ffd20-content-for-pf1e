@@ -1,0 +1,67 @@
+{
+  "_id": "1277c41e27e4928f",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Ecliptic Howl",
+  "system": {
+    "actions": [
+      {
+        "_id": "06b01985043e0a8d",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "allies within a 30-ft.-radius centered on you",
+        "duration": {
+          "units": "round",
+          "value": "2d4 rounds"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates Fenrir’s ability to grant nearby allies a magical evasion and accuracy boost",
+      "value": "<p>The caster emulates Fenrir’s ability to grant nearby allies a magical evasion and accuracy boost. All allies get a +3 morale bonus to Attack rolls and a +3 dodge bonus to Armor Class for 2d4 rounds. Learned From Fenrir and Mandragora Family</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!1277c41e27e4928f"
+}

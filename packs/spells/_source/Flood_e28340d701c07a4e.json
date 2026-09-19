@@ -1,0 +1,77 @@
+{
+  "_id": "e28340d701c07a4e",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Flood",
+  "system": {
+    "actions": [
+      {
+        "_id": "53eff40f4275ca57",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 15))d6",
+              "types": [
+                "water"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude half — see description (Object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "A torrent of water rages towards the targeted creature, engulfing the target dealing 1d6 points of water damage per caster level (maximum 15d6) and inflicting the Drenched status effect for 1d6 rounds.",
+      "value": "<p>A torrent of water rages towards the targeted creature, engulfing the target dealing 1d6 points of water damage per caster level (maximum 15d6) and inflicting the Drenched status effect for 1d6 rounds. A successful Fortitude save reduces the damage by half and negates the status effect.</p>"
+    },
+    "descriptors": [
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 6
+      }
+    },
+    "level": 6,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!e28340d701c07a4e"
+}

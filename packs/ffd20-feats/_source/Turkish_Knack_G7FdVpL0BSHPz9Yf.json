@@ -1,0 +1,50 @@
+{
+  "_id": "G7FdVpL0BSHPz9Yf",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Turkish Knack",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Turkish Tactician Style, 7 ranks in Sense Motive, 3 ranks in Spellcraft or 3 ranks in Use Magic Device</p><p><strong>Benefit:</strong> While in Turkish Tactician Style and in melee range of a spell caster, you are treated as if you have the Disruptive feat. If you perform a successful Assessment against a creature that can cast spells, you can apply your insight bonus to all saves against that creature's spells and spell-like abilities.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "style",
+    "tag": "turkish_knack",
+    "requirements": "Turkish Tactician Style, 7 ranks in Sense Motive, 3 ranks in Spellcraft or 3 ranks in Use Magic Device",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-StyleFeats",
+        "pages": "Style Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!G7FdVpL0BSHPz9Yf"
+}

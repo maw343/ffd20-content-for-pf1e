@@ -1,0 +1,67 @@
+{
+  "_id": "aaeb7d9248ba015a",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Elemental Threnody",
+  "system": {
+    "actions": [
+      {
+        "_id": "f1d0c15b2110ee28",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "enemies within 30 ft. of you"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round",
+          "concentration": true
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You play an elemental song, crippling your enemies by lowering their resistance to elemental spells and effects.",
+      "value": "<p>You play an elemental song, crippling your enemies by lowering their resistance to elemental spells and effects. The bard chooses an element type: dark, earth, fire, ice, light, lightning, water, or wind. Each round this song is in effect, enemies within 30 feet of the bard suffer a –\n2 penalty to Saving Throws against Elemental (of the chosen type) spells and effects as well as reduces elemental (of the chosen type) resistance by –\n5.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bard": 1
+      }
+    },
+    "level": 1,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!aaeb7d9248ba015a"
+}

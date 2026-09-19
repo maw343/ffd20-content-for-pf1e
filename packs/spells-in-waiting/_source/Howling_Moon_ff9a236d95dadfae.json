@@ -1,0 +1,67 @@
+{
+  "_id": "ff9a236d95dadfae",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Howling Moon",
+  "system": {
+    "actions": [
+      {
+        "_id": "3e2c2ba7d8edd12f",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the howling veracity of a nakk",
+      "value": "<p>The caster emulates the howling veracity of a nakk. The caster goes into a berserk-like rage with haste. While berserk, he gains a +6 bonus to Strength and, if he makes a full attack action, gains a single extra attack each round at his highest bonus. However, he also takes a –4 penalty to Armor Class and takes 2 points of nonlethal damage per round. This status effect causes the character to fly into a rage attacking the nearest creature. The subject cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except for Acrobatics, Escape Artist, Intimidate, and Ride), or any abilities that require patience or concentration, nor can he cast spells or activate magic items that require a command word, a spell trigger (such as a materia), or spell completion to function. He can use any feat he has except Combat Expertise, item creation feats, and metamagic feats. Learned From nakk family</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 5
+      }
+    },
+    "level": 5,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!ff9a236d95dadfae"
+}

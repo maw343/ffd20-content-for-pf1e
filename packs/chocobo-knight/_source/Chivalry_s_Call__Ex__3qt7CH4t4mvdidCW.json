@@ -1,0 +1,58 @@
+{
+  "_id": "3qt7CH4t4mvdidCW",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Chivalry's Call (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>At 8th level, a chocobo knight can appeal to the honor of his comrade, freeing them from outside control. As a swift action, a chocobo knight may expend 3 rounds of his Commander's Aura to allow an ally within the range of his Aura to make another saving throw against a mind affecting effect, using the chocobo knight's total bonus to Will saving throws or their own bonus, whichever is higher.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "chivalrys_call_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Chocobo Knight"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Chocobo Knight",
+          8
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!3qt7CH4t4mvdidCW"
+}

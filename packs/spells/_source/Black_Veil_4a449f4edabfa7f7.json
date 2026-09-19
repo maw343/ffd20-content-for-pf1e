@@ -1,0 +1,78 @@
+{
+  "_id": "4a449f4edabfa7f7",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Black Veil",
+  "system": {
+    "actions": [
+      {
+        "_id": "c2aa839c97f48fd1",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1d6 rounds"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 10))d6",
+              "types": [
+                "negative"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Darkness clouds the target and explodes, dealing 1d6 points of shadow damage per caster level (maximum 10d6) and inflicting the Shaken st...",
+      "value": "<p>Darkness clouds the target and explodes, dealing 1d6 points of shadow damage per caster level (maximum 10d6) and inflicting the Shaken status effect for 1d6 rounds. A successful Reflex save reduces the damage by half and negates the status effect.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "ninja": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!4a449f4edabfa7f7"
+}

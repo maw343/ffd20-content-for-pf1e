@@ -1,0 +1,27 @@
+{
+  "_id": "4y9kFhkC7vpLAcg8",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_14.jpg",
+  "name": "Weapon Reach Flair (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>All two-handed weapons the warrior wields are considered to have the reach quality. While the warrior wields a weapon with the reach quality (including from this talent), he also threatens and may attack targets in adjacent squares with it.</p>"
+    },
+    "tag": "weaponreachflair",
+    "source": "Final Fantasy d20 - Advanced Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          12
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!4y9kFhkC7vpLAcg8"
+}

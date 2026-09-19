@@ -1,0 +1,58 @@
+{
+  "_id": "8ua4rWrKvFRlbryL",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Body Double (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 12th level, the illusionist may create an exact duplicate of himself made of shadowstuff as a full round action. The duplicate has half as many hit points as his hit point total and comes equipped with any non-magical gear he possesses. If reduced to 0 hit points, the duplicate immediately dissipates and any gear taken or given to others immediately dissipates. The duplicate lasts for a number of rounds equal to his illusionist level and uses his base attack bonus and his base saving throw bonuses. The duplicate has the same scores as the illusionist does for its physical abilities while it has a value of 10 for its Intelligence, Wisdom, and Charisma (using the illusionist's Charisma modifier for any spell casting requirements and benefits). His duplicate may cast any spells the illusionist possesses, but spells cast have the MP deducted from his MP pool. The duplicate may be dispelled with a dispel spell and will instantly vanish if it enters an anti-magic field. The illusionist may use this power once per day.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "body_double_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Illusionist"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Illusionist",
+          12
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!8ua4rWrKvFRlbryL"
+}

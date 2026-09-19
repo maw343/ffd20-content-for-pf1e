@@ -1,0 +1,58 @@
+{
+  "_id": "FJgJgKYdpxpMTSPr",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Detect Summons (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 4th level, as a swift action, a summoner can target a single creature he can see and determine if it has been summoned to its current plane from another. This ability reveals if the target has been conjured by a summoning spell, and allows the summoner to attempt a Spellcraft check to identify the spell that conjured it (using the same DC as if the summoner had witnessed the spell being cast).</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "detect_summons_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Summoner"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Summoner",
+          4
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!FJgJgKYdpxpMTSPr"
+}

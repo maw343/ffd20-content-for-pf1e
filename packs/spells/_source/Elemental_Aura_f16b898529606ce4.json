@@ -1,0 +1,76 @@
+{
+  "_id": "f16b898529606ce4",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Elemental Aura",
+  "system": {
+    "actions": [
+      {
+        "_id": "78752c1c905b2804",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "2d6",
+              "types": [
+                "elemental"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell forms an aura of elements around you, damaging all those that come near you.",
+      "value": "<p>This spell forms an aura of elements around you, damaging all those that come near you. Choose an elemental type: earth, fire, ice, lightning, water, or wind. Creatures adjacent to you when this spell is cast and at the start of your turn take 2d6 points of elemental damage of the selected type. This aura has an additional effect, depending upon the type of element chosen.\nEarth: Creatures affected by your aura are inflicted with the Weighted status effect.\nFire: Creatures affected by your aura are inflicted with the Burning status effect.\nIce: Creatures affected by your aura are inflicted with the Frozen status effect.\nLightning: Creatures affected by your aura are inflicted with the Static status effect.\nWater: Creatures affected by your aura are inflicted with the Drenched status effect.\nWind: Creatures affected by your aura are inflicted with the Squalled status effect.\nCreatures adjacent to you are allowed a Reflex save to halve the damage and negate the additional effect. The aura’s additional effects do not stack if a creature takes damage from your aura multiple times. You may only have one elemental aura in effect at one time. When you cast this spell to deal earth, fire, ice, lightning, water, or wind damage, it is a spell of that type.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 3,
+        "geomancer": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f16b898529606ce4"
+}

@@ -1,0 +1,69 @@
+{
+  "_id": "1c25e2875511a745",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Fearful Bay",
+  "system": {
+    "actions": [
+      {
+        "_id": "80f822e2be07f6b6",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "creatures within a 30-ft.-radius spread centered on you",
+        "duration": {
+          "units": "round",
+          "value": "1d4 rounds"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the howls and barks of a young black dragon",
+      "value": "<p>The caster emulates the howls and barks of a young black dragon. All creatures within a 30-foot spread except evil outsiders must succeed at a Will save or become panicked for 1d4 rounds. This is a sonic, mind-affecting fear effect. A creature that successfully saves cannot be affected by the same spell for 24 hours. Learned From Black Dragon Family and (magical beast ones) saberclaws family.</p>"
+    },
+    "descriptors": [
+      "sonic",
+      "evil"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!1c25e2875511a745"
+}

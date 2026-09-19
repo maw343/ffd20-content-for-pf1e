@@ -1,0 +1,61 @@
+{
+  "_id": "748c076b602f4bf9",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785718761456,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Automatic Fighter (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Engineer 8</p><p>This small clockwork construct is built with a single melee weapon and often resembles an armored knight, a terrible demon, or some other violent-looking form. As a full-round action, the engineer can deploy the automatic fighter in any adjacent unoccupied square. Once active, at the start of its turn the automatic fighter makes one attack against every enemy within reach of its weapon, using the engineer's base attack bonus + his Intelligence modifier and dealing the damage of the weapon + half of his engineer's level. It makes separate attack rolls for each opponent. Despite its size, it suffers no size penalties for utilizing weapons up to one category larger than itself. The construct is stationary and will continue to attack until deactivated with a standard action. Each round of activity burns a half pint of oil. The construct can hold up to 10 pints of oil at a time. The construct can be built with any melee weapon the engineer possesses. To change the weapon that the automatic fighter wields, the engineer must spend 20 gil and work for 1 hour to install new parts and readjust the construct's settings. The automatic fighter has 20 AC, hardness 10, 40 hit points, and counts as an object for the purposes of spells and effects. It weighs 50 pounds.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "automaticfighterex",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Engineer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Engineer Tricks - Gadgets"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!748c076b602f4bf9"
+}

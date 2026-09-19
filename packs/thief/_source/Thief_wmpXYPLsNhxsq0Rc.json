@@ -1,0 +1,280 @@
+{
+  "_id": "wmpXYPLsNhxsq0Rc",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785614451385,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_02.jpg",
+  "name": "Thief",
+  "system": {
+    "description": {
+      "value": "<p><em>Life is an endless adventure for those who live by their wits. Ever just one step ahead of danger, thieves bank on their cunning, skill, and charm to bend fate to their favor. Never knowing what to expect, they prepare for everything, becoming masters of a wide variety of skills, training themselves to be adept manipulators, agile acrobats, shadowy stalkers, or masters of any of dozens of other professions or talents.</em></p><p><em>Thieves and gamblers, fast talkers and diplomats, bandits and bounty hunters, and explorers and investigators all might be considered thieves, as well as countless other professions that rely upon wits, prowess, or luck. Although many thieves favor cities and the innumerable opportunities of civilization, some embrace lives on the road, journeying far, meeting exotic people, and facing fantastic danger in pursuit of equally fantastic riches. In the end, any who desire to shape their fates and live life on their own terms might come to be called thieves.</em></p><h2>Role</h2><p>Thieves excel at moving about unseen and catching foes unaware, and tend to avoid head-to-head combat. Their varied skills and abilities allow them to be highly versatile, with great variations in expertise existing between different thieves. Most, however, excel in overcoming hindrances of all types, from unlocking doors and disarming traps to outwitting magical hazards and conning dull-witted opponents.</p><h2>Class Skills</h2><p>The thief's class skills are Acrobatics (Dex), Appraise (Int), Bluff (Cha), Climb (Str), Craft (Int), Diplomacy (Cha), Disable Device (Dex), Disguise (Cha), Escape Artist (Dex), Intimidate (Cha), Knowledge (dungeoneering) (Int), Knowledge (local) (Int), Linguistics (Int), Perception (Wis), Perform (Cha), Profession (Wis), Sense Motive (Wis), Sleight of Hand (Dex), Stealth (Dex), Swim (Str), and Use Magic Device (Cha).</p><h2>Weapon and Armor Proficiency</h2><p>Thieves are proficient with all simple weapons, plus the chakram, hand crossbow, rapier, sap, shortbow, and shortsword. Thieves are proficient with light armor, but not with any type of shields.</p><h2>Main Ability Score</h2><p>The thief mainly focuses on Dexterity for martial combat, Intelligence for their class features, and Dexterity, Wisdom, and Charisma for optional class features.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "classAssociations": [
+        {
+          "name": "Limit Breaks",
+          "uuid": "Compendium.world.thief.Item.BUchfAvgbcU44rNz",
+          "level": 1
+        },
+        {
+          "name": "Sneak Attack",
+          "uuid": "Compendium.world.thief.Item.zLGztvIe8zDUYm8R",
+          "level": 1
+        },
+        {
+          "name": "Trapfinding",
+          "uuid": "Compendium.world.thief.Item.HNgb0X1C4qft1Ev5",
+          "level": 1
+        },
+        {
+          "name": "Finesse Training",
+          "uuid": "Compendium.world.thief.Item.RKNDjV1OJnSYPXRA",
+          "level": 1
+        },
+        {
+          "name": "Mark",
+          "uuid": "Compendium.world.thief.Item.52GNnorQssxXvoEw",
+          "level": 1
+        },
+        {
+          "name": "Evasion",
+          "uuid": "Compendium.world.thief.Item.JPmz76FS9pyQlYoD",
+          "level": 2
+        },
+        {
+          "name": "Thief Talents",
+          "uuid": "Compendium.world.thief.Item.lcZlAAiI5LzONfK1",
+          "level": 2
+        },
+        {
+          "name": "Measure the Mark",
+          "uuid": "Compendium.world.thief.Item.czO2jZkz6XNuhWlM",
+          "level": 3
+        },
+        {
+          "name": "Danger Sense",
+          "uuid": "Compendium.world.thief.Item.8PCDUFTpzxkzg1io",
+          "level": 3
+        },
+        {
+          "name": "Debilitating Injury",
+          "uuid": "Compendium.world.thief.Item.ym7yOgSLBiXbNWke",
+          "level": 4
+        },
+        {
+          "name": "Uncanny Dodge",
+          "uuid": "Compendium.world.thief.Item.dhYd55wFSTPk0wy6",
+          "level": 4
+        },
+        {
+          "name": "Improved Theft",
+          "uuid": "Compendium.world.thief.Item.urVCWrODt8kwTTtS",
+          "level": 5
+        },
+        {
+          "name": "Thief's Edge",
+          "uuid": "Compendium.world.thief.Item.rkyYFhAszXOB4FcW",
+          "level": 5
+        },
+        {
+          "name": "Skilled Liar",
+          "uuid": "Compendium.world.thief.Item.IpnNepuIN4RKgUhz",
+          "level": 7
+        },
+        {
+          "name": "Improved Uncanny Dodge",
+          "uuid": "Compendium.world.thief.Item.Z9Oxc89aC9ch0Csu",
+          "level": 8
+        },
+        {
+          "name": "Distraction",
+          "uuid": "Compendium.world.thief.Item.vQR0mTHAXr7bvPdD",
+          "level": 9
+        },
+        {
+          "name": "Mug",
+          "uuid": "Compendium.world.thief.Item.WKgtfqkuOH67Gbyx",
+          "level": 10
+        },
+        {
+          "name": "Thief Advanced Talents",
+          "uuid": "Compendium.world.thief.Item.iMbtDasx1CzyF2DT",
+          "level": 12
+        },
+        {
+          "name": "Skirmisher",
+          "uuid": "Compendium.world.thief.Item.83B6dazlYReec6nn",
+          "level": 13
+        },
+        {
+          "name": "Steal Life",
+          "uuid": "Compendium.world.thief.Item.HNdZdGmeOynOAYNC",
+          "level": 14
+        },
+        {
+          "name": "Theft Mastery",
+          "uuid": "Compendium.world.thief.Item.OnM1unHFBDN2aAk9",
+          "level": 15
+        },
+        {
+          "name": "Master of All",
+          "uuid": "Compendium.world.thief.Item.gU04kqrKn3o3J1Mj",
+          "level": 16
+        },
+        {
+          "name": "Hide in Plain Sight",
+          "uuid": "Compendium.world.thief.Item.UTylp5WoN0pG8NIa",
+          "level": 17
+        },
+        {
+          "name": "Shadow Step",
+          "uuid": "Compendium.world.thief.Item.rBQEZqBdAHwDMLCt",
+          "level": 19
+        },
+        {
+          "name": "Masterful Talent",
+          "uuid": "Compendium.world.thief.Item.prlW7xx5QTZzY0CF",
+          "level": 19
+        },
+        {
+          "name": "Master Strike",
+          "uuid": "Compendium.world.thief.Item.IYFlQ6ZssqbE2dBE",
+          "level": 20
+        }
+      ]
+    },
+    "tag": "thief",
+    "armorProf": [
+      "lgt"
+    ],
+    "weaponProf": [
+      "simple",
+      "Chakram",
+      "Hand Crossbow",
+      "Rapier",
+      "Sap",
+      "Shortbow",
+      "Shortsword"
+    ],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "base",
+    "level": 1,
+    "hd": 8,
+    "hp": 8,
+    "bab": "med",
+    "skillsPerLevel": 8,
+    "savingThrows": {
+      "fort": {
+        "value": "low"
+      },
+      "ref": {
+        "value": "high"
+      },
+      "will": {
+        "value": "low"
+      }
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "wealth": "4d6 * 10",
+    "alignment": "",
+    "classSkills": {
+      "acr": true,
+      "apr": true,
+      "blf": true,
+      "clm": true,
+      "crf": true,
+      "dip": true,
+      "dis": true,
+      "esc": true,
+      "int": true,
+      "kar": false,
+      "kdu": true,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": true,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": true,
+      "per": true,
+      "prf": true,
+      "pro": true,
+      "sen": true,
+      "slt": true,
+      "spl": false,
+      "stl": true,
+      "umd": true,
+      "art": false,
+      "ckg": false,
+      "dev": true,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "lor": false,
+      "rid": false,
+      "ste": false,
+      "sur": false,
+      "swm": true
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Thief"
+      }
+    ],
+    "customHD": "",
+    "casting": {
+      "type": ""
+    }
+  },
+  "type": "class",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!wmpXYPLsNhxsq0Rc"
+}

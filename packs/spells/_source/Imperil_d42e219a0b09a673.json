@@ -1,0 +1,76 @@
+{
+  "_id": "d42e219a0b09a673",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Imperil",
+  "system": {
+    "actions": [
+      {
+        "_id": "14c8fac41ccae72c",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "3d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "will",
+          "description": "Will partial"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "A swirl of color envelopes your target, dealing minor elemental damage and inflicting the Imperil status.",
+      "value": "<p>A swirl of color envelopes your target, dealing minor elemental damage and inflicting the\nImperil\nstatus.\nChoose an element (fire, ice, wind, earth, lightning, or water). This spell inflicts the\nImperil\nstatus and deals 3d6 damage of that element to the target. This spell can still inflict the status effect on creatures that are immune or absorb the element in question, though it cannot deal damage to them. A successful\nWill\nsave negates the\nImperil\nstatus and halves the damage. This spell is of the same type as the chosen element.\nThis spell cannot be affected by the\nElemental Spell\nfeat.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 2,
+        "redmage": 2
+      }
+    },
+    "level": 2,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d42e219a0b09a673"
+}

@@ -1,0 +1,89 @@
+{
+  "_id": "LmqmWqGkAuNX2SnF",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785616131917,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_12.jpg",
+  "name": "Deadly Lancer (Ex)",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 1st level, the dragoon hones the art of leveraging the impact of his jump attacks to devastate his foes. The dragoon adds a bonus amount of damage equal to 1d6 + an additional 1d6 for every two levels gained beyond 1st when performing a long jump attack, a high jump attack, or a dive attack with a melee weapon:</p><p><em>Long Jump Attack:</em> The dragoon makes an attack after a successful Acrobatics skill check to long jump at least 10 feet towards his target (whether as part of a charge, or after a move action made in the same round).</p><p><em>High Jump Attack:</em> The dragoon makes an attack after a successful Acrobatics skill check to high jump at least 10 feet towards a target (whether as part of a charge, or after a move action made in the same round) that possesses a higher altitude. For every 10 feet of vertical height he achieves, the dragoon may also move 5 feet horizontally, allowing a diagonal leap towards the target.</p><p><em>Dive Attack:</em> As a full-round action, the dragoon can attempt an Acrobatics skill check to perform a high jump. While airborne from this jump, he may target an enemy at a lower altitude within a range equal to half the altitude he achieves and perform a dive attack. If already airborne at the start of his turn due to flight or other movement, the dragoon may use his current altitude as the starting point for a dive attack as a full-round action.</p><p>Unless otherwise stated, a dive attack cannot be substituted for a combat maneuver. When performing a dive attack, the dragoon receives a +1 circumstance bonus to his attack for every 10 feet of altitude difference between him and his target. Additionally, he deals an extra 1d6 damage for every 10 feet of altitude difference (on top of the level-based scaling bonus damage stated earlier in this ability).</p><p>The total amount of extra damage dice and attack bonus gained from this ability is capped by the dragoon's level (ex: a 5th level dragoon cannot exceed a +5 attack bonus and 5d6 points of extra damage when performing a dive attack). On a successful dive attack, the dragoon lands within 10 feet of his target, taking falling damage as if he fell from his target's altitude (if applicable).</p><p>If the dive attack misses, the dragoon suffers falling damage as if he fell from the starting altitude of his dive attack, landing in the nearest available square next to his target, as if completing a charge. The dragoon cannot use a Fly skill check to negate this falling damage. If no space is available within the dragoon's landing range, he lands prone in the nearest open square. Any movement that is part of a dive attack does not provoke attacks of opportunity, and any distance traveled that is part of a dive attack does not contribute to the dragoon's maximum jump distance.</p><p>Additional damage gained from this ability is not multiplied on a critical hit or any class feature that multiplies damage.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "deadlylancer",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": [
+        [
+          "Dragoon",
+          1
+        ]
+      ]
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {},
+    "source": "Final Fantasy d20 - Dragoon"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!LmqmWqGkAuNX2SnF"
+}

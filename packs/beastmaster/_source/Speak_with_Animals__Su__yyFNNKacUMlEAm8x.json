@@ -1,0 +1,27 @@
+{
+  "_id": "yyFNNKacUMlEAm8x",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_12.jpg",
+  "name": "Speak with Animals (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 6th level, the beastmaster may comprehend and communicate at will with all animals, magical beasts and vermin.</p>"
+    },
+    "tag": "speakwithanimals",
+    "source": "Final Fantasy d20 - Beastmaster",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          6
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!yyFNNKacUMlEAm8x"
+}

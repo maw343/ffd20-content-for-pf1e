@@ -1,0 +1,50 @@
+{
+  "_id": "WpBtA2ryFTKz7YO9",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Blockout",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Ability to cast 2nd-level spells, Elemental Focus (Earth)</p><p><strong>Benefit:</strong> As long as you have an elemental (earth) spell of 2nd level or higher in your known spells and have at least 2 MP in your MP pool, as a standard action you may create a 5 by 5 by 5 ft block of material in an unoccupied space adjacent to you, which remains in place for up to 5 rounds before vanishing. The type of material the block is made out of depends on the highest level earth spell you can cast (paper at 1st level, up to a block of iron at 9th level). As a secondary benefit, you gain a +1 competence bonus to your caster level when casting elemental (earth) spells.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "reserve",
+    "tag": "blockout",
+    "requirements": "Ability to cast 2nd-level spells, Elemental Focus (Earth)",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-ReserveFeats",
+        "pages": "Reserve Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!WpBtA2ryFTKz7YO9"
+}

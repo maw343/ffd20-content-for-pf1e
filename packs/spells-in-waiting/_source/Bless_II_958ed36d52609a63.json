@@ -1,0 +1,68 @@
+{
+  "_id": "958ed36d52609a63",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Bless II",
+  "system": {
+    "actions": [
+      {
+        "_id": "bdf5cfe11b1829be",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "heal",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 15))d8",
+              "types": [
+                "healing"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Bless , except it heals for 1d8 points of damage per caster level (maximum 15d8) and the area of effect spreads...",
+      "value": "<p>This spell functions like Bless , except it heals for 1d8 points of damage per caster level (maximum 15d8) and the area of effect spreads out to 30 feet instead. Every affected creature receives Fast Healing 4 for 1 round per caster level.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 7
+      }
+    },
+    "level": 7,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!958ed36d52609a63"
+}

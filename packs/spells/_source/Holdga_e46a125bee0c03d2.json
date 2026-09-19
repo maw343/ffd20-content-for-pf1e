@@ -1,0 +1,54 @@
+{
+  "_id": "e46a125bee0c03d2",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Holdga",
+  "system": {
+    "actions": [
+      {
+        "_id": "cb3ace9fa29a2fc9",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The spell functions like Hold , except it affects one creature/two levels (maximum of 5) within 30 feet of each other.",
+      "value": "<p>The spell functions like\nHold\n, except it affects one creature/two levels (maximum of 5) within 30 feet of each other.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!e46a125bee0c03d2"
+}

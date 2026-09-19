@@ -1,0 +1,75 @@
+{
+  "_id": "a8307769313ce614",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Mind Blast",
+  "system": {
+    "actions": [
+      {
+        "_id": "23a0dfd2dbb569bc",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "60 ft"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous/1d4 rounds"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "8d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "will",
+          "description": "Will half — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates a mindflayer’s psychic static towards a target within 60 feet",
+      "value": "<p>The caster emulates a mindflayer’s psychic static towards a target within 60 feet. The target takes 8d6 points of non-elemental damage and has the Stunned status effect for 1d4 rounds unless the target makes a Will save. A successful Will save halves the damage and negates the status effects. This ability is considered a mind-affecting effect. Learned From Mindflayer Family, Soulflayer Family, and Kaiser Dragon.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 5
+      }
+    },
+    "level": 5,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a8307769313ce614"
+}

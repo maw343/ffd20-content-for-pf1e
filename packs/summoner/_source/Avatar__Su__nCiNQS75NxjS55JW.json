@@ -1,0 +1,58 @@
+{
+  "_id": "nCiNQS75NxjS55JW",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Avatar (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 1st level, a summoner begins play with the ability to summon to his side a powerful outsider called an avatar. The summoner must choose which avatar to form a pact with, from the following: Alexander, Anima, Bahamut, Bismarck, Carbuncle, Diabolos, Fenrir, Garuda, Ifrit, Ixion, Leviathan, Odin, Phoenix, Ramuh, Shiva, Siren, Titan, Valefor, or Yojimbo. Once chosen, the avatar forms a link with the summoner, who summons an aspect of the same creature. An avatar has the same alignment as the summoner that calls it and can speak all of his languages. Avatars are treated as summoned creatures, except that they are not sent back to their home plane until reduced to a number of negative hit points equal to or greater than their Constitution score. The summoner may only have one pact with a specific avatar. A summoner can summon his avatar in a ritual that takes 1 minute to perform. The avatar's Hit Dice, saving throws, skills, feats, and abilities are tied to the summoner's class level and increase as the summoner gains levels, advancing using the Avatar Base Statistics table (gaining Darkvision, Link, and MP Pool at 1st, Evasion at 2nd, Magic Attacks at 4th, Ability Score Increases at 5th/10th/15th, Devotion at 6th, Multiattack at 8th, and Improved Evasion at 14th). The avatar and the summoner must remain within 100 feet of one another for the avatar to remain at full strength; beyond that range its hit points are progressively reduced, and beyond 10,000 feet it is returned to its home plane.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "avatar_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Summoner"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Summoner",
+          1
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!nCiNQS75NxjS55JW"
+}

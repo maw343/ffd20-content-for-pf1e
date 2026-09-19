@@ -1,0 +1,54 @@
+{
+  "_id": "c4aaf0a23b16d3cf",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Shellra IV",
+  "system": {
+    "actions": [
+      {
+        "_id": "734b742ea42f7aef",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Shellra , except the targets gain a +8 resistance bonus to Saving Throws versus spells, spell-like abilities, and supernatural abilities for the duration of the spell.",
+      "value": "<p>This spell functions like\nShellra\n, except the targets gain a +8 resistance bonus to Saving Throws versus spells, spell-like abilities, and supernatural abilities for the duration of the spell.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!c4aaf0a23b16d3cf"
+}

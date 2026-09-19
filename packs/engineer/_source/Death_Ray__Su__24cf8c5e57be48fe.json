@@ -1,0 +1,61 @@
+{
+  "_id": "24cf8c5e57be48fe",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785718761458,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Death Ray (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Engineer 6</p><p>Every engineer starts with a basic creative impulse—the urge to destroy those that mock or deride him. To this end, an engineer starts his career with the construction of a death ray, a personal weapon that can inflict lethal harm against his foes. The \"death ray\" is a one-handed ranged weapon or a two-handed ranged weapon with a range increment of 30 feet. It makes attacks as a ranged touch attack and deals lightning damage equal to 1d4 (1h) or 1d6 (2h) + the engineer's Intelligence modifier with a crit range of 20/x2. Firing the death ray is a standard action. Switching between 1h to 2h or vice versa requires a move action. The death ray can be used a number of times each day equal to twice the engineer's class level + the engineer's Intelligence modifier. Each day, the engineer must spend one minute per daily use recharging the device with his own magical aura (generally by sitting quietly and tinkering with the device for that time). The engineer is considered to be proficient in his own death ray, though he cannot use another engineer's death ray any more than anyone else. The death ray only works for the engineer, and he can only have one in existence at a time; if his death ray is stolen or destroyed, it takes one day of work and appropriate tools to build a new one. The death ray is a physical device; it must be stored and drawn like any other weapon, it can be stolen, and it is vulnerable to being destroyed. The death ray has a hardness of 5 + the engineer's class level, and hit points equal to 20 + the engineer's class level. The damage of an engineer's death ray increases by 1 additional die for every two engineer levels after 6th (the death ray's damage is not multiplied by using feats such as Vital Strike).</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "deathraysu",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Engineer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Engineer Tricks - Gadgets"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!24cf8c5e57be48fe"
+}

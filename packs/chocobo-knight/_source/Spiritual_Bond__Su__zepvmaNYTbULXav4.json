@@ -1,0 +1,58 @@
+{
+  "_id": "zepvmaNYTbULXav4",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Spiritual Bond (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 18th level, the chocobo knight can grant his mount temporary hit points equal to his chocobo knight level once per day. While these temporary hit points last, when his mount is within 30 feet of him, he can choose to take the damage taken by his mount. The chocobo knight cannot take damage using this feature, if under the secondary effect of Rider's Bond.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "spiritual_bond_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Chocobo Knight"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Chocobo Knight",
+          18
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!zepvmaNYTbULXav4"
+}

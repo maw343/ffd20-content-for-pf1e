@@ -1,0 +1,66 @@
+{
+  "_id": "f570c2c957c2d0fa",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Keen",
+  "system": {
+    "actions": [
+      {
+        "_id": "3ecf01321dfadbfd",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "weapon touched or 50 projectiles, all of which must be together at the time of casting"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless, object)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell makes a weapon magically keen , improving its ability to deal telling blows.",
+      "value": "<p>This spell makes a weapon magically\nkeen\n, improving its ability to deal telling blows. This transmutation doubles the threat range of the weapon. A threat range of 20 becomes 19-20, a threat range of 19-20 becomes 17-20, and a threat range of 18-20 becomes 15-20. The spell can be cast only on piercing or slashing weapons. If cast on arrows or crossbow bolts, the\nkeen\non a particular projectile ends after one use, whether or not the missile strikes its intended target. Treat shuriken as arrows, rather than as thrown weapons, for the purpose of this spell. Multiple effects that increase a weapon’s threat range (such as the\nkeen\nspecial weapon property and the\nImproved Critical\nfeat) don’t stack. You can’t cast this spell on a natural weapon, such as a claw.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "redmage": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f570c2c957c2d0fa"
+}

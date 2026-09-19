@@ -1,0 +1,71 @@
+{
+  "_id": "0dcd780cbf7df972",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Hailstorm",
+  "system": {
+    "actions": [
+      {
+        "_id": "2d36bd229cbea7e9",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "20 ft"
+        },
+        "area": "20-ft.-radius spread, centered on you",
+        "duration": {
+          "units": "spec"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "3d6",
+              "types": [
+                "bludgeoning"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates Shiva’s ability to summon a hailstorm",
+      "value": "<p>The caster emulates Shiva’s ability to summon a hailstorm. Creatures within the area of effect take 3d6 points of bludgeoning damage and 2d6 points of ice damage every turn. A successful Reflex save halves the damage on each instance of damage. Learned From Ice Golem, Kaiser Dragon, and Shiva</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 5
+      }
+    },
+    "level": 5,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!0dcd780cbf7df972"
+}

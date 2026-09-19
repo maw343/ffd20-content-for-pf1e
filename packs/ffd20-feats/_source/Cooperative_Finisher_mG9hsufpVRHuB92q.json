@@ -1,0 +1,50 @@
+{
+  "_id": "mG9hsufpVRHuB92q",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Cooperative Finisher",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Combo Finisher/Finishing Move class feature</p><p><strong>Benefit:</strong> When using combo techniques, you or an ally with this teamwork feat can fulfill the requirements for a combo finisher/finishing move by performing the exact steps in the combo finisher. For example, a monk performing Boot Shine, hits with Strong Kick, and then an ally with this feat hits with Knee Thrust, either the ally or the monk can perform the combo finisher on their turn or the next (for the monk). The combo finisher must use the same type of techniques to perform it.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "teamwork",
+    "tag": "cooperative_finisher",
+    "requirements": "Combo Finisher/Finishing Move class feature",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-TeamworkFeats",
+        "pages": "Teamwork Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!mG9hsufpVRHuB92q"
+}

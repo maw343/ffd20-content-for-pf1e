@@ -1,0 +1,68 @@
+{
+  "_id": "626b75e83ecb1958",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Fear Filled Tune",
+  "system": {
+    "actions": [
+      {
+        "_id": "db6ac1c76e9f9345",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "Range close (25 ft. + 5 ft./2 levels) Target one living creature with 5 or fewer HD"
+        },
+        "duration": {
+          "units": "spec"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will partial"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The affected creature becomes frightened.",
+      "value": "<p>The affected creature becomes\nfrightened\n.\nA\nfrightened\ncreature flees from the source of its fear as best it can. If unable to flee, it may fight. A\nfrightened\ncreature takes a –2 penalty on all attack rolls, saving throws, skill checks, and ability checks. A\nfrightened\ncreature can use special abilities, including spells, to flee; indeed, the creature must use such means if they are the only way to escape. If the subject succeeds on a Will save, it is\nshaken\nfor 1 round.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bard": 1
+      }
+    },
+    "level": 1,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "fear",
+      "mind-affecting"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!626b75e83ecb1958"
+}

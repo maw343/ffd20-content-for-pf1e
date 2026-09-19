@@ -1,0 +1,68 @@
+{
+  "_id": "18d19927387ba4d9",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Hidden Presence",
+  "system": {
+    "actions": [
+      {
+        "_id": "ded8fd374fdcffbb",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "up to one creature per 3 caster levels"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You prevent the targets from having conscious awareness of your presence",
+      "value": "<p>You prevent the targets from having conscious awareness of your presence. You make yourself completely undetectable to the subjects by erasing all awareness of your presence from their minds. The targets can’t see, hear, smell, feel, or taste you, including with extraordinary or supernatural senses such as blindsense, blindsight, scent, or tremorsense. They can’t pinpoint your location by any means, including detect spells. The targets remain unaware of your actions, provided you don’t make any attacks or cause any obvious or directly threatening changes in the targets’ environment. If you attack any of the target creatures, the effect ends. If you take an action that creates a sustained and obvious change in the target’s environment—for example, attacking a creature other than a target or moving a sizeable or attended object the target can see—the target immediately receives a new saving throw.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 2
+      }
+    },
+    "level": 2,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!18d19927387ba4d9"
+}

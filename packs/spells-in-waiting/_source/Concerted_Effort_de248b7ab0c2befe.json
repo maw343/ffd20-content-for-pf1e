@@ -1,0 +1,71 @@
+{
+  "_id": "de248b7ab0c2befe",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Concerted Effort",
+  "system": {
+    "actions": [
+      {
+        "_id": "0d2406786235c2d6",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "personal / one creature within 30 ft. (see text)"
+        },
+        "duration": {
+          "units": "spec",
+          "value": "1 minute / 1d6 rounds (see text)"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the Wladislaus Cie’th’s ability to imbue his allies with an empowering, supernatural fervor as he slices through his ...",
+      "value": "<p>The caster emulates the Wladislaus Cie’th’s ability to imbue his allies with an empowering, supernatural fervor as he slices through his enemies. For 1 minute, whenever the caster makes a successful attack, any single ally apart from the caster itself within 30 ft. may be granted the effects of a protect , shell , or wind runner spell for 1d6 rounds; if the ally is adjacent or the caster lands a successful critical hit, he may grant an ally the effects of protect II , shell II , or haste instead. If the caster lands a critical hit and the ally he grants an effect on is adjacent to him, he may offer protect II and barrier , shell II and elemental resistance (three elements of his choice), or haste and enspell II (element chosen by the caster, applies to first attack made every round for the duration of the effect). Learned From wladislaus cie’th</p>"
+    },
+    "descriptors": [
+      "wind"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 6
+      }
+    },
+    "level": 6,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!de248b7ab0c2befe"
+}

@@ -1,0 +1,65 @@
+{
+  "_id": "75be0be4d55ae599",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Syphon",
+  "system": {
+    "actions": [
+      {
+        "_id": "47c40b84a10ceae6",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "With but a touch, you siphon MP from your victim and increase your own.",
+      "value": "<p>With but a touch, you siphon MP from your victim and increase your own. The target must make a Fortitude save or lose 1d6 points of MP per two caster levels (maximum of 5d6). If the save fails, the caster gains that many in MP. If used against enemy summoned creatures it is less effective, the target takes full MP damage whereas the caster only drains half on a failed save. This spell does not work when used on an allied summoned creature, either through a Summon spell, Limit Break, or other summon ability.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 6,
+        "necromancer": 6
+      }
+    },
+    "level": 6,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!75be0be4d55ae599"
+}

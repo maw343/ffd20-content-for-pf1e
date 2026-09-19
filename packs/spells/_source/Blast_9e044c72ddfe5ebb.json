@@ -1,0 +1,133 @@
+{
+  "_id": "9e044c72ddfe5ebb",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785691094868,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Blast",
+  "system": {
+    "description": {
+      "value": "<p>The target for this spell requires the Squalled status effect to be in effect. Once you cast this spell, the Squalled status effect is removed and the creature knocked back 5 feet by a gust of wind. The target must also make a DC 15 Acrobatics to not fall prone.</p>",
+      "instructions": "",
+      "summary": "The target for this spell requires the Squalled status effect to be in effect."
+    },
+    "tags": [],
+    "actions": [
+      {
+        "_id": "da97eb9db2246721",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "effect": "one creature afflicted with Squalled status effect",
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex negates"
+        }
+      }
+    ],
+    "attackNotes": [],
+    "effectNotes": [],
+    "links": {
+      "children": []
+    },
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 1
+      },
+      "domain": {},
+      "subDomain": {},
+      "elementalSchool": {},
+      "bloodline": {}
+    },
+    "level": 1,
+    "clOffset": 0,
+    "slOffset": 0,
+    "school": "evo",
+    "subschool": [],
+    "descriptors": [
+      "wind"
+    ],
+    "components": {
+      "value": "",
+      "verbal": true,
+      "somatic": true,
+      "thought": false,
+      "emotion": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": 0
+    },
+    "materials": {
+      "value": "",
+      "focus": "",
+      "gpValue": 0
+    },
+    "spellbook": "",
+    "preparation": {
+      "value": 0,
+      "max": 0
+    },
+    "uses": {
+      "autoDeductChargesCost": ""
+    },
+    "atWill": false,
+    "sr": true,
+    "showInQuickbar": false,
+    "domain": false,
+    "slotCost": 1,
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "showInCombat": false,
+    "clCheck": false
+  },
+  "type": "spell",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
+    }
+  },
+  "_key": "!items!9e044c72ddfe5ebb"
+}

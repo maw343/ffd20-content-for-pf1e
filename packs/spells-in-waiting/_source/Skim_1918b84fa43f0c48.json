@@ -1,0 +1,62 @@
+{
+  "_id": "1918b84fa43f0c48",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Skim",
+  "system": {
+    "actions": [
+      {
+        "_id": "ef937a8bd267b85e",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "1 hour/level DESCRIPTION This spell allows you to read written material in a quarter of the time it would normally take to read it. If you use this spell in conjunction with comprehend languages , you can read otherwise incomprehensible text four times faster than the spell indicates. If the text is fragmented, is particularly difficult to understand, or otherwise requires an ability check or skill check (such as a Linguistics check) to read quickly or at all, this spell doesn’t directly increase your reading speed, but instead grants you a +8 bonus on the check. This bonus also applies to Research checks when you research a particular topic within a library."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell allows you to read written material in a quarter of the time it would normally take to read it",
+      "value": "<p>This spell allows you to read written material in a quarter of the time it would normally take to read it. If you use this spell in conjunction with comprehend languages , you can read otherwise incomprehensible text four times faster than the spell indicates. If the text is fragmented, is particularly difficult to understand, or otherwise requires an ability check or skill check (such as a Linguistics check) to read quickly or at all, this spell doesn’t directly increase your reading speed, but instead grants you a +8 bonus on the check. This bonus also applies to Research checks when you research a particular topic within a library.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 1,
+        "timemage": 1
+      }
+    },
+    "level": 1,
+    "school": "div",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!1918b84fa43f0c48"
+}

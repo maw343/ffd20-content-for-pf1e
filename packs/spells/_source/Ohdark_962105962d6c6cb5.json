@@ -1,0 +1,62 @@
+{
+  "_id": "962105962d6c6cb5",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Ohdark",
+  "system": {
+    "actions": [
+      {
+        "_id": "0615513e4bdb2069",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "weapon touched"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level or until discharged"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Upon casting this spell, the caster infuses the weapon touched with shadow energy",
+      "value": "<p>Upon casting this spell, the caster infuses the weapon touched with shadow energy. The next time this weapon strikes a creature, it discharges the shadow energy. The weapon deals shadow damage instead of the physical damage it would normally do. The weapon loses this property if its wielder drops it or otherwise loses contact with it.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "darkknight": 1
+      }
+    },
+    "level": 1,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!962105962d6c6cb5"
+}

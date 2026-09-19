@@ -1,0 +1,62 @@
+{
+  "_id": "3e083458fdd6f385",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Shelter Outside of Time",
+  "system": {
+    "actions": [
+      {
+        "_id": "ada606d1a2ba9499",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "one 5 ft. cube of space"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "6 hours/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "During the spell, you inscribe runes around a single square of space",
+      "value": "<p>During the spell, you inscribe runes around a single square of space. All creatures and objects within that square at the conclusion of the casting of this spell are instantly transferred to a temporary extradimensional space in which time does not pass and are considered in stasis. Creatures or objects that are only partially within the space are not transferred. Once the spell ends, the extradimensional space disappears, and any creatures or objects in the extradimensional space appear in the nearest unoccupied space to the original square exactly the same as when they left. You cannot dismiss this spell once it has been cast.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 3
+      }
+    },
+    "level": 3,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!3e083458fdd6f385"
+}

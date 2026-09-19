@@ -1,0 +1,102 @@
+{
+  "_id": "m9dqWqwKT9PUnfcG",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "folder": "RWSoA7Fj9yqo0y9U",
+  "img": "systems/pf1/icons/races/elf.png",
+  "name": "Elvaan",
+  "system": {
+    "changes": [
+      {
+        "_id": "7n0gvnc0",
+        "formula": "2",
+        "target": "str",
+        "type": "racial"
+      },
+      {
+        "_id": "x3iixsui",
+        "formula": "2",
+        "target": "wis",
+        "type": "racial"
+      },
+      {
+        "_id": "yvkz5e9a",
+        "formula": "-2",
+        "target": "dex",
+        "type": "racial"
+      },
+      {
+        "_id": "t57xok53",
+        "formula": "2",
+        "target": "skill.per",
+        "type": "racial"
+      },
+      {
+        "_id": "x4uew9r0",
+        "formula": "2",
+        "target": "skill.kno",
+        "type": "racial"
+      },
+      {
+        "_id": "f6imr1mn",
+        "formula": "2",
+        "target": "skill.khi",
+        "type": "racial"
+      }
+    ],
+    "classSkills": {
+      "kno": true,
+      "khi": true
+    },
+    "contextNotes": [
+      {
+        "target": "allSavingThrows",
+        "text": "+[[2]] Racial vs Fear Effects"
+      },
+      {
+        "target": "cmb",
+        "text": "+[[2]] Racial to Sunder Combat Maneuver Checks"
+      },
+      {
+        "target": "attack",
+        "text": "+[[1]] Racial vs Humanoids (Orc, Goblin)"
+      }
+    ],
+    "creatureSubtypes": [
+      "elvaan"
+    ],
+    "creatureTypes": [
+      "humanoid"
+    ],
+    "description": {
+      "value": "<p><em>The race that benefited most from the end of tarutaru monopoly of magic was the elvaan of San d’Oria. Having formed two incredibly fearless orders of knights, the elvaans subjugated just about the whole of the Quon continent. A strong sense of faith and pride means that the elvaans are essentially an aristocratic race. Both male and female elvaans are known to be swordsmen of the highest order because of their strength of mind and vitality. Physically and mentally, the elvaans are suited for combat roles.</em></p><h2>Standard Racial Traits</h2><ul><li><strong>Ability Score Racial Traits</strong>: Elvaan are very wise and physically strong, but aren’t very graceful compared to other races. They gain +2 <em>Strength</em>, +2 <em>Wisdom</em>, and –2 <em>Dexterity</em>.</li><li><strong>Size</strong>: Elvaans are Medium creatures and thus receive no bonuses or penalties due to their size.</li><li><strong>Type</strong>: Elvaans are <em>Humanoids</em> with the <em>elvaan</em> subtype.</li><li><strong>Base Speed</strong>: Elvaans have a base speed of 30 feet.</li><li><strong>Languages</strong>: Elvaans begin play speaking Common and Elvaan. Elvaans with high <em>Intelligence</em> scores can choose from the following: Celestial, Draconic, Galkan, Goblin, Lalafellan, Mithran, and Orc.</li></ul><h3>Defense Racial Traits</h3><ul><li><strong>Fearless</strong>: Elvaans gain a +2 <em>racial bonus</em> on all saving throws against fear effects.</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Keen Senses</strong>: Elvaans receive a +2 <em>racial bonus</em> on Perception checks.</li><li><strong>Martial Background</strong>: Elvaans receive the Weapon Focus feat for free at first level, and may apply it to any single weapon they are proficient in.</li><li><strong>Noble Upbringing</strong>: Elvaans take great pride in their history, culture, and government. They receive a +2 bonus on Knowledge (nobility) and Knowledge (history) checks and treat these skills as class skills.</li></ul><h3>Offense Racial Traits</h3><ul><li><strong>Gatecrasher</strong>: Elvaans gain a +2 <em>racial bonus</em> on Strength checks to break objects and a +2 <em>racial bonus</em> on combat maneuver checks to sunder.</li><li><strong>Hatred</strong>: Elvaans receive a +1 bonus on <em>attack rolls</em> against humanoid creatures of the orc and goblin subtypes due to special training against these hated foes.</li><li><strong>Weapon Familiarity</strong>: Elvaans are proficient with longbows (including composite longbows), longswords, rapiers, and shortbows (including composite shortbows).</li></ul><h3>Senses Racial Traits</h3><ul><li><strong>Low-Light Vision</strong>: An elvaan can see twice as far as a hume in starlight, moonlight, torchlight, and similar conditions of poor illumination.</li></ul>"
+    },
+    "languages": [
+      "common",
+      "elvaan"
+    ],
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "Core Races - Elvaan"
+      }
+    ],
+    "speeds": {
+      "land": 30
+    },
+    "tags": [
+      "Core",
+      "FFD20"
+    ],
+    "weaponProf": [
+      "Longbow",
+      "Longsword",
+      "Rapier",
+      "Shortbow"
+    ]
+  },
+  "type": "race",
+  "effects": [],
+  "_key": "!items!m9dqWqwKT9PUnfcG"
+}

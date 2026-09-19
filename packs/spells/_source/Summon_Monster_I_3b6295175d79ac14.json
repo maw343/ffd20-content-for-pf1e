@@ -1,0 +1,70 @@
+{
+  "_id": "3b6295175d79ac14",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Summon Monster I",
+  "system": {
+    "actions": [
+      {
+        "_id": "c5e31f8e8a4c2853",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one summoned creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Table: Summon Monster I Creature Subtype(s) Dire Rat* [(holy/shadow)] Sharkling* (Aquatic [holy/shadow]) Zuu Hatchling* (Avian [holy/shad...",
+      "value": "<p>Table: Summon Monster I Creature Subtype(s) Dire Rat* [(holy/shadow)] Sharkling* (Aquatic [holy/shadow]) Zuu Hatchling* (Avian [holy/shadow]) Nakk Pup* [(holy/shadow)] This spell summons an extraplanar creature (typically an outsider, elemental, or magical beast native to another plane) with a CR rating of 1/3 or lower from the Table: Summon Monster I . It appears where you designate and acts immediately, on your turn. It attacks your opponents to the best of its ability. If you can communicate with the creature, you can direct it not to attack, to attack particular enemies, or to perform other actions. You choose which kind of creature to summon, and you can choose a different one each time you cast the spell. Creatures summoned with this spell, or any higher variants, cannot have the Archfiend , Mini-Boss , Boss , Super Boss , or Primal subtypes. This spell conjures one of the creatures from the 1st Level list on Table: Summon Monster . You choose which kind of creature to summon, and you can choose a different one each time you cast the spell. The full list of Summoned Creatures can be found here . A summoned monster cannot summon or otherwise conjure, create, animate, or make another creature appear, nor can it use any teleportation or planar travel abilities. Creatures cannot be summoned into an environment that cannot support them. Creatures summoned using this spell cannot use spells or spell-like abilities that duplicate spells with expensive material components, nor can they use any beneficial items that they come with on any creature but themselves, they also cannot restore the MP of any creature except themselves. Creatures on Table: Summon Monster marked with an “*” are summoned with the Divine template , if you are good, and the Unholy template , if you are evil. If you are neutral, you may choose which template to apply to the creature. Creatures marked with an “*” always have an alignment that matches yours, regardless of their usual alignment. Summon Limitations: Since summoned creatures can bog down combat encounters, as well as overwhelm due to numbers, GMs may feel the need to limit the amount of summon spells active at once. Ask your GM which of the following rules they follow, Single Limit is the default: Single Limit: You can only have 1 summon spell active at any one time. Another casting of a summon spell will replace the previous creature/s Ability Modifier Limit: You can only have summoned a number of creatures equal to your casting modifier. Any creature/s over the limit can replace previous creatures or won’t be summoned. No Limits: You can summon as many creatures as you wish. Summon Monster II School summoning; Level dark knight 2, summoner 2 DESCRIPTION Table: Summon Monster II Creature Subtype(s) Centipede* [(holy/shadow)] Cave Bat* (Avian, [holy/shadow]) Cobra* (Reptilian, [holy/shadow]) Elemental (Minor) (Elemental, Extraplanar) Hedgehog Pie (Daemon, Evil, Extraplanar) Gremlin (Devil, Evil, Extraplanar, Lawful) Imp (Devil, Evil, Extraplanar, Lawful) Tarantula* [(holy/shadow)] Wolf* [(holy/shadow)] Vulture* (Avian, [holy/shadow]) This spell functions like Summon Monster I , except that you can summon one creature from the 2nd-level list with a CR rating of 1 or lower, or 1d3 creatures of the same kind from the 1st-level list . Summon Monster III School summoning; Level dark knight 3, summoner 3 DESCRIPTION Table: Summon Monster III Creature Subtype(s) Albino Snake* (Reptilian, [holy/shadow]) Dark Hedgehog (Daemon, Evil, Extraplanar) Giant Crab* (Aquatic, [holy/shadow]) Hundlegs* [(holy/shadow)] Imp Devil (Devil, Evil, Extraplanar, Lawful) Poison Bat* (Avian, [holy/shadow]) Raldo* [(holy/shadow)] Shark* (Aquatic, [holy/shadow]) Warg Wolf* [(holy/shadow)] This spell functions like Summon Monster I , except that you can summon one creature from the 3rd-level list with a CR rating of 2 or lower, 1d3 creatures of the same kind from the 2nd-level list , or 1d4+1 creatures of the same kind from the 1st-level list . Summon Monster IV School summoning; Level dark knight 4, summoner 4 DESCRIPTION Table: Summon Monster IV Creature Subtype(s) Bennu* (Avian, Fire, [holy/shadow]) Black Shark* (Aquatic [holy/shadow]) Black Widow* [(holy/shadow)] Boundfat (Daemon, Evil, Extraplanar) Elemental (Medium) (Elemental, Extraplanar) Desertpede* [(holy/shadow)] Garchimacera (Devil, Evil, Extraplanar, Lawful) Murussu* [(holy/shadow)] Sabertusk* [(holy/shadow)] Stunner* [(holy/shadow)] This spell functions like Summon Monster I , except that you can summon one creature from the 4th-level list with a CR rating of 4 or lower, 1d3 creatures of the same kind from the 3rd-level list , or 1d4+1 creatures of the same kind from the 2nd-level or lower lists. Summon Monster V School summoning; Level summoner 5 DESCRIPTION Table: Summon Monster V Creature Subtype(s) Bunyip* [(holy/shadow)] Demon (Chaotic, Demon, Evil, Extraplanar) Ereshkigal (Devil, Evil, Extraplanar, Lawful) Elemental (Large) (Elemental, Extraplanar) Flying Killer* [(holy/shadow)] Great Tortoise* (Reptilian, [holy/shadow]) Greater Mantis* [(holy/shadow)] Killer Shark* (Aquatic, [holy/shadow]) Magician (Daemon, Extraplanar) Saberclaw* [(holy/shadow)] Winter Wolf* (Ice, [holy/shadow]) This spell functions like Summon Monster I , except that you can summon one creature from the 5th-level list with a CR rating of 6 or lower, 1d3 creatures of the same kind from the 4th-level list , or 1d4+1 creatures of the same kind from the 3rd-level or lower lists. Summon Monster VI School summoning; Level summoner 6 DESCRIPTION Table: Summon Monster VI Creature Subtype(s) Alphatusk* [(holy/shadow)] Dual Horn* [(holy/shadow)] Elemental (Huge) (Elemental, Extraplanar) Groundpede* [(holy/shadow)] Halma* [(holy/shadow)] Steel Bat* (Avian, [holy/shadow]) Soulflayer (Devil, Extraplanar) Wolf Spider* [(holy/shadow)] This spell functions like Summon Monster I , except that you can summon one creature from the 6th-level list with a CR rating of 8 or lower, 1d3 creatures of the same kind from the 5th-level list , or 1d4+1 creatures of the same kind from the 4th-level or lower lists. Summon Monster VII School summoning; Level summoner 7 DESCRIPTION Table: Summon Monster VII Creature Subtype(s) Alberich (Devil, Evil, Extraplanar, Lawful) Fell Tortoise* (Reptilian, [holy/shadow]) Greater Demon (Chaotic, Demon, Evil, Extraplanar) Elemental (Greater) (Elemental, Extraplanar) Yellowtooth* [(holy/shadow)] Zauberer (Daemon, Extraplanar) This spell functions like Summon Monster I , except that you can summon one creature from the 7th-level list with a CR rating of 10 or lower, 1d3 creatures of the same kind from the 6th-level list , or 1d4+1 creatures of the same kind from the 5th-level or lower lists. Summon Monster VIII School summoning; Level summoner 8 DESCRIPTION Table: Summon Monster VIII Creature Subtype(s) Ankheg* [(holy/shadow)] Elemental (Elder) (Elemental, Extraplanar) Garula* [(holy/shadow)] Psycheflayer (Devil, Extraplanar) Megalodon* (Aquatic, [holy/shadow]) T-Rexaur* (Reptilian, [holy/shadow]) This spell functions like Summon Monster I , except that you can summon one creature from the 8th-level list with a CR rating of 12 or lower, 1d3 creatures of the same kind from the 7th-level list , or 1d4+1 creatures of the same kind from the 6th-level or lower lists. Summon Monster IX School summoning; Level summoner 9 DESCRIPTION Table: Summon Monster IX Creature Subtype(s) Apocrypha (Chaotic, Demon, Evil, Extraplanar) Havocfang* [(holy/shadow)] Garulessa* [(holy/shadow)] Jackanapes (Devil, Evil, Extraplanar, Lawful) Pneumaflayer (Devil, Extraplanar) This spell functions like Summon Monster I , except that you can summon one creature from the 9th-level list with a CR rating of 14 or lower, 1d3 creatures of the same kind from the 8th-level list , or 1d4+1 creatures of the same kind from the 7th-level or lower lists.</p>"
+    },
+    "descriptors": [
+      "fire",
+      "evil",
+      "good",
+      "lawful",
+      "chaotic"
+    ],
+    "learnedAt": {
+      "class": {
+        "darkknight": 1,
+        "summoner": 1
+      }
+    },
+    "level": 1,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!3b6295175d79ac14"
+}

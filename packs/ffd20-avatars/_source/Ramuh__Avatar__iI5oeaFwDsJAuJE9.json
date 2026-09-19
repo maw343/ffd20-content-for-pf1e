@@ -1,0 +1,1119 @@
+{
+  "_id": "iI5oeaFwDsJAuJE9",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/races/creature-types/outsider.png",
+  "name": "Ramuh (Avatar)",
+  "prototypeToken": {
+    "texture": {
+      "src": "systems/pf1/icons/races/creature-types/outsider.png"
+    }
+  },
+  "type": "character",
+  "effects": [],
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 9
+      },
+      "dex": {
+        "value": 16
+      },
+      "con": {
+        "value": 12
+      },
+      "int": {
+        "value": 16
+      },
+      "wis": {
+        "value": 12
+      },
+      "cha": {
+        "value": 12
+      }
+    },
+    "attributes": {
+      "naturalAC": 1,
+      "speed": {
+        "land": {
+          "base": 30
+        }
+      },
+      "spells": {
+        "spellbooks": {
+          "primary": {
+            "name": "Primary"
+          },
+          "secondary": {
+            "name": "Secondary"
+          },
+          "spelllike": {
+            "name": "Spell-likes",
+            "inUse": true,
+            "casterType": "high",
+            "class": "hd",
+            "cl": {
+              "formula": ""
+            },
+            "autoSpellLevelCalculation": true,
+            "autoSpellLevels": true,
+            "psychic": false,
+            "arcaneSpellFailure": true,
+            "hasCantrips": true,
+            "spellPreparationMode": "spontaneous",
+            "baseDCFormula": "10 + sl + ablMod",
+            "ability": "cha",
+            "spellPoints": {
+              "useSystem": true,
+              "value": 0,
+              "maxFormula": "@attributes.hd.total",
+              "restoreFormula": ""
+            },
+            "spells": {
+              "spell0": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell1": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell2": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell3": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell4": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell5": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell6": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell7": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell8": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell9": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              }
+            },
+            "spellSlotAbilityBonusFormula": "",
+            "domainSlotValue": 1,
+            "kind": "arcane",
+            "noAbilityLimit": false
+          },
+          "tertiary": {
+            "name": "Tertiary"
+          }
+        }
+      }
+    },
+    "traits": {
+      "senses": {}
+    },
+    "details": {
+      "notes": {
+        "value": "<h2>Ramuh - Starting Statistics</h2><p>Size Medium; Speed 30 ft.; AC +1 natural armor; Special Qualities: Lightning immunity.</p><h3>7th-Level Advancement</h3><p>Size Large; Reach 10 ft; AC +2 natural armor; Attack lightning staff (1d6); Ability Scores Str -2, Dex +2, Int +4</p>"
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "13QYSSS6YKD9w9gB",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/blue_04.jpg",
+      "name": "Lightning Staff",
+      "type": "attack",
+      "system": {
+        "subType": "natural",
+        "held": null,
+        "actions": [
+          {
+            "_id": "eDAwrdjc5GMFRFOe",
+            "name": "Lightning Staff",
+            "actionType": "mwak",
+            "activation": {
+              "type": "attack",
+              "unchained": {
+                "type": "attack"
+              }
+            },
+            "ability": {
+              "attack": "_default",
+              "damage": "str"
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "1d6",
+                  "types": [
+                    "bludgeoning"
+                  ]
+                }
+              ]
+            },
+            "duration": {
+              "units": "inst"
+            },
+            "img": "systems/pf1/icons/skills/blue_04.jpg",
+            "range": {
+              "units": "melee"
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!iI5oeaFwDsJAuJE9.13QYSSS6YKD9w9gB"
+    },
+    {
+      "_id": "HagcFQZIFLrA9vf5",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/blue_29.jpg",
+      "name": "Avatar (Summoner) - Ramuh",
+      "type": "class",
+      "system": {
+        "tag": "summonerAvatar",
+        "bab": "high",
+        "savingThrows": {
+          "fort": {
+            "value": "low"
+          },
+          "ref": {
+            "value": "high"
+          },
+          "will": {
+            "value": "high"
+          }
+        },
+        "skillsPerLevel": 4,
+        "customHD": "round((@item.level - 1) * 0.75) + 1",
+        "classSkills": {
+          "acr": true,
+          "cli": true,
+          "fly": true,
+          "per": true,
+          "sen": true,
+          "ste": true,
+          "swm": true
+        },
+        "description": {
+          "value": "<p>Ramuh's Avatar class features are tied to the summoner's class level. HD equals round((level-1)*0.75)+1, matching the confirmed Avatar Base Statistics progression.</p>"
+        },
+        "links": {
+          "classAssociations": [
+            {
+              "level": 1,
+              "name": "Darkvision",
+              "uuid": "Compendium.world.summoner-avatar.Item.rBiKROGZrsrSJW9e"
+            },
+            {
+              "level": 1,
+              "name": "Link",
+              "uuid": "Compendium.world.summoner-avatar.Item.whO4esN696cRSoGi"
+            },
+            {
+              "level": 1,
+              "name": "MP Pool",
+              "uuid": "Compendium.world.summoner-avatar.Item.xc8uXIXh7uw17DJg"
+            },
+            {
+              "level": 2,
+              "name": "Evasion",
+              "uuid": "Compendium.world.summoner-avatar.Item.aWsQSjFrTV4T4bTy"
+            },
+            {
+              "level": 4,
+              "name": "Magic Attacks",
+              "uuid": "Compendium.world.summoner-avatar.Item.Yb24EZjAyvl5jApv"
+            },
+            {
+              "level": 5,
+              "name": "Ability Score Increase",
+              "uuid": "Compendium.world.summoner-avatar.Item.S4WzYkN4ZDxGJGhk"
+            },
+            {
+              "level": 6,
+              "name": "Devotion",
+              "uuid": "Compendium.world.summoner-avatar.Item.07tZrbo6EPl0yFPu"
+            },
+            {
+              "level": 8,
+              "name": "Multiattack",
+              "uuid": "Compendium.world.summoner-avatar.Item.rMu0fIsM5uq6sEP8"
+            },
+            {
+              "level": 10,
+              "name": "Ability Score Increase",
+              "uuid": "Compendium.world.summoner-avatar.Item.S4WzYkN4ZDxGJGhk"
+            },
+            {
+              "level": 14,
+              "name": "Improved Evasion",
+              "uuid": "Compendium.world.summoner-avatar.Item.2QaoSbpMfbCg5dYT"
+            },
+            {
+              "level": 15,
+              "name": "Ability Score Increase",
+              "uuid": "Compendium.world.summoner-avatar.Item.S4WzYkN4ZDxGJGhk"
+            }
+          ]
+        }
+      },
+      "effects": [],
+      "_key": "!actors.items!iI5oeaFwDsJAuJE9.HagcFQZIFLrA9vf5"
+    },
+    {
+      "_id": "RS6aVrUbrkvU8vzR",
+      "_stats": {
+        "coreVersion": "12.331",
+        "compendiumSource": "Compendium.world.summoner-avatar.Item.rBiKROGZrsrSJW9e"
+      },
+      "img": "systems/pf1/icons/skills/blue_02.jpg",
+      "name": "Darkvision",
+      "system": {
+        "associations": {
+          "classes": [
+            "Avatar"
+          ]
+        },
+        "class": "summonerAvatar",
+        "description": {
+          "value": "<p>The avatar has darkvision out to a range of 60 feet.</p>"
+        },
+        "subType": "classFeat",
+        "abilityType": "ex"
+      },
+      "type": "feat",
+      "effects": [],
+      "_key": "!actors.items!iI5oeaFwDsJAuJE9.RS6aVrUbrkvU8vzR"
+    },
+    {
+      "_id": "eohyKAzl2vdZtL5y",
+      "_stats": {
+        "coreVersion": "12.331",
+        "compendiumSource": "Compendium.world.summoner-avatar.Item.whO4esN696cRSoGi"
+      },
+      "img": "systems/pf1/icons/feats/quick-draw.jpg",
+      "name": "Link",
+      "system": {
+        "associations": {
+          "classes": [
+            "Avatar"
+          ]
+        },
+        "class": "summonerAvatar",
+        "description": {
+          "value": "<p>A summoner and his avatar share a mental link allows for communication across any distance (as long as they are on the same plane). This communication is a free action, allowing the summoner to give orders to his avatar at any time. In addition, magic items interfere with the summoner's connection to his avatar. As a result, the summoner and his avatar share magic item slots. For example, if the summoner is wearing a ring, his avatar can wear no more than one ring. In case of a conflict, the items worn by the summoner remain active, and those used by the avatar become dormant. The avatar must possess the appropriate appendages to utilize a magic item.</p>"
+        },
+        "subType": "classFeat",
+        "abilityType": "ex",
+        "contextNotes": [
+          {
+            "target": "skill.han",
+            "text": "Free-action orders to avatar at any range (same plane); shared magic item slots (Not factored in)"
+          }
+        ]
+      },
+      "type": "feat",
+      "effects": [],
+      "_key": "!actors.items!iI5oeaFwDsJAuJE9.eohyKAzl2vdZtL5y"
+    },
+    {
+      "_id": "wM7vl3U8998pkxG3",
+      "_stats": {
+        "coreVersion": "12.331",
+        "compendiumSource": "Compendium.world.summoner-avatar.Item.xc8uXIXh7uw17DJg"
+      },
+      "img": "systems/pf1/icons/skills/blue_11.jpg",
+      "name": "MP Pool",
+      "system": {
+        "associations": {
+          "classes": [
+            "Avatar"
+          ]
+        },
+        "class": "summonerAvatar",
+        "description": {
+          "value": "<p>An avatar has an MP pool with a maximum equal to the summoner's level. The avatar regains MP equal to the summoner's level when the summoner does their 30-minute meditation after resting. The avatar may spend its magic points on spells and abilities granted by the specific avatar page. In the case of Yojimbo, this MP Pool is spent at a 1 MP to 10 gil ratio for his abilities but otherwise does not function as gil. Spells that would absorb MP treat avatars as they would summoned creatures, and do not work when allies use them.</p><p><em>Schema note: implemented as a pf1 Spell Points pool (<code>system.attributes.spells.spellbooks.spelllike.spellPoints</code>: <code>useSystem</code>, <code>value</code>, <code>maxFormula</code>, <code>restoreFormula</code>) on the avatar's actor sheet, with <code>maxFormula: \"@attributes.hd.total\"</code> since avatar HD equals summoner level.</em></p>"
+        },
+        "subType": "classFeat"
+      },
+      "type": "feat",
+      "effects": [],
+      "_key": "!actors.items!iI5oeaFwDsJAuJE9.wM7vl3U8998pkxG3"
+    },
+    {
+      "_id": "VGSxRJBR9MyOEu1e",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Limit Break: Judgment Bolt",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "su",
+        "level": 1,
+        "description": {
+          "value": "<p>At 1st level, Ramuh raises his staff; lightning strikes 30-ft.-radius. Enemies take 1d6 lightning damage per summoner level, Reflex save for half.</p>"
+        },
+        "tag": "ramuhlimitbreakjudgmentbolt",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "mIG179T1Dyg5kwBG",
+            "name": "Limit Break: Judgment Bolt",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": "30-ft.-radius",
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "1d6/level",
+                  "types": [
+                    "lightning"
+                  ]
+                }
+              ]
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "con",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.con.mod",
+              "description": "half damage / negates"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!iI5oeaFwDsJAuJE9.VGSxRJBR9MyOEu1e"
+    },
+    {
+      "_id": "sR8PTWLg7T2u9JEt",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Shock Strike",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "ex",
+        "level": 2,
+        "description": {
+          "value": "<p>At 2nd level, Every 1d4+1 rounds, staff attack as usual; if it hits, adds 1d6 lightning damage.</p>"
+        },
+        "tag": "ramuhshockstrike",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "gKm7C65NQ4ls5l3M",
+            "name": "Shock Strike",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": "rwak",
+            "ability": {
+              "attack": "dex",
+              "damage": "",
+              "damageMult": 1,
+              "critRange": 20
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!iI5oeaFwDsJAuJE9.sR8PTWLg7T2u9JEt"
+    },
+    {
+      "_id": "Ip7mdnM6Cs42u94j",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Thunder II",
+      "type": "spell",
+      "system": {
+        "subType": null,
+        "abilityType": "sp",
+        "level": 4,
+        "description": {
+          "value": "<p>At 4th level, Ramuh is able to cast Thunder II like the spell.</p>"
+        },
+        "tag": "ramuhthunderii",
+        "spellPoints": {
+          "cost": "2"
+        },
+        "learnedAt": {
+          "class": {
+            "summonerAvatar": 4
+          }
+        },
+        "spellbook": "spelllike",
+        "actions": [
+          {
+            "_id": "ThV0Sj8O2wc1Lh9n",
+            "name": "Thunder II",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": "spellsave"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!iI5oeaFwDsJAuJE9.Ip7mdnM6Cs42u94j"
+    },
+    {
+      "_id": "45OU75CYuESBM7FN",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Rolling Thunder",
+      "type": "spell",
+      "system": {
+        "subType": null,
+        "abilityType": "sp",
+        "level": 6,
+        "description": {
+          "value": "<p>At 6th level, Allies within 30 feet add 1d6 lightning damage to weapon damage rolls for 1d6 rounds. Blue mages may learn as 3rd level spell (Knowledge: Planes DC 21).</p>"
+        },
+        "tag": "ramuhrollingthunder",
+        "spellPoints": {
+          "cost": "3"
+        },
+        "learnedAt": {
+          "class": {
+            "summonerAvatar": 6
+          }
+        },
+        "spellbook": "spelllike",
+        "actions": [
+          {
+            "_id": "iSMWUugrHnX8VI9s",
+            "name": "Rolling Thunder",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": "30 ft.",
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": ""
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!iI5oeaFwDsJAuJE9.45OU75CYuESBM7FN"
+    },
+    {
+      "_id": "bWK2ozxJ07AAywJr",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Lightning Armor",
+      "type": "spell",
+      "system": {
+        "subType": null,
+        "abilityType": "sp",
+        "level": 8,
+        "description": {
+          "value": "<p>At 8th level, Allies within 30 feet gain effect of Shock Spikes, as the black magic spell. Blue mages may learn as 4th level spell (Knowledge: Planes DC 23).</p>"
+        },
+        "tag": "ramuhlightningarmor",
+        "spellPoints": {
+          "cost": "4"
+        },
+        "learnedAt": {
+          "class": {
+            "summonerAvatar": 8
+          }
+        },
+        "spellbook": "spelllike",
+        "actions": [
+          {
+            "_id": "ofHwS5szcat9udIZ",
+            "name": "Lightning Armor",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": "30 ft.",
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": ""
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!iI5oeaFwDsJAuJE9.bWK2ozxJ07AAywJr"
+    },
+    {
+      "_id": "iRa2KGdhLFiWWiX8",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Thundaga",
+      "type": "spell",
+      "system": {
+        "subType": null,
+        "abilityType": "sp",
+        "level": 10,
+        "description": {
+          "value": "<p>At 10th level, Ramuh is able to cast Thundaga like the spell.</p>"
+        },
+        "tag": "ramuhthundaga",
+        "spellPoints": {
+          "cost": "5"
+        },
+        "learnedAt": {
+          "class": {
+            "summonerAvatar": 10
+          }
+        },
+        "spellbook": "spelllike",
+        "actions": [
+          {
+            "_id": "ky65soxgd4gtY4jM",
+            "name": "Thundaga",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": "spellsave"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!iI5oeaFwDsJAuJE9.iRa2KGdhLFiWWiX8"
+    },
+    {
+      "_id": "m5Gz6USAYcmVbrfq",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Double Shock",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "su",
+        "level": 12,
+        "description": {
+          "value": "<p>At 12th level, Ramuh can cast two Thunder II or Thundaga spells with one standard action; targets affected by both take -4 on saves and Ramuh gains +4 on caster level checks to overcome SR. Usable once/day at 12th, +1 at 16th and 20th.</p>"
+        },
+        "tag": "ramuhdoubleshock",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "wRAfZKRwYEBcLYGk",
+            "name": "Double Shock",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": ""
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!iI5oeaFwDsJAuJE9.m5Gz6USAYcmVbrfq"
+    },
+    {
+      "_id": "CmE6U30J0x56n0W9",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Chaotic Strike",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "ex",
+        "level": 14,
+        "description": {
+          "value": "<p>At 14th level, Every 1d4+1 rounds, staff strike at -5 penalty deals triple damage and stuns target 1 round unless Fortitude save.</p>"
+        },
+        "tag": "ramuhchaoticstrike",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "uII06hVE3rN8DvjE",
+            "name": "Chaotic Strike",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "int",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.int.mod",
+              "description": "negates additional effect"
+            },
+            "actionType": "rwak",
+            "ability": {
+              "attack": "dex",
+              "damage": "",
+              "damageMult": 1,
+              "critRange": 20
+            }
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!iI5oeaFwDsJAuJE9.CmE6U30J0x56n0W9"
+    },
+    {
+      "_id": "MXTNMlBuilMeCV8I",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Conduit",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "su",
+        "level": 16,
+        "description": {
+          "value": "<p>At 16th level, 3/day as a free action, reduce cost of next spell-like ability to 1 MP (applied after metamagic cost increases; no further metamagic after reduction).</p>"
+        },
+        "tag": "ramuhconduit",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "YAEIjG1o0xSIhwcB",
+            "name": "Conduit",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": null,
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": []
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "",
+              "dc": "",
+              "description": ""
+            },
+            "actionType": ""
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!iI5oeaFwDsJAuJE9.MXTNMlBuilMeCV8I"
+    },
+    {
+      "_id": "KCVZNSZDsaT7b66L",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Thunderspark",
+      "type": "spell",
+      "system": {
+        "subType": null,
+        "abilityType": "sp",
+        "level": 18,
+        "description": {
+          "value": "<p>At 18th level, Electronic distortion in 30-ft.-radius dealing 10d6 lightning damage and paralyzing 1d6 rounds, Reflex save halves and negates paralysis.</p>"
+        },
+        "tag": "ramuhthunderspark",
+        "spellPoints": {
+          "cost": "6"
+        },
+        "learnedAt": {
+          "class": {
+            "summonerAvatar": 18
+          }
+        },
+        "spellbook": "spelllike",
+        "actions": [
+          {
+            "_id": "aYYCOayKSWUMsK4a",
+            "name": "Thunderspark",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": "30-ft.-radius",
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "10d6",
+                  "types": [
+                    "lightning"
+                  ]
+                }
+              ]
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "int",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.int.mod",
+              "description": "half damage / negates"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!iI5oeaFwDsJAuJE9.KCVZNSZDsaT7b66L"
+    },
+    {
+      "_id": "VHW6KcSGW5v9970D",
+      "_stats": {
+        "coreVersion": "12.331"
+      },
+      "img": "systems/pf1/icons/skills/light_15.jpg",
+      "name": "Thunderstorm",
+      "type": "feat",
+      "system": {
+        "subType": "classFeat",
+        "abilityType": "su",
+        "level": 20,
+        "description": {
+          "value": "<p>At 20th level, Every 1d4+1 rounds as a full-round action, lightning storm in 50-ft.-radius dealing 15d8 lightning damage, Reflex save for half.</p>"
+        },
+        "tag": "ramuhthunderstorm",
+        "associations": {
+          "classes": [
+            [
+              "",
+              "summonerAvatar"
+            ]
+          ]
+        },
+        "actions": [
+          {
+            "_id": "EK7hrgqU8X0UnMou",
+            "name": "Thunderstorm",
+            "img": "systems/pf1/icons/skills/affliction_35.jpg",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "duration": {
+              "value": "",
+              "units": "inst"
+            },
+            "range": {
+              "value": null,
+              "units": "personal",
+              "per": ""
+            },
+            "area": {
+              "value": "50-ft.-radius",
+              "units": "ft",
+              "shape": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "formula": "15d8",
+                  "types": [
+                    "lightning"
+                  ]
+                }
+              ]
+            },
+            "attackBonus": {
+              "formula": ""
+            },
+            "save": {
+              "type": "int",
+              "dc": "10 + floor(@attributes.hd.total / 2) + @abilities.int.mod",
+              "description": "half damage / negates"
+            },
+            "actionType": "save"
+          }
+        ]
+      },
+      "effects": [],
+      "_key": "!actors.items!iI5oeaFwDsJAuJE9.VHW6KcSGW5v9970D"
+    }
+  ],
+  "_key": "!actors!iI5oeaFwDsJAuJE9"
+}

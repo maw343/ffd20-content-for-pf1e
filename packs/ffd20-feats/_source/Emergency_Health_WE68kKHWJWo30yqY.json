@@ -1,0 +1,50 @@
+{
+  "_id": "WE68kKHWJWo30yqY",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Emergency Health",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Ability to cast 3rd-level spells</p><p><strong>Benefit:</strong> Whenever you cast an enhancing spell of 3rd level or higher, you can spend an immediate action to gain temporary HP equal to 10% of your maximum HP, +1 additional temporary hit point per level of the highest-level enhancing spell you can cast. These temporary hit points last for 1 minute and stack with other sources of temporary hit points. As a secondary benefit, you gain a +1 competence bonus to your caster level when casting enhancing spells.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "reserve",
+    "tag": "emergency_health",
+    "requirements": "Ability to cast 3rd-level spells",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-ReserveFeats",
+        "pages": "Reserve Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!WE68kKHWJWo30yqY"
+}

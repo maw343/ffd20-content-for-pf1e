@@ -1,0 +1,27 @@
+{
+  "_id": "6oXRm06OCpgbF1Ec",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Relentless Momentum (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Greased Lightning class feature, Combo Finisher monk talent</p><p>Your attacks are relentless, affording your enemies little time to recover. You gain one stack of Greased Lightning at the start of your next turn after landing a Combo Finisher talent.</p>"
+    },
+    "tag": "relentlessmomentum",
+    "source": "Final Fantasy d20 - Monk Talents",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!6oXRm06OCpgbF1Ec"
+}

@@ -1,0 +1,61 @@
+{
+  "_id": "229d9dfb7fd84f55",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785721284047,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/shadow_11.jpg",
+  "name": "Chilling Touch (Sp)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> —</p><p>The necromancer can cause his hands to glow with a blue, flickering aura. This frigid radiance can both drain and paralyze the necromancer's victims. First, any living creature touched by the icy hands suffers the effect of a modified undead touch spell, with a Fortitude save (DC 10 + half of the necromancer's level + his Charisma modifier). If the victim fails his or her saving throw, the touch causes 2d4 points of damage and (temporarily) drains 1 point of both Strength and Constitution. If the saving throw is successful, though, the victim only loses 1d4 points of damage and just 1 point of Strength. In addition, if the necromancer is at least 16th level, the victim must make a second save or be paralyzed for 3d4 rounds. The necromancer can use this ability a number of times per day equal to his Charisma modifier.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "chillingtouchsp",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Necromancer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Necromancy Talents"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!229d9dfb7fd84f55"
+}

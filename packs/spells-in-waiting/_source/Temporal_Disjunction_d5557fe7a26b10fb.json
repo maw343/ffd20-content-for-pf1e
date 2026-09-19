@@ -1,0 +1,67 @@
+{
+  "_id": "d5557fe7a26b10fb",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Temporal Disjunction",
+  "system": {
+    "actions": [
+      {
+        "_id": "a902efdc509f59b6",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "perm"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Temporal disjunction causes the subject’s own perceptions to lag moments behind actual events",
+      "value": "<p>Temporal disjunction causes the subject’s own perceptions to lag moments behind actual events. The creature suffers a -2 penalty to his AC, attack rolls and saving throws, is considered to be flat-footed at all times and suffers a 20% miss chance on all his attacks. Targeted spells suffer a 50% chance of failure but area effect spells can be cast normally. This spell may be removed with a successful dispel but it is otherwise permanent.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 6
+      }
+    },
+    "level": 6,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d5557fe7a26b10fb"
+}

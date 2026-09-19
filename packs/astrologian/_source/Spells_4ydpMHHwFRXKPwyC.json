@@ -1,0 +1,61 @@
+{
+  "_id": "4ydpMHHwFRXKPwyC",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785711691509,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/light_15.jpg",
+  "name": "Spells",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>An astrologian casts astromancy spells which are drawn from the astrologian spell list. An astrologian begins play with 3 1st level astromancy spells of her choice. The astrologian also selects a number of additional 1st-level spells equal to her Wisdom modifier to add to her list of spells. Each time a character attains a new astrologian level, she gains two spells of her choice to add to her list of spells. The two free spells must be of spell levels she can cast. Like most mages, an astrologian can find or purchase scrolls with spells to add to her repertoire.<br><br>To learn or cast a spell, the astrologian must have a Wisdom score equal to at least 10 + the spell level (Wis 11 for 1st-level spells, Wis 12 for 2nd-level spells, and so forth). The Difficulty Class for a saving throw against an astrologian's spell is 10 + the spell level + the astrologian's Wisdom modifier. In addition, an astrologian gains additional MP for having a high attribute (Wisdom—see Table: Bonus MP per Day (by Spell Level)).</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "spells",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Astrologian",
+          1
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Astrologian"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!4ydpMHHwFRXKPwyC"
+}

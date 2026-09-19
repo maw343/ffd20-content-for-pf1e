@@ -1,0 +1,80 @@
+{
+  "_id": "BmlqEDKSue9SxAhq",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "folder": "RWSoA7Fj9yqo0y9U",
+  "img": "systems/pf1/icons/races/human.jpg",
+  "name": "Viera",
+  "system": {
+    "changes": [
+      {
+        "formula": "2",
+        "target": "dex",
+        "type": "racial",
+        "_id": "lyes5aya"
+      },
+      {
+        "formula": "2",
+        "target": "wis",
+        "type": "racial",
+        "_id": "407213gl"
+      },
+      {
+        "formula": "-2",
+        "target": "con",
+        "type": "racial",
+        "_id": "6vzsmztw"
+      },
+      {
+        "formula": "2",
+        "target": "skill.per",
+        "type": "racial",
+        "_id": "ce0k4sg5"
+      }
+    ],
+    "contextNotes": [
+      {
+        "target": "allSavingThrows",
+        "text": "+[[2]] Racial vs Enfeebling Spells and Effects"
+      },
+      {
+        "target": "cl",
+        "text": "+[[2]] to overcome Spell Resistance"
+      }
+    ],
+    "creatureSubtypes": [
+      "viera"
+    ],
+    "creatureTypes": [
+      "humanoid"
+    ],
+    "description": {
+      "value": "<p>The viera are a forest dwelling race with rabbit-like features, including long ears and supple limbs, deeply attuned to the natural world and the mist.</p><h2>Standard Racial Traits</h2><ul><li><strong>Ability Score Modifiers</strong>: Viera gain +2 Dexterity, +2 Wisdom, and –2 Constitution.</li><li><strong>Type</strong>: Viera are Humanoids with the viera subtype.</li><li><strong>Size</strong>: Viera are Medium creatures.</li><li><strong>Base Speed</strong>: Viera have a base speed of 30 feet.</li><li><strong>Languages</strong>: Viera begin play speaking Common and Vieran. Viera with high Intelligence scores can choose from: Banganese, Elvaan, Lalafellan, Mithran, Moogle, Numish, and Seeq.</li></ul><h3>Defense Racial Traits</h3><ul><li><strong>Vieran Immunities</strong>: Viera are immune to magic sleep effects and gain a +2 racial saving throw bonus against enfeebling spells and effects.</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Keen Senses</strong>: Viera receive a +2 racial bonus on Perception checks.</li><li><strong>Hunter</strong>: Viera always count Stealth and Survival as class skills.</li><li><strong>People of the Wood</strong>: Viera gain a +2 racial bonus on Knowledge (nature) and Survival checks made in a forest environment.</li></ul><h3>Magical Racial Traits</h3><ul><li><strong>Elemental Summoner</strong>: Increase the duration of summon spells for a chosen elemental subtype by 2 rounds.</li><li><strong>Vieran Magic</strong>: Viera gain a +2 bonus on caster level checks made to overcome spell resistance, and a +2 racial bonus on Spellcraft checks to identify magic item properties.</li></ul><h3>Offense Racial Traits</h3><ul><li><strong>Weapon Familiarity</strong>: Viera are proficient with shortbows, longbows, greatbows, and orc hornbows.</li></ul><h3>Senses Racial Traits</h3><ul><li><strong>Low-Light Vision</strong>: Viera can see twice as far as humes in dim light.</li></ul>"
+    },
+    "languages": [
+      "common"
+    ],
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "Base Races"
+      }
+    ],
+    "speeds": {
+      "land": 30
+    },
+    "tags": [
+      "Base"
+    ],
+    "weaponProf": [
+      "Shortbow",
+      "Longbow",
+      "Greatbow",
+      "Orc Hornbow"
+    ]
+  },
+  "type": "race",
+  "effects": [],
+  "_key": "!items!BmlqEDKSue9SxAhq"
+}

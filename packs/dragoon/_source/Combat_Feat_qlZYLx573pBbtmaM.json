@@ -1,0 +1,27 @@
+{
+  "_id": "qlZYLx573pBbtmaM",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Combat Feat",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>Gain a bonus combat feat. This talent may be taken only once.</p>"
+    },
+    "tag": "combatfeat",
+    "source": "Final Fantasy d20 - Dragoon Talents",
+    "associations": {
+      "classes": [
+        [
+          "Dragoon",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!qlZYLx573pBbtmaM"
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "ztyxJU3FW7sCAohc",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Déjà Vu (Su)*",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Steady Hand temporal talent</p><p><strong>Benefit:</strong> By spending two motes, a time mage can draw information from his future or past, allowing him to instantly gain the benefits of considerable study and reflection. He can even peer briefly into the future to see how others react to his various attempts at negotiation or subterfuge. The time mage can make a single Intelligence-, Wisdom- or Charisma-based skill check with a result equal to 20 + his total skill bonus.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "advancedTemporalTalent",
+    "tag": "déjà_vu_su",
+    "requirements": "Steady Hand temporal talent",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-TimeMageClass",
+        "pages": "Advanced Temporal Talents"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!ztyxJU3FW7sCAohc"
+}

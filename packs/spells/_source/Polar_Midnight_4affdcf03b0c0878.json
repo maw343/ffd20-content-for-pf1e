@@ -1,0 +1,77 @@
+{
+  "_id": "4affdcf03b0c0878",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Polar Midnight",
+  "system": {
+    "actions": [
+      {
+        "_id": "57ffbda6800a4cff",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "area": "30-ft. spread",
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "5d6",
+              "types": [
+                "cold"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude partial"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You plunge an area into the brutal chill of the arctic night.",
+      "value": "<p>You plunge an area into the brutal chill of the arctic night. Illumination conditions are dropped by two steps (though only to darkness, not supernatural darkness), and all creatures in the area take 5d6 points of ice damage and 1d6 points of Dexterity damage per round. A successful Fortitude save each round negates the Dexterity damage but not the ice damage. Any creature that doesn’t move on its turn becomes encased in a sheath of ice equivalent to\nwall of ice\n, is helpless, and cannot breathe. Corpses in the area for longer than 1 round are transmuted into solid ice; reviving the icy corpse requires full-life. As a\nmove action\n, you may move the area of effect up to 10 feet in any direction.</p>"
+    },
+    "descriptors": [
+      "ice"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 9,
+        "necromancer": 9
+      }
+    },
+    "level": 9,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!4affdcf03b0c0878"
+}

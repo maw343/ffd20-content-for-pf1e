@@ -1,0 +1,71 @@
+{
+  "_id": "e3c60b9353496be3",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Auto-Raise",
+  "system": {
+    "actions": [
+      {
+        "_id": "2a8bf5a91836f7a5",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The creature touched with this spell is imbued with the Reraise status.",
+      "value": "<p>The creature touched with this spell is imbued with the Reraise status. When the creature with Reraise status dies, a Raise spell goes off immediately. It only lasts for one use.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 7,
+        "necromancer": 7,
+        "whitemage": 7
+      }
+    },
+    "level": 7,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "healing"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!e3c60b9353496be3"
+}

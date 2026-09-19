@@ -1,0 +1,79 @@
+{
+  "_id": "fadbc831902e3ac6",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Flash Arc",
+  "system": {
+    "actions": [
+      {
+        "_id": "0437d2ecea50eb88",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "Up to 7 rays – see description"
+        },
+        "area": "30-ft.-line, 5-ft.-wide",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous Effect Up to 7 rays – see description"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "4d6",
+              "types": [
+                "electricity"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates Adrammalech shooting lightning rays equal to their casting modifier (for a maximum of 7) in a 30 ft",
+      "value": "<p>The caster emulates Adrammalech shooting lightning rays equal to their casting modifier (for a maximum of 7) in a 30 ft. line that are 5 ft. wide, each ray dealing 4d6 points of lightning damage that go through their targets unless they can make a successful reflex save for half. Learned From Adrammalech</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 6
+      }
+    },
+    "level": 6,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!fadbc831902e3ac6"
+}

@@ -1,0 +1,65 @@
+{
+  "_id": "834924095da89a68",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Summon Chocobo",
+  "system": {
+    "actions": [
+      {
+        "_id": "43ae0655a9c0534f",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "0 ft"
+        },
+        "target": {
+          "value": "one chocobo"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "1 hour/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You summon a Yellow Chocobo",
+      "value": "<p>You summon a Yellow Chocobo. It can be ridden only by you or by the one person for whom you specifically created the mount. It has what seems to be a saddle, bit, and bridle. It does not fight, but animals shun it and refuse to attack it. The chocobo has AC 18 (-1 size, +4 natural armor, +5 Dex) and 7 hit points + 1 hit point per caster level. If it loses all its hit points, the chocobo disappears. A chocobo has a speed of 20 feet per two caster levels, to a maximum of 100 feet at 10th level. It can bear its rider’s weight plus up to 10 pounds per caster level. These chocobos gain certain powers and change colors according to caster level. A chocobo’s abilities include those of chocobos of lower caster levels. 8th Level the chocobo’s color changes to green and can ride over sandy, muddy, or even swampy ground without difficulty or decrease in speed. 10th Level the the chocobo’s color changes to blue and can use water walk at will (as the spell, no action required to activate this ability). 12th Level the the chocobo’s color changes to black and can use air walk at will (as the spell, no action required to activate this ability) for up to 1 round at a time, after which it falls to the ground. 14th Level the the chocobo’s color changes to gold and can fly at its speed with a bonus on fly skill checks equal to your caster level.</p>"
+    },
+    "descriptors": [
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "summoner": 2
+      }
+    },
+    "level": 2,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!834924095da89a68"
+}

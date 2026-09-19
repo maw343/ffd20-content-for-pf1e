@@ -1,0 +1,67 @@
+{
+  "_id": "f1f84b9cdeda4890",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Resonance Armor",
+  "system": {
+    "actions": [
+      {
+        "_id": "5fcbd43663c134d4",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "1 hour/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You play a short song that forms a semi-physical barrier of sound around your body, providing a +4 armor bonus to AC.",
+      "value": "<p>You play a short song that forms a semi-physical barrier of sound around your body, providing a +4 armor bonus to AC. Unlike mundane armor, resonance armor entails no armor check penalty, arcane spell failure chance, or speed reduction.\nSince resonance armor is made of soundwaves,\nsonic\nbased attacks and effects find it harder to affect you. Any sound-based attacks like that from a\ntamer’s\nbell or another\nbard’s\nmusical power\ndo not bypass this bonus to AC, the armor also grants you a +2 circumstance bonus to saving throws against\nsonic\neffects.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bard": 1
+      }
+    },
+    "level": 1,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f1f84b9cdeda4890"
+}

@@ -1,0 +1,90 @@
+{
+  "_id": "3Q8SCZJTS8X7QvyP",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Haze (Su)",
+  "system": {
+    "description": {
+      "value": "<p>It is much more difficult to notice or clearly focus one's interest upon a 3rd-level illusionist, imposing a -2 penalty to Perception checks against the character. This penalty applies in all situations, including when trying to see through an illusion that allows for such a roll or even a disguise, even if the illusionist isn't actively trying to avoid the perception or maintain a facade. This penalty increases by -1 for every 2 levels of illusionist attained after 3rd level (-3 at 5th, -4 at 7th, -5 at 9th, -6 at 11th, -7 at 13th, -8 at 15th, -9 at 17th, -10 at 19th).</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "haze_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Illusionist"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Illusionist",
+          3
+        ],
+        [
+          "Illusionist",
+          5
+        ],
+        [
+          "Illusionist",
+          7
+        ],
+        [
+          "Illusionist",
+          9
+        ],
+        [
+          "Illusionist",
+          11
+        ],
+        [
+          "Illusionist",
+          13
+        ],
+        [
+          "Illusionist",
+          15
+        ],
+        [
+          "Illusionist",
+          17
+        ],
+        [
+          "Illusionist",
+          19
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!3Q8SCZJTS8X7QvyP"
+}

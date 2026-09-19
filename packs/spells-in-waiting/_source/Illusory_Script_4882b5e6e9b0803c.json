@@ -1,0 +1,67 @@
+{
+  "_id": "4882b5e6e9b0803c",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Illusory Script",
+  "system": {
+    "actions": [
+      {
+        "_id": "677f0762b6077a18",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "one touched object weighing no more than 10 lbs."
+        },
+        "duration": {
+          "units": "day",
+          "value": "one day/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You write instructions or other information on parchment, paper, or any suitable writing material",
+      "value": "<p>You write instructions or other information on parchment, paper, or any suitable writing material. The illusory script appears to be some form of foreign or magical writing. Only the person (or people) designated by you at the time of the casting can read the writing; it’s unintelligible to any other character. Any unauthorized creature attempting to read the script triggers a potent illusory effect and must make a saving throw. A successful saving throw means the creature can look away with only a mild sense of disorientation. Failure means the creature is subject to a suggestion implanted in the script by you at the time the illusory script spell was cast. The suggestion lasts only 30 minutes. Typical suggestions include “Close the book and leave,” “Forget the existence of this note,” and so forth. If successfully dispelled by dispel, the illusory script and its secret message disappear. The hidden message can be read by a combination of the true seeing spell with the read magic spell.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 3
+      }
+    },
+    "level": 3,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!4882b5e6e9b0803c"
+}

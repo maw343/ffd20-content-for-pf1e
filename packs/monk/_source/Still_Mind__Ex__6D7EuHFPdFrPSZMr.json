@@ -1,0 +1,27 @@
+{
+  "_id": "6D7EuHFPdFrPSZMr",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Still Mind (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>A monk with this talent gains a +2 bonus on saving throws against enfeebling spells and effects.</p>"
+    },
+    "tag": "stillmind",
+    "source": "Final Fantasy d20 - Monk Talents",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!6D7EuHFPdFrPSZMr"
+}

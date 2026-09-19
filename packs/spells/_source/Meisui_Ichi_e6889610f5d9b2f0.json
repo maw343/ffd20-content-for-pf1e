@@ -1,0 +1,81 @@
+{
+  "_id": "e6889610f5d9b2f0",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Meisui-Ichi",
+  "system": {
+    "actions": [
+      {
+        "_id": "c0cd1d191b5c1096",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 3 rounds"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d4 + @spells.primary.abilityMod + min(@spells.primary.cl.total, 5)",
+              "types": [
+                "healing"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "will",
+          "description": "Will half (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Ethereal water envelopes the target healing for 1d4 points of damage + your Wisdom modifier + 1 point per caster level, (maximum +5) and ...",
+      "value": "<p>Ethereal water envelopes the target healing for 1d4 points of damage + your Wisdom modifier + 1 point per caster level, (maximum +5) and gains Fast Healing 1 for 3 rounds.</p>"
+    },
+    "descriptors": [
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "ninja": 1
+      }
+    },
+    "level": 1,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!e6889610f5d9b2f0"
+}

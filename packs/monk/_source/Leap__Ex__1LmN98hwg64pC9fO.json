@@ -1,0 +1,27 @@
+{
+  "_id": "1LmN98hwg64pC9fO",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Leap (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Flying Kick class feature, Monk 2 (1st rank), Monk 6 (2nd rank), Monk 10 (3rd rank)</p><p>Increase your speed by 10 feet while using your Flying Kick ability. This talent may be taken up to three times; the 1st rank being accessible at 2nd level or higher, the 2nd rank at 6th level or higher, and the 3rd rank at 10th level or higher. These effects stack with eachother.</p>"
+    },
+    "tag": "leap",
+    "source": "Final Fantasy d20 - Monk Talents",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!1LmN98hwg64pC9fO"
+}

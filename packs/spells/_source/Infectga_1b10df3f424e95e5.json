@@ -1,0 +1,54 @@
+{
+  "_id": "1b10df3f424e95e5",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Infectga",
+  "system": {
+    "actions": [
+      {
+        "_id": "d4069d997d26e44b",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Infect , except it affects one creature per two levels (maximum of 5) within 30 feet of each other.",
+      "value": "<p>This spell functions like\nInfect\n, except it affects one creature per two levels (maximum of 5) within 30 feet of each other.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!1b10df3f424e95e5"
+}

@@ -1,0 +1,68 @@
+{
+  "_id": "40f655ad1cbbdb75",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "True Terror",
+  "system": {
+    "actions": [
+      {
+        "_id": "4747f953ea0262dd",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "1 living creature with an Intelligence of 3 or more"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You cause the target to see horrible visions of future possibilities, stunning the target unless it makes a successful Will save",
+      "value": "<p>You cause the target to see horrible visions of future possibilities, stunning the target unless it makes a successful Will save.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 2
+      }
+    },
+    "level": 2,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!40f655ad1cbbdb75"
+}

@@ -1,0 +1,61 @@
+{
+  "_id": "57a487debc8a4a74",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785718761459,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Igniter (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> —</p><p>This small handheld gadget looks like a miniature alchemical sprayer. In place of the hose is a small nozzle sprouting from the top of the tanks. For the device to function, one tank must contain a flask of oil that takes a full-round action to refuel. When activated, the igniter acts as a tindertwig. The device functions for 15 minutes before needing to be refueled and pumped again, which takes a minute operating a small pump on the device. As a standard action, the engineer can expend all remaining fuel in the igniter to launch a 30-foot cone of flame in any direction. This flame ignites any combustible material in its area and deals 4d6 fire damage with a Reflex save to avoid catching on fire. To be used in this way, the igniter must be at least half full of fuel. The igniter has a hardness 2, 7 hit points, and it weighs 1/4th of a pound.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "igniterex",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Engineer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Engineer Tricks - Gadgets"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!57a487debc8a4a74"
+}

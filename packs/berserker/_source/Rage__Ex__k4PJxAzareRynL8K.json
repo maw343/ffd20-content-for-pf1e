@@ -1,0 +1,61 @@
+{
+  "_id": "k4PJxAzareRynL8K",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785712226306,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/red_35.jpg",
+  "name": "Rage (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>A berserker can call upon inner reserves of strength and ferocity, granting him additional combat prowess. At 1st level, a berserker can rage for a number of rounds per day equal to 4 + his Constitution modifier. For each level after 1st he possesses, the berserker can rage for 2 additional rounds per day.<br><br>Temporary increases to Constitution, such as that gained from dwarf's endurance, do not increase the total number of rounds that a berserker can rage per day. A berserker can enter a rage as a free action. The total number of rounds of rage per day is renewed after resting for 8 hours, although these hours need not be consecutive.<br><br>While in a rage, a berserker gains the benefits of his rage form, gains a +2 bonus on melee attack rolls, melee damage rolls, thrown weapon damage rolls, and Will saving throws but takes a –2 penalty to his Armor Class. He also gains 2 temporary hit points per Hit Die.<br><br>At 11th level this increases to 3 temporary hit points per Hit Die, and at 20th level this increases to 4 temporary hit points per Hit Die. These temporary hit points are lost first when a character takes damage, disappear when the rage ends, and are not replenished if the berserker enters a rage again within 1 minute of his previous rage.<br><br>While in a rage, a berserker cannot use any Charisma-, Dexterity-, or Intelligence-based skill (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration (such as spellcasting).<br><br>A berserker can end his rage as a free action and is fatigued for 1 minute after a rage ends. This fatigue cannot be reduced or mitigated in any way and applies even to normally fatigue-immune characters, but can be cured as normal. A berserker can't enter a new rage while fatigued or exhausted but can otherwise enter a rage multiple times per day.<br><br>If a berserker falls unconscious, his rage immediately ends. Rage does not stack with defensive stance.<br><br>A berserker who wears prohibited armor or uses a prohibited shield is unable to rage while doing so and for 24 hours thereafter.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "rage",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Berserker",
+          1
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Berserker"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!k4PJxAzareRynL8K"
+}

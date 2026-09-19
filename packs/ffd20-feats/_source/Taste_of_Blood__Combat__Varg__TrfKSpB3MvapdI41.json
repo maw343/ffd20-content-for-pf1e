@@ -1,0 +1,50 @@
+{
+  "_id": "TrfKSpB3MvapdI41",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Taste of Blood (Combat, Varg)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Bone-Crushing Jaws, base attack bonus +6, varg</p><p><strong>Benefit:</strong> When you score a hit with your bite attack, you gain a +2 racial bonus to your attack roll for bite attacks during the next round.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "racial",
+    "tag": "taste_of_blood_combat_va",
+    "requirements": "Bone-Crushing Jaws, base attack bonus +6, varg",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-RacialFeats",
+        "pages": "Racial Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!TrfKSpB3MvapdI41"
+}

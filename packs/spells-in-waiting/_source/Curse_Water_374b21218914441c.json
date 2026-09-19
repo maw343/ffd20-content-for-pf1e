@@ -1,0 +1,70 @@
+{
+  "_id": "374b21218914441c",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Curse Water",
+  "system": {
+    "actions": [
+      {
+        "_id": "ac3c5525793a0b96",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "flask of water touched"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell imbues a flask (1 pint) of water with dark energy, turning it into unholy water",
+      "value": "<p>This spell imbues a flask (1 pint) of water with dark energy, turning it into unholy water. Unholy water damages good outsiders the way holy water damages undead and evil outsiders.</p>"
+    },
+    "descriptors": [
+      "water",
+      "evil",
+      "good"
+    ],
+    "learnedAt": {
+      "class": {
+        "necromancer": 1
+      }
+    },
+    "level": 1,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!374b21218914441c"
+}

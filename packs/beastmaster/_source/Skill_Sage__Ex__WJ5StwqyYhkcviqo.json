@@ -1,0 +1,27 @@
+{
+  "_id": "WJ5StwqyYhkcviqo",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_13.jpg",
+  "name": "Skill Sage (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Any skill 1 rank</p><p>As a free action, the beastmaster can roll twice on any one skill check that they are trained in and take the better result. This ability can be used a number of times per day equal to the beastmaster's level.</p>"
+    },
+    "tag": "skillsage",
+    "source": "Final Fantasy d20 - Beastmaster Tricks",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!WJ5StwqyYhkcviqo"
+}

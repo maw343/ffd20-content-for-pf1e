@@ -1,0 +1,58 @@
+{
+  "_id": "uJgJgKYdpxpMTSPr",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Terrain Movement (Su)",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 4th level, a geomancer can use movement powers which harness the power of the elements to traverse terrains easily. Each movement power can be used as a swift action, lasting 1 round per geomancer level. The geomancer can use this ability a number of times per day equal to 3 + her Wisdom modifier. Burrow: tunnel through dirt (not rock) at 10 ft + 10 ft per four geomancer levels after 4th, cannot charge or run while burrowing. Climb: +8 racial bonus on Climb checks, can always take 10, climbs at 10 ft + 10 ft per four geomancer levels after 4th (double speed at -5 penalty for accelerated climb). Float: traverse impeding terrain (water, lava, ice) floating 5 feet off ground, moves at half base land speed. Fly: fly (perfect) at 20 ft + 20 ft per four geomancer levels after 4th with light load, +8 racial bonus on Fly checks. Swim: move through water at swim speed without Swim checks, +8 circumstance bonus on Swim checks for special actions, can take 10, run while swimming in a straight line, swims at 10 ft + 10 ft per four geomancer levels after 4th.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "terrain_movement_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Geomancer"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Geomancer",
+          4
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!uJgJgKYdpxpMTSPr"
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "4c4f246e7809135c",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Temporal Reiteration",
+  "system": {
+    "actions": [
+      {
+        "_id": "d006e0f71fcf60be",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous DESCRIPTION A temporal fire encompasses your body. Within its time-defying flames, you gain a moment of stasis. The past round does not count as time spent from the duration of ongoing effects on you such as rage, spell duration, and poison. Casting this spell effectively increases their duration for you by 1 round."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "A temporal fire encompasses your body",
+      "value": "<p>A temporal fire encompasses your body. Within its time-defying flames, you gain a moment of stasis. The past round does not count as time spent from the duration of ongoing effects on you such as rage, spell duration, and poison. Casting this spell effectively increases their duration for you by 1 round.</p>"
+    },
+    "descriptors": [
+      "fire"
+    ],
+    "learnedAt": {
+      "class": {
+        "timemage": 5
+      }
+    },
+    "level": 5,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!4c4f246e7809135c"
+}

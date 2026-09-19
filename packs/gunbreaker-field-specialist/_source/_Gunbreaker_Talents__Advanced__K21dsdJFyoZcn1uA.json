@@ -1,0 +1,19 @@
+{
+  "name": "_Gunbreaker Talents (Advanced)",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "K21dsdJFyoZcn1uA",
+  "sort": 200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "11.315",
+    "createdTime": 1745027587914,
+    "modifiedTime": 1745027590979,
+    "lastModifiedBy": "KJytU1RQudYSFJXl"
+  },
+  "_key": "!folders!K21dsdJFyoZcn1uA"
+}

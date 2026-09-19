@@ -1,0 +1,61 @@
+{
+  "_id": "a04d319465694498",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785718761461,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Razor Saw (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Engineer 4</p><p>This oil-powered circular saw simplifies the act of breaking down doors or cutting through obstacles. Holding the saw in two hands, the engineer can cut through simple wooden or thin metal doors within moments. As a move action, the engineer can activate the razor saw. Once activated, the saw can run for 10 minutes before needing refueling, which is a full-round action. It cannot cut through thick stone or metal. Each time the saw is used on a reinforced door, iron bars, or a similarly hard structure, it has a cumulative 10% chance to break. The saw is loud with a distinctive noise, imposing on the operator a –20 penalties on all Stealth checks and a –5 penalty on all Perception checks based on hearing. The razor saw can be used as a weapon that the engineer is proficient in. If wielded in such a way, it is a two-handed weapon that deals 1d12 slashing damage with a critical rating of 19–20/×3. It has 25 hit points and weighs 10 pounds.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "razorsawex",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Engineer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Engineer Tricks - Gadgets"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!a04d319465694498"
+}

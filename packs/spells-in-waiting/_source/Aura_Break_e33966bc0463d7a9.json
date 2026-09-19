@@ -1,0 +1,72 @@
+{
+  "_id": "e33966bc0463d7a9",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Aura Break",
+  "system": {
+    "actions": [
+      {
+        "_id": "3458b6af39d84498",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/3 levels"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You infuse a target with all the determination and adrenaline of one who is close to death in heated combat, shrouding them in a yellow hue",
+      "value": "<p>You infuse a target with all the determination and adrenaline of one who is close to death in heated combat, shrouding them in a yellow hue. A target affected by this spell can activate a Limit Break regardless if they are below 50% of their maximum HP. Once a Limit Break has been activated while under the effect of Aura Break the spell ends immediately. A creature cannot benefit from this spell more than once per hour. This spell counters and dispels curse . This spell was submitted as a part of the SCC for September 2020 by DeadKingKicker.</p>"
+    },
+    "descriptors": [
+      "death"
+    ],
+    "learnedAt": {
+      "class": {
+        "astrologian": 5,
+        "redmage": 5
+      }
+    },
+    "level": 5,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!e33966bc0463d7a9"
+}

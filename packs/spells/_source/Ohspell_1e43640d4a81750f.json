@@ -1,0 +1,61 @@
+{
+  "_id": "1e43640d4a81750f",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Ohspell",
+  "system": {
+    "actions": [
+      {
+        "_id": "a70b6247bd9bd9da",
+        "name": "Use",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "weapon touched"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Upon casting this spell, the caster picks an elemental type (earth, fire, ice, lightning, water, or wind).",
+      "value": "<p>Upon casting this spell, the caster picks an elemental type (earth, fire, ice, lightning, water, or wind). This spell infuses the weapon touched with elemental energy. The next time this weapon strikes a creature, it discharges the elemental energy. The weapon deals damage of the elemental type chosen instead of the physical damage it would normally do. The weapon loses this property if its wielder drops it or otherwise loses contact with it.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "redmage": 1
+      }
+    },
+    "level": 1,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!1e43640d4a81750f"
+}

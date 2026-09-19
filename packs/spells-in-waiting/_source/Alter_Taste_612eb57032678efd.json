@@ -1,0 +1,68 @@
+{
+  "_id": "612eb57032678efd",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Alter Taste",
+  "system": {
+    "actions": [
+      {
+        "_id": "de3412c7dcb45236",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "10 ft"
+        },
+        "target": {
+          "value": "one meal of 1 cu. ft./level"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless) ; Spell Resistance yes (harmless) DESCRIPTION This spell changes the taste of one meal to a taste that is pleasant for the creature consuming it. Note that this spell only disguises the taste of the meal and does not alter any other quality of it. While it will alter the taste of rotten meat, for instance, the meat will still be rotten. Furthermore, all parts of the meal taste the same no matter what is eaten. Thus soup, salad, main course, dinner roll and so on will all taste exactly alike since the spell masks any and all flavors with the taste. Each creature that tastes the meal will experience a different taste sensation depending on what his or her preference is. Thus, one creature might taste warm bread while another tastes raw meat. This spell changes the taste of anything that is part of the meal at the time the spell is cast; if something is added later, such as gravy or poison, then the spell cannot alter that and the creature receives the proper taste of the added item. Creatures are instantly aware of this spell’s effect upon the first bite and can choose to disbelieve the spell’s effects at any time.",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell changes the taste of one meal to a taste that is pleasant for the creature consuming it",
+      "value": "<p>This spell changes the taste of one meal to a taste that is pleasant for the creature consuming it. Note that this spell only disguises the taste of the meal and does not alter any other quality of it. While it will alter the taste of rotten meat, for instance, the meat will still be rotten. Furthermore, all parts of the meal taste the same no matter what is eaten. Thus soup, salad, main course, dinner roll and so on will all taste exactly alike since the spell masks any and all flavors with the taste. Each creature that tastes the meal will experience a different taste sensation depending on what his or her preference is. Thus, one creature might taste warm bread while another tastes raw meat. This spell changes the taste of anything that is part of the meal at the time the spell is cast; if something is added later, such as gravy or poison, then the spell cannot alter that and the creature receives the proper taste of the added item. Creatures are instantly aware of this spell’s effect upon the first bite and can choose to disbelieve the spell’s effects at any time.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 0
+      }
+    },
+    "level": 0,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!612eb57032678efd"
+}

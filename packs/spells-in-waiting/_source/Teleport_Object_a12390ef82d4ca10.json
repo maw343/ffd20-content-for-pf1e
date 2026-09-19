@@ -1,0 +1,64 @@
+{
+  "_id": "a12390ef82d4ca10",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Teleport Object",
+  "system": {
+    "actions": [
+      {
+        "_id": "a50a4c402dfbc99b",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "one touched object of up to 50 lbs./level and 3 cu. ft./level"
+        },
+        "duration": {
+          "units": "spec"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Bend Space and Time , except that it teleports an object, not you",
+      "value": "<p>This spell functions like Bend Space and Time , except that it teleports an object, not you. Creatures and magical forces cannot be teleported. If desired, the target object can be sent to on the edge of time. In this case, the point from which the object was teleported remains faintly magical until the item is retrieved. A successful targeted dispel spell cast on that point brings the vanished item back from the edge of time.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a12390ef82d4ca10"
+}

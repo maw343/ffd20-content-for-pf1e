@@ -1,0 +1,58 @@
+{
+  "_id": "nCf4tm3jrvujCqBj",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Telekinetic Combat (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 6th level, a psychic learns to use her expertise at moving items from afar with a weapon to attack from a distance. When she uses grab or uses the sustained force version of telekinesis, as a standard action, she may manipulate a single light or one-handed melee weapon up to the weight limit of the spell and use it to attack enemies as if she were wielding it normally; this weapon may be magical as an exception to grab's restriction against manipulating magic items. She may maintain concentration on this ability as a free action while using it for this purpose. She cannot attack targets outside the spell's range, and it still takes a move action to move the weapon according to the spell. She adds her Intelligence modifier to her telekinetic combat attack rolls rather than her Strength modifier, but she does not add either her Strength or Intelligence modifier to her damage rolls. While using telekinetic combat, the psychic takes a -2 penalty to her Armor Class as her concentration is being taken up by manipulating her weapon.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "telekinetic_combat_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Psychic"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Psychic",
+          6
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!nCf4tm3jrvujCqBj"
+}

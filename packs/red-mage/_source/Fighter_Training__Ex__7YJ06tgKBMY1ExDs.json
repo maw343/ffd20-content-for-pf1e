@@ -1,0 +1,27 @@
+{
+  "_id": "7YJ06tgKBMY1ExDs",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Fighter Training (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>A red mage counts half his total red mage level as his fighter level for the purpose of qualifying for feats. If he has levels in warrior, these levels stack.</p>"
+    },
+    "tag": "fightertraining",
+    "source": "Final Fantasy d20 - Red Mage",
+    "associations": {
+      "classes": [
+        [
+          "Red Mage",
+          11
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!7YJ06tgKBMY1ExDs"
+}

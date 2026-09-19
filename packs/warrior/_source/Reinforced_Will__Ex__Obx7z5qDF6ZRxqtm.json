@@ -1,0 +1,27 @@
+{
+  "_id": "Obx7z5qDF6ZRxqtm",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_14.jpg",
+  "name": "Reinforced Will (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>If a warrior makes a Will save that has an effect on a successful save, he takes no effect on a successful save (i.e., 'Will half' becomes 'Will negate'). This ability can only be used if the warrior is wearing light armor, medium armor, or no armor. A helpless warrior does not gain the benefit of the Reinforced Will ability.</p>"
+    },
+    "tag": "reinforcedwill",
+    "source": "Final Fantasy d20 - Advanced Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          12
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!Obx7z5qDF6ZRxqtm"
+}

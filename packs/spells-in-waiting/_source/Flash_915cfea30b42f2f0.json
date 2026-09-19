@@ -1,0 +1,66 @@
+{
+  "_id": "915cfea30b42f2f0",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Flash",
+  "system": {
+    "actions": [
+      {
+        "_id": "748ef048063f34a7",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "15 ft"
+        },
+        "area": "creatures within a 15-ft.-radius centered on you",
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Blindga , except it affects all enemies within a 15-ft",
+      "value": "<p>This spell functions like Blindga , except it affects all enemies within a 15-ft.-radius. Learned From Scouter Bot Family and Phoenix spawn</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 2
+      }
+    },
+    "level": 2,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!915cfea30b42f2f0"
+}

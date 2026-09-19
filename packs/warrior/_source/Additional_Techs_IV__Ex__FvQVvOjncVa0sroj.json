@@ -1,0 +1,27 @@
+{
+  "_id": "FvQVvOjncVa0sroj",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_12.jpg",
+  "name": "Additional Techs IV (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 9th level, the warrior can make use of the following warrior techniques:</p><ul><li><strong>Endure (Ex):</strong> As an immediate action that costs 1 stamina, the warrior suppresses all effects related to dying (disabled, unconscious, dying, dead) from sustaining hit point damage until the start of his next turn. This effect is lost if the warrior amasses an amount of negative hit points equal to or more than his maximum hit point value during this period.</li><li><strong>Rapid Attack (Ex):</strong> As a full-round action, a warrior can combine a full-attack with a single move at the cost of 2 stamina. He must forgo an attack at his highest bonus but may take the remaining attacks at any point during his movement. In addition, a warrior that dual-wields or uses a double weapon also must forgo the first off-hand attack he can make. This movement provokes attacks of opportunity as normal. This cannot be combined with backswing.</li><li><strong>Wild Swing (Ex):</strong> By spending 1 stamina as a standard action, the warrior makes a single attack against each adjacent enemy.</li></ul>"
+    },
+    "tag": "additionaltechsiv",
+    "source": "Final Fantasy d20 - Warrior",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          9
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!FvQVvOjncVa0sroj"
+}

@@ -1,0 +1,97 @@
+{
+  "type": "buff",
+  "name": "Potential",
+  "system": {
+    "description": {
+      "value": "",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "type": "untyped",
+        "_id": "d8I3VID9",
+        "operator": "add",
+        "priority": 0,
+        "target": "attack",
+        "formula": "(1+floor(@attributes.hd.total/4))d4x"
+      },
+      {
+        "type": "untyped",
+        "_id": "kQX0FLM0",
+        "operator": "add",
+        "priority": 0,
+        "formula": "(1+floor(@attributes.hd.total/4))d4x",
+        "target": "wdamage"
+      }
+    ],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "temp",
+    "active": false,
+    "level": 0,
+    "duration": {
+      "value": "",
+      "units": "turn",
+      "end": "turnEnd",
+      "start": 0
+    },
+    "conditions": [],
+    "hideFromToken": false,
+    "showInQuickbar": true
+  },
+  "_id": "hHskbUdi2R3eSmE1",
+  "img": "icons/svg/ice-aura.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "KJytU1RQudYSFJXl": 3
+  },
+  "flags": {
+    "pf1": {
+      "migration": "11.8"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "coreVersion": "12.343",
+    "createdTime": 1747610347004,
+    "modifiedTime": 1756517961898,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!hHskbUdi2R3eSmE1"
+}

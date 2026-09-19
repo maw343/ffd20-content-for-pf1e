@@ -1,0 +1,76 @@
+{
+  "_id": "W7aUy0VpTg8qnLvl",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "folder": "RWSoA7Fj9yqo0y9U",
+  "img": "systems/pf1/icons/races/human.jpg",
+  "name": "Shindroid",
+  "system": {
+    "changes": [
+      {
+        "formula": "2",
+        "target": "dex",
+        "type": "racial",
+        "_id": "3hx2vgig"
+      },
+      {
+        "formula": "2",
+        "target": "int",
+        "type": "racial",
+        "_id": "wvkb8ej3"
+      },
+      {
+        "formula": "-2",
+        "target": "cha",
+        "type": "racial",
+        "_id": "za6zr4hm"
+      },
+      {
+        "formula": "1",
+        "target": "ac",
+        "type": "racial",
+        "_id": "6sk8mojf"
+      },
+      {
+        "formula": "2",
+        "target": "skill.per",
+        "type": "racial",
+        "_id": "5bx5489y"
+      }
+    ],
+    "contextNotes": [
+      {
+        "target": "skill.sen",
+        "text": "-[[4]] Emotionless"
+      }
+    ],
+    "creatureSubtypes": [
+      "construct"
+    ],
+    "creatureTypes": [
+      "humanoid"
+    ],
+    "description": {
+      "value": "<p>Shindroids appear to be almost hume, but these artificial wonders are of a completely foreign and utterly alien nature, created not born.</p><h2>Standard Racial Traits</h2><ul><li><strong>Ability Score Modifiers</strong>: Shindroids gain +2 Dexterity and Intelligence, but suffer a –2 penalty to Charisma.</li><li><strong>Size</strong>: Shindroids are Medium creatures.</li><li><strong>Type</strong>: <em>Constructed (Ex)</em>: Shindroids possess traits of both humanoids and constructs, but are not immune to mind-affecting effects, poison, paralysis, bleed, blind, disease, death effects, necromancy effects, and stunning.</li><li><strong>Base Speed</strong>: Shindroids have a base speed of 30 feet.</li><li><strong>Languages</strong>: Shindroids begin play speaking Common. Shindroids with high Intelligence can choose any languages they want.</li></ul><h3>Defense Racial Traits</h3><ul><li><strong>Composite Plating</strong>: Shindroids have a +1 natural armor bonus.</li><li><strong>Robotic Immunities</strong>: Shindroids are immune to Fatigued, Exhausted, and Sleep, and immune to fear and emotion-based effects.</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Part Robot</strong>: Shindroids receive the Cybertech Savant feat at 1st level.</li><li><strong>Perceptive</strong>: Shindroids gain a +2 racial bonus on Perception checks.</li></ul><h3>Offense Racial Traits</h3><ul><li><strong>Natural Weapons</strong>: Shindroids have a slam attack that deals 1d4 (1d3 if small) points of damage.</li></ul><h3>Senses Racial Traits</h3><ul><li><strong>Darkvision</strong>: Shindroids have darkvision to a range of 60 feet.</li></ul><h3>Other Racial Traits</h3><ul><li><strong>Immortal</strong>: Shindroids do not gain benefits/penalties for aging.</li><li><strong>Self-Sustained</strong>: Shindroids do not eat, drink or breathe, and are immune to starvation, suffocation, and thirst.</li></ul><h3>Weakness Racial Traits</h3><ul><li><strong>Emotionless</strong>: Shindroids take a –4 penalty on Sense Motive checks and can never gain morale bonuses.</li><li><strong>High Maintenance</strong>: Shindroids healed by healing spells work at 50% efficiency.</li><li><strong>Magic Ineptitude</strong>: Shindroids cannot obtain MP nor use spell-trigger items.</li><li><strong>Rejuvenation Cycle</strong>: A shindroid must shut down for 8 hours to recharge or suffer cumulative penalties.</li></ul>"
+    },
+    "languages": [
+      "common"
+    ],
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "Base Races"
+      }
+    ],
+    "speeds": {
+      "land": 30
+    },
+    "tags": [
+      "Base"
+    ]
+  },
+  "type": "race",
+  "effects": [],
+  "_key": "!items!W7aUy0VpTg8qnLvl"
+}

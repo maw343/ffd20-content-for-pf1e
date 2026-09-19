@@ -1,0 +1,70 @@
+{
+  "_id": "cZ2ZQL5Af1Nq2aOq",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "folder": "RWSoA7Fj9yqo0y9U",
+  "img": "systems/pf1/icons/races/human.jpg",
+  "name": "Loporrit",
+  "system": {
+    "changes": [
+      {
+        "formula": "2",
+        "target": "dex",
+        "type": "racial",
+        "_id": "uw8zrzen"
+      },
+      {
+        "formula": "2",
+        "target": "int",
+        "type": "racial",
+        "_id": "9mfc3cxz"
+      },
+      {
+        "formula": "-2",
+        "target": "wis",
+        "type": "racial",
+        "_id": "r2p6yzyf"
+      },
+      {
+        "formula": "2",
+        "target": "skill.per",
+        "type": "racial",
+        "_id": "vl2y4ngw"
+      },
+      {
+        "formula": "1",
+        "target": "cmd",
+        "type": "racial",
+        "_id": "f18med2r"
+      }
+    ],
+    "creatureSubtypes": [
+      "rabbit"
+    ],
+    "creatureTypes": [
+      "humanoid"
+    ],
+    "description": {
+      "value": "<p>The loporrits are small, fluffy, long-eared bipeds hailing from the moon, originally created by Hydaelyn as logistical support, known for boundless energy and organization.</p><h2>Standard Racial Traits</h2><ul><li><strong>Ability Score Modifiers</strong>: Loporrits gain +2 Dexterity, +2 Intelligence and -2 Wisdom.</li><li><strong>Size</strong>: Loporrits are Small creatures.</li><li><strong>Type</strong>: Loporrits are Humanoid creatures with the rabbit subtype.</li><li><strong>Base Speed</strong>: Loporrits have a base speed of 40 feet.</li><li><strong>Languages</strong>: Loporrits begin play speaking Common and Loporrit. Loporrits with high Intelligence scores can choose from: Abyssal, Celestial, Elvaan, Galkan, Goblin, and Orc.</li></ul><h3>Defense Racial Traits</h3><ul><li><strong>Nimble Faller</strong>: Loporrits land on their feet even after falling and gain a +1 bonus to CMD against trip.</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Handy</strong>: Loporrits receive a +2 racial bonus on a Craft or Profession skill of their choice.</li><li><strong>Keen Senses</strong>: Loporrits receive a +2 racial bonus on Perception checks.</li><li><strong>Nimble</strong>: Loporrits use Dexterity to modify Climb and Swim checks.</li></ul><h3>Movement Racial Traits</h3><ul><li><strong>Sprinter</strong>: Loporrits gain a 10-foot racial bonus to speed when charging, running, or withdrawing.</li></ul><h3>Senses Racial Traits</h3><ul><li><strong>Low-Light Vision</strong>: Loporrits can see twice as far as humes in dim light.</li><li><strong>Scent</strong>: Loporrits have the scent ability.</li></ul>"
+    },
+    "languages": [
+      "common"
+    ],
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "Beastman Tribes"
+      }
+    ],
+    "speeds": {
+      "land": 40
+    },
+    "tags": [
+      "Beastman"
+    ]
+  },
+  "type": "race",
+  "effects": [],
+  "_key": "!items!cZ2ZQL5Af1Nq2aOq"
+}

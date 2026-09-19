@@ -1,0 +1,63 @@
+{
+  "_id": "986c6cba7e220e48",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Wartrain Mount",
+  "system": {
+    "actions": [
+      {
+        "_id": "510e8fd9403e7749",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one indifferent or friendly animal"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "1 hour/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You instill the target animal with the combat training general purpose (see Handle Animal)",
+      "value": "<p>You instill the target animal with the combat training general purpose (see Handle Animal). This supersedes the animal’s previous trained purpose and any tricks it knows. When the spell ends, it reverts to its previous trained purpose and known tricks.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "druid": 2
+      }
+    },
+    "level": 2,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!986c6cba7e220e48"
+}

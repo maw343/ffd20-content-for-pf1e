@@ -1,0 +1,58 @@
+{
+  "_id": "9c45e3a27769bdc4",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Knight's Calling, Mass",
+  "system": {
+    "actions": [
+      {
+        "_id": "d63537a9f28982d8",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "all enemies within a 30-ft.-radius DESCRIPTION This spell functions as Knight’s Calling , but affects all enemies within a 30-ft.-radius."
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions as Knight’s Calling , but affects all enemies within a 30-ft",
+      "value": "<p>This spell functions as Knight’s Calling , but affects all enemies within a 30-ft.-radius.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!9c45e3a27769bdc4"
+}

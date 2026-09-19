@@ -1,0 +1,27 @@
+{
+  "_id": "tjvJyfv7JE86FN7b",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_13.jpg",
+  "name": "Honed Agility (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>When the warrior uses his Dexterity modifier as his hit bonus for attacks with a melee weapon, he may also use it for the damage roll, though he does not gain 1.5x when two-handing his weapons but still applies only 0.5x for off-hand weapons. When the warrior throws a weapon that would use his Strength modifier for damage rolls, he may also use it as his hit bonus. Additionally, the warrior may replace any instance of Strength within his abilities/talents with Dexterity (including Overhand Chop and Backswing, multipliers for 2-handing are reduced by 0.5x; 2x becomes 1.5x).</p>"
+    },
+    "tag": "honedagility",
+    "source": "Final Fantasy d20 - Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!tjvJyfv7JE86FN7b"
+}

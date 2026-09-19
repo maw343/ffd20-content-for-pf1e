@@ -1,0 +1,164 @@
+{
+  "_id": "440aa66ac58854a4",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1786842648947,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Blizzard II",
+  "system": {
+    "description": {
+      "value": "<p>This spell functions like Blizzard , except it deals 3d6 points of ice damage + your casting modifier (Intelligence, Wisdom, or Charisma) + 1 point per caster level (maximum +10) and inflicts the Frozen status effect for 1d6 rounds. A successful Fortitude save prevents the status effect from taking effect.</p>",
+      "instructions": "",
+      "summary": "This spell functions like Blizzard , except it deals 3d6 points of ice damage + your casting modifier (Intelligence, Wisdom, or Charisma)..."
+    },
+    "tags": [],
+    "actions": [
+      {
+        "_id": "19e9088a1b15dc60",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          },
+          "cost": 1
+        },
+        "duration": {
+          "units": "spec",
+          "value": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "3d6 + @spells.primary.abilityMod + min(@spells.primary.cl.total, 10)",
+              "types": [
+                "cold"
+              ]
+            }
+          ]
+        },
+        "uses": {},
+        "ability": {
+          "critRange": 20,
+          "critMult": 2
+        },
+        "powerAttack": {
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "ammo": {
+          "type": "none"
+        }
+      }
+    ],
+    "attackNotes": [],
+    "effectNotes": [],
+    "links": {
+      "children": []
+    },
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 2,
+        "necromancer": 2
+      },
+      "domain": {},
+      "subDomain": {},
+      "elementalSchool": {},
+      "bloodline": {}
+    },
+    "level": 2,
+    "clOffset": 0,
+    "slOffset": 0,
+    "school": "evo",
+    "subschool": [],
+    "descriptors": [],
+    "components": {
+      "value": "",
+      "verbal": true,
+      "somatic": true,
+      "thought": false,
+      "emotion": false,
+      "material": false,
+      "focus": false,
+      "divineFocus": 0
+    },
+    "materials": {
+      "value": "",
+      "focus": "",
+      "gpValue": 0
+    },
+    "spellbook": "",
+    "preparation": {
+      "value": 0,
+      "max": 0
+    },
+    "uses": {
+      "autoDeductChargesCost": ""
+    },
+    "atWill": false,
+    "sr": true,
+    "showInQuickbar": false,
+    "domain": false,
+    "slotCost": 1,
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "showInCombat": false,
+    "clCheck": false,
+    "material": {
+      "base": {
+        "value": "",
+        "custom": false
+      },
+      "normal": {
+        "value": "",
+        "custom": false
+      },
+      "addon": []
+    },
+    "alignments": {
+      "lawful": false,
+      "chaotic": false,
+      "good": false,
+      "evil": false
+    }
+  },
+  "type": "spell",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
+    }
+  },
+  "_key": "!items!440aa66ac58854a4"
+}

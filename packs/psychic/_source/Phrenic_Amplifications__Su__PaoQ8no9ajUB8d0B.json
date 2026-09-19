@@ -1,0 +1,74 @@
+{
+  "_id": "PaoQ8no9ajUB8d0B",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Phrenic Amplifications (Su)",
+  "system": {
+    "description": {
+      "value": "<p>A psychic develops particular techniques to empower her, called phrenic amplifications. A psychic learns one phrenic amplification at 3rd level, selected from a reference list. At 7th level and every four levels thereafter, the psychic learns a new phrenic amplification. A phrenic amplification can't be selected more than once. Once a phrenic amplification has been selected, it can't be changed. Phrenic amplifications require the psychic to expend 1 or more points from her phrenic pool to function. A complete list of phrenic amplifications is detailed on a separate reference page.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "phrenic_amplifications_s",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Psychic"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Psychic",
+          3
+        ],
+        [
+          "Psychic",
+          7
+        ],
+        [
+          "Psychic",
+          11
+        ],
+        [
+          "Psychic",
+          15
+        ],
+        [
+          "Psychic",
+          19
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!PaoQ8no9ajUB8d0B"
+}

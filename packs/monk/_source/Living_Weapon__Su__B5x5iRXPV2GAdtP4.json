@@ -1,0 +1,27 @@
+{
+  "_id": "B5x5iRXPV2GAdtP4",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Living Weapon (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>You may treat your body as a weapon for the purposes of magically enhancing it, allowing you to bestow an enhancement bonus and melee weapon special abilities to all types of your unarmed strikes (kicks, elbows, etc) without the need of manufactured weapons. Magically enhancing your body through these means doubles the price requirement of any given enhancement level (ex: a +1 enhancement would have a price of 4,000 gil), but the crafting time for this process is unaffected.</p>"
+    },
+    "tag": "livingweapon",
+    "source": "Final Fantasy d20 - Monk Talents",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!B5x5iRXPV2GAdtP4"
+}

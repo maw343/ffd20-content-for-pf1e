@@ -1,0 +1,68 @@
+{
+  "_id": "790bc5ebe5e619fa",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Reverse",
+  "system": {
+    "actions": [
+      {
+        "_id": "5f8cd2a91b382671",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You twist your enemy’s ability to be healed with your shadow elemental powers.",
+      "value": "<p>You twist your enemy’s ability to be healed with your shadow elemental powers. For the duration of the spell, the target suffers from the\nReversed\nstatus effect and when they are healed by any healing spell or effect it is reversed (takes damage from healing spells and effects) until cured.\nReversed: This status effect causes the target to take damage from healing spells and effects, including Fast Healing and Regeneration.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 7,
+        "necromancer": 7,
+        "timemage": 7
+      }
+    },
+    "level": 7,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!790bc5ebe5e619fa"
+}

@@ -1,0 +1,94 @@
+{
+  "_id": "KaoQ8no9ajUB8d0B",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Geomancy Tricks",
+  "system": {
+    "description": {
+      "value": "<p>As a geomancer gains experience, she learns a number of tricks that aid her. Starting at 2nd level, the geomancer gains one geomancy trick. She gains an additional geomancy trick for every two levels of geomancer attained after 2nd level. Unless specified otherwise, a geomancer cannot select an individual trick more than once.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "geomancy_tricks",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Geomancer"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Geomancer",
+          2
+        ],
+        [
+          "Geomancer",
+          4
+        ],
+        [
+          "Geomancer",
+          6
+        ],
+        [
+          "Geomancer",
+          8
+        ],
+        [
+          "Geomancer",
+          10
+        ],
+        [
+          "Geomancer",
+          12
+        ],
+        [
+          "Geomancer",
+          14
+        ],
+        [
+          "Geomancer",
+          16
+        ],
+        [
+          "Geomancer",
+          18
+        ],
+        [
+          "Geomancer",
+          20
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!KaoQ8no9ajUB8d0B"
+}

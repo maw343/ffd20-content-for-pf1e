@@ -1,0 +1,27 @@
+{
+  "_id": "NwY5D7Ts4hd9dfa3",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_14.jpg",
+  "name": "Defensive Circle (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Assuring Presence warrior talent</p><p>As a swift or move action, while Assuring Presence is active, the warrior enhances its effects to also apply its bonus to AC.</p>"
+    },
+    "tag": "defensivecircle",
+    "source": "Final Fantasy d20 - Advanced Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          12
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!NwY5D7Ts4hd9dfa3"
+}

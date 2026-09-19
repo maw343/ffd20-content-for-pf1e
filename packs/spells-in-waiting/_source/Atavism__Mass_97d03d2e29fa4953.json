@@ -1,0 +1,58 @@
+{
+  "_id": "97d03d2e29fa4953",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Atavism, Mass",
+  "system": {
+    "actions": [
+      {
+        "_id": "4b7c58da1504be5c",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "one animal/level, no two of which can be more than 30 ft. apart DESCRIPTION This spell functions as atavism , except it affects multiple creatures."
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions as atavism , except it affects multiple creatures",
+      "value": "<p>This spell functions as atavism , except it affects multiple creatures.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!97d03d2e29fa4953"
+}

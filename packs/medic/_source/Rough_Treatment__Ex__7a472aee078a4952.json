@@ -1,0 +1,63 @@
+{
+  "_id": "7a472aee078a4952",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785720769193,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Rough Treatment (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Medic 6, Triage class feature</p><p>The medic knows how to force additional healing with a bit of less than gentle treatment. When the medic uses Triage to heal an ally, she can make a Heal check with a DC equal to 10 + her target's HD. On a success, the target gains additional healing equal to the medic's Surgical Precision feature. The target takes half of the amount of dice as non-lethal damage. On a failure, they take the entire amount of dice as non-lethal damage and only heal half the amount. The non-lethal damage occurs after the healing. The medic can perform this practice a number of times per day equal to her Wisdom modifier.</p>",
+      "instructions": ""
+    },
+    "tags": [
+      "Triage Practice"
+    ],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "roughtreatmentex",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Medic",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Medical Practices"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!7a472aee078a4952"
+}

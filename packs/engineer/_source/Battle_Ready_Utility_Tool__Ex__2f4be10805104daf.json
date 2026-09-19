@@ -1,0 +1,61 @@
+{
+  "_id": "2f4be10805104daf",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785718761462,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Battle-Ready Utility Tool (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Utility Tool engineer trick</p><p>With tweaking and additional parts and pieces, an Engineer's Utility Tool can be upgraded to be a viable option in combat. The tool still has a variety of metal panels, plates and spikes, but it has also been fitted with sharpened and hardened edges to increase its durability and stability. It goes from being a sleek, streamlined 12-inch bar to being a 30-inch bar, fold-able to 15-inches. Alongside the normal capabilities of the Utility Tool (folding, twisting, and manipulating it into an innumerable amount of tools), the addition of these new panels and edges allows it to be changed into any melee weapon the Engineer has seen and is proficient in. The lack of specific parts still prevents the Utility Tool from creating complex items like crossbows or firearms, but it can become any type of one-handed melee weapon, including emulating any combat tricks the weapon is capable of. It takes a full-round action to change the tool from a normal tool to a weaponized tool and from one damage type to another, and a standard action to change one weapon into another of the same damage type. With the process of adding plates and parts, the Battle-Ready Utility Tool now weighs 10 lbs. and has a hardness of 5 and 20 hit points. The Utility Tool counts as a masterwork tool and a masterwork weapon, however further enhancement can only be done by the Engineer that created it.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "battlereadyutilitytoolex",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Engineer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Engineer Tricks - Gadgets"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!2f4be10805104daf"
+}

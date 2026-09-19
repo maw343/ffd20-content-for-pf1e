@@ -1,0 +1,27 @@
+{
+  "_id": "cZIcNX1M2imN3TAI",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_13.jpg",
+  "name": "Assuring Presence (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>As a full-round action, the warrior grants all allies that are aware of him a +1 (insight) bonus on attack rolls, lasting until the end of the encounter. If the warrior is knocked unconscious or killed, this bonus is lost (until he is no longer unconscious or dead).</p>"
+    },
+    "tag": "assuringpresence",
+    "source": "Final Fantasy d20 - Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!cZIcNX1M2imN3TAI"
+}

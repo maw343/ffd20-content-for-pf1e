@@ -1,0 +1,65 @@
+{
+  "_id": "WAIj0rdVCEObXWwc",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785712060620,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/light_15.jpg",
+  "name": "Blistered Caress (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Astrologian 14, Diurnal Sect</p><p>At 14th level, while under the Diurnal Sect, the astrologian can channel the hostile, unforgiving heat of the sun into her touch. This is a melee touch attack that deals 1d8 points of fire damage per 2 astrologian levels, a successful Fortitude save (DC 10 + half of the astrologian's level + her Wisdom modifier) for half damage. Against a plant creature, this touch heals or damages the creature (her choice) for 1d6 points of fire damage per astrologian level, a successful Fortitude save (DC 10 + half of the astrologian's level + her Wisdom modifier) for half damage. At 17th level, a creature that fails its save against this secret becomes sickened for 1d4 hours in addition to taking fire damage. At 20th level, her touch is so intense that a creature that fails its save is also staggered for 1d6 rounds. The astrologian can use this ability once per day plus one additional time per day at 17th and 20th level.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "blisteredcaress",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Astrologian",
+          14
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Sect Powers"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "ffd20": {
+      "sect": "Diurnal"
+    }
+  },
+  "_key": "!items!WAIj0rdVCEObXWwc"
+}

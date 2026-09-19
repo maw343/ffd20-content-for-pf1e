@@ -1,0 +1,27 @@
+{
+  "_id": "NKkhvK6qmbt2Nsnq",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_14.jpg",
+  "name": "Ki Trap (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>Conjure a pulsating ball of energy that harms nearby enemies. You summon a 5 foot ball of energy in an adjacent space that deals 1d6 per three monk levels in non-elemental damage to adjacent enemies, dealing maximized damage instead to those who share its space. The damage is dealt once the Ki Trap is created and every time a creature ends their turn in the area of effect. This effect lasts for a number of rounds equal to the monk's Constitution modifier.</p>"
+    },
+    "tag": "kitrap",
+    "source": "Final Fantasy d20 - Blitz Techniques",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          3
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!NKkhvK6qmbt2Nsnq"
+}

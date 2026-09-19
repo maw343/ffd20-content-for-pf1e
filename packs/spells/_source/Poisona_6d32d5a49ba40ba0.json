@@ -1,0 +1,73 @@
+{
+  "_id": "6d32d5a49ba40ba0",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Poisona",
+  "system": {
+    "actions": [
+      {
+        "_id": "c511e7c42265b68b",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless, object)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Surrounding a target with green and blue lights you pull the poison out from their body.",
+      "value": "<p>Surrounding a target with green and blue lights you pull the poison out from their body.\nYou remove the\npoison\nstatus effect from a creature. A cured creature suffers no additional effects from the poison, but the spell does not reverse the hit point damage already dealt. This only cures the default form of the\npoison\nstatus effect, not any variants of poisons.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 2,
+        "druid": 2,
+        "redmage": 2,
+        "paladin": 2,
+        "whitemage": 2
+      }
+    },
+    "level": 2,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "healing"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!6d32d5a49ba40ba0"
+}

@@ -1,0 +1,66 @@
+{
+  "_id": "afb59cff1ffa2caa",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Blood Howl",
+  "system": {
+    "actions": [
+      {
+        "_id": "ad0f8d9bea8e7732",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "area": "allies within a 15-ft.-radius centered on you",
+        "duration": {
+          "units": "round",
+          "value": "1d6 rounds"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the howling might of a nakk",
+      "value": "<p>The caster emulates the howling might of a nakk. All allies within the area of effect gain a +2 dodge bonus to AC and +2 morale bonus to attack rolls for the duration. Learned From Nakk Family</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!afb59cff1ffa2caa"
+}

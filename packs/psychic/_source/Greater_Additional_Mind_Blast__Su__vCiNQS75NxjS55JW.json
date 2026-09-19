@@ -1,0 +1,50 @@
+{
+  "_id": "vCiNQS75NxjS55JW",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Greater Additional Mind Blast (Su)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Psychic 16, Mind Blast class feature, Additional Mind Blast psychic talent</p><p><strong>Benefit:</strong> As a full-round action, the psychic can fire off a third mind blast at a -10 penalty to attack rolls or -2 DC if the psychic is using the mind flayer blast psychic talent.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "psychicTalent",
+    "tag": "greater_additional_mind_",
+    "requirements": "Psychic 16, Mind Blast class feature, Additional Mind Blast psychic talent",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-PsychicClass",
+        "pages": "Psychic Talents"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!vCiNQS75NxjS55JW"
+}

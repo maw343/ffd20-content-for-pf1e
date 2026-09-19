@@ -1,0 +1,55 @@
+{
+  "_id": "f27151893225513c",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Age Resistance",
+  "system": {
+    "actions": [
+      {
+        "_id": "ad56046e17189b87",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions as Lesser Age Resistance , except you ignore the Strength, Dexterity, and Constitution penalties gained at middle ag...",
+      "value": "<p>This spell functions as Lesser Age Resistance , except you ignore the Strength, Dexterity, and Constitution penalties gained at middle age and old age.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!f27151893225513c"
+}

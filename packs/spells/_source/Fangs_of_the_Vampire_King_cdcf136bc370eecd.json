@@ -1,0 +1,73 @@
+{
+  "_id": "cdcf136bc370eecd",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Fangs of the Vampire King",
+  "system": {
+    "actions": [
+      {
+        "_id": "5da0c082f916ad9f",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level DESCRIPTION You grow vampirelike fangs that allow you to make bite attacks as natural attacks. Your bite attack deals 1d6 points of damage + your strength modifier, and 1 point of Constitution damage. If you make a full attack with other weapons, you can make a bite attack as a natural secondary attack."
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You grow vampirelike fangs that allow you to make bite attacks as natural attacks",
+      "value": "<p>You grow vampirelike fangs that allow you to make bite attacks as natural attacks. Your bite attack deals 1d6 points of damage + your strength modifier, and 1 point of Constitution damage. If you make a full attack with other weapons, you can make a bite attack as a natural secondary attack.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "darkknight": 3,
+        "necromancer": 3
+      }
+    },
+    "level": 3,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!cdcf136bc370eecd"
+}

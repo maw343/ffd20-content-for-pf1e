@@ -1,0 +1,19 @@
+{
+  "_id": "d9TH4QgTNBEjE4o2",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/yellow_37.jpg",
+  "name": "Focused Caster",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>Also at 3rd level, a black mage finds casting spells within combat much easier. The black mage gains Combat Casting as a bonus feat. If he already has this feat he can choose between either Grappled Caster or Uncanny Concentration as a bonus feat.</p>"
+    },
+    "tag": "focusedcaster",
+    "source": "Final Fantasy d20 - Black Mage"
+  },
+  "effects": [],
+  "_key": "!items!d9TH4QgTNBEjE4o2"
+}

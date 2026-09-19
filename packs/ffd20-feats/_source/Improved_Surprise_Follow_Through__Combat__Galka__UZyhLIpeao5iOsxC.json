@@ -1,0 +1,50 @@
+{
+  "_id": "UZyhLIpeao5iOsxC",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Improved Surprise Follow-Through (Combat, Galka)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Str 13, Cleave, Great Cleave, Power Attack, Surprise Follow Through, base attack bonus +8, galka</p><p><strong>Benefit:</strong> When using Great Cleave, each opponent you attack on your turn (other than the first) is denied his Dexterity bonus against you.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "racial",
+    "tag": "improved_surprise_follow",
+    "requirements": "Str 13, Cleave, Great Cleave, Power Attack, Surprise Follow Through, base attack bonus +8, galka",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-RacialFeats",
+        "pages": "Racial Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!UZyhLIpeao5iOsxC"
+}

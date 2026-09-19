@@ -1,0 +1,68 @@
+{
+  "_id": "22d9528fa4d92b8e",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Reflectga",
+  "system": {
+    "actions": [
+      {
+        "_id": "6a00e874d12ec966",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature/2 levels (maximum of 5)"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Reflect , except it affects one creature per two levels (maximum of 5), within 30 feet of each other.",
+      "value": "<p>This spell functions like\nReflect\n, except it affects one creature per two levels (maximum of 5), within 30 feet of each other.\nSpells and spell-like effects targeted on you are turned back upon the original caster. The spell turns only spells that have you as a target. Effect and area spells are not affected.\nReflect\nalso fails to stop touch range spells. From seven to ten (1d4+6) spell levels are affected by the turning. The exact number is rolled secretly.\nWhen you are targeted by a spell of higher level than the amount of reflect you have left, that spell is partially turned. Subtract the amount of reflect left from the spell level of the incoming spell, then divide the result by the spell level of the incoming spell to see what fraction of the effect gets through. For damaging spells, you and the caster each take a fraction of the damage. For non-damaging spells, each of you has a proportional chance to be the one who is affected. If you and a spellcasting attacker are both warded by\nreflect\neffects in operation, a resonating field is created. Roll randomly to determine the result.\nTable: Reflect Resonance\nd%\nEffect\n01-70\nSpell drains away without effect.\n71-80\nSpell affects both of you equally at full effect.\n81-97\nBoth turning effects are rendered nonfunctional for 1d4 minutes.\n98-100\nBoth of you go through a rift into another plane.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 9,
+        "whitemage": 9
+      }
+    },
+    "level": 9,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!22d9528fa4d92b8e"
+}

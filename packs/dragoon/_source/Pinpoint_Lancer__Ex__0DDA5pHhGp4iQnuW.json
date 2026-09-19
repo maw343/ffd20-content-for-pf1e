@@ -1,0 +1,27 @@
+{
+  "_id": "0DDA5pHhGp4iQnuW",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Pinpoint Lancer (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>Attack your enemies with pinpoint accuracy over brute force. You may use your Dexterity modifier instead of your Strength modifier for melee damage rolls with spears, lances, or polearms. This modifier to damage is not increased for two-handed weapons, but is still reduced for off-hand weapons.</p>"
+    },
+    "tag": "pinpointlancer",
+    "source": "Final Fantasy d20 - Dragoon Talents",
+    "associations": {
+      "classes": [
+        [
+          "Dragoon",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!0DDA5pHhGp4iQnuW"
+}

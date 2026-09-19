@@ -1,0 +1,62 @@
+{
+  "_id": "97c80c4b9227e2b8",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Elemental Touch",
+  "system": {
+    "actions": [
+      {
+        "_id": "a85cb50d726595ae",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Upon completing the casting of this spell, elemental energy infuses your hands.",
+      "value": "<p>Upon completing the casting of this spell, elemental energy infuses your hands.\nChoose an elemental type: earth, fire, ice, lightning, water, or wind. You gain a melee touch attack causing 1d6 points of damage of that elemental type (this damage is not multiplied on a critical hit), along with a special effect described below. You also deal elemental damage and the related special effect when you attack with your hands using an unarmed strike, a single claw, or a single slam attack. This bonus damage can never apply to multiple weapons, such as casting the spell a second time.\nEarth\n: Your touch attack inflicts a creature with the\nWeighted\nstatus effect for 1d4 rounds, a Fortitude save to negate.\nFire\n: Your touch attack inflicts a creature with the\nBurning\nstatus effect for 1d4 rounds, a Reflex save to negate.\nIce\n: Your touch attack inflicts a creature with the\nFrozen\nstatus effect for 1d4 rounds, a Fortitude save to negate.\nLightning\n: Your touch attack inflicts a creature with the\nStatic\nstatus effect for 1d4 rounds, a Reflex save to negate.\nWater\n: Your touch attack inflicts a creature with the\nDrenched\nstatus effect for 1d4 rounds, a Fortitude save to negate.\nWind\n: Your touch attack inflicts a creature with the\nSqualled\nstatus effect for 1d4 rounds, a Reflex save to negate.\nSubsequent attacks inflict the bonus elemental damage, but the status effects only apply to your first successful attack per round. This spell grants no special protection to anything held in or worn on your hands. When you cast this spell to deal earth, fire, ice, lightning, water, or wind damage, it is a spell of that type.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 2,
+        "geomancer": 2,
+        "redmage": 2
+      }
+    },
+    "level": 2,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!97c80c4b9227e2b8"
+}

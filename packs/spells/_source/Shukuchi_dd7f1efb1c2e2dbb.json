@@ -1,0 +1,62 @@
+{
+  "_id": "dd7f1efb1c2e2dbb",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Shukuchi",
+  "system": {
+    "actions": [
+      {
+        "_id": "cdf4e3581c467e7f",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "5 ft"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous DESCRIPTION You instantly teleport to a distance of 5 feet per two ninja levels. The destination must be an unoccupied space within line of sight. The square you cast this ninjutsu from becomes filled with smoke as if by a smoke stick when this ninjutsu is cast."
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You instantly teleport to a distance of 5 feet per two ninja levels",
+      "value": "<p>You instantly teleport to a distance of 5 feet per two ninja levels. The destination must be an unoccupied space within line of sight. The square you cast this ninjutsu from becomes filled with smoke as if by a smoke stick when this ninjutsu is cast.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "ninja": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!dd7f1efb1c2e2dbb"
+}

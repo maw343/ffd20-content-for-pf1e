@@ -1,0 +1,27 @@
+{
+  "_id": "W6CidRqSOnVqc9hC",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_14.jpg",
+  "name": "Meteor Strike (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>Suplex your foe crashing into the ground. Make a grapple combat maneuver check (this does not provoke attacks of opportunity) against an adjacent creature no more than one size larger than yourself with a bonus equal to half your monk level. If successful, you may reposition that creature to an open square adjacent to you, knocking them prone and dealing 1d10 per two monk levels + 1.5x your Strength modifier in bludgeoning damage to them.</p>"
+    },
+    "tag": "meteorstrike",
+    "source": "Final Fantasy d20 - Blitz Techniques",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          3
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!W6CidRqSOnVqc9hC"
+}

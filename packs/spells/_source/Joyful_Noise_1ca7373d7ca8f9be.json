@@ -1,0 +1,63 @@
+{
+  "_id": "1ca7373d7ca8f9be",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Joyful Noise",
+  "system": {
+    "actions": [
+      {
+        "_id": "2f7f1ea82bac63a3",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "15 ft"
+        },
+        "area": "15-ft.-radius emanation centered on you",
+        "duration": {
+          "units": "round",
+          "value": "1 round",
+          "concentration": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You create sonic vibrations that negate any magical silencing effects within a 15-ft radius around you.",
+      "value": "<p>You create sonic vibrations that negate any magical silencing effects within a 15-ft radius around you. Allies within the area of effect may ignore the effects of the\nSilenced\nstatus effect. While in the area, any silence effects continue their duration but are essentially disabled until the creature leaves the area.</p>"
+    },
+    "descriptors": [
+      "earth"
+    ],
+    "learnedAt": {
+      "class": {
+        "bard": 1
+      }
+    },
+    "level": 1,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!1ca7373d7ca8f9be"
+}

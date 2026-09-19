@@ -1,0 +1,69 @@
+{
+  "_id": "60d4a1d92084f4f1",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Loathsome Veil",
+  "system": {
+    "actions": [
+      {
+        "_id": "888e71705711294c",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "transparent illusion 40 ft. long, 20 ft. high"
+        },
+        "duration": {
+          "units": "round",
+          "value": "concentration + 1 round/level",
+          "concentration": true
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell creates a transparent veil of shifting, multicolored strands of light that form into endlessly varied and alien patterns",
+      "value": "<p>This spell creates a transparent veil of shifting, multicolored strands of light that form into endlessly varied and alien patterns. One side of the veil, chosen by you at the time of casting, is harmless. The other side twists and turns into impossible shapes, affecting any creature with 60 feet who views the veil. The veil affects a maximum of 24 Hit Dice of creatures. Creatures with the fewest HD are affected first. Among creatures with equal HD, those who are closest to the spell are affected first. The effect is according to the creature’s HD. 4 HD or fewer: The creature is nauseated while it can see the veil, nauseated for 1d4 rounds after it last saw the veil, then sickened for 2d4 rounds after it last saw the veil. 8 HD or fewer: The creature is nauseated for 1d4 rounds, sickened while it can see the veil, then sickened for 1d4 rounds after it last saw the veil. 9 or more HD: The creature is sickened while it can see the veil. A successful saving throw ignores all effects of the veil. Sightless creatures are not affected by loathsome veil. Affected creatures can avert or close their eyes to avoid seeing the veil, similar to avoiding a gaze attack.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "illusionist": 3
+      }
+    },
+    "level": 3,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!60d4a1d92084f4f1"
+}

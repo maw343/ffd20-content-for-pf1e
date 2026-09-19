@@ -1,0 +1,69 @@
+{
+  "_id": "de1ed3cf3da95a87",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Angel Feathers",
+  "system": {
+    "actions": [
+      {
+        "_id": "b42f3636f0b7b159",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "allies within a 30-ft.-radius centered on you",
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You call forth Seraph, an angelic being who causes feathers to float down upon your dead allies within the area of effect, beckoning them...",
+      "value": "<p>You call forth Seraph, an angelic being who causes feathers to float down upon your dead allies within the area of effect, beckoning them to come back to life. The dead allies are brought back to life at 1 hit point. All dead allies must be dead no longer than 1 round per level to be raised. While the spell closes mortal wounds and repairs lethal damage of most kinds, the body of the creature to be raised must be whole. Otherwise, missing parts are still missing when the creature is brought back to life. Coming back from the dead is an ordeal. The subject of the spell gains two permanent negative levels when it is raised, just as if it had been hit by an energy-draining creature. If the subject is 1st level, it takes 2 points of Constitution drain instead (if this would reduce its Con to 0 or less, it can’t be raised). A spellcasting creature that has a MP pool loses 50% of its magic points upon being raised. A creature who has been turned into an undead creature or killed by a death effect can’t be raised by this spell. Constructs, elementals, outsiders, and undead creatures can’t be raised. The spell cannot bring back a creature that has died of old age.</p>"
+    },
+    "descriptors": [
+      "negative",
+      "death"
+    ],
+    "learnedAt": {
+      "class": {
+        "summoner": 6
+      }
+    },
+    "level": 6,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!de1ed3cf3da95a87"
+}

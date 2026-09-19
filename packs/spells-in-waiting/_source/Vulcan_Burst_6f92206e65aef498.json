@@ -1,0 +1,77 @@
+{
+  "_id": "6f92206e65aef498",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Vulcan Burst",
+  "system": {
+    "actions": [
+      {
+        "_id": "a80e2a6486cfb82b",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "30-ft.-radius burst centered on caster",
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "10d6",
+              "types": [
+                "fire"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the Ifrit’s ability to cause a burst of fiery energy to erupt around him, causing enemies to be blasted back",
+      "value": "<p>The caster emulates the Ifrit’s ability to cause a burst of fiery energy to erupt around him, causing enemies to be blasted back. Creatures, except the caster, within a 30-ft.-radius take 10d6 points of fire damage and are pushed back up to 30 feet away from the caster. A successful Reflex save halves the damage and negates the knock back. Learned From Ifrit</p>"
+    },
+    "descriptors": [
+      "fire"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 7
+      }
+    },
+    "level": 7,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!6f92206e65aef498"
+}

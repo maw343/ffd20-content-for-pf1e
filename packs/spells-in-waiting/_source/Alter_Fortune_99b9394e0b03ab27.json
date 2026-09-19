@@ -1,0 +1,68 @@
+{
+  "_id": "99b9394e0b03ab27",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Alter Fortune",
+  "system": {
+    "actions": [
+      {
+        "_id": "a0d3a7034f1b1bac",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "immediate",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one enemy creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "With a single utterance, you create a momentary distortion that engulfs and confounds your foe",
+      "value": "<p>With a single utterance, you create a momentary distortion that engulfs and confounds your foe. You change the flow of chance, causing the enemy to immediately reroll any die roll it just made. It must abide by the second roll.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 3,
+        "timemage": 3
+      }
+    },
+    "level": 3,
+    "school": "div",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!99b9394e0b03ab27"
+}

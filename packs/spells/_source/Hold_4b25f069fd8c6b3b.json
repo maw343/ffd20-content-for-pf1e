@@ -1,0 +1,69 @@
+{
+  "_id": "4b25f069fd8c6b3b",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Hold",
+  "system": {
+    "actions": [
+      {
+        "_id": "ef7773e056bcd0dd",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "one humanoid creature"
+        },
+        "duration": {
+          "units": "spec"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates; see text"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The target becomes paralyzed and freezes in place.",
+      "value": "<p>The target becomes paralyzed and freezes in place. It is aware and breathes normally but cannot take any actions, even speech. Each round on its turn, the target may attempt a new saving throw to end the effect. This is a\nfull-round action\nthat does not provoke attacks of opportunity. A winged creature who is paralyzed cannot flap its wings and falls. A swimmer cannot swim and may drown.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "whitemage": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "compulsion",
+      "mind-affecting"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!4b25f069fd8c6b3b"
+}

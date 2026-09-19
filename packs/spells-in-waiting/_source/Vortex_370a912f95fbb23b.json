@@ -1,0 +1,82 @@
+{
+  "_id": "370a912f95fbb23b",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Vortex",
+  "system": {
+    "actions": [
+      {
+        "_id": "0df0d4244b9feece",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "long",
+          "value": "400 ft"
+        },
+        "target": {
+          "value": "whirlpool 50 ft. deep, 30 ft. wide at top, and 5 ft. wide at base"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "3d6",
+              "types": [
+                "water"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex negates — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You create a powerful and immobile whirlpool in any body of liquid large enough to contain the spell’s effect",
+      "value": "<p>You create a powerful and immobile whirlpool in any body of liquid large enough to contain the spell’s effect. Any Large or smaller creature that comes in contact with the spell effect must succeed on a Reflex save or take 3d6 points of water damage. A Medium or smaller creature that fails its first save must succeed on a second one or be pulled into the whirlpool and held suspended in its powerful currents, taking 1d8 points of water damage each round on your turn with no save allowed. You may direct the whirlpool to eject any carried creatures whenever you wish. A boat that is equal in length or shorter than the vortex’s width that passes through a vortex takes 6d6 points of water damage and is caught up by the current. If the boat’s captain makes a DC 25 Profession (sailor) check (or if the boat is longer than the vortex’s width), the boat takes only half damage and is not caught up by the vortex.</p>"
+    },
+    "descriptors": [
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 7,
+        "druid": 7,
+        "geomancer": 7
+      }
+    },
+    "level": 7,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!370a912f95fbb23b"
+}

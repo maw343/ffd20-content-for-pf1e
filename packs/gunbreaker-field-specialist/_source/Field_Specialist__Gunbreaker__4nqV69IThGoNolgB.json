@@ -1,0 +1,274 @@
+{
+  "name": "Field Specialist (Gunbreaker)",
+  "type": "class",
+  "img": "icons/svg/paralysis.svg",
+  "system": {
+    "description": {
+      "value": "<p>For the most elite gunbreakers, their usual duties may eventually begin to seem dull and common-place. For those suffering from this sense of ennui, dueling can prove to be a compelling pastime – or even (for the especially mercenary or thrill-seeking) an exciting new form of employment. These swift-footed individuals hone their fighting style into a sequence of deadly repartees, and soon come to navigate the social battleground with equal deftness.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "classAssociations": [
+        {
+          "name": "Gunsmith",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.cLkqCzmCtRxo8KZo",
+          "level": 1
+        },
+        {
+          "name": "Duelist Stance",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.3S83KpBqO06aSKey",
+          "level": 1
+        },
+        {
+          "name": "Magicked Ammo",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.LR3aC43CnrtChmCj",
+          "level": 1
+        },
+        {
+          "name": "Duelist Training (Ex)",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.6Y4u9kTomJ9445J3",
+          "level": 2
+        },
+        {
+          "name": "Keen Edge (Ex)",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.5tYxdARWw1sxaFaj",
+          "level": 2
+        },
+        {
+          "name": "Extended Reach (Ex)",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.ZkSL0XT1OqkCA1Hn",
+          "level": 3
+        },
+        {
+          "name": "Trigger (Ex)",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.IeANHf2whejdUWoh",
+          "level": 3
+        },
+        {
+          "name": "Evasion (Ex)",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.BSsjhqiUXdV8e7GE",
+          "level": 3
+        },
+        {
+          "name": "Elaborate Parry (Ex)",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.y5HZg5KuwPtYZwpm",
+          "level": 4
+        },
+        {
+          "name": "Duelist Finesse (Ex)",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.TH4qr4ZulIFYIo4N",
+          "level": 4
+        },
+        {
+          "name": "Gunbreaker Talents",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.Xt8Eb93t4hTSmMeQ",
+          "level": 4
+        },
+        {
+          "name": "Quick Cartridge (Ex)",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.9jkOdevd1S5qXNVa",
+          "level": 5
+        },
+        {
+          "name": "Gun Arm Mastery (Ex)",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.kCMd9yEm9IbMSSOg",
+          "level": 5
+        },
+        {
+          "name": "Improved Evasion (Ex)",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.kOSf6rbRG66j38xV",
+          "level": 9
+        },
+        {
+          "name": "Improved Uncanny Dodge (Ex)",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.ibnojhpUGkAgX8sr",
+          "level": 10
+        },
+        {
+          "name": "Suppressing Menace (Ex)",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.55MSFi6aU0OZKJgD",
+          "level": 11
+        },
+        {
+          "name": "Counterattack (Ex)",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.ZyTdoDKdcuqpLHJZ",
+          "level": 11
+        },
+        {
+          "name": "Advanced Gunbreaker Talents",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.IhFFRunRWmd2k8s5",
+          "level": 12
+        },
+        {
+          "name": "Lightning Strike (Ex)",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.GcPNNAOfn6mFxQT8",
+          "level": 13
+        },
+        {
+          "name": "Elaborate Defense (Ex)",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.i5a0uUbbKy6CkAYo",
+          "level": 13
+        },
+        {
+          "name": "Gnashing Fang (Ex)",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.7IbTFp1xGm45QfPl",
+          "level": 14
+        },
+        {
+          "name": "Abdomen Tear (Ex)",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.nNq8l0WL5F7hI6MP",
+          "level": 16
+        },
+        {
+          "name": "Gunbreaker’s Resilience (Ex)",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.w2pJNEGGVRuLjv3w",
+          "level": 17
+        },
+        {
+          "name": "Die by the Gunblade (Su)",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.FAdocTSXArlVwa1B",
+          "level": 19
+        },
+        {
+          "name": "Surgical Strike (Ex)",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.AV48Gx6fMvLgWzdU",
+          "level": 19
+        },
+        {
+          "name": "Lion Heart (Su)",
+          "uuid": "Compendium.world.gunbreaker-field-specialist.Item.O0sZh1bmHmwbY7Jp",
+          "level": 20
+        }
+      ]
+    },
+    "tag": "",
+    "armorProf": [
+      "lgt"
+    ],
+    "weaponProf": [
+      "simple",
+      "Gunblades (Standard)"
+    ],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "base",
+    "level": 1,
+    "hd": 10,
+    "hp": 10,
+    "bab": "high",
+    "skillsPerLevel": 4,
+    "savingThrows": {
+      "fort": {
+        "value": "high"
+      },
+      "ref": {
+        "value": "high"
+      },
+      "will": {
+        "value": "low"
+      }
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "wealth": "",
+    "alignment": "",
+    "classSkills": {
+      "acr": true,
+      "apr": false,
+      "art": false,
+      "blf": false,
+      "clm": true,
+      "ckg": false,
+      "crf": true,
+      "dip": true,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": true,
+      "int": true,
+      "kar": false,
+      "kdu": false,
+      "ken": true,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kna": false,
+      "kno": true,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": true,
+      "prf": false,
+      "pro": true,
+      "rid": true,
+      "sen": true,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": true,
+      "umd": false
+    },
+    "customHD": "",
+    "casting": {
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "ai4V5FVW04U0h9b6",
+  "flags": {
+    "core": {},
+    "pf1": {
+      "migration": "11.11"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "coreVersion": "12.343",
+    "createdTime": 1745006993656,
+    "modifiedTime": 1785110354535,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "4nqV69IThGoNolgB",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "KJytU1RQudYSFJXl": 3
+  },
+  "_key": "!items!4nqV69IThGoNolgB"
+}

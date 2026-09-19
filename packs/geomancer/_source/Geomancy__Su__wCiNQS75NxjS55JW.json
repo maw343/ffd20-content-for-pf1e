@@ -1,0 +1,82 @@
+{
+  "_id": "wCiNQS75NxjS55JW",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Geomancy (Su)",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 1st level, a geomancer draws upon the power of the terrain she stands upon to defeat her foes. The geomancer can use this ability a number of times per day equal to her class level + her Wisdom modifier. Which geomancy power a geomancer may use depends upon what type of terrain she is standing on (see Table: Geomancy). The range of geomancy is 25 feet plus 5 feet every two geomancer levels after 1st, and requires a ranged touch attack to strike a target. If the attack hits, it deals 1d6 damage (elemental, or 1d4 if non-elemental) plus her Wisdom modifier plus an additional 1d6 (or 1d4 if non-elemental) per three geomancer levels after 1st (2d6 at 4th, 3d6 at 7th, 4d6 at 10th, 5d6 at 13th, 6d6 at 16th, 7d6 at 19th), centered on the target. Any adjacent creature to the target can make a Reflex save (DC 10 + half of the geomancer's level + her Wisdom modifier) to take half damage. Creatures struck must make another save at the same DC or take a secondary effect based on the attack used, lasting 3 rounds with a save each round to end early. Geomancy powers by terrain: Pitfall (packed/loose dirt, Weighted, Fort, Earth), Water Ball (water, Drenched, Fort, Water), Hell Ivy (grasses, Entangled, Reflex, Non-Elemental), Carve Model (loose rocks/worked stone outdoors, Silenced, Will, Earth), Local Quake (unworked stone, Staggered, Will, Earth), Kamaitachi (man-made structures, Blinded, Will, Wind), Demon Fire (worked floors indoors, Burning, Will, Fire), Quicksand (swamp/mud/marsh, Drenched, Will, Water), Sand Storm (sandy ground, Blinded, Fort, Wind), Blizzard (snow/ice/tundra, Frozen, Fort, Ice), Gusty Wind (flying/high place edge, Squalled, Reflex, Wind), Lava Ball (lava/fire, Burning, Reflex, Fire), Short Circuit (large machines, Static, Will, Lightning), Leaf Fall (large plant growth, Nauseated, Fort, Non-Elemental). A geomancer's class level is her caster level for Geomancy.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "geomancy_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Geomancer"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Geomancer",
+          1
+        ],
+        [
+          "Geomancer",
+          4
+        ],
+        [
+          "Geomancer",
+          7
+        ],
+        [
+          "Geomancer",
+          10
+        ],
+        [
+          "Geomancer",
+          13
+        ],
+        [
+          "Geomancer",
+          16
+        ],
+        [
+          "Geomancer",
+          19
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!wCiNQS75NxjS55JW"
+}

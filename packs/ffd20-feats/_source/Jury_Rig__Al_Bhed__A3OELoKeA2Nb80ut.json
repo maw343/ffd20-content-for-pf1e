@@ -1,0 +1,50 @@
+{
+  "_id": "A3OELoKeA2Nb80ut",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Jury-Rig (Al Bhed)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Al Bhed, Item Creation feat related to the item in question</p><p><strong>Benefit:</strong> You can wear an item meant for one item location slot in an entirely different slot and still gain the effect as if you were wearing the item normally. For example, you can wear a feet slot item in a belt slot. This only applies to items that fit into the belt, feet, hands, headband, neck, ring, or wrist categories. You may wear only one item affected by this feat at a time.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "racial",
+    "tag": "jury-rig_al_bhed",
+    "requirements": "Al Bhed, Item Creation feat related to the item in question",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-RacialFeats",
+        "pages": "Racial Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!A3OELoKeA2Nb80ut"
+}

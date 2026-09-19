@@ -1,0 +1,74 @@
+{
+  "_id": "9a6f6ff9d6155ce8",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Imperilra",
+  "system": {
+    "actions": [
+      {
+        "_id": "e795d43eaff4e51e",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "area": "10-ft.-radius burst",
+        "duration": {
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "7d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "will",
+          "description": "Will partial"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "An imperilra spell is the area of effect version of the imperil spell.",
+      "value": "<p>An imperilra spell is the area of effect version of the\nimperil\nspell.\nChoose an element (fire, ice, wind, earth, lightning, or water). This spell inflicts the\nImperil\nstatus and deals 7d6 damage of that element to creatures in the area. This spell can still inflict the status effect on creatures that are immune or absorb the element in question, though it cannot deal damage to them. A successful\nWill\nsave negates the\nImperil\nstatus and halves the damage. This spell is of the same type as the chosen element.\nThis spell cannot be affected by the\nElemental Spell\nfeat.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 4,
+        "redmage": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!9a6f6ff9d6155ce8"
+}

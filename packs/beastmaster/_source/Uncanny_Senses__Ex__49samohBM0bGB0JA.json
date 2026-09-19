@@ -1,0 +1,27 @@
+{
+  "_id": "49samohBM0bGB0JA",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_13.jpg",
+  "name": "Uncanny Senses (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>As an immediate action, the beastmaster gains a +2 insight bonus on Perception checks plus an additional +2 for every four beastmaster levels after 2nd for 1 round.</p>"
+    },
+    "tag": "uncannysenses",
+    "source": "Final Fantasy d20 - Beastmaster Tricks",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!49samohBM0bGB0JA"
+}

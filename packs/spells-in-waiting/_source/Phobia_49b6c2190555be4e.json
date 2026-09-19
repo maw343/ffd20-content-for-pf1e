@@ -1,0 +1,73 @@
+{
+  "_id": "49b6c2190555be4e",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Phobia",
+  "system": {
+    "actions": [
+      {
+        "_id": "29c1220abb8627d5",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one intelligent creature"
+        },
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; permanent"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You instill the target with an intense, instinctual fear of a condition or circumstance",
+      "value": "<p>You instill the target with an intense, instinctual fear of a condition or circumstance. You can name an element type (earth, fire, ice, lightning, water, or wind ), a hazard (such as an avalanche or earthquake), or a single creature of the animal type or all vermin (applying when the target sees a swarm or a single Small or larger creature). Alternatively, you can name the following specific environments: darkness (darker than dim light, and you can’t apply this phobia to a creature with natural racial darkvision, see in darkness, blindsight, or similar senses), enclosed spaces (places that require the creature to squeeze), heights (10 times the target’s height, and you can’t apply this phobia to creatures with a natural fly speed), or water (you can’t apply this phobia to aquatic creatures or creatures with a natural swim speed). When the target takes damage of the e lement type (for an e lement type phobia), or perceives the presence of the creature, environment, or hazard, it must attempt a DC 20 Will save. If it fails, it becomes panicked, but even if it succeeds, it becomes shaken and feels intensely uncomfortable; a creature shaken in this way does not need to roll further saving throws against its phobia until its shaken condition ends, even if it continues to be exposed to its phobia. A creature panicked by phobia can begin to act normally 1 minute after it ceases being able to perceive its phobia or after taking the energy damage if the phobia is an e lement type, though the shaken condition ends immediately after the creature can no longer perceive its phobia. A Basuna can remove a phobia spell. In addition, once per day, an affected creature can attempt another Will save to negate phobia with a cumulative +1 bonus for each day the creature remains affected.</p>"
+    },
+    "descriptors": [
+      "fire",
+      "wind",
+      "earth",
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "illusionist": 7
+      }
+    },
+    "level": 7,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!49b6c2190555be4e"
+}

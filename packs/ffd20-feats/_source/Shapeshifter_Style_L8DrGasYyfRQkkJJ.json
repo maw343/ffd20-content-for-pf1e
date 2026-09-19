@@ -1,0 +1,50 @@
+{
+  "_id": "L8DrGasYyfRQkkJJ",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Shapeshifter Style",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Beast Shape or Wild Shape class feature</p><p><strong>Benefit:</strong> You reshape your body, gaining one of the following benefits (chosen when entering the style, changeable as a swift action): a bonus on damage rolls with a natural attack, a climb speed of 10 feet, a bonus on Reflex saves and base speed, or a bonus to natural armor.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "style",
+    "tag": "shapeshifter_style",
+    "requirements": "Beast Shape or Wild Shape class feature",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-StyleFeats",
+        "pages": "Style Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!L8DrGasYyfRQkkJJ"
+}

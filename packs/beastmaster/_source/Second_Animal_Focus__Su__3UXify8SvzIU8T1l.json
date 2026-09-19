@@ -1,0 +1,27 @@
+{
+  "_id": "3UXify8SvzIU8T1l",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_12.jpg",
+  "name": "Second Animal Focus (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 7th level, whenever a beastmaster uses his animal focus ability, he selects two different animal aspects for himself instead of one, and can assign two aspects to his companion instead of one. As with the companion's previous aspect, the second one does not count against the minutes per day a beastmaster can take on an aspect.</p><p>If the beastmaster's animal companion is dead and the beastmaster has applied the companion's animal aspect to himself, that aspect does not count toward his maximum of two aspects at once. The beastmaster can still apply only one of his dead companion's aspects to himself, not both.</p>"
+    },
+    "tag": "secondanimalfocus",
+    "source": "Final Fantasy d20 - Beastmaster",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          7
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!3UXify8SvzIU8T1l"
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "2QaoSbpMfbCg5dYT",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_06.jpg",
+  "name": "Improved Evasion",
+  "system": {
+    "associations": {
+      "classes": [
+        "Avatar"
+      ]
+    },
+    "class": "summonerAvatar",
+    "description": {
+      "value": "<p>When subjected to an attack that allows a Reflex saving throw for half damage, an avatar takes no damage if it makes a successful saving throw and only half damage if the saving throw fails.</p>"
+    },
+    "subType": "classFeat",
+    "abilityType": "ex",
+    "contextNotes": [
+      {
+        "target": "ref",
+        "text": "If ability is half damage on reflex, take no damage on success and half on fail"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "_key": "!items!2QaoSbpMfbCg5dYT"
+}

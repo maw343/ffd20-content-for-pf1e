@@ -1,0 +1,74 @@
+{
+  "_id": "nbjKfR6I2KBPag6X",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "folder": "RWSoA7Fj9yqo0y9U",
+  "img": "systems/pf1/icons/races/human.jpg",
+  "name": "Roegadyn",
+  "system": {
+    "changes": [
+      {
+        "formula": "2",
+        "target": "str",
+        "type": "racial",
+        "_id": "d8171agp"
+      },
+      {
+        "formula": "2",
+        "target": "cha",
+        "type": "racial",
+        "_id": "oxvjbje1"
+      },
+      {
+        "formula": "-2",
+        "target": "dex",
+        "type": "racial",
+        "_id": "44sh9hkc"
+      },
+      {
+        "formula": "2",
+        "target": "skill.itm",
+        "type": "racial",
+        "_id": "7jznl4cs"
+      }
+    ],
+    "contextNotes": [
+      {
+        "target": "allSavingThrows",
+        "text": "+[[2]] Racial vs Poison, Spells, and Spell-like Abilities"
+      },
+      {
+        "target": "cmd",
+        "text": "+[[4]] Racial vs Bull Rush or Trip"
+      }
+    ],
+    "creatureSubtypes": [
+      "roegadyn"
+    ],
+    "creatureTypes": [
+      "humanoid"
+    ],
+    "description": {
+      "value": "<p>Distant cousins of the galka, the roegadyns are a maritime people known for enormous, muscular builds and unflinching courage.</p><h2>Standard Racial Traits</h2><ul><li><strong>Ability Score Modifiers</strong>: Roegadyns gain +2 Strength, +2 Charisma, and -2 Dexterity.</li><li><strong>Type</strong>: Roegadyns are humanoids with the roegadyn subtype.</li><li><strong>Size</strong>: Roegadyns are Medium creatures.</li><li><strong>Base Speed</strong>: Roegadyns have a base speed of 30 feet.</li><li><strong>Languages</strong>: Roegadyns begin play speaking Common and Roegadyn. Roegadyns with high Intelligence scores can choose from: Dwarven, Elvaan, Giant, Goblin, Lalafellan, and Orc.</li></ul><h3>Defense Racial Traits</h3><ul><li><strong>Hardy</strong>: Roegadyns receive a +2 racial bonus on saving throws against poison, spells, and spell-like abilities.</li><li><strong>Powerful Build</strong>: Roegadyns function as one size category larger for many combat maneuver purposes.</li><li><strong>Stability</strong>: Roegadyns receive a +4 bonus to their CMD when resisting a bull rush or trip attempt while standing on the ground.</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Imposing Figure</strong>: Roegadyns gain a +2 racial bonus to Intimidate checks.</li></ul><h3>Offense Racial Traits</h3><ul><li><strong>Cornered Fury</strong>: Roegadyns at half or fewer hit points with no ally within 30 feet gain a +2 racial bonus on melee attack rolls and AC.</li></ul><h3>Senses Racial Traits</h3><ul><li><strong>Low-Light Vision</strong>: Roegadyns have low-light vision allowing them to see twice as far as humes in dim light.</li></ul>"
+    },
+    "languages": [
+      "common"
+    ],
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "Base Races"
+      }
+    ],
+    "speeds": {
+      "land": 30
+    },
+    "tags": [
+      "Base"
+    ]
+  },
+  "type": "race",
+  "effects": [],
+  "_key": "!items!nbjKfR6I2KBPag6X"
+}

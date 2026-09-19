@@ -1,0 +1,27 @@
+{
+  "_id": "WJe5OQgzvY8tzEsw",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Phlebotomize (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Deadly Lancer class feature</p><p>You can choose to deal your Deadly Lancer damage as bleed damage instead. The amount of bleed damage is equal to 2 points per Deadly Lancer damage dice inflicted.</p>"
+    },
+    "tag": "phlebotomize",
+    "source": "Final Fantasy d20 - Dragoon Talents",
+    "associations": {
+      "classes": [
+        [
+          "Dragoon",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!WJe5OQgzvY8tzEsw"
+}

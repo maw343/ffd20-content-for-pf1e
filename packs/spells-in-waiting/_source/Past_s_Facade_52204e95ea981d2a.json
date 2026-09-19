@@ -1,0 +1,68 @@
+{
+  "_id": "52204e95ea981d2a",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Past’s Facade",
+  "system": {
+    "actions": [
+      {
+        "_id": "70f1fa4d5ed2d271",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "hour",
+          "value": "one hour / level"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell transforms the touched creature’s body, returning it to a more youthful form",
+      "value": "<p>This spell transforms the touched creature’s body, returning it to a more youthful form. The creature can be rejuvenated back to its adult age but no further. Only the creature’s physical age is affected, its mind remains untouched. Any penalties the creature has experienced due to aging can be undone using this spell. An old hag can be returned to a beautiful and youthful maiden, an aged warrior whose strength has left him can be returned to his physical prime but with all the benefits of his well-earned experience.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "timemage": 5
+      }
+    },
+    "level": 5,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!52204e95ea981d2a"
+}

@@ -1,0 +1,68 @@
+{
+  "_id": "745d14bdc7c00648",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Lunatic Voice",
+  "system": {
+    "actions": [
+      {
+        "_id": "7770cc640137eae6",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You call forth Siren, a beautiful woman, carrying a harp who plays a soft tune that causes a single enemy to become silent",
+      "value": "<p>You call forth Siren, a beautiful woman, carrying a harp who plays a soft tune that causes a single enemy to become silent. The target of this spell receives the Silence status effect. The victim is unable to cast spells until cured. Casters with the Silent Spell feat can bypass this status effect if used with spells.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "summoner": 2
+      }
+    },
+    "level": 2,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!745d14bdc7c00648"
+}

@@ -1,0 +1,89 @@
+{
+  "_id": "7KmcFrNSppBvP0Ol",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785616131917,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_12.jpg",
+  "name": "Multi-Jump (Ex)",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 13th level, a dragoon learns to harness the momentum of his dive attacks to perform a series of chained aerial strikes.</p><p>Whenever the dragoon successfully resolves a dive attack, he may choose not to land. Instead, he can immediately activate his Super Jump ability (expending one daily use) to launch into another high jump and perform an additional dive attack. Each successive dive attack must target a different creature and uses the dragoon's next available iterative attack bonus, as though part of a full-attack action. This ability cannot be used if the dragoon has already made all available attacks for the round (including any granted by effects such as haste).</p><p>Each additional jump made through Multi-Jump imposes a cumulative –20 penalty on the Acrobatics skill check to determine jump distance and height.</p><p>A single target cannot be hit more than once per round by dive attacks made through this ability. Jumps performed via Multi-Jump do not count toward the dragoon's maximum jumping distance for the round.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "multijump",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": [
+        [
+          "Dragoon",
+          13
+        ]
+      ]
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {},
+    "source": "Final Fantasy d20 - Dragoon"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!7KmcFrNSppBvP0Ol"
+}

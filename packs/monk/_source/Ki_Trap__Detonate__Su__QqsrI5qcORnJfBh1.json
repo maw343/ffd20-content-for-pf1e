@@ -1,0 +1,27 @@
+{
+  "_id": "QqsrI5qcORnJfBh1",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Ki Trap: Detonate (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Ki Trap blitz technique</p><p>Detonate your Ki Trap, damaging nearby creatures. As an immediate action, you may detonate your Ki Trap, dealing non-elemental damage equal to 1d6 per monk level to creatures within its area of effect. A successful Reflex save (DC: 10 + half of your monk level + your Constitution modifier) halves this damage. The Ki Trap is destroyed after detonation.</p>"
+    },
+    "tag": "kitrapdetonate",
+    "source": "Final Fantasy d20 - Monk Talents",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!QqsrI5qcORnJfBh1"
+}

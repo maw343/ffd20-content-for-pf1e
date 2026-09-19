@@ -1,0 +1,27 @@
+{
+  "_id": "7w8gNqszwjUGuqqZ",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_14.jpg",
+  "name": "Hustle (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Fast Movement warrior talent</p><p>Whenever the warrior would be allowed to take a '5 ft. step' he may take a '10 ft. step' instead. Any ability, effect, feat, or rule that applies to a '5 ft. step' now applies when he takes a '10 ft. step'.</p>"
+    },
+    "tag": "hustle",
+    "source": "Final Fantasy d20 - Advanced Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          12
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!7w8gNqszwjUGuqqZ"
+}

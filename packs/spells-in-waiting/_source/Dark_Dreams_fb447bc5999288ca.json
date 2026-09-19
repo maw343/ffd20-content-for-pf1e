@@ -1,0 +1,76 @@
+{
+  "_id": "fb447bc5999288ca",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Dark Dreams",
+  "system": {
+    "actions": [
+      {
+        "_id": "44422ff7ac18ba93",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "cone-shaped burst",
+        "duration": {
+          "units": "round",
+          "value": "1d4 rounds"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "10d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the nightmarish breath of Cuchulainn",
+      "value": "<p>The caster emulates the nightmarish breath of Cuchulainn. Creatures caught in this breath take 10d6 points of damage, and must make a Reflex save, or fall asleep. Learned From Cuchulainn</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 7
+      }
+    },
+    "level": 7,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!fb447bc5999288ca"
+}

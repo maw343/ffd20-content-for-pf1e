@@ -1,0 +1,54 @@
+{
+  "_id": "83adaea12354f72b",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "NulStatusra",
+  "system": {
+    "actions": [
+      {
+        "_id": "541bc2542832192f",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like NulStatus I , but affects one or more creatures, no two of which can be more than 30 ft.",
+      "value": "<p>This spell functions like\nNulStatus I\n, but affects one or more creatures, no two of which can be more than 30 ft. apart.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!83adaea12354f72b"
+}

@@ -1,0 +1,68 @@
+{
+  "_id": "4b1631e5776b8195",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Magic Weapon",
+  "system": {
+    "actions": [
+      {
+        "_id": "c66e63b8e0f31977",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "weapon touched"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless, object)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Magic weapon gives a weapon a +1 enhancement bonus on attack and damage rolls.",
+      "value": "<p>Magic weapon gives a weapon a +1\nenhancement bonus\non attack and damage rolls. An\nenhancement bonus\ndoes not stack with a masterwork weapon’s +1 bonus on attack rolls. You can’t cast this spell on a natural weapon, such as an unarmed strike. This spell only affects\none end of a double-weapon\nas usual.\nMultiple enhancement bonuses on the same object do not stack. Only the highest\nenhancement bonus\napplies.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "darkknight": 1,
+        "paladin": 1,
+        "redmage": 1
+      }
+    },
+    "level": 1,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!4b1631e5776b8195"
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "d5TiDvj0UEt6WVrN",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Improved Life Bond (Su)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Life Bond class feature</p><p><strong>Benefit:</strong> Effects from spells, spell-like abilities, or supernatural abilities that causes status effects now affect the avatar instead of the summoner.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "advancedSummonTalent",
+    "tag": "improved_life_bond_su",
+    "requirements": "Life Bond class feature",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-SummonerClass",
+        "pages": "Advanced Summon Talents"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!d5TiDvj0UEt6WVrN"
+}

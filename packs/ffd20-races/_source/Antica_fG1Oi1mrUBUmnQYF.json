@@ -1,0 +1,93 @@
+{
+  "_id": "fG1Oi1mrUBUmnQYF",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "folder": "RWSoA7Fj9yqo0y9U",
+  "img": "systems/pf1/icons/races/human.jpg",
+  "name": "Antica",
+  "system": {
+    "changes": [
+      {
+        "formula": "2",
+        "target": "str",
+        "type": "racial",
+        "_id": "81lbg79s"
+      },
+      {
+        "formula": "2",
+        "target": "con",
+        "type": "racial",
+        "_id": "7fiq3s8w"
+      },
+      {
+        "formula": "-2",
+        "target": "wis",
+        "type": "racial",
+        "_id": "jtm8aqpl"
+      },
+      {
+        "formula": "-2",
+        "target": "cha",
+        "type": "racial",
+        "_id": "qbh3nfkc"
+      },
+      {
+        "formula": "2",
+        "target": "skill.per",
+        "type": "racial",
+        "_id": "j8jjjuy0"
+      },
+      {
+        "formula": "2",
+        "target": "skill.ste",
+        "type": "racial",
+        "_id": "8hecoo6m"
+      },
+      {
+        "formula": "2",
+        "target": "skill.sur",
+        "type": "racial",
+        "_id": "aivedciy"
+      }
+    ],
+    "contextNotes": [
+      {
+        "target": "skill.sen",
+        "text": "-[[4]] Emotionless"
+      },
+      {
+        "target": "cmb",
+        "text": "+[[2]] Bull Rush or Overrun (Relentless)"
+      }
+    ],
+    "creatureSubtypes": [
+      "antica"
+    ],
+    "creatureTypes": [
+      "humanoid"
+    ],
+    "description": {
+      "value": "<p>The anticas have transformed the former Galkan capital of Altepa into the central location of their empire, a militaristic society built upon advanced personnel management.</p><h2>Standard Racial Traits</h2><ul><li><strong>Ability Score Modifiers</strong>: Anticas gain +2 Strength, +2 Constitution, -2 Wisdom, and -2 Charisma.</li><li><strong>Size</strong>: Anticas are Medium creatures.</li><li><strong>Type</strong>: Anticas are Humanoid creatures with the antica subtype.</li><li><strong>Base Speed</strong>: Anticas have a base speed of 30 feet and a 15-foot burrowing speed.</li><li><strong>Languages</strong>: Anticas begin play understanding (but not speaking) Common and Antican. They can choose from Roegadyn, Galkan, Undercommon, Goblin, and Lamia.</li></ul><h3>Defense Racial Traits</h3><ul><li><strong>This is Nothing</strong>: Anticas can handle extreme heat or desert conditions during day or night.</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Natural Hunter</strong>: Anticas receive a +2 racial bonus on Perception, Stealth, and Survival checks.</li></ul><h3>Magical Racial Traits</h3><ul><li><strong>Limited Telepathy</strong>: Anticas mentally communicate with any creature within 30 feet with whom they share a language.</li></ul><h3>Offense Racial Traits</h3><ul><li><strong>Bite</strong>: Anticas gain a natural bite attack, dealing 1d4 points of damage.</li><li><strong>Claws</strong>: Anticas receive two claw attacks dealing 1d4 damage.</li><li><strong>Relentless</strong>: Anticas gain a +2 bonus on combat maneuver checks made to bull rush or overrun an opponent while both are on the ground.</li></ul><h3>Senses Racial Traits</h3><ul><li><strong>Minesight</strong>: Anticas have darkvision up to 60 feet but are automatically dazzled in bright light and take a –2 penalty on saving throws against light spells and effects.</li></ul><h3>Weakness Racial Traits</h3><ul><li><strong>Emotionless</strong>: Anticas take a –4 penalty on Sense Motive checks.</li><li><strong>Unable to Cast</strong>: Anticas cannot cast spells normally without Silent Spell or Telepathic Spellcaster feat.</li></ul>"
+    },
+    "languages": [
+      "common"
+    ],
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "Beastman Tribes"
+      }
+    ],
+    "speeds": {
+      "land": 30,
+      "burrow": 15
+    },
+    "tags": [
+      "Beastman"
+    ]
+  },
+  "type": "race",
+  "effects": [],
+  "_key": "!items!fG1Oi1mrUBUmnQYF"
+}

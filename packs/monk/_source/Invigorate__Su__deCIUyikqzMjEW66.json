@@ -1,0 +1,27 @@
+{
+  "_id": "deCIUyikqzMjEW66",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Invigorate (Su)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Chakra blitz technique</p><p>Chakra heals your wounds slowly over time as opposed to all at once. You may activate your Chakra blitz technique as a swift action, granting you fast healing equal to your Constitution bonus instead of healing you all at once. This effect lasts for a number of rounds equal to your monk level + your Wisdom bonus.</p>"
+    },
+    "tag": "invigorate",
+    "source": "Final Fantasy d20 - Monk Talents",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!deCIUyikqzMjEW66"
+}

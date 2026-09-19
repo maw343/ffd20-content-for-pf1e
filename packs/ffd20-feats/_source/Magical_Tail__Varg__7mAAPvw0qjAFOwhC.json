@@ -1,0 +1,50 @@
+{
+  "_id": "7mAAPvw0qjAFOwhC",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Magical Tail (Varg)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Kitsune racial heritage, varg</p><p><strong>Benefit:</strong> You gain a new spell-like ability, each usable twice per day, from the following list, in order: disguise self, charm, misdirection, vanish, suggestion, displacement, greater vanish, dominate person. For example, the first time you select this feat, you gain disguise self 2/day; the second time you select this feat, you gain charm 2/day. Your caster level for these spells is equal to your Hit Dice. The DCs for these abilities are Charisma-based.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "racial",
+    "tag": "magical_tail_varg",
+    "requirements": "Kitsune racial heritage, varg",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-RacialFeats",
+        "pages": "Racial Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!7mAAPvw0qjAFOwhC"
+}

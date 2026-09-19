@@ -1,0 +1,116 @@
+{
+  "type": "buff",
+  "name": "Aiming",
+  "system": {
+    "description": {
+      "value": "",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "type": "insight",
+        "operator": "add",
+        "priority": 0,
+        "formula": "1 + floor(@class.level / 5)",
+        "target": "skill.blf",
+        "_id": "sbhcoYNT"
+      },
+      {
+        "type": "insight",
+        "operator": "add",
+        "priority": 0,
+        "formula": "1 + floor(@class.level / 5)",
+        "target": "skill.per",
+        "_id": "O7vh7Yy9"
+      },
+      {
+        "type": "insight",
+        "operator": "add",
+        "priority": 0,
+        "formula": "1 + floor(@class.level / 5)",
+        "target": "skill.sen",
+        "_id": "29cunuGA"
+      },
+      {
+        "type": "insight",
+        "operator": "add",
+        "priority": 0,
+        "formula": "1 + floor(@class.level / 5)",
+        "target": "skill.sur",
+        "_id": "uQLJ70w2"
+      },
+      {
+        "type": "insight",
+        "operator": "add",
+        "priority": 0,
+        "formula": "1 + floor(@class.level / 5)",
+        "target": "rwdamage",
+        "_id": "pivNGJP9"
+      }
+    ],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "feat",
+    "active": false,
+    "level": 0,
+    "duration": {
+      "value": null,
+      "units": "",
+      "end": ""
+    },
+    "conditions": [],
+    "hideFromToken": false,
+    "showInQuickbar": false
+  },
+  "_id": "40hVtPjhyYuyNLQx",
+  "img": "icons/svg/ice-aura.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 3000000,
+  "ownership": {
+    "default": 0,
+    "KJytU1RQudYSFJXl": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": 1785112636895,
+    "modifiedTime": 1785114825799,
+    "lastModifiedBy": "KJytU1RQudYSFJXl"
+  },
+  "_key": "!items!40hVtPjhyYuyNLQx"
+}

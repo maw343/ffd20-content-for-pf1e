@@ -1,0 +1,19 @@
+{
+  "_id": "Hq2AK7EGHZbKoXi0",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/yellow_37.jpg",
+  "name": "Dark Affliction",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 3rd level, the black mage's enfeebling powers grow against creatures that are riddled with his black magics. When casting spells of the enfeebling school against a creature afflicted with his negative status effects, the black mage gains a +1 bonus to his DC for each of his negative status effects from spells on that creature, up to a bonus equal to half his black mage level.</p>"
+    },
+    "tag": "darkaffliction",
+    "source": "Final Fantasy d20 - Black Mage"
+  },
+  "effects": [],
+  "_key": "!items!Hq2AK7EGHZbKoXi0"
+}

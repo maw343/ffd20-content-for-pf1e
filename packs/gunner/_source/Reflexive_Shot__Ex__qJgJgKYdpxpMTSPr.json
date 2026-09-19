@@ -1,0 +1,50 @@
+{
+  "_id": "qJgJgKYdpxpMTSPr",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Reflexive Shot (Ex)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Quick Draw feat</p><p><strong>Benefit:</strong> The gunner may use an immediate action when a foe attempts a melee attack against her to reflexively aim a wielded firearm at them. That foe now provokes an attack of opportunity from the gunner (with that firearm, only once), which does not provoke, if they try to attack her.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "gunneryTalent",
+    "tag": "reflexive_shot_ex",
+    "requirements": "Quick Draw feat",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-GunnerClass",
+        "pages": "Gunnery Talents"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!qJgJgKYdpxpMTSPr"
+}

@@ -1,0 +1,61 @@
+{
+  "_id": "5c94a15de3a530ea",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Putrid Breath",
+  "system": {
+    "actions": [
+      {
+        "_id": "3c2ac230def948a8",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "cone-shaped burst",
+        "duration": {
+          "units": "round",
+          "value": "1d4 rounds"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster can emulate the noxious breath of a Malboro Menace",
+      "value": "<p>The caster can emulate the noxious breath of a Malboro Menace. All creatures caught within the cone are affected by the following status effects for 1d4 rounds each: Berserk (Will save), Blind (Fortitude save), Confuse (Will save), Disable (Fortitude save), Disease (Fortitude save), Silence (Fortitude save), Statue (Fortitude save), Poison (Fortitude save), Sap (Fortitude save), Sleep (Will save), and Slow (Fortitude save). Learned From malboro family</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bluemage": 9
+      }
+    },
+    "level": 9,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!5c94a15de3a530ea"
+}

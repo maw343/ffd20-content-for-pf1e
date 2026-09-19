@@ -1,0 +1,58 @@
+{
+  "_id": "BJ5jSgmG8gFH6aHL",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Geosynchronous (Su)",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 5th level, while in any favored terrain that the geomancer has chosen, she gains a +1 insight bonus to attack rolls and saving throws against creatures and a +1 insight bonus to all skill checks used in that terrain. These bonuses last as long as she remains in the specific location. These bonuses increase by +1 at every five levels gained after 5th.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "geosynchronous_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Geomancer"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Geomancer",
+          5
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!BJ5jSgmG8gFH6aHL"
+}

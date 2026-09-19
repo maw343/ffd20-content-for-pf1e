@@ -1,0 +1,69 @@
+{
+  "_id": "1256dae14d75ddb3",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Revitalizing Finale",
+  "system": {
+    "actions": [
+      {
+        "_id": "b44f3ded9214783f",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "immediate",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "20 ft"
+        },
+        "target": {
+          "value": "allies within 20 ft. of you"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will half (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "With a flourish, you can immediately end a maintained 1st level or higher song to heal all allies within 20 feet of you for 1d6 per song level of the song you just ended.",
+      "value": "<p>With a flourish, you can immediately end a maintained 1st level or higher song to heal all allies within 20 feet of you for 1d6 per song level of the song you just ended.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bard": 3
+      }
+    },
+    "level": 3,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "healing"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!1256dae14d75ddb3"
+}

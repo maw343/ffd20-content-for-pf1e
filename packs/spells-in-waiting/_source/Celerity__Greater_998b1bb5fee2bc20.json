@@ -1,0 +1,55 @@
+{
+  "_id": "998b1bb5fee2bc20",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Celerity, Greater",
+  "system": {
+    "actions": [
+      {
+        "_id": "84522994a1d1fc86",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell works like Celerity , except upon casting this spell you can immediately take a full-round action (or a standard action plus a...",
+      "value": "<p>This spell works like Celerity , except upon casting this spell you can immediately take a full-round action (or a standard action plus a move action , or two move action s). After performing this action, you are dazed until the end of your next turn.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "uni",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!998b1bb5fee2bc20"
+}

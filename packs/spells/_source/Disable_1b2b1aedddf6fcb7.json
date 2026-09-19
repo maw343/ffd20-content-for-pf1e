@@ -1,0 +1,67 @@
+{
+  "_id": "1b2b1aedddf6fcb7",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Disable",
+  "system": {
+    "actions": [
+      {
+        "_id": "35832ab8f9763d50",
+        "name": "Use",
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The target of this spell receives the Disabled status effect.",
+      "value": "<p>The target of this spell receives the\nDisabled\nstatus effect. The victim is unable to act normally. A disabled creature can only take\nmove action\ns for the duration of the spell or until cured.\nDisabled: This status effect causes the creature to be unable to act normally. A disabled creature can only take\nmove actions\n. They cannot use\nfree actions\n,\nswift actions\n,\nimmediate actions\n, or attacks of opportunity. They can still speak, however.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 4,
+        "whitemage": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!1b2b1aedddf6fcb7"
+}

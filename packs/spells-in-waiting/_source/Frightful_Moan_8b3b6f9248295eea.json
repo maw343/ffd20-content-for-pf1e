@@ -1,0 +1,68 @@
+{
+  "_id": "8b3b6f9248295eea",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Frightful Moan",
+  "system": {
+    "actions": [
+      {
+        "_id": "209634ea2ff99358",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "area": "all living creatures within a 30-ft.-radius spread",
+        "duration": {
+          "units": "round",
+          "value": "2d4 rounds"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the frightful moan of a ghost",
+      "value": "<p>The caster emulates the frightful moan of a ghost. The caster emits a loud frightful moan and all living creatures within 30 feet must make a Will save or become panicked for 2d4 rounds. This is a sonic mind-affecting fear effect. A creature that successfully saves against the moan cannot be affected by the same spell for 24 hours. Learned From Ghost Family</p>"
+    },
+    "descriptors": [
+      "sonic"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 3
+      }
+    },
+    "level": 3,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!8b3b6f9248295eea"
+}

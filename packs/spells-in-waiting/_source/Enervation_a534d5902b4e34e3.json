@@ -1,0 +1,71 @@
+{
+  "_id": "a534d5902b4e34e3",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Enervation",
+  "system": {
+    "actions": [
+      {
+        "_id": "f1ca06a6d896a05d",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "rsak",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "ray"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "ability": {
+          "attack": "dex",
+          "critMult": 2,
+          "critRange": 20
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You point your finger and fire a black ray of dark energy that suppresses the life force of any living creature it strikes",
+      "value": "<p>You point your finger and fire a black ray of dark energy that suppresses the life force of any living creature it strikes. You must make a ranged touch attack to hit. If you hit, the subject gains 1d4 temporary negative levels (see Special Abilities ). Negative levels stack. Assuming the subject survives, it regains lost levels after a number of hours equal to your caster level (maximum 15 hours). Usually, negative levels have a chance of becoming permanent, but the negative levels from enervation don’t last long enough to do so. An undead creature struck by the ray gains 1d4 x 5 temporary hit points for 1 hour.</p>"
+    },
+    "descriptors": [
+      "fire",
+      "negative"
+    ],
+    "learnedAt": {
+      "class": {
+        "necromancer": 4
+      }
+    },
+    "level": 4,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a534d5902b4e34e3"
+}

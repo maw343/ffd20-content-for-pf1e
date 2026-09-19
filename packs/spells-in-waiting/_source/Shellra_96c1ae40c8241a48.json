@@ -1,0 +1,69 @@
+{
+  "_id": "96c1ae40c8241a48",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Shellra",
+  "system": {
+    "actions": [
+      {
+        "_id": "cd719d8711fe2c19",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "area": "20 ft.-radius burst",
+        "duration": {
+          "units": "round",
+          "value": "3 rounds + 1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Allies within the area of effect are protected by a shield that helps protect against magical attacks",
+      "value": "<p>Allies within the area of effect are protected by a shield that helps protect against magical attacks. The targets gain a +2 resistance bonus to Saving Throws versus spells, spell-like abilities, and supernatural abilities for the duration of the spell.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 3,
+        "paladin": 3,
+        "whitemage": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!96c1ae40c8241a48"
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "SCf4tm3jrvujCqBj",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Spirits Within (Su)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Cost:</strong> 1 holy pool point</p><p><strong>Benefit:</strong> As a standard action, the paladin can pour her entire spirit into attack using her weapon as a conduit for his light. She makes a melee attack at her highest base attack bonus and, if successful, she deals normal damage plus an additional 1d6 holy damage for every two paladin levels. The weapon used for this attack is treated as having the ghost touch special ability and keeps that effect for a number of rounds equal to the paladin's Charisma modifier.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "divineArt",
+    "tag": "spirits_within_su",
+    "requirements": "Divine Arts class feature",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-PaladinClass",
+        "pages": "Divine Arts"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!SCf4tm3jrvujCqBj"
+}

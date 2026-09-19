@@ -1,0 +1,59 @@
+{
+  "_id": "0cde15957f25d829",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Plant Growth",
+  "system": {
+    "actions": [
+      {
+        "_id": "b773294aa47a7344",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "area": "see text",
+        "duration": {
+          "units": "inst"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Plant growth has different effects depending on the version chosen",
+      "value": "<p>Plant growth has different effects depending on the version chosen. Overgrowth: This effect causes normal vegetation (grasses, briars, bushes, creepers, thistles, trees, vines, and so on) within long range (400 feet + 40 feet per caster level) to become thick and overgrown. The plants entwine to form a thicket or jungle that creatures must hack or force a way through. Speed drops to 5 feet, or 10 feet for Large or larger creatures. The area must have brush and trees in it for this spell to take effect. If this spell is cast on an area that is already affected by any spell or effect that enhances plants, such as entangle or wall of thorns, any DC involved with these spells is increased by 4. This bonus is granted for 1 day after the casting of plant growth. At your option, the area can be a 100-foot-radius circle, a 150-foot-radius semicircle, or a 200-foot-radius quarter circle. You may designate places within the area that are not affected. Enrichment: This effect targets plants within a range of a half-mile, raising their potential productivity over the course of the next year to one-third above normal. Plant growth counters diminish plants. This spell has no effect on plant creatures.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "druid": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!0cde15957f25d829"
+}

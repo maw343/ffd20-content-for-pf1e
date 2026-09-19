@@ -1,0 +1,61 @@
+{
+  "_id": "LsZiwPv276W8AEV9",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785712226309,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/red_35.jpg",
+  "name": "Close Quarters Rage",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>While in a rage, a berserker gains a +2 bonus on ranged attack and damage rolls, but only against targets within the first range increment of his attack. Against a target within 10 feet, the berserker's critical multiplier for damage increases by 1 (a ×2 multiplier becomes ×3, a ×3 multiplier becomes ×4, and a ×4 multiplier becomes ×5). This critical multiplier increase does not stack with other effects which increase critical multipliers. While raging, the berserker doubles his attack penalty due to range increments.<br><br><i>Greater Close Quarters Rage (Ex):</i> At 11th level, a berserker's bonus on ranged attack and damage rolls while raging increases to +3.<br><br><i>Mighty Close Quarters Rage (Ex):</i> At 20th level, a berserker's bonus on ranged attack and damage rolls while raging increases to +4.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "closequartersrage",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Berserker",
+          1
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Berserker - Rage Forms"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!LsZiwPv276W8AEV9"
+}

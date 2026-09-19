@@ -1,0 +1,27 @@
+{
+  "_id": "whPWhfwWUUquLKq8",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Smite (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Monk 2 (1st rank), Monk 10 (2nd rank)</p><p>Deal an additional +2 damage with melee weapons that you are proficient with. This additional damage does not get multiplied on critical hits. This talent may be taken up to two times; the 1st rank being accessible at 2nd level or higher, and the 2nd rank at 10th level or higher. These effects stack with eachother.</p>"
+    },
+    "tag": "smite",
+    "source": "Final Fantasy d20 - Monk Talents",
+    "associations": {
+      "classes": [
+        [
+          "Monk",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!whPWhfwWUUquLKq8"
+}

@@ -1,0 +1,80 @@
+{
+  "_id": "3249892c52f09c9e",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Frigid Touch",
+  "system": {
+    "actions": [
+      {
+        "_id": "454b493909166dc1",
+        "name": "Use",
+        "actionType": "msak",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "touch"
+        },
+        "target": {
+          "value": "creature touched"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "touch": true,
+        "ability": {
+          "attack": "str",
+          "critMult": 2,
+          "critRange": 20
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "4d6",
+              "types": [
+                "cold"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell causes your hand to glow with a pale blue radiance.",
+      "value": "<p>This spell causes your hand to glow with a pale blue radiance. Your melee touch attack deals 4d6 points of ice damage and causes the target to be staggered for 1 round. If the attack is a critical hit, the target is staggered for 1 minute instead.</p>"
+    },
+    "descriptors": [
+      "ice"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 2,
+        "redmage": 2,
+        "geomancer": 2
+      }
+    },
+    "level": 2,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!3249892c52f09c9e"
+}

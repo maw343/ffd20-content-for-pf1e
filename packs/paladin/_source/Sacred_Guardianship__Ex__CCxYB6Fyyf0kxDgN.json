@@ -1,0 +1,50 @@
+{
+  "_id": "CCxYB6Fyyf0kxDgN",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Sacred Guardianship (Ex)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Paladin 6, Sacred Protection paladin talent</p><p><strong>Benefit:</strong> This talent grants you and the ally designated with Sacred Protection the ability to mark an enemy as a swift or move action. Until the end of the user's next turn, the marked enemy is considered flanked by both you and the designated ally if it is within threat range and/or adjacent to both of you. This ability's duration may be refreshed.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "paladinTalent",
+    "tag": "sacred_guardianship_ex",
+    "requirements": "Paladin 6, Sacred Protection paladin talent",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-PaladinClass",
+        "pages": "Paladin Talents"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!CCxYB6Fyyf0kxDgN"
+}

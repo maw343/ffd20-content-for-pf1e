@@ -1,0 +1,56 @@
+{
+  "_id": "d1cb427d6909d5ad",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Water Walk, Communal",
+  "system": {
+    "actions": [
+      {
+        "_id": "2d1280e450f11c97",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Water Walk , except you divide the duration in 10-minute intervals among the creatures touched.",
+      "value": "<p>This spell functions like\nWater Walk\n, except you divide the duration in 10-minute intervals among the creatures touched.</p>"
+    },
+    "descriptors": [
+      "water"
+    ],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d1cb427d6909d5ad"
+}

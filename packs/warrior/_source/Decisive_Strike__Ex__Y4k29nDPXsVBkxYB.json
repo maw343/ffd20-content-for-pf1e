@@ -1,0 +1,27 @@
+{
+  "_id": "Y4k29nDPXsVBkxYB",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_14.jpg",
+  "name": "Decisive Strike (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>Once per encounter, when the warrior makes an attack, he may add his warrior level to either the hit bonus or damage bonus. This is chosen before the attack is made. If the warrior has the Decisive Disarm talent, its bonus also increases to his warrior level.</p>"
+    },
+    "tag": "decisivestrike",
+    "source": "Final Fantasy d20 - Advanced Warrior Talents",
+    "associations": {
+      "classes": [
+        [
+          "Warrior",
+          12
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!Y4k29nDPXsVBkxYB"
+}

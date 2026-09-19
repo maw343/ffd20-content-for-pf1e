@@ -1,0 +1,61 @@
+{
+  "_id": "0e36d0d8fdea4278",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785718761460,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/gear_35.jpg",
+  "name": "Portable Cannon (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Engineer 6, Firearms Expertise engineer trick</p><p>Made from lightweight materials and utilizing a clever recoil-absorption mechanism, this cannon packs all the punch of its larger, clumsier brothers but without the weight and crew requirement. The portable cannon is a siege firearm that deals 5d6 points of bludgeoning and piercing damage, has a critical multiplier of ×4, and has a misfire chance of 1. Its range increment is 100 feet and its minimum range is 5 feet. Reloading it requires a standard action, but the Rapid Reload feat reduces this load time to a move action. It can be carried by one person, but must be deployed on its mount before it can be fired, which requires a standard action. It occupies the same square as the operator, but it cannot be moved unless the operator spends a move action to pick up the cannon, in which case it must be re-deployed before being used again. Each shell for the cannon costs 30 gil. The cannon can fire any specialized shells or balls a normal cannon can, such as grapeshot. The cannon's peculiar construction and design means the User Friendly Gadget trick cannot be selected for this gadget. If done so, the engineer can reload the portable cannon as a move action, made possible by a built-in automated loading procedure, and it never misfires. It has 50 hit points and weighs 40 pounds.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "portablecannonex",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Engineer",
+          2
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-BaseClasses",
+        "pages": "Engineer Tricks - Gadgets"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!0e36d0d8fdea4278"
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "B5x5iRXPV2GAdtP4",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_13.jpg",
+  "name": "Lay of the Land (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Animal focus and Wild Empathy class features</p><p>The beastmaster gains a favored terrain as the geomancer ability of the same name, though the favored terrain bonuses he receives do not increase with his level. This ability counts as the favored terrain class feature for the purposes of prerequisites and other effects.</p>"
+    },
+    "tag": "layoftheland",
+    "source": "Final Fantasy d20 - Beastmaster Tricks",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!B5x5iRXPV2GAdtP4"
+}

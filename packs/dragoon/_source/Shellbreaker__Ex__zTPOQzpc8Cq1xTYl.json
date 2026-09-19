@@ -1,0 +1,27 @@
+{
+  "_id": "zTPOQzpc8Cq1xTYl",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_13.jpg",
+  "name": "Shellbreaker (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Deadly Lancer class feature, Dragoon 6</p><p>After dive attacking a creature, its DR of all types is reduced by an amount equal to half the number of Deadly Lancer dice inflicted (minimum 1) for one round.</p>"
+    },
+    "tag": "shellbreaker",
+    "source": "Final Fantasy d20 - Dragoon Talents",
+    "associations": {
+      "classes": [
+        [
+          "Dragoon",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!zTPOQzpc8Cq1xTYl"
+}

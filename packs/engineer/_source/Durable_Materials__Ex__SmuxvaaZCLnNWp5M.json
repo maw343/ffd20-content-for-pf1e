@@ -1,0 +1,58 @@
+{
+  "_id": "SmuxvaaZCLnNWp5M",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Durable Materials (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>At 8th level, the engineer learns how to build for durability and toughness. Any item crafted by the engineer receives a bonus to hit points equal to the level of the engineer at the time of its creation.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "durable_materials_ex",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Engineer"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Engineer",
+          8
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!SmuxvaaZCLnNWp5M"
+}

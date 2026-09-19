@@ -1,0 +1,65 @@
+{
+  "_id": "b8b9d4aa85c68f0d",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Arisega",
+  "system": {
+    "actions": [
+      {
+        "_id": "9d52da8c238e3a28",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "30 ft"
+        },
+        "target": {
+          "value": "all allies within a 30-ft. burst centered on you"
+        },
+        "duration": {
+          "units": "inst"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Arise , except it raises all dead allies within a 30-ft.",
+      "value": "<p>This spell functions like\nArise\n, except it raises all dead allies within a 30-ft. radius.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "astrologian": 8,
+        "necromancer": 8,
+        "whitemage": 8
+      }
+    },
+    "level": 8,
+    "school": "con",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "subschool": [
+      "healing"
+    ]
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!b8b9d4aa85c68f0d"
+}

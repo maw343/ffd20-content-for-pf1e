@@ -1,0 +1,67 @@
+{
+  "_id": "cdf745f788cf689f",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Elemental Speech",
+  "system": {
+    "actions": [
+      {
+        "_id": "c8e9b2e37c494cb4",
+        "name": "Use",
+        "sort": 0,
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "personal"
+        },
+        "target": {
+          "value": "you"
+        },
+        "duration": {
+          "units": "minute",
+          "value": "1 minute/level"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell enables you to converse with creatures associated with a chosen element, including but not limited to true elemental creatures",
+      "value": "<p>This spell enables you to converse with creatures associated with a chosen element, including but not limited to true elemental creatures. This spell gains the elemental subtype based on the version of the spell you cast. Elemental speech does not guarantee a friendly reaction; it merely enables communication. You may converse with all creatures of the selected type with an Intelligence score of 1 or greater, even if they do not understand one another. When cast as a wind spell, you can converse in Auran and with any creature that has the air subtype or a fly speed. When cast as an earth spell, you can converse in Terran and with any creature that has the earth subtype or a burrow speed. When cast as a fire spell, you can converse in Ignan and with any creature that has the fire subtype or a lava swim speed. When cast as a water spell, you can converse in Aquan and with any creature that has the water subtype or a swim speed. When cast as a light spell, you can converse in Enochian and with any creature that has the holy subtype. When cast as a dark spell, you can converse in Umbran and with any creature that has the dark subtype or see in darkness. When cast as an ice spell, you can converse in Auroran and with any creature that has the ice subtype or icewalking. When cast as a lightning spell, you can converse in Thorian and with any creature that has the lightning subtype or a fly speed.</p>"
+    },
+    "descriptors": [
+      "fire",
+      "wind",
+      "earth",
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "geomancer": 2
+      }
+    },
+    "level": 2,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!cdf745f788cf689f"
+}

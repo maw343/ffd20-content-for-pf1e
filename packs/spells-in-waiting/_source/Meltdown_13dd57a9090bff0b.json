@@ -1,0 +1,68 @@
+{
+  "_id": "13dd57a9090bff0b",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Meltdown",
+  "system": {
+    "actions": [
+      {
+        "_id": "2cd3dbbddb72bfe0",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/3 levels"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "A wave of white-hot magma and dark energies envelope the target, making it as if both their armor and their skin melts away",
+      "value": "<p>A wave of white-hot magma and dark energies envelope the target, making it as if both their armor and their skin melts away. If the target fails a fortitude save they lose the benefit of Armor, Deflection, Dodge, Natural Armor, and Shield bonuses to their AC. This spell was submitted as a part of the SCC for October 2020 by DeadKingKicker</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "blackmage": 6
+      }
+    },
+    "level": 6,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!13dd57a9090bff0b"
+}

@@ -1,0 +1,71 @@
+{
+  "_id": "xESue1X0wJPrNVAf",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "folder": "RWSoA7Fj9yqo0y9U",
+  "img": "systems/pf1/icons/races/human.jpg",
+  "name": "Al Bhed",
+  "system": {
+    "changes": [
+      {
+        "formula": "2",
+        "target": "dex",
+        "type": "racial",
+        "_id": "6imr1mn5"
+      },
+      {
+        "formula": "2",
+        "target": "int",
+        "type": "racial",
+        "_id": "81lbg79s"
+      },
+      {
+        "formula": "-2",
+        "target": "cha",
+        "type": "racial",
+        "_id": "7fiq3s8w"
+      }
+    ],
+    "contextNotes": [
+      {
+        "target": "cmb",
+        "text": "+[[4]] Racial Constitution Checks vs Fatigue/Exhaustion"
+      },
+      {
+        "target": "allSavingThrows",
+        "text": "+[[2]] Racial vs Mechanical Traps"
+      }
+    ],
+    "creatureSubtypes": [
+      "al bhed"
+    ],
+    "creatureTypes": [
+      "humanoid"
+    ],
+    "description": {
+      "value": "<p>Al Bhed differs only slightly from humes; in their bright green eyes with spiral-patterned irises. They pride themselves on the usage of their specialized knowledge of ancient technology which they call 'Machina'.</p><h2>Standard Racial Traits</h2><ul><li><strong>Ability Score Modifiers</strong>: Al Bheds gain +2 Dexterity, +2 Intelligence, and –2 Charisma.</li><li><strong>Type</strong>: Al Bheds are Humanoid creatures with the al bhed subtype.</li><li><strong>Size</strong>: Al Bheds are Medium creatures and thus receive no bonuses or penalties due to their size.</li><li><strong>Base Speed</strong>: Al Bheds have a base speed of 30 feet.</li><li><strong>Languages</strong>: Al Bheds begin play speaking Common and Albhedian. Al Bheds with high Intelligence scores can choose from the following: Goblin, Loporrit, Moogle, PuPon, and Yagudo.</li></ul><h3>Defense Racial Traits</h3><ul><li><strong>Desert Nomad</strong>: Al Bheds gain a +4 racial bonus on Constitution checks and Fortitude saves to avoid fatigue, exhaustion, or ill effects from running, forced marches, starvation, thirst, or hot or cold environments.</li><li><strong>Trap Knowledge</strong>: Al Bheds gain a +2 racial bonus on all saving throws versus mechanical traps.</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Weapon Familiarity</strong>: Al Bheds are proficient with Simple Firearms.</li></ul>"
+    },
+    "languages": [
+      "common"
+    ],
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "Base Races"
+      }
+    ],
+    "speeds": {
+      "land": 30
+    },
+    "tags": [
+      "Base"
+    ],
+    "weaponProf": [
+      "Simple Firearms"
+    ]
+  },
+  "type": "race",
+  "effects": [],
+  "_key": "!items!xESue1X0wJPrNVAf"
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "NaF1tHAW0JY7047k",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Weapon Break",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Sturmwind feat, BAB +9</p><p><strong>Benefit:</strong> At 5 TP or more, you may spend all TP to deliver a special axe attack that takes the place of an attack in a full-attack or just a single attack. This attack deals normal damage, but adds double the passive damage bonus you receive from Shield Break. This attack deals an additional + 1d6 bleed damage. This bleed damage can be healed with a Heal check (DC 10 + half your character level + Strength modifier) or by magical healing that totals at least character level. While the opponent is suffering from this bleed damage they reduce the amount of damage they deal by the extra damage you receive from Shield Break. Their damage cannot be reduced below 1. At 10 TP or more, you may spend all TP to deal + 2d6 bleed damage, and decrease the amount of damage dealt by the opponent by twice the damage bonus you receive from Shield Break. At 15 TP, you may spend all TP to deal + 3d6 bleed damage, and decrease the amount of damage dealt by the opponent by three times the damage bonus you receive from Shield Break.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "feat",
+    "featType": "weaponSkill",
+    "tag": "weapon_break",
+    "requirements": "Sturmwind feat, BAB +9",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-WeaponSkillFeats",
+        "pages": "Weapon Skill Feats"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!NaF1tHAW0JY7047k"
+}

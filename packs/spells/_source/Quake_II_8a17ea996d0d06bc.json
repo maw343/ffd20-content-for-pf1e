@@ -1,0 +1,66 @@
+{
+  "_id": "8a17ea996d0d06bc",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Quake II",
+  "system": {
+    "actions": [
+      {
+        "_id": "bcc5eb398c93fe7f",
+        "name": "Use",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "duration": {
+          "units": "spec"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 20))d8",
+              "types": [
+                "earth"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell functions like Quake , except it deals 1d8 points of earth damage per caster level (maximum 20d8) and inflicts the Weighted status effect for 2d4 rounds.",
+      "value": "<p>This spell functions like\nQuake\n, except it deals 1d8 points of earth damage per caster level (maximum 20d8) and inflicts the Weighted status effect for 2d4 rounds.</p>"
+    },
+    "descriptors": [
+      "earth"
+    ],
+    "learnedAt": {
+      "class": {}
+    },
+    "level": 0,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell"
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!8a17ea996d0d06bc"
+}

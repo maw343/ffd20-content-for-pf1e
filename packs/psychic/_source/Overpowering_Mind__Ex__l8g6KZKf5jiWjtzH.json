@@ -1,0 +1,50 @@
+{
+  "_id": "l8g6KZKf5jiWjtzH",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Overpowering Mind (Ex)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Benefit:</strong> As an immediate action, the psychic can spend 2 points from her phrenic pool to increase the Will save DC of an ally's spell within 30 feet by 1. At 9th level, she can choose to instead spend 4 points to increase the DC by 2. At 15th level, she can choose to instead spend 6 points to increase the DC by 3. This amplification can only used on spells that require a Will saving throw.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "phrenicAmplification",
+    "tag": "overpowering_mind_ex",
+    "requirements": "Phrenic Amplifications class feature",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-PsychicClass",
+        "pages": "Phrenic Amplifications"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!l8g6KZKf5jiWjtzH"
+}

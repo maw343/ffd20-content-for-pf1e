@@ -1,0 +1,67 @@
+{
+  "_id": "1e4ccd8270a67fad",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Mandragora’s Photosynthesis II",
+  "system": {
+    "actions": [
+      {
+        "_id": "2c90edfd804721d4",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "heal",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "15 ft"
+        },
+        "area": "allies within a 15-ft.-radius centered on you",
+        "duration": {
+          "units": "round",
+          "value": "1 round/level (max 10 rounds)"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates (harmless)",
+          "harmless": true
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You call forth Mandragora, a small plant-like humanoid that bestows Fast Healing 2 upon your allies",
+      "value": "<p>You call forth Mandragora, a small plant-like humanoid that bestows Fast Healing 2 upon your allies.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "summoner": 3
+      }
+    },
+    "level": 3,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!1e4ccd8270a67fad"
+}

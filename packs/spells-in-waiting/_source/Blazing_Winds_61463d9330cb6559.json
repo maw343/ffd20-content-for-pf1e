@@ -1,0 +1,81 @@
+{
+  "_id": "61463d9330cb6559",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Blazing Winds",
+  "system": {
+    "actions": [
+      {
+        "_id": "908cb427c78888b3",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "area": "cylinder (20-ft. radius, 60 ft. high)",
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 15))d6",
+              "types": [
+                "fire"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude partial — see description (Object)"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "A blast of furnace-hot wind blasts downward, inflicting 4d6 fire damage +1 point per caster level to all creatures in the area and knocki...",
+      "value": "<p>A blast of furnace-hot wind blasts downward, inflicting 4d6 fire damage +1 point per caster level to all creatures in the area and knocking them prone. A successful Fortitude save halves the fire damage and negates being knocked prone. Flying creatures forced into the ground by the powerful downdraft take damage as if they fell unless they make a DC 15 Acrobatics check, in which case they remain at their original altitude. Any creature that takes damage from a blazing winds becomes fatigued (or exhausted, if already fatigued, such as from a previous round of exposure to a blazing winds spell) unless an Undead/Construct creature. Creatures with the water subtype take a -4 penalty on all saving throws against this spell and take double normal damage.</p>"
+    },
+    "descriptors": [
+      "fire",
+      "wind",
+      "water"
+    ],
+    "learnedAt": {
+      "class": {
+        "blackmage": 6,
+        "geomancer": 6
+      }
+    },
+    "level": 6,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!61463d9330cb6559"
+}

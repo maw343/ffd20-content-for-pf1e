@@ -1,0 +1,61 @@
+{
+  "_id": "72baa25ab016c7da",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Shrink",
+  "system": {
+    "actions": [
+      {
+        "_id": "35799723ef170745",
+        "name": "Use",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "cost": 0,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "text"
+        },
+        "target": {
+          "value": "personal"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "This spell causes instant diminution of the humanoid caster, halving its height, length, and width and dividing its weight by 8.",
+      "value": "<p>This spell causes instant diminution of the humanoid caster, halving its height, length, and width and dividing its weight by 8. This decrease changes the creature’s size category to the next smaller one. The target gains a +2 size bonus to Dexterity, a -2 penalty to Strength (to a minimum of 1), and a +1 bonus on attack rolls and AC due to its reduced size.\nA Small humanoid caster whose size decreases to Tiny has a space of 2-1/2 feet and a natural reach of 0 feet (meaning that it must enter an opponent’s square to attack). A Large humanoid caster whose size decreases to Medium has a space of 5 feet and a natural reach of 5 feet. This spell doesn’t change the target’s speed.\nAll equipment worn or carried by a creature is similarly reduced by the spell.\nMelee and projectile weapons deal less damage. Other magical properties are not affected by this spell. Any\nreduced\nitem that leaves the\nreduced\ncreature’s possession (including a projectile or thrown weapon) instantly returns to its normal size. This means that thrown weapons deal their normal damage (projectiles deal damage based on the size of the weapon that fired them).\nMultiple magical effects that reduce size do not stack.\nTable: Weapon Damage Size Conversion\nTiny\nSmall\nMedium\nLarge\nHuge\n—\n1\n1d2\n1d3\n1d4\n1\n1d2\n1d3\n1d4\n1d6\n1d2\n1d3\n1d4\n1d6\n1d8\n1d3\n1d4\n1d6\n1d8\n2d6\n1d4\n1d6\n1d8\n2d6\n3d6\n1d6\n1d8\n1d10\n2d8\n3d8\n1d8\n1d10\n1d12\n3d6\n4d6\n1d4\n1d6\n2d4\n2d6\n3d6\n1d8\n1d10\n2d6\n3d6\n4d6\n1d10\n2d6\n2d8\n3d8\n4d8\n2d6\n2d8\n2d10\n4d8\n6d8</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "redmage": 1
+      }
+    },
+    "level": 1,
+    "school": "trs",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!72baa25ab016c7da"
+}

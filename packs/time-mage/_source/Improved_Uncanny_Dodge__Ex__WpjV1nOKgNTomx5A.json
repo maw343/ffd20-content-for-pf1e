@@ -1,0 +1,50 @@
+{
+  "_id": "WpjV1nOKgNTomx5A",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Improved Uncanny Dodge (Ex)",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite(s):</strong> Uncanny Dodge temporal talent or class feature</p><p><strong>Benefit:</strong> A time mage with this talent can no longer be flanked. This defense denies a thief the ability to sneak attack the character by flanking him, unless the attacker has at least four more levels in a class that grants sneak attack than the time mage's class level. If a character already has uncanny dodge from another class, the levels from the classes that grant uncanny dodge stack to determine the minimum level in a class that grants sneak attack required to flank the character.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "temporalTalent",
+    "tag": "improved_uncanny_dodge_e",
+    "requirements": "Uncanny Dodge temporal talent or class feature",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-TimeMageClass",
+        "pages": "Temporal Talents"
+      }
+    ]
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!WpjV1nOKgNTomx5A"
+}

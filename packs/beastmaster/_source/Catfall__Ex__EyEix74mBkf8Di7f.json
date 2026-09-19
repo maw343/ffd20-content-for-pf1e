@@ -1,0 +1,27 @@
+{
+  "_id": "EyEix74mBkf8Di7f",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/green_13.jpg",
+  "name": "Catfall (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The beastmaster can use this trick as an immediate action when he falls 20 or more feet, ignoring the first 20 feet of the fall when calculating the falling damage. If the beastmaster takes no damage from the fall, he does not fall prone.</p>"
+    },
+    "tag": "catfall",
+    "source": "Final Fantasy d20 - Beastmaster Tricks",
+    "associations": {
+      "classes": [
+        [
+          "Beastmaster",
+          2
+        ]
+      ]
+    }
+  },
+  "effects": [],
+  "_key": "!items!EyEix74mBkf8Di7f"
+}

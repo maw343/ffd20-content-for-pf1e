@@ -1,0 +1,82 @@
+{
+  "_id": "wf16aveF4fTd7bHI",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "folder": "RWSoA7Fj9yqo0y9U",
+  "img": "systems/pf1/icons/races/human.jpg",
+  "name": "Nu Mou",
+  "system": {
+    "changes": [
+      {
+        "formula": "2",
+        "target": "int",
+        "type": "racial",
+        "_id": "tywspgib"
+      },
+      {
+        "formula": "2",
+        "target": "wis",
+        "type": "racial",
+        "_id": "qa2s6q54"
+      },
+      {
+        "formula": "-2",
+        "target": "con",
+        "type": "racial",
+        "_id": "f9thrsh3"
+      },
+      {
+        "formula": "2",
+        "target": "skill.dip",
+        "type": "racial",
+        "_id": "5z3rfl9i"
+      },
+      {
+        "formula": "2",
+        "target": "skill.han",
+        "type": "racial",
+        "_id": "ekt8m5fj"
+      },
+      {
+        "formula": "1",
+        "target": "cl",
+        "type": "racial",
+        "_id": "w76071an"
+      }
+    ],
+    "contextNotes": [
+      {
+        "target": "skill.swm",
+        "text": "-[[4]] Poor Swimmer"
+      }
+    ],
+    "creatureSubtypes": [
+      "nu mou"
+    ],
+    "creatureTypes": [
+      "humanoid"
+    ],
+    "description": {
+      "value": "<p>The wise and gentle nu mous, a tribe of lop-eared mages and spellcasters, are famous for their thirst for learning.</p><h2>Standard Racial Traits</h2><ul><li><strong>Ability Score Modifiers</strong>: Nu mous gain +2 Intelligence, +2 Wisdom, and –2 Constitution.</li><li><strong>Type</strong>: Nu mous are Humanoid creatures with the nu mou subtype.</li><li><strong>Size</strong>: Nu mous are Small creatures.</li><li><strong>Base Speed</strong>: Nu mous have a base speed of 20 feet.</li><li><strong>Languages</strong>: Nu mous begin play speaking Common and Numish. Nu mous with high Intelligence scores can choose from: Banganese, Celestial, Draconic, Giant, Moogle, Sylvan and Vieran.</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Sagacious</strong>: Nu mous receive a +2 racial bonus on any two Knowledge skills, which count as class skills.</li><li><strong>Well-Spoken</strong>: Nu mous receive a +2 racial bonus on Diplomacy and Handle Animal checks.</li></ul><h3>Magical Racial Trait</h3><ul><li><strong>Adept</strong>: Nu mous gain a +1 bonus to caster level. Nu mous with Intelligence 11+ can cast three 0-level black mage spells once each per day.</li></ul><h3>Senses Racial Traits</h3><ul><li><strong>Low-Light Vision</strong>: Nu mous can see twice as far as humes in dim light.</li></ul><h3>Weakness Racial Traits</h3><ul><li><strong>Poor Swimmer</strong>: Nu mous take a –4 penalty on Swim checks.</li></ul>"
+    },
+    "languages": [
+      "common"
+    ],
+    "sources": [
+      {
+        "id": "FFD20",
+        "pages": "Base Races"
+      }
+    ],
+    "speeds": {
+      "land": 20
+    },
+    "tags": [
+      "Base"
+    ]
+  },
+  "type": "race",
+  "effects": [],
+  "_key": "!items!wf16aveF4fTd7bHI"
+}

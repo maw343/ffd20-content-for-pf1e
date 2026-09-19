@@ -1,0 +1,23 @@
+{
+  "_id": "xc8uXIXh7uw17DJg",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/blue_11.jpg",
+  "name": "MP Pool",
+  "system": {
+    "associations": {
+      "classes": [
+        "Avatar"
+      ]
+    },
+    "class": "summonerAvatar",
+    "description": {
+      "value": "<p>An avatar has an MP pool with a maximum equal to the summoner's level. The avatar regains MP equal to the summoner's level when the summoner does their 30-minute meditation after resting. The avatar may spend its magic points on spells and abilities granted by the specific avatar page. In the case of Yojimbo, this MP Pool is spent at a 1 MP to 10 gil ratio for his abilities but otherwise does not function as gil. Spells that would absorb MP treat avatars as they would summoned creatures, and do not work when allies use them.</p><p><em>Schema note: implemented as a pf1 Spell Points pool (<code>system.attributes.spells.spellbooks.spelllike.spellPoints</code>: <code>useSystem</code>, <code>value</code>, <code>maxFormula</code>, <code>restoreFormula</code>) on the avatar's actor sheet, with <code>maxFormula: \"@attributes.hd.total\"</code> since avatar HD equals summoner level. Confirmed against a live pf1 export containing spell-points-enabled spellbooks. Use <code>@sp.value</code>/<code>@sp.max</code> in inline rolls for the current avatar's own MP pool.</em></p>"
+    },
+    "subType": "classFeat"
+  },
+  "type": "feat",
+  "effects": [],
+  "_key": "!items!xc8uXIXh7uw17DJg"
+}

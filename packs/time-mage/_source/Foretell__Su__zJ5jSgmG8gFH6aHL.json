@@ -1,0 +1,58 @@
+{
+  "_id": "zJ5jSgmG8gFH6aHL",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Foretell (Su)",
+  "system": {
+    "description": {
+      "value": "<p>At 8th level, the time mage can utter a prediction of the immediate future. While his foretelling is in effect, he emits a 30-foot aura of fortune that aids his allies or hinders his enemies, as chosen by the time mage at the time of prediction. If he chooses to aid, the time mage and his allies gain a +1 luck bonus on ability checks, attack rolls, caster level checks, saving throws, and skill checks. If he chooses to hinder, his enemies take a -1 penalty on those rolls instead. The bonus/penalty increases by 1 for every four levels after 8th level. He can use this ability for a number of rounds per day equal to his time mage level. These rounds do not need to be consecutive.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "foretell_su",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Time Mage"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Time Mage",
+          8
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!zJ5jSgmG8gFH6aHL"
+}

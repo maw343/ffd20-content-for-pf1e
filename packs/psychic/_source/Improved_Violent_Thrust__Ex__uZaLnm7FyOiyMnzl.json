@@ -1,0 +1,58 @@
+{
+  "_id": "uZaLnm7FyOiyMnzl",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Improved Violent Thrust (Ex)",
+  "system": {
+    "description": {
+      "value": "<p>At 15th level, a psychic's violent thrust version of telekinesis becomes more effective. She uses her psychic level in place of her base attack bonus when making the attack roll, and she uses her Intelligence modifier as a bonus on damage rolls if she hurls weapons at the target. Finally, using a violent thrust no longer ends the telekinesis effect.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "improved_violent_thrust_",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Psychic"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Psychic",
+          15
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!uZaLnm7FyOiyMnzl"
+}

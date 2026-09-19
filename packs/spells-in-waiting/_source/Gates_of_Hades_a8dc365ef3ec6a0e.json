@@ -1,0 +1,78 @@
+{
+  "_id": "a8dc365ef3ec6a0e",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Gates of Hades",
+  "system": {
+    "actions": [
+      {
+        "_id": "5e59c184652b4410",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "ft",
+          "value": "100 ft"
+        },
+        "area": "20-ft.-radius",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1d6+2 rounds"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "8d6",
+              "types": [
+                "fire"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The caster emulates the fiery explosion of Cerberus",
+      "value": "<p>The caster emulates the fiery explosion of Cerberus. Creatures within the area of effect take 8d6 points of fire damage and inflicts the Burning status effect. A successful Reflex save reduces the damage by half and negates the status effect. Learned From Cerberus, Nega Elemental, and Fire Elemental Family</p>"
+    },
+    "descriptors": [
+      "fire"
+    ],
+    "learnedAt": {
+      "class": {
+        "bluemage": 4
+      }
+    },
+    "level": 4,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!a8dc365ef3ec6a0e"
+}

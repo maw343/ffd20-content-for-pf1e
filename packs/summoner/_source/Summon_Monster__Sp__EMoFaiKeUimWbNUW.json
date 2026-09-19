@@ -1,0 +1,90 @@
+{
+  "_id": "EMoFaiKeUimWbNUW",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "name": "Summon Monster (Sp)",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 2nd level, a summoner can cast summon monster I as a spell-like ability a number of times per day equal to 3 + his Charisma modifier. Drawing upon this ability uses up the same power as the summoner uses to call his avatar, so he can only use it when his avatar is not summoned. He can cast this spell-like ability as a standard action and the creatures remain for 1 minute per level (instead of 1 round per level). At 4th level, and every 2 levels thereafter, the power of this ability increases by one spell level (to a maximum of summon monster IX at 18th level). A summoner cannot have more than one summon monster spell active in this way at one time; using it again ends any existing summon monster.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {},
+    "contextNotes": [],
+    "actions": [],
+    "subType": "classFeat",
+    "featType": "classFeat",
+    "tag": "summon_monster_sp",
+    "requirements": "",
+    "uses": {
+      "per": "",
+      "value": 0,
+      "max": 0
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Summoner"
+      }
+    ],
+    "associations": {
+      "classes": [
+        [
+          "Summoner",
+          2
+        ],
+        [
+          "Summoner",
+          4
+        ],
+        [
+          "Summoner",
+          6
+        ],
+        [
+          "Summoner",
+          8
+        ],
+        [
+          "Summoner",
+          10
+        ],
+        [
+          "Summoner",
+          12
+        ],
+        [
+          "Summoner",
+          14
+        ],
+        [
+          "Summoner",
+          16
+        ],
+        [
+          "Summoner",
+          18
+        ]
+      ]
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!EMoFaiKeUimWbNUW"
+}

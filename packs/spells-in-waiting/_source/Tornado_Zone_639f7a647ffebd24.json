@@ -1,0 +1,78 @@
+{
+  "_id": "639f7a647ffebd24",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Tornado Zone",
+  "system": {
+    "actions": [
+      {
+        "_id": "293dace3575ce6c1",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "area": "cylinder (10-ft. radius, 40-ft. high)",
+        "duration": {
+          "units": "inst",
+          "value": "instantaneous; 1 round/level"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "(min(@spells.primary.cl.total, 10))d6",
+              "types": [
+                "wind"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "type": "ref",
+          "description": "Reflex half — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You call forth Pandemona, a wind-based guardian force who conjures a tornado in the middle of your enemies",
+      "value": "<p>You call forth Pandemona, a wind-based guardian force who conjures a tornado in the middle of your enemies. Enemies within the area of effect take 1d6 points of wind damage per caster level (maximum 10d6) and are inflicted with the Squalled status effect, a Reflex save for half damage and negates the status effect.</p>"
+    },
+    "descriptors": [
+      "wind"
+    ],
+    "learnedAt": {
+      "class": {
+        "summoner": 4
+      }
+    },
+    "level": 4,
+    "school": "evo",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!639f7a647ffebd24"
+}

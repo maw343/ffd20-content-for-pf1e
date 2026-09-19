@@ -1,0 +1,61 @@
+{
+  "_id": "52GNnorQssxXvoEw",
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": null,
+    "modifiedTime": 1785614467782,
+    "lastModifiedBy": "KJytU1RQudYSFJXl",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "img": "systems/pf1/icons/skills/blue_03.jpg",
+  "name": "Mark (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>At 1st level, a thief can study an opponent she can see as a move action. The thief then gains a +1 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks attempted against that opponent, and a +1 bonus on weapon attack and damage rolls against it. The DCs of thief class abilities against that opponent increase by 1. A thief can only maintain these bonuses against one opponent at a time; these bonuses remain in effect until either the opponent is dead or the thief studies a new target.</p><p>If a thief deals sneak attack damage to a target, she can study that target as an immediate action, allowing her to apply her mark bonuses against that target (including to the normal weapon damage roll).</p><p>At 5th, 10th, 15th, and 20th levels, the bonuses on weapon attack rolls, damage rolls, and skill checks and to thief DCs against a mark increase by 1. In addition, at each such interval, the thief is able to maintain these bonuses against an additional mark at the same time. The thief may discard this connection to a mark as a free action, allowing her to study another target in its place.</p><p>At 7th level, a thief can study an opponent as a move or swift action.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "tag": "mark",
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Thief",
+          1
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "id": "FFD20-CoreClasses",
+        "pages": "Thief"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!52GNnorQssxXvoEw"
+}

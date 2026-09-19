@@ -1,0 +1,69 @@
+{
+  "_id": "325ef2980edb92bb",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Ghost Sound",
+  "system": {
+    "actions": [
+      {
+        "_id": "c3d265c8bcd94523",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "target": {
+          "value": "illusory sounds"
+        },
+        "duration": {
+          "units": "round",
+          "value": "1 round/level"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will disbelief"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place",
+      "value": "<p>Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place. You choose what type of sound ghost sound creates when performing it and cannot thereafter change the sound’s basic character. The volume of sound created depends on your level. You can produce as much noise as four normal humes per caster level (maximum 40 humes). Thus, talking, singing, shouting, walking, marching, or running sounds can be created. The noise a ghost sound spell produces can be virtually any type of sound within the volume limit. A horde of rats running and squeaking is about the same volume as eight humes running and shouting. A roaring lion is equal to the noise from 16 humes, while a roaring dragon is equal to the noise from 32 humes. Anyone who hears a ghost sound receives a Will save to disbelieve.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "bard": 0,
+        "illusionist": 0
+      }
+    },
+    "level": 0,
+    "school": "ill",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": false
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!325ef2980edb92bb"
+}

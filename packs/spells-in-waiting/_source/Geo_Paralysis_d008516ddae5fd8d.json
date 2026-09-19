@@ -1,0 +1,66 @@
+{
+  "_id": "d008516ddae5fd8d",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Geo-Paralysis",
+  "system": {
+    "actions": [
+      {
+        "_id": "f74301a763c27851",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "close",
+          "value": "25 ft"
+        },
+        "area": "20-ft.-radius spread",
+        "duration": {
+          "units": "round",
+          "value": "1 round/2 levels"
+        },
+        "save": {
+          "type": "will",
+          "description": "Will negates"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "The geomancer summons a luopan (a small orb that floats just above the ground that is a pylon of geomantic energies) within the spell ran...",
+      "value": "<p>The geomancer summons a luopan (a small orb that floats just above the ground that is a pylon of geomantic energies) within the spell range that has hit points equal to 10 x the geomancer’s level and a hardness equal to its spell level. This luopan emits the effect in the area of the luopan that affects specified targets. When the duration is over, the luopan is unsummoned. Creates a paralyzing aroma in a selective area or target. All enemies must make a Will save per round as long as they are within reach of the spell or receive the Paralysis status effect. The target becomes paralyzed and freezes in place. It is aware and breathes normally but cannot take any actions, even speech. Each round on its turn, the target may attempt a new saving throw to end the effect. This is a full-round action that does not provoke attacks of opportunity. A winged creature who is paralyzed cannot flap its wings and falls. A swimmer cannot swim and may drown.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "geomancer": 7
+      }
+    },
+    "level": 7,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!d008516ddae5fd8d"
+}

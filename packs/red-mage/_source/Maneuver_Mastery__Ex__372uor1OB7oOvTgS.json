@@ -1,0 +1,19 @@
+{
+  "_id": "372uor1OB7oOvTgS",
+  "_stats": {
+    "coreVersion": "12.343"
+  },
+  "img": "systems/pf1/icons/skills/red_02.jpg",
+  "name": "Maneuver Mastery (Ex)",
+  "type": "feat",
+  "system": {
+    "subType": "classFeat",
+    "description": {
+      "value": "<p>The red mage has mastered one combat maneuver. He selects one maneuver when selecting this talent. Whenever he is attempting the selected maneuver, he uses his red mage level in place of his base attack bonus (in addition to any base attack bonus gained from other classes). A red mage can select this ruby talent more than once. Its effects do not stack. Each time he selects this talent, he selects another combat maneuver.</p>"
+    },
+    "tag": "maneuvermasteryex",
+    "source": "Final Fantasy d20 - Red Mage (Ruby Talents)"
+  },
+  "effects": [],
+  "_key": "!items!372uor1OB7oOvTgS"
+}

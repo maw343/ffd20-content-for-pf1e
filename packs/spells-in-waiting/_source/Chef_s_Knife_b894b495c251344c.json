@@ -1,0 +1,67 @@
+{
+  "_id": "b894b495c251344c",
+  "_stats": {
+    "coreVersion": "13.351"
+  },
+  "folder": null,
+  "img": "icons/svg/book.svg",
+  "name": "Chef’s Knife",
+  "system": {
+    "actions": [
+      {
+        "_id": "d97727f0a036ab3b",
+        "name": "Use",
+        "sort": 0,
+        "actionType": "spellsave",
+        "activation": {
+          "type": "full-round",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "range": {
+          "units": "medium",
+          "value": "100 ft"
+        },
+        "target": {
+          "value": "one creature"
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "save": {
+          "type": "fort",
+          "description": "Fortitude negates — see description"
+        }
+      }
+    ],
+    "components": {
+      "verbal": true,
+      "somatic": true
+    },
+    "description": {
+      "summary": "You call forth Tonberry, a short green creature that carries a lantern and a deadly knife that stabs a single enemy",
+      "value": "<p>You call forth Tonberry, a short green creature that carries a lantern and a deadly knife that stabs a single enemy. The target must make a Fortitude save or fall to 0 hit points. If the save is successful, the target suffers 5d6 points of shadow elemental damage.</p>"
+    },
+    "descriptors": [],
+    "learnedAt": {
+      "class": {
+        "summoner": 8
+      }
+    },
+    "level": 8,
+    "school": "nec",
+    "sources": [
+      {
+        "id": "",
+        "pages": ""
+      }
+    ],
+    "type": "spell",
+    "sr": true
+  },
+  "type": "spell",
+  "effects": [],
+  "_key": "!items!b894b495c251344c"
+}
