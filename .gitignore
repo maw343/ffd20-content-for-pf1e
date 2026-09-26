@@ -3,6 +3,16 @@ packs/**/LOCK
 packs/**/LOG
 packs/**/LOG.old
 
+# Pack source folders are LOCAL DEV ONLY (never commit or ship; use `fvtt unpack` locally)
+packs/**/_source/
+
 # OS junk
 .DS_Store
 Thumbs.db
+AGENTS.md
+
+# Local-only analysis artifacts (never commit or include in release zips)
+docs/analysis/
+
+# Local-only proposals staged for review (never commit or include in release zips)
+Proposals in Waiting/
