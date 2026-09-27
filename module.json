@@ -74,6 +74,17 @@
       }
     },
     {
+      "name": "black-belt",
+      "label": "Black Belt",
+      "path": "packs/black-belt",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "black-mage",
       "label": "Black Mage",
       "path": "packs/black-mage",
@@ -129,6 +140,17 @@
       }
     },
     {
+      "name": "dancer",
+      "label": "Dancer",
+      "path": "packs/dancer",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "dark-knight",
       "label": "Dark Knight",
       "path": "packs/dark-knight",
@@ -154,6 +176,17 @@
       "name": "engineer",
       "label": "Engineer",
       "path": "packs/engineer",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fencer",
+      "label": "Fencer",
+      "path": "packs/fencer",
       "type": "Item",
       "system": "pf1",
       "ownership": {
@@ -316,6 +349,17 @@
       }
     },
     {
+      "name": "ninja",
+      "label": "Ninja",
+      "path": "packs/ninja",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "paladin",
       "label": "Paladin",
       "path": "packs/paladin",
@@ -341,6 +385,28 @@
       "name": "red-mage",
       "label": "Red Mage",
       "path": "packs/red-mage",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "samurai",
+      "label": "Samurai",
+      "path": "packs/samurai",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "scholar",
+      "label": "Scholar",
+      "path": "packs/scholar",
       "type": "Item",
       "system": "pf1",
       "ownership": {
@@ -385,6 +451,17 @@
       "name": "summoner",
       "label": "Summoner",
       "path": "packs/summoner",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "sword-saint",
+      "label": "Sword Saint",
+      "path": "packs/sword-saint",
       "type": "Item",
       "system": "pf1",
       "ownership": {
