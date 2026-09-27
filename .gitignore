@@ -16,3 +16,6 @@ docs/analysis/
 
 # Local-only proposals staged for review (never commit or include in release zips)
 Proposals in Waiting/
+
+# Local-only cached source pages for reference (never commit or include in release zips)
+Source Pages/
