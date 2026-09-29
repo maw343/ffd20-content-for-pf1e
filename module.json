@@ -173,6 +173,17 @@
       }
     },
     {
+      "name": "druid",
+      "label": "Druid",
+      "path": "packs/druid",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "engineer",
       "label": "Engineer",
       "path": "packs/engineer",
