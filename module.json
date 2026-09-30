@@ -85,6 +85,17 @@
       }
     },
     {
+      "name": "black-belt-archetypes",
+      "label": "Black Belt Archetypes",
+      "path": "packs/black-belt-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "black-mage",
       "label": "Black Mage",
       "path": "packs/black-mage",
