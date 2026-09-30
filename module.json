@@ -294,6 +294,17 @@
       }
     },
     {
+      "name": "gunbreaker",
+      "label": "Gunbreaker",
+      "path": "packs/gunbreaker",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "gunner",
       "label": "Gunner",
       "path": "packs/gunner",
