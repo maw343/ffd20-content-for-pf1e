@@ -283,9 +283,9 @@
       }
     },
     {
-      "name": "gunbreaker-field-specialist",
-      "label": "Gunbreaker Field Specialist",
-      "path": "packs/gunbreaker-field-specialist",
+      "name": "field-specialist",
+      "label": "Field Specialist",
+      "path": "packs/field-specialist",
       "type": "Item",
       "system": "pf1",
       "ownership": {
