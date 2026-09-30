@@ -19,3 +19,6 @@ Proposals in Waiting/
 
 # Local-only cached source pages for reference (never commit or include in release zips)
 Source Pages/
+
+# Local analysis tool (not shipped)
+class_3cs.py
