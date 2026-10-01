@@ -503,6 +503,17 @@
       }
     },
     {
+      "name": "sword-saint-archetypes",
+      "label": "Sword Saint Archetypes",
+      "path": "packs/sword-saint-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "thief",
       "label": "Thief",
       "path": "packs/thief",
