@@ -162,6 +162,17 @@
       }
     },
     {
+      "name": "dancer-archetypes",
+      "label": "Dancer Archetypes",
+      "path": "packs/dancer-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "dark-knight",
       "label": "Dark Knight",
       "path": "packs/dark-knight",
