@@ -206,6 +206,17 @@
       }
     },
     {
+      "name": "druid-archetypes",
+      "label": "Druid Archetypes",
+      "path": "packs/druid-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "engineer",
       "label": "Engineer",
       "path": "packs/engineer",
