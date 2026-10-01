@@ -393,6 +393,17 @@
       }
     },
     {
+      "name": "ninja-archetypes",
+      "label": "Ninja Archetypes",
+      "path": "packs/ninja-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "paladin",
       "label": "Paladin",
       "path": "packs/paladin",
