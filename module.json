@@ -525,6 +525,17 @@
       }
     },
     {
+      "name": "time-mage-archetypes",
+      "label": "Time Mage Archetypes",
+      "path": "packs/time-mage-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "warrior",
       "label": "Warrior",
       "path": "packs/warrior",
