@@ -228,6 +228,17 @@
       }
     },
     {
+      "name": "fencer-archetypes",
+      "label": "Fencer Archetypes",
+      "path": "packs/fencer-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "ffd20-avatar-features",
       "label": "FFD20 Avatar Features",
       "path": "packs/ffd20-avatar-features",
