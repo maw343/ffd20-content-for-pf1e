@@ -624,6 +624,17 @@
       }
     },
     {
+      "name": "monk-archetypes",
+      "label": "Monk Archetypes",
+      "path": "packs/monk-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "necromancer",
       "label": "Necromancer",
       "path": "packs/necromancer",
