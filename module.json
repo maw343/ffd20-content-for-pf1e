@@ -9,10 +9,10 @@
       "url": "https://github.com/maw343"
     }
   ],
-  "version": "0.4.0",
+  "version": "0.4.1",
   "url": "https://github.com/maw343/ffd20-content-for-pf1e",
-  "manifest": "https://raw.githubusercontent.com/maw343/ffd20-content-for-pf1e/v0.4.0/module.json",
-  "download": "https://github.com/maw343/ffd20-content-for-pf1e/releases/download/v0.4.0/ffd20-content-for-pf1e-v0.4.0.zip",
+  "manifest": "https://raw.githubusercontent.com/maw343/ffd20-content-for-pf1e/v0.4.1/module.json",
+  "download": "https://github.com/maw343/ffd20-content-for-pf1e/releases/download/v0.4.1/ffd20-content-for-pf1e-v0.4.1.zip",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
