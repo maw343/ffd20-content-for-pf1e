@@ -30,6 +30,17 @@
       }
     },
     {
+      "name": "archer-archetypes",
+      "label": "Archer Archetypes",
+      "path": "packs/archer-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "astrologian",
       "label": "Astrologian",
       "path": "packs/astrologian",
