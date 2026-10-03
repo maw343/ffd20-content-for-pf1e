@@ -294,6 +294,17 @@
       }
     },
     {
+      "name": "dark-knight-archetypes",
+      "label": "Dark Knight Archetypes",
+      "path": "packs/dark-knight-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "dragoon",
       "label": "Dragoon",
       "path": "packs/dragoon",
