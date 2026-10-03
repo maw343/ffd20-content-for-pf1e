@@ -228,6 +228,17 @@
       }
     },
     {
+      "name": "chocobo-knight-archetypes",
+      "label": "Chocobo Knight Archetypes",
+      "path": "packs/chocobo-knight-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "cleric",
       "label": "Cleric",
       "path": "packs/cleric",
