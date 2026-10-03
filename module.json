@@ -877,6 +877,17 @@
       }
     },
     {
+      "name": "thief-archetypes",
+      "label": "Thief Archetypes",
+      "path": "packs/thief-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "time-mage",
       "label": "Time Mage",
       "path": "packs/time-mage",
