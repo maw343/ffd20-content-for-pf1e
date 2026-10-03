@@ -558,6 +558,17 @@
       }
     },
     {
+      "name": "illusionist-archetypes",
+      "label": "Illusionist Archetypes",
+      "path": "packs/illusionist-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "knight",
       "label": "Knight",
       "path": "packs/knight",
