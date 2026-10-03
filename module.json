@@ -514,6 +514,17 @@
       }
     },
     {
+      "name": "gunbreaker-archetypes",
+      "label": "Gunbreaker Archetypes",
+      "path": "packs/gunbreaker-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "gunner",
       "label": "Gunner",
       "path": "packs/gunner",
