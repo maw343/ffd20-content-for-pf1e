@@ -206,6 +206,17 @@
       }
     },
     {
+      "name": "chemist-archetypes",
+      "label": "Chemist Archetypes",
+      "path": "packs/chemist-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "chocobo-knight",
       "label": "Chocobo Knight",
       "path": "packs/chocobo-knight",
