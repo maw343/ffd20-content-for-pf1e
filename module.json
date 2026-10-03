@@ -646,6 +646,17 @@
       }
     },
     {
+      "name": "necromancer-archetypes",
+      "label": "Necromancer Archetypes",
+      "path": "packs/necromancer-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "ninja",
       "label": "Ninja",
       "path": "packs/ninja",
