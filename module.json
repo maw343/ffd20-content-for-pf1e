@@ -481,6 +481,17 @@
       }
     },
     {
+      "name": "samurai-archetypes",
+      "label": "Samurai Archetypes",
+      "path": "packs/samurai-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "scholar",
       "label": "Scholar",
       "path": "packs/scholar",
