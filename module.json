@@ -118,6 +118,17 @@
       }
     },
     {
+      "name": "berserker-archetypes",
+      "label": "Berserker Archetypes",
+      "path": "packs/berserker-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "black-belt",
       "label": "Black Belt",
       "path": "packs/black-belt",
