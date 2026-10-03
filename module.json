@@ -536,6 +536,17 @@
       }
     },
     {
+      "name": "gunner-archetypes",
+      "label": "Gunner Archetypes",
+      "path": "packs/gunner-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "illusionist",
       "label": "Illusionist",
       "path": "packs/illusionist",
