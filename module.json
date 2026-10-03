@@ -360,6 +360,17 @@
       }
     },
     {
+      "name": "engineer-archetypes",
+      "label": "Engineer Archetypes",
+      "path": "packs/engineer-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "fencer",
       "label": "Fencer",
       "path": "packs/fencer",
