@@ -712,6 +712,17 @@
       }
     },
     {
+      "name": "psychic-archetypes",
+      "label": "Psychic Archetypes",
+      "path": "packs/psychic-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "red-mage",
       "label": "Red Mage",
       "path": "packs/red-mage",
