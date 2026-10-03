@@ -921,6 +921,17 @@
       }
     },
     {
+      "name": "warrior-archetypes",
+      "label": "Warrior Archetypes",
+      "path": "packs/warrior-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "white-mage",
       "label": "White Mage",
       "path": "packs/white-mage",
