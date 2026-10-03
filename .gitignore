@@ -25,3 +25,6 @@ class_3cs.py
 
 # Derived archetype spec files (local build inputs; mirror Source Pages policy)
 Specs/
+
+# Local-only working notes (never ship)
+packs/spells-in-waiting/*.md
