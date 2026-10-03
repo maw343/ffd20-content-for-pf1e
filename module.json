@@ -250,6 +250,17 @@
       }
     },
     {
+      "name": "cleric-archetypes",
+      "label": "Cleric Archetypes",
+      "path": "packs/cleric-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "dancer",
       "label": "Dancer",
       "path": "packs/dancer",
