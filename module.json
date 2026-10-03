@@ -459,6 +459,17 @@
       }
     },
     {
+      "name": "gambler-archetypes",
+      "label": "Gambler Archetypes",
+      "path": "packs/gambler-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "geomancer",
       "label": "Geomancer",
       "path": "packs/geomancer",
