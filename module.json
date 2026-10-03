@@ -690,6 +690,17 @@
       }
     },
     {
+      "name": "paladin-archetypes",
+      "label": "Paladin Archetypes",
+      "path": "packs/paladin-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "psychic",
       "label": "Psychic",
       "path": "packs/psychic",
