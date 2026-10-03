@@ -22,3 +22,6 @@ Source Pages/
 
 # Local analysis tool (not shipped)
 class_3cs.py
+
+# Derived archetype spec files (local build inputs; mirror Source Pages policy)
+Specs/
