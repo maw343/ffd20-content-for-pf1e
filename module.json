@@ -162,6 +162,17 @@
       }
     },
     {
+      "name": "black-mage-archetypes",
+      "label": "Black Mage Archetypes",
+      "path": "packs/black-mage-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "blue-mage",
       "label": "Blue Mage",
       "path": "packs/blue-mage",
