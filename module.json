@@ -602,6 +602,17 @@
       }
     },
     {
+      "name": "medic-archetypes",
+      "label": "Medic Archetypes",
+      "path": "packs/medic-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "monk",
       "label": "Monk",
       "path": "packs/monk",
