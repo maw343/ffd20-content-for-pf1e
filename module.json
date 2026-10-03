@@ -184,6 +184,17 @@
       }
     },
     {
+      "name": "blue-mage-archetypes",
+      "label": "Blue Mage Archetypes",
+      "path": "packs/blue-mage-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "chemist",
       "label": "Chemist",
       "path": "packs/chemist",
