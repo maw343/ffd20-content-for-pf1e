@@ -52,6 +52,17 @@
       }
     },
     {
+      "name": "astrologian-archetypes",
+      "label": "Astrologian Archetypes",
+      "path": "packs/astrologian-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "bard",
       "label": "Bard",
       "path": "packs/bard",
