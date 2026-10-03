@@ -316,6 +316,17 @@
       }
     },
     {
+      "name": "dragoon-archetypes",
+      "label": "Dragoon Archetypes",
+      "path": "packs/dragoon-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "druid",
       "label": "Druid",
       "path": "packs/druid",
