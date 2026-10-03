@@ -734,6 +734,17 @@
       }
     },
     {
+      "name": "red-mage-archetypes",
+      "label": "Red Mage Archetypes",
+      "path": "packs/red-mage-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "samurai",
       "label": "Samurai",
       "path": "packs/samurai",
