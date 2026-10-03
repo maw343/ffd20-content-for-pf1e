@@ -96,6 +96,17 @@
       }
     },
     {
+      "name": "beastmaster-archetypes",
+      "label": "Beastmaster Archetypes",
+      "path": "packs/beastmaster-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "berserker",
       "label": "Berserker",
       "path": "packs/berserker",
