@@ -833,6 +833,17 @@
       }
     },
     {
+      "name": "summoner-archetypes",
+      "label": "Summoner Archetypes",
+      "path": "packs/summoner-archetypes",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "sword-saint",
       "label": "Sword Saint",
       "path": "packs/sword-saint",
